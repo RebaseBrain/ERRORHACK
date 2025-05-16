@@ -21,7 +21,8 @@ class Program
 		{
 			foreach (var aboba in abobas.Ftbfs)
 			{
-				//Console.WriteLine(aboba);
+				var errors = await client.GetStringAsync(aboba.Url);
+				Console.WriteLine(errors);
 			}
 		}
 		else
