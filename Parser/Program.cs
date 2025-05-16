@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using Entities;
+using Services;
 using System.Text.Json;
 
 class Program
@@ -27,7 +28,8 @@ class Program
 
 					if (response.IsSuccessStatusCode) 
 					{
-						var errors = await response.Content.ReadAsStringAsync();
+						string logs = await response.Content.ReadAsStringAsync();
+						string errors = LogsCleaner.ExtractErrors(logs);
 						await File.WriteAllTextAsync($"./logs/{aboba.Name}.txt", errors);
 					}
 				}
