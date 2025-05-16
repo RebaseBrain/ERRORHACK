@@ -1,7 +1,6 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Net.Http;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+using Entities;
+using System.Text.Json;
 
 class Program
 {
@@ -15,10 +14,19 @@ class Program
 		var urls = Regex.Matches(logContent, @"https?://[^\s""'>]+")
 				.Select(m => m.Value)
 				.ToList();
+		var abobas = JsonSerializer.Deserialize<FtbfsResponse>(logContent);
 
-		// foreach (string url in urls)
-		// {
-		// 	Console.WriteLine(url);
-		// }
+
+		if (abobas?.Ftbfs != null)
+		{
+			foreach (var aboba in abobas.Ftbfs)
+			{
+				//Console.WriteLine(aboba);
+			}
+		}
+		else
+		{
+			Console.WriteLine("У вас абоба нулёвая");
+		}
 	}
 }
