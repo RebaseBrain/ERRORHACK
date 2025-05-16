@@ -20,13 +20,16 @@ def preprocess_text(text):
 # --- 2. Кластеризация ошибок ---
 
 
-def cluster_logs(texts, n_clusters=5):
+def cluster_logs(texts, n_clusters=10):
     vectorizer = TfidfVectorizer(
+        min_df=5,
+        max_df=0.9,
         max_features=1000,
-        ngram_range=(1, 2),
+        ngram_range=(1, 3),
         stop_words='english'
     )
     X = vectorizer.fit_transform(texts)
+# Удаляем слишком редкие/частые слова
 
     # Кластеризация
     kmeans = KMeans(n_clusters=n_clusters, random_state=42)
@@ -37,7 +40,7 @@ def cluster_logs(texts, n_clusters=5):
     cluster_keywords = {}
     for i in range(n_clusters):
         cluster_center = kmeans.cluster_centers_[i]
-        top_indices = cluster_center.argsort()[-10:][::-1]  # Топ-10 слов
+        top_indices = cluster_center.argsort()[-20:][::-1]  # Топ-10 слов
         cluster_keywords[i] = [terms[ind] for ind in top_indices]
 
     return clusters, cluster_keywords, vectorizer, kmeans
@@ -87,22 +90,22 @@ if __name__ == "__main__":
 
     # 2. Кластеризация
     clusters, cluster_keywords, vectorizer, kmeans = cluster_logs(
-        texts, n_clusters=5)
+        texts, n_clusters=100)
 
     # 3. Вывод результатов
-    print("Обнаруженные типы ошибок:")
-    for cluster_id, keywords in cluster_keywords.items():
-        print(f"\nКластер {cluster_id} (возможная причина):")
-        print("Ключевые слова:", ", ".join(keywords[:5]))
+    # print("Обнаруженные типы ошибок:")
+    # for cluster_id, keywords in cluster_keywords.items():
+    #    print(f"\nКластер {cluster_id} (возможная причина):")
+    #   print("Ключевые слова:", ", ".join(keywords[:5]))
 
     # 4. Анализ нового файла
     test_file = "test.txt"
     with open(test_file, 'r', encoding='utf-8', errors='ignore') as f:
         test_text = preprocess_text(f.read())
         cluster = analyze_error(test_text, vectorizer, kmeans)
-        print(f"\nФайл '{test_file}' относится к кластеру {cluster}:")
+        # print(f"\nФайл '{test_file}' относится к кластеру {cluster}:")
         print("Характерные слова:", ", ".join(cluster_keywords[cluster][:5]))
 
     # 5. Визуализация (опционально)
-    X = vectorizer.transform(texts)
-    plot_clusters(X, clusters, cluster_keywords)
+    # X = vectorizer.transform(texts)
+    # plot_clusters(X, clusters, cluster_keywords)
