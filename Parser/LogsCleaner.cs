@@ -13,10 +13,6 @@ public static class LogsCleaner
 			\bexception\b               |   # Python/Java/etc.
 			\btraceback\b               |   # Python
 			\bfailed\b                  |   # General failure
-			\bnot\s+found\b             |   # Missing dependency
-			\bmissing\b                 |   # Missing file or command
-			\bcannot\s+find\b           |   # Common in gcc/linker
-			\bcannot\s+open\b           |   # File errors
 			\bNo\s+such\s+file          |   # Missing includes/files
 			\bcommand\s+not\s+found     |   # Shell errors
 			\bundefined\s+symbol        |   # Linker
@@ -31,11 +27,13 @@ public static class LogsCleaner
 
     public static string ExtractErrors(string logText)
     {
-        var match = ErrorRegex.Match(logText);
-        if (match.Success)
+		var lines = logText.Split('\n');
+
+		int errorLineIndex = Array.FindIndex(lines, line => ErrorRegex.IsMatch(line));
+        if (errorLineIndex >= 0)
         {
-            // Обрезаем строку от позиции первого совпадения до конца
-            return logText.Substring(match.Index);
+            int startLine = Math.Max(0, errorLineIndex - 3);
+            return string.Join('\n', lines[startLine..]);
         }
 
         return string.Empty; // если нет ошибок
