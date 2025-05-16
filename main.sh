@@ -40,5 +40,6 @@ if [ ! -f "$json_path" ]; then
 fi
 
 echo -e "${red}namepackage\terrorType\tpackageType\tpathToLogFile${reset}" > /tmp/build_errors.tsv
+jq -r '.[] | "\(.namepackage)\t(.errorType)\t\(.packageType)\t(.pathToLogFile)"' "$json_path" >> /tmp/build_errors.tsv
 
-
+column -s $'\t' -t < /tmp/build_errors.tsv
