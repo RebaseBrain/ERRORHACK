@@ -1,0 +1,82 @@
+[
+  {
+    "namepackage": "PaymentModule",
+    "errorType": "VersionConflict",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\PaymentModule\\build_2025-04-05.log",
+    "pathToPotentialFix": "C:\\Solutions\\PaymentModule\\Fix_VersionConflict.ps1",
+    "fullLog": "MSBUILD : error : Version conflict detected between 'Newtonsoft.Json' 12.0.0 and 13.0.1.\nDetected package version outside of dependency constraint: PaymentModule 2.1.0 requires Newtonsoft.Json (= 12.0.0) but version 13.0.1 was resolved by the project."
+  },
+  {
+    "namepackage": "DataAccessLayer",
+    "errorType": "MissingDependency",
+    "packageType": "nuget",
+    "pathToLogFile": "C:\\BuildLogs\\DataAccessLayer\\build_2025-04-05.log",
+    "pathToPotentialFix": "C:\\Solutions\\DataAccessLayer\\Install_EntityFramework.ps1",
+    "fullLog": "NU1107: Detected a reference to 'EntityFramework', but no such package was found.\nYou need to install or restore this package."
+  },
+  {
+    "namepackage": "AuthSystem",
+    "errorType": "AssemblyMismatch",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\AuthSystem\\build_2025-04-04.log",
+    "pathToPotentialFix": "C:\\Solutions\\AuthSystem\\RebuildWithCorrectVersion.bat",
+    "fullLog": "System.IO.FileLoadException: Could not load file or assembly 'System.IdentityModel.Tokens.Jwt, Version=5.6.0.0' when trying to load version 6.8.0.0."
+  },
+  {
+    "namepackage": "ReportingTool",
+    "errorType": "TargetFrameworkMismatch",
+    "packageType": "exe",
+    "pathToLogFile": "C:\\BuildLogs\\ReportingTool\\build_2025-04-03.log",
+    "pathToPotentialFix": "C:\\Solutions\\ReportingTool\\UpdateTargetFramework.ps1",
+    "fullLog": "The project targets .NET Framework 4.6.1, but a referenced project outputs .NET Standard 2.0 assemblies which are not compatible with this version."
+  },
+  {
+    "namepackage": "NotificationService",
+    "errorType": "StrongNameValidationFailed",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\NotificationService\\build_2025-04-02.log",
+    "pathToPotentialFix": "C:\\Solutions\\NotificationService\\SignAssembly.ps1",
+    "fullLog": "ILLink failed with message: Assembly 'CommonUtils' is missing a strong name signature."
+  },
+  {
+    "namepackage": "InventoryManager",
+    "errorType": "DllNotFoundException",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\InventoryManager\\build_2025-04-01.log",
+    "pathToPotentialFix": "C:\\Solutions\\InventoryManager\\CopyMissingDlls.bat",
+    "fullLog": "System.DllNotFoundException: Unable to load DLL 'Interop.Inventory.dll' during runtime. The specified module could not be found."
+  },
+  {
+    "namepackage": "AnalyticsEngine",
+    "errorType": "NuGetRestoreFailed",
+    "packageType": "nuget",
+    "pathToLogFile": "C:\\BuildLogs\\AnalyticsEngine\\build_2025-03-31.log",
+    "pathToPotentialFix": "C:\\Solutions\\AnalyticsEngine\\ClearNuGetCache.ps1",
+    "fullLog": "NU1301: Unable to load the service index for source https://api.nuget.org/v3/index.json.  Check your internet connection or proxy settings."
+  },
+  {
+    "namepackage": "ShippingGateway",
+    "errorType": "ReferenceInconsistency",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\ShippingGateway\\build_2025-03-30.log",
+    "pathToPotentialFix": "C:\\Solutions\\ShippingGateway\\UpdateReferences.csproj",
+    "fullLog": "CS1703: Multiple assemblies with equivalent identity have been imported: 'System.Buffers, Version=4.0.3.0'. Remove one of the duplicate references."
+  },
+  {
+    "namepackage": "UserManagement",
+    "errorType": "BindingRedirectMissing",
+    "packageType": "dll",
+    "pathToLogFile": "C:\\BuildLogs\\UserManagement\\build_2025-03-29.log",
+    "pathToPotentialFix": "C:\\Solutions\\UserManagement\\AddBindingRedirect.config",
+    "fullLog": "The type 'System.Text.Json.JsonSerializerOptions' exists in both 'System.Text.Json, Version=6.0.0.0' and 'System.Text.Json, Version=7.0.0.0'."
+  },
+  {
+    "namepackage": "OrderProcessing",
+    "errorType": "SdkNotFound",
+    "packageType": "exe",
+    "pathToLogFile": "C:\\BuildLogs\\OrderProcessing\\build_2025-03-28.log",
+    "pathToPotentialFix": "C:\\Solutions\\OrderProcessing\\InstallDotNetSdk.ps1",
+    "fullLog": "MSB0001: Internal compiler error in csc.exe. Could not find SDK 'Microsoft.NET.Sdk'. Ensure that the SDK is installed and available."
+  }
+]
