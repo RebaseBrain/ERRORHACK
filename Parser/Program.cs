@@ -21,8 +21,20 @@ class Program
 		{
 			foreach (var aboba in abobas.Ftbfs)
 			{
-				var errors = await client.GetStringAsync(aboba.Url);
-				Console.WriteLine(errors);
+				try
+				{
+					HttpResponseMessage response = await client.GetAsync(aboba.Url);
+
+					if (response.IsSuccessStatusCode) 
+					{
+						var errors = await response.Content.ReadAsStringAsync();
+						await File.WriteAllTextAsync($"./logs/{aboba.Name}.txt", errors);
+					}
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine($"Can not write file {aboba.Name}: {ex.Message}");
+				}
 			}
 		}
 		else
