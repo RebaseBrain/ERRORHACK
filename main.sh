@@ -34,12 +34,33 @@ sleep 1
 echo -e "${blue}Analyzing Code...${reset}"
 sleep 1
 
-if [ ! -f "$json_path" ]; then
-	echo "File $json_path not found!"
-	exit 1
+# Prompt user to choose format
+read -p "Choose output format [csv/tsv]: " output_format
+while [[ ! "$output_format" =~ ^(csv|tsv)$ ]]; do
+  read -p "Invalid choice. Choose [csv/tsv]: " output_format
+done
+
+# Set delimiter based on format
+delimiter=$'\t'
+if [[ "$output_format" == "csv" ]]; then
+  delimiter=","
 fi
 
-echo -e "${red}namepackage\t\terrorType\t\tpackageType\t\tpathToLogFile${reset}" > /tmp/build_errors.tsv
-jq -r '.[] | "\(.namepackage)\t\t(.errorType)\t\t\(.packageType)\t\t\t(.pathToLogFile)"' "$json_path" >> /tmp/build_errors.tsv
+# Output file in project root
+output_file="build_errors.$output_format"
 
-column -s $'\t' -t < /tmp/build_errors.tsv | less -S
+# Write headers (all fields)
+echo "${red}namepackage${delimiter}errorType${delimiter}packageType${delimiter}pathToLogFile${delimiter}pathToPotentialFix${delimiter}fullLog${red}" > "$output_file"
+
+# Use jq with sub() instead of gsub() for compatibility
+jq -r --arg delim "$delimiter" '.[] | [
+    .namepackage,
+    .errorType,
+    .packageType,
+    (.pathToLogFile | sub("\\\\"; "/"; "g")),
+    (.pathToPotentialFix | sub("\\\\"; "/"; "g")),
+    (.fullLog | sub("\n"; " "; "g") | sub("\r"; "" ; "g"))
+  ] | join($delim)' "$json_path" >> "$output_file"
+
+# Display the table
+column -s "$delimiter" -t < "$output_file" | less -S
