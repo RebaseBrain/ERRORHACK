@@ -85,18 +85,6 @@ count_files() {
   find "$dir" -maxdepth 1 -type f | wc -l
 }
 
-print_file() {
-	echo -e "namepackage\terrorType\tpackageType\tpathToLogFile" > /tmp/build_errors.tsv
-
-	# Парсим JSON и обрезаем поля до нужной длины
-	jq -r '.[] | "\(.namepackage)\t\(.errorType)\t\(.packageType)\t\(.pathToLogFile)"' "$JSON_PATH" | while IFS=$'\t' read -r name error type path; do
-	echo -e "$(truncate "$name" 20)\t$(truncate "$error" 25)\t$type\t$(truncate "$path" 40)" >> /tmp/build_errors.tsv
-done
-
-# Выводим красивую таблицу
-column -s $'\t' -t < /tmp/build_errors.tsv | less -S
-}
-
 cnt_files = count_files "./clusters/"
 
 echo -e "${blue}Выберите кластер от 1 до $cnt_files:"
@@ -105,7 +93,7 @@ read -p "> " cnt
 i = 1
 for file in ./clusters/*.json; do
 	if i -eq cnt then
-		print_file file
+		cat ./clusters/$file.json
 	fi
 	((i++))
 done
