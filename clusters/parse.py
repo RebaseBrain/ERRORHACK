@@ -29,7 +29,7 @@ def aboba_sort(data, nameCluster):
 
 
 if __name__ == '__main__':
-    data = parse_json('errors/main.json')
+    data = parse_json('./Parser/list_data.json')
     allTypes = list(set([item["nameCluster"] for item in data]))
     out = []
     for i in allTypes:
