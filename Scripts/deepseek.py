@@ -8,13 +8,9 @@ def get_error_category(error_list):
     Name this group of errors with 1-3 words. Only group name, don't write explanation:
 	"""
     
-    response = ollama.generate(
-        model="qwen:1.7b",  # или "qwen:0.6b"
-        prompt=prompt,
-        options={
-			"temperature": 0.1,
-			#"stop": ["\n"]
-		}  # Для более предсказуемых результатов
+    response = ollama.chat(
+        model="qwen:0.6b",  # или "qwen:0.6b"
+		messages=[{"role": "user", "content": promt}],
     )
     
     return response["response"].strip()
