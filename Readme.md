@@ -12,10 +12,14 @@
 - python3
 - python3.12-venv
 
-**Установка ollama**
+**Установка ollama Linux**
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+**Установка ollama MacOS**
+
+[MacOS ollama](https://ollama.com/download/Ollama-darwin.zip)
+
 **Установка Qwen**
 ```bash
 ollama pull qwen3:0.6b
