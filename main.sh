@@ -80,20 +80,38 @@ case "$user_choice" in
 		;;
 esac
 
+
 count_files() {
   local dir="${1:-.}"
   find "$dir" -maxdepth 1 -type f | wc -l
 }
 
-cnt_files = count_files "./clusters/"
+# Получаем количество файлов
+cnt_files=$(count_files "./clusters/")
 
-echo -e "${blue}Выберите кластер от 1 до $cnt_files:"
+
+# Вывод приглашения
+echo -e "${blue}Выберите кластер от 1 до $cnt_files${reset}:"
 read -p "> " cnt
 
-i = 1
+# Проверяем, что введено число
+if ! [[ "$cnt" =~ ^[0-9]+$ ]]; then
+  echo "Ошибка: введите число."
+  exit 1
+fi
+
+# Проверяем диапазон
+if [ "$cnt" -lt 1 ] || [ "$cnt" -gt "$cnt_files" ]; then
+  echo "Ошибка: номер кластера должен быть от 1 до $cnt_files"
+  exit 1
+fi
+
+# Обход файлов
+i=1
 for file in ./clusters/*.json; do
-	if i -eq cnt then
-		cat ./clusters/$file.json
-	fi
-	((i++))
+  if [ "$i" -eq "$cnt" ]; then
+    cat "$file"
+    break
+  fi
+  ((i++))
 done
