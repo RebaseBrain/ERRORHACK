@@ -11,6 +11,7 @@
 - aspnet-runtime-8.0
 - python3
 - python3.12-venv
+
 **Установка ollama**
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
