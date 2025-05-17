@@ -3,7 +3,7 @@
 # Содержание
 
 - [Установка зависимостей](#Установка-зависимостей)
-- [](#)
+- [Запуск](#Запуск)
 ## Установка зависимостей
 **Нужные пакеты**
 - dotnet-runtime-8.0
@@ -25,4 +25,10 @@ ollama pull qwen3:0.6b
 - Установите библиотеки командой ниже
 ```bash
 pip install torch ollama scikit-learn transformers sentencepiece scipy hdbscan numpy joblib
+```
+
+## Запуск
+```bash
+chmod +x main.sh
+./main.sh
 ```
