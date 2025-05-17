@@ -10,6 +10,7 @@ class Errors:
     namepackage = ""
     errortype = ""
     pathToLogFile = ""
+    nameCluster = ""
 
     def __init__(self, namepackage, errortype, pathToLogFile):
         # Атрибут экземпляра (уникальный для каждого объекта)
@@ -69,8 +70,8 @@ if __name__ == "__main__":
                 errs.append(Errors(filename, errortype, pathToLogFile))
 
     with open('Parser/list_data.json', 'w') as f:
-        for err in errs:
-            json.dump(err.to_dict(), f, indent=2)
+        data = [err.to_dict() for err in errs]
+        json.dump(data, f, indent=2)
     # Анализируем новый файл
     # test_file = "test.txt"
     # with open(test_file, 'r', encoding='utf-8', errors='ignore') as f:
