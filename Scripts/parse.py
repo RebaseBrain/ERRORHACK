@@ -1,6 +1,7 @@
 import json
 import os
 
+
 class error:
     enamepackage = ""
     errortype = ""
@@ -13,13 +14,16 @@ class error:
         self.pathToLogFile = pathToLogFile
         self.nameCluster = nameCluster
 
+
 def parse_json(pathToJSON):
     with open(pathToJSON, 'r', encoding='utf-8') as file:
         data = json.load(file)
     return data
 
+
 def aboba_sort(data, nameCluster):
     return [item for item in data if item["nameCluster"] == nameCluster]
+
 
 if __name__ == '__main__':
     data = parse_json('./list_data.json')
