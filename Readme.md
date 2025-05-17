@@ -30,7 +30,19 @@ ollama pull qwen3:0.6b
 - Запустите venv
 - Установите библиотеки командой ниже
 ```bash
-pip install torch ollama scikit-learn transformers sentencepiece scipy hdbscan numpy joblib
+echo "ollama
+scikit-learn
+sentencepiece
+scipy
+hdbscan
+numpy
+joblib" > requirements.txt
+pip install -r requirements.txt
+```
+
+Python-у может не понравится установка нескольких зависимостей разом, в таком случае стоит скачать каждую библиотеку отдельно так:
+```bash
+pip install ollama # и так с каждой библиотекой
 ```
 
 ## Запуск
