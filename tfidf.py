@@ -1,6 +1,8 @@
 import os
 import re
 from scipy.sparse import hstack
+import ollama
+from tqdm import tqdm
 import numpy as np
 from transformers import AutoTokenizer, AutoModel
 import torch
@@ -14,7 +16,7 @@ from joblib import dump
 from collections import Counter
 
 LOG_DIR = "./Parser/errors/"
-N_CLUSTERS = 67  # По умолчанию; можно заменить на автоопределение
+N_CLUSTERS = 4 #67 # По умолчанию; можно заменить на автоопределение
 VECTORIZER_PATH = "vectorizer.joblib"
 KMEANS_PATH = "kmeans_model.joblib"
 KEYWORDS_PATH = "cluster_keywords.json"
@@ -41,13 +43,12 @@ all_stopwords = list(text.ENGLISH_STOP_WORDS.union(CUSTOM_STOPWORDS))
 
 def get_log_embeddings(logs, batch_size=4):
 	embeddings = []
-	for i in range(0, len(logs), batch_size):
-		batch = logs[i:i + batch_size]
-		inputs = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=512)
-		with torch.no_grad():
-			outputs = model(**inputs)
-		batch_embeddings = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
-		embeddings.append(batch_embeddings)
+	for i in tqdm(logs, desc="Генерация эмбеддингов"):
+		response = ollama.embeddings(
+			model = "qwen3-0.6b",
+			prompt = i
+		)
+		embeddings.append(response["embedding"])
 	return np.vstack(embeddings)
 
 def cluster_logs(texts, n_clusters=N_CLUSTERS):
@@ -60,11 +61,11 @@ def cluster_logs(texts, n_clusters=N_CLUSTERS):
 	)
 	X = vectorizer.fit_transform(texts)
 
-	model_name = "deepseek-ai/deepseek-r1-8b"
-	tokenizer = AutoTokenizer.from_pretrained(model_name)
-	model = AutoModel.from_pretrained(model_name)
-
 	log_embeddings = get_log_embeddings(texts)
+	# 3. Проверка размерностей перед объединением
+	if log_embeddings.shape[0] != X.shape[0]:
+		raise ValueError(f"Несоответствие образцов: TF-IDF {X.shape[0]}, эмбеддинги {log_embeddings.shape[0]}")
+
 	combined_features = hstack([X, log_embeddings])
 
 	kmeans = KMeans(n_clusters=n_clusters, random_state=42)
@@ -80,9 +81,11 @@ def cluster_logs(texts, n_clusters=N_CLUSTERS):
 		top_indices = order_centroids[i][:30]
 		real_terms = []
 		for ind in top_indices:
-			col = X_dense[:, ind]
-			if col[cluster_docs].nnz > 0:
-				real_terms.append(terms[ind])
+			if ind < len(terms):
+				col = X_dense[:, ind]
+				if col[cluster_docs].nnz > 0:
+					real_terms.append(terms[ind])
+
 			if len(real_terms) == 10:
 				break
 		cluster_keywords[i] = real_terms
