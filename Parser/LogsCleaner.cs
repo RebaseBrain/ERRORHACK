@@ -27,6 +27,7 @@ public static class LogsCleaner
 
     public static string ExtractErrors(string logText, int contextRadius = 10)
     {
+        IEnumerable<string> stopWords = new[] { "warning", "info:", "[info]", "make", "checking" };
         var lines = logText.Split('\n');
 
         var contextLineIndices = Enumerable.Range(0, lines.Length)
@@ -39,8 +40,14 @@ public static class LogsCleaner
             )
             .OrderBy(i => i); // оставляем порядок появления
 
-        var resultLines = contextLineIndices.Select(i => lines[i]);
+        // Отфильтровываем строки, если они содержат любое из стоп-слов
+        var resultLines = contextLineIndices
+            .Select(i => lines[i])
+            .Where(line =>
+                stopWords == null || !stopWords.Any(stop => line.Contains(stop, StringComparison.OrdinalIgnoreCase))
+            );
 
         return string.Join('\n', resultLines);
     }
 }
+

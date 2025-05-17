@@ -3,7 +3,7 @@ import json
 import re
 import os
 COMMON_NOISE = ['usr', 'src', 'tmp', 'lib', 'lib64', 'site-packages']
-CUSTOM_STOPWORDS = ['checking', 'found', 'notfound']
+CUSTOM_STOPWORDS = ['checking', 'found', 'alt', 'rpm', 'rpmi', 'linux', 'test', 'tests', 'sisyphus']
 
 
 class Errors:
