@@ -1,5 +1,6 @@
 import os
 import re
+from scipy.sparse import hstack
 import numpy as np
 from transformers import AutoTokenizer, AutoModelimport 
 import torch
@@ -59,14 +60,15 @@ def cluster_logs(texts, n_clusters=N_CLUSTERS):
 	)
 	X = vectorizer.fit_transform(texts)
 
-	model_name = "deepseek-ai/deepseek-r1"
+	model_name = "deepseek-ai/deepseek-r1-8b"
 	tokenizer = AutoTokenizer.from_pretrained(model_name)
 	model = AutoModel.from_pretrained(model_name)
 
-	log_embeddings = get_log_embeddings(processed_logs)
+	log_embeddings = get_log_embeddings(texts)
+	combined_features = hstack([X, log_embeddings])
 
 	kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-	clusters = kmeans.fit_predict(X)
+	clusters = kmeans.fit_predict(combined_features)
 
 	terms = vectorizer.get_feature_names_out()
 	order_centroids = kmeans.cluster_centers_.argsort()[:, ::-1]
