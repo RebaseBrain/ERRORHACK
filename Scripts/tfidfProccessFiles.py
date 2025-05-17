@@ -11,16 +11,18 @@ COMMON_NOISE = ['usr', 'src', 'tmp', 'lib', 'lib64', 'site-packages']
 CUSTOM_STOPWORDS = ['checking', 'found', 'alt', 'rpm', 'rpmi', 'linux', 'test', 'tests', 'sisyphus']
 
 class Errors:
-    def __init__(self, namepackage, errortype, pathToLogFile):
+    def __init__(self, namepackage, errortype, pathToLogFile, nameCluster):
         self.namepackage = namepackage
         self.errortype = errortype
         self.pathToLogFile = pathToLogFile
+        self.nameCluster = nameCluster
 
     def to_dict(self):
         return {
             "namepackage": self.namepackage,
             "errortype": self.errortype,
-            "pathToLogFile": self.pathToLogFile
+            "pathToLogFile": self.pathToLogFile,
+		    "nameCluster": self.nameCluster
         }
 
 def remove_repeated_sequences(text, max_ngram=4):
@@ -59,11 +61,11 @@ def preprocess_text(text):
     return text.strip()
 
 def load_cluster_model():
-    vectorizer = load('vectorizer.joblib')
-    model = load('hdbscan_model.joblib')
-    with open('cluster_keywords.json', 'r') as f:
+    vectorizer = load('./Scripts/vectorizer.joblib')
+    model = load('./Scripts/hdbscan_model.joblib')
+    with open('./Scripts/cluster_keywords.json', 'r') as f:
         cluster_keywords = json.load(f)
-    X_ref = sparse.load_npz('X_reference.npz')
+    X_ref = sparse.load_npz('./Scripts/X_reference.npz')
     return vectorizer, model, cluster_keywords, X_ref
 
 def find_nearest_cluster(text_input, vectorizer, model, X_ref):
@@ -87,8 +89,8 @@ def get_top_terms(text, vectorizer, top_n=5):
 if __name__ == "__main__":
     vectorizer, model, cluster_keywords, X_ref = load_cluster_model()
 
-    log_dir = "./Parser/errors/"
-    output_path = "Parser/list_data.json"
+    log_dir = "./errors/"
+    output_path = "./list_data.json"
     errs = []
 
     for filename in os.listdir(log_dir):
@@ -105,18 +107,20 @@ if __name__ == "__main__":
             cluster_id = find_nearest_cluster(content, vectorizer, model, X_ref)
 
             if cluster_id == -1:
-                keywords = get_top_terms(content, vectorizer, top_n=5)
+                continue  # пропускаем noise-кластеры
             else:
                 keywords = cluster_keywords.get(str(cluster_id), ["unknown"])
+                name_cluster = int(cluster_id)  # сохраняем число
 
-            err = Errors(
-                namepackage=filename,
-                errortype=", ".join(keywords),
-                pathToLogFile=os.path.join("./Parser/logs", filename)
-            )
+            err = {
+				"namepackage": filename,
+				"errortype": ", ".join(keywords),
+				"pathToLogFile": os.path.join("./logs", filename),
+				"nameCluster": name_cluster
+			}
             errs.append(err)
 
     with open(output_path, 'w') as f:
-        json.dump([e.to_dict() for e in errs], f, indent=2)
+        json.dump(errs, f, indent=2)
 
     print(f"Сохранено: {output_path} ({len(errs)} записей)")
