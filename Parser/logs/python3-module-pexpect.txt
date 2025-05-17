@@ -1,0 +1,563 @@
+<86>May 10 10:03:13 userdel[3283929]: delete user 'rooter'
+<86>May 10 10:03:13 userdel[3283929]: removed group 'rooter' owned by 'rooter'
+<86>May 10 10:03:13 userdel[3283929]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 10:03:13 groupadd[3283936]: group added to /etc/group: name=rooter, GID=1280
+<86>May 10 10:03:13 groupadd[3283936]: group added to /etc/gshadow: name=rooter
+<86>May 10 10:03:13 groupadd[3283936]: new group: name=rooter, GID=1280
+<86>May 10 10:03:13 useradd[3283942]: new user: name=rooter, UID=1280, GID=1280, home=/root, shell=/bin/bash, from=none
+<86>May 10 10:03:13 userdel[3283955]: delete user 'builder'
+<86>May 10 10:03:13 userdel[3283955]: removed group 'builder' owned by 'builder'
+<86>May 10 10:03:13 userdel[3283955]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 10:03:13 groupadd[3283964]: group added to /etc/group: name=builder, GID=1281
+<86>May 10 10:03:13 groupadd[3283964]: group added to /etc/gshadow: name=builder
+<86>May 10 10:03:13 groupadd[3283964]: new group: name=builder, GID=1281
+<86>May 10 10:03:13 useradd[3283974]: new user: name=builder, UID=1281, GID=1281, home=/usr/src, shell=/bin/bash, from=none
+<13>May 10 10:03:18 rpmi: rpm-build-compat-2.4.8-alt1 sisyphus+383198.100.1.1 1746298985 installed
+<13>May 10 10:03:18 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432033 installed
+<13>May 10 10:03:18 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 10:03:18 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 10:03:18 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 10:03:18 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962878 installed
+<13>May 10 10:03:18 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 10:03:18 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 10:03:18 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 10:03:18 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 10:03:18 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 10:03:18 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 10:03:18 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 10:03:18 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 10:03:18 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 10:03:18 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:03:19 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:03:19 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 10 10:03:19 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 10:03:19 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 10:03:19 rpmi: rpm-build-intro-2.4.8-alt1 sisyphus+383198.100.1.1 1746298985 installed
+<13>May 10 10:03:19 rpmi: rpm-macros-sphinx3-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 10 10:03:22 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 10 10:03:22 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 10 10:03:22 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 10 10:03:22 rpmi: groff-base-1.22.3-alt2 sisyphus+346264.200.2.1 1716421485 installed
+<13>May 10 10:03:22 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 10 10:03:22 rpmi: python3-module-wheel-0.45.1-alt2 sisyphus+376369.34000.10.1 1746635900 installed
+<13>May 10 10:03:22 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 10 10:03:22 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 10 10:03:22 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 10 10:03:22 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 10 10:03:22 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 10 10:03:22 rpmi: python3-module-jaraco.collections-5.1.0-alt1.1 sisyphus+376369.6100.10.1 1746628417 installed
+<13>May 10 10:03:22 rpmi: python3-module-pkg_resources-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 10:03:22 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:03:22 rpmi: libpipeline-1.5.8-alt1 sisyphus+378581.40.3.1 1742477177 installed
+<13>May 10 10:03:22 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 10:03:22 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 10:03:22 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 10:03:24 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:03:24 rpmi: less-633-alt1 sisyphus+328181.300.2.1 1693321749 installed
+<13>May 10 10:03:24 rpmi: man-db-2.13.0-alt1 sisyphus+378581.200.3.1 1742477369 installed
+<13>May 10 10:03:24 rpmi: python3-module-setuptools-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 10:03:24 rpmi: python3-module-pytest-8.3.5-alt1 sisyphus+376824.100.2.1 1741167719 installed
+<13>May 10 10:03:24 rpmi: python3-module-ptyprocess-0.7.0-alt1 sisyphus+283469.100.1.1 1629400504 installed
+<13>May 10 10:03:24 rpmi: openssl-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/python3-module-pexpect-4.9.0-alt1.nosrc.rpm (w1.gzdio)
+<13>May 10 10:03:28 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+Installing python3-module-pexpect-4.9.0-alt1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.92874
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf python3-module-pexpect-4.9.0
++ echo 'Source #0 (python3-module-pexpect-4.9.0.tar):'
+Source #0 (python3-module-pexpect-4.9.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/python3-module-pexpect-4.9.0.tar
++ cd python3-module-pexpect-4.9.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ /usr/bin/subst 's|"time"|"time -p true"|' tests/test_async.py
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.92874
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-pexpect-4.9.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/python3-module-pexpect-4.9.0
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/python3-module-pexpect-4.9.0/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/python3-module-pexpect-4.9.0/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+INFO     : root : running bdist_wheel
+/usr/lib/python3/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+!!
+
+        ********************************************************************************
+        With Python 2.7 end-of-life, support for building universal wheels
+        (i.e., wheels that support both Python 2 and Python 3)
+        is being obviated.
+        Please discontinue using this option, or if you still need it,
+        file an issue with pypa/setuptools describing your use case.
+
+        By 2025-Aug-30, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+        ********************************************************************************
+
+!!
+  self.finalize_options()
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/pexpect
+INFO     : root : copying pexpect/utils.py -> build/lib/pexpect
+INFO     : root : copying pexpect/spawnbase.py -> build/lib/pexpect
+INFO     : root : copying pexpect/socket_pexpect.py -> build/lib/pexpect
+INFO     : root : copying pexpect/screen.py -> build/lib/pexpect
+INFO     : root : copying pexpect/run.py -> build/lib/pexpect
+INFO     : root : copying pexpect/replwrap.py -> build/lib/pexpect
+INFO     : root : copying pexpect/pxssh.py -> build/lib/pexpect
+INFO     : root : copying pexpect/pty_spawn.py -> build/lib/pexpect
+INFO     : root : copying pexpect/popen_spawn.py -> build/lib/pexpect
+INFO     : root : copying pexpect/fdpexpect.py -> build/lib/pexpect
+INFO     : root : copying pexpect/expect.py -> build/lib/pexpect
+INFO     : root : copying pexpect/exceptions.py -> build/lib/pexpect
+INFO     : root : copying pexpect/_async_w_await.py -> build/lib/pexpect
+INFO     : root : copying pexpect/_async_pre_await.py -> build/lib/pexpect
+INFO     : root : copying pexpect/_async.py -> build/lib/pexpect
+INFO     : root : copying pexpect/__init__.py -> build/lib/pexpect
+INFO     : root : copying pexpect/FSM.py -> build/lib/pexpect
+INFO     : root : copying pexpect/ANSI.py -> build/lib/pexpect
+INFO     : root : copying pexpect/bashrc.sh -> build/lib/pexpect
+INFO     : root : installing to build/bdist.linux-i686/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-i686/wheel
+INFO     : root : creating build/bdist.linux-i686/wheel/pexpect
+INFO     : root : copying build/lib/pexpect/bashrc.sh -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/ANSI.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/FSM.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/__init__.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/_async.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/_async_pre_await.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/_async_w_await.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/exceptions.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/expect.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/fdpexpect.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/popen_spawn.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/pty_spawn.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/pxssh.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/replwrap.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/run.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/screen.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/socket_pexpect.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/spawnbase.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : copying build/lib/pexpect/utils.py -> build/bdist.linux-i686/wheel/./pexpect
+INFO     : root : running install_egg_info
+INFO     : root : running egg_info
+INFO     : root : writing pexpect.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to pexpect.egg-info/dependency_links.txt
+INFO     : root : writing requirements to pexpect.egg-info/requires.txt
+INFO     : root : writing top-level names to pexpect.egg-info/top_level.txt
+INFO     : root : reading manifest file 'pexpect.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : no previously-included directories found matching 'doc/_build'
+WARNING  : root : warning: no previously-included files matching '__pycache__' found anywhere in distribution
+WARNING  : root : warning: no previously-included files matching '*.pyc' found anywhere in distribution
+WARNING  : root : warning: no previously-included files matching '*~' found anywhere in distribution
+INFO     : root : adding license file 'LICENSE'
+INFO     : root : writing manifest file 'pexpect.egg-info/SOURCES.txt'
+INFO     : root : Copying pexpect.egg-info to build/bdist.linux-i686/wheel/./pexpect-4.9.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-i686/wheel/pexpect-4.9.0.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/python3-module-pexpect-4.9.0/dist/.tmp-lno24k74/pexpect-4.9.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-i686/wheel' to it
+INFO     : wheel : adding 'pexpect/ANSI.py'
+INFO     : wheel : adding 'pexpect/FSM.py'
+INFO     : wheel : adding 'pexpect/__init__.py'
+INFO     : wheel : adding 'pexpect/_async.py'
+INFO     : wheel : adding 'pexpect/_async_pre_await.py'
+INFO     : wheel : adding 'pexpect/_async_w_await.py'
+INFO     : wheel : adding 'pexpect/bashrc.sh'
+INFO     : wheel : adding 'pexpect/exceptions.py'
+INFO     : wheel : adding 'pexpect/expect.py'
+INFO     : wheel : adding 'pexpect/fdpexpect.py'
+INFO     : wheel : adding 'pexpect/popen_spawn.py'
+INFO     : wheel : adding 'pexpect/pty_spawn.py'
+INFO     : wheel : adding 'pexpect/pxssh.py'
+INFO     : wheel : adding 'pexpect/replwrap.py'
+INFO     : wheel : adding 'pexpect/run.py'
+INFO     : wheel : adding 'pexpect/screen.py'
+INFO     : wheel : adding 'pexpect/socket_pexpect.py'
+INFO     : wheel : adding 'pexpect/spawnbase.py'
+INFO     : wheel : adding 'pexpect/utils.py'
+INFO     : wheel : adding 'pexpect-4.9.0.dist-info/LICENSE'
+INFO     : wheel : adding 'pexpect-4.9.0.dist-info/METADATA'
+INFO     : wheel : adding 'pexpect-4.9.0.dist-info/WHEEL'
+INFO     : wheel : adding 'pexpect-4.9.0.dist-info/top_level.txt'
+INFO     : wheel : adding 'pexpect-4.9.0.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-i686/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: pexpect-4.9.0-py2.py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.21956
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-pexpect-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-pexpect-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd python3-module-pexpect-4.9.0
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-pexpect-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/python3-module-pexpect-4.9.0/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: pexpect-4.9.0-py2.py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-pexpect-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pexpect-4.9.0.dist-info/LICENSE
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pexpect-4.9.0.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pexpect-4.9.0.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pexpect-4.9.0.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-pexpect-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-pexpect-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-pexpect-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-pexpect-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-pexpect-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-pexpect-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-pexpect-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-pexpect-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/ANSI.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/FSM.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/__init__.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_pre_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_w_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/exceptions.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/expect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/fdpexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/popen_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pty_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pxssh.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/replwrap.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/run.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/screen.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/socket_pexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/spawnbase.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/utils.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-pexpect-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/ANSI.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/FSM.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/__init__.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_pre_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_w_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/exceptions.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/expect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/fdpexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/popen_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pty_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pxssh.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/replwrap.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/run.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/screen.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/socket_pexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/spawnbase.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/utils.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-pexpect-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/ANSI.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/FSM.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/__init__.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_pre_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/_async_w_await.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/exceptions.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/expect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/fdpexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/popen_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pty_spawn.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/pxssh.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/replwrap.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/run.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/screen.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/socket_pexpect.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/spawnbase.py
+compile /usr/src/tmp/python3-module-pexpect-buildroot/usr/lib/python3/site-packages/pexpect/utils.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/pexpect/__pycache__/ANSI.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/ANSI.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/FSM.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/FSM.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/_async.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/_async.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/_async_pre_await.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/_async_pre_await.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/_async_w_await.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/_async_w_await.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/exceptions.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/exceptions.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/expect.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/expect.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/fdpexpect.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/fdpexpect.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/popen_spawn.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/popen_spawn.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/pxssh.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/pxssh.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/replwrap.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/replwrap.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/run.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/run.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/screen.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/screen.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/socket_pexpect.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/socket_pexpect.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/spawnbase.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/spawnbase.cpython-312.pyc'
+'./usr/lib/python3/site-packages/pexpect/__pycache__/utils.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/pexpect/__pycache__/utils.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.28380
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-pexpect-4.9.0
++ export LC_ALL=en_US.UTF-8
++ LC_ALL=en_US.UTF-8
++ export PS1=Hello
++ PS1=Hello
++ py.test3 -v
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /usr/src/RPM/BUILD/python3-module-pexpect-4.9.0
+configfile: setup.cfg
+collecting ... collected 257 items
+
+tests/test_FSM.py::FSMTestCase::test_run_fsm PASSED                      [  0%]
+tests/test_ansi.py::ansiTestCase::test_decode_error PASSED               [  0%]
+tests/test_ansi.py::ansiTestCase::test_fsm_memory PASSED                 [  1%]
+tests/test_ansi.py::ansiTestCase::test_lines PASSED                      [  1%]
+tests/test_ansi.py::ansiTestCase::test_number_x PASSED                   [  1%]
+tests/test_ansi.py::ansiTestCase::test_tetris PASSED                     [  2%]
+tests/test_ansi.py::ansiTestCase::test_torturet PASSED                   [  2%]
+tests/test_ansi.py::ansiTestCase::test_unicode PASSED                    [  3%]
+tests/test_ansi.py::ansiTestCase::test_utf8_bytes PASSED                 [  3%]
+tests/test_ansi.py::ansiTestCase::test_write PASSED                      [  3%]
+tests/test_async.py::AsyncTests::test_async_and_gc PASSED                [  4%]
+tests/test_async.py::AsyncTests::test_async_and_sync PASSED              [  4%]
+tests/test_async.py::AsyncTests::test_async_replwrap PASSED              [  5%]
+tests/test_async.py::AsyncTests::test_async_replwrap_multiline PASSED    [  5%]
+tests/test_async.py::AsyncTests::test_async_utf8 PASSED                  [  5%]
+tests/test_async.py::AsyncTests::test_eof PASSED                         [  6%]
+tests/test_async.py::AsyncTests::test_expect_exact PASSED                [  6%]
+tests/test_async.py::AsyncTests::test_simple_expect PASSED               [  7%]
+tests/test_async.py::AsyncTests::test_timeout PASSED                     [  7%]
+tests/test_command_list_split.py::SplitCommandLineTestCase::testSplitSizes PASSED [  7%]
+tests/test_constructor.py::TestCaseConstructor::test_constructor PASSED  [  8%]
+tests/test_constructor.py::TestCaseConstructor::test_named_parameters PASSED [  8%]
+tests/test_ctrl_chars.py::TestCtrlChars::test_bad_sendcontrol_chars PASSED [  8%]
+tests/test_ctrl_chars.py::TestCtrlChars::test_control_chars PASSED       [  9%]
+tests/test_ctrl_chars.py::TestCtrlChars::test_sendcontrol PASSED         [  9%]
+tests/test_ctrl_chars.py::TestCtrlChars::test_sendeof PASSED             [ 10%]
+tests/test_ctrl_chars.py::TestCtrlChars::test_sendintr PASSED            [ 10%]
+tests/test_delay.py::TestCaseDelay::test_delayafterread PASSED           [ 10%]
+tests/test_delay.py::TestCaseDelay::test_delaybeforesend PASSED          [ 11%]
+tests/test_destructor.py::TestCaseDestructor::test_destructor PASSED     [ 11%]
+tests/test_dotall.py::TestCaseDotall::test_dotall PASSED                 [ 12%]
+tests/test_dotall.py::TestCaseDotall::test_precompiled PASSED            [ 12%]
+tests/test_env.py::TestCaseEnv::test_run_uses_env PASSED                 [ 12%]
+tests/test_env.py::TestCaseEnv::test_run_uses_env_path PASSED            [ 13%]
+tests/test_env.py::TestCaseEnv::test_run_uses_env_path_over_path PASSED  [ 13%]
+tests/test_env.py::TestCaseEnv::test_spawn_uses_env PASSED               [ 14%]
+tests/test_expect.py::ExpectTestCase::test_bad_arg PASSED                [ 14%]
+tests/test_expect.py::ExpectTestCase::test_before_across_chunks PASSED   [ 14%]
+tests/test_expect.py::ExpectTestCase::test_before_after PASSED           [ 15%]
+tests/test_expect.py::ExpectTestCase::test_before_after_exact PASSED     [ 15%]
+tests/test_expect.py::ExpectTestCase::test_before_after_timeout PASSED   [ 15%]
+tests/test_expect.py::ExpectTestCase::test_buffer_interface PASSED       [ 16%]
+tests/test_expect.py::ExpectTestCase::test_coerce_expect_re_enc_ascii PASSED [ 16%]
+tests/test_expect.py::ExpectTestCase::test_coerce_expect_re_enc_none PASSED [ 17%]
+tests/test_expect.py::ExpectTestCase::test_coerce_expect_re_enc_utf8 PASSED [ 17%]
+tests/test_expect.py::ExpectTestCase::test_expect PASSED                 [ 17%]
+tests/test_expect.py::ExpectTestCase::test_expect_basic PASSED           [ 18%]
+tests/test_expect.py::ExpectTestCase::test_expect_echo PASSED            [ 18%]
+tests/test_expect.py::ExpectTestCase::test_expect_echo_exact PASSED      [ 19%]
+tests/test_expect.py::ExpectTestCase::test_expect_eof PASSED             [ 19%]
+tests/test_expect.py::ExpectTestCase::test_expect_exact PASSED           [ 19%]
+tests/test_expect.py::ExpectTestCase::test_expect_exact_basic PASSED     [ 20%]
+tests/test_expect.py::ExpectTestCase::test_expect_ignore_case PASSED     [ 20%]
+tests/test_expect.py::ExpectTestCase::test_expect_ignore_case_flag PASSED [ 21%]
+tests/test_expect.py::ExpectTestCase::test_expect_index PASSED           [ 21%]
+tests/test_expect.py::ExpectTestCase::test_expect_index_exact PASSED     [ 21%]
+tests/test_expect.py::ExpectTestCase::test_expect_order PASSED           [ 22%]
+tests/test_expect.py::ExpectTestCase::test_expect_order_exact PASSED     [ 22%]
+tests/test_expect.py::ExpectTestCase::test_expect_regex_enc_none PASSED  [ 22%]
+tests/test_expect.py::ExpectTestCase::test_expect_regex_enc_utf8 PASSED  [ 23%]
+tests/test_expect.py::ExpectTestCase::test_expect_setecho_off PASSED     [ 23%]
+tests/test_expect.py::ExpectTestCase::test_expect_setecho_off_exact PASSED [ 24%]
+tests/test_expect.py::ExpectTestCase::test_expect_timeout PASSED         [ 24%]
+tests/test_expect.py::ExpectTestCase::test_greed PASSED                  [ 24%]
+tests/test_expect.py::ExpectTestCase::test_greed_exact PASSED            [ 25%]
+tests/test_expect.py::ExpectTestCase::test_increasing_searchwindowsize PASSED [ 25%]
+tests/test_expect.py::ExpectTestCase::test_ordering PASSED               [ 26%]
+tests/test_expect.py::ExpectTestCase::test_ordering_exact PASSED         [ 26%]
+tests/test_expect.py::ExpectTestCase::test_searchwindowsize PASSED       [ 26%]
+tests/test_expect.py::ExpectTestCase::test_signal_handling PASSED        [ 27%]
+tests/test_expect.py::ExpectTestCase::test_stdin_closed PASSED           [ 27%]
+tests/test_expect.py::ExpectTestCase::test_stdin_stdout_closed PASSED    [ 28%]
+tests/test_expect.py::ExpectTestCase::test_timeout_none PASSED           [ 28%]
+tests/test_expect.py::ExpectTestCase::test_unexpected_eof PASSED         [ 28%]
+tests/test_expect.py::ExpectTestCase::test_waitnoecho PASSED             [ 29%]
+tests/test_expect.py::ExpectTestCase::test_waitnoecho_order PASSED       [ 29%]
+tests/test_filedescriptor.py::ExpectTestCase::test_fd PASSED             [ 29%]
+tests/test_filedescriptor.py::ExpectTestCase::test_fd_isalive PASSED     [ 30%]
+tests/test_filedescriptor.py::ExpectTestCase::test_fd_isatty PASSED      [ 30%]
+tests/test_filedescriptor.py::ExpectTestCase::test_fileobj PASSED        [ 31%]
+tests/test_filedescriptor.py::ExpectTestCase::test_maxread PASSED        [ 31%]
+tests/test_interact.py::InteractTestCase::test_interact_escape PASSED    [ 31%]
+tests/test_interact.py::InteractTestCase::test_interact_escape_None PASSED [ 32%]
+tests/test_interact.py::InteractTestCase::test_interact_exit_unicode PASSED [ 32%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_isalive_consistent_multiple_calls PASSED [ 33%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_isalive_dead_after_SIGHUP PASSED [ 33%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_isalive_dead_after_SIGINT PASSED [ 33%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_isalive_dead_after_SIGKILL PASSED [ 34%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_isalive_dead_after_normal_termination PASSED [ 34%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_wait PASSED          [ 35%]
+tests/test_isalive.py::IsAliveTestCase::test_expect_wait_after_termination PASSED [ 35%]
+tests/test_isalive.py::IsAliveTestCase::test_forced_terminate PASSED     [ 35%]
+tests/test_isalive.py::IsAliveTestCase::test_signal_wait PASSED          [ 36%]
+tests/test_log.py::TestCaseLog::test_log PASSED                          [ 36%]
+tests/test_log.py::TestCaseLog::test_log_logfile_read PASSED             [ 36%]
+tests/test_log.py::TestCaseLog::test_log_logfile_send PASSED             [ 37%]
+tests/test_log.py::TestCaseLog::test_log_send_and_received PASSED        [ 37%]
+tests/test_misc.py::TestCaseMisc::test_bad_arguments_second_arg_is_list PASSED [ 38%]
+tests/test_misc.py::TestCaseMisc::test_bad_arguments_suggest_fdpsawn PASSED [ 38%]
+tests/test_misc.py::TestCaseMisc::test_bad_child_pid PASSED              [ 38%]
+tests/test_misc.py::TestCaseMisc::test_bad_type_in_expect PASSED         [ 39%]
+tests/test_misc.py::TestCaseMisc::test_cwd PASSED                        [ 39%]
+tests/test_misc.py::TestCaseMisc::test_eof PASSED                        [ 40%]
+tests/test_misc.py::TestCaseMisc::test_exception_tb PASSED               [ 40%]
+tests/test_misc.py::TestCaseMisc::test_isalive PASSED                    [ 40%]
+tests/test_misc.py::TestCaseMisc::test_isatty PASSED                     [ 41%]
+tests/test_misc.py::TestCaseMisc::test_isatty_poll PASSED                [ 41%]
+tests/test_misc.py::TestCaseMisc::test_iter PASSED                       [ 42%]
+tests/test_misc.py::TestCaseMisc::test_nonnative_pty_fork PASSED         [ 42%]
+tests/test_misc.py::TestCaseMisc::test_read PASSED                       [ 42%]
+tests/test_misc.py::TestCaseMisc::test_read_after_close_raises_value_error PASSED [ 43%]
+tests/test_misc.py::TestCaseMisc::test_read_poll PASSED                  [ 43%]
+tests/test_misc.py::TestCaseMisc::test_read_poll_timeout PASSED          [ 43%]
+tests/test_misc.py::TestCaseMisc::test_readline PASSED                   [ 44%]
+tests/test_misc.py::TestCaseMisc::test_readline_bin_echo PASSED          [ 44%]
+tests/test_misc.py::TestCaseMisc::test_readlines PASSED                  [ 45%]
+tests/test_misc.py::TestCaseMisc::test_searcher_as_string PASSED         [ 45%]
+tests/test_misc.py::TestCaseMisc::test_searcher_as_string_with_EOF PASSED [ 45%]
+tests/test_misc.py::TestCaseMisc::test_searcher_as_string_with_TIMEOUT PASSED [ 46%]
+tests/test_misc.py::TestCaseMisc::test_searcher_re_as_string PASSED      [ 46%]
+tests/test_misc.py::TestCaseMisc::test_searcher_re_as_string_with_EOF PASSED [ 47%]
+tests/test_misc.py::TestCaseMisc::test_searcher_re_as_string_with_TIMEOUT PASSED [ 47%]
+tests/test_misc.py::TestCaseMisc::test_sighup PASSED                     [ 47%]
+tests/test_misc.py::TestCaseMisc::test_terminate PASSED                  [ 48%]
+tests/test_misc.py::TestCaseMisc::test_with PASSED                       [ 48%]
+tests/test_misc.py::TestCaseMisc::test_write PASSED                      [ 49%]
+tests/test_misc.py::TestCaseMisc::test_writelines PASSED                 [ 49%]
+tests/test_missing_command.py::MissingCommandTestCase::testMissingCommand PASSED [ 49%]
+tests/test_performance.py::PerformanceTestCase::test_100000 PASSED       [ 50%]
+tests/test_performance.py::PerformanceTestCase::test_large_stdout_stream PASSED [ 50%]
+tests/test_pickling.py::PickleTest::test_picking PASSED                  [ 50%]
+tests/test_popen_spawn.py::ExpectTestCase::test_bad_arg PASSED           [ 51%]
+tests/test_popen_spawn.py::ExpectTestCase::test_crlf PASSED              [ 51%]
+tests/test_popen_spawn.py::ExpectTestCase::test_crlf_encoding PASSED     [ 52%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect PASSED            [ 52%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect_basic PASSED      [ 52%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect_eof PASSED        [ 53%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect_exact PASSED      [ 53%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect_exact_basic PASSED [ 54%]
+tests/test_popen_spawn.py::ExpectTestCase::test_expect_timeout PASSED    [ 54%]
+tests/test_popen_spawn.py::ExpectTestCase::test_timeout_none PASSED      [ 54%]
+tests/test_popen_spawn.py::ExpectTestCase::test_unexpected_eof PASSED    [ 55%]
+tests/test_pxssh.py::PxsshTestCase::test_connection_refused PASSED       [ 55%]
+tests/test_pxssh.py::PxsshTestCase::test_custom_ssh_cmd PASSED           [ 56%]
+tests/test_pxssh.py::PxsshTestCase::test_custom_ssh_cmd_debug PASSED     [ 56%]
+tests/test_pxssh.py::PxsshTestCase::test_failed_custom_ssh_cmd PASSED    [ 56%]
+tests/test_pxssh.py::PxsshTestCase::test_failed_custom_ssh_cmd_debug PASSED [ 57%]
+tests/test_pxssh.py::PxsshTestCase::test_failed_set_unique_prompt PASSED [ 57%]
+tests/test_pxssh.py::PxsshTestCase::test_fake_ssh PASSED                 [ 57%]
+tests/test_pxssh.py::PxsshTestCase::test_login_bash PASSED               [ 58%]
+tests/test_pxssh.py::PxsshTestCase::test_login_tcsh PASSED               [ 58%]
+tests/test_pxssh.py::PxsshTestCase::test_login_zsh PASSED                [ 59%]
+tests/test_pxssh.py::PxsshTestCase::test_remote_ssh_tunnel_string PASSED [ 59%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_empty_user PASSED    [ 59%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_no_user PASSED       [ 60%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_no_username_empty_config PASSED [ 60%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_passing_string PASSED [ 61%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_user PASSED          [ 61%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_config_wrong_Host PASSED    [ 61%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_key_string PASSED           [ 62%]
+tests/test_pxssh.py::PxsshTestCase::test_ssh_tunnel_string PASSED        [ 62%]
+tests/test_pxssh.py::PxsshTestCase::test_username_or_ssh_config PASSED   [ 63%]
+tests/test_pxssh.py::PxsshTestCase::test_wrong_pw PASSED                 [ 63%]
+tests/test_replwrap.py::REPLWrapTestCase::test_bash PASSED               [ 63%]
+tests/test_replwrap.py::REPLWrapTestCase::test_bash_env PASSED           [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_existing_spawn PASSED     [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_long_running_continuation PASSED [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_long_running_multiline PASSED [ 65%]
+tests/test_replwrap.py::REPLWrapTestCase::test_multiline PASSED          [ 65%]
+tests/test_replwrap.py::REPLWrapTestCase::test_no_change_prompt PASSED   [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_pager_as_cat PASSED       [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_python PASSED             [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_zsh FAILED                [ 67%]
+tests/test_repr.py::TestCaseMisc::test_str_before_spawn PASSED           [ 67%]
+tests/test_repr.py::TestCaseMisc::test_str_spawn PASSED                  [ 68%]
+tests/test_repr.py::TestCaseMisc::test_str_spawnu PASSED                 [ 68%]
+tests/test_run.py::RunFuncTestCase::test_run PASSED                      [ 68%]
+tests/test_run.py::RunFuncTestCase::test_run_bad_exitstatus PASSED       [ 69%]
+tests/test_run.py::RunFuncTestCase::test_run_callback PASSED             [ 69%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_function PASSED    [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_method PASSED      [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_string PASSED      [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_typeerror PASSED      [ 71%]
+tests/test_run.py::RunFuncTestCase::test_run_exit PASSED                 [ 71%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run PASSED               [ 71%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_bad_exitstatus PASSED [ 72%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_callback PASSED      [ 72%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_event_as_function PASSED [ 73%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_event_as_method PASSED [ 73%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_event_as_string PASSED [ 73%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_event_typeerror PASSED [ 74%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_exit PASSED          [ 74%]
+tests/test_run.py::RunUnicodeFuncTestCase::test_run_unicode PASSED       [ 75%]
+tests/test_screen.py::screenTestCase::test_cursor_save PASSED            [ 75%]
+tests/test_screen.py::screenTestCase::test_decoding_errors PASSED        [ 75%]
+tests/test_screen.py::screenTestCase::test_fill PASSED                   [ 76%]
+tests/test_screen.py::screenTestCase::test_get_region PASSED             [ 76%]
+tests/test_screen.py::screenTestCase::test_insert PASSED                 [ 77%]
+tests/test_screen.py::screenTestCase::test_no_bytes PASSED               [ 77%]
+tests/test_screen.py::screenTestCase::test_put PASSED                    [ 77%]
+tests/test_screen.py::screenTestCase::test_scroll PASSED                 [ 78%]
+tests/test_screen.py::screenTestCase::test_unicode_ascii PASSED          [ 78%]
+tests/test_screen.py::screenTestCase::test_unicode_cp437 PASSED          [ 78%]
+tests/test_screen.py::screenTestCase::test_unicode_utf8 PASSED           [ 79%]
+tests/test_socket.py::ExpectTestCase::test_fd_isalive PASSED             [ 79%]
+tests/test_socket.py::ExpectTestCase::test_fd_isalive_poll PASSED        [ 80%]
+tests/test_socket.py::ExpectTestCase::test_fd_isatty PASSED              [ 80%]
+tests/test_socket.py::ExpectTestCase::test_fd_isatty_poll PASSED         [ 80%]
+tests/test_socket.py::ExpectTestCase::test_interrupt PASSED              [ 81%]
+tests/test_socket.py::ExpectTestCase::test_maxread PASSED                [ 81%]
+tests/test_socket.py::ExpectTestCase::test_multiple_interrupts PASSED    [ 82%]
+tests/test_socket.py::ExpectTestCase::test_socket PASSED                 [ 82%]
+tests/test_socket.py::ExpectTestCase::test_socket_with_write PASSED      [ 82%]
+tests/test_socket.py::ExpectTestCase::test_timeout PASSED                [ 83%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isalive PASSED          [ 83%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isalive_poll PASSED     [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isatty PASSED           [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isatty_poll PASSED      [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fileobj PASSED             [ 85%]
+tests/test_socket_fd.py::ExpectTestCase::test_interrupt 
+hasher-privd: parent: handle_io: idle time limit (3600 seconds) exceeded
+hsh-rebuild: rebuild of `python3-module-pexpect-4.9.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+7.31user 3.04system 1:03:41elapsed 0%CPU (0avgtext+0avgdata 134044maxresident)k
+88inputs+0outputs (0major+322260minor)pagefaults 0swaps

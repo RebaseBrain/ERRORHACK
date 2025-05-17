@@ -1,0 +1,119 @@
+tests/test_moneyed_classes.py::TestMoney::test_sum PASSED                [ 81%]
+tests/test_moneyed_classes.py::TestMoney::test_round PASSED              [ 82%]
+tests/test_moneyed_classes.py::TestMoney::test_round_context_override PASSED [ 84%]
+tests/test_moneyed_classes.py::TestMoney::test_get_sub_unit PASSED       [ 86%]
+tests/test_moneyed_classes.py::TestMoney::test_arithmetic_operations_return_real_subclass_instance PASSED [ 87%]
+tests/test_moneyed_classes.py::TestMoney::test_can_call_subclass_method_after_arithmetic_operations PASSED [ 89%]
+tests/test_moneyed_classes.py::TestMoney::test_bool PASSED               [ 91%]
+tests/test_moneyed_classes.py::TestMoney::test_force_decimal PASSED      [ 93%]
+tests/test_moneyed_classes.py::TestMoney::test_decimal_doesnt_use_str_when_multiplying PASSED [ 94%]
+tests/test_moneyed_classes.py::TestMoney::test_decimal_doesnt_use_str_when_dividing PASSED [ 96%]
+tests/test_moneyed_classes.py::test_all_babel_currencies FAILED          [ 98%]
+tests/test_moneyed_classes.py::test_list_all_currencies PASSED           [100%]
+
+=================================== FAILURES ===================================
+__________________________ test_all_babel_currencies ___________________________
+
+    def test_all_babel_currencies():
+        missing = sorted(set(get_global("all_currencies").keys()) - set(CURRENCIES.keys()))
+>       assert (
+            missing == []
+        ), "The following currencies defined in Babel are missing: " + ", ".join(missing)
+E         
+E         Full diff:
+E         Full diff:
+E         - []
+E         - []
+E         + [
+E         + [
+E         + [
+E         +     'XCG',
+E         +     'XCG',
+E         +     'XCG',
+E         +     'XCG',
+E         +     'ZWG',
+E         +     'ZWG',
+E         +     'ZWG',
+E         +     'ZWG',
+E         + ]
+E         + ]
+E         + ]
+E         + ]
+
+
+
+
+tests/test_moneyed_classes.py:404: AssertionError
+tests/test_moneyed_classes.py:404: AssertionError
+tests/test_moneyed_classes.py:404: AssertionError
+tests/test_moneyed_classes.py:404: AssertionError
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_moneyed_classes.py::test_all_babel_currencies - AssertionEr...
+FAILED tests/test_moneyed_classes.py::test_all_babel_currencies - AssertionEr...
+FAILED tests/test_moneyed_classes.py::test_all_babel_currencies - AssertionEr...
+FAILED tests/test_moneyed_classes.py::test_all_babel_currencies - AssertionEr...
+========================= 1 failed, 57 passed in 0.14s =========================
+========================= 1 failed, 57 passed in 0.14s =========================
+========================= 1 failed, 57 passed in 0.14s =========================
+========================= 1 failed, 57 passed in 0.14s =========================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23533 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.02user 0.73system 0:02.71elapsed 101%CPU (0avgtext+0avgdata 34008maxresident)k
+2.02user 0.73system 0:02.71elapsed 101%CPU (0avgtext+0avgdata 34008maxresident)k
+2.02user 0.73system 0:02.71elapsed 101%CPU (0avgtext+0avgdata 34008maxresident)k
+2.02user 0.73system 0:02.71elapsed 101%CPU (0avgtext+0avgdata 34008maxresident)k
+2.02user 0.73system 0:02.71elapsed 101%CPU (0avgtext+0avgdata 34008maxresident)k
+0inputs+0outputs (0major+147553minor)pagefaults 0swaps
+0inputs+0outputs (0major+147553minor)pagefaults 0swaps
+0inputs+0outputs (0major+147553minor)pagefaults 0swaps
+0inputs+0outputs (0major+147553minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-moneyed-3.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-moneyed-3.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-moneyed-3.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.66user 3.61system 0:17.24elapsed 48%CPU (0avgtext+0avgdata 141612maxresident)k
+4.66user 3.61system 0:17.24elapsed 48%CPU (0avgtext+0avgdata 141612maxresident)k
+1408inputs+0outputs (0major+306693minor)pagefaults 0swaps

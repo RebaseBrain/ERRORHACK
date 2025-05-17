@@ -1,0 +1,58 @@
+<86>May 16 01:10:12 userdel[1369784]: delete user 'rooter'
+<86>May 16 01:10:12 userdel[1369784]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:10:12 groupadd[1369881]: group added to /etc/group: name=rooter, GID=1811
+<86>May 16 01:10:12 groupadd[1369881]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:10:12 groupadd[1369881]: new group: name=rooter, GID=1811
+<86>May 16 01:10:12 useradd[1369930]: new user: name=rooter, UID=1811, GID=1811, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:10:12 userdel[1369994]: delete user 'builder'
+<86>May 16 01:10:12 groupadd[1370055]: group added to /etc/group: name=builder, GID=1812
+<86>May 16 01:10:12 groupadd[1370055]: group added to /etc/gshadow: name=builder
+<86>May 16 01:10:12 groupadd[1370055]: new group: name=builder, GID=1812
+<86>May 16 01:10:12 useradd[1370100]: new user: name=builder, UID=1812, GID=1812, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:10:18 rpmi: rpm-macros-zig-4-alt1 sisyphus+377880.100.3.1 1745315290 installed
+<13>May 16 01:10:21 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:10:21 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:10:21 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 01:10:21 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:10:23 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:10:24 rpmi: libclang-cpp19-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:10:27 rpmi: zig-0.14.0-alt1 sisyphus+377880.300.3.1 1745316758 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/example-zig-3-alt1.nosrc.rpm (w1.gzdio)
+Installing example-zig-3-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.80116
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf example-zig-3
++ echo 'Source #0 (example-zig-3.tar):'
+Source #0 (example-zig-3.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/example-zig-3.tar
++ cd example-zig-3
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80116
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd example-zig-3
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseSafe --system zig-cache --cache-dir zig-cache --global-cache-dir zig-cache
+/usr/src/RPM/BUILD/example-zig-3/build.zig.zon:9:13: error: expected enum literal
+    .name = "example-zig",
+            ^~~~~~~~~~~~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+Command exited with non-zero status 1
+0.03user 0.08system 0:00.19elapsed 62%CPU (0avgtext+0avgdata 71052maxresident)k
+0inputs+0outputs (0major+10059minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `example-zig-3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+7.80user 6.03system 0:28.55elapsed 48%CPU (0avgtext+0avgdata 141760maxresident)k
+43496inputs+0outputs (0major+263771minor)pagefaults 0swaps

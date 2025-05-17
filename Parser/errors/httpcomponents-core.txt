@@ -1,0 +1,77 @@
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 10 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ httpcore ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 86 source files to /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/target/test-classes
+[INFO] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/ssl/TestSSLContextBuilder.java: /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/ssl/TestSSLContextBuilder.java uses or overrides a deprecated API.
+[INFO] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/ssl/TestSSLContextBuilder.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[49,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[50,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[51,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/pool/TestConnPool.java:[39,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/pool/TestConnPool.java:[40,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/io/TestSessionInOutBuffers.java:[45,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/io/TestSessionInOutBuffers.java:[46,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestBHttpConnectionBase.java:[55,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestBHttpConnectionBase.java:[56,19] package org.mockito does not exist
+[INFO] 
+[INFO] Apache HttpComponents Core ......................... SUCCESS [  0.372 s]
+[INFO] Apache HttpCore .................................... FAILURE [  2.191 s]
+[INFO] Apache HttpCore NIO ................................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.044 s
+[INFO] Finished at: 2025-05-16T05:39:26Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project httpcore: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[49,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[50,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestDefaultBHttpServerConnection.java:[51,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/pool/TestConnPool.java:[39,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/pool/TestConnPool.java:[40,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/io/TestSessionInOutBuffers.java:[45,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/io/TestSessionInOutBuffers.java:[46,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestBHttpConnectionBase.java:[55,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestBHttpConnectionBase.java:[56,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/httpcomponents-core-4.4.13/httpcore/src/test/java/org/apache/http/impl/TestBHttpConnectionBase.java:[57,19] package org.mockito does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :httpcore
+[ERROR]   mvn <args> -rf :httpcore
+error: Bad exit status from /usr/src/tmp/rpm-tmp.65697 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.65697 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.65697 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.65697 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+22.83user 3.95system 0:04.65elapsed 575%CPU (0avgtext+0avgdata 715948maxresident)k
+22.83user 3.95system 0:04.65elapsed 575%CPU (0avgtext+0avgdata 715948maxresident)k
+0inputs+0outputs (0major+154312minor)pagefaults 0swaps
+0inputs+0outputs (0major+154312minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `httpcomponents-core-4.4.13-alt1_4jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `httpcomponents-core-4.4.13-alt1_4jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.78user 3.41system 0:22.52elapsed 40%CPU (0avgtext+0avgdata 140820maxresident)k
+5.78user 3.41system 0:22.52elapsed 40%CPU (0avgtext+0avgdata 140820maxresident)k
+32inputs+0outputs (0major+345409minor)pagefaults 0swaps

@@ -1,0 +1,119 @@
+                 from define.h:15,
+                 from readpst.c:8:
+/usr/include/bits/stdio2.h:65:1: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   65 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o libpst.lo libpst.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c libpst.c  -fPIC -DPIC -o .libs/libpst.o
+libpst.c: In function 'pst_read_block_size':
+libpst.c:3832:36: error: passing argument 2 of 'uncompress' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3832 |     if (uncompress((Bytef *) *buf, &result_size, (Bytef *) zbuf, size) != Z_OK || result_size != inflated_size) {
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    size_t * {aka unsigned int *}
+In file included from libpst.c:9:
+/usr/include/zlib.h:1270:55: note: expected 'uLongf *' {aka 'long unsigned int *'} but argument is of type 'size_t *' {aka 'unsigned int *'}
+ 1270 | ZEXTERN int ZEXPORT uncompress(Bytef *dest,   uLongf *destLen,
+      |                                               ~~~~~~~~^~~~~~~
+libpst.c: In function 'pst_rfc2231':
+libpst.c:4481:22: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from common.h:6,
+                 from libpst.h:13,
+                 from define.h:15,
+                 from libpst.c:8:
+/usr/include/bits/stdio2.h:65:1: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   65 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+make[2]: *** [Makefile:793: libpst.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o nick2ldif.o nick2ldif.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o deltasearch.o deltasearch.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..   -I/usr/include/libgsf-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o readpst-msg.o `test -f 'msg.cpp' || echo './'`msg.cpp
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2ldif.o pst2ldif.cpp
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2ldif.o pst2ldif.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2dii.o pst2dii.cpp
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2dii.o pst2dii.cpp
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2dii.o pst2dii.cpp
+pst2dii.cpp: In function 'void close_pdf()':
+pst2dii.cpp: In function 'void close_pdf()':
+pst2dii.cpp: In function 'void close_pdf()':
+pst2dii.cpp:385:17: warning: ignoring return value of 'int system(const char*)' declared with attribute 'warn_unused_result' [-Wunused-result]
+pst2dii.cpp:385:17: warning: ignoring return value of 'int system(const char*)' declared with attribute 'warn_unused_result' [-Wunused-result]
+pst2dii.cpp:385:17: warning: ignoring return value of 'int system(const char*)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  385 |     (void)system(conversion.c_str());
+  385 |     (void)system(conversion.c_str());
+  385 |     (void)system(conversion.c_str());
+      |           ~~~~~~^~~~~~~~~~~~~~~~~~~~
+      |           ~~~~~~^~~~~~~~~~~~~~~~~~~~
+      |           ~~~~~~^~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[1]: *** [Makefile:576: all-recursive] Error 1
+make[1]: *** [Makefile:576: all-recursive] Error 1
+make[1]: *** [Makefile:576: all-recursive] Error 1
+make[1]: *** [Makefile:576: all-recursive] Error 1
+make: *** [Makefile:462: all] Error 2
+make: *** [Makefile:462: all] Error 2
+make: *** [Makefile:462: all] Error 2
+make: *** [Makefile:462: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+15.54user 7.76system 0:20.00elapsed 116%CPU (0avgtext+0avgdata 62736maxresident)k
+15.54user 7.76system 0:20.00elapsed 116%CPU (0avgtext+0avgdata 62736maxresident)k
+15.54user 7.76system 0:20.00elapsed 116%CPU (0avgtext+0avgdata 62736maxresident)k
+15.54user 7.76system 0:20.00elapsed 116%CPU (0avgtext+0avgdata 62736maxresident)k
+0inputs+0outputs (0major+2006240minor)pagefaults 0swaps
+0inputs+0outputs (0major+2006240minor)pagefaults 0swaps
+0inputs+0outputs (0major+2006240minor)pagefaults 0swaps
+0inputs+0outputs (0major+2006240minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libpst-0.6.76-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libpst-0.6.76-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libpst-0.6.76-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libpst-0.6.76-alt4.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.77user 4.82system 0:51.58elapsed 20%CPU (0avgtext+0avgdata 132500maxresident)k
+5.77user 4.82system 0:51.58elapsed 20%CPU (0avgtext+0avgdata 132500maxresident)k
+880inputs+0outputs (0major+329551minor)pagefaults 0swaps

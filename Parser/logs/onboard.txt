@@ -1,0 +1,446 @@
+<86>May 16 03:21:03 userdel[315143]: delete user 'rooter'
+<86>May 16 03:21:03 userdel[315143]: removed group 'rooter' owned by 'rooter'
+<86>May 16 03:21:03 userdel[315143]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 03:21:03 groupadd[315182]: group added to /etc/group: name=rooter, GID=1814
+<86>May 16 03:21:03 groupadd[315182]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:21:03 groupadd[315182]: new group: name=rooter, GID=1814
+<86>May 16 03:21:03 useradd[315207]: new user: name=rooter, UID=1814, GID=1814, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:21:03 userdel[315242]: delete user 'builder'
+<86>May 16 03:21:03 userdel[315242]: removed group 'builder' owned by 'builder'
+<86>May 16 03:21:03 userdel[315242]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 03:21:03 groupadd[315287]: group added to /etc/group: name=builder, GID=1815
+<86>May 16 03:21:03 groupadd[315287]: group added to /etc/gshadow: name=builder
+<86>May 16 03:21:03 groupadd[315287]: new group: name=builder, GID=1815
+<86>May 16 03:21:03 useradd[315320]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:21:09 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 03:21:09 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 03:21:09 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 03:21:09 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 03:21:09 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 03:21:09 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:21:09 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 03:21:09 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:21:09 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:21:09 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 03:21:09 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 03:21:09 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:21:09 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:21:09 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:21:09 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:21:10 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:21:10 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 03:21:10 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+<13>May 16 03:21:10 rpmi: rpm-macros-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 03:21:10 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 03:21:10 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 03:21:10 rpmi: rpm-build-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 03:21:10 rpmi: rpm-build-gnome-2.0-alt2 1307452821 installed
+<13>May 16 03:21:15 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 03:21:15 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:15 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 03:21:15 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:21:15 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:21:15 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 03:21:15 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 03:21:15 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 03:21:15 rpmi: perl-XML-NamespaceSupport-1.12-alt1 1491296348 installed
+<13>May 16 03:21:15 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 03:21:15 rpmi: libatk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 03:21:15 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 03:21:15 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 03:21:15 rpmi: libxkbcommon-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 03:21:15 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 03:21:15 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 03:21:15 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 03:21:15 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 03:21:15 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 03:21:15 rpmi: perl-XML-SAX-Base-1.09-alt1 1494364363 installed
+<13>May 16 03:21:15 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 03:21:16 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:21:16 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 03:21:16 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 03:21:16 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 03:21:16 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 03:21:16 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 03:21:16 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 03:21:16 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:21:16 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:21:16 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:21:16 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 03:21:16 rpmi: libflac14-1.5.0-alt1 sisyphus+374510.100.1.1 1739435174 installed
+<13>May 16 03:21:16 rpmi: libwayland-cursor-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:21:16 rpmi: libwayland-egl-4:18.1.0-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:21:16 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 03:21:16 groupadd[339231]: group added to /etc/group: name=messagebus, GID=999
+<86>May 16 03:21:16 groupadd[339231]: group added to /etc/gshadow: name=messagebus
+<86>May 16 03:21:16 groupadd[339231]: new group: name=messagebus, GID=999
+<86>May 16 03:21:16 useradd[339245]: new user: name=messagebus, UID=999, GID=999, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 03:21:16 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 03:21:16 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 03:21:16 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 03:21:16 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 03:21:16 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 03:21:16 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 03:21:16 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 03:21:16 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 03:21:16 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 03:21:16 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:21:16 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:21:16 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:21:16 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:21:17 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:21:17 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 03:21:18 rpmi: libhunspell-1.7.2-alt1 sisyphus+346301.200.2.1 1716443379 installed
+<13>May 16 03:21:18 rpmi: wayland-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:21:18 rpmi: libwayland-client-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:21:18 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 03:21:18 rpmi: libgudev-1:238-alt1 sisyphus+324364.100.1.1 1688646144 installed
+<13>May 16 03:21:18 rpmi: libepoxy-1.5.10-alt1 sisyphus+296853.200.2.1 1647631866 installed
+<13>May 16 03:21:18 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 03:21:18 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 03:21:18 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 03:21:18 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 03:21:18 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 03:21:18 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<86>May 16 03:21:18 groupadd[341342]: group added to /etc/group: name=_keytab, GID=998
+<86>May 16 03:21:18 groupadd[341342]: group added to /etc/gshadow: name=_keytab
+<86>May 16 03:21:18 groupadd[341342]: new group: name=_keytab, GID=998
+<13>May 16 03:21:18 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 03:21:18 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 03:21:18 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 03:21:18 rpmi: libtdb-1.4.10-alt1 sisyphus+342425.100.8.1 1714748986 installed
+<13>May 16 03:21:18 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659208 installed
+<13>May 16 03:21:18 rpmi: libopus-1.5.2-alt1.1 sisyphus+366209.100.1.1 1734786371 installed
+<13>May 16 03:21:18 rpmi: libmpg123-1:1.32.10-alt1 sisyphus+365072.100.1.1 1734226035 installed
+<13>May 16 03:21:18 rpmi: liblame-3.100-alt1 sisyphus+346342.200.2.2 1716474674 installed
+<13>May 16 03:21:18 rpmi: libgsm-1.0.22-alt1 sisyphus+381615.100.1.1 1744646649 installed
+<13>May 16 03:21:18 rpmi: libsndfile-1.2.2-alt1 sisyphus+380661.100.1.1 1744001678 installed
+<13>May 16 03:21:18 rpmi: sound-theme-freedesktop-0.8-alt1 sisyphus+277010.100.1.2 1625346634 installed
+<13>May 16 03:21:18 rpmi: libasyncns-0.8-alt2.qa1 sisyphus+275091.100.1.1 1624402241 installed
+<13>May 16 03:21:18 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 03:21:18 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 03:21:18 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 03:21:18 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 03:21:18 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 03:21:18 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 03:21:18 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 03:21:18 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 03:21:18 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 03:21:18 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 03:21:18 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 03:21:18 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 03:21:18 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 03:21:18 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 03:21:18 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 03:21:18 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 03:21:18 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 03:21:18 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 03:21:18 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 03:21:18 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 03:21:18 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 03:21:18 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 03:21:18 rpmi: perl-XML-LibXML-2.0210-alt8 sisyphus+355798.100.1.1 1724340088 installed
+<13>May 16 03:21:18 rpmi: perl-XML-SAX-1.02-alt1 sisyphus+232322.100.1.1 1560758406 installed
+<13>May 16 03:21:18 rpmi: perl-XML-Simple-2.25-alt2 sisyphus+257498.100.1.1 1599324034 installed
+<13>May 16 03:21:18 rpmi: icon-naming-utils-0.8.90-alt1 sisyphus+276851.100.1.1 1625243947 installed
+<13>May 16 03:21:18 rpmi: icon-theme-adwaita-48.0-alt1 sisyphus+378197.1000.1.1 1742091975 installed
+<13>May 16 03:21:18 rpmi: perl-XML-Parser-2.47-alt1 sisyphus+337612.100.1.1 1704201438 installed
+<13>May 16 03:21:18 rpmi: usbids-20240206-alt1 sisyphus+339943.100.1.1 1707270512 installed
+<13>May 16 03:21:18 rpmi: pciids-20250508-alt1 sisyphus+383607.100.1.1 1746722444 installed
+<13>May 16 03:21:19 rpmi: hwdata-0.384-alt1 sisyphus+354460.100.1.1 1722898493 installed
+<13>May 16 03:21:19 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 03:21:19 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 03:21:19 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 03:21:19 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 03:21:19 rpmi: gtk-builder-convert-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 16 03:21:19 rpmi: gtk+3-themes-incompatible-3.20-alt3 1461944560 installed
+<13>May 16 03:21:19 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 03:21:19 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:21:20 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:21:20 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 03:21:20 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:21:20 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:21:20 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:21:20 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 03:21:20 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 03:21:20 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 03:21:21 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 03:21:21 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:21:21 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:21:21 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 03:21:21 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 03:21:21 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 03:21:21 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 03:21:21 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 03:21:21 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<86>May 16 03:21:21 groupadd[346158]: group added to /etc/group: name=tape, GID=997
+<86>May 16 03:21:21 groupadd[346158]: group added to /etc/gshadow: name=tape
+<86>May 16 03:21:21 groupadd[346158]: new group: name=tape, GID=997
+<86>May 16 03:21:21 groupadd[346166]: group added to /etc/group: name=dialout, GID=996
+<86>May 16 03:21:21 groupadd[346166]: group added to /etc/gshadow: name=dialout
+<86>May 16 03:21:21 groupadd[346166]: new group: name=dialout, GID=996
+<86>May 16 03:21:21 groupadd[346172]: group added to /etc/group: name=input, GID=995
+<86>May 16 03:21:21 groupadd[346172]: group added to /etc/gshadow: name=input
+<86>May 16 03:21:21 groupadd[346172]: new group: name=input, GID=995
+<86>May 16 03:21:21 groupadd[346178]: group added to /etc/group: name=video, GID=994
+<86>May 16 03:21:21 groupadd[346178]: group added to /etc/gshadow: name=video
+<86>May 16 03:21:21 groupadd[346178]: new group: name=video, GID=994
+<86>May 16 03:21:21 groupadd[346184]: group added to /etc/group: name=render, GID=993
+<86>May 16 03:21:21 groupadd[346184]: group added to /etc/gshadow: name=render
+<86>May 16 03:21:21 groupadd[346184]: new group: name=render, GID=993
+<86>May 16 03:21:21 groupadd[346190]: group added to /etc/group: name=sgx, GID=992
+<86>May 16 03:21:21 groupadd[346190]: group added to /etc/gshadow: name=sgx
+<86>May 16 03:21:21 groupadd[346190]: new group: name=sgx, GID=992
+<13>May 16 03:21:21 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 03:21:22 rpmi: dconf-profile-0.2-alt1 sisyphus+371122.100.2.1 1737999051 installed
+<13>May 16 03:21:22 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: libfdisk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 03:21:22 rpmi: systemd-utils-standalone-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:21:22 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 03:21:22 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 03:21:22 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 03:21:22 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 03:21:22 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 03:21:22 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 03:21:22 rpmi: libgio-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 03:21:22 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 03:21:22 rpmi: libdconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 03:21:22 rpmi: dconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 03:21:22 rpmi: libgtk+3-schemas-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 03:21:22 rpmi: gtk4-update-icon-cache-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 03:21:22 rpmi: libgdk-pixbuf-devel-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 03:21:22 rpmi: libatk-devel-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 03:21:23 rpmi: libgstreamer1.0-1.26.1-alt1 sisyphus+382621.100.2.3 1745748948 installed
+<13>May 16 03:21:23 rpmi: libjson-glib-1.10.6-alt1 sisyphus+364645.100.1.1 1733849752 installed
+<13>May 16 03:21:23 rpmi: libgusb-0.4.9-alt1 sisyphus+345693.100.1.1 1713857461 installed
+<13>May 16 03:21:23 rpmi: libcolord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 03:21:23 rpmi: libpolkit-126-alt2 sisyphus+383823.100.1.1 1746990253 installed
+<86>May 16 03:21:23 groupadd[349079]: group added to /etc/group: name=colord, GID=991
+<86>May 16 03:21:23 groupadd[349079]: group added to /etc/gshadow: name=colord
+<86>May 16 03:21:23 groupadd[349079]: new group: name=colord, GID=991
+<86>May 16 03:21:23 useradd[349121]: new user: name=colord, UID=998, GID=991, home=/var/colord, shell=/dev/null, from=none
+<13>May 16 03:21:23 rpmi: colord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 03:21:23 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:21:23 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 03:21:23 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 03:21:23 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:21:23 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 03:21:23 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 03:21:23 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:21:23 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 03:21:23 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 03:21:23 rpmi: libat-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 03:21:23 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:21:23 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 03:21:23 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 03:21:23 rpmi: libXtst-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 03:21:25 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 03:21:25 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:21:25 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 03:21:25 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 03:21:25 rpmi: libXfixes-devel-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 03:21:25 rpmi: libXi-devel-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 03:21:25 rpmi: at-spi2-atk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 03:21:25 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 03:21:25 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:21:25 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 03:21:25 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 03:21:25 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:21:25 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:21:25 rpmi: libcairo-gobject-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:21:25 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 03:21:25 rpmi: libpango-devel-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 03:21:25 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 03:21:25 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 03:21:25 rpmi: dbus-tools-gui-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 03:21:25 rpmi: xprop-1.2.5-alt1 sisyphus+279025.100.1.1 1626354198 installed
+<13>May 16 03:21:25 rpmi: at-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 03:21:25 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 03:21:25 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 03:21:26 rpmi: libgtk+3-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 03:21:26 rpmi: libxkbfile-1.1.3-alt1 sisyphus+343583.1100.1.1 1711441133 installed
+<13>May 16 03:21:26 rpmi: libpulseaudio-17.0-alt2 sisyphus+339257.100.1.1 1706519226 installed
+<13>May 16 03:21:26 rpmi: alsa-ucm-conf-1.2.13-alt2 sisyphus+379457.100.1.1 1743144589 installed
+<13>May 16 03:21:26 rpmi: alsa-topology-conf-1.2.5.1-alt1 sisyphus+274777.100.1.1 1624089141 installed
+<13>May 16 03:21:26 rpmi: libalsa-1:1.2.13-alt1 sisyphus+370533.200.1.1 1737298943 installed
+<13>May 16 03:21:26 rpmi: libcanberra-0.30-alt3 sisyphus+275093.100.2.3 1624562350 installed
+<13>May 16 03:21:26 rpmi: libcanberra-devel-0.30-alt3 sisyphus+275093.100.2.3 1624562350 installed
+<13>May 16 03:21:26 rpmi: libxkbfile-devel-1.1.3-alt1 sisyphus+343583.1100.1.1 1711441133 installed
+<13>May 16 03:21:26 rpmi: libgtk+3-devel-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 03:21:26 rpmi: libXtst-devel-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 03:21:26 rpmi: libdconf-devel-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 03:21:26 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 03:21:26 rpmi: intltool-0.51.0-alt2 1513698802 installed
+<13>May 16 03:21:26 rpmi: libhunspell-devel-1.7.2-alt1 sisyphus+346301.200.2.1 1716443379 installed
+<13>May 16 03:21:26 rpmi: python3-module-distutils-extra-3.1-alt1 sisyphus+364122.100.1.1 1733391974 installed
+<13>May 16 03:21:26 rpmi: libxkbcommon-devel-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 03:21:26 rpmi: libudev-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/onboard-1.4.2.2-alt2.nosrc.rpm (w1.gzdio)
+Installing onboard-1.4.2.2-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.70507
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf onboard-1.4.2.2
++ echo 'Source #0 (onboard-1.4.2.2.tar):'
+Source #0 (onboard-1.4.2.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/onboard-1.4.2.2.tar
++ cd onboard-1.4.2.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (build-against-Ayatana-AppIndicator.patch):'
+Patch #0 (build-against-Ayatana-AppIndicator.patch):
++ /usr/bin/patch -p1
+patching file Onboard/Indicator.py
+patching file Onboard/Version.py
++ echo 'Patch #1 (1004-fix-ftbfs-python3-12.patch):'
+Patch #1 (1004-fix-ftbfs-python3-12.patch):
++ /usr/bin/patch -p1
+patching file setup.py
+Hunk #1 succeeded at 266 (offset 35 lines).
++ install -Dpm0644 /usr/src/RPM/SOURCES/ru.po po/ru.po
++ rm settings_ui.py
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.20274
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd onboard-1.4.2.2
++ export FAKEROOTKEY=1
++ FAKEROOTKEY=1
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/onboard-1.4.2.2
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/onboard-1.4.2.2/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/onboard-1.4.2.2/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+found dconf version 0.40.0
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Version.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Indicator.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/utils.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/settings.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/emoji_data.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/definitions.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/canonical_equivalents.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/__init__.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/XInput.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/WordSuggestions.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/WindowUtils.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/WPEngine.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/UnicodeData.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/UDevTracker.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/TouchInput.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/TouchHandles.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Timer.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/TextDomain.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/TextContext.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/TextChanges.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/SpellChecker.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Sound.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/SnippetView.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Scanner.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/OnboardGtk.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/LayoutView.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/LayoutLoaderSVG.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Layout.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/LanguageSupport.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/KeyboardWidget.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/KeyboardPopups.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Keyboard.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/KeyGtk.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/KeyCommon.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/KbdWindow.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/IconPalette.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/HardwareSensorTracker.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/GlobalKeyListener.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Exceptions.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/DBusUtils.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/ConfigUtils.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Config.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/ClickSimulator.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/CharacterPalette.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/AutoShow.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/AutoHide.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/AtspiStateTracker.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : copying Onboard/Appearance.py -> build/lib.linux-x86_64-cpython-312/Onboard
+INFO     : root : creating build/lib.linux-x86_64-cpython-312/Onboard/pypredict
+INFO     : root : copying Onboard/pypredict/lm_wrapper.py -> build/lib.linux-x86_64-cpython-312/Onboard/pypredict
+INFO     : root : copying Onboard/pypredict/__init__.py -> build/lib.linux-x86_64-cpython-312/Onboard/pypredict
+INFO     : root : running build_ext
+INFO     : root : building 'Onboard.osk' extension
+INFO     : root : creating build/temp.linux-x86_64-cpython-312/Onboard/osk
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_audio.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_audio.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_click_mapper.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_click_mapper.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_dconf.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_dconf.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_devices.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_devices.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_hunspell.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_hunspell.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_module.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_module.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_struts.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_struts.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_udev.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_udev.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_uinput.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_uinput.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_util.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_util.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_virtkey.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_virtkey.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DMAJOR_VERSION=0 -DMINOR_VERSION=4 -DMICRO_VERSION=0 -I/usr/include/cairo -I/usr/include/dconf -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/include/gtk-3.0 -I/usr/include/harfbuzz -I/usr/include/hunspell -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/lib64/glib-2.0/include -I/usr/include/python3.12 -c Onboard/osk/osk_virtkey_wayland.c -o build/temp.linux-x86_64-cpython-312/Onboard/osk/osk_virtkey_wayland.o -Wsign-compare -Wdeclaration-after-statement -Wlogical-op
+In file included from /usr/include/xkbcommon/xkbcommon.h:23,
+                 from Onboard/osk/osk_virtkey_wayland.c:32:
+Onboard/osk/osk_module.h:30:16: error: expected identifier before numeric constant
+   30 | typedef enum { false, true } bool;
+      |                ^~~~~
+Onboard/osk/osk_module.h:30:30: error: expected ‘;’, identifier or ‘(’ before ‘_Bool’
+   30 | typedef enum { false, true } bool;
+      |                              ^~~~
+error: command '/usr/bin/x86_64-alt-linux-gcc' failed with exit code 1
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib/python3/site-packages/pyproject_installer/__main__.py", line 607, in <module>
+    main(sys.argv[1:])
+  File "/usr/lib/python3/site-packages/pyproject_installer/__main__.py", line 603, in main
+    args.main(args, parser)
+  File "/usr/lib/python3/site-packages/pyproject_installer/__main__.py", line 40, in build
+    build_func(
+  File "/usr/lib/python3/site-packages/pyproject_installer/build_cmd/_build.py", line 61, in build_wheel
+    wheel_filename = build(
+                     ^^^^^^
+  File "/usr/lib/python3/site-packages/pyproject_installer/build_cmd/_build.py", line 49, in build
+    hook_result = backend_hook(
+                  ^^^^^^^^^^^^^
+  File "/usr/lib/python3/site-packages/pyproject_installer/lib/build_backend.py", line 279, in backend_hook
+    raise RuntimeError(err_msg) from None
+RuntimeError: build_wheel failed
+error: Bad exit status from /usr/src/tmp/rpm-tmp.20274 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.20274 (%build)
+Command exited with non-zero status 1
+5.10user 0.96system 0:06.28elapsed 96%CPU (0avgtext+0avgdata 82780maxresident)k
+0inputs+0outputs (0major+81658minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `onboard-1.4.2.2-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+9.39user 5.79system 0:42.67elapsed 35%CPU (0avgtext+0avgdata 141872maxresident)k
+10120inputs+0outputs (0major+351912minor)pagefaults 0swaps

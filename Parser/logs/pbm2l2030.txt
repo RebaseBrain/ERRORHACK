@@ -1,0 +1,123 @@
+<86>May 16 00:03:34 userdel[3161436]: delete user 'rooter'
+<86>May 16 00:03:34 userdel[3161436]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:03:34 userdel[3161436]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:03:34 groupadd[3161447]: group added to /etc/group: name=rooter, GID=1802
+<86>May 16 00:03:34 groupadd[3161447]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:03:34 groupadd[3161447]: new group: name=rooter, GID=1802
+<86>May 16 00:03:34 useradd[3161457]: new user: name=rooter, UID=1802, GID=1802, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:03:34 userdel[3161470]: delete user 'builder'
+<86>May 16 00:03:34 userdel[3161470]: removed group 'builder' owned by 'builder'
+<86>May 16 00:03:34 userdel[3161470]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:03:34 groupadd[3161480]: group added to /etc/group: name=builder, GID=1803
+<86>May 16 00:03:34 groupadd[3161480]: group added to /etc/gshadow: name=builder
+<86>May 16 00:03:34 groupadd[3161480]: new group: name=builder, GID=1803
+<86>May 16 00:03:34 useradd[3161503]: new user: name=builder, UID=1803, GID=1803, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/pbm2l2030-1.4-alt1.qa2.src.rpm: The use of such a license name is ambiguous: GPL
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/pbm2l2030-1.4-alt1.qa2.nosrc.rpm (w1.gzdio)
+Installing pbm2l2030-1.4-alt1.qa2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.32530
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pbm2l2030-1.4
++ echo 'Source #0 (pbm2l2030-1.4.tar):'
+Source #0 (pbm2l2030-1.4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/pbm2l2030-1.4.tar
++ cd pbm2l2030-1.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.32530
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pbm2l2030-1.4
++ gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o pbm2l2030 pbm2l2030.c pbm.c
+In file included from pbm2l2030.c:41:
+pbm.h:28:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   28 | #endif;
+      |       ^
+pbm2l2030.c: In function 'print_pbm':
+pbm2l2030.c:246:5: error: implicit declaration of function 'hilfe' [-Wimplicit-function-declaration]
+  246 |     hilfe("No pages printed! Try /usr/bin/pbm2ppa < input > output to check...");
+      |     ^~~~~
+pbm2l2030.c: At top level:
+pbm2l2030.c:259:1: error: return type defaults to 'int' [-Wimplicit-int]
+  259 | hilfe(char *fehler)
+      | ^~~~~
+pbm2l2030.c:271:5: warning: first argument of 'main' should be 'int' [-Wmain]
+  271 | int main(char argv[], int argc)
+      |     ^~~~
+pbm2l2030.c:271:5: warning: second argument of 'main' should be 'char **' [-Wmain]
+pbm2l2030.c: In function 'print_pbm':
+pbm2l2030.c:237:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  237 |       fgets (line, 1024, in);
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+pbm2l2030.c: In function 'hilfe':
+pbm2l2030.c:263:1: warning: control reaches end of non-void function [-Wreturn-type]
+  263 | }
+      | ^
+In file included from pbm.c:19:
+pbm.h:28:7: warning: extra tokens at end of #endif directive [-Wendif-labels]
+   28 | #endif;
+      |       ^
+pbm.c: In function 'make_pbm_stat':
+pbm.c:33:8: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   33 |   line[strlen(line)-1] = 0;
+      |        ^~~~~~
+pbm.c:20:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   19 | #include "pbm.h"
+  +++ |+#include <string.h>
+   20 | 
+pbm.c:33:8: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   33 |   line[strlen(line)-1] = 0;
+      |        ^~~~~~
+pbm.c:33:8: note: include '<string.h>' or provide a declaration of 'strlen'
+pbm.c:35:7: error: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+   35 |   if(!strncmp(line,"P1",2)) pbm->version=P1;
+      |       ^~~~~~~
+pbm.c:35:7: note: include '<string.h>' or provide a declaration of 'strncmp'
+pbm.c:35:25: warning: 'strncmp' argument 3 type is 'int' where 'long unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+   35 |   if(!strncmp(line,"P1",2)) pbm->version=P1;
+      |                         ^
+<built-in>: note: built-in 'strncmp' declared here
+pbm.c:36:25: warning: 'strncmp' argument 3 type is 'int' where 'long unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+   36 |   if(!strncmp(line,"P4",2)) pbm->version=P4;
+      |                         ^
+<built-in>: note: built-in 'strncmp' declared here
+pbm.c: In function 'getbytes':
+pbm.c:62:37: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+   62 |   for(mask=0x80, acc=0, num=0, place=data; num<width; )
+      |                                     ^
+pbm.c: In function 'pbm_readline':
+pbm.c:97:7: error: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+   97 |       memcpy (data, pbm->revdata, (pbm->width+7)/8);
+      |       ^~~~~~
+pbm.c:97:7: note: include '<string.h>' or provide a declaration of 'memcpy'
+pbm.c:97:7: warning: incompatible implicit declaration of built-in function 'memcpy' [-Wbuiltin-declaration-mismatch]
+pbm.c:97:7: note: include '<string.h>' or provide a declaration of 'memcpy'
+pbm.c: In function 'pbm_unreadline':
+pbm.c:140:3: warning: incompatible implicit declaration of built-in function 'memcpy' [-Wbuiltin-declaration-mismatch]
+  140 |   memcpy (pbm->revdata, data, (pbm->width+7)/8);
+      |   ^~~~~~
+pbm.c:140:3: note: include '<string.h>' or provide a declaration of 'memcpy'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32530 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32530 (%build)
+Command exited with non-zero status 1
+0.03user 0.05system 0:00.08elapsed 106%CPU (0avgtext+0avgdata 19740maxresident)k
+0inputs+0outputs (0major+8632minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pbm2l2030-1.4-alt1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+0.54user 1.58system 0:04.09elapsed 52%CPU (0avgtext+0avgdata 11476maxresident)k
+0inputs+0outputs (0major+84805minor)pagefaults 0swaps

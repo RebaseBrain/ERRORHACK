@@ -1,0 +1,237 @@
+<86>May 16 00:05:25 userdel[1219456]: delete user 'rooter'
+<86>May 16 00:05:25 userdel[1219456]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:05:25 userdel[1219456]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:05:25 groupadd[1219471]: group added to /etc/group: name=rooter, GID=1244
+<86>May 16 00:05:25 groupadd[1219471]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:05:25 groupadd[1219471]: new group: name=rooter, GID=1244
+<86>May 16 00:05:25 useradd[1219477]: new user: name=rooter, UID=1244, GID=1244, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:05:25 userdel[1219487]: delete user 'builder'
+<86>May 16 00:05:25 userdel[1219487]: removed group 'builder' owned by 'builder'
+<86>May 16 00:05:25 userdel[1219487]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:05:25 groupadd[1219512]: group added to /etc/group: name=builder, GID=1245
+<86>May 16 00:05:25 groupadd[1219512]: group added to /etc/gshadow: name=builder
+<86>May 16 00:05:25 groupadd[1219512]: new group: name=builder, GID=1245
+<86>May 16 00:05:25 useradd[1219535]: new user: name=builder, UID=1245, GID=1245, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/pdksh-5.2.14-alt5.src.rpm: license not found in '/usr/share/license' directory: Public
+/usr/src/in/srpm/pdksh-5.2.14-alt5.src.rpm: license not found in '/usr/share/license' directory: Domain
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/pdksh-5.2.14-alt5.nosrc.rpm (w1.gzdio)
+Installing pdksh-5.2.14-alt5.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.11088
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pdksh-5.2.14
++ echo 'Source #0 (pdksh-5.2.14.tar.bz2):'
+Source #0 (pdksh-5.2.14.tar.bz2):
++ /usr/bin/bzip2 -dc /usr/src/RPM/SOURCES/pdksh-5.2.14.tar.bz2
++ /bin/tar -xf -
++ cd pdksh-5.2.14
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (pdksh-5.2.14-manloc.patch):'
+Patch #0 (pdksh-5.2.14-manloc.patch):
++ /usr/bin/patch -p1 -b --suffix .manloc
+patching file Makefile.in
++ echo 'Patch #1 (pdksh-5.2.14-debian.patch):'
+Patch #1 (pdksh-5.2.14-debian.patch):
++ /usr/bin/patch -p1 -b --suffix .debian
+patching file alloc.c
+patching file c_ksh.c
+patching file c_sh.c
+patching file c_test.c
+patching file c_ulimit.c
+patching file edit.c
+patching file edit.h
+patching file emacs.c
+patching file eval.c
+patching file exec.c
+patching file history.c
+patching file io.c
+patching file jobs.c
+patching file ksh.Man
+patching file lex.c
+patching file main.c
+patching file misc.c
+patching file sh.h
+patching file shf.c
+patching file siglist.sh
+patching file table.c
+patching file trap.c
+patching file tree.c
+patching file var.c
+patching file vi.c
+patching file tests/th
++ echo 'Patch #2 (pdksh-child_max.patch):'
+Patch #2 (pdksh-child_max.patch):
++ /usr/bin/patch -p1 -b --suffix .jobs
+patching file jobs.c
++ echo 'Patch #3 (pdksh-5.2.14-fix-str-fmt.patch):'
+Patch #3 (pdksh-5.2.14-fix-str-fmt.patch):
++ /usr/bin/patch -p0 -b --suffix .str
+patching file c_ksh.c
+patching file exec.c
+patching file expr.c
+patching file jobs.c
+patching file lex.c
+patching file main.c
+patching file misc.c
+patching file var.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.11088
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pdksh-5.2.14
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -DDEBIAN '
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -DDEBIAN '
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext
+creating cache ./config.cache
+checking for gcc... gcc
+checking whether we are using GNU C... yes
+checking how to run the C preprocessor... gcc -E
+checking whether gcc needs -traditional... no
+checking if this is a problematic os... checking for minix/config.h... no
+no
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking for opendir in -lndir... no
+checking for sane unistd.h... yes
+checking terminal interface... termios
+checking for stddef.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for fcntl.h... yes
+checking for limits.h... yes
+checking for paths.h... yes
+checking for sys/param.h... yes
+checking for sys/resource.h... yes
+checking for values.h... yes
+checking for ulimit.h... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for off_t in sys/types.h... yes
+checking for mode_t in sys/types.h... yes
+checking for pid_t in sys/types.h... yes
+checking for uid_t in sys/types.h... yes
+checking return type of signal handlers... void
+checking size of int... 0
+checking size of long... 0
+checking for clock_t in any of <sys/types.h>, <sys/times.h> and <sys/time.h>... yes
+checking for sigset_t in <sys/types.h> and <signal.h>... yes
+checking for rlim_t in <sys/types.h> and <sys/resource.h>... yes
+checking for working memmove... no
+checking for working bcopy... no
+checking for memset... no
+checking for confstr... yes
+checking for dup2... yes
+checking for flock... yes
+checking for getcwd... yes
+checking for getwd... yes
+checking for killpg... yes
+checking for nice... yes
+checking for setrlimit... yes
+checking for strerror... yes
+checking for strcasecmp... yes
+checking for strstr... yes
+checking for sysconf... yes
+checking for tcsetpgrp... yes
+checking for ulimit... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for sigsetjmp... no
+checking for _setjmp... yes
+checking for valloc... yes
+checking for getpagesize... yes
+checking for working mmap... no
+checking for lstat... yes
+checking for sys_errlist declaration in errno.h... no
+checking for sys_errlist in library... no
+checking for sys_siglist declaration in signal.h or unistd.h... no
+checking for sys_siglist in library... no
+checking time() declaration in time.h... yes
+checking if times() is present/working... no
+checking for getrusage... yes
+checking whether stat file-mode macros are broken... no
+checking for st_rdev in struct stat... yes
+checking for working const... yes
+checking if compiler understands void... yes
+checking if compiler understands volatile... yes
+checking if compiler understands prototypes... yes
+checking if C compiler groks __attribute__(( .. ))... no
+checking whether #! works in shell scripts... yes
+checking for a BSD compatible install... /usr/bin/ginstall -c
+checking if dup2() works (ie, resets the close-on-exec flag)... no
+checking flavour of signal routines... posix
+checking flavour of pgrp routines... none
+checking if opendir() fails to open non-directories... no
+checking if you have /dev/fd/n... no
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating config.h
++ make siglist.out CPPFLAGS=-P
+make: Entering directory '/usr/src/RPM/BUILD/pdksh-5.2.14'
+CONFIG_FILES="" CONFIG_HEADERS=config.h ./config.status
+creating config.h
+config.h is unchanged
+date > stamp-h
+./siglist.sh "gcc -E -P -DHAVE_CONFIG_H -I. -I." < ./siglist.in > tmpsiglist.out
+In file included from tmpi1232629.c:1:
+sh.h:254:5: error: #error cannot find 32 bit type...
+  254 |    #error cannot find 32 bit type...
+      |     ^~~~~
+make: *** [Makefile:136: siglist.out] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/pdksh-5.2.14'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11088 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11088 (%build)
+Command exited with non-zero status 1
+2.41user 2.36system 0:04.43elapsed 107%CPU (0avgtext+0avgdata 24284maxresident)k
+0inputs+0outputs (0major+392865minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pdksh-5.2.14-alt5.src.rpm' failed.
+Command exited with non-zero status 1
+0.96user 2.11system 0:09.68elapsed 31%CPU (0avgtext+0avgdata 12324maxresident)k
+0inputs+0outputs (0major+84596minor)pagefaults 0swaps

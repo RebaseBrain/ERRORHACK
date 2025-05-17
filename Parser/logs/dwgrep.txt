@@ -1,0 +1,1073 @@
+<86>May 16 03:25:26 userdel[761792]: delete user 'rooter'
+<86>May 16 03:25:26 userdel[761792]: removed group 'rooter' owned by 'rooter'
+<86>May 16 03:25:26 userdel[761792]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 03:25:26 groupadd[761916]: group added to /etc/group: name=rooter, GID=1838
+<86>May 16 03:25:26 groupadd[761916]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:25:26 groupadd[761916]: new group: name=rooter, GID=1838
+<86>May 16 03:25:26 useradd[762061]: new user: name=rooter, UID=1838, GID=1838, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:25:26 userdel[762298]: delete user 'builder'
+<86>May 16 03:25:26 userdel[762298]: removed group 'builder' owned by 'builder'
+<86>May 16 03:25:26 userdel[762298]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 03:25:26 groupadd[762486]: group added to /etc/group: name=builder, GID=1839
+<86>May 16 03:25:26 groupadd[762486]: group added to /etc/gshadow: name=builder
+<86>May 16 03:25:26 groupadd[762486]: new group: name=builder, GID=1839
+<86>May 16 03:25:26 useradd[762645]: new user: name=builder, UID=1839, GID=1839, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:25:29 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 03:25:29 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 03:25:29 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:25:29 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 03:25:29 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 03:25:29 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 03:25:29 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 03:25:29 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 03:25:30 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 03:25:30 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 03:25:30 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 03:25:30 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 03:25:30 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 03:25:30 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 03:25:30 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 03:25:30 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 03:25:30 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 03:25:30 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:25:30 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 03:25:30 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 03:25:30 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 03:25:30 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 03:25:30 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 03:25:30 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 03:25:30 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:25:30 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:25:30 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 03:25:30 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 03:25:30 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:25:30 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:25:30 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 03:25:30 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 03:25:30 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:25:30 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:25:30 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 03:25:30 groupadd[782106]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 03:25:30 groupadd[782106]: group added to /etc/gshadow: name=_keytab
+<86>May 16 03:25:30 groupadd[782106]: new group: name=_keytab, GID=999
+<13>May 16 03:25:30 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 03:25:30 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 03:25:30 groupadd[782279]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 03:25:30 groupadd[782279]: group added to /etc/gshadow: name=sasl
+<86>May 16 03:25:30 groupadd[782279]: new group: name=sasl, GID=998
+<13>May 16 03:25:30 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 03:25:30 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:25:30 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 03:25:30 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 03:25:30 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 03:25:30 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 03:25:32 rpmi: python-sphinx-objects.inv-1:2.3.14.20250414-alt1 sisyphus+381547.100.1.1 1744608913 installed
+<13>May 16 03:25:32 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 03:25:32 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 03:25:32 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 03:25:33 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:25:33 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:25:33 rpmi: python3-module-docutils-0.20.1-alt1 sisyphus+323438.100.1.1 1687370718 installed
+<13>May 16 03:25:33 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 16 03:25:33 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 03:25:33 rpmi: python3-module-alabaster-0.7.16-alt1 sisyphus+349698.100.1.1 1716897815 installed
+<13>May 16 03:25:34 rpmi: python3-module-babel-1:2.17.0-alt1 sisyphus+383519.100.1.1 1746611672 installed
+<13>May 16 03:25:34 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 03:25:34 rpmi: python3-module-defusedxml-0.7.1-alt1 sisyphus+274841.2300.1.1 1624295691 installed
+<13>May 16 03:25:34 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 03:25:34 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 03:25:34 rpmi: python3-module-imagesize-1.4.1-alt1 sisyphus+318084.100.1.1 1680697673 installed
+<13>May 16 03:25:34 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 03:25:34 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 03:25:34 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 03:25:34 rpmi: python3-module-roman_numerals-3.1.0-alt1 sisyphus+376287.100.1.1 1740659993 installed
+<13>May 16 03:25:34 rpmi: python3-module-snowballstemmer-2.2.0-alt1 sisyphus+319215.100.1.1 1682346633 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-applehelp-2.0.0-alt1 sisyphus+353872.100.1.1 1722243556 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-devhelp-2.0.0-alt1 sisyphus+353872.200.1.1 1722243589 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-jquery-4.1-alt3 sisyphus+339023.100.1.1 1706234262 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-jsmath-1.0.1-alt2 sisyphus+348403.100.1.1 1716017686 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-htmlhelp-2.1.0-alt1 sisyphus+353893.100.2.1 1722416845 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-serializinghtml-2.0.0-alt1 sisyphus+361088.100.1.1 1730215552 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinxcontrib-qthelp-2.0.0-alt1 sisyphus+353872.300.1.1 1722243619 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinx-sphinx-build-symlink-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 03:25:34 rpmi: python3-module-sphinx-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 03:25:34 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 03:25:35 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:25:35 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:25:35 rpmi: libelf-devel-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>May 16 03:25:35 rpmi: libdw-devel-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>May 16 03:25:35 rpmi: libasm-devel-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>May 16 03:25:35 rpmi: elfutils-devel-0.191-alt1 sisyphus+347509.100.1.1 1714859321 installed
+<13>May 16 03:25:35 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 03:25:35 rpmi: flex-2.6.4.0.88.9801-alt2 sisyphus+346193.200.3.2 1716466857 installed
+<13>May 16 03:25:35 rpmi: ctest-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/dwgrep-0.4-alt3.nosrc.rpm (w1.gzdio)
+Installing dwgrep-0.4-alt3.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.68065
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf dwgrep-0.4
++ echo 'Source #0 (dwgrep-0.4.tar):'
+Source #0 (dwgrep-0.4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/dwgrep-0.4.tar
++ cd dwgrep-0.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.68065
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd dwgrep-0.4
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux -DSPHINX_EXECUTABLE=/usr/bin/sphinx-build-3
+Problem opening /proc/meminfo
+CMake Deprecation Warning at CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX11
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Checking availability of DWARF and ELF development libraries
+-- Looking for dwfl_module_build_id in elf
+Problem opening /proc/meminfo
+-- Looking for dwfl_module_build_id in elf - found
+-- Found dwarf.h header: /usr/include
+-- Found elf.h header: /usr/include
+-- Found elfutils/libdw.h header: /usr/include
+-- Found libdw library: /usr/lib64/libdw.so
+-- Found libelf library: /usr/lib64/libelf.so
+-- Checking availability of DWARF and ELF development libraries - done
+-- Found FLEX: /usr/bin/flex (found version "2.6.4")
+-- Found BISON: /usr/bin/bison (found version "3.8.2")
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) 
+-- Found Sphinx: /usr/bin/sphinx-build-3
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_FLAGS
+    INCLUDE_INSTALL_DIR
+    LIB_DESTINATION
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+
+
+-- Build files have been written to: /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux
++ cmake --build x86_64-alt-linux --verbose --parallel 16
+Change Dir: '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16
+gmake: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/dwgrep-0.4 -B/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/CMakeFiles /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux//CMakeFiles/progress.marks
+gmake: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergCore.dir/build.make libzwerg/CMakeFiles/LibzwergCore.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergDw.dir/build.make libzwerg/CMakeFiles/LibzwergDw.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibZwergVersionScript.dir/build.make libzwerg/CMakeFiles/LibZwergVersionScript.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/test-int.dir/build.make libzwerg/CMakeFiles/test-int.dir/depend
+/usr/bin/gmake  -f dwgrep/CMakeFiles/AuxLib.dir/build.make dwgrep/CMakeFiles/AuxLib.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/AuxLib.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/test-int.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/AuxLib.dir/build.make dwgrep/CMakeFiles/AuxLib.dir/build
+/usr/bin/gmake  -f libzwerg/CMakeFiles/test-int.dir/build.make libzwerg/CMakeFiles/test-int.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibZwergVersionScript.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibZwergVersionScript.dir/build.make libzwerg/CMakeFiles/LibZwergVersionScript.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && sh /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/build-version-script.sh /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  3%] Generating known-dwarf.h
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && gawk -f /usr/src/RPM/BUILD/dwgrep-0.4/known-dwarf.awk /usr/include/dwarf.h > known-dwarf.h
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  9%] Generating known-dwarf.h
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && gawk -f /usr/src/RPM/BUILD/dwgrep-0.4/known-dwarf.awk /usr/include/dwarf.h > known-dwarf.h
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 15%] Built target LibZwergVersionScript
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  7%] [FLEX][Lexer] Building scanner with flex 2.6.4
+cd /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg && /usr/bin/cmake -E make_directory /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg
+cd /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg && /usr/bin/flex --header-file=/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/lexer.hh -o/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/lexer.cc lexer.ll
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  1%] [BISON][Parser] Building parser with bison 3.8.2
+cd /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg && /usr/bin/cmake -E make_directory /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg
+cd /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg && /usr/bin/bison -d -o /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/parser.cc parser.yy
+parser.yy: warning: 7 shift/reduce conflicts [-Wconflicts-sr]
+parser.yy: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 12%] Building CXX object dwgrep/CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT dwgrep/CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o -MF CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o.d -o CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/strip.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 14%] Building CXX object libzwerg/CMakeFiles/test-int.dir/int.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT libzwerg/CMakeFiles/test-int.dir/int.cc.o -MF CMakeFiles/test-int.dir/int.cc.o.d -o CMakeFiles/test-int.dir/int.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/int.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 15%] Building CXX object libzwerg/CMakeFiles/test-int.dir/test-int.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT libzwerg/CMakeFiles/test-int.dir/test-int.cc.o -MF CMakeFiles/test-int.dir/test-int.cc.o.d -o CMakeFiles/test-int.dir/test-int.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/test-int.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 12%] Building CXX object dwgrep/CMakeFiles/AuxLib.dir/options.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT dwgrep/CMakeFiles/AuxLib.dir/options.cc.o -MF CMakeFiles/AuxLib.dir/options.cc.o.d -o CMakeFiles/AuxLib.dir/options.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep/options.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 17%] Built target AuxLib
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep-genman.dir/build.make dwgrep/CMakeFiles/dwgrep-genman.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/dwgrep-genman.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep-genman.dir/build.make dwgrep/CMakeFiles/dwgrep-genman.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  6%] Generating known-elf.h
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && gawk -f /usr/src/RPM/BUILD/dwgrep-0.4/known-elf.awk /usr/include/elf.h > known-elf.h
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  4%] Generating known-elf.h
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && gawk -f /usr/src/RPM/BUILD/dwgrep-0.4/known-elf.awk /usr/include/elf.h > known-elf.h
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergCore.dir/build.make libzwerg/CMakeFiles/LibzwergCore.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergDw.dir/build.make libzwerg/CMakeFiles/LibzwergDw.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 18%] Building CXX object dwgrep/CMakeFiles/dwgrep-genman.dir/genman.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT dwgrep/CMakeFiles/dwgrep-genman.dir/genman.cc.o -MF CMakeFiles/dwgrep-genman.dir/genman.cc.o.d -o CMakeFiles/dwgrep-genman.dir/genman.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep/genman.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 17%] Linking CXX executable test-int
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_link_script CMakeFiles/test-int.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/test-int.dir/link.d "CMakeFiles/test-int.dir/test-int.cc.o" "CMakeFiles/test-int.dir/int.cc.o" -o test-int
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 42%] Built target test-int
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 40%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/int.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/int.cc.o -MF CMakeFiles/LibzwergCore.dir/int.cc.o.d -o CMakeFiles/LibzwergCore.dir/int.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/int.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 29%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o -MF CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o.d -o CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-shf.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-shf.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-shf.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 34%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/constant.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/constant.cc.o -MF CMakeFiles/LibzwergCore.dir/constant.cc.o.d -o CMakeFiles/LibzwergCore.dir/constant.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/constant.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 23%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/lexer.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/lexer.cc.o -MF CMakeFiles/LibzwergCore.dir/lexer.cc.o.d -o CMakeFiles/LibzwergCore.dir/lexer.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/lexer.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from parser.yy:37,
+                 from lexer.ll:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 29%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o -MF CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o.d -o CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cmp.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cmp.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.hh:42,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cmp.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cmp.cc:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 25%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o -MF CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o.d -o CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-closure.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-closure.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-closure.cc:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 42%] Linking CXX executable dwgrep-genman
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/cmake -E cmake_link_script CMakeFiles/dwgrep-genman.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/dwgrep-genman.dir/link.d "CMakeFiles/dwgrep-genman.dir/genman.cc.o" CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o CMakeFiles/AuxLib.dir/options.cc.o -o dwgrep-genman
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 50%] Built target dwgrep-genman
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 23%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/bindings.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/bindings.cc.o -MF CMakeFiles/LibzwergCore.dir/bindings.cc.o.d -o CMakeFiles/LibzwergCore.dir/bindings.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/bindings.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 35%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/docstring.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/docstring.cc.o -MF CMakeFiles/LibzwergCore.dir/docstring.cc.o.d -o CMakeFiles/LibzwergCore.dir/docstring.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/docstring.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/docstring.hh:34,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/docstring.cc:32:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:36:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 31%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o -MF CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o.d -o CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cst.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cst.hh:36,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cst.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.hh:42,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cst.hh:35:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 51%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/layout.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/layout.cc.o -MF CMakeFiles/LibzwergCore.dir/layout.cc.o.d -o CMakeFiles/LibzwergCore.dir/layout.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/layout.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 34%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/builtin.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/builtin.cc.o -MF CMakeFiles/LibzwergCore.dir/builtin.cc.o.d -o CMakeFiles/LibzwergCore.dir/builtin.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-cst.hh:36,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.cc:35:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.hh:42,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 48%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o -MF CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o.d -o CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwfl_context.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 50%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/dwit.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/dwit.cc.o -MF CMakeFiles/LibzwergDw.dir/dwit.cc.o.d -o CMakeFiles/LibzwergDw.dir/dwit.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwit.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 43%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/cache.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/cache.cc.o -MF CMakeFiles/LibzwergDw.dir/cache.cc.o.d -o CMakeFiles/LibzwergDw.dir/cache.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/cache.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 54%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/dwmods.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/dwmods.cc.o -MF CMakeFiles/LibzwergDw.dir/dwmods.cc.o.d -o CMakeFiles/LibzwergDw.dir/dwmods.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwmods.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 46%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/dwcst.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/dwcst.cc.o -MF CMakeFiles/LibzwergDw.dir/dwcst.cc.o.d -o CMakeFiles/LibzwergDw.dir/dwcst.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwcst.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 45%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/coverage.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/coverage.cc.o -MF CMakeFiles/LibzwergDw.dir/coverage.cc.o.d -o CMakeFiles/LibzwergDw.dir/coverage.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/coverage.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 21%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/parser.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/parser.cc.o -MF CMakeFiles/LibzwergCore.dir/parser.cc.o.d -o CMakeFiles/LibzwergCore.dir/parser.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/parser.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from parser.yy:37,
+                 from parser.yy:31:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 59%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/scon.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/scon.cc.o -MF CMakeFiles/LibzwergCore.dir/scon.cc.o.d -o CMakeFiles/LibzwergCore.dir/scon.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/scon.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/scon.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 39%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/atval.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/atval.cc.o -MF CMakeFiles/LibzwergDw.dir/atval.cc.o.d -o CMakeFiles/LibzwergDw.dir/atval.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/atval.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/atval.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/atval.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 68%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/strip.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/strip.cc.o -MF CMakeFiles/LibzwergCore.dir/strip.cc.o.d -o CMakeFiles/LibzwergCore.dir/strip.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/strip.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 62%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/value-aset.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/value-aset.cc.o -MF CMakeFiles/LibzwergDw.dir/value-aset.cc.o.d -o CMakeFiles/LibzwergDw.dir/value-aset.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-aset.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 67%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/stack.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/stack.cc.o -MF CMakeFiles/LibzwergCore.dir/stack.cc.o.d -o CMakeFiles/LibzwergCore.dir/stack.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 64%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/selector.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/selector.cc.o -MF CMakeFiles/LibzwergCore.dir/selector.cc.o.d -o CMakeFiles/LibzwergCore.dir/selector.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:36:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 60%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o -MF CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o.d -o CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwerg-dw.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwergP.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwerg-dw.cc:29:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 29%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/build.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/build.cc.o -MF CMakeFiles/LibzwergCore.dir/build.cc.o.d -o CMakeFiles/LibzwergCore.dir/build.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/build.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/build.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 53%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/libzwerg.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/libzwerg.cc.o -MF CMakeFiles/LibzwergCore.dir/libzwerg.cc.o.d -o CMakeFiles/LibzwergCore.dir/libzwerg.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwerg.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwergP.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwerg.cc:29:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 76%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/tree_cr.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/tree_cr.cc.o -MF CMakeFiles/LibzwergCore.dir/tree_cr.cc.o.d -o CMakeFiles/LibzwergCore.dir/tree_cr.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree_cr.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree_cr.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree_cr.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 71%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/tree.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/tree.cc.o -MF CMakeFiles/LibzwergCore.dir/tree.cc.o.d -o CMakeFiles/LibzwergCore.dir/tree.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.cc:38:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 81%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/value-symbol.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/value-symbol.cc.o -MF CMakeFiles/LibzwergDw.dir/value-symbol.cc.o.d -o CMakeFiles/LibzwergDw.dir/value-symbol.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-symbol.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 57%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/overload.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/overload.cc.o -MF CMakeFiles/LibzwergCore.dir/overload.cc.o.d -o CMakeFiles/LibzwergCore.dir/overload.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.hh:39,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 79%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/value-closure.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/value-closure.cc.o -MF CMakeFiles/LibzwergCore.dir/value-closure.cc.o.d -o CMakeFiles/LibzwergCore.dir/value-closure.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-closure.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-closure.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-closure.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 70%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/value-dw.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/value-dw.cc.o -MF CMakeFiles/LibzwergDw.dir/value-dw.cc.o.d -o CMakeFiles/LibzwergDw.dir/value-dw.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-dw.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/atval.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-dw.cc:39:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 56%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/op.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/op.cc.o -MF CMakeFiles/LibzwergCore.dir/op.cc.o.d -o CMakeFiles/LibzwergCore.dir/op.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.cc:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.cc: In member function 'virtual stack::uptr op_subx::next(scon&) const':
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.cc:767:44: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  767 |         if (st.m_stk = m_upstream->next (sc))
+      |                                            ^
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 65%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o -MF CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o.d -o CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.hh:34,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.hh:35,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.hh:42,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.hh:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 82%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/value-cst.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/value-cst.cc.o -MF CMakeFiles/LibzwergCore.dir/value-cst.cc.o.d -o CMakeFiles/LibzwergCore.dir/value-cst.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.hh:34,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.cc:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.hh:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 89%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/value.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/value.cc.o -MF CMakeFiles/LibzwergCore.dir/value.cc.o.d -o CMakeFiles/LibzwergCore.dir/value.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.cc:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 87%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/value-str.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/value-str.cc.o -MF CMakeFiles/LibzwergCore.dir/value-str.cc.o.d -o CMakeFiles/LibzwergCore.dir/value-str.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-str.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-str.hh:36,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-str.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-str.hh:35:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 75%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o -MF CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o.d -o CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw-abbrev.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.hh:39,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw-abbrev.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw-abbrev.cc:30:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 84%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o -MF CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o.d -o CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-symbol.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.hh:39,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-symbol.hh:30,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-symbol.cc:31:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 85%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/value-seq.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/value-seq.cc.o -MF CMakeFiles/LibzwergCore.dir/value-seq.cc.o.d -o CMakeFiles/LibzwergCore.dir/value-seq.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-seq.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-seq.hh:34,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-seq.cc:34:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-seq.hh:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 37%] Building CXX object libzwerg/CMakeFiles/LibzwergCore.dir/init.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergCore.dir/init.cc.o -MF CMakeFiles/LibzwergCore.dir/init.cc.o.d -o CMakeFiles/LibzwergCore.dir/init.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/init.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/overload.hh:39,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/init.cc:32:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 89%] Built target LibzwergCore
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/test-parser.dir/build.make libzwerg/CMakeFiles/test-parser.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/test-parser.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/test-parser.dir/build.make libzwerg/CMakeFiles/test-parser.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 73%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o -MF CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o.d -o CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/atval.hh:33,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw.cc:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 90%] Building CXX object libzwerg/CMakeFiles/test-parser.dir/test-parser.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT libzwerg/CMakeFiles/test-parser.dir/test-parser.cc.o -MF CMakeFiles/test-parser.dir/test-parser.cc.o.d -o CMakeFiles/test-parser.dir/test-parser.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/test-parser.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/test-parser.cc:35:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 92%] Linking CXX executable test-parser
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_link_script CMakeFiles/test-parser.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/test-parser.dir/link.d "CMakeFiles/test-parser.dir/test-parser.cc.o" CMakeFiles/LibzwergCore.dir/parser.cc.o CMakeFiles/LibzwergCore.dir/lexer.cc.o CMakeFiles/LibzwergCore.dir/bindings.cc.o CMakeFiles/LibzwergCore.dir/build.cc.o "CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o" CMakeFiles/LibzwergCore.dir/builtin.cc.o CMakeFiles/LibzwergCore.dir/constant.cc.o CMakeFiles/LibzwergCore.dir/docstring.cc.o CMakeFiles/LibzwergCore.dir/init.cc.o CMakeFiles/LibzwergCore.dir/int.cc.o CMakeFiles/LibzwergCore.dir/layout.cc.o CMakeFiles/LibzwergCore.dir/libzwerg.cc.o CMakeFiles/LibzwergCore.dir/op.cc.o CMakeFiles/LibzwergCore.dir/overload.cc.o CMakeFiles/LibzwergCore.dir/scon.cc.o CMakeFiles/LibzwergCore.dir/selector.cc.o CMakeFiles/LibzwergCore.dir/stack.cc.o CMakeFiles/LibzwergCore.dir/strip.cc.o CMakeFiles/LibzwergCore.dir/tree.cc.o CMakeFiles/LibzwergCore.dir/tree_cr.cc.o "CMakeFiles/LibzwergCore.dir/value-closure.cc.o" "CMakeFiles/LibzwergCore.dir/value-cst.cc.o" "CMakeFiles/LibzwergCore.dir/value-seq.cc.o" "CMakeFiles/LibzwergCore.dir/value-str.cc.o" CMakeFiles/LibzwergCore.dir/value.cc.o -o test-parser
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 92%] Built target test-parser
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 78%] Building CXX object libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -fPIC -MD -MT libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o -MF CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o.d -o CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw-voc.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/op.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value-cst.hh:34,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.hh:35,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-dw-voc.cc:31:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin.hh:42,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/builtin-aset.hh:33:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 92%] Built target LibzwergDw
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/libzwerg.dir/build.make libzwerg/CMakeFiles/libzwerg.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/dwgrep-gendoc.dir/build.make libzwerg/CMakeFiles/dwgrep-gendoc.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/dwgrep-gendoc.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/dwgrep-gendoc.dir/build.make libzwerg/CMakeFiles/dwgrep-gendoc.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/libzwerg.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/libzwerg.dir/build.make libzwerg/CMakeFiles/libzwerg.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 93%] Building CXX object libzwerg/CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT libzwerg/CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o -MF CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o.d -o CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwgrep-gendoc.cc
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/tree.hh:38,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/libzwergP.hh:37,
+                 from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/dwgrep-gendoc.cc:36:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/selector.hh:45:57: warning: 'this' pointer is null [-Wnonnull]
+   45 |   static_assert (sizeof (((value_type *) nullptr)->code ()) == 1,
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/stack.hh:37:
+/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg/value.hh:88:11: note: in a call to non-static member function 'uint8_t value_type::code() const'
+   88 |   uint8_t code () const { return m_code; }
+      |           ^~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 96%] Linking CXX executable dwgrep-gendoc
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_link_script CMakeFiles/dwgrep-gendoc.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/dwgrep-gendoc.dir/link.d "CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o" CMakeFiles/LibzwergCore.dir/parser.cc.o CMakeFiles/LibzwergCore.dir/lexer.cc.o CMakeFiles/LibzwergCore.dir/bindings.cc.o CMakeFiles/LibzwergCore.dir/build.cc.o "CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o" CMakeFiles/LibzwergCore.dir/builtin.cc.o CMakeFiles/LibzwergCore.dir/constant.cc.o CMakeFiles/LibzwergCore.dir/docstring.cc.o CMakeFiles/LibzwergCore.dir/init.cc.o CMakeFiles/LibzwergCore.dir/int.cc.o CMakeFiles/LibzwergCore.dir/layout.cc.o CMakeFiles/LibzwergCore.dir/libzwerg.cc.o CMakeFiles/LibzwergCore.dir/op.cc.o CMakeFiles/LibzwergCore.dir/overload.cc.o CMakeFiles/LibzwergCore.dir/scon.cc.o CMakeFiles/LibzwergCore.dir/selector.cc.o CMakeFiles/LibzwergCore.dir/stack.cc.o CMakeFiles/LibzwergCore.dir/strip.cc.o CMakeFiles/LibzwergCore.dir/tree.cc.o CMakeFiles/LibzwergCore.dir/tree_cr.cc.o "CMakeFiles/LibzwergCore.dir/value-closure.cc.o" "CMakeFiles/LibzwergCore.dir/value-cst.cc.o" "CMakeFiles/LibzwergCore.dir/value-seq.cc.o" "CMakeFiles/LibzwergCore.dir/value-str.cc.o" CMakeFiles/LibzwergCore.dir/value.cc.o CMakeFiles/LibzwergDw.dir/atval.cc.o CMakeFiles/LibzwergDw.dir/cache.cc.o CMakeFiles/LibzwergDw.dir/coverage.cc.o CMakeFiles/LibzwergDw.dir/dwcst.cc.o CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o CMakeFiles/LibzwergDw.dir/dwit.cc.o CMakeFiles/LibzwergDw.dir/dwmods.cc.o "CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o" "CMakeFiles/LibzwergDw.dir/value-aset.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o" "CMakeFiles/LibzwergDw.dir/value-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o" "CMakeFiles/LibzwergDw.dir/value-symbol.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o" -o dwgrep-gendoc  /usr/lib64/libdw.so /usr/lib64/libelf.so -ldl
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 96%] Built target dwgrep-gendoc
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 95%] Linking CXX shared library libzwerg.so
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_link_script CMakeFiles/libzwerg.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--version-script=libzwerg.map,--no-undefined -Wl,--dependency-file=CMakeFiles/libzwerg.dir/link.d -shared -Wl,-soname,libzwerg.so.0.1 -o libzwerg.so.0.1 CMakeFiles/LibzwergCore.dir/parser.cc.o CMakeFiles/LibzwergCore.dir/lexer.cc.o CMakeFiles/LibzwergCore.dir/bindings.cc.o CMakeFiles/LibzwergCore.dir/build.cc.o "CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o" CMakeFiles/LibzwergCore.dir/builtin.cc.o CMakeFiles/LibzwergCore.dir/constant.cc.o CMakeFiles/LibzwergCore.dir/docstring.cc.o CMakeFiles/LibzwergCore.dir/init.cc.o CMakeFiles/LibzwergCore.dir/int.cc.o CMakeFiles/LibzwergCore.dir/layout.cc.o CMakeFiles/LibzwergCore.dir/libzwerg.cc.o CMakeFiles/LibzwergCore.dir/op.cc.o CMakeFiles/LibzwergCore.dir/overload.cc.o CMakeFiles/LibzwergCore.dir/scon.cc.o CMakeFiles/LibzwergCore.dir/selector.cc.o CMakeFiles/LibzwergCore.dir/stack.cc.o CMakeFiles/LibzwergCore.dir/strip.cc.o CMakeFiles/LibzwergCore.dir/tree.cc.o CMakeFiles/LibzwergCore.dir/tree_cr.cc.o "CMakeFiles/LibzwergCore.dir/value-closure.cc.o" "CMakeFiles/LibzwergCore.dir/value-cst.cc.o" "CMakeFiles/LibzwergCore.dir/value-seq.cc.o" "CMakeFiles/LibzwergCore.dir/value-str.cc.o" CMakeFiles/LibzwergCore.dir/value.cc.o CMakeFiles/LibzwergDw.dir/atval.cc.o CMakeFiles/LibzwergDw.dir/cache.cc.o CMakeFiles/LibzwergDw.dir/coverage.cc.o CMakeFiles/LibzwergDw.dir/dwcst.cc.o CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o CMakeFiles/LibzwergDw.dir/dwit.cc.o CMakeFiles/LibzwergDw.dir/dwmods.cc.o "CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o" "CMakeFiles/LibzwergDw.dir/value-aset.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o" "CMakeFiles/LibzwergDw.dir/value-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o" "CMakeFiles/LibzwergDw.dir/value-symbol.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o"  /usr/lib64/libdw.so /usr/lib64/libelf.so
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_symlink_library libzwerg.so.0.1 libzwerg.so.0.1 libzwerg.so
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 96%] Built target libzwerg
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep.dir/build.make dwgrep/CMakeFiles/dwgrep.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/dwgrep.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep.dir/build.make dwgrep/CMakeFiles/dwgrep.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 98%] Building CXX object dwgrep/CMakeFiles/dwgrep.dir/dwgrep.cc.o
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/c++  -I/usr/src/RPM/BUILD/dwgrep-0.4/libzwerg -I/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux -I/usr/src/RPM/BUILD/dwgrep-0.4 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -MD -MT dwgrep/CMakeFiles/dwgrep.dir/dwgrep.cc.o -MF CMakeFiles/dwgrep.dir/dwgrep.cc.o.d -o CMakeFiles/dwgrep.dir/dwgrep.cc.o -c /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep/dwgrep.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[100%] Linking CXX executable dwgrep
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/cmake -E cmake_link_script CMakeFiles/dwgrep.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/dwgrep.dir/link.d CMakeFiles/dwgrep.dir/dwgrep.cc.o CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o CMakeFiles/AuxLib.dir/options.cc.o -o dwgrep  -Wl,-rpath,/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg: ../libzwerg/libzwerg.so.0.1 /usr/lib64/libdw.so /usr/lib64/libelf.so
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[100%] Built target dwgrep
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/CMakeFiles 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+
++ cmake --build x86_64-alt-linux --verbose --parallel 16 --target doc
+Change Dir: '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16 doc
+gmake: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/dwgrep-0.4 -B/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 doc
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/dwgrep-0.4 -B/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/CMakeFiles 60
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 doc/CMakeFiles/doc.dir/all
+/usr/bin/gmake  -f dwgrep/CMakeFiles/AuxLib.dir/build.make dwgrep/CMakeFiles/AuxLib.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergDw.dir/build.make libzwerg/CMakeFiles/LibzwergDw.dir/depend
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergCore.dir/build.make libzwerg/CMakeFiles/LibzwergCore.dir/depend
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/AuxLib.dir/DependInfo.cmake "--color="
+Dependencies file "dwgrep/CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/AuxLib.dir/compiler_depend.internal".
+Dependencies file "dwgrep/CMakeFiles/AuxLib.dir/options.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/AuxLib.dir/compiler_depend.internal".
+Consolidate compiler generated dependencies of target AuxLib
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/AuxLib.dir/build.make dwgrep/CMakeFiles/AuxLib.dir/build
+gmake[3]: Nothing to be done for 'dwgrep/CMakeFiles/AuxLib.dir/build'.
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/DependInfo.cmake "--color="
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/atval.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/cache.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/coverage.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/dwcst.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/dwit.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/dwmods.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/value-aset.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/value-dw.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergDw.dir/value-symbol.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergDw.dir/compiler_depend.internal".
+Consolidate compiler generated dependencies of target LibzwergDw
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergDw.dir/build.make libzwerg/CMakeFiles/LibzwergDw.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[  3%] Built target AuxLib
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep-genman.dir/build.make dwgrep/CMakeFiles/dwgrep-genman.dir/depend
+gmake[3]: Nothing to be done for 'libzwerg/CMakeFiles/LibzwergDw.dir/build'.
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/DependInfo.cmake "--color="
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/bindings.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/build.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/builtin.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/constant.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/docstring.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/init.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/int.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/layout.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/lexer.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/libzwerg.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/op.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/overload.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/parser.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/scon.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/selector.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/stack.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/strip.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/tree.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/tree_cr.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/value-closure.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/value-cst.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/value-seq.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/value-str.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/LibzwergCore.dir/value.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/LibzwergCore.dir/compiler_depend.internal".
+Consolidate compiler generated dependencies of target LibzwergCore
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/LibzwergCore.dir/build.make libzwerg/CMakeFiles/LibzwergCore.dir/build
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/dwgrep-genman.dir/DependInfo.cmake "--color="
+Dependencies file "dwgrep/CMakeFiles/dwgrep-genman.dir/genman.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/dwgrep-genman.dir/compiler_depend.internal".
+Dependencies file "dwgrep/CMakeFiles/dwgrep-genman.dir/link.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep/CMakeFiles/dwgrep-genman.dir/compiler_depend.internal".
+Consolidate compiler generated dependencies of target dwgrep-genman
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f dwgrep/CMakeFiles/dwgrep-genman.dir/build.make dwgrep/CMakeFiles/dwgrep-genman.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 33%] Built target LibzwergDw
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[3]: Nothing to be done for 'libzwerg/CMakeFiles/LibzwergCore.dir/build'.
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 88%] Built target LibzwergCore
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/dwgrep-gendoc.dir/build.make libzwerg/CMakeFiles/dwgrep-gendoc.dir/depend
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/dwgrep-gendoc.dir/DependInfo.cmake "--color="
+Dependencies file "libzwerg/CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/dwgrep-gendoc.dir/compiler_depend.internal".
+Dependencies file "libzwerg/CMakeFiles/dwgrep-gendoc.dir/link.d" is newer than depends file "/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg/CMakeFiles/dwgrep-gendoc.dir/compiler_depend.internal".
+Consolidate compiler generated dependencies of target dwgrep-gendoc
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f libzwerg/CMakeFiles/dwgrep-gendoc.dir/build.make libzwerg/CMakeFiles/dwgrep-gendoc.dir/build
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 35%] Linking CXX executable dwgrep-genman
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/dwgrep && /usr/bin/cmake -E cmake_link_script CMakeFiles/dwgrep-genman.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/dwgrep-genman.dir/link.d "CMakeFiles/dwgrep-genman.dir/genman.cc.o" CMakeFiles/AuxLib.dir/__/libzwerg/strip.cc.o CMakeFiles/AuxLib.dir/options.cc.o -o dwgrep-genman
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 91%] Built target dwgrep-genman
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f doc/CMakeFiles/GenerateOptions.dir/build.make doc/CMakeFiles/GenerateOptions.dir/depend
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/doc /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc/CMakeFiles/GenerateOptions.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f doc/CMakeFiles/GenerateOptions.dir/build.make doc/CMakeFiles/GenerateOptions.dir/build
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 93%] Building CLI option reference
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc && ../dwgrep/dwgrep-genman > /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc/_source/options.txt
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 93%] Built target GenerateOptions
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 90%] Linking CXX executable dwgrep-gendoc
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/libzwerg && /usr/bin/cmake -E cmake_link_script CMakeFiles/dwgrep-gendoc.dir/link.txt --verbose=1
+/usr/bin/c++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -Wall -Wnon-virtual-dtor -O2 -g -Wl,--dependency-file=CMakeFiles/dwgrep-gendoc.dir/link.d "CMakeFiles/dwgrep-gendoc.dir/dwgrep-gendoc.cc.o" CMakeFiles/LibzwergCore.dir/parser.cc.o CMakeFiles/LibzwergCore.dir/lexer.cc.o CMakeFiles/LibzwergCore.dir/bindings.cc.o CMakeFiles/LibzwergCore.dir/build.cc.o "CMakeFiles/LibzwergCore.dir/builtin-closure.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cmp.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-cst.cc.o" "CMakeFiles/LibzwergCore.dir/builtin-shf.cc.o" CMakeFiles/LibzwergCore.dir/builtin.cc.o CMakeFiles/LibzwergCore.dir/constant.cc.o CMakeFiles/LibzwergCore.dir/docstring.cc.o CMakeFiles/LibzwergCore.dir/init.cc.o CMakeFiles/LibzwergCore.dir/int.cc.o CMakeFiles/LibzwergCore.dir/layout.cc.o CMakeFiles/LibzwergCore.dir/libzwerg.cc.o CMakeFiles/LibzwergCore.dir/op.cc.o CMakeFiles/LibzwergCore.dir/overload.cc.o CMakeFiles/LibzwergCore.dir/scon.cc.o CMakeFiles/LibzwergCore.dir/selector.cc.o CMakeFiles/LibzwergCore.dir/stack.cc.o CMakeFiles/LibzwergCore.dir/strip.cc.o CMakeFiles/LibzwergCore.dir/tree.cc.o CMakeFiles/LibzwergCore.dir/tree_cr.cc.o "CMakeFiles/LibzwergCore.dir/value-closure.cc.o" "CMakeFiles/LibzwergCore.dir/value-cst.cc.o" "CMakeFiles/LibzwergCore.dir/value-seq.cc.o" "CMakeFiles/LibzwergCore.dir/value-str.cc.o" CMakeFiles/LibzwergCore.dir/value.cc.o CMakeFiles/LibzwergDw.dir/atval.cc.o CMakeFiles/LibzwergDw.dir/cache.cc.o CMakeFiles/LibzwergDw.dir/coverage.cc.o CMakeFiles/LibzwergDw.dir/dwcst.cc.o CMakeFiles/LibzwergDw.dir/dwfl_context.cc.o CMakeFiles/LibzwergDw.dir/dwit.cc.o CMakeFiles/LibzwergDw.dir/dwmods.cc.o "CMakeFiles/LibzwergDw.dir/libzwerg-dw.cc.o" "CMakeFiles/LibzwergDw.dir/value-aset.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-aset.cc.o" "CMakeFiles/LibzwergDw.dir/value-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-abbrev.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-dw-voc.cc.o" "CMakeFiles/LibzwergDw.dir/value-symbol.cc.o" "CMakeFiles/LibzwergDw.dir/builtin-symbol.cc.o" -o dwgrep-gendoc  /usr/lib64/libdw.so /usr/lib64/libelf.so -ldl
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 95%] Built target dwgrep-gendoc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f doc/CMakeFiles/GenerateDocs.dir/build.make doc/CMakeFiles/GenerateDocs.dir/depend
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/dwgrep-0.4 /usr/src/RPM/BUILD/dwgrep-0.4/doc /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc/CMakeFiles/GenerateDocs.dir/DependInfo.cmake "--color="
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+/usr/bin/gmake  -f doc/CMakeFiles/GenerateDocs.dir/build.make doc/CMakeFiles/GenerateDocs.dir/build
+gmake[3]: Entering directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+[ 96%] Building vocabulary reference
+cd /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc && ../libzwerg/dwgrep-gendoc zw_vocabulary_core Core\ vocabulary > /usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux/doc/_source/vocabulary-core.rst
+Couldn't find a vocabulary with handle zw_vocabulary_core
+../libzwerg/dwgrep-gendoc: undefined symbol: zw_vocabulary_core
+gmake[3]: *** [doc/CMakeFiles/GenerateDocs.dir/build.make:71: doc/CMakeFiles/GenerateDocs] Error 255
+gmake[3]: Leaving directory '/usr/src/RPM/BUILD/dwgrep-0.4/x86_64-alt-linux'
+gmake[2]: *** [CMakeFiles/Makefile2:235: doc/CMakeFiles/GenerateDocs.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:371: doc/CMakeFiles/doc.dir/rule] Error 2
+gmake: *** [Makefile:244: doc] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68065 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.68065 (%build)
+Command exited with non-zero status 1
+89.95user 8.86system 0:19.51elapsed 506%CPU (0avgtext+0avgdata 640684maxresident)k
+0inputs+0outputs (0major+1078945minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `dwgrep-0.4-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+4.45user 3.13system 0:34.23elapsed 22%CPU (0avgtext+0avgdata 140352maxresident)k
+224inputs+0outputs (0major+292589minor)pagefaults 0swaps

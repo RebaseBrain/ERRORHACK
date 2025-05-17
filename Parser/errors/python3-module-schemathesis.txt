@@ -1,0 +1,2324 @@
+        assert root[0][0].attrib["name"] == "Stateful tests"
+        assert len(root[0][0]) == 1
+        assert len(root[0][0]) == 1
+>       assert root[0][0][0].tag == "failure"
+>       assert root[0][0][0].tag == "failure"
+E       AssertionError: assert 'error' == 'failure'
+E       AssertionError: assert 'error' == 'failure'
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/cli/test_commands.py:1627: AssertionError
+test/cli/test_commands.py:1627: AssertionError
+------------------------------ Captured log call -------------------------------
+------------------------------ Captured log call -------------------------------
+ERROR    aiohttp.server:web_protocol.py:481 Error handling request from 127.0.0.1
+ERROR    aiohttp.server:web_protocol.py:481 Error handling request from 127.0.0.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3/site-packages/aiohttp/web_protocol.py", line 408, in data_received
+  File "/usr/lib64/python3/site-packages/aiohttp/web_protocol.py", line 408, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 558, in aiohttp._http_parser.HttpParser.feed_data
+  File "aiohttp/_http_parser.pyx", line 558, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadHttpMessage: 400, message:
+aiohttp.http_exceptions.BadHttpMessage: 400, message:
+  Invalid header value char:
+  Invalid header value char:
+
+
+    b'X-Schemathesis-Probe-Null: '
+    b'X-Schemathesis-Probe-Null: '
+                                 ^
+                                 ^
+_____________________ test_stateful_override[Open API 3.0] _____________________
+        ).execute()
+        interactions = after_execution.result.interactions
+        interactions = after_execution.result.interactions
+        assert len(interactions) > 0
+        assert len(interactions) > 0
+        get_requests = [i.request for i in interactions if i.request.method == "GET"]
+        get_requests = [i.request for i in interactions if i.request.method == "GET"]
+>       assert len(get_requests) > 0
+>       assert len(get_requests) > 0
+E       assert 0 > 0
+E       assert 0 > 0
+E        +  where 0 = len([])
+E        +  where 0 = len([])
+
+
+test/runner/test_runner.py:1438: AssertionError
+test/runner/test_runner.py:1438: AssertionError
+------------------------------ Captured log call -------------------------------
+------------------------------ Captured log call -------------------------------
+ERROR    aiohttp.server:web_protocol.py:481 Error handling request from 127.0.0.1
+ERROR    aiohttp.server:web_protocol.py:481 Error handling request from 127.0.0.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3/site-packages/aiohttp/web_protocol.py", line 408, in data_received
+  File "/usr/lib64/python3/site-packages/aiohttp/web_protocol.py", line 408, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp/_http_parser.pyx", line 558, in aiohttp._http_parser.HttpParser.feed_data
+  File "aiohttp/_http_parser.pyx", line 558, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadHttpMessage: 400, message:
+aiohttp.http_exceptions.BadHttpMessage: 400, message:
+  Invalid header value char:
+  Invalid header value char:
+
+
+    b'X-Schemathesis-Probe-Null: '
+    b'X-Schemathesis-Probe-Null: '
+                                 ^
+                                 ^
+______________________ test_find_independent_5xx[kwargs0] ______________________
+    )
+    def test_find_independent_5xx(runner_factory, kwargs):
+        # When the app contains multiple endpoints with 5xx responses
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        result = collect_result(runner)
+        result = collect_result(runner)
+        all_affected_operations = {
+        all_affected_operations = {
+            "DELETE /users/{userId}",
+            "DELETE /users/{userId}",
+            "PATCH /users/{userId}",
+            "PATCH /users/{userId}",
+        }
+        }
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681540.507690677, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681540.507690677, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+______________________ test_find_independent_5xx[kwargs1] ______________________
+______________________ test_find_independent_5xx[kwargs1] ______________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd6350c20>
+kwargs = {'exit_first': True, 'hypothesis_settings': settings(backend='hypothesis', database=None, deadline=timedelta(milliseco...t_blob=False, report_multiple_bugs=True, stateful_step_count=50, suppress_health_check=(), verbosity=Verbosity.normal)}
+
+    )
+    def test_find_independent_5xx(runner_factory, kwargs):
+        # When the app contains multiple endpoints with 5xx responses
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        result = collect_result(runner)
+        result = collect_result(runner)
+        all_affected_operations = {
+        all_affected_operations = {
+            "DELETE /users/{userId}",
+            "DELETE /users/{userId}",
+            "PATCH /users/{userId}",
+            "PATCH /users/{userId}",
+        }
+        }
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681540.591462982, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681540.591462982, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+______________________ test_find_independent_5xx[kwargs2] ______________________
+______________________ test_find_independent_5xx[kwargs2] ______________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd55c3740>
+kwargs = {'hypothesis_settings': settings(backend='hypothesis', database=None, deadline=timedelta(milliseconds=200), derandomiz...t_multiple_bugs=True, stateful_step_count=50, suppress_health_check=(), verbosity=Verbosity.normal), 'max_failures': 1}
+
+    )
+    def test_find_independent_5xx(runner_factory, kwargs):
+        # When the app contains multiple endpoints with 5xx responses
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        result = collect_result(runner)
+        result = collect_result(runner)
+        all_affected_operations = {
+        all_affected_operations = {
+            "DELETE /users/{userId}",
+            "DELETE /users/{userId}",
+            "PATCH /users/{userId}",
+            "PATCH /users/{userId}",
+        }
+        }
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681540.677375078, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681540.677375078, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+______________________ test_find_independent_5xx[kwargs3] ______________________
+______________________ test_find_independent_5xx[kwargs3] ______________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bf82ea5c0>
+kwargs = {'hypothesis_settings': settings(backend='hypothesis', database=None, deadline=timedelta(milliseconds=200), derandomiz...t_multiple_bugs=True, stateful_step_count=50, suppress_health_check=(), verbosity=Verbosity.normal), 'max_failures': 2}
+
+    )
+    def test_find_independent_5xx(runner_factory, kwargs):
+        # When the app contains multiple endpoints with 5xx responses
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        runner = runner_factory(app_kwargs={"independent_500": True}, config_kwargs=kwargs)
+        result = collect_result(runner)
+        result = collect_result(runner)
+        all_affected_operations = {
+        all_affected_operations = {
+            "DELETE /users/{userId}",
+            "DELETE /users/{userId}",
+            "PATCH /users/{userId}",
+            "PATCH /users/{userId}",
+        }
+        }
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681540.76062399, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681540.76062399, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+test/specs/openapi/stateful/test_runner.py:106: AssertionError
+__________________________ test_works_on_single_link ___________________________
+__________________________ test_works_on_single_link ___________________________
+__________________________ test_works_on_single_link ___________________________
+
+
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c1203f560>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c1203f560>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c1203f560>
+
+
+
+    def test_works_on_single_link(runner_factory):
+    def test_works_on_single_link(runner_factory):
+    def test_works_on_single_link(runner_factory):
+        runner = runner_factory(app_kwargs={"single_link": True, "independent_500": True})
+        runner = runner_factory(app_kwargs={"single_link": True, "independent_500": True})
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681540.84130644, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat...catch_all': [VarReference(name='catch_all_0')],
+E       AssertionError: [Errored(timestamp=1681540.84130644, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat...catch_all': [VarReference(name='catch_all_0')],
+E          'POST /users -> 201': [],
+E          'POST /users -> 201': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:141: AssertionError
+test/specs/openapi/stateful/test_runner.py:141: AssertionError
+_________________ test_stop_outside_of_state_machine_execution _________________
+_________________ test_stop_outside_of_state_machine_execution _________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c11cae7a0>
+mocker = <pytest_mock.plugin.MockerFixture object at 0x7f8c11fb4920>
+
+    def test_stop_outside_of_state_machine_execution(runner_factory, mocker):
+        # When stop signal is received outside of state machine execution
+        runner = runner_factory(
+            app_kwargs={"independent_500": True},
+        )
+        mocker.patch(
+            "schemathesis.stateful.runner.RunnerContext.mark_as_seen_in_run", side_effect=lambda *_, **__: runner.stop()
+        )
+        result = collect_result(runner)
+>       assert result.events[-2].status == events.SuiteStatus.INTERRUPTED
+E       AssertionError: assert <SuiteStatus.ERROR: 'error'> == <SuiteStatus....'interrupted'>
+E         
+E         
+E         - interrupted
+E         - interrupted
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:191: AssertionError
+test/specs/openapi/stateful/test_runner.py:191: AssertionError
+__________________ test_failure_hidden_behind_another_failure __________________
+__________________ test_failure_hidden_behind_another_failure __________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c1218d800>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c1218d800>
+
+
+    def test_failure_hidden_behind_another_failure(runner_factory):
+    def test_failure_hidden_behind_another_failure(runner_factory):
+        # The same API operation, but one error is far less frequent and is located behind another one that happens more often, so it is not found in the first test suite
+    
+        suite_number = 0
+    
+        def dynamic_check(*args, **kwargs):
+            if suite_number == 0:
+                not_a_server_error(*args, **kwargs)
+            else:
+                response_schema_conformance(*args, **kwargs)
+    
+        runner = runner_factory(
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "checks": (flaky_check,),
+                **kwargs,
+            }
+        )
+        failures = []
+        for event in runner.execute():
+>           assert not isinstance(event, events.Errored)
+E           assert not True
+E            +  where True = isinstance(Errored(timestamp=1681542.722971388, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat...n 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})")), <class 'schemathesis.stateful.events.Errored'>)
+E            +    where <class 'schemathesis.stateful.events.Errored'> = events.Errored
+
+test/specs/openapi/stateful/test_runner.py:416: AssertionError
+__________________________ test_random_unsatisfiable ___________________________
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bfa5c28e0>
+
+    def test_random_unsatisfiable(runner_factory):
+        runner = runner_factory(
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=25, database=None)},
+        )
+    
+        @runner.state_machine.schema.hook
+        def map_body(ctx, body):
+        def map_body(ctx, body):
+            if len(body["name"]) % 3 == 2:
+            if len(body["name"]) % 3 == 2:
+            if len(body["name"]) % 3 == 2:
+                raise hypothesis.errors.Unsatisfiable("Occurs randomly")
+                raise hypothesis.errors.Unsatisfiable("Occurs randomly")
+                raise hypothesis.errors.Unsatisfiable("Occurs randomly")
+            return body
+            return body
+            return body
+    
+    
+    
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+E       AssertionError: [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E        +  where [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681542.88073818, started_at=1747366292.4239051, state_machine=<class 'schem...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681542.88073818, end_time=1681542.932149089)).errors
+E        +  where [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681542.88073818, started_at=1747366292.4239051, state_machine=<class 'schem...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681542.88073818, end_time=1681542.932149089)).errors
+E        +  where [Errored(timestamp=1681542.921874879, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681542.88073818, started_at=1747366292.4239051, state_machine=<class 'schem...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681542.88073818, end_time=1681542.932149089)).errors
+
+
+
+test/specs/openapi/stateful/test_runner.py:446: AssertionError
+test/specs/openapi/stateful/test_runner.py:446: AssertionError
+test/specs/openapi/stateful/test_runner.py:446: AssertionError
+_____________________________ test_custom_headers ______________________________
+_____________________________ test_custom_headers ______________________________
+_____________________________ test_custom_headers ______________________________
+
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570c860>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570c860>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570c860>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570c860>
+
+
+
+
+    def test_custom_headers(runner_factory):
+    def test_custom_headers(runner_factory):
+    def test_custom_headers(runner_factory):
+        headers = {"X-Foo": "Bar"}
+        headers = {"X-Foo": "Bar"}
+        headers = {"X-Foo": "Bar"}
+        runner = runner_factory(
+        runner = runner_factory(
+        runner = runner_factory(
+            app_kwargs={"custom_headers": headers},
+            app_kwargs={"custom_headers": headers},
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=1, database=None), "headers": headers},
+        )
+        result = collect_result(runner)
+>       assert result.events[-1].status == events.RunStatus.SUCCESS
+E       AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.SUCCESS: 'success'>
+E         
+E         - success
+E         - success
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:456: AssertionError
+test/specs/openapi/stateful/test_runner.py:456: AssertionError
+__________________________ test_multiple_source_links __________________________
+__________________________ test_multiple_source_links __________________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570dbc0>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd570dbc0>
+
+
+
+    def test_multiple_source_links(runner_factory):
+    def test_multiple_source_links(runner_factory):
+    def test_multiple_source_links(runner_factory):
+        # When there are multiple links coming to the same operation from different operations
+        # When there are multiple links coming to the same operation from different operations
+        # Then there should be no error during getting the previous step results
+        # Then there should be no error during getting the previous step results
+        runner = runner_factory(
+        runner = runner_factory(
+        runner = runner_factory(
+            app_kwargs={"multiple_source_links": True},
+            app_kwargs={"multiple_source_links": True},
+            app_kwargs={"multiple_source_links": True},
+            app_kwargs={"multiple_source_links": True},
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=10, database=None)},
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=10, database=None)},
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=10, database=None)},
+            config_kwargs={"hypothesis_settings": hypothesis.settings(max_examples=10, database=None)},
+        )
+        )
+        )
+        )
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+E       AssertionError: [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],
+E       AssertionError: [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],
+E       AssertionError: [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],
+E       AssertionError: [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],
+E          'POST /users -> 201': [],
+E          'POST /users -> 201': [],
+E          'POST /users -> 201': [],
+E          'POST /users -> 201': [],
+E          'DELETE /users/{userId} -> 204': [],
+E          'DELETE /users/{userId} -> 204': [],
+E          'DELETE /users/{userId} -> 204': [],
+E          'DELETE /users/{userId} -> 204': [],
+E          'DELETE /orders/{orderId} -> 200': []})"))]
+E          'DELETE /orders/{orderId} -> 200': []})"))]
+E          'DELETE /orders/{orderId} -> 200': []})"))]
+E          'DELETE /orders/{orderId} -> 200': []})"))]
+E       assert not [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))]
+E       assert not [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))]
+E       assert not [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))]
+E        +  where [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.050619862, started_at=1747366292.5937867, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.050619862, end_time=1681543.096554934)).errors
+E        +  where [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.050619862, started_at=1747366292.5937867, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.050619862, end_time=1681543.096554934)).errors
+E        +  where [Errored(timestamp=1681543.086292894, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta..._0')],\n 'POST /users -> 201': [],\n 'DELETE /users/{userId} -> 204': [],\n 'DELETE /orders/{orderId} -> 200': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.050619862, started_at=1747366292.5937867, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.050619862, end_time=1681543.096554934)).errors
+
+
+
+test/specs/openapi/stateful/test_runner.py:467: AssertionError
+test/specs/openapi/stateful/test_runner.py:467: AssertionError
+test/specs/openapi/stateful/test_runner.py:467: AssertionError
+_________________________________ test_dry_run _________________________________
+_________________________________ test_dry_run _________________________________
+_________________________________ test_dry_run _________________________________
+
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7a76ff60>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7a76ff60>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7a76ff60>
+
+
+
+    def test_dry_run(runner_factory):
+    def test_dry_run(runner_factory):
+    def test_dry_run(runner_factory):
+        runner = runner_factory(
+        runner = runner_factory(
+        runner = runner_factory(
+            config_kwargs={
+            config_kwargs={
+            config_kwargs={
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "dry_run": True,
+                "dry_run": True,
+                "dry_run": True,
+            },
+            },
+            },
+        )
+        )
+        )
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+E       AssertionError: [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E        +  where [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.129585514, started_at=1747366292.6727524, state_machine=<class 'sche...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.129585514, end_time=1681543.17425125)).errors
+E        +  where [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.129585514, started_at=1747366292.6727524, state_machine=<class 'sche...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.129585514, end_time=1681543.17425125)).errors
+E        +  where [Errored(timestamp=1681543.16398516, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.129585514, started_at=1747366292.6727524, state_machine=<class 'sche...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.129585514, end_time=1681543.17425125)).errors
+
+
+
+test/specs/openapi/stateful/test_runner.py:478: AssertionError
+test/specs/openapi/stateful/test_runner.py:478: AssertionError
+test/specs/openapi/stateful/test_runner.py:478: AssertionError
+_________________________ test_max_response_time_valid _________________________
+_________________________ test_max_response_time_valid _________________________
+_________________________ test_max_response_time_valid _________________________
+
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7ae047c0>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7ae047c0>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b7ae047c0>
+
+
+
+
+    def test_max_response_time_valid(runner_factory):
+    def test_max_response_time_valid(runner_factory):
+    def test_max_response_time_valid(runner_factory):
+        runner = runner_factory(
+        runner = runner_factory(
+        runner = runner_factory(
+            config_kwargs={
+            config_kwargs={
+            config_kwargs={
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None),
+                "max_response_time": 10000,
+                "max_response_time": 10000,
+                "max_response_time": 10000,
+            },
+            },
+            },
+        )
+        )
+        )
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+E       AssertionError: [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E        +  where [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.20737211, started_at=1747366292.750539, state_machine=<class 'schema...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.20737211, end_time=1681543.256673238)).errors
+E        +  where [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.20737211, started_at=1747366292.750539, state_machine=<class 'schema...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.20737211, end_time=1681543.256673238)).errors
+E        +  where [Errored(timestamp=1681543.246405368, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.20737211, started_at=1747366292.750539, state_machine=<class 'schema...1, <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.20737211, end_time=1681543.256673238)).errors
+
+
+
+test/specs/openapi/stateful/test_runner.py:493: AssertionError
+test/specs/openapi/stateful/test_runner.py:493: AssertionError
+test/specs/openapi/stateful/test_runner.py:493: AssertionError
+________________________ test_max_response_time_invalid ________________________
+________________________ test_max_response_time_invalid ________________________
+________________________ test_max_response_time_invalid ________________________
+
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c114b9760>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c114b9760>
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c114b9760>
+
+
+
+    def test_max_response_time_invalid(runner_factory):
+    def test_max_response_time_invalid(runner_factory):
+        runner = runner_factory(
+        runner = runner_factory(
+            app_kwargs={"slowdown": 0.010},
+            app_kwargs={"slowdown": 0.010},
+            app_kwargs={"slowdown": 0.010},
+            config_kwargs={
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None, stateful_step_count=2),
+                "max_response_time": 5,
+            },
+        )
+        failures = []
+        for event in runner.execute():
+>           assert not isinstance(event, events.Errored)
+E           assert not True
+E            +  where True = isinstance(Errored(timestamp=1681543.404856635, exception=InvalidDefinition("No progress can be made from state _InstrumentedStat...n 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})")), <class 'schemathesis.stateful.events.Errored'>)
+E            +    where <class 'schemathesis.stateful.events.Errored'> = events.Errored
+
+test/specs/openapi/stateful/test_runner.py:507: AssertionError
+________________________________ test_targeted _________________________________
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8b796a1620>
+
+    def test_targeted(runner_factory):
+        calls = 0
+    
+    
+        runner = runner_factory(
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None, stateful_step_count=5),
+                "hypothesis_settings": hypothesis.settings(max_examples=1, database=None, stateful_step_count=5),
+                "checks": (not_a_server_error,),
+                "checks": (not_a_server_error,),
+                "checks": (not_a_server_error,),
+                "targets": [custom_target],
+                "targets": [custom_target],
+                "targets": [custom_target],
+            },
+            },
+            },
+        )
+        )
+        )
+        result = collect_result(runner)
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+>       assert not result.errors, result.errors
+E       AssertionError: [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E       assert not [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))]
+E        +  where [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.437865654, started_at=1747366292.9810326, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.437865654, end_time=1681543.483466945)).errors
+E        +  where [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.437865654, started_at=1747366292.9810326, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.437865654, end_time=1681543.483466945)).errors
+E        +  where [Errored(timestamp=1681543.473200445, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],\n 'DELETE /orders/{orderId} -> 200': [],\n 'DELETE /users/{userId} -> 204': []})"))] = RunnerResult(events=[RunStarted(timestamp=1681543.437865654, started_at=1747366292.9810326, state_machine=<class 'sche..., <SuiteStatus.INTERRUPTED: 'interrupted'>: 0}, failures=[], start_time=1681543.437865654, end_time=1681543.483466945)).errors
+
+
+
+test/specs/openapi/stateful/test_runner.py:531: AssertionError
+test/specs/openapi/stateful/test_runner.py:531: AssertionError
+test/specs/openapi/stateful/test_runner.py:531: AssertionError
+______________________________ test_external_link ______________________________
+______________________________ test_external_link ______________________________
+______________________________ test_external_link ______________________________
+
+
+
+ctx = Context(request=<SubRequest 'ctx' for <Function test_external_link>>)
+ctx = Context(request=<SubRequest 'ctx' for <Function test_external_link>>)
+ctx = Context(request=<SubRequest 'ctx' for <Function test_external_link>>)
+app_factory = <function app_factory.<locals>._factory at 0x7f8c12080ea0>
+app_factory = <function app_factory.<locals>._factory at 0x7f8c12080ea0>
+app_factory = <function app_factory.<locals>._factory at 0x7f8c12080ea0>
+
+
+    def test_external_link(ctx, app_factory):
+    def test_external_link(ctx, app_factory):
+        remote_app = app_factory(independent_500=True)
+        remote_app = app_factory(independent_500=True)
+        remote_app_port = run_server(remote_app)
+            },
+        )
+        root_app = app_factory(independent_500=True)
+        schema = schemathesis.from_dict(schema, app=root_app)
+        state_machine = schema.as_state_machine()
+        runner = state_machine.runner(
+            config=StatefulTestRunnerConfig(hypothesis_settings=hypothesis.settings(max_examples=75, database=None))
+        )
+        result = collect_result(runner)
+>       assert result.events[-1].status == events.RunStatus.FAILURE
+E       AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         - failure
+E         + error
+
+test/specs/openapi/stateful/test_runner.py:660: AssertionError
+----------------------------- Captured stdout call -----------------------------
+ * Serving Flask app 'stateful.conftest'
+ * Debug mode: off
+______________________ test_new_resource_is_not_available ______________________
+
+        # When a resource is not available after creation
+        runner = runner_factory(
+            app_kwargs={"ensure_resource_availability": True},
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=50, database=None),
+            },
+        )
+        result = collect_result(runner)
+        # Then it is a failure
+>       assert result.events[-1].status == events.RunStatus.FAILURE
+E       AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         - failure
+E         + error
+
+test/specs/openapi/stateful/test_runner.py:673: AssertionError
+_____________________________ test_negative_tests ______________________________
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c114d72e0>
+
+    def test_negative_tests(runner_factory):
+    def test_negative_tests(runner_factory):
+        runner = runner_factory(
+            app_kwargs={"independent_500": True},
+            config_kwargs={
+            config_kwargs={
+                "hypothesis_settings": hypothesis.settings(max_examples=50, database=None),
+                "hypothesis_settings": hypothesis.settings(max_examples=50, database=None),
+            },
+            },
+            loader_kwargs={"data_generation_methods": DataGenerationMethod.all()},
+            loader_kwargs={"data_generation_methods": DataGenerationMethod.all()},
+        )
+        )
+        result = collect_result(runner)
+        result = collect_result(runner)
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+>       assert result.events[-1].status == events.RunStatus.FAILURE, result.errors
+E       AssertionError: [Errored(timestamp=1681543.793203972, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E       AssertionError: [Errored(timestamp=1681543.793203972, exception=InvalidDefinition("No progress can be made from state _InstrumentedSta... 'GET /users/{userId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /orders/{orderId} -> 200': [],
+E          'DELETE /users/{userId} -> 204': []})"))]
+E          'DELETE /users/{userId} -> 204': []})"))]
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E       assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         
+E         - failure
+E         - failure
+E         + error
+E         + error
+
+
+test/specs/openapi/stateful/test_runner.py:686: AssertionError
+test/specs/openapi/stateful/test_runner.py:686: AssertionError
+_______________________________ test_unique_data _______________________________
+_______________________________ test_unique_data _______________________________
+
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c11eda520>
+
+    def test_unique_data(runner_factory):
+        cases = []
+        for event in runner.execute():
+            if isinstance(event, events.ScenarioStarted):
+                cases.clear()
+            elif isinstance(event, events.StepFinished) and event.transition_id is None:
+                cases.append(event.case)
+            elif isinstance(event, events.ScenarioFinished):
+                assert len(cases) == len(set(cases)), "Duplicate cases found"
+            elif isinstance(event, events.RunFinished):
+>               assert event.status == events.RunStatus.FAILURE
+E               AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E                 
+E                 - failure
+E                 + error
+
+test/specs/openapi/stateful/test_runner.py:706: AssertionError
+___________________________ test_ignored_auth_valid ____________________________
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8bd5889c60>
+
+    def test_ignored_auth_valid(runner_factory):
+        runner = runner_factory(
+            app_kwargs={"auth_token": token},
+            config_kwargs={
+                "checks": (ignored_auth,),
+                "headers": {"Authorization": f"Bearer {token}"},
+            },
+        )
+        result = collect_result(runner)
+        # Then no failures are reported
+>       assert result.events[-1].status == events.RunStatus.SUCCESS
+E       AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.SUCCESS: 'success'>
+E         
+E         - success
+E         + error
+
+test/specs/openapi/stateful/test_runner.py:721: AssertionError
+__________________________ test_ignored_auth_invalid ___________________________
+
+runner_factory = <function runner_factory.<locals>._runner_factory at 0x7f8c11e6e700>
+
+    def test_ignored_auth_invalid(runner_factory):
+        runner = runner_factory(
+            app_kwargs={"auth_token": token, "ignored_auth": True},
+            config_kwargs={
+                "checks": (ignored_auth,),
+                "headers": {"Authorization": "Bearer UNKNOWN"},
+            },
+        )
+        result = collect_result(runner)
+        # Then it should be reported
+>       assert result.events[-1].status == events.RunStatus.FAILURE
+E       AssertionError: assert <RunStatus.ERROR: 'error'> == <RunStatus.FAILURE: 'failure'>
+E         
+E         - failure
+E         + error
+
+test/specs/openapi/stateful/test_runner.py:736: AssertionError
+______________________ test_hidden_failure[Open API 2.0] _______________________
+
+testdir = <Testdir local('/usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0')>
+app_schema = {'basePath': '/api', 'host': '127.0.0.1:8888', 'info': {'description': 'An API to test Schemathesis', 'title': 'Exampl...ed': True, 'schema': {...}}], 'responses': {'200': {'description': 'OK'}, '404': {'description': 'Not found'}}}}}, ...}
+openapi3_base_url = 'http://127.0.0.1:55323/api'
+        max_examples=2000,
+        deadline=None,
+        deadline=None,
+        suppress_health_check=list(HealthCheck),
+        suppress_health_check=list(HealthCheck),
+        suppress_health_check=list(HealthCheck),
+        phases=[Phase.generate],
+        phases=[Phase.generate],
+        phases=[Phase.generate],
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+    )
+    )
+    )
+    )
+    """,
+    """,
+    """,
+    """,
+            schema=app_schema,
+            schema=app_schema,
+            schema=app_schema,
+            schema=app_schema,
+        )
+        )
+        )
+        )
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: ''
+E            and: ''
+E            and: ''
+E            and: 'test_hidden_failure.py F                                                 [100%]'
+E            and: 'test_hidden_failure.py F                                                 [100%]'
+E            and: ''
+E            and: '=================================== FAILURES ==================================='
+E            and: "E           hypothesis.errors.InvalidDefinition: No progress can be made from state APIWorkflow({'catch_all': [VarReference(name='catch_all_0')],"
+E            and: "E            'POST /api/users/ -> 201': [],"
+E            and: "E            'POST /api/users/ -> 201': [],"
+E            and: "E            'GET /api/users/{user_id} -> 200': []})"
+E            and: "E            'GET /api/users/{user_id} -> 200': []})"
+E            and: 'E           Falsifying example:'
+E            and: 'E           Falsifying example:'
+E            and: 'E           state = APIWorkflow()'
+E            and: 'E           state = APIWorkflow()'
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: 'E           state.teardown()'
+E            and: 'E           state.teardown()'
+E            and: 'E           state.teardown()'
+E            and: ''
+E            and: ''
+E            and: ''
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '=========================== short test summary info ============================'
+E            and: '=========================== short test summary info ============================'
+E            and: '=========================== short test summary info ============================'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: '============================== 1 failed in 0.18s ==============================='
+E            and: '============================== 1 failed in 0.18s ==============================='
+E            and: '============================== 1 failed in 0.18s ==============================='
+E            and: 'Hypothesis calls: 0'
+E            and: 'Hypothesis calls: 0'
+E            and: 'Hypothesis calls: 0'
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+
+
+
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+----------------------------- Captured stdout call -----------------------------
+----------------------------- Captured stdout call -----------------------------
+----------------------------- Captured stdout call -----------------------------
+============================= test session starts ==============================
+============================= test session starts ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure0
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None
+collected 1 item
+
+test_hidden_failure.py F                                                 [100%]
+
+E           hypothesis.errors.InvalidDefinition: No progress can be made from state APIWorkflow({'catch_all': [VarReference(name='catch_all_0')],
+E            'POST /api/users/ -> 201': [],
+E            'POST /api/users/ -> 201': [],
+E            'GET /api/users/{user_id} -> 200': []})
+E            'GET /api/users/{user_id} -> 200': []})
+E           Falsifying example:
+E           Falsifying example:
+E           state = APIWorkflow()
+E           state = APIWorkflow()
+E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)
+E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)
+E           state.teardown()
+E           state.teardown()
+
+
+/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition
+/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...
+FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...
+============================== 1 failed in 0.18s ===============================
+============================== 1 failed in 0.18s ===============================
+Hypothesis calls: 0
+Hypothesis calls: 0
+______________________ test_hidden_failure[Open API 3.0] _______________________
+______________________ test_hidden_failure[Open API 3.0] _______________________
+
+
+testdir = <Testdir local('/usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1')>
+testdir = <Testdir local('/usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1')>
+app_schema = {'components': {'links': {'UpdateUserById': {'operationId': 'updateUser', 'parameters': {'user_id': '$response.body#/i...': {...}}, 'required': True}, 'responses': {'200': {'description': 'OK'}, '404': {'description': 'Not found'}}}}}, ...}
+app_schema = {'components': {'links': {'UpdateUserById': {'operationId': 'updateUser', 'parameters': {'user_id': '$response.body#/i...': {...}}, 'required': True}, 'responses': {'200': {'description': 'OK'}, '404': {'description': 'Not found'}}}}}, ...}
+openapi3_base_url = 'http://127.0.0.1:55323/api'
+openapi3_base_url = 'http://127.0.0.1:55323/api'
+
+
+    @pytest.mark.operations("create_user", "get_user", "update_user")
+    @pytest.mark.operations("create_user", "get_user", "update_user")
+    def test_hidden_failure(testdir, app_schema, openapi3_base_url):
+    def test_hidden_failure(testdir, app_schema, openapi3_base_url):
+        # When we run test as a state machine
+        max_examples=2000,
+        deadline=None,
+        deadline=None,
+        suppress_health_check=list(HealthCheck),
+        suppress_health_check=list(HealthCheck),
+        suppress_health_check=list(HealthCheck),
+        phases=[Phase.generate],
+        phases=[Phase.generate],
+        phases=[Phase.generate],
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+        stateful_step_count=3  # There is no need for longer sequences to uncover the bug
+    )
+    )
+    )
+    )
+    """,
+    """,
+    """,
+    """,
+            schema=app_schema,
+            schema=app_schema,
+            schema=app_schema,
+            schema=app_schema,
+        )
+        )
+        )
+        )
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        result = testdir.runpytest()
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        # Then it should be able to find a hidden error:
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        result.assert_outcomes(failed=1)
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+        # And there should be Python code to reproduce the error in the GET call
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+>       result.stdout.re_match_lines([rf"E +curl -X GET '{openapi3_base_url}/users/\w+.+"])
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       Failed:  nomatch: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: '============================= test session starts =============================='
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1'
+E            and: 'rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: 'collected 1 item'
+E            and: ''
+E            and: ''
+E            and: ''
+E            and: 'test_hidden_failure.py F                                                 [100%]'
+E            and: 'test_hidden_failure.py F                                                 [100%]'
+E            and: ''
+E            and: '=================================== FAILURES ==================================='
+E            and: "E           hypothesis.errors.InvalidDefinition: No progress can be made from state APIWorkflow({'catch_all': [VarReference(name='catch_all_0')],"
+E            and: "E            'POST /api/users/ -> 201': [],"
+E            and: "E            'POST /api/users/ -> 201': [],"
+E            and: "E            'GET /api/users/{user_id} -> 200': []})"
+E            and: "E            'GET /api/users/{user_id} -> 200': []})"
+E            and: 'E           Falsifying example:'
+E            and: 'E           Falsifying example:'
+E            and: 'E           state = APIWorkflow()'
+E            and: 'E           state = APIWorkflow()'
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: "E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)"
+E            and: 'E           state.teardown()'
+E            and: 'E           state.teardown()'
+E            and: 'E           state.teardown()'
+E            and: ''
+E            and: ''
+E            and: ''
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition'
+E            and: '=========================== short test summary info ============================'
+E            and: '=========================== short test summary info ============================'
+E            and: '=========================== short test summary info ============================'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: 'FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...'
+E            and: '============================== 1 failed in 0.17s ==============================='
+E            and: '============================== 1 failed in 0.17s ==============================='
+E            and: '============================== 1 failed in 0.17s ==============================='
+E            and: 'Hypothesis calls: 0'
+E            and: 'Hypothesis calls: 0'
+E            and: 'Hypothesis calls: 0'
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+E       remains unmatched: "E +curl -X GET 'http://127.0.0.1:55323/api/users/\\w+.+"
+
+
+
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/test/specs/openapi/stateful/test_stateful.py:124: Failed
+----------------------------- Captured stdout call -----------------------------
+----------------------------- Captured stdout call -----------------------------
+----------------------------- Captured stdout call -----------------------------
+============================= test session starts ==============================
+============================= test session starts ==============================
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1
+rootdir: /usr/src/tmp/pytest-of-builder/pytest-0/test_hidden_failure1
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+plugins: schemathesis-3.39.16, syrupy-4.9.1, subtests-0.14.1, mock-3.14.0, pytest_httpserver-1.1.3, asyncio-0.25.3, xdist-3.6.1, trio-0.8.0, hypothesis-6.131.16, anyio-4.9.0
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None
+collected 1 item
+
+test_hidden_failure.py F                                                 [100%]
+
+E           hypothesis.errors.InvalidDefinition: No progress can be made from state APIWorkflow({'catch_all': [VarReference(name='catch_all_0')],
+E            'POST /api/users/ -> 201': [],
+E            'POST /api/users/ -> 201': [],
+E            'GET /api/users/{user_id} -> 200': []})
+E            'GET /api/users/{user_id} -> 200': []})
+E           Falsifying example:
+E           Falsifying example:
+E           state = APIWorkflow()
+E           state = APIWorkflow()
+E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)
+E           catch_all_0 = state.POST_api_users___X(case=state.schema['/users/']['POST'].make_case(headers={}, body={'first_name': '000', 'last_name': '000'}, media_type='application/json'), previous=None)
+E           state.teardown()
+E           state.teardown()
+
+
+/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition
+/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...
+FAILED test_hidden_failure.py::TestStateful::runTest - hypothesis.errors.Inva...
+============================== 1 failed in 0.17s ===============================
+============================== 1 failed in 0.17s ===============================
+Hypothesis calls: 0
+Hypothesis calls: 0
+__________________ test_hidden_failure_app[wsgi_app_factory] ___________________
+__________________ test_hidden_failure_app[wsgi_app_factory] ___________________
+
+
+request = <FixtureRequest for <Function test_hidden_failure_app[wsgi_app_factory]>>
+request = <FixtureRequest for <Function test_hidden_failure_app[wsgi_app_factory]>>
+factory_name = 'wsgi_app_factory', open_api_3 = <OpenAPIVersion._3: '3.0'>
+factory_name = 'wsgi_app_factory', open_api_3 = <OpenAPIVersion._3: '3.0'>
+
+
+    @pytest.mark.parametrize("factory_name", ["wsgi_app_factory", "asgi_app_factory"])
+    @pytest.mark.parametrize("factory_name", ["wsgi_app_factory", "asgi_app_factory"])
+    def test_hidden_failure_app(request, factory_name, open_api_3):
+    def test_hidden_failure_app(request, factory_name, open_api_3):
+        factory = request.getfixturevalue(factory_name)
+        factory = request.getfixturevalue(factory_name)
+        app = factory(operations=("create_user", "get_user", "update_user"), version=open_api_3)
+E            'DELETE /users/{userId} -> 204': []})
+E           Falsifying example:
+E           state = APIWorkflow()
+E           catch_all_0 = state.POST_users__X(case=state.schema['/users']['POST'].make_case(headers={}, body={'name': ''}, media_type='application/json'), previous=None)
+E           state.teardown()
+
+/usr/lib/python3/site-packages/hypothesis/stateful.py:1032: InvalidDefinition
+=============================== warnings summary ===============================
+.run_venv/lib64/python3/site-packages/schemathesis/generation/coverage.py:305
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/generation/coverage.py:305: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    ref_error: type[Exception] = jsonschema.RefResolutionError,
+
+.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/references.py:11
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/references.py:11: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    from jsonschema.exceptions import RefResolutionError
+
+.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/references.py:51
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/references.py:51: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+    class InliningResolver(jsonschema.RefResolver):
+
+.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/schemas.py:89
+test/test_recoverable_errors.py: 6 warnings
+test/test_schemas.py: 3 warnings
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/specs/openapi/schemas.py:350: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    if isinstance(error, jsonschema.exceptions.RefResolutionError):
+
+test/contrib/test_install.py::test_installation
+test/contrib/test_unique_data.py::test_python_tests[raw_schema0]
+test/contrib/test_unique_data.py::test_python_tests[raw_schema1]
+test/contrib/test_unique_data.py::test_python_tests[raw_schema2]
+test/contrib/test_unique_data.py::test_python_tests[None]
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/contrib/unique_data.py:15: DeprecationWarning: The `schemathesis.contrib.unique_data` hook is **DEPRECATED**. The concept of this feature does not fit the core principles of Hypothesis where strategies are configurable on a per-example basis but this feature implies uniqueness across examples. This leads to cryptic error messages about external state and flaky test runs, therefore it will be removed in Schemathesis 4.0
+    warnings.warn(
+
+test/coverage/test_combinations.py::test_unsupported_patterns[^[A-Za-z0-9]$|^[A-Za-z0-9][\\w-\\.]*[A-Za-z0-9]$]
+  /usr/lib/python3/site-packages/hypothesis_jsonschema/_from_schema.py:643: UserWarning: Got patternProperties entry='^[A-Za-z0-9]$|^[A-Za-z0-9][\\w-\\.]*[A-Za-z0-9]$', but this is not valid syntax for a Python regular expression (bad character range \w-\. at position 27) so it will not be handled by the strategy.  See https://json-schema.org/understanding-json-schema/reference/regular_expressions.html
+    _warn_invalid_regex(key, err, "patternProperties entry")
+
+test/coverage/test_combinations.py::test_unsupported_patterns[^[-._\\p{L}\\p{N}]+$]
+  /usr/lib/python3/site-packages/hypothesis_jsonschema/_from_schema.py:643: UserWarning: Got patternProperties entry='^[-._\\p{L}\\p{N}]+$', but this is not valid syntax for a Python regular expression (bad escape \p at position 5) so it will not be handled by the strategy.  See https://json-schema.org/understanding-json-schema/reference/regular_expressions.html
+    _warn_invalid_regex(key, err, "patternProperties entry")
+
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Argument `tag` is deprecated and will be removed in Schemathesis 4.0. Use `include` and `exclude` methods instead.
+    warnings.warn(
+
+
+test/filters/test_matching.py::test_exclude_custom[args0-kwargs0-[<Filter: [matcher_func]>]]
+test/filters/test_matching.py::test_exclude_custom[args0-kwargs0-[<Filter: [matcher_func]>]]
+test/filters/test_matching.py::test_exclude_custom[args1-kwargs1-[<Filter: [is_deprecated]>, <Filter: [matcher_func]>]]
+test/filters/test_matching.py::test_exclude_custom[args1-kwargs1-[<Filter: [is_deprecated]>, <Filter: [matcher_func]>]]
+test/filters/test_matching.py::test_exclude_custom[args2-kwargs2-[<Filter: [is_deprecated]>]]
+test/filters/test_matching.py::test_exclude_custom[args2-kwargs2-[<Filter: [is_deprecated]>]]
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Argument `operation_id` is deprecated and will be removed in Schemathesis 4.0. Use `include` and `exclude` methods instead.
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Argument `operation_id` is deprecated and will be removed in Schemathesis 4.0. Use `include` and `exclude` methods instead.
+    warnings.warn(
+    warnings.warn(
+
+
+test/runner/test_runner.py::test_stop_event_stream_after_second_event[multi-worker]
+test/runner/test_runner.py::test_stop_event_stream_after_second_event[multi-worker]
+  /usr/lib/python3/site-packages/_pytest/threadexception.py:82: PytestUnhandledThreadExceptionWarning: Exception in thread schemathesis_0
+  /usr/lib/python3/site-packages/_pytest/threadexception.py:82: PytestUnhandledThreadExceptionWarning: Exception in thread schemathesis_0
+  
+  
+  Traceback (most recent call last):
+  Traceback (most recent call last):
+    File "/usr/lib64/python3.12/threading.py", line 1075, in _bootstrap_inner
+    File "/usr/lib64/python3.12/threading.py", line 1075, in _bootstrap_inner
+      self.run()
+      self.run()
+    File "/usr/lib64/python3.12/threading.py", line 1012, in run
+    File "/usr/lib64/python3.12/threading.py", line 1012, in run
+      self._target(*self._args, **self._kwargs)
+      self._target(*self._args, **self._kwargs)
+    File "/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/runner/impl/threadpool.py", line 135, in thread_task
+    File "/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/runner/impl/threadpool.py", line 135, in thread_task
+      _run_task(
+      _run_task(
+    File "/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/runner/impl/threadpool.py", line 85, in _run_task
+    File "/usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/runner/impl/threadpool.py", line 85, in _run_task
+      result = tasks_queue.get(timeout=0.001)
+      result = tasks_queue.get(timeout=0.001)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/lib64/python3.12/queue.py", line 180, in get
+  
+    warnings.warn(pytest.PytestUnhandledThreadExceptionWarning(msg))
+
+test/specs/graphql/test_basic.py::test_as_wsgi_kwargs
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Function `as_werkzeug_kwargs` is deprecated and will be removed in Schemathesis 4.0. Use Case.as_transport_kwargs instead.
+    warnings.warn(
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b79527950>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b79527950>
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795278f0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795278f0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795278f0>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9f40>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9f40>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9f40>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9f40>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eb980>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eb980>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eb980>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eb980>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9250>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9250>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9250>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9250>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795e8e60>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795e8e60>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795e8e60>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795e8e60>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954e4b0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954e4b0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954e4b0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954e4b0>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954daf0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954daf0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954daf0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954daf0>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9cd0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9cd0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9cd0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b795e9cd0>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eba70>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eba70>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eba70>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b795eba70>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954b7d0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954b7d0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954b7d0>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:313: ResourceWarning: Unclosed <MemoryObjectSendStream at 7f8b7954b7d0>
+    warnings.warn(
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+test/specs/openapi/test_ignored_auth.py::test_auth_via_setitem[cookie]
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954b800>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954b800>
+  /usr/lib/python3/site-packages/anyio/streams/memory.py:183: ResourceWarning: Unclosed <MemoryObjectReceiveStream at 7f8b7954b800>
+    warnings.warn(
+    warnings.warn(
+  Enable tracemalloc to get traceback where the object was allocated.
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+
+test/test_asgi.py::test_cookies[call_asgi]
+test/test_asgi.py::test_cookies[call_asgi]
+test/test_asgi.py::test_not_app_with_asgi
+test/test_asgi.py::test_not_app_with_asgi
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Function `call_asgi` is deprecated and will be removed in Schemathesis 4.0. Use Case.call instead.
+    warnings.warn(
+
+test/test_wsgi.py::test_cookies[call_wsgi]
+test/test_wsgi.py::test_not_wsgi
+  /usr/src/RPM/BUILD/python3-module-schemathesis-3.39.16/.run_venv/lib64/python3/site-packages/schemathesis/internal/deprecation.py:6: DeprecationWarning: Function `call_wsgi` is deprecated and will be removed in Schemathesis 4.0. Use Case.call instead.
+--------------------------- snapshot report summary ----------------------------
+281 snapshots passed. 10 snapshots updated. 1 unused snapshot deleted.
+281 snapshots passed. 10 snapshots updated. 1 unused snapshot deleted.
+
+
+
+Deleted test_github_suggestion[Open API 3.0] (test/service/__snapshots__/test_cli/test_github_suggestion[Open API 3.0].raw)
+Deleted test_github_suggestion[Open API 3.0] (test/service/__snapshots__/test_cli/test_github_suggestion[Open API 3.0].raw)
+Deleted test_github_suggestion[Open API 3.0] (test/service/__snapshots__/test_cli/test_github_suggestion[Open API 3.0].raw)
+Deleted test_github_suggestion[Open API 3.0] (test/service/__snapshots__/test_cli/test_github_suggestion[Open API 3.0].raw)
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+SKIPPED [1] test/coverage/test_combinations.py:227: This test is not applicable for multiple_of=None
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema0] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema1] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[raw_schema2] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+XPASS test/contrib/test_unique_data.py::test_python_tests[None] - The `schemathesis.contrib.unique_data` hook is deprecated
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/cli/test_commands.py::test_new_stateful_runner_junit[Open API 3.0]
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/runner/test_runner.py::test_stateful_override[Open API 3.0] - ass...
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs0]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs1]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs2]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_independent_5xx[kwargs3]
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_works_on_single_link
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_stop_outside_of_state_machine_execution
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_failure_hidden_behind_another_failure
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_find_use_after_free
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_flaky[kwargs0] - asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_random_unsatisfiable
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_custom_headers - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_multiple_source_links
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_dry_run - AssertionEr...
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_valid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_max_response_time_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_targeted - AssertionE...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_external_link - Asser...
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_new_resource_is_not_available
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_negative_tests - Asse...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_unique_data - Asserti...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_valid - ...
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_runner.py::test_ignored_auth_invalid
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 2.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure[Open API 3.0]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[wsgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_hidden_failure_app[asgi_app_factory]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_use_after_free - hy...
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[True]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+FAILED test/specs/openapi/stateful/test_stateful.py::test_dynamic_body[False]
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+= 31 failed, 2730 passed, 1 skipped, 4 xpassed, 340 warnings in 571.60s (0:09:31) =
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--snapshot-update', 'test/']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1892 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+502.78user 36.55system 9:44.45elapsed 92%CPU (0avgtext+0avgdata 616984maxresident)k
+502.78user 36.55system 9:44.45elapsed 92%CPU (0avgtext+0avgdata 616984maxresident)k
+502.78user 36.55system 9:44.45elapsed 92%CPU (0avgtext+0avgdata 616984maxresident)k
+502.78user 36.55system 9:44.45elapsed 92%CPU (0avgtext+0avgdata 616984maxresident)k
+502.78user 36.55system 9:44.45elapsed 92%CPU (0avgtext+0avgdata 616984maxresident)k
+0inputs+0outputs (0major+2584958minor)pagefaults 0swaps
+0inputs+0outputs (0major+2584958minor)pagefaults 0swaps
+0inputs+0outputs (0major+2584958minor)pagefaults 0swaps
+0inputs+0outputs (0major+2584958minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-schemathesis-3.39.16-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-schemathesis-3.39.16-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-schemathesis-3.39.16-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.78user 3.13system 10:44.43elapsed 1%CPU (0avgtext+0avgdata 142372maxresident)k
+8.78user 3.13system 10:44.43elapsed 1%CPU (0avgtext+0avgdata 142372maxresident)k
+246488inputs+0outputs (0major+358359minor)pagefaults 0swaps

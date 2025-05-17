@@ -1,0 +1,728 @@
+dict.c:1047:13: note: in expansion of macro 'g_once_init_enter'
+ 1047 |         if (g_once_init_enter (&skk_empty_dict_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-file-dict.lo `test -f 'file-dict.c' || echo './'`file-dict.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c file-dict.c  -fPIC -DPIC -o .libs/libskk_la-file-dict.o
+In file included from /usr/include/glib-2.0/glib.h:64,
+In file included from /usr/include/glib-2.0/glib.h:64,
+                 from file-dict.c:23:
+                 from file-dict.c:23:
+file-dict.c: In function 'skk_file_dict_read_until':
+file-dict.c: In function 'skk_file_dict_read_until':
+/usr/include/glib-2.0/glib/gmessages.h:671:16: error: returning 'void *' from a function with return type 'gboolean' {aka 'int'} makes integer from pointer without a cast [-Wint-conversion]
+/usr/include/glib-2.0/glib/gmessages.h:671:16: error: returning 'void *' from a function with return type 'gboolean' {aka 'int'} makes integer from pointer without a cast [-Wint-conversion]
+  671 |         return (val); \
+  671 |         return (val); \
+      |                ^
+      |                ^
+file-dict.c:401:9: note: in expansion of macro 'g_return_val_if_fail'
+file-dict.c:401:9: note: in expansion of macro 'g_return_val_if_fail'
+  401 |         g_return_val_if_fail (((gsize) (*offset)) < _tmp2_, NULL);
+  401 |         g_return_val_if_fail (((gsize) (*offset)) < _tmp2_, NULL);
+  401 |         g_return_val_if_fail (((gsize) (*offset)) < _tmp2_, NULL);
+      |         ^~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~
+file-dict.c: In function 'skk_file_dict_real_lookup':
+file-dict.c: In function 'skk_file_dict_real_lookup':
+file-dict.c: In function 'skk_file_dict_real_lookup':
+file-dict.c:1019:17: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+file-dict.c:1019:17: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+file-dict.c:1019:17: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+ 1019 |         _tmp23_ = g_strcmp0;
+ 1019 |         _tmp23_ = g_strcmp0;
+ 1019 |         _tmp23_ = g_strcmp0;
+ 1019 |         _tmp23_ = g_strcmp0;
+      |                 ^
+      |                 ^
+      |                 ^
+      |                 ^
+file-dict.c:911:15: warning: variable 'pos' set but not used [-Wunused-but-set-variable]
+file-dict.c:911:15: warning: variable 'pos' set but not used [-Wunused-but-set-variable]
+file-dict.c:911:15: warning: variable 'pos' set but not used [-Wunused-but-set-variable]
+file-dict.c:911:15: warning: variable 'pos' set but not used [-Wunused-but-set-variable]
+  911 |         glong pos = 0L;
+  911 |         glong pos = 0L;
+  911 |         glong pos = 0L;
+  911 |         glong pos = 0L;
+      |               ^~~
+      |               ^~~
+      |               ^~~
+      |               ^~~
+file-dict.c: In function 'skk_file_dict_strcmp_prefix':
+file-dict.c: In function 'skk_file_dict_strcmp_prefix':
+file-dict.c: In function 'skk_file_dict_strcmp_prefix':
+file-dict.c: In function 'skk_file_dict_strcmp_prefix':
+file-dict.c:1150:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+file-dict.c:1150:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+file-dict.c:1150:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+file-dict.c:1150:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+ 1150 |         _tmp0_ = g_strcmp0;
+ 1150 |         _tmp0_ = g_strcmp0;
+ 1150 |         _tmp0_ = g_strcmp0;
+ 1150 |         _tmp0_ = g_strcmp0;
+      |                ^
+      |                ^
+      |                ^
+      |                ^
+file-dict.c: In function 'skk_file_dict_real_complete':
+file-dict.c: In function 'skk_file_dict_real_complete':
+file-dict.c: In function 'skk_file_dict_real_complete':
+file-dict.c: In function 'skk_file_dict_real_complete':
+file-dict.c:1263:25: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+file-dict.c:1263:25: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+file-dict.c:1263:25: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1263 |                 _tmp19_ = _tmp18_;
+ 1263 |                 _tmp19_ = _tmp18_;
+ 1263 |                 _tmp19_ = _tmp18_;
+      |                         ^
+      |                         ^
+      |                         ^
+file-dict.c:1510:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+file-dict.c:1510:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+file-dict.c:1510:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1510 |         _tmp80_ = _tmp79_;
+ 1510 |         _tmp80_ = _tmp79_;
+ 1510 |         _tmp80_ = _tmp79_;
+      |                 ^
+      |                 ^
+      |                 ^
+file-dict.c: In function 'skk_file_dict_real_get_read_only':
+file-dict.c: In function 'skk_file_dict_real_get_read_only':
+file-dict.c: In function 'skk_file_dict_real_get_read_only':
+file-dict.c:1596:22: warning: variable 'self' set but not used [-Wunused-but-set-variable]
+file-dict.c:1596:22: warning: variable 'self' set but not used [-Wunused-but-set-variable]
+ 1596 |         SkkFileDict* self;
+ 1596 |         SkkFileDict* self;
+      |                      ^~~~
+      |                      ^~~~
+file-dict.c: In function 'skk_file_dict_class_init':
+file-dict.c: In function 'skk_file_dict_class_init':
+file-dict.c:1607:9: warning: 'g_type_class_add_private' is deprecated [-Wdeprecated-declarations]
+ 1607 |         g_type_class_add_private (klass, sizeof (SkkFileDictPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+file-dict.c: In function 'skk_file_dict_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+file-dict.c:1648:13: note: in expansion of macro 'g_once_init_enter'
+ 1648 |         if (g_once_init_enter (&skk_file_dict_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:668: libskk_la-file-dict.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-keymap.lo `test -f 'keymap.c' || echo './'`keymap.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c keymap.c  -fPIC -DPIC -o .libs/libskk_la-keymap.o
+keymap.c: In function 'skk_keymap_class_init':
+keymap.c:293:9: warning: 'g_type_class_add_private' is deprecated [-Wdeprecated-declarations]
+  293 |         g_type_class_add_private (klass, sizeof (SkkKeymapPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib.h:56:
+/usr/include/glib-2.0/glib/gunicode.h:923:42: note: expected 'gchar *' {aka 'char *'} but argument is of type 'const gchar *' {aka 'const char *'}
+  923 |                              gchar      *outbuf);
+      |                              ~~~~~~~~~~~~^~~~~~
+key-event.c: In function '_vala_g_strjoinv':
+key-event.c:844:22: warning: variable '_tmp23_' set but not used [-Wunused-but-set-variable]
+  844 |                 gint _tmp23_;
+      |                      ^~~~~~~
+key-event.c: In function 'skk_key_event_to_string':
+key-event.c:1124:23: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1124 |                 array = _tmp32_;
+      |                       ^
+key-event.c:1060:22: warning: variable '_tmp43_' set but not used [-Wunused-but-set-variable]
+ 1060 |                 gint _tmp43_;
+      |                      ^~~~~~~
+key-event.c:1049:22: warning: variable '_tmp34_' set but not used [-Wunused-but-set-variable]
+ 1049 |                 gint _tmp34_;
+      |                      ^~~~~~~
+key-event.c:1047:25: warning: variable '_tmp33_' set but not used [-Wunused-but-set-variable]
+ 1047 |                 gchar** _tmp33_;
+key-event.c: In function 'skk_key_event_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+key-event.c:1533:13: note: in expansion of macro 'g_once_init_enter'
+ 1533 |         if (g_once_init_enter (&skk_key_event_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:696: libskk_la-key-event.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-rom-kana.lo `test -f 'rom-kana.c' || echo './'`rom-kana.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c rom-kana.c  -fPIC -DPIC -o .libs/libskk_la-rom-kana.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+                 from /usr/include/glib-2.0/glib/gasyncqueue.h:34,
+                 from /usr/include/glib-2.0/glib.h:34,
+                 from rom-kana.c:24:
+rom-kana.c: In function 'skk_rom_kana_entry_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  216 |         return g_memdup (self, length * sizeof (guint8));
+      |         ^~~~~~
+In file included from /usr/include/glib-2.0/glib/gstring.h:37,
+                 from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib.h:56,
+                 from user-dict.c:23:
+/usr/include/glib-2.0/glib/gstrfuncs.h:338:23: note: declared here
+  338 | gpointer              g_memdup         (gconstpointer mem,
+      |                       ^~~~~~~~
+user-dict.c: In function 'skk_user_dict_load':
+user-dict.c:342:53: error: passing argument 3 of 'g_file_load_contents' from incompatible pointer type [-Wincompatible-pointer-types]
+  342 |                 g_file_load_contents (_tmp0_, NULL, &_tmp1_, &_tmp2_, &_tmp3_, &_inner_error_);
+      |                                                     ^~~~~~~
+      |                                                     |
+      |                                                     guint8 ** {aka unsigned char **}
+In file included from /usr/include/glib-2.0/gio/gio.h:81,
+                 from user-dict.c:27:
+/usr/include/glib-2.0/gio/gfile.h:1284:71: note: expected 'char **' but argument is of type 'guint8 **' {aka 'unsigned char **'}
+ 1284 |                                               char                  **contents,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+user-dict.c:889:30: warning: unused variable '_c_collection_size_' [-Wunused-variable]
+user-dict.c:662:22: warning: variable '_candidates_size_' set but not used [-Wunused-but-set-variable]
+  662 |                 gint _candidates_size_;
+      |                      ^~~~~~~~~~~~~~~~~
+user-dict.c:320:15: warning: variable 'length' set but not used [-Wunused-but-set-variable]
+  320 |         gsize length = 0UL;
+  320 |         gsize length = 0UL;
+      |               ^~~~~~
+      |               ^~~~~~
+user-dict.c:308:14: warning: variable '_contents_size_' set but not used [-Wunused-but-set-variable]
+user-dict.c:308:14: warning: variable '_contents_size_' set but not used [-Wunused-but-set-variable]
+  308 |         gint _contents_size_ = 0;
+  308 |         gint _contents_size_ = 0;
+      |              ^~~~~~~~~~~~~~~
+      |              ^~~~~~~~~~~~~~~
+user-dict.c: In function 'skk_user_dict_compare_entry_asc':
+user-dict.c: In function 'skk_user_dict_compare_entry_asc':
+user-dict.c:1045:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+user-dict.c:1045:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+ 1045 |         _tmp0_ = g_strcmp0;
+ 1045 |         _tmp0_ = g_strcmp0;
+ 1045 |         _tmp0_ = g_strcmp0;
+      |                ^
+      |                ^
+      |                ^
+user-dict.c: In function 'skk_user_dict_compare_entry_dsc':
+user-dict.c: In function 'skk_user_dict_compare_entry_dsc':
+user-dict.c: In function 'skk_user_dict_compare_entry_dsc':
+user-dict.c:1067:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+user-dict.c:1067:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+user-dict.c:1067:16: error: assignment to 'GCompareFunc' {aka 'int (*)(const void *, const void *)'} from incompatible pointer type 'int (*)(const char *, const char *)' [-Wincompatible-pointer-types]
+ 1067 |         _tmp0_ = g_strcmp0;
+ 1067 |         _tmp0_ = g_strcmp0;
+ 1067 |         _tmp0_ = g_strcmp0;
+      |                ^
+      |                ^
+      |                ^
+user-dict.c: In function 'skk_user_dict_write_entries':
+user-dict.c: In function 'skk_user_dict_write_entries':
+user-dict.c: In function 'skk_user_dict_write_entries':
+user-dict.c:1122:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+user-dict.c:1122:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+user-dict.c:1122:24: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 1122 |                 _tmp9_ = _tmp8_;
+ 1122 |                 _tmp9_ = _tmp8_;
+ 1122 |                 _tmp9_ = _tmp8_;
+      |                        ^
+      |                        ^
+      |                        ^
+user-dict.c:1124:25: error: assignment to 'SkkCandidate **' {aka 'struct _SkkCandidate **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+user-dict.c:1124:25: error: assignment to 'SkkCandidate **' {aka 'struct _SkkCandidate **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1124 |                 _tmp12_ = _tmp11_;
+ 1124 |                 _tmp12_ = _tmp11_;
+      |                         ^
+      |                         ^
+user-dict.c: In function 'string_get_data':
+user-dict.c: In function 'string_get_data':
+user-dict.c:1155:14: warning: variable '_tmp2_' set but not used [-Wunused-but-set-variable]
+ 1155 |         gint _tmp2_;
+      |              ^~~~~~
+user-dict.c:1152:14: warning: variable '_res_size_' set but not used [-Wunused-but-set-variable]
+ 1152 |         gint _res_size_;
+      |              ^~~~~~~~~~
+user-dict.c: In function 'skk_user_dict_real_save':
+user-dict.c: In function 'skk_user_dict_real_save':
+user-dict.c:1311:43: warning: pointer targets in passing argument 2 of 'g_file_replace_contents' differ in signedness [-Wpointer-sign]
+ 1311 |         g_file_replace_contents (_tmp38_, _tmp41_, (gsize) _tmp41__length1, _tmp42_, FALSE, G_FILE_CREATE_PRIVATE, &_tmp43_, NULL, &_inner_error_);
+      |                                           ^~~~~~~
+      |                                           |
+      |                                           |
+      |                                           guint8 * {aka unsigned char *}
+      |                                           guint8 * {aka unsigned char *}
+/usr/include/glib-2.0/gio/gfile.h:1315:71: note: expected 'const char *' but argument is of type 'guint8 *' {aka 'unsigned char *'}
+/usr/include/glib-2.0/gio/gfile.h:1315:71: note: expected 'const char *' but argument is of type 'guint8 *' {aka 'unsigned char *'}
+ 1315 |                                               const char             *contents,
+ 1315 |                                               const char             *contents,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+user-dict.c: In function 'skk_user_dict_real_lookup':
+user-dict.c: In function 'skk_user_dict_real_lookup':
+user-dict.c:1386:24: error: assignment to 'SkkCandidate **' {aka 'struct _SkkCandidate **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+user-dict.c:1386:24: error: assignment to 'SkkCandidate **' {aka 'struct _SkkCandidate **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1386 |                 _tmp7_ = _tmp6_;
+ 1386 |                 _tmp7_ = _tmp6_;
+      |                        ^
+      |                        ^
+user-dict.c: In function 'skk_user_dict_real_complete':
+user-dict.c: In function 'skk_user_dict_real_complete':
+user-dict.c:1521:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+user-dict.c:1521:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1521 |         _tmp27_ = _tmp26_;
+ 1521 |         _tmp27_ = _tmp26_;
+      |                 ^
+      |                 ^
+user-dict.c: In function 'skk_user_dict_real_get_read_only':
+user-dict.c: In function 'skk_user_dict_real_get_read_only':
+user-dict.c:1867:22: warning: variable 'self' set but not used [-Wunused-but-set-variable]
+user-dict.c:1867:22: warning: variable 'self' set but not used [-Wunused-but-set-variable]
+ 1867 |         SkkUserDict* self;
+ 1867 |         SkkUserDict* self;
+      |                      ^~~~
+      |                      ^~~~
+user-dict.c: In function 'skk_user_dict_class_init':
+user-dict.c:1878:9: warning: 'g_type_class_add_private' is deprecated [-Wdeprecated-declarations]
+ 1878 |         g_type_class_add_private (klass, sizeof (SkkUserDictPrivate));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+user-dict.c: In function 'skk_user_dict_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+user-dict.c:1979:13: note: in expansion of macro 'g_once_init_enter'
+ 1979 |         if (g_once_init_enter (&skk_user_dict_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:682: libskk_la-user-dict.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-context.lo `test -f 'context.c' || echo './'`context.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c context.c  -fPIC -DPIC -o .libs/libskk_la-context.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+                 from /usr/include/glib-2.0/glib/gasyncqueue.h:34,
+                 from /usr/include/glib-2.0/glib.h:34,
+                 from context.c:23:
+context.c: In function 'skk_input_mode_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~
+context.c: In function 'skk_context_select_candidate_in_dictionaries':
+context.c:1048:22: warning: unused variable '_dict_collection_size_' [-Wunused-variable]
+ 1048 |                 gint _dict_collection_size_ = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+context.c: In function 'skk_context_save_dictionaries':
+context.c:2378:22: warning: unused variable '_dict_collection_size_' [-Wunused-variable]
+ 2378 |                 gint _dict_collection_size_ = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+context.c: In function 'skk_context_get_dictionaries':
+context.c:2426:16: error: assignment to 'SkkDict **' {aka 'struct _SkkDict **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 2426 |         _tmp3_ = _tmp2_;
+      |                ^
+context.c: In function 'skk_context_set_dictionaries':
+context.c:2448:22: warning: unused variable '_dict_collection_size_' [-Wunused-variable]
+ 2448 |                 gint _dict_collection_size_ = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+context.c:2447:22: warning: variable 'dict_collection_length1' set but not used [-Wunused-but-set-variable]
+ 2447 |                 gint dict_collection_length1 = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~
+context.c: In function 'skk_context_class_init':
+context.c: In function 'skk_context_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+context.c:2967:13: note: in expansion of macro 'g_once_init_enter'
+ 2967 |         if (g_once_init_enter (&skk_context_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:738: libskk_la-context.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-cdb-dict.lo `test -f 'cdb-dict.c' || echo './'`cdb-dict.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c cdb-dict.c  -fPIC -DPIC -o .libs/libskk_la-cdb-dict.o
+cdb-dict.c: In function 'skk_cdb_dict_hash':
+cdb-dict.c:200:22: warning: unused variable '_c_collection_size_' [-Wunused-variable]
+  200 |                 gint _c_collection_size_ = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~
+cdb-dict.c:199:22: warning: variable 'c_collection_length1' set but not used [-Wunused-but-set-variable]
+  199 |                 gint c_collection_length1 = 0;
+state.c:941:14: warning: variable '_tmp1__length1' set but not used [-Wunused-but-set-variable]
+  941 |         gint _tmp1__length1;
+      |              ^~~~~~~~~~~~~~
+state.c: In function 'skk_state_construct':
+state.c:1100:50: warning: the comparison will always evaluate as 'true' for the address of 'SKK_AUTO_START_HENKAN_KEYWORDS' will never be NULL [-Waddress]
+ 1100 |         _tmp5_ = (SKK_AUTO_START_HENKAN_KEYWORDS != NULL) ? _vala_array_dup3 (SKK_AUTO_START_HENKAN_KEYWORDS, G_N_ELEMENTS (SKK_AUTO_START_HENKAN_KEYWORDS)) : ((gpointer) SKK_AUTO_START_HENKAN_KEYWORDS);
+      |                                                  ^~
+state.c:888:14: note: 'SKK_AUTO_START_HENKAN_KEYWORDS' declared here
+  888 | const gchar* SKK_AUTO_START_HENKAN_KEYWORDS[33] = {"を", "ヲ", "、", "。", "．", "，", "？", "」", "ｦ", "､", "｡", "｣", "！", "；", "：", ")", ";", ":", "）", "”", "】", "』", "》", "〉", "｝", "］", "〕", "}", "]", "?", ".", ",", "!"};
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+state.c:1100:79: error: passing argument 1 of '_vala_array_dup3' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1100 |         _tmp5_ = (SKK_AUTO_START_HENKAN_KEYWORDS != NULL) ? _vala_array_dup3 (SKK_AUTO_START_HENKAN_KEYWORDS, G_N_ELEMENTS (SKK_AUTO_START_HENKAN_KEYWORDS)) : ((gpointer) SKK_AUTO_START_HENKAN_KEYWORDS);
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               const gchar ** {aka const char **}
+state.c:1056:27: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+ 1056 | _vala_array_dup3 (gchar** self,
+      |                   ~~~~~~~~^~~~
+state.c: In function 'skk_state_cancel_okuri':
+state.c:1336:30: warning: variable '_tmp0_' set but not used [-Wunused-but-set-variable]
+ 1336 |         SkkRomKanaConverter* _tmp0_;
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+state.c:315:20: warning: 'skk_kuten_state_handler_properties' defined but not used [-Wunused-variable]
+  315 | static GParamSpec* skk_kuten_state_handler_properties[SKK_KUTEN_STATE_HANDLER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+state.c:266:20: warning: 'skk_none_state_handler_properties' defined but not used [-Wunused-variable]
+  266 | static GParamSpec* skk_none_state_handler_properties[SKK_NONE_STATE_HANDLER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+state.c:257:20: warning: 'skk_state_handler_properties' defined but not used [-Wunused-variable]
+  257 | static GParamSpec* skk_state_handler_properties[SKK_STATE_HANDLER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:731: libskk_la-state.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-rule.lo `test -f 'rule.c' || echo './'`rule.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c rule.c  -fPIC -DPIC -o .libs/libskk_la-rule.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+                 from /usr/include/glib-2.0/glib/gasyncqueue.h:34,
+                 from /usr/include/glib-2.0/glib.h:34,
+                 from rule.c:23:
+rule.c: In function 'skk_keymap_map_file_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+nicola.c:786:37: note: expected 'gchar *' {aka 'char *'} but argument is of type 'const gchar *' {aka 'const char *'}
+  786 |                              gchar* needle)
+      |                              ~~~~~~~^~~~~~
+nicola.c: In function 'skk_nicola_key_event_filter_constructor':
+nicola.c:1367:63: warning: the comparison will always evaluate as 'true' for the address of 'SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES' will never be NULL [-Waddress]
+ 1367 |         _tmp0_ = (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES != NULL) ? _vala_array_dup6 (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES, G_N_ELEMENTS (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES)) : ((gpointer) SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES);
+      |                                                               ^~
+nicola.c:257:21: note: 'SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES' declared here
+  257 | static const gchar* SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES[4] = {"[fj]", "[gh]", "[dk]", "[LR]"};
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+nicola.c:1367:92: error: passing argument 1 of '_vala_array_dup6' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1367 |         _tmp0_ = (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES != NULL) ? _vala_array_dup6 (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES, G_N_ELEMENTS (SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES)) : ((gpointer) SKK_NICOLA_KEY_EVENT_FILTER_SPECIAL_DOUBLES);
+      |                                                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                            |
+      |                                                                                            const gchar ** {aka const char **}
+nicola.c:1339:27: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+ 1339 | _vala_array_dup6 (gchar** self,
+      |                   ~~~~~~~~^~~~
+nicola.c: In function 'skk_nicola_key_event_filter_timed_entry_class_init':
+nicola.c:1557:9: warning: 'g_type_class_add_private' is deprecated [-Wdeprecated-declarations]
+ 1557 |         g_type_class_add_private (klass, sizeof (SkkNicolaKeyEventFilterTimedEntryPrivate));
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+nicola.c:1673:13: note: in expansion of macro 'g_once_init_enter'
+ 1673 |         if (g_once_init_enter (&skk_nicola_key_event_filter_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+nicola.c: At top level:
+nicola.c:76:20: warning: 'skk_nicola_key_event_filter_properties' defined but not used [-Wunused-variable]
+   76 | static GParamSpec* skk_nicola_key_event_filter_properties[SKK_NICOLA_KEY_EVENT_FILTER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:759: libskk_la-nicola.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-util.lo `test -f 'util.c' || echo './'`util.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c util.c  -fPIC -DPIC -o .libs/libskk_la-util.o
+util.c: In function 'skk_entry_copy':
+util.c:323:21: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  323 |         (*dest).key = _tmp0_;
+      |                     ^
+util.c:325:23: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  325 |         (*dest).value = _tmp1_;
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+util.c:370:13: note: in expansion of macro 'g_once_init_enter'
+  370 |         if (g_once_init_enter (&skk_numeric_conversion_type_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+util.c: In function 'skk_util_get_katakana':
+util.c: In function 'skk_util_get_katakana':
+util.c:707:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:707:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+  707 |         skk_util_foreach_katakana (kana, ___lambda4__gfunc, _data1_);
+  707 |         skk_util_foreach_katakana (kana, ___lambda4__gfunc, _data1_);
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          |
+      |                                          void (*)(const void *, void *)
+      |                                          void (*)(const void *, void *)
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+  587 |                            GFunc func,
+  587 |                            GFunc func,
+      |                            ~~~~~~^~~~
+      |                            ~~~~~~^~~~
+util.c: In function 'skk_util_get_hiragana':
+util.c: In function 'skk_util_get_hiragana':
+util.c: In function 'skk_util_get_hiragana':
+util.c:779:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:779:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:779:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+  779 |         skk_util_foreach_katakana (kana, ___lambda5__gfunc, _data2_);
+  779 |         skk_util_foreach_katakana (kana, ___lambda5__gfunc, _data2_);
+  779 |         skk_util_foreach_katakana (kana, ___lambda5__gfunc, _data2_);
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          |
+      |                                          void (*)(const void *, void *)
+      |                                          void (*)(const void *, void *)
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+  587 |                            GFunc func,
+  587 |                            GFunc func,
+      |                            ~~~~~~^~~~
+      |                            ~~~~~~^~~~
+util.c: In function 'skk_util_get_hankaku_katakana':
+util.c: In function 'skk_util_get_hankaku_katakana':
+util.c: In function 'skk_util_get_hankaku_katakana':
+util.c:851:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:851:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:851:42: error: passing argument 2 of 'skk_util_foreach_katakana' from incompatible pointer type [-Wincompatible-pointer-types]
+  851 |         skk_util_foreach_katakana (kana, ___lambda6__gfunc, _data3_);
+  851 |         skk_util_foreach_katakana (kana, ___lambda6__gfunc, _data3_);
+  851 |         skk_util_foreach_katakana (kana, ___lambda6__gfunc, _data3_);
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          |
+      |                                          void (*)(const void *, void *)
+      |                                          void (*)(const void *, void *)
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+util.c:587:34: note: expected 'GFunc' {aka 'void (*)(void *, void *)'} but argument is of type 'void (*)(const void *, void *)'
+  587 |                            GFunc func,
+  587 |                            GFunc func,
+      |                            ~~~~~~^~~~
+      |                            ~~~~~~^~~~
+      |                            ~~~~~~^~~~
+util.c: In function 'skk_util_get_numeric':
+util.c: In function 'skk_util_get_numeric':
+util.c: In function 'skk_util_get_numeric':
+util.c:1105:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1105:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1105:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1105 |                         _tmp5_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), NULL, 0);
+ 1105 |                         _tmp5_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), NULL, 0);
+ 1105 |                         _tmp5_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), NULL, 0);
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       |
+      |                                                                       |
+      |                                                                       const gchar ** {aka const char **}
+      |                                                                       const gchar ** {aka const char **}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+  909 |                             gchar** num_table,
+  909 |                             gchar** num_table,
+  909 |                             gchar** num_table,
+      |                             ~~~~~~~~^~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~
+util.c:1112:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1112:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1112:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       |
+      |                                                                       |
+      |                                                                       const gchar ** {aka const char **}
+      |                                                                       const gchar ** {aka const char **}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+  909 |                             gchar** num_table,
+  909 |                             gchar** num_table,
+  909 |                             gchar** num_table,
+      |                             ~~~~~~~~^~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~
+util.c:1112:142: error: passing argument 4 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1112:142: error: passing argument 4 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1112:142: error: passing argument 4 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+ 1112 |                         _tmp6_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_KanjiNumericTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericTable), SKK_UTIL_KanjiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_KanjiNumericalPositionTable));
+      |                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                              |
+      |                                                                                                                                              |
+      |                                                                                                                                              const gchar ** {aka const char **}
+      |                                                                                                                                              const gchar ** {aka const char **}
+util.c:911:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+util.c:911:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+  911 |                             gchar** num_pos_table,
+  911 |                             gchar** num_pos_table,
+  911 |                             gchar** num_pos_table,
+      |                             ~~~~~~~~^~~~~~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~~~~~
+util.c:1119:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1119:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1119:71: error: passing argument 2 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1119 |                         _tmp7_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_DaijiNumericTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericTable), SKK_UTIL_DaijiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericalPositionTable));
+ 1119 |                         _tmp7_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_DaijiNumericTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericTable), SKK_UTIL_DaijiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericalPositionTable));
+ 1119 |                         _tmp7_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_DaijiNumericTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericTable), SKK_UTIL_DaijiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericalPositionTable));
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                       |
+      |                                                                       |
+      |                                                                       const gchar ** {aka const char **}
+      |                                                                       const gchar ** {aka const char **}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+util.c:909:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+  909 |                             gchar** num_table,
+  909 |                             gchar** num_table,
+      |                             ~~~~~~~~^~~~~~~~~
+      |                             ~~~~~~~~^~~~~~~~~
+util.c:1119:142: error: passing argument 4 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+util.c:1119:142: error: passing argument 4 of 'skk_util_get_kanji_numeric' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1119 |                         _tmp7_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_DaijiNumericTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericTable), SKK_UTIL_DaijiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericalPositionTable));
+ 1119 |                         _tmp7_ = skk_util_get_kanji_numeric (numeric, SKK_UTIL_DaijiNumericTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericTable), SKK_UTIL_DaijiNumericalPositionTable, G_N_ELEMENTS (SKK_UTIL_DaijiNumericalPositionTable));
+      |                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                                              |
+      |                                                                                                                                              const gchar ** {aka const char **}
+util.c:911:37: note: expected 'gchar **' {aka 'char **'} but argument is of type 'const gchar **' {aka 'const char **'}
+  911 |                             gchar** num_pos_table,
+      |                             ~~~~~~~~^~~~~~~~~~~~~
+util.c: In function 'skk_util_build_data_path':
+util.c: In function 'skk_util_build_data_path':
+util.c:1195:30: warning: unused variable '_element_collection_size_' [-Wunused-variable]
+util.c:1195:30: warning: unused variable '_element_collection_size_' [-Wunused-variable]
+ 1195 |                         gint _element_collection_size_ = 0;
+ 1195 |                         gint _element_collection_size_ = 0;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+util.c:1194:30: warning: variable 'element_collection_length1' set but not used [-Wunused-but-set-variable]
+ 1194 |                         gint element_collection_length1 = 0;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+util.c:1182:22: warning: variable '_elements_size_' set but not used [-Wunused-but-set-variable]
+ 1182 |                 gint _elements_size_;
+      |                      ^~~~~~~~~~~~~~~
+util.c:1223:17: error: assignment to 'gchar **' {aka 'char **'} from incompatible pointer type 'void **' [-Wincompatible-pointer-types]
+ 1223 |         _tmp23_ = _tmp22_;
+      |                 ^
+util.c: In function 'skk_util_kana_table_entry_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+util.c:1303:13: note: in expansion of macro 'g_once_init_enter'
+      | ^~~~~~~~~~~~~~~
+util.c:659:1: warning: 'block1_data_ref' defined but not used [-Wunused-function]
+  659 | block1_data_ref (Block1Data* _data1_)
+      | ^~~~~~~~~~~~~~~
+util.c:84:20: warning: 'skk_unicode_string_properties' defined but not used [-Wunused-variable]
+   84 | static GParamSpec* skk_unicode_string_properties[SKK_UNICODE_STRING_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+util.c:55:20: warning: 'skk_util_properties' defined but not used [-Wunused-variable]
+   55 | static GParamSpec* skk_util_properties[SKK_UTIL_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:773: libskk_la-util.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\"  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c -o libskk_la-expr.lo `test -f 'expr.c' || echo './'`expr.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DPKGDATADIR=\"/usr/share/libskk\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC -c expr.c  -fPIC -DPIC -o .libs/libskk_la-expr.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+                 from /usr/include/glib-2.0/glib/gasyncqueue.h:34,
+                 from /usr/include/glib-2.0/glib.h:34,
+                 from expr.c:23:
+expr.c: In function 'skk_expr_node_type_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  946 |         if (g_once_init_enter (&skk_expr_evaluator_type_id__volatile)) {
+      |             ^~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~
+expr.c: At top level:
+expr.c: At top level:
+expr.c: At top level:
+expr.c:70:20: warning: 'skk_expr_evaluator_properties' defined but not used [-Wunused-variable]
+expr.c:70:20: warning: 'skk_expr_evaluator_properties' defined but not used [-Wunused-variable]
+expr.c:70:20: warning: 'skk_expr_evaluator_properties' defined but not used [-Wunused-variable]
+   70 | static GParamSpec* skk_expr_evaluator_properties[SKK_EXPR_EVALUATOR_NUM_PROPERTIES];
+   70 | static GParamSpec* skk_expr_evaluator_properties[SKK_EXPR_EVALUATOR_NUM_PROPERTIES];
+   70 | static GParamSpec* skk_expr_evaluator_properties[SKK_EXPR_EVALUATOR_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+expr.c:52:20: warning: 'skk_expr_reader_properties' defined but not used [-Wunused-variable]
+expr.c:52:20: warning: 'skk_expr_reader_properties' defined but not used [-Wunused-variable]
+expr.c:52:20: warning: 'skk_expr_reader_properties' defined but not used [-Wunused-variable]
+   52 | static GParamSpec* skk_expr_reader_properties[SKK_EXPR_READER_NUM_PROPERTIES];
+   52 | static GParamSpec* skk_expr_reader_properties[SKK_EXPR_READER_NUM_PROPERTIES];
+   52 | static GParamSpec* skk_expr_reader_properties[SKK_EXPR_READER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libskk-1.0.4/libskk'
+make[1]: *** [Makefile:517: all-recursive] Error 1
+make[1]: *** [Makefile:517: all-recursive] Error 1
+make[1]: *** [Makefile:517: all-recursive] Error 1
+make[1]: *** [Makefile:517: all-recursive] Error 1
+make: *** [Makefile:448: all] Error 2
+make: *** [Makefile:448: all] Error 2
+make: *** [Makefile:448: all] Error 2
+make: *** [Makefile:448: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11475 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.33user 3.67system 0:03.37elapsed 267%CPU (0avgtext+0avgdata 61520maxresident)k
+5.33user 3.67system 0:03.37elapsed 267%CPU (0avgtext+0avgdata 61520maxresident)k
+5.33user 3.67system 0:03.37elapsed 267%CPU (0avgtext+0avgdata 61520maxresident)k
+5.33user 3.67system 0:03.37elapsed 267%CPU (0avgtext+0avgdata 61520maxresident)k
+0inputs+0outputs (0major+658651minor)pagefaults 0swaps
+0inputs+0outputs (0major+658651minor)pagefaults 0swaps
+0inputs+0outputs (0major+658651minor)pagefaults 0swaps
+0inputs+0outputs (0major+658651minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libskk-1.0.4-alt3_11.src.rpm' failed.
+hsh-rebuild: rebuild of `libskk-1.0.4-alt3_11.src.rpm' failed.
+hsh-rebuild: rebuild of `libskk-1.0.4-alt3_11.src.rpm' failed.
+hsh-rebuild: rebuild of `libskk-1.0.4-alt3_11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.70user 3.91system 0:36.80elapsed 26%CPU (0avgtext+0avgdata 141876maxresident)k
+5.70user 3.91system 0:36.80elapsed 26%CPU (0avgtext+0avgdata 141876maxresident)k
+83960inputs+0outputs (0major+311793minor)pagefaults 0swaps

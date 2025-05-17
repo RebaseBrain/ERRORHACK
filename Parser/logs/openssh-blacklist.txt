@@ -1,0 +1,67 @@
+<86>May 16 00:04:03 userdel[3376996]: delete user 'rooter'
+<86>May 16 00:04:03 userdel[3376996]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:04:03 userdel[3376996]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:04:03 groupadd[3377035]: group added to /etc/group: name=rooter, GID=1223
+<86>May 16 00:04:03 groupadd[3377035]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:04:03 groupadd[3377035]: new group: name=rooter, GID=1223
+<86>May 16 00:04:03 useradd[3377060]: new user: name=rooter, UID=1223, GID=1223, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:04:03 userdel[3377100]: delete user 'builder'
+<86>May 16 00:04:03 userdel[3377100]: removed group 'builder' owned by 'builder'
+<86>May 16 00:04:03 userdel[3377100]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:04:03 groupadd[3377137]: group added to /etc/group: name=builder, GID=1224
+<86>May 16 00:04:03 groupadd[3377137]: group added to /etc/gshadow: name=builder
+<86>May 16 00:04:03 groupadd[3377137]: new group: name=builder, GID=1224
+<86>May 16 00:04:03 useradd[3377160]: new user: name=builder, UID=1224, GID=1224, home=/usr/src, shell=/bin/bash, from=none
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/openssh-blacklist-0.3.1-alt1.nosrc.rpm (w1.gzdio)
+Installing openssh-blacklist-0.3.1-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.80084
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf openssh-blacklist-0.3.1
++ echo 'Source #0 (openssh-blacklist-0.3.1.tar):'
+Source #0 (openssh-blacklist-0.3.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/openssh-blacklist-0.3.1.tar
++ cd openssh-blacklist-0.3.1
++ echo 'Source #1 (utils-0.3.1.tar):'
+Source #1 (utils-0.3.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/utils-0.3.1.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80084
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd openssh-blacklist-0.3.1
+++ getconf LFS_CFLAGS
++ gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto utils-0.3.1/blacklist-check.c -o openssh-blacklist-check
+++ getconf LFS_CFLAGS
++ gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto utils-0.3.1/blacklist-encode.c -o openssh-blacklist-encode
+utils-0.3.1/blacklist-encode.c: In function 'read_stream':
+utils-0.3.1/blacklist-encode.c:111:36: error: passing argument 2 of 'getline' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |         while ((n = getline(&line, &size, fp)) >= 0)
+      |                                    ^~~~~
+      |                                    |
+      |                                    unsigned int *
+In file included from /usr/include/stdio.h:966,
+                 from utils-0.3.1/blacklist-encode.c:36:
+/usr/include/bits/stdio.h:118:36: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'unsigned int *'
+  118 | getline (char **__lineptr, size_t *__n, FILE *__stream)
+      |                            ~~~~~~~~^~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+Command exited with non-zero status 1
+0.65user 0.08system 0:00.72elapsed 101%CPU (0avgtext+0avgdata 27780maxresident)k
+0inputs+0outputs (0major+15697minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `openssh-blacklist-0.3.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+0.98user 1.72system 0:06.24elapsed 43%CPU (0avgtext+0avgdata 12288maxresident)k
+0inputs+0outputs (0major+84886minor)pagefaults 0swaps

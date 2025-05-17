@@ -1,0 +1,1719 @@
+<86>May 16 03:41:28 userdel[762160]: delete user 'rooter'
+<86>May 16 03:41:28 userdel[762160]: removed group 'rooter' owned by 'rooter'
+<86>May 16 03:41:28 userdel[762160]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 03:41:28 groupadd[762197]: group added to /etc/group: name=rooter, GID=1877
+<86>May 16 03:41:28 groupadd[762197]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:41:28 groupadd[762197]: new group: name=rooter, GID=1877
+<86>May 16 03:41:28 useradd[762231]: new user: name=rooter, UID=1877, GID=1877, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:41:28 userdel[762280]: delete user 'builder'
+<86>May 16 03:41:28 userdel[762280]: removed group 'builder' owned by 'builder'
+<86>May 16 03:41:28 userdel[762280]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 03:41:28 groupadd[762332]: group added to /etc/group: name=builder, GID=1878
+<86>May 16 03:41:28 groupadd[762332]: group added to /etc/gshadow: name=builder
+<86>May 16 03:41:28 groupadd[762332]: new group: name=builder, GID=1878
+<86>May 16 03:41:28 useradd[762366]: new user: name=builder, UID=1878, GID=1878, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:41:31 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 03:41:32 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 03:41:32 rpmi: perl-Locale-gettext-1.07-alt1.2 sisyphus+335067.10500.2.2 1701154168 installed
+<13>May 16 03:41:32 rpmi: help2man-1.48.5-alt1 sisyphus+346293.200.2.1 1716441067 installed
+<13>May 16 03:41:32 rpmi: gnulib-0.1.6840.3f463-alt1 sisyphus+335948.100.3.1 1703099768 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/faketime-0.2.8-alt1.nosrc.rpm (w1.gzdio)
+Installing faketime-0.2.8-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.61314
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf faketime-0.2.8
++ echo 'Source #0 (faketime-0.2.8.tar):'
+Source #0 (faketime-0.2.8.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/faketime-0.2.8.tar
++ cd faketime-0.2.8
++ /bin/chmod -c -Rf u+rwX,go-w .
++ install -pm755 /usr/share/gnulib/build-aux/bootstrap .
++ echo -n 0.2.8
++ mkdir build-aux
++ sed '/Return an approximation/,/}$/d'
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.61314
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd faketime-0.2.8
++ ./bootstrap --gnulib-srcdir=/usr/share/gnulib --no-git --skip-po --force
+./bootstrap: Bootstrapping from checked-out faketime sources...
+running: libtoolize --install --copy
+libtoolize-default: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-aux'.
+libtoolize-default: copying file 'build-aux/config.guess'
+libtoolize-default: copying file 'build-aux/config.sub'
+libtoolize-default: copying file 'build-aux/install-sh'
+libtoolize-default: copying file 'build-aux/ltmain.sh'
+libtoolize-default: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize-default: copying file 'm4/libtool.m4'
+libtoolize-default: copying file 'm4/ltoptions.m4'
+libtoolize-default: copying file 'm4/ltsugar.m4'
+libtoolize-default: copying file 'm4/ltversion.m4'
+libtoolize-default: copying file 'm4/lt~obsolete.m4'
+./bootstrap: no version control for ./build-aux/config.guess?
+./bootstrap: no version control for ./build-aux/config.sub?
+./bootstrap: no version control for ./build-aux/install-sh?
+./bootstrap: no version control for ./build-aux/ltmain.sh?
+./bootstrap: no version control for ./m4/libtool.m4?
+./bootstrap: no version control for ./m4/ltoptions.m4?
+./bootstrap: no version control for ./m4/ltsugar.m4?
+./bootstrap: no version control for ./m4/ltversion.m4?
+./bootstrap: no version control for ./m4/lt~obsolete.m4?
+./bootstrap: /usr/share/gnulib/gnulib-tool      --no-changelog     --aux-dir=build-aux     --doc-base=doc     --lib=libfaketime     --m4-base=m4/     --source-base=lib/     --tests-base=tests     --local-dir=gl     --tests-base=gnulib-tests --with-tests --symlink --makefile-name=gnulib.mk     --libtool --import ...
+Module list with included dependencies (indented):
+    absolute-header
+    alignasof
+    alignasof-tests
+    alloca-opt
+    alloca-opt-tests
+    assert-h
+    assert-h-tests
+    atoll
+    attribute
+    bison
+    c-ctype
+    c-ctype-tests
+    c99
+    clock-time
+    ctype
+    ctype-tests
+    dtotimespec
+    environ
+    environ-tests
+    errno
+    errno-tests
+    extensions
+    extern-inline
+    flexmember
+    free-posix
+    free-posix-tests
+    gen-header
+    gettext-h
+    gettime
+    gettimeofday
+    gettimeofday-tests
+  git-version-gen
+    idx
+    include_next
+    intprops
+    intprops-tests
+    inttypes
+    inttypes-incomplete
+    inttypes-tests
+    isblank
+    isblank-tests
+    libc-config
+    limits-h
+    limits-h-tests
+    malloc-posix
+    malloca
+    malloca-tests
+    mktime
+    mktime-internal
+    multiarch
+    nstrftime
+    nstrftime-tests
+  parse-datetime
+    parse-datetime-tests
+  posixtm
+    posixtm-tests
+    putenv
+    setenv
+    setenv-tests
+    snippet/_Noreturn
+    snippet/arg-nonnull
+    snippet/c++defs
+    snippet/warn-on-use
+    ssize_t
+    std-gnu11
+    stdbool
+    stdbool-tests
+    stdckdint
+    stdckdint-tests
+    stddef
+    stddef-tests
+    stdint
+    stdint-tests
+    stdlib
+    stdlib-tests
+    stpcpy
+    strerror
+    strerror-override
+    strerror-tests
+    string
+    string-tests
+    strtoll
+    strtoll-tests
+    sys_time
+    sys_time-tests
+    sys_types
+    sys_types-tests
+    test-framework-sh
+    test-framework-sh-tests
+    time
+    time-h
+    time-h-tests
+    time-tests
+    time_r
+    time_rz
+    timegm
+    timespec
+    timespec-add
+    timespec-sub
+    timespec-tests
+    tzset
+    unistd
+    unistd-tests
+    unsetenv
+    unsetenv-tests
+    vararrays
+    verify
+    verify-tests
+    wchar
+    wchar-tests
+    xalloc-oversized
+File list:
+  build-aux/git-version-gen
+  doc/parse-datetime.texi
+  lib/_Noreturn.h
+  lib/alloca.in.h
+  lib/arg-nonnull.h
+  lib/assert.in.h
+  lib/attribute.h
+  lib/c++defs.h
+  lib/c-ctype.c
+  lib/c-ctype.h
+  lib/cdefs.h
+  lib/errno.in.h
+  lib/flexmember.h
+  lib/gettext.h
+  lib/gettime.c
+  lib/gettimeofday.c
+  lib/idx.h
+  lib/intprops-internal.h
+  lib/intprops.h
+  lib/inttypes.in.h
+  lib/libc-config.h
+  lib/limits.in.h
+  lib/malloca.c
+  lib/malloca.h
+  lib/mktime-internal.h
+  lib/mktime.c
+  lib/nstrftime.c
+  lib/parse-datetime.h
+  lib/parse-datetime.y
+  lib/posixtm.c
+  lib/posixtm.h
+  lib/setenv.c
+  lib/stdckdint.in.h
+  lib/stddef.in.h
+  lib/stdint.in.h
+  lib/stdlib.in.h
+  lib/strftime.h
+  lib/sys_time.in.h
+  lib/sys_types.in.h
+  lib/time-internal.h
+  lib/time.c
+  lib/time.in.h
+  lib/time_r.c
+  lib/time_rz.c
+  lib/timegm.c
+  lib/timespec.c
+  lib/timespec.h
+  lib/tzset.c
+  lib/unistd.c
+  lib/unistd.in.h
+  lib/unsetenv.c
+  lib/verify.h
+  lib/warn-on-use.h
+  lib/xalloc-oversized.h
+  m4/00gnulib.m4
+  m4/__inline.m4
+  m4/absolute-header.m4
+  m4/alloca.m4
+  m4/assert_h.m4
+  m4/atoll.m4
+  m4/bison.m4
+  m4/c-bool.m4
+  m4/clock_time.m4
+  m4/codeset.m4
+  m4/ctype_h.m4
+  m4/eealloc.m4
+  m4/environ.m4
+  m4/errno_h.m4
+  m4/extensions.m4
+  m4/extern-inline.m4
+  m4/flexmember.m4
+  m4/free.m4
+  m4/gettime.m4
+  m4/gettimeofday.m4
+  m4/gnulib-common.m4
+  m4/include_next.m4
+  m4/inttypes.m4
+  m4/isblank.m4
+  m4/limits-h.m4
+  m4/locale-fr.m4
+  m4/malloc.m4
+  m4/malloca.m4
+  m4/mktime.m4
+  m4/multiarch.m4
+  m4/nstrftime.m4
+  m4/off_t.m4
+  m4/parse-datetime.m4
+  m4/pid_t.m4
+  m4/posixtm.m4
+  m4/putenv.m4
+  m4/setenv.m4
+  m4/ssize_t.m4
+  m4/std-gnu11.m4
+  m4/stdalign.m4
+  m4/stddef_h.m4
+  m4/stdint.m4
+  m4/stdlib_h.m4
+  m4/stpcpy.m4
+  m4/strerror.m4
+  m4/string_h.m4
+  m4/strtoll.m4
+  m4/sys_socket_h.m4
+  m4/sys_time_h.m4
+  m4/sys_types_h.m4
+  m4/time.m4
+  m4/time_h.m4
+  m4/time_r.m4
+  m4/time_rz.m4
+  m4/timegm.m4
+  m4/timespec.m4
+  m4/tm_gmtoff.m4
+  m4/tzset.m4
+  m4/unistd_h.m4
+  m4/vararrays.m4
+  m4/warn-on-use.m4
+  m4/wchar_h.m4
+  m4/wchar_t.m4
+  m4/wint_t.m4
+  m4/zzgnulib.m4
+  tests/init.sh
+  tests/macros.h
+  tests/signature.h
+  tests/test-alignasof.c
+  tests/test-alloca-opt.c
+  tests/test-assert.c
+  tests/test-c-ctype.c
+  tests/test-ctype.c
+  tests/test-environ.c
+  tests/test-errno.c
+  tests/test-free.c
+  tests/test-gettimeofday.c
+  tests/test-init.sh
+  tests/test-intprops.c
+  tests/test-inttypes.c
+  tests/test-isblank.c
+  tests/test-limits-h.c
+  tests/test-malloca.c
+  tests/test-nstrftime.c
+  tests/test-parse-datetime.c
+  tests/test-posixtm.c
+  tests/test-setenv.c
+  tests/test-stdbool.c
+  tests/test-stdckdint.c
+  tests/test-stddef.c
+  tests/test-stdint.c
+  tests/test-stdlib.c
+  tests/test-strerror.c
+  tests/test-string.c
+  tests/test-strtoll.c
+  tests/test-sys_time.c
+  tests/test-sys_types.c
+  tests/test-sys_wait.h
+  tests/test-time-h.c
+  tests/test-time.c
+  tests/test-timespec.c
+  tests/test-unistd.c
+  tests/test-unsetenv.c
+  tests/test-verify-try.c
+  tests/test-verify.c
+  tests/test-verify.sh
+  tests/test-wchar.c
+  lib/_Noreturn.h -> tests/_Noreturn.h
+  lib/arg-nonnull.h -> tests/arg-nonnull.h
+  lib/atoll.c -> tests/atoll.c
+  lib/c++defs.h -> tests/c++defs.h
+  lib/ctype.in.h -> tests/ctype.in.h
+  lib/dtotimespec.c -> tests/dtotimespec.c
+  lib/free.c -> tests/free.c
+  lib/isblank.c -> tests/isblank.c
+  lib/malloc.c -> tests/malloc.c
+  lib/putenv.c -> tests/putenv.c
+  lib/stpcpy.c -> tests/stpcpy.c
+  lib/strerror-override.c -> tests/strerror-override.c
+  lib/strerror-override.h -> tests/strerror-override.h
+  lib/strerror.c -> tests/strerror.c
+  lib/string.in.h -> tests/string.in.h
+  lib/strtol.c -> tests/strtol.c
+  lib/strtoll.c -> tests/strtoll.c
+  lib/timespec-add.c -> tests/timespec-add.c
+  lib/timespec-sub.c -> tests/timespec-sub.c
+  lib/warn-on-use.h -> tests/warn-on-use.h
+  lib/wchar.in.h -> tests/wchar.in.h
+Creating directory ./doc
+Copying file build-aux/git-version-gen
+Copying file doc/parse-datetime.texi
+Copying file gnulib-tests/_Noreturn.h
+Copying file gnulib-tests/arg-nonnull.h
+Copying file gnulib-tests/atoll.c
+Copying file gnulib-tests/c++defs.h
+Copying file gnulib-tests/ctype.in.h
+Copying file gnulib-tests/dtotimespec.c
+Copying file gnulib-tests/free.c
+Copying file gnulib-tests/init.sh
+Copying file gnulib-tests/isblank.c
+Copying file gnulib-tests/macros.h
+Copying file gnulib-tests/malloc.c
+Copying file gnulib-tests/putenv.c
+Copying file gnulib-tests/signature.h
+Copying file gnulib-tests/stpcpy.c
+Copying file gnulib-tests/strerror-override.c
+Copying file gnulib-tests/strerror-override.h
+Copying file gnulib-tests/strerror.c
+Copying file gnulib-tests/string.in.h
+Copying file gnulib-tests/strtol.c
+Copying file gnulib-tests/strtoll.c
+Copying file gnulib-tests/test-alignasof.c
+Copying file gnulib-tests/test-alloca-opt.c
+Copying file gnulib-tests/test-assert.c
+Copying file gnulib-tests/test-c-ctype.c
+Copying file gnulib-tests/test-ctype.c
+Copying file gnulib-tests/test-environ.c
+Copying file gnulib-tests/test-errno.c
+Copying file gnulib-tests/test-free.c
+Copying file gnulib-tests/test-gettimeofday.c
+Copying file gnulib-tests/test-init.sh
+Copying file gnulib-tests/test-intprops.c
+Copying file gnulib-tests/test-inttypes.c
+Copying file gnulib-tests/test-isblank.c
+Copying file gnulib-tests/test-limits-h.c
+Copying file gnulib-tests/test-malloca.c
+Copying file gnulib-tests/test-nstrftime.c
+Copying file gnulib-tests/test-parse-datetime.c
+Copying file gnulib-tests/test-posixtm.c
+Copying file gnulib-tests/test-setenv.c
+Copying file gnulib-tests/test-stdbool.c
+Copying file gnulib-tests/test-stdckdint.c
+Copying file gnulib-tests/test-stddef.c
+Copying file gnulib-tests/test-stdint.c
+Copying file gnulib-tests/test-stdlib.c
+Copying file gnulib-tests/test-strerror.c
+Copying file gnulib-tests/test-string.c
+Copying file gnulib-tests/test-strtoll.c
+Copying file gnulib-tests/test-sys_time.c
+Copying file gnulib-tests/test-sys_types.c
+Copying file gnulib-tests/test-sys_wait.h
+Copying file gnulib-tests/test-time-h.c
+Copying file gnulib-tests/test-time.c
+Copying file gnulib-tests/test-timespec.c
+Copying file gnulib-tests/test-unistd.c
+Copying file gnulib-tests/test-unsetenv.c
+Copying file gnulib-tests/test-verify-try.c
+Copying file gnulib-tests/test-verify.c
+Copying file gnulib-tests/test-verify.sh
+Copying file gnulib-tests/test-wchar.c
+Copying file gnulib-tests/timespec-add.c
+Copying file gnulib-tests/timespec-sub.c
+Copying file gnulib-tests/warn-on-use.h
+Copying file gnulib-tests/wchar.in.h
+Copying file lib/_Noreturn.h
+Copying file lib/alloca.in.h
+Copying file lib/arg-nonnull.h
+Copying file lib/assert.in.h
+Copying file lib/attribute.h
+Copying file lib/c++defs.h
+Copying file lib/c-ctype.c
+Copying file lib/c-ctype.h
+Copying file lib/cdefs.h
+Copying file lib/errno.in.h
+Copying file lib/flexmember.h
+Copying file lib/gettext.h
+Copying file lib/gettime.c
+Copying file lib/gettimeofday.c
+Copying file lib/idx.h
+Copying file lib/intprops-internal.h
+Copying file lib/intprops.h
+Copying file lib/inttypes.in.h
+Copying file lib/libc-config.h
+Copying file lib/limits.in.h
+Copying file lib/malloca.c
+Copying file lib/malloca.h
+Copying file lib/mktime-internal.h
+Copying file lib/mktime.c
+Copying file lib/nstrftime.c
+Copying file lib/parse-datetime.h
+Copying file lib/parse-datetime.y
+Copying file lib/posixtm.c
+Copying file lib/posixtm.h
+Copying file lib/setenv.c
+Copying file lib/stdckdint.in.h
+Copying file lib/stddef.in.h
+Copying file lib/stdint.in.h
+Copying file lib/stdlib.in.h
+Copying file lib/strftime.h
+Copying file lib/sys_time.in.h
+Copying file lib/sys_types.in.h
+Copying file lib/time-internal.h
+Copying file lib/time.c
+Copying file lib/time.in.h
+Copying file lib/time_r.c
+Copying file lib/time_rz.c
+Copying file lib/timegm.c
+Copying file lib/timespec.c
+Copying file lib/timespec.h
+Copying file lib/tzset.c
+Copying file lib/unistd.c
+Copying file lib/unistd.in.h
+Copying file lib/unsetenv.c
+Copying file lib/verify.h
+Copying file lib/warn-on-use.h
+Copying file lib/xalloc-oversized.h
+Copying file m4/00gnulib.m4
+Copying file m4/__inline.m4
+Copying file m4/absolute-header.m4
+Copying file m4/alloca.m4
+Copying file m4/assert_h.m4
+Copying file m4/atoll.m4
+Copying file m4/bison.m4
+Copying file m4/c-bool.m4
+Copying file m4/clock_time.m4
+Copying file m4/codeset.m4
+Copying file m4/ctype_h.m4
+Copying file m4/eealloc.m4
+Copying file m4/environ.m4
+Copying file m4/errno_h.m4
+Copying file m4/extensions.m4
+Copying file m4/extern-inline.m4
+Copying file m4/flexmember.m4
+Copying file m4/free.m4
+Copying file m4/gettime.m4
+Copying file m4/gettimeofday.m4
+Copying file m4/gnulib-common.m4
+Copying file m4/gnulib-tool.m4
+Copying file m4/include_next.m4
+Copying file m4/inttypes.m4
+Copying file m4/isblank.m4
+Copying file m4/limits-h.m4
+Copying file m4/locale-fr.m4
+Copying file m4/malloc.m4
+Copying file m4/malloca.m4
+Copying file m4/mktime.m4
+Copying file m4/multiarch.m4
+Copying file m4/nstrftime.m4
+Copying file m4/off_t.m4
+Copying file m4/parse-datetime.m4
+Copying file m4/pid_t.m4
+Copying file m4/posixtm.m4
+Copying file m4/putenv.m4
+Copying file m4/setenv.m4
+Copying file m4/ssize_t.m4
+Copying file m4/std-gnu11.m4
+Copying file m4/stdalign.m4
+Copying file m4/stddef_h.m4
+Copying file m4/stdint.m4
+Copying file m4/stdlib_h.m4
+Copying file m4/stpcpy.m4
+Copying file m4/strerror.m4
+Copying file m4/string_h.m4
+Copying file m4/strtoll.m4
+Copying file m4/sys_socket_h.m4
+Copying file m4/sys_time_h.m4
+Copying file m4/sys_types_h.m4
+Copying file m4/time.m4
+Copying file m4/time_h.m4
+Copying file m4/time_r.m4
+Copying file m4/time_rz.m4
+Copying file m4/timegm.m4
+Copying file m4/timespec.m4
+Copying file m4/tm_gmtoff.m4
+Copying file m4/tzset.m4
+Copying file m4/unistd_h.m4
+Copying file m4/vararrays.m4
+Copying file m4/warn-on-use.m4
+Copying file m4/wchar_h.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/zzgnulib.m4
+Creating m4/gnulib-cache.m4
+Creating m4/gnulib-comp.m4
+Creating lib/gnulib.mk
+Creating gnulib-tests/gnulib.mk
+Finished.
+
+You may need to add #include directives for the following .h files.
+  #include "parse-datetime.h"
+  #include "posixtm.h"
+
+You may need to use the following Makefile variables when linking.
+Use them in <program>_LDADD when linking a program, or
+in <library>_a_LDFLAGS or <library>_la_LDFLAGS when linking a library.
+  $(CLOCK_TIME_LIB)
+  $(LTLIBINTL) when linking with libtool, $(LIBINTL) otherwise
+
+Don't forget to
+  - "include gnulib.mk" from within "lib/Makefile.am",
+  - "include gnulib.mk" from within "gnulib-tests/Makefile.am",
+  - mention "-I m4" in ACLOCAL_AMFLAGS in Makefile.am
+    or add an AC_CONFIG_MACRO_DIRS([m4]) invocation in ./configure.ac,
+  - mention "m4/gnulib-cache.m4" in EXTRA_DIST in Makefile.am,
+  - invoke gl_EARLY in ./configure.ac, right after AC_PROG_CC,
+  - invoke gl_INIT in ./configure.ac.
+running: AUTOPOINT=true LIBTOOLIZE=true autoreconf --verbose --install --force -I m4  --no-recursive
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal -I m4 --force -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: true --copy --force
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal -I m4 --force -I m4
+autoreconf-default: running: /usr/bin/autoconf-2.71 --include=m4 --force
+configure.ac:23: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:466: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:23: the top level
+configure.ac:27: warning: AC_COMPILE_IFELSE was called before AC_USE_SYSTEM_EXTENSIONS
+m4/gnulib-comp.m4:34: gl_EARLY is expanded from...
+configure.ac:27: the top level
+configure.ac:30: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:30: You should run autoupdate.
+m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:30: the top level
+autoreconf-default: running: /usr/bin/autoheader-2.71 --include=m4 --force
+autoreconf-default: running: automake --add-missing --copy --force-missing
+configure.ac:23: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:23: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:25: installing 'build-aux/compile'
+configure.ac:23: installing 'build-aux/missing'
+Makefile.am:43: warning: '%'-style pattern rules are a GNU make extension
+Makefile.am:31: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+Makefile.am: installing './INSTALL'
+Makefile.am: installing './COPYING' using GNU General Public License v3 file
+Makefile.am:     Consider adding the COPYING file to the version control system
+Makefile.am:     for your code, to avoid questions about which license your project uses
+Makefile.am: installing 'build-aux/depcomp'
+parallel-tests: installing 'build-aux/test-driver'
+configure.ac: installing 'build-aux/ylwrap'
+autoreconf-default: Leaving directory '.'
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/install-sh build-aux/install-sh
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/mdate-sh build-aux/mdate-sh
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/texinfo.tex build-aux/texinfo.tex
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/depcomp build-aux/depcomp
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/config.guess build-aux/config.guess
+./bootstrap: ln -fs /usr/share/gnulib/build-aux/config.sub build-aux/config.sub
+./bootstrap: ln -fs /usr/share/gnulib/doc/INSTALL INSTALL
+./bootstrap: done.  Now you can run './configure'.
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/time.h... yes
+checking for sys/socket.h... yes
+checking for limits.h... yes
+checking for stdbool.h... yes
+checking for stdckdint.h... yes
+checking for features.h... yes
+checking for crtdefs.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether the preprocessor supports include_next... yes
+checking whether source code line length is unlimited... yes
+checking if environ is properly declared... yes
+checking for complete errno.h... yes
+checking whether ctype.h defines __header_inline... no
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking whether timespec_get is declared... yes
+checking for timespec_get... yes
+checking for C/C++ restrict keyword... __restrict__
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking for gettimeofday... yes
+checking for setenv... yes
+checking for localtime_r... yes
+checking for isblank... yes
+checking whether limits.h has WORD_BIT, BOOL_WIDTH etc.... yes
+checking whether limits.h has SSIZE_MAX... yes
+checking for wint_t... yes
+checking whether wint_t is large enough... yes
+checking whether the compiler produces multi-arch binaries... no
+checking whether stdint.h conforms to C99... yes
+checking whether stdint.h works without ISO C predefines... yes
+checking whether stdint.h has UINTMAX_WIDTH etc.... yes
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking whether malloc (0) returns nonnull... yes
+checking whether time_t is signed... yes
+checking whether alarm is declared... yes
+checking for working mktime... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for compound literals... yes
+checking whether setenv is declared... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking for wchar_t... yes
+checking for good max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking for unreachable... no
+checking for nl_langinfo and CODESET... yes
+checking for a french Unicode locale... fr_FR.UTF-8
+checking whether ecvt is declared... yes
+checking whether fcvt is declared... yes
+checking whether gcvt is declared... yes
+checking whether MB_CUR_MAX is correct... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking for struct timespec in <time.h>... yes
+checking for TIME_UTC in <time.h>... yes
+checking whether execvpe is declared... yes
+checking whether unsetenv is declared... yes
+checking for C compiler option to allow warnings... -Wno-error
+checking whether malloc is ptrdiff_t safe... yes
+checking whether malloc, realloc, calloc set errno on failure... yes
+checking whether strerror(0) succeeds... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking whether wcsdup is declared... yes
+checking for alloca as a compiler built-in... yes
+checking for static_assert... yes, an <assert.h> macro
+checking for library containing clock_gettime... none required
+checking for clock_getres... yes
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking for flexible array member... yes
+checking for gettimeofday with POSIX signature... yes
+checking whether the compiler supports the __inline keyword... yes
+checking for __mktime_internal... no
+checking for bison... bison
+checking for bison 2.4 or newer... 3.8.2, ok
+checking for struct tm.tm_zone... (cached) yes
+checking whether setenv validates arguments... yes
+checking for ssize_t... yes
+checking for bool, true, false... no
+checking whether time() works... guessing no
+checking whether localtime_r is declared... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking whether localtime works even near extrema... yes
+checking for timezone_t... no
+checking for timegm... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for variable-length arrays... yes
+checking for alignas and alignof... yes, <stdalign.h> macros
+checking for atoll... yes
+checking whether free is known to preserve errno... yes
+checking for putenv compatible with GNU and SVID... yes
+checking for stpcpy... yes
+checking for working strerror function... yes
+checking for strtoll... yes
+checking whether strtoll works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-file... no
+checking for file... file
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating gnulib-tests/Makefile
+config.status: creating lib/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext
++ make -j16
+Making all in lib
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+  -e 's|@''HAVE_ALLOCA_H''@|1|g' \
+  ./alloca.in.h > alloca.h-t
+mv alloca.h-t alloca.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_LIMITS_H''@|<limits.h>|g' \
+      ./limits.in.h > limits.h-t
+mv limits.h-t limits.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDDEF_H''@|<stddef.h>|g' \
+      -e 's|@''HAVE_MAX_ALIGN_T''@|1|g' \
+      -e 's|@''HAVE_WCHAR_T''@|1|g' \
+      -e 's|@''REPLACE_NULL''@|0|g' \
+      ./stddef.in.h > stddef.h-t
+mv stddef.h-t stddef.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's/@''HAVE_INTTYPES_H''@/1/g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_INTTYPES_H''@|<inttypes.h>|g' \
+      -e 's/@''APPLE_UNIVERSAL_BUILD''@/0/g' \
+      -e 's/@''PRIPTR_PREFIX''@/"l"/g' \
+      -e 's/@''GNULIB_IMAXABS''@/0/g' \
+      -e 's/@''GNULIB_IMAXDIV''@/0/g' \
+      -e 's/@''GNULIB_STRTOIMAX''@/0/g' \
+      -e 's/@''GNULIB_STRTOUMAX''@/0/g' \
+      -e 's/@''HAVE_DECL_IMAXABS''@/1/g' \
+      -e 's/@''HAVE_DECL_IMAXDIV''@/1/g' \
+      -e 's/@''HAVE_DECL_STRTOIMAX''@/1/g' \
+      -e 's/@''HAVE_DECL_STRTOUMAX''@/1/g' \
+      -e 's/@''HAVE_IMAXDIV_T''@/1/g' \
+      -e 's/@''REPLACE_IMAXABS''@/0/g' \
+      -e 's/@''REPLACE_IMAXDIV''@/0/g' \
+      -e 's/@''REPLACE_STRTOIMAX''@/0/g' \
+      -e 's/@''REPLACE_STRTOUMAX''@/0/g' \
+      -e 's/@''INT32_MAX_LT_INTMAX_MAX''@/1/g' \
+      -e 's/@''INT64_MAX_EQ_LONG_MAX''@/1/g' \
+      -e 's/@''UINT32_MAX_LT_UINTMAX_MAX''@/1/g' \
+      -e 's/@''UINT64_MAX_EQ_ULONG_MAX''@/1/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      ./inttypes.in.h > inttypes.h-t
+mv inttypes.h-t inttypes.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/usr/bin/mkdir -p 'sys'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_TYPES_H''@|<sys/types.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      -e 's|@''WINDOWS_STAT_INODES''@|0|g' \
+      ./sys_types.in.h > sys/types.h-t
+mv sys/types.h-t sys/types.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/usr/bin/mkdir -p 'sys'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's/@''HAVE_SYS_TIME_H''@/1/g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_TIME_H''@|<sys/time.h>|g' \
+      -e 's/@''GNULIB_GETTIMEOFDAY''@/1/g' \
+      -e 's|@''HAVE_WINSOCK2_H''@|0|g' \
+      -e 's/@''HAVE_GETTIMEOFDAY''@/1/g' \
+      -e 's/@''HAVE_STRUCT_TIMEVAL''@/1/g' \
+      -e 's/@''REPLACE_GETTIMEOFDAY''@/0/g' \
+      -e 's/@''REPLACE_STRUCT_TIMEVAL''@/0/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      ./sys_time.in.h > sys/time.h-t
+mv sys/time.h-t sys/time.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_TIME_H''@|<time.h>|g' \
+      -e 's/@''GNULIB_CTIME''@/0/g' \
+      -e 's/@''GNULIB_LOCALTIME''@/0/g' \
+      -e 's/@''GNULIB_MKTIME''@/1/g' \
+      -e 's/@''GNULIB_NANOSLEEP''@/0/g' \
+      -e 's/@''GNULIB_STRFTIME''@/0/g' \
+      -e 's/@''GNULIB_STRPTIME''@/0/g' \
+      -e 's/@''GNULIB_TIME''@/1/g' \
+      -e 's/@''GNULIB_TIMEGM''@/1/g' \
+      -e 's/@''GNULIB_TIMESPEC_GET''@/0/g' \
+      -e 's/@''GNULIB_TIMESPEC_GETRES''@/0/g' \
+      -e 's/@''GNULIB_TIME_R''@/1/g' \
+      -e 's/@''GNULIB_TIME_RZ''@/1/g' \
+      -e 's/@''GNULIB_TZSET''@/1/g' \
+      -e 's/@''GNULIB_MDA_TZSET''@/1/g' \
+      -e 's|@''HAVE_DECL_LOCALTIME_R''@|1|g' \
+      -e 's|@''HAVE_NANOSLEEP''@|1|g' \
+      -e 's|@''HAVE_STRPTIME''@|1|g' \
+      -e 's|@''HAVE_TIMEGM''@|1|g' \
+      -e 's|@''HAVE_TIMESPEC_GET''@|1|g' \
+      -e 's|@''HAVE_TIMESPEC_GETRES''@|1|g' \
+      -e 's|@''HAVE_TIMEZONE_T''@|0|g' \
+      -e 's|@''REPLACE_CTIME''@|0|g' \
+      -e 's|@''REPLACE_GMTIME''@|0|g' \
+      -e 's|@''REPLACE_LOCALTIME''@|0|g' \
+      -e 's|@''REPLACE_LOCALTIME_R''@|0|g' \
+      -e 's|@''REPLACE_MKTIME''@|0|g' \
+      -e 's|@''REPLACE_NANOSLEEP''@|0|g' \
+      -e 's|@''REPLACE_STRFTIME''@|0|g' \
+      -e 's|@''REPLACE_TIME''@|1|g' \
+      -e 's|@''REPLACE_TIMEGM''@|0|g' \
+      -e 's|@''REPLACE_TIMESPEC_GET''@|0|g' \
+      -e 's|@''REPLACE_TZSET''@|0|g' \
+      -e 's|@''PTHREAD_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+      -e 's|@''SYS_TIME_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+      -e 's|@''TIME_H_DEFINES_STRUCT_TIMESPEC''@|1|g' \
+      -e 's|@''UNISTD_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+      -e 's|@''TIME_H_DEFINES_TIME_UTC''@|1|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      ./time.in.h > time.h-t
+mv time.h-t time.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+      -e 's/@''GNULIB__EXIT''@/0/g' \
+      -e 's/@''GNULIB_ALIGNED_ALLOC''@/0/g' \
+      -e 's/@''GNULIB_ATOLL''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_CALLOC_GNU''@/0/g' \
+      -e 's/@''GNULIB_CALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_CANONICALIZE_FILE_NAME''@/0/g' \
+      -e 's/@''GNULIB_FREE_POSIX''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_GETLOADAVG''@/0/g' \
+      -e 's/@''GNULIB_GETPROGNAME''@/0/g' \
+      -e 's/@''GNULIB_GETSUBOPT''@/0/g' \
+      -e 's/@''GNULIB_GRANTPT''@/0/g' \
+      -e 's/@''GNULIB_MALLOC_GNU''@/0/g' \
+      -e 's/@''GNULIB_MALLOC_POSIX''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_MBSTOWCS''@/0/g' \
+      -e 's/@''GNULIB_MBTOWC''@/0/g' \
+      -e 's/@''GNULIB_MKDTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_POSIX_MEMALIGN''@/0/g' \
+      -e 's/@''GNULIB_POSIX_OPENPT''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME_R''@/0/g' \
+      -e 's/@''GNULIB_PUTENV''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_QSORT_R''@/0/g' \
+      -e 's/@''GNULIB_RANDOM''@/0/g' \
+      -e 's/@''GNULIB_RANDOM_R''@/0/g' \
+      -e 's/@''GNULIB_REALLOC_GNU''@/0/g' \
+      -e 's/@''GNULIB_REALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_REALLOCARRAY''@/0/g' \
+      -e 's/@''GNULIB_REALPATH''@/0/g' \
+      -e 's/@''GNULIB_RPMATCH''@/0/g' \
+      -e 's/@''GNULIB_SECURE_GETENV''@/0/g' \
+      -e 's/@''GNULIB_SETENV''@/1/g' \
+      -e 's/@''GNULIB_STRTOD''@/0/g' \
+      -e 's/@''GNULIB_STRTOL''@/0/g' \
+      -e 's/@''GNULIB_STRTOLD''@/0/g' \
+      -e 's/@''GNULIB_STRTOLL''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_STRTOUL''@/0/g' \
+      -e 's/@''GNULIB_STRTOULL''@/0/g' \
+      -e 's/@''GNULIB_SYSTEM_POSIX''@/0/g' \
+      -e 's/@''GNULIB_UNLOCKPT''@/0/g' \
+      -e 's/@''GNULIB_UNSETENV''@/1/g' \
+      -e 's/@''GNULIB_WCTOMB''@/0/g' \
+      -e 's/@''GNULIB_MDA_ECVT''@/1/g' \
+      -e 's/@''GNULIB_MDA_FCVT''@/1/g' \
+      -e 's/@''GNULIB_MDA_GCVT''@/1/g' \
+      -e 's/@''GNULIB_MDA_MKTEMP''@/1/g' \
+      -e 's/@''GNULIB_MDA_PUTENV''@/1/g' \
+      < ./stdlib.in.h > stdlib.h-t1
+sed \
+      -e 's|@''HAVE__EXIT''@|1|g' \
+      -e 's|@''HAVE_ALIGNED_ALLOC''@|1|g' \
+      -e 's|@''HAVE_ATOLL''@|1|g' \
+      -e 's|@''HAVE_CANONICALIZE_FILE_NAME''@|1|g' \
+      -e 's|@''HAVE_DECL_ECVT''@|1|g' \
+      -e 's|@''HAVE_DECL_FCVT''@|1|g' \
+      -e 's|@''HAVE_DECL_GCVT''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+      -e 's|@''HAVE_DECL_PROGRAM_INVOCATION_NAME''@|1|g' \
+      -e 's|@''HAVE_GETPROGNAME''@|1|g' \
+      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+      -e 's|@''HAVE_GRANTPT''@|1|g' \
+      -e 's|@''HAVE_INITSTATE''@|1|g' \
+      -e 's|@''HAVE_DECL_INITSTATE''@|1|g' \
+      -e 's|@''HAVE_MBTOWC''@|1|g' \
+      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMPS''@|1|g' \
+      -e 's|@''HAVE_MKSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKSTEMPS''@|1|g' \
+      -e 's|@''HAVE_POSIX_MEMALIGN''@|1|g' \
+      -e 's|@''HAVE_POSIX_OPENPT''@|1|g' \
+      -e 's|@''HAVE_PTSNAME''@|1|g' \
+      -e 's|@''HAVE_PTSNAME_R''@|1|g' \
+      -e 's|@''HAVE_QSORT_R''@|1|g' \
+      -e 's|@''HAVE_RANDOM''@|1|g' \
+      -e 's|@''HAVE_RANDOM_H''@|1|g' \
+      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+      -e 's|@''HAVE_REALLOCARRAY''@|1|g' \
+      -e 's|@''HAVE_REALPATH''@|1|g' \
+      -e 's|@''HAVE_RPMATCH''@|1|g' \
+      -e 's|@''HAVE_SECURE_GETENV''@|1|g' \
+      -e 's|@''HAVE_DECL_SETENV''@|1|g' \
+      -e 's|@''HAVE_SETSTATE''@|1|g' \
+      -e 's|@''HAVE_DECL_SETSTATE''@|1|g' \
+      -e 's|@''HAVE_STRTOD''@|1|g' \
+      -e 's|@''HAVE_STRTOL''@|1|g' \
+      -e 's|@''HAVE_STRTOLD''@|1|g' \
+      -e 's|@''HAVE_STRTOLL''@|1|g' \
+      -e 's|@''HAVE_STRTOUL''@|1|g' \
+      -e 's|@''HAVE_STRTOULL''@|1|g' \
+      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|1|g' \
+      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+      -e 's|@''HAVE_UNLOCKPT''@|1|g' \
+      -e 's|@''HAVE_DECL_UNSETENV''@|1|g' \
+      < stdlib.h-t1 > stdlib.h-t2
+sed \
+      -e 's|@''REPLACE__EXIT''@|0|g' \
+      -e 's|@''REPLACE_ALIGNED_ALLOC''@|0|g' \
+      -e 's|@''REPLACE_CALLOC_FOR_CALLOC_GNU''@|0|g' \
+      -e 's|@''REPLACE_CALLOC_FOR_CALLOC_POSIX''@|0|g' \
+      -e 's|@''REPLACE_CANONICALIZE_FILE_NAME''@|0|g' \
+      -e 's|@''REPLACE_FREE''@|0|g' \
+      -e 's|@''REPLACE_GETLOADAVG''@|0|g' \
+      -e 's|@''REPLACE_GETPROGNAME''@|0|g' \
+      -e 's|@''REPLACE_GETSUBOPT''@|0|g' \
+      -e 's|@''REPLACE_INITSTATE''@|0|g' \
+      -e 's|@''REPLACE_MALLOC_FOR_MALLOC_GNU''@|0|g' \
+      -e 's|@''REPLACE_MALLOC_FOR_MALLOC_POSIX''@|0|g' \
+      -e 's|@''REPLACE_MB_CUR_MAX''@|0|g' \
+      -e 's|@''REPLACE_MBSTOWCS''@|0|g' \
+      -e 's|@''REPLACE_MBTOWC''@|0|g' \
+      -e 's|@''REPLACE_MKOSTEMP''@|0|g' \
+      -e 's|@''REPLACE_MKOSTEMPS''@|0|g' \
+      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+      -e 's|@''REPLACE_POSIX_MEMALIGN''@|0|g' \
+      -e 's|@''REPLACE_POSIX_OPENPT''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME_R''@|0|g' \
+      -e 's|@''REPLACE_PUTENV''@|0|g' \
+      -e 's|@''REPLACE_QSORT_R''@|0|g' \
+      -e 's|@''REPLACE_RANDOM''@|0|g' \
+      -e 's|@''REPLACE_RANDOM_R''@|0|g' \
+      -e 's|@''REPLACE_REALLOC_FOR_REALLOC_GNU''@|0|g' \
+      -e 's|@''REPLACE_REALLOC_FOR_REALLOC_POSIX''@|0|g' \
+      -e 's|@''REPLACE_REALLOCARRAY''@|0|g' \
+      -e 's|@''REPLACE_REALPATH''@|0|g' \
+      -e 's|@''REPLACE_SETENV''@|0|g' \
+      -e 's|@''REPLACE_SETSTATE''@|0|g' \
+      -e 's|@''REPLACE_STRTOD''@|0|g' \
+      -e 's|@''REPLACE_STRTOL''@|0|g' \
+      -e 's|@''REPLACE_STRTOLD''@|0|g' \
+      -e 's|@''REPLACE_STRTOLL''@|0|g' \
+      -e 's|@''REPLACE_STRTOUL''@|0|g' \
+      -e 's|@''REPLACE_STRTOULL''@|0|g' \
+      -e 's|@''REPLACE_UNSETENV''@|0|g' \
+      -e 's|@''REPLACE_WCTOMB''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _Noreturn/r ./_Noreturn.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      < stdlib.h-t2 > stdlib.h-t3
+rm -f stdlib.h-t1 stdlib.h-t2
+mv stdlib.h-t3 stdlib.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_UNISTD_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      -e 's/@''GNULIB_ACCESS''@/0/g' \
+      -e 's/@''GNULIB_CHDIR''@/0/g' \
+      -e 's/@''GNULIB_CHOWN''@/0/g' \
+      -e 's/@''GNULIB_CLOSE''@/0/g' \
+      -e 's/@''GNULIB_COPY_FILE_RANGE''@/0/g' \
+      -e 's/@''GNULIB_DUP''@/0/g' \
+      -e 's/@''GNULIB_DUP2''@/0/g' \
+      -e 's/@''GNULIB_DUP3''@/0/g' \
+      -e 's/@''GNULIB_ENVIRON''@/1/g' \
+      -e 's/@''GNULIB_EUIDACCESS''@/0/g' \
+      -e 's/@''GNULIB_EXECL''@/0/g' \
+      -e 's/@''GNULIB_EXECLE''@/0/g' \
+      -e 's/@''GNULIB_EXECLP''@/0/g' \
+      -e 's/@''GNULIB_EXECV''@/0/g' \
+      -e 's/@''GNULIB_EXECVE''@/0/g' \
+      -e 's/@''GNULIB_EXECVP''@/0/g' \
+      -e 's/@''GNULIB_EXECVPE''@/0/g' \
+      -e 's/@''GNULIB_FACCESSAT''@/0/g' \
+      -e 's/@''GNULIB_FCHDIR''@/0/g' \
+      -e 's/@''GNULIB_FCHOWNAT''@/0/g' \
+      -e 's/@''GNULIB_FDATASYNC''@/0/g' \
+      -e 's/@''GNULIB_FSYNC''@/0/g' \
+      -e 's/@''GNULIB_FTRUNCATE''@/0/g' \
+      < ./unistd.in.h > unistd.h-t1
+sed \
+      -e 's/@''GNULIB_GETCWD''@/0/g' \
+      -e 's/@''GNULIB_GETDOMAINNAME''@/0/g' \
+      -e 's/@''GNULIB_GETDTABLESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETENTROPY''@/0/g' \
+      -e 's/@''GNULIB_GETGROUPS''@/0/g' \
+      -e 's/@''GNULIB_GETHOSTNAME''@/0/g' \
+      -e 's/@''GNULIB_GETLOGIN''@/0/g' \
+      -e 's/@''GNULIB_GETLOGIN_R''@/0/g' \
+      -e 's/@''GNULIB_GETOPT_POSIX''@/0/g' \
+      -e 's/@''GNULIB_GETPAGESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETPASS''@/0/g' \
+      -e 's/@''GNULIB_GETPASS_GNU''@/0/g' \
+      -e 's/@''GNULIB_GETUSERSHELL''@/0/g' \
+      -e 's/@''GNULIB_GROUP_MEMBER''@/0/g' \
+      -e 's/@''GNULIB_ISATTY''@/0/g' \
+      -e 's/@''GNULIB_LCHOWN''@/0/g' \
+      -e 's/@''GNULIB_LINK''@/0/g' \
+      -e 's/@''GNULIB_LINKAT''@/0/g' \
+      -e 's/@''GNULIB_LSEEK''@/0/g' \
+      -e 's/@''GNULIB_PIPE''@/0/g' \
+      -e 's/@''GNULIB_PIPE2''@/0/g' \
+      -e 's/@''GNULIB_PREAD''@/0/g' \
+      -e 's/@''GNULIB_PWRITE''@/0/g' \
+      -e 's/@''GNULIB_READ''@/0/g' \
+      -e 's/@''GNULIB_READLINK''@/0/g' \
+      -e 's/@''GNULIB_READLINKAT''@/0/g' \
+      -e 's/@''GNULIB_RMDIR''@/0/g' \
+      -e 's/@''GNULIB_SETHOSTNAME''@/0/g' \
+      -e 's/@''GNULIB_SLEEP''@/0/g' \
+      -e 's/@''GNULIB_SYMLINK''@/0/g' \
+      -e 's/@''GNULIB_SYMLINKAT''@/0/g' \
+      -e 's/@''GNULIB_TRUNCATE''@/0/g' \
+      -e 's/@''GNULIB_TTYNAME_R''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_GETOPT''@/00/g' \
+      -e 's/@''GNULIB_UNISTD_H_NONBLOCKING''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_SIGPIPE''@/0/g' \
+      -e 's/@''GNULIB_UNLINK''@/0/g' \
+      -e 's/@''GNULIB_UNLINKAT''@/0/g' \
+      -e 's/@''GNULIB_USLEEP''@/0/g' \
+      -e 's/@''GNULIB_WRITE''@/0/g' \
+      -e 's/@''GNULIB_MDA_ACCESS''@/1/g' \
+      -e 's/@''GNULIB_MDA_CHDIR''@/1/g' \
+      -e 's/@''GNULIB_MDA_CLOSE''@/1/g' \
+      -e 's/@''GNULIB_MDA_DUP''@/1/g' \
+      -e 's/@''GNULIB_MDA_DUP2''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECL''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECLE''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECLP''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECV''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECVE''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECVP''@/1/g' \
+      -e 's/@''GNULIB_MDA_EXECVPE''@/1/g' \
+      -e 's/@''GNULIB_MDA_GETCWD''@/1/g' \
+      -e 's/@''GNULIB_MDA_GETPID''@/1/g' \
+      -e 's/@''GNULIB_MDA_ISATTY''@/1/g' \
+      -e 's/@''GNULIB_MDA_LSEEK''@/1/g' \
+      -e 's/@''GNULIB_MDA_READ''@/1/g' \
+      -e 's/@''GNULIB_MDA_RMDIR''@/1/g' \
+      -e 's/@''GNULIB_MDA_SWAB''@/1/g' \
+      -e 's/@''GNULIB_MDA_UNLINK''@/1/g' \
+      -e 's/@''GNULIB_MDA_WRITE''@/1/g' \
+      < unistd.h-t1 > unistd.h-t2
+sed \
+      -e 's|@''HAVE_CHOWN''@|1|g' \
+      -e 's|@''HAVE_COPY_FILE_RANGE''@|1|g' \
+      -e 's|@''HAVE_DUP3''@|1|g' \
+      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+      -e 's|@''HAVE_EXECVPE''@|1|g' \
+      -e 's|@''HAVE_FACCESSAT''@|1|g' \
+      -e 's|@''HAVE_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_FCHOWNAT''@|1|g' \
+      -e 's|@''HAVE_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_FSYNC''@|1|g' \
+      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+      -e 's|@''HAVE_GETENTROPY''@|1|g' \
+      -e 's|@''HAVE_GETGROUPS''@|1|g' \
+      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_GETPASS''@|1|g' \
+      -e 's|@''HAVE_GROUP_MEMBER''@|1|g' \
+      -e 's|@''HAVE_LCHOWN''@|1|g' \
+      -e 's|@''HAVE_LINK''@|1|g' \
+      -e 's|@''HAVE_LINKAT''@|1|g' \
+      -e 's|@''HAVE_PIPE''@|1|g' \
+      -e 's|@''HAVE_PIPE2''@|1|g' \
+      -e 's|@''HAVE_PREAD''@|1|g' \
+      -e 's|@''HAVE_PWRITE''@|1|g' \
+      -e 's|@''HAVE_READLINK''@|1|g' \
+      -e 's|@''HAVE_READLINKAT''@|1|g' \
+      -e 's|@''HAVE_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_SLEEP''@|1|g' \
+      -e 's|@''HAVE_SYMLINK''@|1|g' \
+      -e 's|@''HAVE_SYMLINKAT''@|1|g' \
+      -e 's|@''HAVE_UNLINKAT''@|1|g' \
+      -e 's|@''HAVE_USLEEP''@|1|g' \
+      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+      -e 's|@''HAVE_DECL_EXECVPE''@|1|g' \
+      -e 's|@''HAVE_DECL_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_DECL_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_DECL_GETDOMAINNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOGIN''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+      -e 's|@''HAVE_DECL_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_DECL_GETUSERSHELL''@|1|g' \
+      -e 's|@''HAVE_DECL_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_TRUNCATE''@|1|g' \
+      -e 's|@''HAVE_DECL_TTYNAME_R''@|1|g' \
+      -e 's|@''HAVE_OS_H''@|0|g' \
+      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+      < unistd.h-t2 > unistd.h-t3
+sed \
+      -e 's|@''REPLACE_ACCESS''@|0|g' \
+      -e 's|@''REPLACE_CHOWN''@|0|g' \
+      -e 's|@''REPLACE_CLOSE''@|0|g' \
+      -e 's|@''REPLACE_COPY_FILE_RANGE''@|0|g' \
+      -e 's|@''REPLACE_DUP''@|0|g' \
+      -e 's|@''REPLACE_DUP2''@|0|g' \
+      -e 's|@''REPLACE_DUP3''@|0|g' \
+      -e 's|@''REPLACE_EXECL''@|0|g' \
+      -e 's|@''REPLACE_EXECLE''@|0|g' \
+      -e 's|@''REPLACE_EXECLP''@|0|g' \
+      -e 's|@''REPLACE_EXECV''@|0|g' \
+      -e 's|@''REPLACE_EXECVE''@|0|g' \
+      -e 's|@''REPLACE_EXECVP''@|0|g' \
+      -e 's|@''REPLACE_EXECVPE''@|0|g' \
+      -e 's|@''REPLACE_FACCESSAT''@|0|g' \
+      -e 's|@''REPLACE_FCHDIR''@|0|g' \
+      -e 's|@''REPLACE_FCHOWNAT''@|0|g' \
+      -e 's|@''REPLACE_FDATASYNC''@|0|g' \
+      -e 's|@''REPLACE_FTRUNCATE''@|0|g' \
+      -e 's|@''REPLACE_GETCWD''@|0|g' \
+      -e 's|@''REPLACE_GETDOMAINNAME''@|0|g' \
+      -e 's|@''REPLACE_GETDTABLESIZE''@|0|g' \
+      -e 's|@''REPLACE_GETENTROPY''@|0|g' \
+      -e 's|@''REPLACE_GETLOGIN_R''@|0|g' \
+      -e 's|@''REPLACE_GETGROUPS''@|0|g' \
+      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+      -e 's|@''REPLACE_GETPASS''@|0|g' \
+      -e 's|@''REPLACE_GETPASS_FOR_GETPASS_GNU''@|0|g' \
+      -e 's|@''REPLACE_ISATTY''@|0|g' \
+      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+      -e 's|@''REPLACE_LINK''@|0|g' \
+      -e 's|@''REPLACE_LINKAT''@|0|g' \
+      -e 's|@''REPLACE_LSEEK''@|0|g' \
+      -e 's|@''REPLACE_PIPE2''@|0|g' \
+      -e 's|@''REPLACE_PREAD''@|0|g' \
+      -e 's|@''REPLACE_PWRITE''@|0|g' \
+      -e 's|@''REPLACE_READ''@|0|g' \
+      -e 's|@''REPLACE_READLINK''@|0|g' \
+      -e 's|@''REPLACE_READLINKAT''@|0|g' \
+      -e 's|@''REPLACE_RMDIR''@|0|g' \
+      -e 's|@''REPLACE_SETHOSTNAME''@|0|g' \
+      -e 's|@''REPLACE_SLEEP''@|0|g' \
+      -e 's|@''REPLACE_SYMLINK''@|0|g' \
+      -e 's|@''REPLACE_SYMLINKAT''@|0|g' \
+      -e 's|@''REPLACE_TRUNCATE''@|0|g' \
+      -e 's|@''REPLACE_TTYNAME_R''@|0|g' \
+      -e 's|@''REPLACE_UNLINK''@|0|g' \
+      -e 's|@''REPLACE_UNLINKAT''@|0|g' \
+      -e 's|@''REPLACE_USLEEP''@|0|g' \
+      -e 's|@''REPLACE_WRITE''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_SYS_RANDOM_H''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      < unistd.h-t3 > unistd.h-t4
+rm -f unistd.h-t1 unistd.h-t2 unistd.h-t3
+mv unistd.h-t4 unistd.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+bison -d   ./parse-datetime.y \
+&& test ':' = 'bison' || { \
+  sed -e 's|".*/parse-datetime\.y"|"parse-datetime.y"|' \
+      -e 's|"parse-datetime\.tab\.c"|"parse-datetime.c"|' \
+      -e 's|"parse-datetime\.tab\.h"|"parse-datetime-gen.h"|' \
+      < parse-datetime.tab.c > parse-datetime.c-tmp \
+  && sed -e 's|".*/parse-datetime\.y"|"parse-datetime.y"|' \
+         -e 's|"parse-datetime\.tab\.h"|"parse-datetime-gen.h"|' \
+         < parse-datetime.tab.h > parse-datetime-gen.h-tmp \
+  && rm -f parse-datetime.tab.c parse-datetime.tab.h \
+  && mv parse-datetime.c-tmp ./parse-datetime.c \
+  && mv parse-datetime-gen.h-tmp ./parse-datetime-gen.h; \
+}
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make  all-am
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-gettime.lo `test -f 'gettime.c' || echo './'`gettime.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c gettime.c  -fPIC -DPIC -o .libs/libfaketime_la-gettime.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-c-ctype.lo `test -f 'c-ctype.c' || echo './'`c-ctype.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c c-ctype.c  -fPIC -DPIC -o .libs/libfaketime_la-c-ctype.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-timespec.lo `test -f 'timespec.c' || echo './'`timespec.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c timespec.c  -fPIC -DPIC -o .libs/libfaketime_la-timespec.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-time.lo `test -f 'time.c' || echo './'`time.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c time.c  -fPIC -DPIC -o .libs/libfaketime_la-time.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-malloca.lo `test -f 'malloca.c' || echo './'`malloca.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c malloca.c  -fPIC -DPIC -o .libs/libfaketime_la-malloca.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-unistd.lo `test -f 'unistd.c' || echo './'`unistd.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c unistd.c  -fPIC -DPIC -o .libs/libfaketime_la-unistd.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-posixtm.lo `test -f 'posixtm.c' || echo './'`posixtm.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c posixtm.c  -fPIC -DPIC -o .libs/libfaketime_la-posixtm.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-time_rz.lo `test -f 'time_rz.c' || echo './'`time_rz.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c time_rz.c  -fPIC -DPIC -o .libs/libfaketime_la-time_rz.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-nstrftime.lo `test -f 'nstrftime.c' || echo './'`nstrftime.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c nstrftime.c  -fPIC -DPIC -o .libs/libfaketime_la-nstrftime.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I.     -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libfaketime_la-parse-datetime.lo `test -f 'parse-datetime.c' || echo './'`parse-datetime.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c parse-datetime.c  -fPIC -DPIC -o .libs/libfaketime_la-parse-datetime.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+/bin/sh ../libtool  --tag=CC   --mode=link x86_64-alt-linux-gcc  -Wno-cast-qual -Wno-conversion -Wno-float-equal -Wno-sign-compare -Wno-undef -Wno-unused-function -Wno-unused-parameter -Wno-float-conversion -Wimplicit-fallthrough -Wno-pedantic -Wno-sign-conversion -Wno-type-limits -Wno-unsuffixed-float-constants -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -no-undefined    -o libfaketime.la  libfaketime_la-c-ctype.lo libfaketime_la-gettime.lo  libfaketime_la-malloca.lo libfaketime_la-nstrftime.lo libfaketime_la-parse-datetime.lo libfaketime_la-posixtm.lo  libfaketime_la-time.lo  libfaketime_la-time_rz.lo  libfaketime_la-timespec.lo  libfaketime_la-unistd.lo   
+libtool: link: ar cr .libs/libfaketime.a .libs/libfaketime_la-c-ctype.o .libs/libfaketime_la-gettime.o .libs/libfaketime_la-malloca.o .libs/libfaketime_la-nstrftime.o .libs/libfaketime_la-parse-datetime.o .libs/libfaketime_la-posixtm.o .libs/libfaketime_la-time.o .libs/libfaketime_la-time_rz.o .libs/libfaketime_la-timespec.o .libs/libfaketime_la-unistd.o 
+libtool: link: ranlib .libs/libfaketime.a
+libtool: link: ( cd ".libs" && rm -f "libfaketime.la" && ln -s "../libfaketime.la" "libfaketime.la" )
+make[2]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/lib'
+Making all in gnulib-tests
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+## ---------------------------------------------------- ##
+## ------------------- Gnulib tests ------------------- ##
+## You can ignore compiler warnings in this directory.  ##
+## ---------------------------------------------------- ##
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_CTYPE_H''@|<ctype.h>|g' \
+      -e 's/@''GNULIB_ISBLANK''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''HAVE_ISBLANK''@/1/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      ./ctype.in.h > ctype.h-t
+mv ctype.h-t ctype.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+      -e 's/@''GNULIB_EXPLICIT_BZERO''@/0/g' \
+      -e 's/@''GNULIB_FFSL''@/0/g' \
+      -e 's/@''GNULIB_FFSLL''@/0/g' \
+      -e 's/@''GNULIB_MBSLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSNLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSCHR''@/0/g' \
+      -e 's/@''GNULIB_MBSRCHR''@/0/g' \
+      -e 's/@''GNULIB_MBSSTR''@/0/g' \
+      -e 's/@''GNULIB_MBSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSPCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSCASESTR''@/0/g' \
+      -e 's/@''GNULIB_MBSCSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSPBRK''@/0/g' \
+      -e 's/@''GNULIB_MBSSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSSEP''@/0/g' \
+      -e 's/@''GNULIB_MBSTOK_R''@/0/g' \
+      -e 's/@''GNULIB_MEMCHR''@/0/g' \
+      -e 's/@''GNULIB_MEMMEM''@/0/g' \
+      -e 's/@''GNULIB_MEMPCPY''@/0/g' \
+      -e 's/@''GNULIB_MEMRCHR''@/0/g' \
+      -e 's/@''GNULIB_MEMSET_EXPLICIT''@/0/g' \
+      -e 's/@''GNULIB_RAWMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_STPCPY''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_STPNCPY''@/0/g' \
+      -e 's/@''GNULIB_STRCHRNUL''@/0/g' \
+      -e 's/@''GNULIB_STRDUP''@/0/g' \
+      -e 's/@''GNULIB_STRNCAT''@/0/g' \
+      -e 's/@''GNULIB_STRNDUP''@/0/g' \
+      -e 's/@''GNULIB_STRNLEN''@/0/g' \
+      -e 's/@''GNULIB_STRPBRK''@/0/g' \
+      -e 's/@''GNULIB_STRSEP''@/0/g' \
+      -e 's/@''GNULIB_STRSTR''@/0/g' \
+      -e 's/@''GNULIB_STRCASESTR''@/0/g' \
+      -e 's/@''GNULIB_STRTOK_R''@/0/g' \
+      -e 's/@''GNULIB_STRERROR''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      -e 's/@''GNULIB_STRERROR_R''@/0/g' \
+      -e 's/@''GNULIB_STRERRORNAME_NP''@/0/g' \
+      -e 's/@''GNULIB_SIGABBREV_NP''@/0/g' \
+      -e 's/@''GNULIB_SIGDESCR_NP''@/0/g' \
+      -e 's/@''GNULIB_STRSIGNAL''@/0/g' \
+      -e 's/@''GNULIB_STRVERSCMP''@/0/g' \
+      -e 's/@''GNULIB_MDA_MEMCCPY''@/1/g' \
+      -e 's/@''GNULIB_MDA_STRDUP''@/1/g' \
+      -e 's/@''GNULIB_FREE_POSIX''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      < ./string.in.h > string.h-t1
+sed \
+      -e 's|@''HAVE_EXPLICIT_BZERO''@|1|g' \
+      -e 's|@''HAVE_FFSL''@|1|g' \
+      -e 's|@''HAVE_FFSLL''@|1|g' \
+      -e 's|@''HAVE_MBSLEN''@|0|g' \
+      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+      -e 's|@''HAVE_MEMSET_EXPLICIT''@|1|g' \
+      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+      -e 's|@''HAVE_STPCPY''@|1|g' \
+      -e 's|@''HAVE_STPNCPY''@|1|g' \
+      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+      -e 's|@''HAVE_STRPBRK''@|1|g' \
+      -e 's|@''HAVE_STRSEP''@|1|g' \
+      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+      -e 's|@''HAVE_DECL_STRERROR_R''@|1|g' \
+      -e 's|@''HAVE_STRERRORNAME_NP''@|1|g' \
+      -e 's|@''HAVE_SIGABBREV_NP''@|1|g' \
+      -e 's|@''HAVE_SIGDESCR_NP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+      -e 's|@''REPLACE_FFSLL''@|0|g' \
+      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+      -e 's|@''REPLACE_MEMPCPY''@|0|g' \
+      -e 's|@''REPLACE_FREE''@|0|g' \
+      -e 's|@''REPLACE_STPCPY''@|0|g' \
+      -e 's|@''REPLACE_STPNCPY''@|0|g' \
+      -e 's|@''REPLACE_STRCHRNUL''@|0|g' \
+      -e 's|@''REPLACE_STRDUP''@|0|g' \
+      -e 's|@''REPLACE_STRNCAT''@|0|g' \
+      -e 's|@''REPLACE_STRNDUP''@|0|g' \
+      -e 's|@''REPLACE_STRNLEN''@|0|g' \
+      -e 's|@''REPLACE_STRSTR''@|0|g' \
+      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+      -e 's|@''REPLACE_STRTOK_R''@|0|g' \
+      -e 's|@''REPLACE_STRERROR''@|0|g' \
+      -e 's|@''REPLACE_STRERROR_R''@|0|g' \
+      -e 's|@''REPLACE_STRERRORNAME_NP''@|0|g' \
+      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+      -e 's|@''UNDEFINE_STRTOK_R''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      < string.h-t1 > string.h-t2
+rm -f string.h-t1
+mv string.h-t2 string.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+sed -e 1h -e '1s,.*,/* DO NOT EDIT! GENERATED AUTOMATICALLY! */,' -e 1G \
+      -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+      -e 's/@''HAVE_CRTDEFS_H''@/0/g' \
+      -e 's/@''GNULIBHEADERS_OVERRIDE_WINT_T''@/0/g' \
+      -e 's/@''GNULIB_BTOWC''@/0/g' \
+      -e 's/@''GNULIB_WCTOB''@/0/g' \
+      -e 's/@''GNULIB_MBSINIT''@/0/g' \
+      -e 's/@''GNULIB_MBSZERO''@/0/g' \
+      -e 's/@''GNULIB_MBRTOWC''@/0/g' \
+      -e 's/@''GNULIB_MBRLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_MBSNRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_WCRTOMB''@/0/g' \
+      -e 's/@''GNULIB_WCSRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCSNRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCWIDTH''@/0/g' \
+      -e 's/@''GNULIB_WMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_WMEMCMP''@/0/g' \
+      -e 's/@''GNULIB_WMEMCPY''@/0/g' \
+      -e 's/@''GNULIB_WMEMMOVE''@/0/g' \
+      -e 's/@''GNULIB_WMEMPCPY''@/0/g' \
+      -e 's/@''GNULIB_WMEMSET''@/0/g' \
+      -e 's/@''GNULIB_WCSLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSNLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSNCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCOLL''@/0/g' \
+      -e 's/@''GNULIB_WCSXFRM''@/0/g' \
+      -e 's/@''GNULIB_WCSDUP''@/0/g' \
+      -e 's/@''GNULIB_WCSCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSRCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSCSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSPBRK''@/0/g' \
+      -e 's/@''GNULIB_WCSSTR''@/0/g' \
+      -e 's/@''GNULIB_WCSTOK''@/0/g' \
+      -e 's/@''GNULIB_WCSWIDTH''@/0/g' \
+      -e 's/@''GNULIB_WCSFTIME''@/0/g' \
+      -e 's/@''GNULIB_WGETCWD''@/0/g' \
+      -e 's/@''GNULIB_MDA_WCSDUP''@/1/g' \
+      -e 's/@''GNULIB_FREE_POSIX''@/IN_FAKETIME_GNULIB_TESTS/g' \
+      < ./wchar.in.h > wchar.h-t1
+sed \
+      -e 's|@''HAVE_WINT_T''@|1|g' \
+      -e 's|@''HAVE_BTOWC''@|1|g' \
+      -e 's|@''HAVE_MBSINIT''@|1|g' \
+      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+      -e 's|@''HAVE_MBRLEN''@|1|g' \
+      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WMEMCHR''@|1|g' \
+      -e 's|@''HAVE_WMEMCMP''@|1|g' \
+      -e 's|@''HAVE_WMEMCPY''@|1|g' \
+      -e 's|@''HAVE_WMEMMOVE''@|1|g' \
+      -e 's|@''HAVE_WMEMPCPY''@|1|g' \
+      -e 's|@''HAVE_WMEMSET''@|1|g' \
+      -e 's|@''HAVE_WCSLEN''@|1|g' \
+      -e 's|@''HAVE_WCSNLEN''@|1|g' \
+      -e 's|@''HAVE_WCSCPY''@|1|g' \
+      -e 's|@''HAVE_WCPCPY''@|1|g' \
+      -e 's|@''HAVE_WCSNCPY''@|1|g' \
+      -e 's|@''HAVE_WCPNCPY''@|1|g' \
+      -e 's|@''HAVE_WCSCAT''@|1|g' \
+      -e 's|@''HAVE_WCSNCAT''@|1|g' \
+      -e 's|@''HAVE_WCSCMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCMP''@|1|g' \
+      -e 's|@''HAVE_WCSCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSCOLL''@|1|g' \
+      -e 's|@''HAVE_WCSXFRM''@|1|g' \
+      -e 's|@''HAVE_WCSDUP''@|1|g' \
+      -e 's|@''HAVE_WCSCHR''@|1|g' \
+      -e 's|@''HAVE_WCSRCHR''@|1|g' \
+      -e 's|@''HAVE_WCSCSPN''@|1|g' \
+      -e 's|@''HAVE_WCSSPN''@|1|g' \
+      -e 's|@''HAVE_WCSPBRK''@|1|g' \
+      -e 's|@''HAVE_WCSSTR''@|1|g' \
+      -e 's|@''HAVE_WCSTOK''@|1|g' \
+      -e 's|@''HAVE_WCSWIDTH''@|1|g' \
+      -e 's|@''HAVE_WCSFTIME''@|1|g' \
+      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+      -e 's|@''HAVE_DECL_WCSDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+      < wchar.h-t1 > wchar.h-t2
+sed \
+      -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+      -e 's|@''REPLACE_BTOWC''@|0|g' \
+      -e 's|@''REPLACE_WCTOB''@|0|g' \
+      -e 's|@''REPLACE_FREE''@|0|g' \
+      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+      -e 's|@''REPLACE_MBRTOWC''@|0|g' \
+      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSFTIME''@|0|g' \
+      -e 's|@''REPLACE_WCSCMP''@|0|g' \
+      -e 's|@''REPLACE_WCSNCMP''@|0|g' \
+      -e 's|@''REPLACE_WCSSTR''@|0|g' \
+      -e 's|@''REPLACE_WCSTOK''@|0|g' \
+      -e 's|@''REPLACE_WMEMCMP''@|0|g' \
+      -e 's|@''REPLACE_WMEMPCPY''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r ./c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r ./arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r ./warn-on-use.h' \
+      < wchar.h-t2 > wchar.h-t3
+rm -f wchar.h-t1 wchar.h-t2
+mv wchar.h-t3 wchar.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8/gnulib-tests'
+make  all-recursive
+Making all in .
+make[3]: Nothing to be done for 'all-am'.
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./lib -I./lib   -std=gnu99 -W -Wall -Waggregate-return -Wcast-align -Wconversion -Wdisabled-optimization -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wpointer-arith -Wshadow -Wstrict-prototypes -Wwrite-strings -Werror -Wno-error=conversion -Wno-error=nonnull-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o util.o util.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./lib -I./lib   -std=gnu99 -W -Wall -Waggregate-return -Wcast-align -Wconversion -Wdisabled-optimization -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wpointer-arith -Wshadow -Wstrict-prototypes -Wwrite-strings -Werror -Wno-error=conversion -Wno-error=nonnull-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o plugin.lo plugin.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./lib -I./lib -std=gnu99 -W -Wall -Waggregate-return -Wcast-align -Wconversion -Wdisabled-optimization -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wpointer-arith -Wshadow -Wstrict-prototypes -Wwrite-strings -Werror -Wno-error=conversion -Wno-error=nonnull-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c plugin.c  -fPIC -DPIC -o .libs/plugin.o
+plugin.c: In function 'ftime':
+plugin.c:173:66: error: 'struct timeb' has no member named 'rpl_time'
+  173 |                 debug_printf("ftime: %lu -> ", (unsigned long) tp->time);
+      |                                                                  ^~
+plugin.c:176:27: error: 'struct timeb' has no member named 'rpl_time'
+  176 |                         tp->time += time_off;
+      |                           ^~
+plugin.c:179:27: error: 'struct timeb' has no member named 'rpl_time'
+  179 |                         tp->time = time_abs;
+      |                           ^~
+plugin.c:182:57: error: 'struct timeb' has no member named 'rpl_time'
+  182 |                 debug_printf("%lu\n", (unsigned long) tp->time);
+      |                                                         ^~
+make[1]: *** [Makefile:1323: plugin.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-alt-linux-gcc -std=gnu99 -W -Wall -Waggregate-return -Wcast-align -Wconversion -Wdisabled-optimization -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wpointer-arith -Wshadow -Wstrict-prototypes -Wwrite-strings -Werror -Wno-error=conversion -Wno-error=nonnull-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -no-undefined -avoid-version -module -export-symbols ./plugin.sym -ldl  -o faketime util.o ./lib/libfaketime.la  
+libtool: link: x86_64-alt-linux-gcc -std=gnu99 -W -Wall -Waggregate-return -Wcast-align -Wconversion -Wdisabled-optimization -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wpointer-arith -Wshadow -Wstrict-prototypes -Wwrite-strings -Werror -Wno-error=conversion -Wno-error=nonnull-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o faketime util.o  -ldl ./lib/.libs/libfaketime.a
+make[1]: Leaving directory '/usr/src/RPM/BUILD/faketime-0.2.8'
+make: *** [Makefile:1384: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61314 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.61314 (%build)
+Command exited with non-zero status 1
+12.85user 16.62system 0:25.36elapsed 116%CPU (0avgtext+0avgdata 40980maxresident)k
+0inputs+0outputs (0major+3822378minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `faketime-0.2.8-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.40user 2.43system 0:34.89elapsed 16%CPU (0avgtext+0avgdata 141080maxresident)k
+12416inputs+0outputs (0major+205655minor)pagefaults 0swaps

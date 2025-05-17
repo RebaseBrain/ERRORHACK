@@ -1,0 +1,56 @@
+-- Performing Test CXX_W_OVERLOADED_VIRTUAL - Success
+CMake Deprecation Warning at CMakeLists.txt:168 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at CMakeLists.txt:174 (cmake_policy):
+  Policy CMP0043 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0043 for more information.
+
+
+CMake Deprecation Warning at CMakeLists.txt:184 (cmake_policy):
+CMake Warning (dev) at /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake:434 (_qt5_warn_deprecated)
+  cmake/QuasselMacros.cmake:88 (qt5_use_modules)
+  src/CMakeLists.txt:68 (qt_use_modules)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74551 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74551 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.74551 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.74551 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.31user 0.67system 0:01.90elapsed 104%CPU (0avgtext+0avgdata 44508maxresident)k
+1.31user 0.67system 0:01.90elapsed 104%CPU (0avgtext+0avgdata 44508maxresident)k
+0inputs+0outputs (0major+112366minor)pagefaults 0swaps
+0inputs+0outputs (0major+112366minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `quassel-0.13.1-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `quassel-0.13.1-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.99user 4.19system 0:39.14elapsed 26%CPU (0avgtext+0avgdata 144632maxresident)k
+5.99user 4.19system 0:39.14elapsed 26%CPU (0avgtext+0avgdata 144632maxresident)k
+111560inputs+0outputs (0major+413546minor)pagefaults 0swaps

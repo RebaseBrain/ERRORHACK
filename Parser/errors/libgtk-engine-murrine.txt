@@ -1,0 +1,182 @@
+   73 |   GTimeVal last_popdown;
+      |   ^~~~~~~~
+In file included from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from /usr/include/glib-2.0/gmodule.h:30,
+                 from /usr/include/glib-2.0/gmodule.h:30,
+                 from ./src/murrine_theme_main.c:21:
+                 from ./src/murrine_theme_main.c:21:
+/usr/include/glib-2.0/glib/gtypes.h:580:8: note: declared here
+/usr/include/glib-2.0/glib/gtypes.h:580:8: note: declared here
+  580 | struct _GTimeVal
+  580 | struct _GTimeVal
+      |        ^~~~~~~~~
+      |        ^~~~~~~~~
+      |        ^~~~~~~~~
+./src/murrine_theme_main.c: In function 'theme_init':
+./src/murrine_theme_main.c: In function 'theme_init':
+./src/murrine_theme_main.c: In function 'theme_init':
+./src/murrine_theme_main.c:31:9: error: implicit declaration of function 'murrine_rc_style_register_types'; did you mean 'murrine_rc_style_get_type'? [-Wimplicit-function-declaration]
+./src/murrine_theme_main.c:31:9: error: implicit declaration of function 'murrine_rc_style_register_types'; did you mean 'murrine_rc_style_get_type'? [-Wimplicit-function-declaration]
+./src/murrine_theme_main.c:31:9: error: implicit declaration of function 'murrine_rc_style_register_types'; did you mean 'murrine_rc_style_get_type'? [-Wimplicit-function-declaration]
+   31 |         murrine_rc_style_register_types (module);
+   31 |         murrine_rc_style_register_types (module);
+   31 |         murrine_rc_style_register_types (module);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         murrine_rc_style_get_type
+      |         murrine_rc_style_get_type
+      |         murrine_rc_style_get_type
+./src/murrine_theme_main.c:32:9: error: implicit declaration of function 'murrine_style_register_types'; did you mean 'murrine_style_get_type'? [-Wimplicit-function-declaration]
+./src/murrine_theme_main.c:32:9: error: implicit declaration of function 'murrine_style_register_types'; did you mean 'murrine_style_get_type'? [-Wimplicit-function-declaration]
+./src/murrine_theme_main.c:32:9: error: implicit declaration of function 'murrine_style_register_types'; did you mean 'murrine_style_get_type'? [-Wimplicit-function-declaration]
+   32 |         murrine_style_register_types (module);
+   32 |         murrine_style_register_types (module);
+   32 |         murrine_style_register_types (module);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         murrine_style_get_type
+      |         murrine_style_get_type
+      |         murrine_style_get_type
+make[1]: *** [Makefile:652: murrine_theme_main.lo] Error 1
+make[1]: *** [Makefile:652: murrine_theme_main.lo] Error 1
+make[1]: *** [Makefile:652: murrine_theme_main.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include  -I /usr/include/pixman-1/  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o murrine_style.lo `test -f './src/murrine_style.c' || echo './'`./src/murrine_style.c
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include  -I /usr/include/pixman-1/  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o murrine_style.lo `test -f './src/murrine_style.c' || echo './'`./src/murrine_style.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I /usr/include/pixman-1/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c ./src/murrine_style.c  -fPIC -DPIC -o .libs/murrine_style.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I /usr/include/pixman-1/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c ./src/murrine_style.c  -fPIC -DPIC -o .libs/murrine_style.o
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkcontainer.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkbin.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkwindow.h:36,
+/usr/include/gtk-2.0/gtk/gtktooltips.h:73:3: warning: 'GTimeVal' is deprecated: Use 'GDateTime' instead [-Wdeprecated-declarations]
+   73 |   GTimeVal last_popdown;
+      |   ^~~~~~~~
+In file included from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:30:
+                 from /usr/include/glib-2.0/gobject/gbinding.h:30:
+/usr/include/glib-2.0/glib/gtypes.h:580:8: note: declared here
+/usr/include/glib-2.0/glib/gtypes.h:580:8: note: declared here
+  580 | struct _GTimeVal
+  580 | struct _GTimeVal
+      |        ^~~~~~~~~
+      |        ^~~~~~~~~
+./src/murrine_style.c: In function 'murrine_set_widget_parameters':
+./src/murrine_style.c: In function 'murrine_set_widget_parameters':
+./src/murrine_style.c:133:30: error: implicit declaration of function 'murrine_widget_is_ltr'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+./src/murrine_style.c:133:30: error: implicit declaration of function 'murrine_widget_is_ltr'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+  133 |         params->ltr        = murrine_widget_is_ltr ((GtkWidget*)widget);
+  133 |         params->ltr        = murrine_widget_is_ltr ((GtkWidget*)widget);
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              murrine_widget_is_rgba
+      |                              murrine_widget_is_rgba
+In file included from ./src/murrine_style.c:30:
+In file included from ./src/murrine_style.c:30:
+./src/support.h:79:50: error: implicit declaration of function 'murrine_object_is_a'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+./src/support.h:79:50: error: implicit declaration of function 'murrine_object_is_a'; did you mean 'murrine_widget_is_rgba'? [-Wimplicit-function-declaration]
+   79 | #define MRN_IS_PROGRESS_BAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkProgressBar"))
+   79 | #define MRN_IS_PROGRESS_BAR(object) ((object) && murrine_object_is_a ((GObject*)(object), "GtkProgressBar"))
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+./src/murrine_style.c:174:42: note: in expansion of macro 'MRN_IS_PROGRESS_BAR'
+./src/murrine_style.c:174:42: note: in expansion of macro 'MRN_IS_PROGRESS_BAR'
+  174 |                 if (params->prelight && !MRN_IS_PROGRESS_BAR(widget)) //progressbar is prelight, no change in shade
+  174 |                 if (params->prelight && !MRN_IS_PROGRESS_BAR(widget)) //progressbar is prelight, no change in shade
+      |                                          ^~~~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~~~
+./src/murrine_style.c: In function 'murrine_style_draw_box':
+./src/murrine_style.c:1103:53: warning: comparison between 'MurrineOrientation' and 'enum <anonymous>' [-Wenum-compare]
+ 1103 |                         if (progressbar.orientation == GTK_PROGRESS_LEFT_TO_RIGHT)
+      |                                                     ^~
+./src/murrine_style.c:1105:58: warning: comparison between 'MurrineOrientation' and 'enum <anonymous>' [-Wenum-compare]
+ 1876 |         int lx, ly;
+      |             ^~
+./src/murrine_style.c: In function 'murrine_style_draw_layout':
+./src/murrine_style.c:2071:26: warning: variable 'etched' set but not used [-Wunused-but-set-variable]
+ 2071 |                 GdkColor etched;
+      |                          ^~~~~~
+./src/murrine_style.c: At top level:
+./src/murrine_style.c:2572:1: warning: 'gdk_cairo_set_source_color_alpha' defined but not used [-Wunused-function]
+ 2572 | gdk_cairo_set_source_color_alpha (cairo_t  *cr,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:645: murrine_style.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include  -I /usr/include/pixman-1/  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o murrine_rc_style.lo `test -f './src/murrine_rc_style.c' || echo './'`./src/murrine_rc_style.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I./src -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I /usr/include/pixman-1/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c ./src/murrine_rc_style.c  -fPIC -DPIC -o .libs/murrine_rc_style.o
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkcontainer.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkbin.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkwindow.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkdialog.h:35,
+./src/murrine_draw_rgba.c:1997:56: warning: comparison between 'MurrineStateType' and 'enum <anonymous>' [-Wenum-compare]
+ 1997 |         murrine_mix_color (&border, widget->state_type != GTK_STATE_INSENSITIVE ?
+ 1997 |         murrine_mix_color (&border, widget->state_type != GTK_STATE_INSENSITIVE ?
+      |                                                        ^~
+      |                                                        ^~
+./src/murrine_draw_rgba.c:2006:90: warning: comparison between 'MurrineStateType' and 'enum <anonymous>' [-Wenum-compare]
+./src/murrine_draw_rgba.c:2006:90: warning: comparison between 'MurrineStateType' and 'enum <anonymous>' [-Wenum-compare]
+ 2006 |                         if (widget->reliefstyle > 1 && draw_bullet && widget->state_type != GTK_STATE_INSENSITIVE)
+ 2006 |                         if (widget->reliefstyle > 1 && draw_bullet && widget->state_type != GTK_STATE_INSENSITIVE)
+      |                                                                                          ^~
+      |                                                                                          ^~
+./src/murrine_draw_rgba.c:2094:101: warning: comparison between 'MurrineStateType' and 'enum <anonymous>' [-Wenum-compare]
+./src/murrine_draw_rgba.c:2094:101: warning: comparison between 'MurrineStateType' and 'enum <anonymous>' [-Wenum-compare]
+ 2094 |                                 murrine_set_color_rgba (cr, &outline, 0.5*trans*(widget->state_type == GTK_STATE_INSENSITIVE ? 0.2 : 1.0));
+ 2094 |                                 murrine_set_color_rgba (cr, &outline, 0.5*trans*(widget->state_type == GTK_STATE_INSENSITIVE ? 0.2 : 1.0));
+      |                                                                                                     ^~
+      |                                                                                                     ^~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-engine-murrine-0.98.1.1'
+make: *** [Makefile:712: all-recursive] Error 1
+make: *** [Makefile:712: all-recursive] Error 1
+make: *** [Makefile:712: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.6035 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.47user 3.51system 0:06.14elapsed 146%CPU (0avgtext+0avgdata 80716maxresident)k
+5.47user 3.51system 0:06.14elapsed 146%CPU (0avgtext+0avgdata 80716maxresident)k
+5.47user 3.51system 0:06.14elapsed 146%CPU (0avgtext+0avgdata 80716maxresident)k
+0inputs+0outputs (0major+630570minor)pagefaults 0swaps
+0inputs+0outputs (0major+630570minor)pagefaults 0swaps
+0inputs+0outputs (0major+630570minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgtk-engine-murrine-0.98.1.1-alt0.1.1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtk-engine-murrine-0.98.1.1-alt0.1.1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtk-engine-murrine-0.98.1.1-alt0.1.1.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.00user 3.05system 0:25.87elapsed 27%CPU (0avgtext+0avgdata 141784maxresident)k
+4.00user 3.05system 0:25.87elapsed 27%CPU (0avgtext+0avgdata 141784maxresident)k
+0inputs+0outputs (0major+239872minor)pagefaults 0swaps

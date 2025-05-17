@@ -1,0 +1,119 @@
+<13>May 16 05:01:38 rpmi: perl-File-Copy-Recursive-0.45-alt1 sisyphus+235291.100.1.1 1564606222 installed
+<13>May 16 05:01:38 rpmi: perl-Devel-Symdump-2.18-alt1 1487063672 installed
+<13>May 16 05:01:38 rpmi: perl-Devel-Size-0.84-alt1 sisyphus+380198.100.1.2 1743727370 installed
+<13>May 16 05:01:38 rpmi: perl-Data-Printer-1.002001-alt1 sisyphus+339110.100.1.1 1706295270 installed
+<13>May 16 05:01:38 rpmi: perl-Tie-IxHash-1.23-alt1 1374770680 installed
+<13>May 16 05:01:38 rpmi: perl-Time-Piece-2:1.36-alt1 sisyphus+381775.100.1.1 1744805866 installed
+<13>May 16 05:01:38 rpmi: perl-PerlIO-utf8_strict-0.010-alt1 sisyphus+335067.2000.1.1 1700901717 installed
+<13>May 16 05:01:38 rpmi: perl-Class-Singleton-1.6-alt1 sisyphus+263264.100.1.1 1607654508 installed
+<13>May 16 05:01:38 rpmi: perl-Devel-OverrideGlobalRequire-0.001-alt2 1386150975 installed
+<13>May 16 05:01:38 rpmi: perl-Class-Data-Inheritable-0.10-alt1 sisyphus+380154.100.1.1 1743709526 installed
+<13>May 16 05:01:38 rpmi: perl-Exception-Class-1.45-alt1 sisyphus+271984.100.1.1 1621195496 installed
+<13>May 16 05:01:38 rpmi: perl-Params-ValidationCompiler-0.31-alt1 sisyphus+313257.100.1.3 1673500959 installed
+<13>May 16 05:01:38 rpmi: perl-Class-C3-0.35-alt1 sisyphus+261974.100.1.1 1605684381 installed
+<13>May 16 05:01:38 rpmi: perl-Mouse-2.5.11-alt1 sisyphus+380265.100.1.2 1743745694 installed
+<13>May 16 05:01:38 rpmi: perl-Carp-Clan-6.08-alt1 sisyphus+237762.100.1.1 1568825686 installed
+<13>May 16 05:01:38 rpmi: perl-Carp-Assert-0.22-alt1 sisyphus+316322.100.1.1 1678130349 installed
+<13>May 16 05:01:38 rpmi: perl-Carp-Always-0.16-alt1_4 sisyphus+241152.100.1.2 1574271720 installed
+<13>May 16 05:01:38 rpmi: perl-ExtUtils-HasCompiler-0.025-alt2 sisyphus+380969.100.1.1 1744193325 installed
+<13>May 16 05:01:38 rpmi: perl-Math-Complex-1.59-alt1 1334229876 installed
+<13>May 16 05:01:38 rpmi: perl-Math-BigInt-2.005003-alt1 sisyphus+381904.100.1.1 1744908928 installed
+<13>May 16 05:01:38 rpmi: perl-Math-BigInt-FastCalc-0.5020-alt1 sisyphus+380407.100.1.2 1743778372 installed
+t/15-remove.t .................. ok
+# testing with git repo /usr/src/tmp/qWJufOWXt0/7_hrHs0Ytx/source
+# Testing with git version: 2.42.4
+t/16-duplicate-emails.t ........ ok
+# testing with git repo /usr/src/tmp/9FKJjFZR78/mU71hgMKh_/source
+# Testing with git version: 2.42.4
+t/17-json-pp-injection.t ....... ok
+# testing with git repo /usr/src/tmp/5yaNCV6jT6/SYIzaCDFx1/source
+# Testing with git version: 2.42.4
+t/18-all-files.t ............... ok
+Error mkdir on '/usr/src/tmp/IYVV2yiFt_': method argument was given, but was not a hash reference at t/19-ex-repo-paths.t line 27.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Looks like your test exited with 2 just after 1.
+t/19-ex-repo-paths.t ........... 
+t/19-ex-repo-paths.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+All 1 subtests passed 
+All 1 subtests passed 
+# testing with git repo /usr/src/tmp/ztUNq7PvG6/d_AzJkCiye/source
+# testing with git repo /usr/src/tmp/ztUNq7PvG6/d_AzJkCiye/source
+# Testing with git version: 2.42.4
+# Testing with git version: 2.42.4
+# Testing with git version: 2.42.4
+t/20-duplicate-names.t ......... ok
+t/20-duplicate-names.t ......... ok
+t/20-duplicate-names.t ......... ok
+t/20-duplicate-names.t ......... ok
+t/zzz-check-breaks.t ........... ok
+t/zzz-check-breaks.t ........... ok
+t/zzz-check-breaks.t ........... ok
+t/zzz-check-breaks.t ........... ok
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+t/19-ex-repo-paths.t         (Wstat: 512 (exited 2) Tests: 1 Failed: 0)
+t/19-ex-repo-paths.t         (Wstat: 512 (exited 2) Tests: 1 Failed: 0)
+t/19-ex-repo-paths.t         (Wstat: 512 (exited 2) Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+Files=22, Tests=72, 13 wallclock secs ( 0.05 usr  0.03 sys + 10.13 cusr  2.42 csys = 12.63 CPU)
+Files=22, Tests=72, 13 wallclock secs ( 0.05 usr  0.03 sys + 10.13 cusr  2.42 csys = 12.63 CPU)
+Files=22, Tests=72, 13 wallclock secs ( 0.05 usr  0.03 sys + 10.13 cusr  2.42 csys = 12.63 CPU)
+Files=22, Tests=72, 13 wallclock secs ( 0.05 usr  0.03 sys + 10.13 cusr  2.42 csys = 12.63 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60019 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.50user 2.59system 0:13.00elapsed 100%CPU (0avgtext+0avgdata 73868maxresident)k
+10.50user 2.59system 0:13.00elapsed 100%CPU (0avgtext+0avgdata 73868maxresident)k
+10.50user 2.59system 0:13.00elapsed 100%CPU (0avgtext+0avgdata 73868maxresident)k
+0inputs+0outputs (0major+674197minor)pagefaults 0swaps
+0inputs+0outputs (0major+674197minor)pagefaults 0swaps
+0inputs+0outputs (0major+674197minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Dist-Zilla-Plugin-Git-Contributors-0.037-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.42user 3.12system 0:25.34elapsed 29%CPU (0avgtext+0avgdata 141844maxresident)k
+4.42user 3.12system 0:25.34elapsed 29%CPU (0avgtext+0avgdata 141844maxresident)k
+584inputs+0outputs (0major+348154minor)pagefaults 0swaps

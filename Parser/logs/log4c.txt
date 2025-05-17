@@ -1,0 +1,1052 @@
+<86>May 16 01:33:13 userdel[1377068]: delete user 'rooter'
+<86>May 16 01:33:13 userdel[1377068]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:33:13 userdel[1377068]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:33:13 groupadd[1377101]: group added to /etc/group: name=rooter, GID=1850
+<86>May 16 01:33:13 groupadd[1377101]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:33:13 groupadd[1377101]: new group: name=rooter, GID=1850
+<86>May 16 01:33:13 useradd[1377131]: new user: name=rooter, UID=1850, GID=1850, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:33:13 userdel[1377171]: delete user 'builder'
+<86>May 16 01:33:13 userdel[1377171]: removed group 'builder' owned by 'builder'
+<86>May 16 01:33:13 userdel[1377171]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:33:13 groupadd[1377199]: group added to /etc/group: name=builder, GID=1851
+<86>May 16 01:33:13 groupadd[1377199]: group added to /etc/gshadow: name=builder
+<86>May 16 01:33:13 groupadd[1377199]: new group: name=builder, GID=1851
+<86>May 16 01:33:13 useradd[1377220]: new user: name=builder, UID=1851, GID=1851, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:33:17 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:33:17 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:33:17 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:33:17 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:33:17 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:33:17 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:33:17 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:33:17 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:33:17 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:33:17 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 01:33:18 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 01:33:18 rpmi: fonts-ttf-dejavu-2.37-alt2 sisyphus+243548.100.1.1 1577296175 installed
+<13>May 16 01:33:18 rpmi: doxygen-1:1.13.2-alt1 sisyphus+368555.100.1.1 1736508240 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/log4c-1.2.1-alt1.1.qa3.nosrc.rpm (w1.gzdio)
+Installing log4c-1.2.1-alt1.1.qa3.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.9477
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf log4c-1.2.1
++ echo 'Source #0 (log4c-1.2.1.tar):'
+Source #0 (log4c-1.2.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/log4c-1.2.1.tar
++ cd log4c-1.2.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.9477
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd log4c-1.2.1
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --enable-doc
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for bison... bison -y
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for flex... no
+checking for lex... no
+checking for gawk... (cached) gawk
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognise dependent libraries... (cached) pass_all
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for x86_64-alt-linux-g++... no
+checking for x86_64-alt-linux-c++... no
+checking for x86_64-alt-linux-gpp... no
+checking for x86_64-alt-linux-aCC... no
+checking for x86_64-alt-linux-CC... no
+checking for x86_64-alt-linux-cxx... no
+checking for x86_64-alt-linux-cc++... no
+checking for x86_64-alt-linux-cl.exe... no
+checking for x86_64-alt-linux-FCC... no
+checking for x86_64-alt-linux-KCC... no
+checking for x86_64-alt-linux-RCC... no
+checking for x86_64-alt-linux-xlC_r... no
+checking for x86_64-alt-linux-xlC... no
+checking for g++... no
+checking for c++... no
+checking for gpp... no
+checking for aCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for cl.exe... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking whether we are using the GNU C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking for x86_64-alt-linux-g77... no
+checking for x86_64-alt-linux-xlf... no
+checking for x86_64-alt-linux-f77... no
+checking for x86_64-alt-linux-frt... no
+checking for x86_64-alt-linux-pgf77... no
+checking for x86_64-alt-linux-cf77... no
+checking for x86_64-alt-linux-fort77... no
+checking for x86_64-alt-linux-fl32... no
+checking for x86_64-alt-linux-af77... no
+checking for x86_64-alt-linux-xlf90... no
+checking for x86_64-alt-linux-f90... no
+checking for x86_64-alt-linux-pgf90... no
+checking for x86_64-alt-linux-pghpf... no
+checking for x86_64-alt-linux-epcf90... no
+checking for x86_64-alt-linux-gfortran... no
+checking for x86_64-alt-linux-g95... no
+checking for x86_64-alt-linux-xlf95... no
+checking for x86_64-alt-linux-f95... no
+checking for x86_64-alt-linux-fort... no
+checking for x86_64-alt-linux-ifort... no
+checking for x86_64-alt-linux-ifc... no
+checking for x86_64-alt-linux-efc... no
+checking for x86_64-alt-linux-pgf95... no
+checking for x86_64-alt-linux-lf95... no
+checking for x86_64-alt-linux-ftn... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for correct ltmain.sh version... yes
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_mutex_init in -lpthread... yes
+configure: Compile with rollingfile code
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking varargs.h usability... no
+checking varargs.h presence... no
+checking for varargs.h... no
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for pthread.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking whether utime accepts a null argument... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for gettimeofday... yes
+checking for memset... yes
+checking for munmap... yes
+checking for nl_langinfo... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for utime... yes
+checking for sbrk... yes
+checking for doxygen... /usr/bin/doxygen
+checking for dot... no
+checking for latex... no
+checking for EXPAT - version >= 1.95.1... no
+*** Could not run EXPAT test program, checking why...
+*** The test program failed to compile or link. See the file config.log for the
+*** exact error that occured. This usually means EXPAT was incorrectly installed
+*** or that you have moved EXPAT since it was installed. In the latter case, you
+*** may want to edit the expat-config script: ''
+*** Log4C will still run without EXPAT--it uses some bundled
+*** lex/yacc code to parse the configuration file
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating log4c-config
+config.status: creating log4crc.sample
+config.status: creating log4c.spec
+config.status: creating config/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating doc/main.doc
+config.status: creating src/Makefile
+config.status: creating src/log4c/Makefile
+config.status: creating src/log4c/version.h
+config.status: creating src/sd/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/log4c/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/log4crc
+config.status: creating examples/helloworld/Makefile
+config.status: creating examples/helloworld1/Makefile
+config.status: creating src/config.h
+config.status: executing depfiles commands
+config.status: executing default commands
++ make -j16
+make  all-recursive
+Making all in config
+make[2]: Nothing to be done for 'all'.
+Making all in src
+make  all-recursive
+Making all in sd
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o stack.lo stack.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c stack.c  -fPIC -DPIC -o .libs/stack.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c stack.c -o stack.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o list.lo list.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c list.c  -fPIC -DPIC -o .libs/list.o
+list.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c list.c -o list.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o sprintf.lo sprintf.c
+mkdir .libs
+mkdir: cannot create directory '.libs': File exists
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c sprintf.c  -fPIC -DPIC -o .libs/sprintf.o
+sprintf.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c sprintf.c -o sprintf.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o factory.lo factory.c
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c factory.c  -fPIC -DPIC -o .libs/factory.o
+factory.c: In function 'sd_factory_list':
+factory.c:135:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  135 |   if (!this || !a_items || a_nitems <= 0)
+      |   ^~
+factory.c:138:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  138 |     for (i = sd_hash_begin(this->fac_hash), j = 0;
+      |     ^~~
+factory.c: At top level:
+factory.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c factory.c -o factory.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o sd_xplatform.lo sd_xplatform.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c sd_xplatform.c  -fPIC -DPIC -o .libs/sd_xplatform.o
+sd_xplatform.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c sd_xplatform.c -o sd_xplatform.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o domnode.lo domnode.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode.c  -fPIC -DPIC -o .libs/domnode.o
+domnode.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode.c -o domnode.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o hash.lo hash.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c hash.c  -fPIC -DPIC -o .libs/hash.o
+hash.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c hash.c -o hash.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o malloc.lo malloc.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c malloc.c  -fPIC -DPIC -o .libs/malloc.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c malloc.c -o malloc.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o error.lo error.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c error.c  -fPIC -DPIC -o .libs/error.o
+error.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c error.c -o error.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o domnode-xml.lo domnode-xml.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml.c  -fPIC -DPIC -o .libs/domnode-xml.o
+domnode-xml.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml.c -o domnode-xml.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o test.lo test.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c test.c  -fPIC -DPIC -o .libs/test.o
+test.c: In function 'sd_test_run':
+test.c:217:44: warning: format '%lld' expects argument of type 'long long int', but argument 3 has type 'usec_t' {aka 'long unsigned int'} [-Wformat=]
+  217 |             fprintf(sd_test_err(this), "%lld ", elapsed);
+      |                                         ~~~^    ~~~~~~~
+      |                                            |    |
+      |                                            |    usec_t {aka long unsigned int}
+      |                                            long long int
+      |                                         %ld
+test.c: At top level:
+test.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c test.c -o test.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o domnode-xml-parser.lo domnode-xml-parser.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml-parser.c  -fPIC -DPIC -o .libs/domnode-xml-parser.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml-parser.c -o domnode-xml-parser.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o domnode-xml-scanner.lo domnode-xml-scanner.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml-scanner.c  -fPIC -DPIC -o .libs/domnode-xml-scanner.o
+domnode-xml-scanner.c:3145:16: warning: 'input' defined but not used [-Wunused-function]
+ 3145 |     static int yyinput YYFARGS0(void)
+      |                ^~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c domnode-xml-scanner.c -o domnode-xml-scanner.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+/bin/sh ../../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o liblog4c_sd.la  stack.lo list.lo malloc.lo factory.lo hash.lo sprintf.lo test.lo sd_xplatform.lo error.lo  domnode.lo domnode-xml.lo domnode-xml-parser.lo domnode-xml-scanner.lo  -lpthread
+ar cru .libs/liblog4c_sd.a .libs/stack.o .libs/list.o .libs/malloc.o .libs/factory.o .libs/hash.o .libs/sprintf.o .libs/test.o .libs/sd_xplatform.o .libs/error.o .libs/domnode.o .libs/domnode-xml.o .libs/domnode-xml-parser.o .libs/domnode-xml-scanner.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib .libs/liblog4c_sd.a
+creating liblog4c_sd.la
+(cd .libs && rm -f liblog4c_sd.la && ln -s ../liblog4c_sd.la liblog4c_sd.la)
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/sd'
+Making all in log4c
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o version.lo version.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c version.c  -fPIC -DPIC -o .libs/version.o
+version.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c version.c -o version.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender_type_syslog.lo appender_type_syslog.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_syslog.c  -fPIC -DPIC -o .libs/appender_type_syslog.o
+appender_type_syslog.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_syslog.c -o appender_type_syslog.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o layout_type_basic_r.lo layout_type_basic_r.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_basic_r.c  -fPIC -DPIC -o .libs/layout_type_basic_r.o
+layout_type_basic_r.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_basic_r.c -o layout_type_basic_r.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o logging_event.lo logging_event.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c logging_event.c  -fPIC -DPIC -o .libs/logging_event.o
+logging_event.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c logging_event.c -o logging_event.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o priority.lo priority.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c priority.c  -fPIC -DPIC -o .libs/priority.o
+priority.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c priority.c -o priority.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender_type_stream.lo appender_type_stream.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_stream.c  -fPIC -DPIC -o .libs/appender_type_stream.o
+appender_type_stream.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_stream.c -o appender_type_stream.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender_type_stream2.lo appender_type_stream2.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_stream2.c  -fPIC -DPIC -o .libs/appender_type_stream2.o
+appender_type_stream2.c: In function 'stream2_get_or_make_udata':
+appender_type_stream2.c:136:9: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+  136 |     int rc = 0;
+      |         ^~
+appender_type_stream2.c: At top level:
+appender_type_stream2.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_stream2.c -o appender_type_stream2.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o layout_type_basic.lo layout_type_basic.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_basic.c  -fPIC -DPIC -o .libs/layout_type_basic.o
+layout_type_basic.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_basic.c -o layout_type_basic.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o layout_type_dated_r.lo layout_type_dated_r.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_dated_r.c  -fPIC -DPIC -o .libs/layout_type_dated_r.o
+layout_type_dated_r.c: In function 'dated_r_format':
+layout_type_dated_r.c:28:2: warning: #warning gmtime() routine should be defined in sd_xplatform [-Wcpp]
+   28 | #warning gmtime() routine should be defined in sd_xplatform
+      |  ^~~~~~~
+layout_type_dated_r.c: At top level:
+layout_type_dated_r.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_dated_r.c -o layout_type_dated_r.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender_type_mmap.lo appender_type_mmap.c
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_mmap.c  -fPIC -DPIC -o .libs/appender_type_mmap.o
+appender_type_mmap.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_mmap.c -o appender_type_mmap.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o layout_type_dated.lo layout_type_dated.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_dated.c  -fPIC -DPIC -o .libs/layout_type_dated.o
+layout_type_dated.c: In function 'dated_format':
+layout_type_dated.c:28:2: warning: #warning gmtime() routine should be defined in sd_xplatform [-Wcpp]
+   28 | #warning gmtime() routine should be defined in sd_xplatform
+      |  ^~~~~~~
+layout_type_dated.c: At top level:
+layout_type_dated.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout_type_dated.c -o layout_type_dated.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o category.lo category.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c category.c  -fPIC -DPIC -o .libs/category.o
+category.c: In function 'log4c_category_print':
+category.c:193:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  193 |   if (!this)
+      |   ^~
+category.c:196:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  196 |     fprintf(a_stream, "{ name:'%s' priority:%s additive:%d appender:'%s' parent:'%s' }",
+      |     ^~~~~~~
+category.c: At top level:
+category.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c category.c -o category.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o init.lo init.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c init.c  -fPIC -DPIC -o .libs/init.o
+init.c: In function 'log4c_fini':
+init.c:231:9: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+  231 |     int rc = 0;
+      |         ^~
+init.c: At top level:
+init.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c init.c -o init.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o layout.lo layout.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout.c  -fPIC -DPIC -o .libs/layout.o
+layout.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c layout.c -o layout.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender.lo appender.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender.c  -fPIC -DPIC -o .libs/appender.o
+appender.c: In function 'log4c_appender_append':
+appender.c:267:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  267 |   if (!this->app_isopen)
+      |   ^~
+appender.c:271:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  271 |     if ( (a_event->evt_rendered_msg =
+      |     ^~
+appender.c: In function 'log4c_appender_print':
+appender.c:303:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  303 |   if (!this)
+      |   ^~
+appender.c:306:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  306 |     fprintf(a_stream, "{ name:'%s' type:'%s' layout:'%s' isopen:%d udata:%p}",
+      |     ^~~~~~~
+appender.c: At top level:
+appender.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender.c -o appender.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o rc.lo rc.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rc.c  -fPIC -DPIC -o .libs/rc.o
+rc.c:1:19: warning: 'version' defined but not used [-Wunused-const-variable=]
+    1 | static const char version[] = "$Id$";
+      |                   ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rc.c -o rc.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o rollingpolicy.lo rollingpolicy.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rollingpolicy.c  -fPIC -DPIC -o .libs/rollingpolicy.o
+rollingpolicy.c: In function 'log4c_rollingpolicy_print':
+rollingpolicy.c:278:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  278 |   if (!this)
+      |   ^~
+rollingpolicy.c:281:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  281 |     fprintf(a_stream, "{ name:'%s' udata:%p}",
+      |     ^~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rollingpolicy.c -o rollingpolicy.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o appender_type_rollingfile.lo appender_type_rollingfile.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_rollingfile.c  -fPIC -DPIC -o .libs/appender_type_rollingfile.o
+appender_type_rollingfile.c: In function 'rollingfile_append':
+appender_type_rollingfile.c:133:26: warning: unused variable 'my_event' [-Wunused-variable]
+  133 |   log4c_logging_event_t* my_event =
+      |                          ^~~~~~~~
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c appender_type_rollingfile.c -o appender_type_rollingfile.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH="\"/etc\""    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o rollingpolicy_type_sizewin.lo rollingpolicy_type_sizewin.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rollingpolicy_type_sizewin.c  -fPIC -DPIC -o .libs/rollingpolicy_type_sizewin.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src -I../../src -DLOG4C_RCPATH=\"/etc\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c rollingpolicy_type_sizewin.c -o rollingpolicy_type_sizewin.o >/dev/null 2>&1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+make[4]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+/bin/sh ../../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -version-info 4:0:1  -o liblog4c.la -rpath /usr/lib64 rc.lo init.lo appender_type_stream.lo appender_type_stream2.lo appender_type_syslog.lo appender_type_mmap.lo layout_type_basic.lo layout_type_dated.lo layout_type_basic_r.lo layout_type_dated_r.lo version.lo logging_event.lo priority.lo appender.lo layout.lo category.lo appender_type_rollingfile.lo rollingpolicy.lo rollingpolicy_type_sizewin.lo ../sd/liblog4c_sd.la -lpthread
+x86_64-alt-linux-gcc -shared  .libs/rc.o .libs/init.o .libs/appender_type_stream.o .libs/appender_type_stream2.o .libs/appender_type_syslog.o .libs/appender_type_mmap.o .libs/layout_type_basic.o .libs/layout_type_dated.o .libs/layout_type_basic_r.o .libs/layout_type_dated_r.o .libs/version.o .libs/logging_event.o .libs/priority.o .libs/appender.o .libs/layout.o .libs/category.o .libs/appender_type_rollingfile.o .libs/rollingpolicy.o .libs/rollingpolicy_type_sizewin.o -Wl,--whole-archive ../sd/.libs/liblog4c_sd.a -Wl,--no-whole-archive  -lpthread  -Wl,-soname -Wl,liblog4c.so.3 -o .libs/liblog4c.so.3.1.0
+(cd .libs && rm -f liblog4c.so.3 && ln -s liblog4c.so.3.1.0 liblog4c.so.3)
+(cd .libs && rm -f liblog4c.so && ln -s liblog4c.so.3.1.0 liblog4c.so)
+rm -fr .libs/liblog4c.lax
+mkdir .libs/liblog4c.lax
+rm -fr .libs/liblog4c.lax/liblog4c_sd.a
+mkdir .libs/liblog4c.lax/liblog4c_sd.a
+(cd .libs/liblog4c.lax/liblog4c_sd.a && ar x /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/../sd/.libs/liblog4c_sd.a)
+ar cru .libs/liblog4c.a  rc.o init.o appender_type_stream.o appender_type_stream2.o appender_type_syslog.o appender_type_mmap.o layout_type_basic.o layout_type_dated.o layout_type_basic_r.o layout_type_dated_r.o version.o logging_event.o priority.o appender.o layout.o category.o appender_type_rollingfile.o rollingpolicy.o rollingpolicy_type_sizewin.o  .libs/liblog4c.lax/liblog4c_sd.a/domnode-xml-scanner.o .libs/liblog4c.lax/liblog4c_sd.a/domnode-xml-parser.o .libs/liblog4c.lax/liblog4c_sd.a/domnode-xml.o .libs/liblog4c.lax/liblog4c_sd.a/domnode.o .libs/liblog4c.lax/liblog4c_sd.a/error.o .libs/liblog4c.lax/liblog4c_sd.a/sd_xplatform.o .libs/liblog4c.lax/liblog4c_sd.a/test.o .libs/liblog4c.lax/liblog4c_sd.a/sprintf.o .libs/liblog4c.lax/liblog4c_sd.a/hash.o .libs/liblog4c.lax/liblog4c_sd.a/factory.o .libs/liblog4c.lax/liblog4c_sd.a/malloc.o .libs/liblog4c.lax/liblog4c_sd.a/list.o .libs/liblog4c.lax/liblog4c_sd.a/stack.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib .libs/liblog4c.a
+rm -fr .libs/liblog4c.lax
+creating liblog4c.la
+(cd .libs && rm -f liblog4c.la && ln -s ../liblog4c.la liblog4c.la)
+make[4]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/src/log4c'
+Making all in doc
+make[2]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/doc'
+/usr/bin/doxygen	
+warning: Tag 'USE_WINDOWS_ENCODING' at line 64 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DETAILS_AT_TOP' at line 156 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'SHOW_DIRECTORIES' at line 390 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'COLS_IN_ALPHA_INDEX' at line 616 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'HTML_ALIGN_MEMBERS' at line 671 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_SCHEMA' at line 903 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'XML_DTD' at line 909 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'PERL_PATH' at line 1070 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'CLASS_DIAGRAMS' at line 1083 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MAX_DOT_GRAPH_WIDTH' at line 1185 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'MAX_DOT_GRAPH_HEIGHT' at line 1193 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'DOT_TRANSPARENT' at line 1213 of file 'Doxyfile' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: argument 'a4wide' for option PAPER_TYPE is not a valid enum value
+Using the default: a4!
+Doxygen version used: 1.13.2
+Searching for include files...
+Searching for example files...
+Searching for files in directory /usr/src/RPM/BUILD/log4c-1.2.1/
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for plantuml files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c
+Searching for files in directory /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c
+Reading and parsing tag files
+Parsing files
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/doc/main.doc...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/doc/main.doc...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_mmap.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_mmap.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_mmap.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_mmap.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_rollingfile.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_rollingfile.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_rollingfile.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_rollingfile.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream2.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream2.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream2.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_stream2.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_syslog.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_syslog.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_syslog.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/appender_type_syslog.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/buffer.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/buffer.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/category.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/category.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/category.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/category.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/config-win32.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/config-win32.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/init.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/init.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/init.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/init.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic_r.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic_r.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic_r.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_basic_r.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated_r.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated_r.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated_r.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/layout_type_dated_r.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/location_info.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/location_info.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/logging_event.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/logging_event.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/logging_event.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/logging_event.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/priority.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/priority.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/priority.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/priority.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rc.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rc.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rc.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rc.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy_type_sizewin.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy_type_sizewin.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy_type_sizewin.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/rollingpolicy_type_sizewin.h...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/version.c...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/version.c...
+Preprocessing /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/version.h...
+Parsing file /usr/src/RPM/BUILD/log4c-1.2.1/src/log4c/version.h...
+Building macro definition list...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Building concept list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Associating documentation with concepts...
+Associating documentation with modules...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Warn for undocumented namespaces...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Computing module relations...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Distributing member group documentation.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Computing tooltip texts...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Parsing code for file main.doc...
+Parsing code for file appender.c...
+Generating code for file appender.h...
+Parsing code for file appender_type_mmap.c...
+Generating code for file appender_type_mmap.h...
+Parsing code for file appender_type_rollingfile.c...
+Generating code for file appender_type_rollingfile.h...
+Parsing code for file appender_type_stream.c...
+Generating code for file appender_type_stream.h...
+Parsing code for file appender_type_stream2.c...
+Generating code for file appender_type_stream2.h...
+Parsing code for file appender_type_syslog.c...
+Generating code for file appender_type_syslog.h...
+Generating code for file buffer.h...
+Parsing code for file category.c...
+Generating code for file category.h...
+Generating code for file config-win32.h...
+Parsing code for file init.c...
+Generating code for file init.h...
+Parsing code for file layout.c...
+Generating code for file layout.h...
+Parsing code for file layout_type_basic.c...
+Generating code for file layout_type_basic.h...
+Parsing code for file layout_type_basic_r.c...
+Generating code for file layout_type_basic_r.h...
+Parsing code for file layout_type_dated.c...
+Generating code for file layout_type_dated.h...
+Parsing code for file layout_type_dated_r.c...
+Generating code for file layout_type_dated_r.h...
+Generating code for file location_info.h...
+Parsing code for file logging_event.c...
+Generating code for file logging_event.h...
+Parsing code for file priority.c...
+Generating code for file priority.h...
+Parsing code for file rc.c...
+Generating code for file rc.h...
+Parsing code for file rollingpolicy.c...
+Generating code for file rollingpolicy.h...
+Parsing code for file rollingpolicy_type_sizewin.c...
+Generating code for file rollingpolicy_type_sizewin.h...
+Parsing code for file version.c...
+Generating code for file version.h...
+Generating file documentation...
+Generating docs for file appender.h...
+Generating docs for file appender_type_mmap.h...
+Generating docs for file appender_type_rollingfile.h...
+Generating docs for file appender_type_stream.h...
+Generating docs for file appender_type_stream2.h...
+Generating docs for file appender_type_syslog.h...
+Generating docs for file buffer.h...
+Generating docs for file category.h...
+Generating docs for file init.h...
+Generating docs for file layout.h...
+Generating docs for file layout_type_basic.h...
+Generating docs for file layout_type_basic_r.h...
+Generating docs for file layout_type_dated.h...
+Generating docs for file layout_type_dated_r.h...
+Generating docs for file location_info.h...
+Generating docs for file logging_event.h...
+Generating docs for file priority.h...
+Generating docs for file rc.h...
+Generating docs for file rollingpolicy.h...
+Generating docs for file rollingpolicy_type_sizewin.h...
+Generating docs for file version.h...
+Generating page documentation...
+Generating docs for page bug...
+Generating docs for page todo...
+Generating docs for page deprecated...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound log4c_appender_type...
+Generating docs for compound log4c_buffer_t...
+Generating docs for compound log4c_layout_type...
+Generating docs for compound log4c_location_info_t...
+Generating docs for compound log4c_logging_event_t...
+Generating docs for compound log4c_rc_t...
+Generating docs for compound log4c_rollingpolicy_type...
+Generating concept documentation...
+Generating module documentation...
+Generating namespace documentation...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating main page...
+Generating page index...
+Generating topic index...
+Generating module index...
+Generating module member index...
+Generating namespace index...
+Generating namespace member index...
+Generating concept index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+type lookup cache used 196/65536 hits=1296 misses=236
+symbol lookup cache used 872/65536 hits=2912 misses=872
+finished...
+make[2]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/doc'
+Making all in examples
+Making all in helloworld
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src  -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c helloworld.c
+helloworld.c: In function 'main':
+helloworld.c:6:7: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+    6 |   int rc = 0;
+      |       ^~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld'
+/bin/sh ../../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o helloworld helloworld.o ../../src/log4c/liblog4c.la -lpthread
+mkdir .libs
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/helloworld helloworld.o  ../../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+creating helloworld
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld'
+Making all in helloworld1
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld1'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../src  -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c helloworld1.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld1'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld1'
+/bin/sh ../../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o helloworld1 helloworld1.o ../../src/log4c/liblog4c.la -lpthread
+mkdir .libs
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/helloworld1 helloworld1.o  ../../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+creating helloworld1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples/helloworld1'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_1.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_2.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_3.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o userloc_formatter.lo userloc_formatter.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c userloc_formatter.c  -fPIC -DPIC -o .libs/userloc_formatter.o
+userloc_formatter.c: In function 'userloc_format':
+userloc_formatter.c:30:5: error: implicit declaration of function 'sd_debug' [-Wimplicit-function-declaration]
+   30 |     sd_debug("Formatter s13_userloc checking location info for userdata %X",a_event->evt_loc->loc_data);
+      |     ^~~~~~~~
+make[3]: *** [Makefile:340: userloc_formatter.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_formatters.lo example_formatters.c
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c  -fPIC -DPIC -o .libs/example_formatters.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c -o example_formatters.o >/dev/null 2>&1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_appenders.lo example_appenders.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c  -fPIC -DPIC -o .libs/example_appenders.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c -o example_appenders.o >/dev/null 2>&1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o application_1 application_1.o ../src/log4c/liblog4c.la -lpthread
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/application_1 application_1.o  ../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+creating application_1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[2]: *** [Makefile:355: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make: *** [Makefile:226: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+Command exited with non-zero status 1
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `log4c-1.2.1-alt1.1.qa3.src.rpm' failed.
+Command exited with non-zero status 1
+3.43user 2.66system 0:18.28elapsed 33%CPU (0avgtext+0avgdata 141676maxresident)k
+0inputs+0outputs (0major+190287minor)pagefaults 0swaps

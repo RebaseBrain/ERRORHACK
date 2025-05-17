@@ -1,0 +1,462 @@
+<86>May 10 08:51:46 userdel[31462]: delete user 'rooter'
+<86>May 10 08:51:46 userdel[31462]: removed group 'rooter' owned by 'rooter'
+<86>May 10 08:51:46 userdel[31462]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 08:51:46 groupadd[31484]: group added to /etc/group: name=rooter, GID=1859
+<86>May 10 08:51:46 groupadd[31484]: group added to /etc/gshadow: name=rooter
+<86>May 10 08:51:46 groupadd[31484]: new group: name=rooter, GID=1859
+<86>May 10 08:51:46 useradd[31500]: new user: name=rooter, UID=1859, GID=1859, home=/root, shell=/bin/bash, from=none
+<86>May 10 08:51:46 userdel[31526]: delete user 'builder'
+<86>May 10 08:51:46 userdel[31526]: removed group 'builder' owned by 'builder'
+<86>May 10 08:51:46 userdel[31526]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 08:51:46 groupadd[31550]: group added to /etc/group: name=builder, GID=1860
+<86>May 10 08:51:46 groupadd[31550]: group added to /etc/gshadow: name=builder
+<86>May 10 08:51:46 groupadd[31550]: new group: name=builder, GID=1860
+<86>May 10 08:51:46 useradd[31567]: new user: name=builder, UID=1860, GID=1860, home=/usr/src, shell=/bin/bash, from=none
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+<13>May 10 08:51:49 rpmi: rpm-macros-meson-1.8.0-alt1 sisyphus+383173.100.1.1 1746257195 installed
+<13>May 10 08:51:49 rpmi: ninja-build-1:1.12.2-alt1 sisyphus+382947.100.1.1 1746022504 installed
+<13>May 10 08:51:49 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432033 installed
+<13>May 10 08:51:49 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 08:51:49 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 08:51:49 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 08:51:49 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962878 installed
+<13>May 10 08:51:49 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:51:49 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 08:51:49 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:51:49 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:51:49 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 08:51:49 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 08:51:49 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:51:49 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 08:51:49 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 08:51:50 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:51:50 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:51:50 rpmi: python3-module-typing_extensions-4.13.2-alt1 sisyphus+381315.100.1.1 1744375640 installed
+<13>May 10 08:51:50 rpmi: meson-1.8.0-alt1 sisyphus+383173.100.1.1 1746257195 installed
+<13>May 10 08:51:50 rpmi: rpm-macros-valgrind-0.3-alt1 sisyphus+335311.100.2.1 1701252100 installed
+warning: Macro %_typelibdir not found
+warning: Macro %_typelibdir not found
+warning: Macro %_girdir not found
+warning: Macro %_girdir not found
+<13>May 10 08:51:53 rpmi: vapi-common-0.56.18-alt1 sisyphus+376659.100.1.1 1740964125 installed
+<13>May 10 08:51:53 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333695 installed
+<13>May 10 08:51:53 rpmi: sgml-common-0.6.3-alt15 sisyphus+276099.100.1.1 1624817971 installed
+<13>May 10 08:51:53 rpmi: docbook-dtds-4.5-alt1 sisyphus+276837.100.1.1 1625242123 installed
+<13>May 10 08:51:53 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740150182 installed
+<13>May 10 08:51:53 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543124 installed
+<13>May 10 08:51:54 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 10 08:51:54 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 10 08:51:54 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718975 installed
+<13>May 10 08:51:54 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078268 installed
+<13>May 10 08:51:54 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 10 08:51:54 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 10 08:51:54 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739652 installed
+<13>May 10 08:51:54 rpmi: python3-module-six-1.17.0-alt1.1 sisyphus+373470.100.1.1 1738920023 installed
+<13>May 10 08:51:54 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751808 installed
+<13>May 10 08:51:54 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259318 installed
+<13>May 10 08:51:54 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449053 installed
+<13>May 10 08:51:54 rpmi: libOpenSP-1.5.2-alt3.qa1 sisyphus+277622.100.1.1 1625720865 installed
+<13>May 10 08:51:54 rpmi: openjade-1.3.2-alt15 sisyphus+277596.100.1.1 1625712298 installed
+<13>May 10 08:51:54 rpmi: docbook-style-dsssl-1.79-alt3 sisyphus+276057.100.1.1 1624814788 installed
+<13>May 10 08:51:54 rpmi: perl-SGMLSpm-1:1.1-alt2 sisyphus+278929.100.1.1 1626280186 installed
+<13>May 10 08:51:54 rpmi: OpenSP-1.5.2-alt3.qa1 sisyphus+277622.100.1.1 1625720865 installed
+<13>May 10 08:51:54 rpmi: xsltproc-1.1.39-alt1 sisyphus+349406.100.1.1 1716751808 installed
+<13>May 10 08:51:54 rpmi: python3-module-genshi-0.7.9-alt2.1 sisyphus+376369.5100.10.1 1746628180 installed
+<13>May 10 08:51:54 rpmi: libusb-devel-1.0.27-alt1 sisyphus+347412.100.1.1 1714739652 installed
+<13>May 10 08:51:54 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078268 installed
+<13>May 10 08:51:54 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618521 installed
+<13>May 10 08:51:54 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743457 installed
+<13>May 10 08:51:54 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743457 installed
+<13>May 10 08:51:54 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749232 installed
+<13>May 10 08:51:54 rpmi: docbook-style-xsl-1.79.1-alt4 sisyphus+232871.100.1.1 1561238010 installed
+<13>May 10 08:51:56 rpmi: valgrind-3.24.0-alt2 sisyphus+376367.100.2.1 1740750803 installed
+<13>May 10 08:51:56 rpmi: valgrind-devel-3.24.0-alt2 sisyphus+376367.100.2.1 1740750803 installed
+<13>May 10 08:51:56 rpmi: libxxhash-0.8.2-alt1 sisyphus+336514.200.7.1 1702672120 installed
+<13>May 10 08:51:56 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667413000 installed
+<13>May 10 08:51:56 rpmi: rsync-3.2.7-alt3 sisyphus+372266.100.1.1 1738342244 installed
+<13>May 10 08:51:56 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745384016 installed
+<13>May 10 08:51:56 rpmi: rpm-build-vala-0.3-alt1 sisyphus+277005.100.1.2 1625345329 installed
+<13>May 10 08:51:56 rpmi: libgudev-1:238-alt1 sisyphus+324364.100.1.1 1688646145 installed
+<13>May 10 08:51:56 rpmi: usbids-20240206-alt1 sisyphus+339943.100.1.1 1707270512 installed
+<13>May 10 08:51:56 rpmi: pciids-20250508-alt1 sisyphus+383607.100.1.1 1746722444 installed
+<13>May 10 08:51:56 rpmi: hwdata-0.384-alt1 sisyphus+354460.100.1.1 1722898493 installed
+<13>May 10 08:51:56 rpmi: python3-module-webencodings-0.5.1-alt3 sisyphus+359244.100.1.1 1728381102 installed
+<13>May 10 08:51:56 rpmi: python3-module-cssselect-1.3.0-alt1 sisyphus+377617.100.1.1 1741681780 installed
+<13>May 10 08:51:56 rpmi: python3-module-html5lib-1:1.1-alt1 sisyphus+278096.120.5.1 1626086978 installed
+<13>May 10 08:51:56 rpmi: python3-module-lxml-5.4.0-alt1 sisyphus+382313.100.1.1 1745325168 installed
+<13>May 10 08:51:56 rpmi: libgirepository1.0-1.84.0-alt1 sisyphus+378180.240.2.1 1742052872 installed
+<13>May 10 08:51:57 rpmi: libffi-devel-1:3.4.7-alt1 sisyphus+375890.100.1.1 1740392018 installed
+<13>May 10 08:51:57 rpmi: python3-module-zipp-3.21.0-alt1 sisyphus+362195.100.2.1 1731487934 installed
+<13>May 10 08:51:57 rpmi: python3-module-importlib-metadata-8.6.1-alt1 sisyphus+370687.100.1.1 1737451177 installed
+<13>May 10 08:51:57 rpmi: python3-module-markdown-3.8-alt1 sisyphus+383588.100.1.1 1746690556 installed
+<13>May 10 08:51:57 rpmi: python3-module-polib-1.1.1-alt1 sisyphus+282657.100.1.1 1628954165 installed
+<13>May 10 08:51:57 rpmi: python3-module-click-8.1.8-alt1 sisyphus+366297.100.1.1 1734946237 installed
+<13>May 10 08:51:57 rpmi: python3-module-chameleon.core-4.6.0-alt2 sisyphus+379413.100.1.1 1743081237 installed
+<13>May 10 08:51:57 rpmi: python3-module-babel-1:2.17.0-alt1 sisyphus+383519.100.1.1 1746611672 installed
+<13>May 10 08:51:57 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 10 08:51:57 rpmi: python3-module-pycparser-2.22-alt1 sisyphus+378485.100.1.1 1742331206 installed
+<13>May 10 08:51:57 rpmi: python3-module-cffi-1.17.1-alt1 sisyphus+357396.100.1.1 1726156488 installed
+<13>May 10 08:51:57 rpmi: python3-module-cryptography-44.0.0-alt1 sisyphus+368451.100.1.1 1736436014 installed
+<13>May 10 08:51:57 rpmi: python3-module-beaker-1.13.0-alt1.1 sisyphus+376369.25300.10.1 1746633056 installed
+<13>May 10 08:51:57 rpmi: python3-module-wheel-0.45.1-alt2 sisyphus+376369.34000.10.1 1746635900 installed
+<13>May 10 08:51:57 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 10 08:51:57 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 10 08:51:57 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 10 08:51:57 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 10 08:51:57 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 10 08:51:57 rpmi: python3-module-jaraco.collections-5.1.0-alt1.1 sisyphus+376369.6100.10.1 1746628417 installed
+<13>May 10 08:51:57 rpmi: python3-module-pkg_resources-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 08:51:57 rpmi: python3-module-lingua-4.15.0-alt3 sisyphus+339340.100.1.1 1706573397 installed
+<13>May 10 08:51:57 rpmi: python3-module-mako-1.3.10-alt1 sisyphus+381308.100.1.1 1744374775 installed
+<13>May 10 08:51:57 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:51:57 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:51:57 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:51:58 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:51:58 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 08:51:58 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 10 08:51:58 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 08:51:58 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:51:58 rpmi: python3-module-setuptools-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 08:51:58 rpmi: gobject-introspection-1.84.0-alt1 sisyphus+378180.240.2.1 1742052872 installed
+<13>May 10 08:51:58 rpmi: gobject-introspection-x11-1.84.0-alt1 sisyphus+378180.240.2.1 1742052872 installed
+<13>May 10 08:51:59 rpmi: libduktape207-2.7.0-alt3 sisyphus+352341.100.1.1 1720324465 installed
+<13>May 10 08:51:59 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593140 installed
+<13>May 10 08:51:59 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 10 08:51:59 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684771 installed
+<13>May 10 08:51:59 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 10 08:51:59 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 10 08:51:59 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501149 installed
+<13>May 10 08:51:59 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769693 installed
+<13>May 10 08:51:59 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684806164 installed
+<13>May 10 08:51:59 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819639 installed
+<13>May 10 08:51:59 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 10 08:51:59 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729916 installed
+<86>May 10 08:51:59 groupadd[43220]: group added to /etc/group: name=_keytab, GID=999
+<86>May 10 08:51:59 groupadd[43220]: group added to /etc/gshadow: name=_keytab
+<86>May 10 08:51:59 groupadd[43220]: new group: name=_keytab, GID=999
+<13>May 10 08:51:59 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735219 installed
+<13>May 10 08:51:59 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905438 installed
+<86>May 10 08:51:59 groupadd[43319]: group added to /etc/group: name=sasl, GID=998
+<86>May 10 08:51:59 groupadd[43319]: group added to /etc/gshadow: name=sasl
+<86>May 10 08:51:59 groupadd[43319]: new group: name=sasl, GID=998
+<13>May 10 08:51:59 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482553 installed
+<13>May 10 08:51:59 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841767 installed
+<13>May 10 08:51:59 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:51:59 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:51:59 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595160 installed
+<13>May 10 08:51:59 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 10 08:51:59 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550035 installed
+<13>May 10 08:51:59 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787317 installed
+<13>May 10 08:51:59 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 08:51:59 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 10 08:51:59 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 08:51:59 rpmi: libgio-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 08:51:59 rpmi: libjson-glib-1.10.6-alt1 sisyphus+364645.100.1.1 1733849753 installed
+<13>May 10 08:51:59 rpmi: libgusb-0.4.9-alt1 sisyphus+345693.100.1.1 1713857462 installed
+<13>May 10 08:51:59 rpmi: libjson-glib-gir-1.10.6-alt1 sisyphus+364645.100.1.1 1733849753 installed
+<13>May 10 08:51:59 rpmi: libgusb-gir-0.4.9-alt1 sisyphus+345693.100.1.1 1713857462 installed
+<13>May 10 08:51:59 rpmi: libjson-glib-gir-devel-1.10.6-alt1 sisyphus+364645.100.1.1 1733849752 installed
+<13>May 10 08:51:59 rpmi: libjson-glib-devel-1.10.6-alt1 sisyphus+364645.100.1.1 1733849753 installed
+<13>May 10 08:51:59 rpmi: libgirepository1.0-devel-1.84.0-alt1 sisyphus+378180.240.2.1 1742052872 installed
+<13>May 10 08:51:59 rpmi: libproxy-0.5.9-alt1 sisyphus+360721.100.1.1 1729865347 installed
+<13>May 10 08:51:59 rpmi: glib-networking-2.80.1-alt1 sisyphus+368357.100.1.1 1736391843 installed
+<13>May 10 08:51:59 rpmi: libsoup-2.74.3-alt2 sisyphus+382648.100.1.2 1745759270 installed
+<13>May 10 08:51:59 rpmi: libsoup3.0-3.6.5-alt1 sisyphus+378825.100.1.1 1742616306 installed
+<13>May 10 08:51:59 rpmi: libsoup-devel-2.74.3-alt2 sisyphus+382648.100.1.2 1745759270 installed
+<13>May 10 08:51:59 rpmi: vala-0.56.18-alt1 sisyphus+376659.100.1.1 1740964220 installed
+<13>May 10 08:51:59 rpmi: libsoup3.0-devel-3.6.5-alt1 sisyphus+378825.100.1.1 1742616306 installed
+<13>May 10 08:51:59 rpmi: libgusb-devel-0.4.9-alt1 sisyphus+345693.100.1.1 1713857462 installed
+<13>May 10 08:51:59 rpmi: libpolkit-126-alt1 sisyphus+382342.100.3.1 1746786972 installed
+<13>May 10 08:51:59 rpmi: libpolkit-gir-126-alt1 sisyphus+382342.100.3.1 1746786972 installed
+<13>May 10 08:51:59 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745386702 installed
+<13>May 10 08:51:59 rpmi: libdeflate-1.23-alt1 sisyphus+366443.100.2.1 1735140378 installed
+<13>May 10 08:51:59 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358946 installed
+<13>May 10 08:51:59 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781690 installed
+<13>May 10 08:51:59 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 10 08:51:59 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441073 installed
+<13>May 10 08:51:59 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577440 installed
+<13>May 10 08:51:59 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342009 installed
+<13>May 10 08:51:59 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571643 installed
+<13>May 10 08:51:59 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441114 installed
+<13>May 10 08:51:59 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213209 installed
+<13>May 10 08:51:59 rpmi: libXScrnSaver-1.2.4-alt1 sisyphus+311188.500.1.1 1670233772 installed
+<13>May 10 08:51:59 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168534 installed
+<13>May 10 08:51:59 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 10 08:51:59 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485401 installed
+<13>May 10 08:52:00 rpmi: icc-profiles-1.0.1-alt1 sisyphus+276850.100.1.1 1625243888 installed
+<13>May 10 08:52:01 rpmi: argyllcms-3.3.0-alt1 sisyphus+376290.1600.24.2 1745365991 installed
+<13>May 10 08:52:01 rpmi: libpolkit-devel-126-alt1 sisyphus+382342.100.3.1 1746786972 installed
+<13>May 10 08:52:01 rpmi: libgusb-gir-devel-0.4.9-alt1 sisyphus+345693.100.1.1 1713857461 installed
+<13>May 10 08:52:01 rpmi: vala-tools-0.56.18-alt1 sisyphus+376659.100.1.1 1740964220 installed
+<13>May 10 08:52:01 rpmi: gobject-introspection-devel-1.84.0-alt1 sisyphus+378180.240.2.1 1742052872 installed
+<13>May 10 08:52:01 rpmi: libgudev-devel-1:238-alt1 sisyphus+324364.100.1.1 1688646145 installed
+<13>May 10 08:52:01 rpmi: gtk-doc-1.33.2-alt2 sisyphus+338692.200.1.1 1705978986 installed
+<13>May 10 08:52:01 rpmi: liblcms2-devel-2.17-alt1 sisyphus+376290.10700.24.2 1745384016 installed
+<13>May 10 08:52:02 rpmi: docbook5-style-xsl-1.79.2-alt2 sisyphus+249630.100.1.1 1586390333 installed
+<13>May 10 08:52:03 rpmi: valgrind-tool-devel-3.24.0-alt2 sisyphus+376367.100.2.1 1740750803 installed
+<13>May 10 08:52:03 rpmi: libdbus-devel-1.16.2-alt1 sisyphus+376383.100.1.1 1740749232 installed
+<13>May 10 08:52:03 rpmi: docbook-utils-0.6.15-alt1 sisyphus+359678.100.1.1 1728839232 installed
+<13>May 10 08:52:03 rpmi: libsystemd-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543124 installed
+<13>May 10 08:52:03 rpmi: libsqlite3-devel-3.47.1-alt1 sisyphus+375553.2600.2.1 1740150182 installed
+<13>May 10 08:52:03 rpmi: libudev-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543124 installed
+<13>May 10 08:52:03 rpmi: bash-completion-1:2.15.0-alt1 sisyphus+364981.100.1.1 1734116051 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/colord-1.4.7-alt1.1.nosrc.rpm (w1.gzdio)
+Installing colord-1.4.7-alt1.1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.58690
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf colord-1.4.7
++ echo 'Source #0 (colord-1.4.7.tar):'
+Source #0 (colord-1.4.7.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/colord-1.4.7.tar
++ cd colord-1.4.7
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #10 (colord-1.4.7-up-1452a975ecae14299fb27d41522dfd32305481ce.patch):'
+Patch #10 (colord-1.4.7-up-1452a975ecae14299fb27d41522dfd32305481ce.patch):
++ /usr/bin/patch -p1 -R
+patching file src/cd-mapping-db.c
+patching file src/cd-profile-db.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.58690
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd colord-1.4.7
++ mkdir -p i586-alt-linux
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FCFLAGS
++ /usr/bin/meson setup . i586-alt-linux -Doptimization=2 --prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --libdir=/usr/lib --localstatedir=/var --sharedstatedir=/var/lib --includedir=/usr/include --datadir=/usr/share --sysconfdir=/etc --mandir=/usr/share/man --infodir=/usr/share/info --localedir=/usr/share/locale --wrap-mode=nodownload -Dvapi=true -Ddaemon_user=colord -Dprint_profiles=true -Dinstalled_tests=true -Dlibcolordcompat=true
+The Meson build system
+Version: 1.8.0
+Source dir: /usr/src/RPM/BUILD/colord-1.4.7
+Build dir: /usr/src/RPM/BUILD/colord-1.4.7/i586-alt-linux
+Build type: native build
+Project name: colord
+Project version: 1.4.7
+C compiler for the host machine: cc (gcc 14.2.1 "i586-alt-linux-gcc (GCC) 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)")
+C linker for the host machine: cc ld.bfd 2.43.1.20241025
+Host machine cpu family: x86
+Host machine cpu: i686
+Compiler for C supports arguments -fstack-protector-strong: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Compiler for C supports arguments -Wunused: YES 
+Compiler for C supports arguments -Warray-bounds: YES 
+Compiler for C supports arguments -Wcast-align: YES 
+Compiler for C supports arguments -Wclobbered: YES 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Compiler for C supports arguments -Wempty-body: YES 
+Compiler for C supports arguments -Wextra: YES 
+meson.build:93: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Compiler for C supports arguments -Wformat-security: YES 
+Compiler for C supports arguments -Wformat-signedness: YES 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wnested-externs: YES 
+Compiler for C supports arguments -Wno-discarded-qualifiers: YES 
+Compiler for C supports arguments -Wno-cast-function-type: YES 
+Compiler for C supports arguments -Wno-deprecated-declarations: YES 
+Compiler for C supports arguments -Wno-enum-conversion: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-strict-aliasing: YES 
+Compiler for C supports arguments -Wno-suggest-attribute=format: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Woverride-init: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wreturn-type: YES 
+Compiler for C supports arguments -Wshadow: YES 
+Compiler for C supports arguments -Wsign-compare: YES 
+Compiler for C supports arguments -Wstrict-aliasing: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wswitch-default: YES 
+Compiler for C supports arguments -Wtype-limits: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Wunused-but-set-variable: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 0.29.2
+Run-time dependency gio-2.0 found: YES 2.84.1
+Run-time dependency glib-2.0 found: YES 2.84.1
+Run-time dependency gmodule-2.0 found: YES 2.84.1
+Run-time dependency gio-unix-2.0 found: YES 2.84.1
+Run-time dependency lcms2 found: YES 2.17
+Run-time dependency sqlite3 found: YES 3.47.1
+Run-time dependency gusb found: YES 0.4.9
+Run-time dependency gudev-1.0 found: YES 238
+Library m found: YES
+Run-time dependency libudev found: YES 257
+Run-time dependency udev found: YES 257
+Run-time dependency systemd found: YES 257
+Run-time dependency libsystemd found: YES 257
+Has header "pwd.h" : YES 
+Has header "syslog.h" : YES 
+Has header "unistd.h" : YES 
+Checking for function "getuid" : YES 
+Run-time dependency bash-completion found: YES 2.15.0
+Program spotread found: YES (/usr/bin/spotread)
+Program colprof found: YES (/usr/bin/colprof)
+Program vapigen found: YES (/usr/bin/vapigen)
+Run-time dependency polkit-gobject-1 found: YES 126
+Run-time dependency valgrind found: YES 3.24.0
+Configuring config.h using configuration
+Configuring cd-version.h using configuration
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Program /usr/bin/g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Program vapigen found: YES (/usr/bin/vapigen)
+Configuring colord-daemon.test using configuration
+Configuring colord-private.test using configuration
+Configuring ch-version.h using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Configuring colord-session.service using configuration
+Configuring org.freedesktop.ColorHelper.service using configuration
+Program gtkdoc-scan found: YES (/usr/bin/gtkdoc-scan)
+Program gtkdoc-scangobj found: YES (/usr/bin/gtkdoc-scangobj)
+Program gtkdoc-mkdb found: YES (/usr/bin/gtkdoc-mkdb)
+Program gtkdoc-mkhtml found: YES (/usr/bin/gtkdoc-mkhtml)
+Program gtkdoc-fixxref found: YES (/usr/bin/gtkdoc-fixxref)
+Configuring colord.service using configuration
+Configuring colord.conf using configuration
+Configuring org.freedesktop.ColorManager.service using configuration
+Configuring org.freedesktop.ColorManager.conf using configuration
+Program xsltproc found: YES (/usr/bin/xsltproc)
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in meson 2.0.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+Configuring 69-cd-sensors.rules using configuration
+Configuring org.freedesktop.color.policy.in using configuration
+Dependency gio-2.0 found: YES 2.84.1 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Build targets in project: 191
+NOTICE: Future-deprecated features used:
+ * 0.55.0: {'ExternalProgram.path'}
+ * 0.56.0: {'dependency.get_pkgconfig_variable', 'meson.build_root', 'meson.source_root'}
+
+colord 1.4.7
+
+  User defined options
+    bindir         : /usr/bin
+    daemon_user    : colord
+    datadir        : /usr/share
+    includedir     : /usr/include
+    infodir        : /usr/share/info
+    installed_tests: true
+    libcolordcompat: true
+    libdir         : /usr/lib
+    libexecdir     : /usr/libexec
+    localedir      : /usr/share/locale
+    localstatedir  : /var
+    mandir         : /usr/share/man
+    optimization   : 2
+    prefix         : /usr
+    print_profiles : true
+    sbindir        : /usr/sbin
+    sharedstatedir : /var/lib
+    sysconfdir     : /etc
+    vapi           : true
+    wrap_mode      : nodownload
+
+Found ninja-1.12.2 at /usr/bin/ninja
++ ninja-build -j16 -C i586-alt-linux
+ninja: Entering directory `i586-alt-linux'
+[1/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-buffer.c.o
+[2/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-quirk.c.o
+[3/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-interp-linear.c.o
+[4/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-interp.c.o
+[5/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-enum.c.o
+[6/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-math.c.o
+[7/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-dom.c.o
+[8/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-interp-akima.c.o
+[9/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-edid.c.o
+[10/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-context-lcms.c.o
+[11/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-color.c.o
+[12/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-store.c.o
+[13/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-utils.c.o
+[14/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-it8-utils.c.o
+[15/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o
+FAILED: lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o 
+cc -Ilib/colord/libcolordprivate.so.2.0.5.p -Ilib/colord -I../lib/colord -I. -I.. -Ilib -I../lib -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gudev-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -fstack-protector-strong -Waggregate-return -Wunused -Warray-bounds -Wcast-align -Wclobbered -Wdeclaration-after-statement -Wempty-body -Wextra -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-signedness -Wignored-qualifiers -Wimplicit-function-declaration -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-parameter-type -Wmissing-prototypes -Wnested-externs -Wno-discarded-qualifiers -Wno-cast-function-type -Wno-deprecated-declarations -Wno-enum-conversion -Wno-missing-field-initializers -Wno-strict-aliasing -Wno-suggest-attribute=format -Wno-unused-parameter -Wold-style-definition -Woverride-init -Wpointer-arith -Wreturn-type -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-prototypes -Wswitch-default -Wtype-limits -Wundef -Wuninitialized -Wunused-but-set-variable -Wwrite-strings -DCD_COMPILATION -D_XOPEN_SOURCE=700 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC -pthread '-DG_LOG_DOMAIN="libcolord"' '-DLOCALSTATEDIR="/var"' -MD -MQ lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -MF lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o.d -o lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -c ../lib/colord/cd-icc.c
+../lib/colord/cd-icc.c: In function ‘cd_icc_save_data’:
+../lib/colord/cd-icc.c:1723:32: error: passing argument 1 of ‘gmtime_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 1723 |                 if (!gmtime_r (&priv->creation_time, &creation_time)) {
+      |                                ^~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                gint64 * {aka long long int *}
+In file included from /usr/include/glib-2.0/glib/gtypes.h:41,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../lib/colord/cd-icc.c:30:
+/usr/include/time.h:154:54: note: expected ‘const time_t * restrict’ {aka ‘const long int * restrict’} but argument is of type ‘gint64 *’ {aka ‘long long int *’}
+  154 | extern struct tm *gmtime_r (const time_t *__restrict __timer,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[16/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-spectrum.c.o
+[17/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-it8.c.o
+[18/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-client-sync.c.o
+[19/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-transform.c.o
+[20/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-device-sync.c.o
+[21/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-profile-sync.c.o
+[22/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-buffer.c.o
+[23/295] Compiling C object client/cd-create-profile.p/cd-create-profile.c.o
+../client/cd-create-profile.c: In function ‘cd_util_create_named_color’:
+../client/cd-create-profile.c:336:23: warning: ‘cmsAppendNamedColor’ accessing 32 bytes in a region of size 6 [-Wstringop-overflow=]
+  336 |                 ret = cmsAppendNamedColor (nc2, cd_dom_get_node_data (name), pcs, pcs);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../client/cd-create-profile.c:336:23: note: referencing argument 4 of type ‘cmsUInt16Number[16]’
+In file included from ../client/cd-create-profile.c:27:
+/usr/include/lcms2.h:1432:37: note: in a call to function ‘cmsAppendNamedColor’
+ 1432 | CMSAPI cmsBool            CMSEXPORT cmsAppendNamedColor(cmsNAMEDCOLORLIST* v, const char* Name,
+      |                                     ^~~~~~~~~~~~~~~~~~~
+[24/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-device.c.o
+[25/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-profile.c.o
+[26/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor-sync.c.o
+[27/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-client.c.o
+[28/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor.c.o
+[29/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-color.c.o
+[30/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-context-lcms.c.o
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+Command exited with non-zero status 1
+7.97user 2.65system 0:03.92elapsed 270%CPU (0avgtext+0avgdata 43328maxresident)k
+0inputs+0outputs (0major+595578minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `colord-1.4.7-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+5.02user 3.22system 0:26.97elapsed 30%CPU (0avgtext+0avgdata 138252maxresident)k
+50968inputs+0outputs (0major+325111minor)pagefaults 0swaps

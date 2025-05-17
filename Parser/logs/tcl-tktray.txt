@@ -1,0 +1,299 @@
+<86>May 16 01:14:24 userdel[2038942]: delete user 'rooter'
+<86>May 16 01:14:24 userdel[2038942]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:14:24 userdel[2038942]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:14:24 groupadd[2038976]: group added to /etc/group: name=rooter, GID=1871
+<86>May 16 01:14:24 groupadd[2038976]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:14:24 groupadd[2038976]: new group: name=rooter, GID=1871
+<86>May 16 01:14:24 useradd[2039009]: new user: name=rooter, UID=1871, GID=1871, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:14:24 userdel[2039073]: delete user 'builder'
+<86>May 16 01:14:24 userdel[2039073]: removed group 'builder' owned by 'builder'
+<86>May 16 01:14:24 userdel[2039073]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:14:24 groupadd[2039112]: group added to /etc/group: name=builder, GID=1872
+<86>May 16 01:14:24 groupadd[2039112]: group added to /etc/gshadow: name=builder
+<86>May 16 01:14:24 groupadd[2039112]: new group: name=builder, GID=1872
+<86>May 16 01:14:24 useradd[2039153]: new user: name=builder, UID=1872, GID=1872, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/tcl-tktray-1.3.9-alt1.src.rpm: The use of such a license name is ambiguous: GPL
+warning: Macro %_tcllibdir not found
+warning: Macro %_tcldatadir not found
+<13>May 16 01:14:28 rpmi: libtcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 01:14:28 rpmi: tcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 01:14:28 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:14:28 rpmi: rpm-build-tcl-0.6.2-alt1 sisyphus+299320.100.1.1 1651401392 installed
+<13>May 16 01:14:28 rpmi: tcl-devel-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 01:14:28 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:14:28 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:14:28 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:14:28 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:14:28 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:14:28 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:14:28 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:14:28 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:14:28 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:14:28 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:14:28 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:14:28 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:14:28 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:14:28 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:14:28 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:14:28 rpmi: libtk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 01:14:28 rpmi: tk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 01:14:29 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:14:29 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:14:29 rpmi: tk-devel-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/tcl-tktray-1.3.9-alt1.nosrc.rpm (w1.gzdio)
+Installing tcl-tktray-1.3.9-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.83896
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf tcl-tktray-1.3.9
++ echo 'Source #0 (tcl-tktray-1.3.9-alt1.tar):'
+Source #0 (tcl-tktray-1.3.9-alt1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/tcl-tktray-1.3.9-alt1.tar
++ cd tcl-tktray-1.3.9
++ /bin/chmod -c -Rf u+rwX,go-w .
++ sed -i s,@lib@,lib64, pkgIndex.tcl.in
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.83896
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd tcl-tktray-1.3.9
++ aclocal
+aclocal-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
++ autoconf
+configure.in:38: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:38: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:54: TEA_PATH_TCLCONFIG is expanded from...
+configure.in:38: the top level
+configure.in:39: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:39: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+aclocal.m4:384: TEA_LOAD_TCLCONFIG is expanded from...
+configure.in:39: the top level
+configure.in:45: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:45: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:219: TEA_PATH_TKCONFIG is expanded from...
+configure.in:45: the top level
+configure.in:62: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:3029: TEA_SETUP_COMPILER is expanded from...
+configure.in:62: the top level
+configure.in:127: warning: The macro `AC_TRY_CPP' is obsolete.
+configure.in:127: You should run autoupdate.
+./lib/autoconf/general.m4:2762: AC_TRY_CPP is expanded from...
+aclocal.m4:2252: TEA_PATH_UNIX_X is expanded from...
+aclocal.m4:2246: TEA_PATH_X is expanded from...
+configure.in:127: the top level
+configure.in:135: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:135: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:814: TEA_ENABLE_THREADS is expanded from...
+configure.in:135: the top level
+configure.in:142: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:142: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:729: TEA_ENABLE_SHARED is expanded from...
+configure.in:142: the top level
+configure.in:150: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+aclocal.m4:2493: TEA_TCL_EARLY_FLAG is expanded from...
+aclocal.m4:2506: TEA_TCL_EARLY_FLAGS is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+aclocal.m4:2540: TEA_TCL_64BIT_FLAGS is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:150: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:2540: TEA_TCL_64BIT_FLAGS is expanded from...
+aclocal.m4:1115: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:150: the top level
+configure.in:156: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:156: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:934: TEA_ENABLE_SYMBOLS is expanded from...
+configure.in:156: the top level
+configure.in:193: warning: AC_OUTPUT should be used without arguments.
+configure.in:193: You should run autoupdate.
+configure.in:193: warning: AC_C_BIGENDIAN should be used with AC_CONFIG_HEADERS
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
+checking TEA configuration... ok (TEA 3.13)
+configure: configuring tktray 1.3.9
+checking system version... Linux-6.12.24-6.12-alt1
+checking for Tcl configuration... found /usr/lib64/tclConfig.sh
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for existence of /usr/lib64/tclConfig.sh... loading
+checking platform... unix
+checking for Tk configuration... found /usr/lib64/tkConfig.sh
+checking for existence of /usr/lib64/tkConfig.sh... loading
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking whether make sets $(MAKE)... yes
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking if the compiler understands -pipe... yes
+checking whether byte ordering is bigendian... no
+checking for Tcl public headers... /usr/include
+checking for Tk public headers... /usr/include
+checking for Tcl private include files... Using srcdir found in tclConfig.sh: /usr/include/tcl
+checking for Tk private include files... Using srcdir found in tkConfig.sh: /usr/include/tk
+checking for X... libraries , headers 
+checking for pthread_mutex_init in -lpthread... yes
+checking for building with threads... yes (default)
+checking how to build libraries... shared
+checking for x86_64-alt-linux-ranlib... ranlib
+checking if 64bit support is requested... no
+checking if 64bit Sparc VIS support is requested... no
+checking if compiler supports visibility "hidden"... yes
+checking if rpath support is requested... yes
+checking system version... (cached) Linux-6.12.24-6.12-alt1
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for cast to union support... yes
+checking for required early compiler flags...  _LARGEFILE64_SOURCE
+checking for 64-bit integer type... using long
+checking for build with symbols... no
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for tclsh... /usr/bin/tclsh8.6
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pkgIndex.tcl
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/tcl-tktray-1.3.9'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"tktray\" -DPACKAGE_TARNAME=\"tktray\" -DPACKAGE_VERSION=\"1.3.9\" -DPACKAGE_STRING=\"tktray\ 1.3.9\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DBUILD_tktray=/\*\*/ -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DMAD_TK_PACKAGER=0 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DUSE_TCL_STUBS=1 -DUSE_TCLOO_STUBS=1 -DUSE_TK_STUBS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DHAVE_CAST_TO_UNION=1 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_TK_STUBS=1 -DBUILD_tktray  -I"/usr/include/tcl/generic" -I"/usr/include/tcl/unix" -I"/usr/include/tk/generic" -I"/usr/include/tk/unix"     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pipe -O2 -fomit-frame-pointer -DNDEBUG -Wall -fPIC  -c `echo tktray.c` -o tktray.o
+<command-line>: warning: "BUILD_tktray" redefined
+<command-line>: note: this is the location of the previous definition
+tktray.c: In function 'TKU_WmWithdraw':
+tktray.c:74:5: error: implicit declaration of function 'TkpWmSetState' [-Wimplicit-function-declaration]
+   74 |     TkpWmSetState((TkWindow*)winPtr, WithdrawnState);
+      |     ^~~~~~~~~~~~~
+make: *** [Makefile:288: tktray.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-tktray-1.3.9'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83896 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.83896 (%build)
+Command exited with non-zero status 1
+0.93user 1.03system 0:01.81elapsed 108%CPU (0avgtext+0avgdata 33088maxresident)k
+0inputs+0outputs (0major+205437minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tcl-tktray-1.3.9-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.34user 2.53system 0:11.38elapsed 51%CPU (0avgtext+0avgdata 140992maxresident)k
+5664inputs+0outputs (0major+197867minor)pagefaults 0swaps

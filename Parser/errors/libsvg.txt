@@ -1,0 +1,875 @@
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse nm output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for strip... strip
+checking if x86_64-alt-linux-gcc static flag  works... yes
+checking if x86_64-alt-linux-gcc static flag  works... yes
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether to build static libraries... no
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by x86_64-alt-linux-g++... /usr/bin/ld -m elf_x86_64
+checking for ld used by x86_64-alt-linux-g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for x86_64-alt-linux-g++ option to produce PIC... -fPIC
+checking if x86_64-alt-linux-g++ PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-g++ supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+appending configuration tag "F77" to libtool
+checking for ANSI C header files... (cached) no
+checking whether libexpat is requested... no
+checking for pkg-config... /usr/bin/pkg-config
+checking for libxml-2.0 >= 2.4.7 ... yes
+checking LIBSVG_CFLAGS... -I/usr/include/libxml2
+checking LIBSVG_LIBS... -lxml2
++ make -j16
+make  all-recursive
+Making all in .
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_group.lo svg_group.c
+mkdir .libs
+mkdir: cannot create directory '.libs': File exists
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_group.c  -fPIC -DPIC -o .libs/svg_group.o
+svg_group.c: In function '_svg_group_deinit':
+svg_group.c:86:5: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   86 |     free (group->element);
+      |     ^~~~
+svg_group.c:24:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+   23 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+   24 | 
+   24 | 
+svg_group.c:86:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_group.c:86:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+   86 |     free (group->element);
+   86 |     free (group->element);
+      |     ^~~~
+      |     ^~~~
+svg_group.c:86:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_group.c:86:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_group.c: In function '_svg_group_apply_svg_attributes':
+svg_group.c:150:21: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+svg_group.c:150:21: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  150 |     svgint_status_t status;
+  150 |     svgint_status_t status;
+      |                     ^~~~~~
+      |                     ^~~~~~
+svg_group.c: In function '_svg_group_grow_element_by':
+svg_group.c: In function '_svg_group_grow_element_by':
+svg_group.c:253:19: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_group.c:253:19: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  253 |     new_element = realloc (group->element,
+  253 |     new_element = realloc (group->element,
+      |                   ^~~~~~~
+      |                   ^~~~~~~
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_group.c:253:19: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_group.c:253:19: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_group.c:253:19: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_group.c:253:19: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+make[2]: *** [Makefile:344: svg_group.lo] Error 1
+make[2]: *** [Makefile:344: svg_group.lo] Error 1
+make[2]: *** [Makefile:344: svg_group.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_str.lo svg_str.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_str.lo svg_str.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_str.lo svg_str.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_str.c  -fPIC -DPIC -o .libs/svg_str.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_str.c  -fPIC -DPIC -o .libs/svg_str.o
+svg_str.c: In function '_svg_str_parse_all_csv_doubles':
+svg_str.c: In function '_svg_str_parse_all_csv_doubles':
+svg_str.c:95:22: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_str.c:95:22: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+   95 |             *value = realloc(*value, size * sizeof(double));
+   95 |             *value = realloc(*value, size * sizeof(double));
+   95 |             *value = realloc(*value, size * sizeof(double));
+      |                      ^~~~~~~
+      |                      ^~~~~~~
+      |                      ^~~~~~~
+svg_str.c:24:1: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_str.c:24:1: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_str.c:24:1: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+   23 | #include "svgint.h"
+   23 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   24 | 
+   24 | 
+svg_str.c:95:22: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_str.c:95:22: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_str.c:95:22: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+   95 |             *value = realloc(*value, size * sizeof(double));
+   95 |             *value = realloc(*value, size * sizeof(double));
+   95 |             *value = realloc(*value, size * sizeof(double));
+      |                      ^~~~~~~
+      |                      ^~~~~~~
+      |                      ^~~~~~~
+svg_str.c:95:22: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_str.c:95:22: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_str.c:95:22: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+make[2]: *** [Makefile:344: svg_str.lo] Error 1
+make[2]: *** [Makefile:344: svg_str.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_gradient.lo svg_gradient.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_gradient.lo svg_gradient.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_gradient.c  -fPIC -DPIC -o .libs/svg_gradient.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_gradient.c  -fPIC -DPIC -o .libs/svg_gradient.o
+svg_gradient.c: In function '_svg_gradient_init_copy':
+svg_gradient.c: In function '_svg_gradient_init_copy':
+svg_gradient.c:56:23: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_gradient.c:56:23: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   56 |     gradient->stops = malloc (gradient->stops_size * sizeof (svg_gradient_stop_t));
+   56 |     gradient->stops = malloc (gradient->stops_size * sizeof (svg_gradient_stop_t));
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       ^~~~~~
+svg_gradient.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_gradient.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_gradient.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   25 | #include <string.h>
+   25 | #include <string.h>
+   25 | #include <string.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   26 | 
+   26 | 
+svg_gradient.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   56 |     gradient->stops = malloc (gradient->stops_size * sizeof (svg_gradient_stop_t));
+   56 |     gradient->stops = malloc (gradient->stops_size * sizeof (svg_gradient_stop_t));
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       ^~~~~~
+svg_gradient.c:56:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_gradient.c:56:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_gradient.c:56:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_gradient.c: In function '_svg_gradient_deinit':
+svg_gradient.c: In function '_svg_gradient_deinit':
+svg_gradient.c:68:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+svg_gradient.c:68:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   68 |         free (gradient->stops);
+   68 |         free (gradient->stops);
+      |         ^~~~
+      |         ^~~~
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c:68:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:68:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:68:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c:68:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_gradient.c: In function '_svg_gradient_add_stop':
+svg_gradient.c: In function '_svg_gradient_add_stop':
+svg_gradient.c: In function '_svg_gradient_add_stop':
+svg_gradient.c:115:21: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_gradient.c:115:21: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_gradient.c:115:21: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  115 |         new_stops = realloc (gradient->stops,
+  115 |         new_stops = realloc (gradient->stops,
+  115 |         new_stops = realloc (gradient->stops,
+      |                     ^~~~~~~
+      |                     ^~~~~~~
+      |                     ^~~~~~~
+      |                     ^~~~~~~
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:115:21: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:115:21: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_gradient.c:115:21: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+make[2]: *** [Makefile:344: svg_gradient.lo] Error 1
+make[2]: *** [Makefile:344: svg_gradient.lo] Error 1
+make[2]: *** [Makefile:344: svg_gradient.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_paint.lo svg_paint.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_paint.lo svg_paint.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_paint.lo svg_paint.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_paint.c  -fPIC -DPIC -o .libs/svg_paint.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_paint.c  -fPIC -DPIC -o .libs/svg_paint.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_paint.c  -fPIC -DPIC -o .libs/svg_paint.o
+svg_paint.c: In function '_svg_paint_init':
+svg_paint.c: In function '_svg_paint_init':
+svg_paint.c:42:31: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_paint.c:42:31: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   42 |         char            *id = malloc (length+1);
+   42 |         char            *id = malloc (length+1);
+   42 |         char            *id = malloc (length+1);
+      |                               ^~~~~~
+      |                               ^~~~~~
+      |                               ^~~~~~
+svg_paint.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_paint.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_paint.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   25 | #include "svgint.h"
+   25 | #include "svgint.h"
+   25 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   26 | 
+   26 | 
+svg_paint.c:42:31: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_paint.c:42:31: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_paint.c:42:31: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   42 |         char            *id = malloc (length+1);
+   42 |         char            *id = malloc (length+1);
+   42 |         char            *id = malloc (length+1);
+      |                               ^~~~~~
+      |                               ^~~~~~
+      |                               ^~~~~~
+svg_paint.c:42:31: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_paint.c:42:31: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_paint.c:42:31: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_paint.c:50:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+svg_paint.c:50:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   50 |         free (id);
+   50 |         free (id);
+      |         ^~~~
+      |         ^~~~
+svg_paint.c:50:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_paint.c:50:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_paint.c:50:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_paint.c:50:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_paint.c:50:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_paint.c:50:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_paint.c:50:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_paint.c:50:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+make[2]: *** [Makefile:344: svg_paint.lo] Error 1
+make[2]: *** [Makefile:344: svg_paint.lo] Error 1
+make[2]: *** [Makefile:344: svg_paint.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_element.lo svg_element.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_element.lo svg_element.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_element.lo svg_element.c
+mkdir .libs
+mkdir .libs
+mkdir .libs
+mkdir: cannot create directory '.libs': File exists
+mkdir: cannot create directory '.libs': File exists
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_element.c  -fPIC -DPIC -o .libs/svg_element.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_element.c  -fPIC -DPIC -o .libs/svg_element.o
+svg_element.c: In function '_svg_element_create':
+svg_element.c: In function '_svg_element_create':
+svg_element.c:33:16: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_element.c:33:16: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   33 |     *element = malloc( sizeof (svg_element_t));
+   33 |     *element = malloc( sizeof (svg_element_t));
+      |                ^~~~~~
+      |                ^~~~~~
+      |                ^~~~~~
+svg_element.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_element.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   25 | #include "svgint.h"
+   25 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   26 | 
+   26 | 
+svg_element.c:33:16: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_element.c:33:16: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   33 |     *element = malloc( sizeof (svg_element_t));
+   33 |     *element = malloc( sizeof (svg_element_t));
+      |                ^~~~~~
+      |                ^~~~~~
+svg_element.c:33:16: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_element.c:33:16: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_element.c: In function '_svg_element_deinit':
+svg_element.c:180:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  180 |         free (element->id);
+      |         ^~~~
+svg_element.c:180:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_element.c:180:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_element.c:180:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_element.c: In function '_svg_element_clone':
+svg_element.c:227:16: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  227 |     *element = malloc( sizeof (svg_element_t));
+      |                ^~~~~~
+svg_element.c:227:16: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_element.c:227:16: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_element.c: In function '_svg_element_destroy':
+svg_element.c:241:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  241 |     free (element);
+      |     ^~~~
+svg_element.c:241:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_element.c: In function '_svg_element_parse_aspect_ratio':
+svg_element.c: In function '_svg_element_parse_aspect_ratio':
+svg_element.c:387:25: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+svg_element.c:387:25: warning: variable 'end' set but not used [-Wunused-but-set-variable]
+  387 |     const char *start, *end;
+  387 |     const char *start, *end;
+      |                         ^~~
+      |                         ^~~
+make[2]: *** [Makefile:344: svg_element.lo] Error 1
+make[2]: *** [Makefile:344: svg_element.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_text.lo svg_text.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_text.lo svg_text.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_text.c  -fPIC -DPIC -o .libs/svg_text.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_text.c  -fPIC -DPIC -o .libs/svg_text.o
+svg_text.c: In function '_svg_text_init_copy':
+svg_text.c: In function '_svg_text_init_copy':
+svg_text.c:47:23: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_text.c:47:23: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   47 |         text->chars = malloc (text->len + 1);
+   47 |         text->chars = malloc (text->len + 1);
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       ^~~~~~
+svg_text.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_text.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_text.c:26:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   25 | #include "svgint.h"
+   25 | #include "svgint.h"
+   25 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   26 | 
+   26 | 
+svg_text.c:47:23: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_text.c:47:23: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   47 |         text->chars = malloc (text->len + 1);
+   47 |         text->chars = malloc (text->len + 1);
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       ^~~~~~
+svg_text.c:47:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_text.c:47:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_text.c:47:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_text.c: In function '_svg_text_deinit':
+svg_text.c: In function '_svg_text_deinit':
+svg_text.c:62:5: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+svg_text.c:62:5: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   62 |     free (text->chars);
+   62 |     free (text->chars);
+      |     ^~~~
+      |     ^~~~
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c:62:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_text.c:62:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_text.c:62:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c:62:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_text.c: In function '_svg_text_append_chars':
+svg_text.c: In function '_svg_text_append_chars':
+svg_text.c: In function '_svg_text_append_chars':
+svg_text.c:77:17: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_text.c:77:17: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+svg_text.c:77:17: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+   77 |     new_chars = realloc (text->chars, text->len + 1);
+   77 |     new_chars = realloc (text->chars, text->len + 1);
+   77 |     new_chars = realloc (text->chars, text->len + 1);
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+svg_text.c:77:17: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_text.c:77:17: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_text.c:77:17: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_text.c:77:17: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_text.c:77:17: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_text.c:77:17: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_text.c:77:17: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+make[2]: *** [Makefile:344: svg_text.lo] Error 1
+make[2]: *** [Makefile:344: svg_text.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_attribute.lo svg_attribute.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_attribute.lo svg_attribute.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_attribute.c  -fPIC -DPIC -o .libs/svg_attribute.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_attribute.c  -fPIC -DPIC -o .libs/svg_attribute.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_attribute.c  -fPIC -DPIC -o .libs/svg_attribute.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_parser.lo svg_parser.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_parser.lo svg_parser.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_parser.c  -fPIC -DPIC -o .libs/svg_parser.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_parser.c  -fPIC -DPIC -o .libs/svg_parser.o
+svg_parser.c: In function '_svg_parser_sax_start_element':
+svg_parser.c: In function '_svg_parser_sax_start_element':
+svg_parser.c:215:28: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+svg_parser.c:215:28: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+  215 |         if (parser->status == SVGINT_STATUS_UNKNOWN_ELEMENT)
+      |                            ^~
+svg_parser.c: In function '_svg_parser_sax_characters':
+svg_parser.c:263:15: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  263 |     ch_copy = malloc (len);
+  263 |     ch_copy = malloc (len);
+      |               ^~~~~~
+      |               ^~~~~~
+svg_parser.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_parser.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   29 | #include "svgint.h"
+   29 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   30 | 
+   30 | 
+svg_parser.c:263:15: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_parser.c:263:15: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  263 |     ch_copy = malloc (len);
+  263 |     ch_copy = malloc (len);
+      |               ^~~~~~
+      |               ^~~~~~
+svg_parser.c:263:15: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_parser.c:263:15: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_parser.c:290:5: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  290 |     free (ch_copy);
+      |     ^~~~
+svg_parser.c:290:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_parser.c:290:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_parser.c:290:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_parser.c: In function '_svg_parser_push_state':
+svg_parser.c:302:13: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  302 |     state = malloc (sizeof (svg_parser_state_t));
+      |             ^~~~~~
+svg_parser.c:302:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+      |     ^~~~
+svg_parser.c:331:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_parser.c: In function '_svg_parser_parse_gradient_stop':
+svg_parser.c:735:85: warning: comparison between 'svgint_status_t' {aka 'enum svgint_status'} and 'enum svg_status' [-Wenum-compare]
+  735 |     if (_svg_attribute_get_string (attributes, "stop-color", &color_str, "#000000") == SVG_STATUS_SUCCESS)
+      |                                                                                     ^~
+svg_parser.c: In function '_svg_parser_parse_pattern':
+svg_parser.c:755:18: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  755 |     svg_status_t status;
+      |                  ^~~~~~
+make[2]: *** [Makefile:344: svg_parser.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_length.lo svg_length.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_length.lo svg_length.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_length.c  -fPIC -DPIC -o .libs/svg_length.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_length.c  -fPIC -DPIC -o .libs/svg_length.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg.lo svg.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg.lo svg.c
+mkdir .libs
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg.c  -fPIC -DPIC -o .libs/svg.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg.c  -fPIC -DPIC -o .libs/svg.o
+svg.c: In function 'svg_create':
+svg.c: In function 'svg_create':
+svg.c:39:12: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   39 |     *svg = malloc (sizeof (svg_t));
+      |            ^~~~~~
+      |            ^~~~~~
+svg.c:32:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg.c:32:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   31 | #include "svgint.h"
+   31 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   32 | 
+   32 | 
+svg.c:39:12: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg.c:39:12: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   39 |     *svg = malloc (sizeof (svg_t));
+   39 |     *svg = malloc (sizeof (svg_t));
+      |            ^~~~~~
+      |            ^~~~~~
+svg.c:39:12: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg.c:39:12: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg.c: In function '_svg_deinit':
+svg.c:68:5: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   68 |     free (svg->dir_name);
+      |     ^~~~
+svg.c:68:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg.c:68:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg.c:68:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg.c: In function 'svg_destroy':
+svg.c:88:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+   88 |     free (svg);
+      |     ^~~~
+svg.c:88:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg.c: In function 'svg_render':
+svg.c:219:5: warning: ignoring return value of 'getcwd' declared with attribute 'warn_unused_result' [-Wunused-result]
+  219 |     getcwd (orig_dir, MAXPATHLEN);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+svg.c:220:5: warning: ignoring return value of 'chdir' declared with attribute 'warn_unused_result' [-Wunused-result]
+  220 |     chdir (svg->dir_name);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+svg.c:224:5: warning: ignoring return value of 'chdir' declared with attribute 'warn_unused_result' [-Wunused-result]
+  224 |     chdir (orig_dir);
+      |     ^~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:344: svg.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_pattern.lo svg_pattern.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_pattern.c  -fPIC -DPIC -o .libs/svg_pattern.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_pattern.c  -fPIC -DPIC -o .libs/svg_pattern.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_ascii.lo svg_ascii.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_ascii.lo svg_ascii.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_ascii.c  -fPIC -DPIC -o .libs/svg_ascii.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_ascii.c  -fPIC -DPIC -o .libs/svg_ascii.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_image.lo svg_image.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_image.c  -fPIC -DPIC -o .libs/svg_image.o
+svg_image.c: In function '_svg_image_deinit':
+svg_image.c:78:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   78 |         free (image->url);
+      |         ^~~~
+svg_image.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'free'
+   29 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+   30 | 
+   30 | 
+svg_image.c:78:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_image.c:78:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+   78 |         free (image->url);
+   78 |         free (image->url);
+      |         ^~~~
+      |         ^~~~
+svg_image.c:78:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_image.c:78:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_image.c:83:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+   83 |         free (image->data);
+      |         ^~~~
+svg_image.c:83:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_image.c: In function '_svg_image_read_png':
+svg_image.c:302:13: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  302 |     *data = malloc (png_width * png_height * pixel_size);
+      |             ^~~~~~
+svg_image.c:302:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_image.c:302:13: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_image.c:302:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_image.c:302:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_image.c:315:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_image.c:315:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  315 |     free (row_pointers);
+  315 |     free (row_pointers);
+      |     ^~~~
+      |     ^~~~
+svg_image.c:315:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_image.c:315:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_image.c: In function '_svg_image_read_jpeg':
+svg_image.c: In function '_svg_image_read_jpeg':
+svg_image.c:386:13: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_image.c:386:13: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  386 |     *data = malloc (cinfo.output_width * cinfo.output_height * 4);
+  386 |     *data = malloc (cinfo.output_width * cinfo.output_height * 4);
+      |             ^~~~~~
+      |             ^~~~~~
+svg_image.c:386:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_image.c:386:13: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+make[2]: *** [Makefile:344: svg_image.lo] Error 1
+make[2]: *** [Makefile:344: svg_image.lo] Error 1
+make[2]: *** [Makefile:344: svg_image.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_color.lo svg_color.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_color.lo svg_color.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_color.lo svg_color.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_color.lo svg_color.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_color.c  -fPIC -DPIC -o .libs/svg_color.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_color.c  -fPIC -DPIC -o .libs/svg_color.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_color.c  -fPIC -DPIC -o .libs/svg_color.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_color.c  -fPIC -DPIC -o .libs/svg_color.o
+svg_color.c: In function '_svg_color_init_from_str':
+svg_color.c: In function '_svg_color_init_from_str':
+svg_color.c: In function '_svg_color_init_from_str':
+svg_color.c: In function '_svg_color_init_from_str':
+svg_color.c:345:11: error: implicit declaration of function 'bsearch' [-Wimplicit-function-declaration]
+svg_color.c:345:11: error: implicit declaration of function 'bsearch' [-Wimplicit-function-declaration]
+svg_color.c:345:11: error: implicit declaration of function 'bsearch' [-Wimplicit-function-declaration]
+svg_color.c:345:11: error: implicit declaration of function 'bsearch' [-Wimplicit-function-declaration]
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+      |           ^~~~~~~
+      |           ^~~~~~~
+      |           ^~~~~~~
+      |           ^~~~~~~
+svg_color.c:345:11: warning: nested extern declaration of 'bsearch' [-Wnested-externs]
+svg_color.c:345:11: warning: nested extern declaration of 'bsearch' [-Wnested-externs]
+svg_color.c:345:11: warning: nested extern declaration of 'bsearch' [-Wnested-externs]
+svg_color.c:345:11: warning: nested extern declaration of 'bsearch' [-Wnested-externs]
+svg_color.c:345:11: warning: nested extern declaration of 'bsearch' [-Wnested-externs]
+svg_color.c:345:9: error: assignment to 'svg_color_map_t *' {aka 'struct svg_color_map *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+svg_color.c:345:9: error: assignment to 'svg_color_map_t *' {aka 'struct svg_color_map *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+svg_color.c:345:9: error: assignment to 'svg_color_map_t *' {aka 'struct svg_color_map *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+svg_color.c:345:9: error: assignment to 'svg_color_map_t *' {aka 'struct svg_color_map *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+svg_color.c:345:9: error: assignment to 'svg_color_map_t *' {aka 'struct svg_color_map *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+  345 |     map = bsearch (str, SVG_COLOR_MAP,
+      |         ^
+      |         ^
+      |         ^
+      |         ^
+make[2]: *** [Makefile:344: svg_color.lo] Error 1
+make[2]: *** [Makefile:344: svg_color.lo] Error 1
+make[2]: *** [Makefile:344: svg_color.lo] Error 1
+make[2]: *** [Makefile:344: svg_color.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_style.lo svg_style.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_style.lo svg_style.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_style.lo svg_style.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_style.lo svg_style.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_style.c  -fPIC -DPIC -o .libs/svg_style.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_style.c  -fPIC -DPIC -o .libs/svg_style.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_style.c  -fPIC -DPIC -o .libs/svg_style.o
+svg_style.c: In function '_svg_style_init_copy':
+svg_style.c: In function '_svg_style_init_copy':
+svg_style.c: In function '_svg_style_init_copy':
+svg_style.c:217:36: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_style.c:217:36: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+svg_style.c:217:36: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  217 |         style->stroke_dash_array = malloc (style->num_dashes * sizeof (double));
+  217 |         style->stroke_dash_array = malloc (style->num_dashes * sizeof (double));
+  217 |         style->stroke_dash_array = malloc (style->num_dashes * sizeof (double));
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+svg_style.c:27:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_style.c:27:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_style.c:27:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   26 | #include "svgint.h"
+   26 | #include "svgint.h"
+   26 | #include "svgint.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   27 | 
+   27 | 
+svg_style.c:217:36: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+svg_style.c:217:36: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  217 |         style->stroke_dash_array = malloc (style->num_dashes * sizeof (double));
+  217 |         style->stroke_dash_array = malloc (style->num_dashes * sizeof (double));
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+svg_style.c:217:36: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_style.c:217:36: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_style.c: In function '_svg_style_deinit':
+svg_style.c:266:9: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  266 |         free (style->font_family);
+      |         ^~~~
+svg_style.c:266:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c:266:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+svg_style.c:266:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c:270:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  270 |         free (style->stroke_dash_array);
+      |         ^~~~
+svg_style.c:270:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c: In function '_svg_style_parse_font_family':
+svg_style.c: In function '_svg_style_parse_font_family':
+svg_style.c:362:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  362 |     free (style->font_family);
+      |     ^~~~
+svg_style.c:362:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c: In function '_svg_style_parse_stroke_dash_array':
+svg_style.c:449:5: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  449 |     free (style->stroke_dash_array);
+      |     ^~~~
+svg_style.c:449:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c:464:26: error: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  464 |         new_dash_array = realloc(style->stroke_dash_array, style->num_dashes * sizeof(double));
+      |                          ^~~~~~~
+svg_style.c:464:26: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_style.c:464:26: warning: incompatible implicit declaration of built-in function 'realloc' [-Wbuiltin-declaration-mismatch]
+svg_style.c:464:26: note: include '<stdlib.h>' or provide a declaration of 'realloc'
+svg_style.c: In function '_svg_style_parse_stop_opacity':
+svg_style.c:658:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  658 |     if (status)
+      |     ^~
+svg_style.c:661:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+svg_style.c:724:5: note: include '<stdlib.h>' or provide a declaration of 'free'
+svg_style.c: In function '_svg_style_parse_style_str':
+svg_style.c:754:19: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  754 |         nv_pair = malloc (1 + end - start);
+      |                   ^~~~~~
+svg_style.c:754:19: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+svg_style.c:760:9: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+  760 |         free (nv_pair);
+      |         ^~~~
+svg_style.c:760:9: note: include '<stdlib.h>' or provide a declaration of 'free'
+make[2]: *** [Makefile:344: svg_style.lo] Error 1
+make[2]: *** [Makefile:344: svg_style.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_path.lo svg_path.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_path.lo svg_path.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_path.lo svg_path.c
+/bin/sh ../libtool --mode=compile --tag=CC x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes 	-Wmissing-prototypes -Wmissing-declarations 	-Wnested-externs -fno-strict-aliasing    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o svg_path.lo svg_path.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_path.c  -fPIC -DPIC -o .libs/svg_path.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_path.c  -fPIC -DPIC -o .libs/svg_path.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_path.c  -fPIC -DPIC -o .libs/svg_path.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/libxml2 -Wall -Wpointer-arith -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -fno-strict-aliasing -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c svg_path.c  -fPIC -DPIC -o .libs/svg_path.o
+svg_path.c: In function '_svg_path_add_from_str':
+svg_path.c: In function '_svg_path_add_from_str':
+svg_path.c: In function '_svg_path_add_from_str':
+svg_path.c: In function '_svg_path_add_from_str':
+svg_path.c:410:24: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+svg_path.c:410:24: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+svg_path.c:410:24: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+svg_path.c:410:24: warning: comparison between 'svg_status_t' {aka 'enum svg_status'} and 'enum svgint_status' [-Wenum-compare]
+  410 |             if (status == SVGINT_STATUS_ARGS_EXHAUSTED)
+  410 |             if (status == SVGINT_STATUS_ARGS_EXHAUSTED)
+  410 |             if (status == SVGINT_STATUS_ARGS_EXHAUSTED)
+  410 |             if (status == SVGINT_STATUS_ARGS_EXHAUSTED)
+      |                        ^~
+      |                        ^~
+      |                        ^~
+      |                        ^~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsvg-0.1.4/src'
+make[1]: *** [Makefile:304: all-recursive] Error 1
+make[1]: *** [Makefile:304: all-recursive] Error 1
+make[1]: *** [Makefile:304: all-recursive] Error 1
+make[1]: *** [Makefile:304: all-recursive] Error 1
+make: *** [Makefile:212: all] Error 2
+make: *** [Makefile:212: all] Error 2
+make: *** [Makefile:212: all] Error 2
+make: *** [Makefile:212: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    ignored self-provides: libsvg-devel = 0.1.4
+    ignored self-provides: libsvg-devel = 0.1.4
+    ignored self-provides: libsvg-devel = 0.1.4
+    ignored self-provides: libsvg-devel = 0.1.4
+    Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.29089 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.19user 3.15system 0:03.98elapsed 134%CPU (0avgtext+0avgdata 27568maxresident)k
+2.19user 3.15system 0:03.98elapsed 134%CPU (0avgtext+0avgdata 27568maxresident)k
+2.19user 3.15system 0:03.98elapsed 134%CPU (0avgtext+0avgdata 27568maxresident)k
+2.19user 3.15system 0:03.98elapsed 134%CPU (0avgtext+0avgdata 27568maxresident)k
+0inputs+0outputs (0major+707770minor)pagefaults 0swaps
+0inputs+0outputs (0major+707770minor)pagefaults 0swaps
+0inputs+0outputs (0major+707770minor)pagefaults 0swaps
+0inputs+0outputs (0major+707770minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libsvg-0.1.4-alt2_24.src.rpm' failed.
+hsh-rebuild: rebuild of `libsvg-0.1.4-alt2_24.src.rpm' failed.
+hsh-rebuild: rebuild of `libsvg-0.1.4-alt2_24.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.94user 2.59system 0:13.58elapsed 48%CPU (0avgtext+0avgdata 142808maxresident)k
+0inputs+0outputs (0major+191449minor)pagefaults 0swaps

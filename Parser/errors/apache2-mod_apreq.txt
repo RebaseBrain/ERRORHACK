@@ -1,0 +1,203 @@
+In file included from Request.xs:39:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h: In function 'apreq_xs_find_obj':
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h:97:30: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   97 |             Perl_croak(aTHX_ "attribute hash has no '%s' key!", key);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                                                                 |
+      |                                                                 |
+      |                                                                 int
+      |                                                                 int
+In file included from /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/APR__Request.h:1,
+In file included from /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/APR__Request.h:1,
+                 from Request.xs:45:
+                 from Request.xs:45:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h: At top level:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h: At top level:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+   70 |                                 apreq_xs_cookie_table_magic_copy};
+   70 |                                 apreq_xs_cookie_table_magic_copy};
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: note: (near initialization for 'apreq_xs_cookie_table_magic.svt_copy')
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: note: (near initialization for 'apreq_xs_cookie_table_magic.svt_copy')
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+  179 |                                  apreq_xs_param_table_magic_copy};
+  179 |                                  apreq_xs_param_table_magic_copy};
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: note: (near initialization for 'apreq_xs_param_table_magic.svt_copy')
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: note: (near initialization for 'apreq_xs_param_table_magic.svt_copy')
+Request.xs: In function 'XS_APR__Request_upload_hook':
+Request.xs: In function 'XS_APR__Request_upload_hook':
+Request.xs:282:5: warning: argument 4 null where non-null expected [-Wnonnull]
+Request.xs:282:5: warning: argument 4 null where non-null expected [-Wnonnull]
+  282 |     apr_pool_cleanup_register(req->pool, ctx, upload_hook_cleanup, NULL);
+  282 |     apr_pool_cleanup_register(req->pool, ctx, upload_hook_cleanup, NULL);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/apr-1/apr_file_io.h:26,
+                 from /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_util.h:21,
+                 from Request.xs:13:
+      |                                         ^
+Request.c: In function 'XS_APR__Request__Cookie__Table_cookie_class':
+Request.c:817:37: warning: format '%c' expects argument of type 'int', but argument 3 has type 'MAGIC *' {aka 'struct magic *'} [-Wformat=]
+  817 |                     Perl_warn(aTHX_ "Not a tied hash: (magic=%c)", mg);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~
+      |                                                                    |
+      |                                                                    MAGIC * {aka struct magic *}
+Request.c:798:41: warning: variable 't' set but not used [-Wunused-but-set-variable]
+  798 |         APR__Request__Cookie__Table     t;
+      |                                         ^
+make[5]: *** [Makefile:329: Request.o] Error 1
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[5]: *** Waiting for unfinished jobs....
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+gcc -c -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/include/apache2  -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"2.16\" -DXS_VERSION=\"2.16\" -fPIC "-I/usr/lib/perl5/CORE"   Apache2.c
+In file included from Apache2.xs:39:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h: In function 'apreq_xs_find_obj':
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h:97:30: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   97 |             Perl_croak(aTHX_ "attribute hash has no '%s' key!", key);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                                                                 |
+      |                                                                 |
+      |                                                                 int
+      |                                                                 int
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+make: *** [Makefile:503: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `apache2-mod_apreq-2.16-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `apache2-mod_apreq-2.16-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `apache2-mod_apreq-2.16-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `apache2-mod_apreq-2.16-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.20user 3.41system 0:27.14elapsed 28%CPU (0avgtext+0avgdata 133632maxresident)k
+4.20user 3.41system 0:27.14elapsed 28%CPU (0avgtext+0avgdata 133632maxresident)k
+488inputs+0outputs (0major+332966minor)pagefaults 0swaps

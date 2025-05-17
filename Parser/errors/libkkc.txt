@@ -1,0 +1,665 @@
+  189 | static GParamSpec* kkc_callback_command_handler_properties[KKC_CALLBACK_COMMAND_HANDLER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DLIBDIR=\"/usr/lib64\" -DPKGDATADIR=\"/usr/share/libkkc\" -DLOCALEDIR=\"/usr/share/locale\" -I ..  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libkkc_la-system-segment-dictionary.lo `test -f 'system-segment-dictionary.c' || echo './'`system-segment-dictionary.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DLIBDIR=\"/usr/lib64\" -DPKGDATADIR=\"/usr/share/libkkc\" -DLOCALEDIR=\"/usr/share/locale\" -I .. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c system-segment-dictionary.c  -fPIC -DPIC -o .libs/libkkc_la-system-segment-dictionary.o
+In file included from /usr/include/glib-2.0/glib.h:64,
+                 from ../libkkc/libkkc.h:6,
+                 from system-segment-dictionary.c:22:
+system-segment-dictionary.c: In function 'kkc_system_segment_dictionary_read_until':
+/usr/include/glib-2.0/glib/gmessages.h:671:16: error: returning 'void *' from a function with return type 'gboolean' {aka 'int'} makes integer from pointer without a cast [-Wint-conversion]
+  671 |         return (val); \
+      |                ^
+system-segment-dictionary.c:302:9: note: in expansion of macro 'g_return_val_if_fail'
+  302 |         g_return_val_if_fail (((gsize) (*offset)) < g_mapped_file_get_length (_tmp0_), NULL);
+      |         ^~~~~~~~~~~~~~~~~~~~
+system-segment-dictionary.c: In function 'kkc_system_segment_dictionary_real_lookup_candidates':
+system-segment-dictionary.c:730:15: warning: variable 'pos' set but not used [-Wunused-but-set-variable]
+  730 |         glong pos = 0L;
+      |               ^~~
+system-segment-dictionary.c: In function 'kkc_system_segment_dictionary_real_complete':
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+system-segment-dictionary.c:1463:13: note: in expansion of macro 'g_once_init_enter'
+ 1463 |         if (g_once_init_enter (&kkc_system_segment_dictionary_type_id__once)) {
+      |             ^~~~~~~~~~~~~~~~~
+system-segment-dictionary.c: At top level:
+system-segment-dictionary.c:52:20: warning: 'kkc_system_segment_dictionary_properties' defined but not used [-Wunused-variable]
+   52 | static GParamSpec* kkc_system_segment_dictionary_properties[KKC_SYSTEM_SEGMENT_DICTIONARY_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:1090: libkkc_la-system-segment-dictionary.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -include ../config.h   -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DLIBDIR=\"/usr/lib64\" -DPKGDATADIR=\"/usr/share/libkkc\" -DLOCALEDIR=\"/usr/share/locale\" -I ..  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libkkc_la-segment-dictionary.lo `test -f 'segment-dictionary.c' || echo './'`segment-dictionary.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -include ../config.h -pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -pthread -I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DLIBDIR=\"/usr/lib64\" -DPKGDATADIR=\"/usr/share/libkkc\" -DLOCALEDIR=\"/usr/share/locale\" -I .. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c segment-dictionary.c  -fPIC -DPIC -o .libs/libkkc_la-segment-dictionary.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+                 from /usr/include/glib-2.0/glib/gasyncqueue.h:34,
+                 from /usr/include/glib-2.0/glib.h:34,
+                 from ../libkkc/libkkc.h:6,
+                 from segment-dictionary.c:22:
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~~
+server.c:1258:13: note: in expansion of macro 'g_once_init_enter'
+server.c:1258:13: note: in expansion of macro 'g_once_init_enter'
+ 1258 |         if (g_once_init_enter (&kkc_dbus_candidate_list_type_id__once)) {
+ 1258 |         if (g_once_init_enter (&kkc_dbus_candidate_list_type_id__once)) {
+      |             ^~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_select_at':
+server.c: In function '_dbus_kkc_dbus_candidate_list_select_at':
+server.c: In function '_dbus_kkc_dbus_candidate_list_select_at':
+server.c:1304:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1304:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1304:17: warning: unused variable 'error' [-Wunused-variable]
+ 1304 |         GError* error = NULL;
+ 1304 |         GError* error = NULL;
+ 1304 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_select':
+server.c: In function '_dbus_kkc_dbus_candidate_list_select':
+server.c: In function '_dbus_kkc_dbus_candidate_list_select':
+server.c: In function '_dbus_kkc_dbus_candidate_list_select':
+server.c:1332:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1332:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1332:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1332:17: warning: unused variable 'error' [-Wunused-variable]
+ 1332 |         GError* error = NULL;
+ 1332 |         GError* error = NULL;
+ 1332 |         GError* error = NULL;
+ 1332 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_first':
+server.c: In function '_dbus_kkc_dbus_candidate_list_first':
+server.c: In function '_dbus_kkc_dbus_candidate_list_first':
+server.c: In function '_dbus_kkc_dbus_candidate_list_first':
+server.c: In function '_dbus_kkc_dbus_candidate_list_first':
+server.c:1353:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1353:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1353:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1353:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1353:17: warning: unused variable 'error' [-Wunused-variable]
+ 1353 |         GError* error = NULL;
+ 1353 |         GError* error = NULL;
+ 1353 |         GError* error = NULL;
+ 1353 |         GError* error = NULL;
+ 1353 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c: In function '_dbus_kkc_dbus_candidate_list_next':
+server.c:1376:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1376:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1376:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1376:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1376:17: warning: unused variable 'error' [-Wunused-variable]
+ 1376 |         GError* error = NULL;
+ 1376 |         GError* error = NULL;
+ 1376 |         GError* error = NULL;
+ 1376 |         GError* error = NULL;
+ 1376 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c: In function '_dbus_kkc_dbus_candidate_list_previous':
+server.c:1399:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1399:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1399:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1399:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1399:17: warning: unused variable 'error' [-Wunused-variable]
+ 1399 |         GError* error = NULL;
+ 1399 |         GError* error = NULL;
+ 1399 |         GError* error = NULL;
+ 1399 |         GError* error = NULL;
+ 1399 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_up':
+server.c:1422:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1422:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1422:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1422:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1422:17: warning: unused variable 'error' [-Wunused-variable]
+ 1422 |         GError* error = NULL;
+ 1422 |         GError* error = NULL;
+ 1422 |         GError* error = NULL;
+ 1422 |         GError* error = NULL;
+ 1422 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_cursor_down':
+server.c:1445:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1445:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1445:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1445:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1445:17: warning: unused variable 'error' [-Wunused-variable]
+ 1445 |         GError* error = NULL;
+ 1445 |         GError* error = NULL;
+ 1445 |         GError* error = NULL;
+ 1445 |         GError* error = NULL;
+ 1445 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_up':
+server.c:1468:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1468:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1468:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1468:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1468:17: warning: unused variable 'error' [-Wunused-variable]
+ 1468 |         GError* error = NULL;
+ 1468 |         GError* error = NULL;
+ 1468 |         GError* error = NULL;
+ 1468 |         GError* error = NULL;
+ 1468 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_down':
+server.c: In function '_dbus_kkc_dbus_candidate_list_page_down':
+server.c:1491:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1491:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1491:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1491:17: warning: unused variable 'error' [-Wunused-variable]
+ 1491 |         GError* error = NULL;
+ 1491 |         GError* error = NULL;
+ 1491 |         GError* error = NULL;
+ 1491 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_candidate_list_get':
+server.c: In function '_dbus_kkc_dbus_candidate_list_get':
+server.c: In function '_dbus_kkc_dbus_candidate_list_get':
+server.c: In function '_dbus_kkc_dbus_candidate_list_get':
+server.c:1514:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1514:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:1514:17: warning: unused variable 'error' [-Wunused-variable]
+ 1514 |         GError* error = NULL;
+ 1514 |         GError* error = NULL;
+ 1514 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function 'kkc_dbus_candidate_list_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_candidate_list_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_candidate_list_dbus_interface_set_property':
+server.c:1685:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:1685:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+ 1685 |         gpointer object;
+ 1685 |         gpointer object;
+      |                  ^~~~~~
+      |                  ^~~~~~
+server.c: In function 'kkc_dbus_segment_list_get_type':
+server.c: In function 'kkc_dbus_segment_list_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~~
+server.c:2115:13: note: in expansion of macro 'g_once_init_enter'
+server.c:2115:13: note: in expansion of macro 'g_once_init_enter'
+ 2115 |         if (g_once_init_enter (&kkc_dbus_segment_list_type_id__once)) {
+ 2115 |         if (g_once_init_enter (&kkc_dbus_segment_list_type_id__once)) {
+      |             ^~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_get':
+server.c: In function '_dbus_kkc_dbus_segment_list_get':
+server.c: In function '_dbus_kkc_dbus_segment_list_get':
+server.c:2149:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2149:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2149:17: warning: unused variable 'error' [-Wunused-variable]
+ 2149 |         GError* error = NULL;
+ 2149 |         GError* error = NULL;
+ 2149 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_first_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_first_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_first_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_first_segment':
+server.c:2181:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2181:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2181:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2181:17: warning: unused variable 'error' [-Wunused-variable]
+ 2181 |         GError* error = NULL;
+ 2181 |         GError* error = NULL;
+ 2181 |         GError* error = NULL;
+ 2181 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_last_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_last_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_last_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_last_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_last_segment':
+server.c:2204:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2204:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2204:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2204:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2204:17: warning: unused variable 'error' [-Wunused-variable]
+ 2204 |         GError* error = NULL;
+ 2204 |         GError* error = NULL;
+ 2204 |         GError* error = NULL;
+ 2204 |         GError* error = NULL;
+ 2204 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_next_segment':
+server.c:2227:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2227:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2227:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2227:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2227:17: warning: unused variable 'error' [-Wunused-variable]
+ 2227 |         GError* error = NULL;
+ 2227 |         GError* error = NULL;
+ 2227 |         GError* error = NULL;
+ 2227 |         GError* error = NULL;
+ 2227 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c: In function '_dbus_kkc_dbus_segment_list_previous_segment':
+server.c:2248:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2248:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2248:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2248:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2248:17: warning: unused variable 'error' [-Wunused-variable]
+ 2248 |         GError* error = NULL;
+ 2248 |         GError* error = NULL;
+ 2248 |         GError* error = NULL;
+ 2248 |         GError* error = NULL;
+ 2248 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_get_output':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_output':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_output':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_output':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_output':
+server.c:2269:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2269:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2269:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2269:17: warning: unused variable 'error' [-Wunused-variable]
+ 2269 |         GError* error = NULL;
+ 2269 |         GError* error = NULL;
+ 2269 |         GError* error = NULL;
+ 2269 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_segment_list_get_input':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_input':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_input':
+server.c: In function '_dbus_kkc_dbus_segment_list_get_input':
+server.c:2293:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2293:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2293:17: warning: unused variable 'error' [-Wunused-variable]
+ 2293 |         GError* error = NULL;
+ 2293 |         GError* error = NULL;
+ 2293 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function 'kkc_dbus_segment_list_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_segment_list_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_segment_list_dbus_interface_set_property':
+server.c:2397:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:2397:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+ 2397 |         gpointer object;
+ 2397 |         gpointer object;
+      |                  ^~~~~~
+      |                  ^~~~~~
+server.c: In function 'kkc_dbus_context_get_type':
+server.c: In function 'kkc_dbus_context_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~~
+server.c:2908:13: note: in expansion of macro 'g_once_init_enter'
+server.c:2908:13: note: in expansion of macro 'g_once_init_enter'
+ 2908 |         if (g_once_init_enter (&kkc_dbus_context_type_id__once)) {
+ 2908 |         if (g_once_init_enter (&kkc_dbus_context_type_id__once)) {
+      |             ^~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~
+server.c: In function '_dbus_kkc_dbus_context_process_key_event':
+server.c: In function '_dbus_kkc_dbus_context_process_key_event':
+server.c: In function '_dbus_kkc_dbus_context_process_key_event':
+server.c:2975:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2975:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:2975:17: warning: unused variable 'error' [-Wunused-variable]
+ 2975 |         GError* error = NULL;
+ 2975 |         GError* error = NULL;
+ 2975 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_process_command_event':
+server.c: In function '_dbus_kkc_dbus_context_process_command_event':
+server.c: In function '_dbus_kkc_dbus_context_process_command_event':
+server.c: In function '_dbus_kkc_dbus_context_process_command_event':
+server.c:3013:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3013:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3013:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3013:17: warning: unused variable 'error' [-Wunused-variable]
+ 3013 |         GError* error = NULL;
+ 3013 |         GError* error = NULL;
+ 3013 |         GError* error = NULL;
+ 3013 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_reset':
+server.c: In function '_dbus_kkc_dbus_context_reset':
+server.c: In function '_dbus_kkc_dbus_context_reset':
+server.c: In function '_dbus_kkc_dbus_context_reset':
+server.c: In function '_dbus_kkc_dbus_context_reset':
+server.c:3042:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3042:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3042:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3042:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3042:17: warning: unused variable 'error' [-Wunused-variable]
+ 3042 |         GError* error = NULL;
+ 3042 |         GError* error = NULL;
+ 3042 |         GError* error = NULL;
+ 3042 |         GError* error = NULL;
+ 3042 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c: In function '_dbus_kkc_dbus_context_has_output':
+server.c:3063:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3063:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3063:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3063:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3063:17: warning: unused variable 'error' [-Wunused-variable]
+ 3063 |         GError* error = NULL;
+ 3063 |         GError* error = NULL;
+ 3063 |         GError* error = NULL;
+ 3063 |         GError* error = NULL;
+ 3063 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c: In function '_dbus_kkc_dbus_context_peek_output':
+server.c:3086:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3086:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3086:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3086:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3086:17: warning: unused variable 'error' [-Wunused-variable]
+ 3086 |         GError* error = NULL;
+ 3086 |         GError* error = NULL;
+ 3086 |         GError* error = NULL;
+ 3086 |         GError* error = NULL;
+ 3086 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_poll_output':
+server.c: In function '_dbus_kkc_dbus_context_poll_output':
+server.c: In function '_dbus_kkc_dbus_context_poll_output':
+server.c: In function '_dbus_kkc_dbus_context_poll_output':
+server.c: In function '_dbus_kkc_dbus_context_poll_output':
+server.c:3110:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3110:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3110:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3110:17: warning: unused variable 'error' [-Wunused-variable]
+ 3110 |         GError* error = NULL;
+ 3110 |         GError* error = NULL;
+ 3110 |         GError* error = NULL;
+ 3110 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_context_clear_output':
+server.c: In function '_dbus_kkc_dbus_context_clear_output':
+server.c: In function '_dbus_kkc_dbus_context_clear_output':
+server.c: In function '_dbus_kkc_dbus_context_clear_output':
+server.c:3134:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3134:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3134:17: warning: unused variable 'error' [-Wunused-variable]
+ 3134 |         GError* error = NULL;
+ 3134 |         GError* error = NULL;
+ 3134 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function 'kkc_dbus_server_construct':
+server.c: In function 'kkc_dbus_server_construct':
+server.c: In function 'kkc_dbus_server_construct':
+server.c:3395:219: warning: the comparison will always evaluate as 'false' for the address of '_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback' will never be NULL [-Waddress]
+server.c:3395:219: warning: the comparison will always evaluate as 'false' for the address of '_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback' will never be NULL [-Waddress]
+ 3395 |         self->priv->own_name_id = g_bus_own_name_on_connection_with_closures (connection, "org.du_a.Kkc.Server", G_BUS_NAME_OWNER_FLAGS_NONE, (GClosure*) ((_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback, g_object_ref (self), (GClosureNotify) g_object_unref)), (GClosure*) ((_kkc_dbus_server_on_name_lost_gbus_name_lost_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_lost_gbus_name_lost_callback, g_object_ref (self), (GClosureNotify) g_object_unref)));
+ 3395 |         self->priv->own_name_id = g_bus_own_name_on_connection_with_closures (connection, "org.du_a.Kkc.Server", G_BUS_NAME_OWNER_FLAGS_NONE, (GClosure*) ((_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback, g_object_ref (self), (GClosureNotify) g_object_unref)), (GClosure*) ((_kkc_dbus_server_on_name_lost_gbus_name_lost_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_lost_gbus_name_lost_callback, g_object_ref (self), (GClosureNotify) g_object_unref)));
+      |                                                                                                                                                                                                                           ^~
+      |                                                                                                                                                                                                                           ^~
+server.c:3352:1: note: '_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback' declared here
+server.c:3352:1: note: '_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback' declared here
+ 3352 | _kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback (GDBusConnection* connection,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+server.c:3395:452: warning: the comparison will always evaluate as 'false' for the address of '_kkc_dbus_server_on_name_lost_gbus_name_lost_callback' will never be NULL [-Waddress]
+ 3395 |         self->priv->own_name_id = g_bus_own_name_on_connection_with_closures (connection, "org.du_a.Kkc.Server", G_BUS_NAME_OWNER_FLAGS_NONE, (GClosure*) ((_kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_acquired_gbus_name_acquired_callback, g_object_ref (self), (GClosureNotify) g_object_unref)), (GClosure*) ((_kkc_dbus_server_on_name_lost_gbus_name_lost_callback == NULL) ? NULL : g_cclosure_new ((GCallback) _kkc_dbus_server_on_name_lost_gbus_name_lost_callback, g_object_ref (self), (GClosureNotify) g_object_unref)));
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~~
+server.c:3630:13: note: in expansion of macro 'g_once_init_enter'
+server.c:3630:13: note: in expansion of macro 'g_once_init_enter'
+ 3630 |         if (g_once_init_enter (&kkc_dbus_server_type_id__once)) {
+ 3630 |         if (g_once_init_enter (&kkc_dbus_server_type_id__once)) {
+      |             ^~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~
+server.c: In function '_dbus_kkc_dbus_server_create_context':
+server.c: In function '_dbus_kkc_dbus_server_create_context':
+server.c:3643:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3643:17: warning: unused variable 'error' [-Wunused-variable]
+ 3643 |         GError* error = NULL;
+ 3643 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function '_dbus_kkc_dbus_server_destroy_context':
+server.c: In function '_dbus_kkc_dbus_server_destroy_context':
+server.c:3667:17: warning: unused variable 'error' [-Wunused-variable]
+server.c:3667:17: warning: unused variable 'error' [-Wunused-variable]
+ 3667 |         GError* error = NULL;
+ 3667 |         GError* error = NULL;
+      |                 ^~~~~
+      |                 ^~~~~
+server.c: In function 'kkc_dbus_server_dbus_interface_get_property':
+server.c: In function 'kkc_dbus_server_dbus_interface_get_property':
+server.c:3722:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:3722:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+ 3722 |         gpointer object;
+ 3722 |         gpointer object;
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+server.c: In function 'kkc_dbus_server_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_server_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_server_dbus_interface_set_property':
+server.c: In function 'kkc_dbus_server_dbus_interface_set_property':
+server.c:3739:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:3739:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:3739:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+server.c:3739:18: warning: variable 'object' set but not used [-Wunused-but-set-variable]
+ 3739 |         gpointer object;
+ 3739 |         gpointer object;
+ 3739 |         gpointer object;
+ 3739 |         gpointer object;
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+server.c: At top level:
+server.c: At top level:
+server.c: At top level:
+server.c: At top level:
+server.c:87:20: warning: 'kkc_dbus_server_properties' defined but not used [-Wunused-variable]
+server.c:87:20: warning: 'kkc_dbus_server_properties' defined but not used [-Wunused-variable]
+server.c:87:20: warning: 'kkc_dbus_server_properties' defined but not used [-Wunused-variable]
+   87 | static GParamSpec* kkc_dbus_server_properties[KKC_DBUS_SERVER_NUM_PROPERTIES];
+   87 | static GParamSpec* kkc_dbus_server_properties[KKC_DBUS_SERVER_NUM_PROPERTIES];
+   87 | static GParamSpec* kkc_dbus_server_properties[KKC_DBUS_SERVER_NUM_PROPERTIES];
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libkkc-0.3.5/libkkc'
+make[1]: *** [Makefile:520: all-recursive] Error 1
+make[1]: *** [Makefile:520: all-recursive] Error 1
+make[1]: *** [Makefile:520: all-recursive] Error 1
+make[1]: *** [Makefile:520: all-recursive] Error 1
+make: *** [Makefile:451: all] Error 2
+make: *** [Makefile:451: all] Error 2
+make: *** [Makefile:451: all] Error 2
+make: *** [Makefile:451: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.91705 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+26.43user 12.70system 0:11.37elapsed 343%CPU (0avgtext+0avgdata 86164maxresident)k
+26.43user 12.70system 0:11.37elapsed 343%CPU (0avgtext+0avgdata 86164maxresident)k
+26.43user 12.70system 0:11.37elapsed 343%CPU (0avgtext+0avgdata 86164maxresident)k
+26.43user 12.70system 0:11.37elapsed 343%CPU (0avgtext+0avgdata 86164maxresident)k
+0inputs+0outputs (0major+2771239minor)pagefaults 0swaps
+0inputs+0outputs (0major+2771239minor)pagefaults 0swaps
+0inputs+0outputs (0major+2771239minor)pagefaults 0swaps
+0inputs+0outputs (0major+2771239minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libkkc-0.3.5-alt1_24.src.rpm' failed.
+hsh-rebuild: rebuild of `libkkc-0.3.5-alt1_24.src.rpm' failed.
+hsh-rebuild: rebuild of `libkkc-0.3.5-alt1_24.src.rpm' failed.
+hsh-rebuild: rebuild of `libkkc-0.3.5-alt1_24.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.77user 3.48system 0:32.54elapsed 28%CPU (0avgtext+0avgdata 142384maxresident)k
+5.77user 3.48system 0:32.54elapsed 28%CPU (0avgtext+0avgdata 142384maxresident)k
+1608inputs+0outputs (0major+343147minor)pagefaults 0swaps

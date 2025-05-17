@@ -1,0 +1,182 @@
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo -n 2.7.6.0.27.7623
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.67057
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd patch-2.7.6.0.27.7623-alt1
++ ./bootstrap --skip-po --gnulib-srcdir=/usr/share/gnulib
+./bootstrap: Bootstrapping from checked-out patch sources...
+./bootstrap: line 640: git: command not found
+./bootstrap: /usr/share/gnulib/gnulib-tool    --no-changelog   --aux-dir=build-aux   --doc-base=doc   --lib=libpatch   --m4-base=m4/   --source-base=lib/   --tests-base=tests   --local-dir=gl   --symlink --makefile-name=gnulib.mk   --import ...
+Module list with included dependencies (indented):
+    absolute-header
+    access
+    alignasof
+  alloca
+    alloca-opt
+  argmatch
+    assert-h
+    assure
+  $(SETLOCALE_NULL_LIB)
+
+Don't forget to
+  - "include gnulib.mk" from within "lib/Makefile.am",
+  - mention "-I m4" in ACLOCAL_AMFLAGS in Makefile.am
+    or add an AC_CONFIG_MACRO_DIRS([m4]) invocation in ./configure.ac,
+  - mention "m4/gnulib-cache.m4" in EXTRA_DIST in Makefile.am,
+  - replace AC_PROG_CC_STDC with AC_PROG_CC in ./configure.ac,
+  - invoke gl_EARLY in ./configure.ac, right after AC_PROG_CC_STDC,
+  - invoke gl_INIT in ./configure.ac.
+./bootstrap: line 971: git: command not found
+running: AUTOPOINT=true LIBTOOLIZE=true autoreconf --verbose --install --force -I m4  --no-recursive
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal -I m4 --force -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: configure.ac: not using Libtool
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --include=m4 --force
+checking for unistd.h... (cached) yes
+checking for working chown... yes
+checking whether chown dereferences symlinks... yes
+checking whether chown honors trailing slash... yes
+checking whether chown always updates ctime... yes
+checking if environ is properly declared... yes
+checking for complete errno.h... yes
+checking for error... yes
+checking whether error_at_line is declared... yes
+checking for error_at_line... yes
+checking for working error function... yes
+checking whether strerror_r is declared... yes
+checking whether strerror_r returns char *... yes
+checking type of array argument to getgroups... gid_t
+checking for mode_t... yes
+checking whether ctype.h defines __header_inline... no
+checking for sig_atomic_t... yes
+checking whether fchdir is declared... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking for promoted mode_t type... mode_t
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o version.o version.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o inp.o inp.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pch.o pch.c
+pch.c: In function 'do_ed_script':
+pch.c: In function 'do_ed_script':
+pch.c:2485:55: error: passing argument 3 of 'execute' from incompatible pointer type [-Wincompatible-pointer-types]
+pch.c:2485:55: error: passing argument 3 of 'execute' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2485 |     status = execute (editor_program, editor_program, (char **)ed_argv,
+ 2485 |     status = execute (editor_program, editor_program, (char **)ed_argv,
+      |                                                       ^~~~~~~~~~~~~~~~
+      |                                                       ^~~~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       |
+      |                                                       char **
+      |                                                       char **
+In file included from pch.c:37:
+In file included from pch.c:37:
+../lib/execute.h:47:64: note: expected 'const char * const*' but argument is of type 'char **'
+../lib/execute.h:47:64: note: expected 'const char * const*' but argument is of type 'char **'
+   47 |                     const char *prog_path, const char * const *prog_argv,
+   47 |                     const char *prog_path, const char * const *prog_argv,
+      |                                            ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+      |                                            ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+make[2]: *** [Makefile:1762: pch.o] Error 1
+make[2]: *** [Makefile:1762: pch.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o safe.o safe.c
+safe.c: In function 'remove_cached_dirfd':
+safe.c:145:7: warning: 'hash_delete' is deprecated [-Wdeprecated-declarations]
+  145 |       hash_delete (cached_dirfds, child);  /* noop when not hashed */
+      |       ^~~~~~~~~~~
+In file included from safe.c:35:
+../lib/hash.h:267:14: note: declared here
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o util.o util.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o util.o util.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o util.o util.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o patch.o patch.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o patch.o patch.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../lib -I../lib -DENABLE_MERGE    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o patch.o patch.c
+patch.c:1951:1: warning: 'gl_list_clear' defined but not used [-Wunused-function]
+patch.c:1951:1: warning: 'gl_list_clear' defined but not used [-Wunused-function]
+patch.c:1951:1: warning: 'gl_list_clear' defined but not used [-Wunused-function]
+ 1951 | gl_list_clear (gl_list_t list)
+ 1951 | gl_list_clear (gl_list_t list)
+ 1951 | gl_list_clear (gl_list_t list)
+      | ^~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/patch-2.7.6.0.27.7623-alt1/src'
+make[1]: *** [Makefile:1827: all-recursive] Error 1
+make[1]: *** [Makefile:1827: all-recursive] Error 1
+make[1]: *** [Makefile:1827: all-recursive] Error 1
+make[1]: *** [Makefile:1827: all-recursive] Error 1
+make: *** [Makefile:1727: all] Error 2
+make: *** [Makefile:1727: all] Error 2
+make: *** [Makefile:1727: all] Error 2
+make: *** [Makefile:1727: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.67057 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+33.11user 51.54system 1:16.37elapsed 110%CPU (0avgtext+0avgdata 32180maxresident)k
+33.11user 51.54system 1:16.37elapsed 110%CPU (0avgtext+0avgdata 32180maxresident)k
+33.11user 51.54system 1:16.37elapsed 110%CPU (0avgtext+0avgdata 32180maxresident)k
+33.11user 51.54system 1:16.37elapsed 110%CPU (0avgtext+0avgdata 32180maxresident)k
+0inputs+0outputs (0major+11124569minor)pagefaults 0swaps
+0inputs+0outputs (0major+11124569minor)pagefaults 0swaps
+0inputs+0outputs (0major+11124569minor)pagefaults 0swaps
+0inputs+0outputs (0major+11124569minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `patch-2.7.6.0.27.7623-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `patch-2.7.6.0.27.7623-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `patch-2.7.6.0.27.7623-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `patch-2.7.6.0.27.7623-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.32user 2.33system 1:25.07elapsed 6%CPU (0avgtext+0avgdata 141628maxresident)k
+3.32user 2.33system 1:25.07elapsed 6%CPU (0avgtext+0avgdata 141628maxresident)k
+0inputs+0outputs (0major+201412minor)pagefaults 0swaps

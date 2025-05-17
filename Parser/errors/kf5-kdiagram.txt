@@ -1,0 +1,56 @@
+
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+CMake Error at /usr/share/ECM/modules/ECMGeneratePriFile.cmake:144 (message):
+CMake Error at /usr/share/ECM/modules/ECMGeneratePriFile.cmake:144 (message):
+  Required variable PROJECT_VERSION_STRING or PROJECT_VERSION not set before
+  Required variable PROJECT_VERSION_STRING or PROJECT_VERSION not set before
+  ECM_GENERATE_PRI_FILE() call.  Missing call of ecm_setup_version() or
+  ECM_GENERATE_PRI_FILE() call.  Missing call of ecm_setup_version() or
+  project(VERSION)?
+  project(VERSION)?
+Call Stack (most recent call first):
+Call Stack (most recent call first):
+  src/KChart/CMakeLists.txt:359 (ecm_generate_pri_file)
+  src/KChart/CMakeLists.txt:359 (ecm_generate_pri_file)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34931 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34931 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34931 (%build)
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34931 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34931 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.78user 0.83system 0:01.53elapsed 104%CPU (0avgtext+0avgdata 25960maxresident)k
+0.78user 0.83system 0:01.53elapsed 104%CPU (0avgtext+0avgdata 25960maxresident)k
+0inputs+0outputs (0major+169451minor)pagefaults 0swaps
+0inputs+0outputs (0major+169451minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `kf5-kdiagram-2.8.0-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `kf5-kdiagram-2.8.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.15user 3.39system 0:25.57elapsed 33%CPU (0avgtext+0avgdata 143760maxresident)k
+5.15user 3.39system 0:25.57elapsed 33%CPU (0avgtext+0avgdata 143760maxresident)k
+360inputs+0outputs (0major+333713minor)pagefaults 0swaps

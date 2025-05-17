@@ -1,0 +1,54 @@
+removed '/usr/src/tmp/foomatic-db-engine-buildroot/usr/share/man/man1/lpq-foomatic.1.gz'
+'/usr/src/tmp/foomatic-db-engine-buildroot/usr/share/man/man1/lpq-foomatic.1.gz' -> 'foomatic-printjob.1.gz'
+removed '/usr/src/tmp/foomatic-db-engine-buildroot/usr/share/man/man1/lpr-foomatic.1.gz'
+'/usr/src/tmp/foomatic-db-engine-buildroot/usr/share/man/man1/lpr-foomatic.1.gz' -> 'foomatic-printjob.1.gz'
+Adjusting library links in /usr/src/tmp/foomatic-db-engine-buildroot
+./lib: (from <cmdline>:0)
+./usr/lib64: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/foomatic-db-engine-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/foomatic-db-engine-buildroot
+Processing files: foomatic-db-engine-4.0.12-alt1
+error: No such file or directory: /usr/src/tmp/foomatic-db-engine-buildroot/usr/lib/cups/driver/foomatic
+Executing(%doc): /bin/sh -e /usr/src/tmp/rpm-tmp.87028
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd foomatic-db-engine-4.0.12
++ DOCDIR=/usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ export DOCDIR
++ rm -rf /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ rm -rf /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ /bin/mkdir -p /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ /bin/mkdir -p /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ cp -prL README USAGE ChangeLog /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ cp -prL README USAGE ChangeLog /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ chmod -R go-w /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ chmod -R a+rX /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ chmod -R a+rX /usr/src/tmp/foomatic-db-engine-buildroot/usr/share/doc/foomatic-db-engine-4.0.12
++ exit 0
++ exit 0
+
+
+
+
+RPM build errors:
+RPM build errors:
+    line 12: Deprecated PreReq converted to Requires(pre,postun): PreReq: alternatives >= 0.3
+    line 12: Deprecated PreReq converted to Requires(pre,postun): PreReq: alternatives >= 0.3
+    No such file or directory: /usr/src/tmp/foomatic-db-engine-buildroot/usr/lib/cups/driver/foomatic
+    No such file or directory: /usr/src/tmp/foomatic-db-engine-buildroot/usr/lib/cups/driver/foomatic
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.40user 2.24system 0:05.12elapsed 110%CPU (0avgtext+0avgdata 63596maxresident)k
+3.40user 2.24system 0:05.12elapsed 110%CPU (0avgtext+0avgdata 63596maxresident)k
+0inputs+0outputs (0major+426625minor)pagefaults 0swaps
+0inputs+0outputs (0major+426625minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `foomatic-db-engine-4.0.12-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `foomatic-db-engine-4.0.12-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.90user 2.97system 0:21.33elapsed 32%CPU (0avgtext+0avgdata 141556maxresident)k
+3.90user 2.97system 0:21.33elapsed 32%CPU (0avgtext+0avgdata 141556maxresident)k
+72336inputs+0outputs (0major+243532minor)pagefaults 0swaps
+72336inputs+0outputs (0major+243532minor)pagefaults 0swaps
+

@@ -1,0 +1,119 @@
+============================= slowest 25 durations =============================
+0.44s setup    tests/test_jsmath.py::test_basic
+0.44s setup    tests/test_jsmath.py::test_basic
+0.08s call     tests/test_jsmath.py::test_basic
+0.08s call     tests/test_jsmath.py::test_basic
+0.07s call     tests/test_jsmath.py::test_numfig_enabled
+0.07s call     tests/test_jsmath.py::test_numfig_enabled
+0.07s call     tests/test_jsmath.py::test_numfig_enabled
+0.06s call     tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.06s call     tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.06s call     tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.06s call     tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.02s setup    tests/test_jsmath.py::test_numfig_enabled
+0.02s setup    tests/test_jsmath.py::test_numfig_enabled
+0.02s setup    tests/test_jsmath.py::test_numfig_enabled
+0.02s setup    tests/test_jsmath.py::test_numfig_enabled
+0.02s setup    tests/test_jsmath.py::test_numfig_enabled
+0.02s setup    tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.02s setup    tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.02s setup    tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.02s setup    tests/test_jsmath.py::test_disabled_when_equations_not_found
+0.02s setup    tests/test_jsmath.py::test_disabled_when_equations_not_found
+
+
+
+
+
+(3 durations < 0.005s hidden.  Use -vv to show these durations.)
+(3 durations < 0.005s hidden.  Use -vv to show these durations.)
+(3 durations < 0.005s hidden.  Use -vv to show these durations.)
+(3 durations < 0.005s hidden.  Use -vv to show these durations.)
+(3 durations < 0.005s hidden.  Use -vv to show these durations.)
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_jsmath.py::test_disabled_when_equations_not_found - assert ...
+FAILED tests/test_jsmath.py::test_disabled_when_equations_not_found - assert ...
+FAILED tests/test_jsmath.py::test_disabled_when_equations_not_found - assert ...
+FAILED tests/test_jsmath.py::test_disabled_when_equations_not_found - assert ...
+FAILED tests/test_jsmath.py::test_disabled_when_equations_not_found - assert ...
+==================== 1 failed, 2 passed, 1 warning in 0.79s ====================
+==================== 1 failed, 2 passed, 1 warning in 0.79s ====================
+==================== 1 failed, 2 passed, 1 warning in 0.79s ====================
+==================== 1 failed, 2 passed, 1 warning in 0.79s ====================
+==================== 1 failed, 2 passed, 1 warning in 0.79s ====================
+py3: exit 1 (1.16 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-jsmath-1.0.1> pytest --durations 25 pid=127863
+py3: exit 1 (1.16 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-jsmath-1.0.1> pytest --durations 25 pid=127863
+py3: exit 1 (1.16 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-jsmath-1.0.1> pytest --durations 25 pid=127863
+py3: exit 1 (1.16 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-jsmath-1.0.1> pytest --durations 25 pid=127863
+py3: exit 1 (1.16 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-jsmath-1.0.1> pytest --durations 25 pid=127863
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  py3: FAIL code 1 (2.08=setup[0.91]+cmd[1.16] seconds)
+  evaluation failed :( (2.16 seconds)
+  evaluation failed :( (2.16 seconds)
+  evaluation failed :( (2.16 seconds)
+  evaluation failed :( (2.16 seconds)
+  evaluation failed :( (2.16 seconds)
+  evaluation failed :( (2.16 seconds)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56172 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.73user 0.79system 0:03.48elapsed 101%CPU (0avgtext+0avgdata 72212maxresident)k
+2.73user 0.79system 0:03.48elapsed 101%CPU (0avgtext+0avgdata 72212maxresident)k
+2.73user 0.79system 0:03.48elapsed 101%CPU (0avgtext+0avgdata 72212maxresident)k
+2.73user 0.79system 0:03.48elapsed 101%CPU (0avgtext+0avgdata 72212maxresident)k
+2.73user 0.79system 0:03.48elapsed 101%CPU (0avgtext+0avgdata 72212maxresident)k
+0inputs+0outputs (0major+135572minor)pagefaults 0swaps
+0inputs+0outputs (0major+135572minor)pagefaults 0swaps
+0inputs+0outputs (0major+135572minor)pagefaults 0swaps
+0inputs+0outputs (0major+135572minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-jsmath-1.0.1-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-jsmath-1.0.1-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-jsmath-1.0.1-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-jsmath-1.0.1-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.24user 3.69system 0:21.64elapsed 45%CPU (0avgtext+0avgdata 140480maxresident)k
+6.24user 3.69system 0:21.64elapsed 45%CPU (0avgtext+0avgdata 140480maxresident)k
+3088inputs+0outputs (0major+362294minor)pagefaults 0swaps

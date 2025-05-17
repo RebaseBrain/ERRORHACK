@@ -1,0 +1,98 @@
+            "╰─────╯",
+        ]
+        ]
+E       AssertionError: assert ['0 objects i...│', '╰─────╯'] == ['╭─────╮', '...│', '╰─────╯']
+E       AssertionError: assert ['0 objects i...│', '╰─────╯'] == ['╭─────╮', '...│', '╰─────╯']
+E         
+E         
+E         
+E         At index 0 diff: '0 objects imported automatically.' != '╭─────╮'
+E         At index 0 diff: '0 objects imported automatically.' != '╭─────╮'
+E         At index 0 diff: '0 objects imported automatically.' != '╭─────╮'
+E         At index 0 diff: '0 objects imported automatically.' != '╭─────╮'
+E         Left contains 2 more items, first extra item: '│ hi! │'
+E         Left contains 2 more items, first extra item: '│ hi! │'
+E         Left contains 2 more items, first extra item: '│ hi! │'
+E         Left contains 2 more items, first extra item: '│ hi! │'
+E         Use -v to get more diff
+E         Use -v to get more diff
+E         Use -v to get more diff
+E         Use -v to get more diff
+
+
+
+
+tests/test_shell.py:27: AssertionError
+tests/test_shell.py:27: AssertionError
+tests/test_shell.py:27: AssertionError
+tests/test_shell.py:27: AssertionError
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_shell.py::ShellCommandTestCase::test_pretty - AssertionErro...
+FAILED tests/test_shell.py::ShellCommandTestCase::test_pretty - AssertionErro...
+FAILED tests/test_shell.py::ShellCommandTestCase::test_pretty - AssertionErro...
+FAILED tests/test_shell.py::ShellCommandTestCase::test_pretty - AssertionErro...
+============= 1 failed, 58 passed, 22 skipped in 114.46s (0:01:54) =============
+============= 1 failed, 58 passed, 22 skipped in 114.46s (0:01:54) =============
+============= 1 failed, 58 passed, 22 skipped in 114.46s (0:01:54) =============
+============= 1 failed, 58 passed, 22 skipped in 114.46s (0:01:54) =============
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50327 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+84.57user 4.64system 1:57.87elapsed 75%CPU (0avgtext+0avgdata 63736maxresident)k
+84.57user 4.64system 1:57.87elapsed 75%CPU (0avgtext+0avgdata 63736maxresident)k
+84.57user 4.64system 1:57.87elapsed 75%CPU (0avgtext+0avgdata 63736maxresident)k
+84.57user 4.64system 1:57.87elapsed 75%CPU (0avgtext+0avgdata 63736maxresident)k
+84.57user 4.64system 1:57.87elapsed 75%CPU (0avgtext+0avgdata 63736maxresident)k
+0inputs+0outputs (0major+784060minor)pagefaults 0swaps
+0inputs+0outputs (0major+784060minor)pagefaults 0swaps
+0inputs+0outputs (0major+784060minor)pagefaults 0swaps
+0inputs+0outputs (0major+784060minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-django-rich-1.14.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-django-rich-1.14.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-django-rich-1.14.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.65user 2.86system 2:17.96elapsed 7%CPU (0avgtext+0avgdata 142172maxresident)k
+7.65user 2.86system 2:17.96elapsed 7%CPU (0avgtext+0avgdata 142172maxresident)k
+0inputs+0outputs (0major+335633minor)pagefaults 0swaps

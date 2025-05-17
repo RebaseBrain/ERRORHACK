@@ -1,0 +1,1578 @@
+<86>May 10 08:52:00 userdel[45722]: delete user 'rooter'
+<86>May 10 08:52:00 userdel[45722]: removed group 'rooter' owned by 'rooter'
+<86>May 10 08:52:00 userdel[45722]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 08:52:00 groupadd[45745]: group added to /etc/group: name=rooter, GID=1820
+<86>May 10 08:52:00 groupadd[45745]: group added to /etc/gshadow: name=rooter
+<86>May 10 08:52:00 groupadd[45745]: new group: name=rooter, GID=1820
+<86>May 10 08:52:00 useradd[45765]: new user: name=rooter, UID=1820, GID=1820, home=/root, shell=/bin/bash, from=none
+<86>May 10 08:52:00 userdel[45801]: delete user 'builder'
+<86>May 10 08:52:00 userdel[45801]: removed group 'builder' owned by 'builder'
+<86>May 10 08:52:00 userdel[45801]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 08:52:00 groupadd[45834]: group added to /etc/group: name=builder, GID=1821
+<86>May 10 08:52:00 groupadd[45834]: group added to /etc/gshadow: name=builder
+<86>May 10 08:52:00 groupadd[45834]: new group: name=builder, GID=1821
+<86>May 10 08:52:01 useradd[45859]: new user: name=builder, UID=1821, GID=1821, home=/usr/src, shell=/bin/bash, from=none
+<13>May 10 08:52:04 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432033 installed
+<13>May 10 08:52:04 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 08:52:04 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 08:52:04 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 08:52:04 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962878 installed
+<13>May 10 08:52:04 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:52:04 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 08:52:04 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:52:04 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:52:04 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 08:52:04 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 08:52:04 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:52:04 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 08:52:04 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 08:52:04 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:52:05 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:52:05 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 10 08:52:05 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 08:52:05 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 08:52:07 rpmi: python3-module-docutils-0.20.1-alt1 sisyphus+323438.100.1.1 1687370718 installed
+<13>May 10 08:52:07 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 10 08:52:07 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 10 08:52:07 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760153 installed
+<13>May 10 08:52:07 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 10 08:52:07 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 10 08:52:07 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 10 08:52:07 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745386702 installed
+<13>May 10 08:52:07 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449053 installed
+<13>May 10 08:52:07 rpmi: libhdf5-310-1.14.6-alt1 sisyphus+375936.100.1.1 1740420605 installed
+<13>May 10 08:52:07 rpmi: libhdf5-hl-310-1.14.6-alt1 sisyphus+375936.100.1.1 1740420605 installed
+<13>May 10 08:52:07 rpmi: python3-module-alabaster-0.7.16-alt1 sisyphus+349698.100.1.1 1716897815 installed
+<13>May 10 08:52:07 rpmi: python3-module-snowballstemmer-2.2.0-alt1 sisyphus+319215.100.1.1 1682346633 installed
+<13>May 10 08:52:07 rpmi: python3-module-roman_numerals-3.1.0-alt1 sisyphus+376287.100.1.1 1740659993 installed
+<13>May 10 08:52:07 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 10 08:52:07 rpmi: python3-module-wheel-0.45.1-alt2 sisyphus+376369.34000.10.1 1746635900 installed
+<13>May 10 08:52:07 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 10 08:52:07 rpmi: python3-module-mpmath-1.3.0-alt1 sisyphus+380739.100.1.1 1744031172 installed
+<13>May 10 08:52:08 rpmi: python3-module-matplotlib-data-3.10.1-alt1 sisyphus+378673.100.1.1 1742470074 installed
+<13>May 10 08:52:08 rpmi: python3-module-railroad-diagrams-3.0.1-alt1 sisyphus+358318.100.1.1 1727257812 installed
+<13>May 10 08:52:08 rpmi: python3-module-kiwisolver-1.4.8-alt1 sisyphus+366446.100.5.1 1735114511 installed
+<13>May 10 08:52:08 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 10 08:52:08 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 10 08:52:08 rpmi: python3-module-pyparsing-3.2.3-alt1 sisyphus+379206.100.2.1 1742978787 installed
+<13>May 10 08:52:08 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 10 08:52:08 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 10 08:52:08 rpmi: python3-module-imagesize-1.4.1-alt1 sisyphus+318084.100.1.1 1680697673 installed
+<13>May 10 08:52:08 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 10 08:52:08 rpmi: python3-module-defusedxml-0.7.1-alt1 sisyphus+274841.2300.1.1 1624295691 installed
+<13>May 10 08:52:08 rpmi: python3-module-six-1.17.0-alt1.1 sisyphus+373470.100.1.1 1738920023 installed
+<13>May 10 08:52:08 rpmi: python3-module-dateutil-2.9.0.post0-alt1 sisyphus+378451.100.1.1 1742313746 installed
+<13>May 10 08:52:08 rpmi: python3-module-cycler-0.12.1-alt1 sisyphus+331222.100.1.1 1696668651 installed
+<13>May 10 08:52:08 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733144 installed
+<13>May 10 08:52:08 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 10 08:52:08 rpmi: python3-module-babel-1:2.17.0-alt1 sisyphus+383519.100.1.1 1746611672 installed
+<13>May 10 08:52:08 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 10 08:52:08 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 10 08:52:08 rpmi: python3-module-jaraco.collections-5.1.0-alt1.1 sisyphus+376369.6100.10.1 1746628417 installed
+<13>May 10 08:52:08 rpmi: python3-module-pkg_resources-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 08:52:08 rpmi: python3-module-olefile-0.46-alt2 sisyphus+288126.100.1.1 1635163866 installed
+<13>May 10 08:52:08 rpmi: python-sphinx-objects.inv-1:2.3.14.20250414-alt1 sisyphus+381547.100.1.1 1744608913 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-applehelp-2.0.0-alt1 sisyphus+353872.100.1.1 1722243556 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-devhelp-2.0.0-alt1 sisyphus+353872.200.1.1 1722243589 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-jquery-4.1-alt3 sisyphus+339023.100.1.1 1706234262 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-jsmath-1.0.1-alt2 sisyphus+348403.100.1.1 1716017686 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-htmlhelp-2.1.0-alt1 sisyphus+353893.100.2.1 1722416845 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-serializinghtml-2.0.0-alt1 sisyphus+361088.100.1.1 1730215552 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinxcontrib-qthelp-2.0.0-alt1 sisyphus+353872.300.1.1 1722243619 installed
+<13>May 10 08:52:08 rpmi: python3-module-sphinx-sphinx-build-symlink-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 10 08:52:09 rpmi: python3-module-sphinx-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 10 08:52:09 rpmi: libqhull-2020.2-alt1 sisyphus+279488.100.1.2 1626573478 installed
+<13>May 10 08:52:09 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:52:09 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745385930 installed
+<13>May 10 08:52:09 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:52:09 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:52:09 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 08:52:10 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 08:52:10 rpmi: liblzf-3.6-alt2_32 sisyphus+381044.100.1.1 1744211167 installed
+<13>May 10 08:52:10 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745384016 installed
+<13>May 10 08:52:10 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388462 installed
+<13>May 10 08:52:10 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781690 installed
+<13>May 10 08:52:10 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605157 installed
+<13>May 10 08:52:10 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 08:52:10 rpmi: libimagequant-2.17.0-alt1_1 sisyphus+291138.100.1.1 1638394107 installed
+<13>May 10 08:52:10 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 08:52:10 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 08:52:10 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069374 installed
+<13>May 10 08:52:10 rpmi: python3-module-numpy-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965123 installed
+<13>May 10 08:52:10 rpmi: libdeflate-1.23-alt1 sisyphus+366443.100.2.1 1735140378 installed
+<13>May 10 08:52:10 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358946 installed
+<13>May 10 08:52:10 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:52:10 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:52:10 rpmi: libharfbuzz-11.2.0-alt1 sisyphus+382811.100.1.1 1745919820 installed
+<13>May 10 08:52:10 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221065 installed
+<13>May 10 08:52:10 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441073 installed
+<13>May 10 08:52:10 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577440 installed
+<13>May 10 08:52:10 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342009 installed
+<13>May 10 08:52:11 rpmi: python3-module-Pillow-11.2.1-alt1 sisyphus+376290.15240.24.2 1745389680 installed
+<13>May 10 08:52:11 rpmi: python3-module-mpl_toolkits-3.10.1-alt1 sisyphus+378673.100.1.1 1742470083 installed
+<13>May 10 08:52:11 rpmi: python3-module-matplotlib-3.10.1-alt1 sisyphus+378673.100.1.1 1742470083 installed
+<13>May 10 08:52:11 rpmi: python3-module-h5py-3.13.0-alt1 sisyphus+375369.100.1.1 1739976701 installed
+<13>May 10 08:52:11 rpmi: python3-module-numpy-testing-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965123 installed
+<13>May 10 08:52:12 rpmi: python3-module-scipy-1.11.4-alt4 sisyphus+379420.300.4.1 1743594700 installed
+<13>May 10 08:52:12 rpmi: python3-module-setuptools-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 08:52:12 rpmi: python3-module-sphinx_rtd_theme-3.0.2-alt1 sisyphus+362579.100.1.1 1731658710 installed
+<13>May 10 08:52:12 rpmi: python3-module-pytest-8.3.5-alt1 sisyphus+376824.100.2.1 1741167719 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/python3-module-hdf5storage-0.2-alt1.1.nosrc.rpm (w1.gzdio)
+<13>May 10 08:52:15 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+Installing python3-module-hdf5storage-0.2-alt1.1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.4123
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf python3-module-hdf5storage-0.2
++ echo 'Source #0 (python3-module-hdf5storage-0.2.tar):'
+Source #0 (python3-module-hdf5storage-0.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/python3-module-hdf5storage-0.2.tar
++ cd python3-module-hdf5storage-0.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.6614
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-hdf5storage-0.2
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+DEBUG    : pyproject_installer.lib.build_backend : Parsing configuration file: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/pyproject.toml
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib/python3/site-packages/setuptools/config/pyprojecttoml.py:72: _ExperimentalConfiguration: `[tool.distutils]` in `pyproject.toml` is still *experimental* and likely to change in future releases.
+  config = read_configuration(filepath, True, ignore_option_errors, dist)
+INFO     : root : running bdist_wheel
+/usr/lib/python3/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+!!
+
+        ********************************************************************************
+        With Python 2.7 end-of-life, support for building universal wheels
+        (i.e., wheels that support both Python 2 and Python 3)
+        is being obviated.
+        Please discontinue using this option, or if you still need it,
+        file an issue with pypa/setuptools describing your use case.
+
+        By 2025-Aug-30, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+        ********************************************************************************
+
+!!
+  self.finalize_options()
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/utilities.py -> build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/plugins.py -> build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/pathesc.py -> build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/exceptions.py -> build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/__init__.py -> build/lib/hdf5storage
+INFO     : root : copying src/hdf5storage/Marshallers.py -> build/lib/hdf5storage
+INFO     : root : running egg_info
+INFO     : root : creating src/hdf5storage.egg-info
+INFO     : root : writing src/hdf5storage.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to src/hdf5storage.egg-info/dependency_links.txt
+INFO     : root : writing requirements to src/hdf5storage.egg-info/requires.txt
+INFO     : root : writing top-level names to src/hdf5storage.egg-info/top_level.txt
+INFO     : root : writing manifest file 'src/hdf5storage.egg-info/SOURCES.txt'
+INFO     : root : reading manifest file 'src/hdf5storage.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : warning: no files found matching '*.py'
+WARNING  : root : no previously-included directories found matching 'doc/build'
+INFO     : root : adding license file 'COPYING.txt'
+INFO     : root : writing manifest file 'src/hdf5storage.egg-info/SOURCES.txt'
+INFO     : root : installing to build/bdist.linux-i686/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-i686/wheel
+INFO     : root : creating build/bdist.linux-i686/wheel/hdf5storage
+INFO     : root : copying build/lib/hdf5storage/Marshallers.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : copying build/lib/hdf5storage/__init__.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : copying build/lib/hdf5storage/exceptions.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : copying build/lib/hdf5storage/pathesc.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : copying build/lib/hdf5storage/plugins.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : copying build/lib/hdf5storage/utilities.py -> build/bdist.linux-i686/wheel/./hdf5storage
+INFO     : root : running install_egg_info
+INFO     : root : Copying src/hdf5storage.egg-info to build/bdist.linux-i686/wheel/./hdf5storage-0.2-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-i686/wheel/hdf5storage-0.2.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist/.tmp-tn4m0m10/hdf5storage-0.2-py2.py3-none-any.whl' and adding 'build/bdist.linux-i686/wheel' to it
+INFO     : wheel : adding 'hdf5storage/Marshallers.py'
+INFO     : wheel : adding 'hdf5storage/__init__.py'
+INFO     : wheel : adding 'hdf5storage/exceptions.py'
+INFO     : wheel : adding 'hdf5storage/pathesc.py'
+INFO     : wheel : adding 'hdf5storage/plugins.py'
+INFO     : wheel : adding 'hdf5storage/utilities.py'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/COPYING.txt'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/METADATA'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/WHEEL'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/top_level.txt'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/zip-safe'
+INFO     : wheel : adding 'hdf5storage-0.2.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-i686/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: hdf5storage-0.2-py2.py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.6614
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-hdf5storage-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-hdf5storage-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd python3-module-hdf5storage-0.2
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-hdf5storage-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: hdf5storage-0.2-py2.py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-hdf5storage-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: hdf5storage-0.2.dist-info/COPYING.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: hdf5storage-0.2.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: hdf5storage-0.2.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: hdf5storage-0.2.dist-info/zip-safe
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: hdf5storage-0.2.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ sed -i 's|sphinx-build|sphinx-build-3|' doc/Makefile
++ export PYTHONPATH=/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2
++ PYTHONPATH=/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2
++ make -C doc pickle
+make: Entering directory '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc'
+Running Sphinx v8.2.1
+loading translations [en]... done
+making output directory... done
+WARNING: html_static_path entry '_static' does not exist
+loading intersphinx inventory 'python' from http://docs.python.org/3/objects.inv ...
+loading intersphinx inventory 'numpy' from http://docs.scipy.org/doc/numpy/objects.inv ...
+loading intersphinx inventory 'scipy' from http://docs.scipy.org/doc/scipy/reference/objects.inv ...
+loading intersphinx inventory 'h5py' from http://docs.h5py.org/en/latest/objects.inv ...
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.python.org/3/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.python.org', port=80): Max retries exceeded with url: /3/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5992810>: Failed to resolve 'docs.python.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.h5py.org/en/latest/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.h5py.org', port=80): Max retries exceeded with url: /en/latest/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5992b58>: Failed to resolve 'docs.h5py.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.scipy.org/doc/numpy/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.scipy.org', port=80): Max retries exceeded with url: /doc/numpy/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5992660>: Failed to resolve 'docs.scipy.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.scipy.org/doc/scipy/reference/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.scipy.org', port=80): Max retries exceeded with url: /doc/scipy/reference/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5992288>: Failed to resolve 'docs.scipy.org' ([Errno -3] Temporary failure in name resolution)"))
+[autosummary] generating autosummary for: api_for_plugins_developers.rst, api_for_users.rst, compression.rst, development.rst, hdf5storage.Marshallers.rst, hdf5storage.exceptions.rst, hdf5storage.pathesc.rst, hdf5storage.plugins.rst, hdf5storage.rst, hdf5storage.utilities.rst, index.rst, information.rst, introduction.rst, paths.rst, storage_format.rst, thanks.rst
+WARNING: Failed to import hdf5storage.Marshallers.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: Failed to import hdf5storage.plugins.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: Failed to import hdf5storage.exceptions.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: Failed to import hdf5storage.pathesc.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: Failed to import hdf5storage.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: Failed to import hdf5storage.utilities.
+Possible hints:
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [pickle]: targets for 16 source files that are out of date
+updating environment: [new config] 16 added, 0 changed, 0 removed
+reading sources... [  6%] api_for_plugins_developers
+reading sources... [ 12%] api_for_users
+reading sources... [ 19%] compression
+reading sources... [ 25%] development
+reading sources... [ 31%] hdf5storage
+reading sources... [ 38%] hdf5storage.Marshallers
+reading sources... [ 44%] hdf5storage.exceptions
+reading sources... [ 50%] hdf5storage.pathesc
+reading sources... [ 56%] hdf5storage.plugins
+reading sources... [ 62%] hdf5storage.utilities
+reading sources... [ 69%] index
+reading sources... [ 75%] information
+reading sources... [ 81%] introduction
+reading sources... [ 88%] paths
+reading sources... [ 94%] storage_format
+reading sources... [100%] thanks
+
+WARNING: autodoc: failed to import module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import write.
+Possible hints:
+* KeyError: 'write'
+* ModuleNotFoundError: No module named 'write'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import writes.
+Possible hints:
+* ModuleNotFoundError: No module named 'writes'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'writes'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import read.
+Possible hints:
+* ModuleNotFoundError: No module named 'read'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'read'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import reads.
+Possible hints:
+* KeyError: 'reads'
+* ModuleNotFoundError: No module named 'reads'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import savemat.
+Possible hints:
+* KeyError: 'savemat'
+* ModuleNotFoundError: No module named 'savemat'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import loadmat.
+Possible hints:
+* ModuleNotFoundError: No module named 'loadmat'
+* KeyError: 'loadmat'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import get_default_marshaller_collection.
+Possible hints:
+* ModuleNotFoundError: No module named 'get_default_marshaller_collection'
+* KeyError: 'get_default_marshaller_collection'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import make_new_default_marshaller_collection.
+Possible hints:
+* ModuleNotFoundError: No module named 'make_new_default_marshaller_collection'
+* KeyError: 'make_new_default_marshaller_collection'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import File.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'File'
+* ModuleNotFoundError: No module named 'File'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import Options.
+Possible hints:
+* ModuleNotFoundError: No module named 'Options'
+* KeyError: 'Options'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import MarshallerCollection.
+Possible hints:
+* KeyError: 'MarshallerCollection'
+* ModuleNotFoundError: No module named 'MarshallerCollection'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import function 'write' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'writes' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'read' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'reads' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'savemat' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'loadmat' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'get_default_marshaller_collection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'make_new_default_marshaller_collection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'File' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Options' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'MarshallerCollection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'Marshallers' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:12: WARNING: Could not import class or module 'hdf5storage.Marshallers' specified for inheritance diagram [docutils]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import TypeMarshaller.
+Possible hints:
+* KeyError: 'TypeMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'TypeMarshaller'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import NumpyScalarArrayMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'NumpyScalarArrayMarshaller'
+* KeyError: 'NumpyScalarArrayMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import NumpyDtypeMarshaller.
+Possible hints:
+* KeyError: 'NumpyDtypeMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'NumpyDtypeMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonScalarMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonScalarMarshaller'
+* KeyError: 'PythonScalarMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonStringMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonStringMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonStringMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonNoneEllipsisNotImplementedMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonNoneEllipsisNotImplementedMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonNoneEllipsisNotImplementedMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonDictMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonDictMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'PythonDictMarshaller'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonCounterMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonCounterMarshaller'
+* KeyError: 'PythonCounterMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonSliceRangeMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonSliceRangeMarshaller'
+* KeyError: 'PythonSliceRangeMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonDatetimeObjsMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonDatetimeObjsMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonDatetimeObjsMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonFractionMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonFractionMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonFractionMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonListMarshaller.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'PythonListMarshaller'
+* KeyError: 'hdf5storage'
+* KeyError: 'PythonListMarshaller'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonTupleSetDequeMarshaller.
+Possible hints:
+* KeyError: 'PythonTupleSetDequeMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'PythonTupleSetDequeMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonChainMapMarshaller.
+Possible hints:
+* KeyError: 'PythonChainMapMarshaller'
+* ModuleNotFoundError: No module named 'PythonChainMapMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import class 'Marshallers.TypeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.NumpyScalarArrayMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.NumpyDtypeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonScalarMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonStringMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonNoneEllipsisNotImplementedMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonDictMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonCounterMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonSliceRangeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonDatetimeObjsMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonFractionMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonListMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonTupleSetDequeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonChainMapMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'exceptions' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import Hdf5storageError.
+Possible hints:
+* KeyError: 'Hdf5storageError'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'Hdf5storageError'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import CantReadError.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'CantReadError'
+* KeyError: 'hdf5storage'
+* KeyError: 'CantReadError'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import TypeNotMatlabCompatibleError.
+Possible hints:
+* ModuleNotFoundError: No module named 'TypeNotMatlabCompatibleError'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'TypeNotMatlabCompatibleError'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import exception 'exceptions.Hdf5storageError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import exception 'exceptions.CantReadError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import exception 'exceptions.TypeNotMatlabCompatibleError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'pathesc' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import escape_path.
+Possible hints:
+* ModuleNotFoundError: No module named 'escape_path'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'escape_path'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import process_path.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'process_path'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'process_path'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import unescape_path.
+Possible hints:
+* ModuleNotFoundError: No module named 'unescape_path'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'unescape_path'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import function 'pathesc.escape_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'pathesc.process_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'pathesc.unescape_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'plugins' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.plugins.rst:8: WARNING: autosummary: failed to import find_thirdparty_marshaller_plugins.
+Possible hints:
+* ModuleNotFoundError: No module named 'find_thirdparty_marshaller_plugins'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'find_thirdparty_marshaller_plugins'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.plugins.rst:8: WARNING: autosummary: failed to import supported_marshaller_api_versions.
+Possible hints:
+* KeyError: 'supported_marshaller_api_versions'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'supported_marshaller_api_versions'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import function 'plugins.find_thirdparty_marshaller_plugins' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'plugins.supported_marshaller_api_versions' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'utilities' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import LowLevelFile.
+Possible hints:
+* ModuleNotFoundError: No module named 'LowLevelFile'
+* KeyError: 'LowLevelFile'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import does_dtype_have_a_zero_shape.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'does_dtype_have_a_zero_shape'
+* ModuleNotFoundError: No module named 'does_dtype_have_a_zero_shape'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_dtype_to_str.
+Possible hints:
+* KeyError: 'convert_dtype_to_str'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_dtype_to_str'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_numpy_str_to_uint16.
+Possible hints:
+* KeyError: 'convert_numpy_str_to_uint16'
+* ModuleNotFoundError: No module named 'convert_numpy_str_to_uint16'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_numpy_str_to_uint32.
+Possible hints:
+* ModuleNotFoundError: No module named 'convert_numpy_str_to_uint32'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_numpy_str_to_uint32'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_str.
+Possible hints:
+* ModuleNotFoundError: No module named 'convert_to_str'
+* KeyError: 'convert_to_str'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_numpy_str.
+Possible hints:
+* KeyError: 'convert_to_numpy_str'
+* ModuleNotFoundError: No module named 'convert_to_numpy_str'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_numpy_bytes.
+Possible hints:
+* ModuleNotFoundError: No module named 'convert_to_numpy_bytes'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'convert_to_numpy_bytes'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import decode_complex.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'decode_complex'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+* KeyError: 'decode_complex'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import encode_complex.
+Possible hints:
+* KeyError: 'encode_complex'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'encode_complex'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_attribute_to_string.
+Possible hints:
+* ModuleNotFoundError: No module named 'convert_attribute_to_string'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_attribute_to_string'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_attribute_to_string_array.
+Possible hints:
+* ModuleNotFoundError: No module named 'convert_attribute_to_string_array'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_attribute_to_string_array'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import read_all_attributes_into.
+Possible hints:
+* KeyError: 'read_all_attributes_into'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'read_all_attributes_into'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import set_attributes_all.
+Possible hints:
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'set_attributes_all'
+* KeyError: 'set_attributes_all'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'hdf5storage'
+WARNING: autodoc: failed to import class 'utilities.LowLevelFile' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.does_dtype_have_a_zero_shape' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_dtype_to_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_numpy_str_to_uint16' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_numpy_str_to_uint32' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_numpy_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_numpy_bytes' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.decode_complex' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.encode_complex' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_attribute_to_string' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_attribute_to_string_array' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.read_all_attributes_into' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.set_attributes_all' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst: document is referenced in multiple toctrees: ['api_for_plugins_developers', 'api_for_users'], selecting: api_for_users <- hdf5storage.exceptions
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst: document is referenced in multiple toctrees: ['api_for_plugins_developers', 'api_for_users'], selecting: api_for_users <- hdf5storage.pathesc
+done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/pickle/_static/language_data.js
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/pickle/_static/documentation_options.js
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/pickle/_static/basic.css
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/pickle/_static/js/versions.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  6%] api_for_plugins_developers
+writing output... [ 12%] api_for_users
+writing output... [ 19%] compression
+writing output... [ 25%] development
+writing output... [ 31%] hdf5storage
+writing output... [ 38%] hdf5storage.Marshallers
+writing output... [ 44%] hdf5storage.exceptions
+writing output... [ 50%] hdf5storage.pathesc
+writing output... [ 56%] hdf5storage.plugins
+writing output... [ 62%] hdf5storage.utilities
+writing output... [ 69%] index
+writing output... [ 75%] information
+writing output... [ 81%] introduction
+writing output... [ 88%] paths
+writing output... [ 94%] storage_format
+writing output... [100%] thanks
+
+generating indices... genindex done
+highlighting module code... 
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 112 warnings.
+
+You can now process the pickle files in build/pickle.
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc'
++ make -C doc html
+make: Entering directory '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc'
+Running Sphinx v8.2.1
+loading translations [en]... done
+making output directory... done
+WARNING: html_static_path entry '_static' does not exist
+loading pickled environment... The configuration has changed (2 options: 'html_permalinks_icon', 'jquery_use_sri')
+done
+loading intersphinx inventory 'python' from http://docs.python.org/3/objects.inv ...
+loading intersphinx inventory 'numpy' from http://docs.scipy.org/doc/numpy/objects.inv ...
+loading intersphinx inventory 'scipy' from http://docs.scipy.org/doc/scipy/reference/objects.inv ...
+loading intersphinx inventory 'h5py' from http://docs.h5py.org/en/latest/objects.inv ...
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.python.org/3/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.python.org', port=80): Max retries exceeded with url: /3/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5923b58>: Failed to resolve 'docs.python.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.scipy.org/doc/numpy/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.scipy.org', port=80): Max retries exceeded with url: /doc/numpy/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5923288>: Failed to resolve 'docs.scipy.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.scipy.org/doc/scipy/reference/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.scipy.org', port=80): Max retries exceeded with url: /doc/scipy/reference/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf5923618>: Failed to resolve 'docs.scipy.org' ([Errno -3] Temporary failure in name resolution)"))
+WARNING: failed to reach any of the inventories with the following issues:
+intersphinx inventory 'http://docs.h5py.org/en/latest/objects.inv' not fetchable due to <class 'requests.exceptions.ConnectionError'>: HTTPConnectionPool(host='docs.h5py.org', port=80): Max retries exceeded with url: /en/latest/objects.inv (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0xf59238e8>: Failed to resolve 'docs.h5py.org' ([Errno -3] Temporary failure in name resolution)"))
+[autosummary] generating autosummary for: api_for_plugins_developers.rst, api_for_users.rst, compression.rst, development.rst, hdf5storage.Marshallers.rst, hdf5storage.exceptions.rst, hdf5storage.pathesc.rst, hdf5storage.plugins.rst, hdf5storage.rst, hdf5storage.utilities.rst, index.rst, information.rst, introduction.rst, paths.rst, storage_format.rst, thanks.rst
+WARNING: Failed to import hdf5storage.pathesc.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+WARNING: Failed to import hdf5storage.plugins.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+WARNING: Failed to import hdf5storage.exceptions.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+WARNING: Failed to import hdf5storage.Marshallers.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+WARNING: Failed to import hdf5storage.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+WARNING: Failed to import hdf5storage.utilities.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* KeyError: 'hdf5storage'
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 16 source files that are out of date
+updating environment: 0 added, 6 changed, 0 removed
+reading sources... [ 17%] hdf5storage
+reading sources... [ 33%] hdf5storage.Marshallers
+reading sources... [ 50%] hdf5storage.exceptions
+reading sources... [ 67%] hdf5storage.pathesc
+reading sources... [ 83%] hdf5storage.plugins
+reading sources... [100%] hdf5storage.utilities
+
+WARNING: autodoc: failed to import module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import write.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'write'
+* KeyError: 'hdf5storage'
+* KeyError: 'write'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import writes.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'writes'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'writes'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import read.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'read'
+* ModuleNotFoundError: No module named 'read'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import reads.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'reads'
+* KeyError: 'reads'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import savemat.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'savemat'
+* KeyError: 'savemat'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import loadmat.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'loadmat'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'loadmat'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import get_default_marshaller_collection.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'get_default_marshaller_collection'
+* KeyError: 'get_default_marshaller_collection'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import make_new_default_marshaller_collection.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'make_new_default_marshaller_collection'
+* ModuleNotFoundError: No module named 'make_new_default_marshaller_collection'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import File.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'File'
+* KeyError: 'hdf5storage'
+* KeyError: 'File'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import Options.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'Options'
+* KeyError: 'Options'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.rst:8: WARNING: autosummary: failed to import MarshallerCollection.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'MarshallerCollection'
+* ModuleNotFoundError: No module named 'MarshallerCollection'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import function 'write' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'writes' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'read' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'reads' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'savemat' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'loadmat' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'get_default_marshaller_collection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'make_new_default_marshaller_collection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'File' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Options' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'MarshallerCollection' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'Marshallers' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:12: WARNING: Could not import class or module 'hdf5storage.Marshallers' specified for inheritance diagram [docutils]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import TypeMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'TypeMarshaller'
+* ModuleNotFoundError: No module named 'TypeMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import NumpyScalarArrayMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'NumpyScalarArrayMarshaller'
+* ModuleNotFoundError: No module named 'NumpyScalarArrayMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import NumpyDtypeMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'NumpyDtypeMarshaller'
+* KeyError: 'hdf5storage'
+* KeyError: 'NumpyDtypeMarshaller'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonScalarMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'PythonScalarMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonScalarMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonStringMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'PythonStringMarshaller'
+* KeyError: 'PythonStringMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonNoneEllipsisNotImplementedMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonNoneEllipsisNotImplementedMarshaller'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'PythonNoneEllipsisNotImplementedMarshaller'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonDictMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonDictMarshaller'
+* ModuleNotFoundError: No module named 'PythonDictMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonCounterMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonCounterMarshaller'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonCounterMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonSliceRangeMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonSliceRangeMarshaller'
+* ModuleNotFoundError: No module named 'PythonSliceRangeMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonDatetimeObjsMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'PythonDatetimeObjsMarshaller'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonDatetimeObjsMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonFractionMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'PythonFractionMarshaller'
+* KeyError: 'PythonFractionMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonListMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'PythonListMarshaller'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonListMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonTupleSetDequeMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'PythonTupleSetDequeMarshaller'
+* KeyError: 'PythonTupleSetDequeMarshaller'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.Marshallers.rst:16: WARNING: autosummary: failed to import PythonChainMapMarshaller.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'PythonChainMapMarshaller'
+* ModuleNotFoundError: No module named 'PythonChainMapMarshaller'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import class 'Marshallers.TypeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.NumpyScalarArrayMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.NumpyDtypeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonScalarMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonStringMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonNoneEllipsisNotImplementedMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonDictMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonCounterMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonSliceRangeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonDatetimeObjsMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonFractionMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonListMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonTupleSetDequeMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import class 'Marshallers.PythonChainMapMarshaller' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'exceptions' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import Hdf5storageError.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'Hdf5storageError'
+* KeyError: 'hdf5storage'
+* ModuleNotFoundError: No module named 'Hdf5storageError'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import CantReadError.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'CantReadError'
+* KeyError: 'hdf5storage'
+* KeyError: 'CantReadError'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst:8: WARNING: autosummary: failed to import TypeNotMatlabCompatibleError.
+Possible hints:
+* KeyError: 'TypeNotMatlabCompatibleError'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'TypeNotMatlabCompatibleError'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import exception 'exceptions.Hdf5storageError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import exception 'exceptions.CantReadError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import exception 'exceptions.TypeNotMatlabCompatibleError' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'pathesc' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import escape_path.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'escape_path'
+* KeyError: 'escape_path'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import process_path.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ModuleNotFoundError: No module named 'process_path'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'process_path'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst:8: WARNING: autosummary: failed to import unescape_path.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'unescape_path'
+* ModuleNotFoundError: No module named 'unescape_path'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import function 'pathesc.escape_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'pathesc.process_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'pathesc.unescape_path' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'plugins' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.plugins.rst:8: WARNING: autosummary: failed to import find_thirdparty_marshaller_plugins.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'find_thirdparty_marshaller_plugins'
+* KeyError: 'find_thirdparty_marshaller_plugins'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.plugins.rst:8: WARNING: autosummary: failed to import supported_marshaller_api_versions.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'supported_marshaller_api_versions'
+* KeyError: 'supported_marshaller_api_versions'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import function 'plugins.find_thirdparty_marshaller_plugins' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'plugins.supported_marshaller_api_versions' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import module 'utilities' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import LowLevelFile.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'LowLevelFile'
+* KeyError: 'hdf5storage'
+* KeyError: 'LowLevelFile'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import does_dtype_have_a_zero_shape.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'does_dtype_have_a_zero_shape'
+* ModuleNotFoundError: No module named 'does_dtype_have_a_zero_shape'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_dtype_to_str.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_dtype_to_str'
+* ModuleNotFoundError: No module named 'convert_dtype_to_str'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_numpy_str_to_uint16.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_numpy_str_to_uint16'
+* ModuleNotFoundError: No module named 'convert_numpy_str_to_uint16'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_numpy_str_to_uint32.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'convert_numpy_str_to_uint32'
+* ModuleNotFoundError: No module named 'convert_numpy_str_to_uint32'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_str.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_to_str'
+* KeyError: 'convert_to_str'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_numpy_str.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_to_numpy_str'
+* KeyError: 'convert_to_numpy_str'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_to_numpy_bytes.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_to_numpy_bytes'
+* KeyError: 'convert_to_numpy_bytes'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import decode_complex.
+Possible hints:
+* KeyError: 'decode_complex'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'decode_complex'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import encode_complex.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'encode_complex'
+* ModuleNotFoundError: No module named 'encode_complex'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_attribute_to_string.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_attribute_to_string'
+* KeyError: 'hdf5storage'
+* KeyError: 'convert_attribute_to_string'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import convert_attribute_to_string_array.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'convert_attribute_to_string_array'
+* KeyError: 'hdf5storage'
+* KeyError: 'convert_attribute_to_string_array'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import read_all_attributes_into.
+Possible hints:
+* KeyError: 'read_all_attributes_into'
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* ModuleNotFoundError: No module named 'read_all_attributes_into'
+* KeyError: 'hdf5storage'
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.utilities.rst:8: WARNING: autosummary: failed to import set_attributes_all.
+Possible hints:
+* ModuleNotFoundError: No module named 'hdf5storage'
+* ValueError: not enough values to unpack (expected 2, got 1)
+* KeyError: 'set_attributes_all'
+* ModuleNotFoundError: No module named 'set_attributes_all'
+* KeyError: 'hdf5storage'
+WARNING: autodoc: failed to import class 'utilities.LowLevelFile' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.does_dtype_have_a_zero_shape' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_dtype_to_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_numpy_str_to_uint16' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_numpy_str_to_uint32' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_numpy_str' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_to_numpy_bytes' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.decode_complex' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.encode_complex' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_attribute_to_string' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.convert_attribute_to_string_array' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.read_all_attributes_into' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+WARNING: autodoc: failed to import function 'utilities.set_attributes_all' from module 'hdf5storage'; the following exception was raised:
+['Traceback (most recent call last):\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 269, in import_object\n    module = import_module(modname, try_reload=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "/usr/lib/python3/site-packages/sphinx/ext/autodoc/importer.py", line 172, in import_module\n    raise ModuleNotFoundError(msg, name=modname)  # NoQA: TRY301\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', "ModuleNotFoundError: No module named 'hdf5storage'\n"] [autodoc.import_object]
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.exceptions.rst: document is referenced in multiple toctrees: ['api_for_plugins_developers', 'api_for_users'], selecting: api_for_users <- hdf5storage.exceptions
+/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/source/hdf5storage.pathesc.rst: document is referenced in multiple toctrees: ['api_for_plugins_developers', 'api_for_users'], selecting: api_for_users <- hdf5storage.pathesc
+done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/html/_static/language_data.js
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/html/_static/documentation_options.js
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/html/_static/basic.css
+Writing evaluated template result to /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc/build/html/_static/js/versions.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  6%] api_for_plugins_developers
+writing output... [ 12%] api_for_users
+writing output... [ 19%] compression
+writing output... [ 25%] development
+writing output... [ 31%] hdf5storage
+writing output... [ 38%] hdf5storage.Marshallers
+writing output... [ 44%] hdf5storage.exceptions
+writing output... [ 50%] hdf5storage.pathesc
+writing output... [ 56%] hdf5storage.plugins
+writing output... [ 62%] hdf5storage.utilities
+writing output... [ 69%] index
+writing output... [ 75%] information
+writing output... [ 81%] introduction
+writing output... [ 88%] paths
+writing output... [ 94%] storage_format
+writing output... [100%] thanks
+
+generating indices... genindex done
+highlighting module code... 
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 112 warnings.
+
+The HTML pages are in build/html.
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/doc'
++ cp -fR doc/build/pickle /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-hdf5storage-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-hdf5storage-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-hdf5storage-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-hdf5storage-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-hdf5storage-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-hdf5storage-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-hdf5storage-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-hdf5storage-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/Marshallers.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/__init__.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/exceptions.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/pathesc.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/plugins.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/utilities.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-hdf5storage-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/Marshallers.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/__init__.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/exceptions.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/pathesc.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/plugins.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/utilities.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-hdf5storage-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/Marshallers.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/__init__.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/exceptions.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/pathesc.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/plugins.py
+compile /usr/src/tmp/python3-module-hdf5storage-buildroot/usr/lib/python3/site-packages/hdf5storage/utilities.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/Marshallers.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/Marshallers.cpython-312.pyc'
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/exceptions.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/exceptions.cpython-312.pyc'
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/pathesc.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/pathesc.cpython-312.pyc'
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/plugins.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/plugins.cpython-312.pyc'
+'./usr/lib/python3/site-packages/hdf5storage/__pycache__/utilities.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/hdf5storage/__pycache__/utilities.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.2916
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-hdf5storage-0.2
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ /usr/bin/python3 -m pyproject_installer run -- python3 -m pytest -k 'not test_has_required_lazy'
+INFO     : Creating venv
+INFO     : Installing console scripts
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist/hdf5storage-0.2-py2.py3-none-any.whl
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/dist/hdf5storage-0.2-py2.py3-none-any.whl']
+INFO     : Running command: ['python3', '-m', 'pytest', '-k', 'not test_has_required_lazy']
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+rootdir: /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2
+configfile: pyproject.toml
+testpaths: tests
+collected 2452 items / 1 deselected / 2451 selected
+
+tests/test_dict_like_storage_methods.py ................................ [  1%]
+........................................................................ [  4%]
+........................................................................ [  7%]
+........................................................................ [ 10%]
+........................................................................ [ 13%]
+................                                                         [ 13%]
+tests/test_empty_matrix_matlab_metadata.py F.                            [ 13%]
+tests/test_hdf5_filters.py ............................................. [ 15%]
+........................................................................ [ 18%]
+........................................................................ [ 21%]
+........................................................................ [ 24%]
+........................................................................ [ 27%]
+........................................................................ [ 30%]
+........................................................................ [ 33%]
+...                                                                      [ 33%]
+tests/test_julia_mat_compatibility.py s                                  [ 33%]
+tests/test_marshaller_collection_priority.py ..............              [ 33%]
+tests/test_marshaller_plugins.py ..s                                     [ 34%]
+tests/test_marshallers_requiring_modules.py .......                      [ 34%]
+tests/test_matlab_compatibility.py s                                     [ 34%]
+tests/test_multi_io.py ..                                                [ 34%]
+tests/test_ndarray_O_field.py ...                                        [ 34%]
+tests/test_path_escaping.py ....................                         [ 35%]
+tests/test_str_conv_utils.py ....                                        [ 35%]
+tests/test_string_utf16_conversion.py ..                                 [ 35%]
+tests/test_write_readback.py ........................................... [ 37%]
+........................................................................ [ 40%]
+........................................................................ [ 43%]
+........................................................................ [ 46%]
+........................................................................ [ 49%]
+........................................................................ [ 52%]
+........................................................................ [ 55%]
+........................................................................ [ 58%]
+........................................................................ [ 60%]
+........................................................................ [ 63%]
+........................................................................ [ 66%]
+........................................................................ [ 69%]
+........................................................................ [ 72%]
+........................................................................ [ 75%]
+........................................................................ [ 78%]
+........................................................................ [ 81%]
+........................................................................ [ 84%]
+........................................................................ [ 87%]
+........................................................................ [ 90%]
+........................................................................ [ 93%]
+........................................................................ [ 96%]
+........................................................................ [ 99%]
+.....................                                                    [100%]
+
+=================================== FAILURES ===================================
+_______________________________ test_write_empty _______________________________
+
+    def test_write_empty():
+        for _ in range(10):
+            name = make_randoms.random_name()
+            shape = list(make_randoms.random_numpy_shape(random.randrange(2, 10), 20))
+            shape[random.randrange(len(shape))] = 0
+            shape = tuple(shape)
+            dtype = random.choice(make_randoms.dtypes)
+            while dtype in ("S", "U"):
+                dtype = random.choice(make_randoms.dtypes)
+>           data = make_randoms.random_numpy(shape, dtype)
+
+tests/test_empty_matrix_matlab_metadata.py:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+shape = (9, 13, 12, 15, 10, 17, ...), dtype = 'uint64', allow_nan = True
+allow_unicode = False, object_element_dtypes = None
+
+    def random_numpy(
+        shape,
+        dtype,
+        allow_nan=True,
+        allow_unicode=False,
+        object_element_dtypes=None,
+    ):
+        # Makes a random numpy array of the specified shape and dtype
+        # string. The method is slightly different depending on the
+        # type. For 'bytes', 'str', and 'object'; an array of the
+        # specified size is made and then each element is set to either
+        # a numpy.bytes_, numpy.str_, or some other object of any type
+        # (here, it is a randomly typed random numpy array). If it is
+        # any other type, then it is just a matter of constructing the
+        # right sized ndarray from a random sequence of bytes (all must
+        # be forced to 0 and 1 for bool). Optionally include unicode
+        # characters. Optionally, for object dtypes, the allowed dtypes for
+        # their elements can be given.
+        if dtype == "S":
+            length = random.randint(1, max_string_length)
+            data = np.zeros(shape=shape, dtype="S" + str(length))
+            for index, _ in np.ndenumerate(data):
+                if allow_unicode:
+                    chars = random_bytes_fullrange(length)
+                else:
+                    chars = random_bytes(length)
+                data[index] = np.bytes_(chars)
+            return data
+        if dtype == "U":
+            length = random.randint(1, max_string_length)
+            data = np.zeros(shape=shape, dtype="U" + str(length))
+            for index, _ in np.ndenumerate(data):
+                if allow_unicode:
+                    chars = random_str_some_unicode(length)
+                else:
+                    chars = random_str_ascii(length)
+                data[index] = np.unicode_(chars)
+            return data
+        if dtype == "object":
+            if object_element_dtypes is None:
+                object_element_dtypes = dtypes
+            data = np.zeros(shape=shape, dtype="object")
+            for index, _ in np.ndenumerate(data):
+                data[index] = random_numpy(
+                    shape=random_numpy_shape(
+                        object_subarray_dimensions,
+                        max_object_subarray_axis_length,
+                    ),
+                    dtype=random.choice(object_element_dtypes),
+                )
+            return data
+        nbytes = np.ndarray(shape=(1,), dtype=dtype).nbytes
+        bts = np.random.bytes(nbytes * np.prod(shape))
+        if dtype == "bool":
+            bts = b"".join([{True: b"\x01", False: b"\x00"}[ch > 127] for ch in bts])
+>       data = np.ndarray(shape=shape, dtype=dtype, buffer=bts)
+E       ValueError: array is too big; `arr.size * arr.dtype.itemsize` is larger than the maximum possible size.
+
+tests/make_randoms.py:180: ValueError
+=============================== warnings summary ===============================
+../../../../lib/python3/site-packages/h5py/__init__.py:36
+  /usr/lib/python3/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 1.14.6 when it was built against 1.14.5, this may cause problems
+    _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+
+.run_venv/lib/python3/site-packages/hdf5storage/plugins.py:31
+  /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/.run_venv/lib/python3/site-packages/hdf5storage/plugins.py:31: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    import pkg_resources
+
+tests/test_dict_like_storage_methods.py: 168 warnings
+tests/test_julia_mat_compatibility.py: 1 warning
+tests/test_multi_io.py: 8 warnings
+tests/test_write_readback.py: 1740 warnings
+  /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/.run_venv/lib/python3/site-packages/hdf5storage/__init__.py:1705: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = datetime.datetime.utcnow()
+
+tests/test_marshallers_requiring_modules.py::test_missing_required_parent
+tests/test_marshallers_requiring_modules.py::test_has_required_non_lazy
+tests/test_marshallers_requiring_modules.py::test_marshaller_read_approximate_missing_parent
+  /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/.run_venv/lib/python3/site-packages/hdf5storage/__init__.py:1219: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if name not in sys.modules and pkgutil.find_loader(name) is None:
+
+tests/test_write_readback.py::test_dict_like_other_type_key[PythonMatlab-dict-numpy.bytes_]
+  /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/.run_venv/lib/python3/site-packages/hdf5storage/utilities.py:1274: RuntimeWarning: invalid value encountered in cast
+    cdata = real.astype(cdtype)
+
+tests/test_write_readback.py::test_float_nan[Matlab]
+  /usr/src/RPM/BUILD/python3-module-hdf5storage-0.2/tests/test_write_readback.py:748: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+    assert math.isnan(out)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_empty_matrix_matlab_metadata.py::test_write_empty - ValueEr...
+=== 1 failed, 2447 passed, 3 skipped, 1 deselected, 1924 warnings in 17.48s ====
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_has_required_lazy']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2916 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.2916 (%check)
+Command exited with non-zero status 1
+20.55user 1.74system 0:21.96elapsed 101%CPU (0avgtext+0avgdata 73544maxresident)k
+0inputs+0outputs (0major+124802minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-hdf5storage-0.2-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+4.82user 3.15system 0:40.02elapsed 19%CPU (0avgtext+0avgdata 133188maxresident)k
+2032inputs+0outputs (0major+360490minor)pagefaults 0swaps

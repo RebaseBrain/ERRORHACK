@@ -1,0 +1,224 @@
+# call created
+# call established
+# call cleaned up
+# received=466 lost=0 expect ca. 467.5 packets, events='1 2 D # 3 4 B *'
+t/19_call_with_dtmf.t ................... ok
+t/20_channel_on_hold.t .................. ok
+t/21_channel_on_hold_stateless_proxy.t .. ok
+t/21_channel_on_hold_stateless_proxy.t .. ok
+t/22_stateless_proxy_ack_on_error.t ..... ok
+t/22_stateless_proxy_ack_on_error.t ..... ok
+t/23_valid_message.t .................... ok
+t/23_valid_message.t .................... ok
+
+
+#   Failed test 'DTMF audio generator and extractor for codec pcmu works'
+#   Failed test 'DTMF audio generator and extractor for codec pcmu works'
+#   at t/24_dtmf_audio.t line 24.
+#   at t/24_dtmf_audio.t line 24.
+#   at t/24_dtmf_audio.t line 24.
+#     Structures begin differing at:
+#     Structures begin differing at:
+#     Structures begin differing at:
+#          $got->[3] = '4'
+#          $got->[3] = '4'
+#          $got->[3] = '4'
+#     $expected->[3] = '3'
+#     $expected->[3] = '3'
+#     $expected->[3] = '3'
+#     $expected->[3] = '3'
+
+
+
+
+#   Failed test 'DTMF audio generator and extractor for codec pcma works'
+#   Failed test 'DTMF audio generator and extractor for codec pcma works'
+#   Failed test 'DTMF audio generator and extractor for codec pcma works'
+#   Failed test 'DTMF audio generator and extractor for codec pcma works'
+#   at t/24_dtmf_audio.t line 24.
+#   at t/24_dtmf_audio.t line 24.
+#   at t/24_dtmf_audio.t line 24.
+#   at t/24_dtmf_audio.t line 24.
+#     Structures begin differing at:
+#     Structures begin differing at:
+#     Structures begin differing at:
+#     Structures begin differing at:
+#          $got->[5] = '7'
+#          $got->[5] = '7'
+#          $got->[5] = '7'
+#          $got->[5] = '7'
+#     $expected->[5] = '5'
+#     $expected->[5] = '5'
+#     $expected->[5] = '5'
+#     $expected->[5] = '5'
+#     $expected->[5] = '5'
+# Looks like you failed 2 tests of 2.
+# Looks like you failed 2 tests of 2.
+# Looks like you failed 2 tests of 2.
+# Looks like you failed 2 tests of 2.
+# Looks like you failed 2 tests of 2.
+t/24_dtmf_audio.t ....................... 
+t/24_dtmf_audio.t ....................... 
+t/24_dtmf_audio.t ....................... 
+t/24_dtmf_audio.t ....................... 
+t/24_dtmf_audio.t ....................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/25_register_tcp_timeout.t ............. ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+t/26_request_ack.t ...................... ok
+
+
+
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/24_dtmf_audio.t                     (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Files=26, Tests=2000, 430 wallclock secs ( 0.53 usr  0.06 sys + 52.42 cusr  4.36 csys = 57.37 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 1/26 test programs. 2/2000 subtests failed.
+Failed 1/26 test programs. 2/2000 subtests failed.
+Failed 1/26 test programs. 2/2000 subtests failed.
+Failed 1/26 test programs. 2/2000 subtests failed.
+Failed 1/26 test programs. 2/2000 subtests failed.
+Failed 1/26 test programs. 2/2000 subtests failed.
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: *** [Makefile:829: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-SIP-0.838'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18404 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+53.73user 4.61system 7:12.04elapsed 13%CPU (0avgtext+0avgdata 24304maxresident)k
+53.73user 4.61system 7:12.04elapsed 13%CPU (0avgtext+0avgdata 24304maxresident)k
+53.73user 4.61system 7:12.04elapsed 13%CPU (0avgtext+0avgdata 24304maxresident)k
+53.73user 4.61system 7:12.04elapsed 13%CPU (0avgtext+0avgdata 24304maxresident)k
+53.73user 4.61system 7:12.04elapsed 13%CPU (0avgtext+0avgdata 24304maxresident)k
+0inputs+0outputs (0major+766100minor)pagefaults 0swaps
+0inputs+0outputs (0major+766100minor)pagefaults 0swaps
+0inputs+0outputs (0major+766100minor)pagefaults 0swaps
+0inputs+0outputs (0major+766100minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Net-SIP-0.838-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-SIP-0.838-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-SIP-0.838-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.47user 2.24system 7:26.50elapsed 1%CPU (0avgtext+0avgdata 133920maxresident)k
+6.47user 2.24system 7:26.50elapsed 1%CPU (0avgtext+0avgdata 133920maxresident)k
+1328inputs+0outputs (0major+204482minor)pagefaults 0swaps

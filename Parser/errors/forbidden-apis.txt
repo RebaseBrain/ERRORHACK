@@ -1,0 +1,77 @@
+Buildfile: /usr/src/RPM/BUILD/forbidden-apis-2.5/build.xml
+
+-install.ivy:
+
+-init:
+     [echo] Detected Java runtime major version: unknown
+     [echo] Java runtime: 11.0.27.1 / JVM: OpenJDK 64-Bit Server VM / Vendor: Red Hat, Inc. / OS: Linux (6.12.24-6.12-alt1)
+[ivy:resolve] impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+[ivy:resolve] :: Apache Ivy non official version -  :: https://ant.apache.org/ivy/ ::
+[ivy:resolve] :: loading settings :: file = /etc/ivy/ivysettings.xml
+[check-ivy] You have installed a different Apache Ivy version (non official version) in your ANT classpath than the expected one (2.3.0). The build may fail!
+
+compile:
+    [mkdir] Created dir: /usr/src/RPM/BUILD/forbidden-apis-2.5/build/main
+     [copy] Copying 33 files to /usr/src/RPM/BUILD/forbidden-apis-2.5/build/main
+    [javac] Compiling 25 source files to /usr/src/RPM/BUILD/forbidden-apis-2.5/build/main
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 6
+    [javac] warning: [options] source value 6 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.6 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] /usr/src/RPM/BUILD/forbidden-apis-2.5/src/main/java/de/thetaphi/forbiddenapis/maven/AbstractCheckMojo.java:22: warning: [deprecation] ArtifactFactory in org.apache.maven.artifact.factory has been deprecated
+     [exec] [INFO] ------------------------------------------------------------------------
+     [exec] [INFO] Total time:  0.194 s
+     [exec] [INFO] Finished at: 2025-05-16T02:22:19Z
+     [exec] [INFO] ------------------------------------------------------------------------
+     [exec] [ERROR] UndeclaredThrowableException: InvocationTargetException: Could not find goal 'report' in plugin org.apache.maven.plugins:maven-plugin-plugin:3.6.4 among available goals addPluginArtifactMetadata, descriptor, helpmojo
+     [exec] [ERROR] UndeclaredThrowableException: InvocationTargetException: Could not find goal 'report' in plugin org.apache.maven.plugins:maven-plugin-plugin:3.6.4 among available goals addPluginArtifactMetadata, descriptor, helpmojo
+     [exec] [ERROR] 
+     [exec] [ERROR] 
+     [exec] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+     [exec] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+     [exec] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+     [exec] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+     [exec] Result: 1
+     [exec] Result: 1
+
+
+BUILD FAILED
+BUILD FAILED
+/usr/src/RPM/BUILD/forbidden-apis-2.5/build.xml:288: srcdir "/usr/src/RPM/BUILD/forbidden-apis-2.5/build/maven/generated-sources/plugin" does not exist!
+/usr/src/RPM/BUILD/forbidden-apis-2.5/build.xml:288: srcdir "/usr/src/RPM/BUILD/forbidden-apis-2.5/build/maven/generated-sources/plugin" does not exist!
+
+
+
+Total time: 2 seconds
+Total time: 2 seconds
+Total time: 2 seconds
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34679 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.85user 1.79system 0:02.67elapsed 472%CPU (0avgtext+0avgdata 401112maxresident)k
+10.85user 1.79system 0:02.67elapsed 472%CPU (0avgtext+0avgdata 401112maxresident)k
+10.85user 1.79system 0:02.67elapsed 472%CPU (0avgtext+0avgdata 401112maxresident)k
+0inputs+0outputs (0major+133346minor)pagefaults 0swaps
+0inputs+0outputs (0major+133346minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `forbidden-apis-2.5-alt1_10jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `forbidden-apis-2.5-alt1_10jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.79user 2.96system 0:17.85elapsed 37%CPU (0avgtext+0avgdata 141900maxresident)k
+3.79user 2.96system 0:17.85elapsed 37%CPU (0avgtext+0avgdata 141900maxresident)k
+7064inputs+0outputs (0major+280365minor)pagefaults 0swaps

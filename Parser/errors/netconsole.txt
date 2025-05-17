@@ -1,0 +1,56 @@
+Verifying systemd units in /usr/src/tmp/netconsole-buildroot
+Adjusting library links in /usr/src/tmp/netconsole-buildroot
+Adjusting library links in /usr/src/tmp/netconsole-buildroot
+./usr/lib: (from <cmdline>:0)
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/netconsole-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Verifying ELF objects in /usr/src/tmp/netconsole-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/netconsole-buildroot
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/netconsole-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.82764
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.82764
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ systemd-analyze verify /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system/netconsole.service
++ systemd-analyze verify /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system/netconsole.service
++ systemd-analyze verify /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system/netconsole.service
+Failed to create directory '/run/systemd/': Permission denied
+Failed to create directory '/run/systemd/': Permission denied
+Failed to create directory '/run/systemd/': Permission denied
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.03user 0.23system 0:00.22elapsed 117%CPU (0avgtext+0avgdata 8412maxresident)k
+0.03user 0.23system 0:00.22elapsed 117%CPU (0avgtext+0avgdata 8412maxresident)k
+0.03user 0.23system 0:00.22elapsed 117%CPU (0avgtext+0avgdata 8412maxresident)k
+0inputs+0outputs (0major+38071minor)pagefaults 0swaps
+0inputs+0outputs (0major+38071minor)pagefaults 0swaps
+0inputs+0outputs (0major+38071minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `netconsole-1.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `netconsole-1.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `netconsole-1.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.55user 2.97system 0:12.98elapsed 50%CPU (0avgtext+0avgdata 141280maxresident)k
+3.55user 2.97system 0:12.98elapsed 50%CPU (0avgtext+0avgdata 141280maxresident)k
+15392inputs+0outputs (0major+240877minor)pagefaults 0swaps

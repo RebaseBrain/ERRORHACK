@@ -1,0 +1,89 @@
+<86>May 16 00:03:35 userdel[3364605]: delete user 'rooter'
+<86>May 16 00:03:35 userdel[3364605]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:03:35 userdel[3364605]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:03:35 groupadd[3364631]: group added to /etc/group: name=rooter, GID=1223
+<86>May 16 00:03:35 groupadd[3364631]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:03:35 groupadd[3364631]: new group: name=rooter, GID=1223
+<86>May 16 00:03:35 useradd[3364648]: new user: name=rooter, UID=1223, GID=1223, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:03:35 userdel[3364677]: delete user 'builder'
+<86>May 16 00:03:35 userdel[3364677]: removed group 'builder' owned by 'builder'
+<86>May 16 00:03:35 userdel[3364677]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:03:35 groupadd[3364698]: group added to /etc/group: name=builder, GID=1224
+<86>May 16 00:03:35 groupadd[3364698]: group added to /etc/gshadow: name=builder
+<86>May 16 00:03:35 groupadd[3364698]: new group: name=builder, GID=1224
+<86>May 16 00:03:35 useradd[3364716]: new user: name=builder, UID=1224, GID=1224, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/c2070-0.99-alt1.qa2.src.rpm: The use of such a license name is ambiguous: GPL
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/c2070-0.99-alt1.qa2.nosrc.rpm (w1.gzdio)
+Installing c2070-0.99-alt1.qa2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.7711
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf c2070-0.99
++ echo 'Source #0 (c2070-0.99.tar):'
+Source #0 (c2070-0.99.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/c2070-0.99.tar
++ cd c2070-0.99
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (c2070-0.99-mdk-looplimits.patch):'
+Patch #0 (c2070-0.99-mdk-looplimits.patch):
++ /usr/bin/patch -p1
+patching file c2070.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.7711
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd c2070-0.99
++ make 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+make: Entering directory '/usr/src/RPM/BUILD/c2070-0.99'
+gcc -c c2070.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto
+c2070.c: In function 'ClearBuffer':
+c2070.c:53:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+   53 |   register i;
+      |            ^
+c2070.c: At top level:
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+      | ^~~~~~~~~~~~~~~~
+c2070.c: In function 'PrintSweep':
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  138 |   register i;
+      |            ^
+c2070.c: In function 'LineSum':
+c2070.c:168:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  168 |   register i = 0;
+      |            ^
+c2070.c: In function 'LexPrint':
+c2070.c:332:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+  332 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+c2070.c: In function 'SweepBuffer_Init':
+c2070.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | } /* SweepBuffer_Init */
+      | ^
+make: *** [makefile:24: c2070.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/c2070-0.99'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+Command exited with non-zero status 1
+0.03user 0.03system 0:00.07elapsed 105%CPU (0avgtext+0avgdata 17504maxresident)k
+0inputs+0outputs (0major+7664minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `c2070-0.99-alt1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+0.79user 1.43system 0:04.48elapsed 49%CPU (0avgtext+0avgdata 12236maxresident)k
+0inputs+0outputs (0major+91796minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
++ /bin/tar -xf /usr/src/RPM/SOURCES/vendor.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ mv ./vendor /usr/src/RPM/BUILD/zig-cache
++ exit 0
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.5258
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.5258
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd waylock-1.3.0
++ cd waylock-1.3.0
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseSafe --system /usr/src/RPM/BUILD/zig-cache --cache-dir /usr/src/RPM/BUILD/zig-cache --global-cache-dir /usr/src/RPM/BUILD/zig-cache -Dpie
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseSafe --system /usr/src/RPM/BUILD/zig-cache --cache-dir /usr/src/RPM/BUILD/zig-cache --global-cache-dir /usr/src/RPM/BUILD/zig-cache -Dpie
+/usr/src/RPM/BUILD/waylock-1.3.0/build.zig.zon:2:13: error: expected enum literal
+/usr/src/RPM/BUILD/waylock-1.3.0/build.zig.zon:2:13: error: expected enum literal
+    .name = "waylock",
+    .name = "waylock",
+    .name = "waylock",
+            ^~~~~~~~~
+            ^~~~~~~~~
+            ^~~~~~~~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5258 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.40user 0.15system 0:00.56elapsed 100%CPU (0avgtext+0avgdata 71092maxresident)k
+0.40user 0.15system 0:00.56elapsed 100%CPU (0avgtext+0avgdata 71092maxresident)k
+0.40user 0.15system 0:00.56elapsed 100%CPU (0avgtext+0avgdata 71092maxresident)k
+0inputs+0outputs (0major+35504minor)pagefaults 0swaps
+0inputs+0outputs (0major+35504minor)pagefaults 0swaps
+0inputs+0outputs (0major+35504minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `waylock-1.3.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `waylock-1.3.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.80user 3.10system 0:17.62elapsed 44%CPU (0avgtext+0avgdata 142256maxresident)k
+4.80user 3.10system 0:17.62elapsed 44%CPU (0avgtext+0avgdata 142256maxresident)k
+0inputs+0outputs (0major+282652minor)pagefaults 0swaps

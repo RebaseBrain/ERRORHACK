@@ -1,0 +1,3160 @@
+<86>May 16 05:13:28 userdel[940307]: delete user 'rooter'
+<86>May 16 05:13:28 userdel[940307]: removed group 'rooter' owned by 'rooter'
+<86>May 16 05:13:28 userdel[940307]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 05:13:28 groupadd[940343]: group added to /etc/group: name=rooter, GID=1868
+<86>May 16 05:13:28 groupadd[940343]: group added to /etc/gshadow: name=rooter
+<86>May 16 05:13:28 groupadd[940343]: new group: name=rooter, GID=1868
+<86>May 16 05:13:28 useradd[940366]: new user: name=rooter, UID=1868, GID=1868, home=/root, shell=/bin/bash, from=none
+<86>May 16 05:13:28 userdel[940403]: delete user 'builder'
+<86>May 16 05:13:28 userdel[940403]: removed group 'builder' owned by 'builder'
+<86>May 16 05:13:28 userdel[940403]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 05:13:28 groupadd[940439]: group added to /etc/group: name=builder, GID=1869
+<86>May 16 05:13:28 groupadd[940439]: group added to /etc/gshadow: name=builder
+<86>May 16 05:13:28 groupadd[940439]: new group: name=builder, GID=1869
+<86>May 16 05:13:28 useradd[940461]: new user: name=builder, UID=1869, GID=1869, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/nagios-plugins-2.2.1-alt1.src.rpm: The use of such a license name is ambiguous: GPL
+warning: line 110: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+<13>May 16 05:13:35 rpmi: libtalloc-1:2.4.2-alt1 sisyphus+342425.200.8.1 1714749074 installed
+<13>May 16 05:13:35 rpmi: llvm-common-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 05:13:35 rpmi: libtevent-0.16.1-alt1 sisyphus+342425.400.8.1 1714749143 installed
+<13>May 16 05:13:35 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:35 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 05:13:35 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 05:13:35 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 05:13:35 rpmi: libtdb-1.4.10-alt1 sisyphus+342425.100.8.1 1714748986 installed
+<13>May 16 05:13:35 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 05:13:35 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 05:13:35 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:35 rpmi: clang19.1-support-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:35 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 05:13:35 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:13:35 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 05:13:35 rpmi: chrooted-0.3.12-alt1 sisyphus+327286.5300.14.1 1711487147 installed
+<13>May 16 05:13:35 rpmi: chrooted-resolv-0.3.1-alt2 sisyphus+276781.100.1.1 1625232499 installed
+<13>May 16 05:13:35 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:35 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:37 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:38 rpmi: libclang-cpp19-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:38 rpmi: clang19.1-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:38 rpmi: clang-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 05:13:39 rpmi: libclang19-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:39 rpmi: clang19.1-devel-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:39 rpmi: clang-devel-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 05:13:42 rpmi: mlir19.1-tools-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:42 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 05:13:42 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 05:13:42 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:13:42 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 05:13:42 rpmi: samba-common-client-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:13:42 rpmi: perl-Socket6-0.29-alt1.1 sisyphus+335067.10600.2.2 1701154215 installed
+<13>May 16 05:13:42 rpmi: perl-Math-Complex-1.59-alt1 1334229876 installed
+<13>May 16 05:13:42 rpmi: perl-Math-BigInt-2.005003-alt1 sisyphus+381904.100.1.1 1744908928 installed
+<13>May 16 05:13:42 rpmi: perl-Math-BigInt-FastCalc-0.5020-alt1 sisyphus+380407.100.1.2 1743778372 installed
+<13>May 16 05:13:42 rpmi: perl-Digest-SHA1-2.13-alt5.2 sisyphus+335067.4700.2.2 1701151286 installed
+<13>May 16 05:13:42 rpmi: perl-Digest-SHA-6.04-alt1 sisyphus+335067.1500.1.1 1700901652 installed
+<13>May 16 05:13:42 rpmi: perl-Digest-HMAC-1.05-alt1 sisyphus+380199.100.1.2 1743727349 installed
+<13>May 16 05:13:42 rpmi: perl-Crypt-DES-2.07-alt3 sisyphus+367401.100.1.1 1735408684 installed
+<13>May 16 05:13:43 rpmi: snmp-mibs-std-0.3-alt3 sisyphus+277128.100.1.1 1625404335 installed
+<86>May 16 05:13:43 groupadd[982394]: group added to /etc/group: name=snmp, GID=999
+<86>May 16 05:13:43 groupadd[982394]: group added to /etc/gshadow: name=snmp
+<86>May 16 05:13:43 groupadd[982394]: new group: name=snmp, GID=999
+<86>May 16 05:13:43 useradd[982404]: new user: name=snmp, UID=999, GID=999, home=/dev/null, shell=/dev/null, from=none
+<86>May 16 05:13:43 usermod[982416]: change user 'snmp' GID from '999' to '19'
+<13>May 16 05:13:43 rpmi: net-snmp-common-5.9.4-alt1.1 sisyphus+366326.100.1.1 1734955875 installed
+<13>May 16 05:13:43 rpmi: libwbclient-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:13:43 rpmi: libradiusclient-ng-0.5.6-alt1 sisyphus+276919.100.1.3 1625276693 installed
+<13>May 16 05:13:43 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 05:13:43 rpmi: libnl-common-3.11.0-alt1 sisyphus+363620.100.1.1 1732864957 installed
+<13>May 16 05:13:43 rpmi: libnl3-3.11.0-alt1 sisyphus+363620.100.1.1 1732864957 installed
+<13>May 16 05:13:43 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 05:13:43 rpmi: libjansson4-2.14.1-alt1 sisyphus+379832.100.1.1 1743438033 installed
+<13>May 16 05:13:43 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 05:13:43 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 05:13:43 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 05:13:43 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:13:43 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 05:13:43 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 05:13:44 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:13:44 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:13:44 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 05:13:44 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 05:13:44 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 05:13:44 rpmi: libjson-c5-0.18-alt1 sisyphus+358387.100.1.1 1727298142 installed
+<13>May 16 05:13:44 rpmi: libjemalloc2-5.3.0-alt2 sisyphus+343949.100.1.1 1711729540 installed
+<13>May 16 05:13:44 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 05:13:44 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 05:13:44 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 05:13:44 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:13:44 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:13:44 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 05:13:44 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 05:13:44 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:13:44 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:13:44 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 05:13:44 groupadd[988475]: group added to /etc/group: name=_keytab, GID=998
+<86>May 16 05:13:44 groupadd[988475]: group added to /etc/gshadow: name=_keytab
+<86>May 16 05:13:44 groupadd[988475]: new group: name=_keytab, GID=998
+<13>May 16 05:13:44 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 05:13:45 rpmi: libmysqlclient21-8.0.41-alt1 sisyphus+372112.5200.37.1 1741283348 installed
+<13>May 16 05:13:45 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:45 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:46 rpmi: llvm19.1-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:13:46 rpmi: llvm-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 05:14:05 rpmi: llvm19.1-devel-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:14:05 rpmi: llvm-devel-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 05:14:05 rpmi: libbind-9.18.36-alt1 sisyphus+381798.100.2.2 1744985978 installed
+<86>May 16 05:14:05 groupadd[1031200]: group added to /etc/group: name=sasl, GID=997
+<86>May 16 05:14:05 groupadd[1031200]: group added to /etc/gshadow: name=sasl
+<86>May 16 05:14:05 groupadd[1031200]: new group: name=sasl, GID=997
+<13>May 16 05:14:05 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 05:14:05 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:14:05 rpmi: libldb-2.9.2-alt1 sisyphus+362961.100.1.1 1732080665 installed
+<13>May 16 05:14:05 rpmi: samba-common-libs-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:05 rpmi: libsmbclient-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:05 rpmi: samba-libs-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:05 rpmi: libpq5-17-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:05 rpmi: libpq5-17-devel-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:05 rpmi: libecpg6-17-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:05 rpmi: libecpg6-17-devel-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:05 rpmi: postgresql17-server-devel-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:05 rpmi: libtirpc-1.3.6-alt1 sisyphus+360096.100.1.1 1729241806 installed
+<13>May 16 05:14:05 rpmi: libnet-snmp40-5.9.4-alt1.1 sisyphus+366326.100.1.1 1734955875 installed
+<13>May 16 05:14:05 rpmi: libnet-snmp40-agent-5.9.4-alt1.1 sisyphus+366326.100.1.1 1734955875 installed
+<13>May 16 05:14:05 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 05:14:05 rpmi: openssh-common-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 05:14:05 rpmi: libcdb-0.78-alt2 sisyphus+278100.6700.1.1 1626060491 installed
+<13>May 16 05:14:05 rpmi: ed-1:0.2-alt10 sisyphus+346155.200.3.2 1716498175 installed
+<13>May 16 05:14:05 rpmi: setproctitle-0.3.2-alt3 sisyphus+278100.6300.1.1 1626060226 installed
+<86>May 16 05:14:05 groupadd[1032882]: group added to /etc/group: name=crontab, GID=996
+<86>May 16 05:14:05 groupadd[1032882]: group added to /etc/gshadow: name=crontab
+<86>May 16 05:14:05 groupadd[1032882]: new group: name=crontab, GID=996
+<13>May 16 05:14:05 rpmi: crontab-control-1.1-alt1 sisyphus+276802.100.1.1 1625236144 installed
+<13>May 16 05:14:05 rpmi: vixie-cron-4.1.20060426-alt10.3 sisyphus+302849.200.2.1 1656579733 installed
+<13>May 16 05:14:05 rpmi: crontabs-1.8-alt1 sisyphus+276803.100.1.1 1625236331 installed
+<13>May 16 05:14:05 rpmi: procmail-3.22-alt11 sisyphus+278100.5300.1.1 1626059896 installed
+<13>May 16 05:14:05 rpmi: postfix-control-1.6.1-alt1 sisyphus+276788.100.1.1 1625233333 installed
+<13>May 16 05:14:05 rpmi: ppp-common-0.5.1-alt1 sisyphus+276789.100.1.1 1625233524 installed
+<13>May 16 05:14:05 rpmi: sendmail-common-1.7-alt3 1353029717 installed
+<86>May 16 05:14:05 groupadd[1033264]: group added to /etc/group: name=mailadm, GID=995
+<86>May 16 05:14:05 groupadd[1033264]: group added to /etc/gshadow: name=mailadm
+<86>May 16 05:14:05 groupadd[1033264]: new group: name=mailadm, GID=995
+<86>May 16 05:14:05 useradd[1033293]: failed adding user 'postfix', exit code: 9
+<86>May 16 05:14:05 useradd[1033309]: new user: name=postman, UID=998, GID=48, home=/dev/null, shell=/dev/null, from=none
+<13>May 16 05:14:06 rpmi: postfix-1:3.8.6-alt1 sisyphus+347244.100.2.1 1715170791 installed
+    COMPATIBILITY: editing /etc/postfix/main.cf, setting
+    inet_protocols=ipv4.  Specify inet_protocols explicitly if you want
+    to enable IPv6.  In a future release IPv6 will be enabled by default.
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/group: name=sshagent, GID=994
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/gshadow: name=sshagent
+<86>May 16 05:14:06 groupadd[1035493]: new group: name=sshagent, GID=994
+<13>May 16 05:14:06 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 05:14:06 rpmi: samba-client-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:06 rpmi: net-snmp-clients-5.9.4-alt1.1 sisyphus+366326.100.1.1 1734955875 installed
+<13>May 16 05:14:06 rpmi: rpcbind-1.2.6-alt1.qa1 sisyphus+294340.100.1.1 1643466463 installed
+<86>May 16 05:14:06 useradd[1035618]: failed adding user 'rpc', exit code: 9
+<13>May 16 05:14:06 rpmi: postgresql17-devel-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:06 rpmi: libldap-devel-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:14:06 rpmi: bind-utils-9.18.36-alt1 sisyphus+381798.100.2.2 1744985978 installed
+<13>May 16 05:14:06 rpmi: libmysqlclient21-devel-8.0.41-alt1 sisyphus+372112.5200.37.1 1741283348 installed
+<13>May 16 05:14:06 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:14:06 rpmi: libradiusclient-ng-devel-0.5.6-alt1 sisyphus+276919.100.1.3 1625276693 installed
+<13>May 16 05:14:06 rpmi: perl-Net-SNMP-6.0.1-alt3 sisyphus+277107.100.1.1 1625402791 installed
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/group: name=iputils, GID=993
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/gshadow: name=iputils
+<86>May 16 05:14:06 groupadd[1035749]: new group: name=iputils, GID=993
+<86>May 16 05:14:06 useradd[1035764]: new user: name=iputils, UID=997, GID=993, home=/dev/null, shell=/dev/null, from=none
+<86>May 16 05:14:06 groupadd[1035777]: group added to /etc/group: name=netadmin, GID=992
+<86>May 16 05:14:06 groupadd[1035777]: group added to /etc/gshadow: name=netadmin
+<86>May 16 05:14:06 groupadd[1035777]: new group: name=netadmin, GID=992
+<13>May 16 05:14:06 rpmi: iputils-20240905-alt1 sisyphus+359483.100.1.1 1728585656 installed
+sysctl: cannot stat /proc/sys/net/ipv4/ping_group_range: No such file or directory
+<13>May 16 05:14:06 rpmi: fping-5.2-alt1 sisyphus+358418.100.1.1 1727345193 installed
+<13>May 16 05:14:06 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 05:14:06 rpmi: qstat-2.17-alt1 sisyphus+286988.100.1.1 1634109114 installed
+warning: line 110: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/nagios-plugins-2.2.1-alt1.nosrc.rpm (w1.gzdio)
+warning: line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+Installing nagios-plugins-2.2.1-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.38313
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf nagios-plugins-2.2.1
++ echo 'Source #0 (nagios-plugins-2.2.1.tar):'
+Source #0 (nagios-plugins-2.2.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/nagios-plugins-2.2.1.tar
++ cd nagios-plugins-2.2.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (nagios-plugins-1.4.14-alt-makefile.patch):'
+Patch #1 (nagios-plugins-1.4.14-alt-makefile.patch):
++ /usr/bin/patch -p2 -b --suffix .p1
+patching file plugins-root/Makefile.am
+patching file plugins-root/Makefile.in
+Hunk #1 succeeded at 1324 (offset 318 lines).
+Hunk #2 succeeded at 1748 (offset 361 lines).
++ echo 'Patch #3 (nagios-plugins-1.4.12-alt-pgsql.patch):'
+Patch #3 (nagios-plugins-1.4.12-alt-pgsql.patch):
++ /usr/bin/patch -p1 -b --suffix .p3
+patching file plugins/check_pgsql.c
+Hunk #1 succeeded at 36 (offset -4 lines).
++ echo 'Patch #102 (nagios-plugins-0002-Remove-assignment-of-not-parsed-to-jitter.patch):'
+Patch #102 (nagios-plugins-0002-Remove-assignment-of-not-parsed-to-jitter.patch):
++ /usr/bin/patch -p1 -b --suffix .p102
+patching file plugins-scripts/check_ntp.pl
+Hunk #1 succeeded at 314 (offset 1 line).
++ /usr/bin/subst 's|\[UCOMAND\]+|COMMAND|g' configure configure.ac
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.38313
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd nagios-plugins-2.2.1
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: running: autopoint --force
+Copying file build-aux/config.rpath
+Copying file gl/m4/codeset.m4
+Copying file gl/m4/glibc2.m4
+Copying file gl/m4/iconv.m4
+Copying file gl/m4/intdiv0.m4
+Copying file gl/m4/intmax.m4
+Copying file gl/m4/inttypes-h.m4
+Copying file gl/m4/inttypes-pri.m4
+Copying file gl/m4/lcmessage.m4
+Copying file gl/m4/longdouble.m4
+Copying file gl/m4/printf-posix.m4
+Copying file gl/m4/signed.m4
+Copying file gl/m4/uintmax_t.m4
+Copying file gl/m4/ulonglong.m4
+Copying file gl/m4/visibility.m4
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+autoreconf-default: running: aclocal --force -I gl/m4 -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-aux'.
+libtoolize-default: linking file 'build-aux/config.guess'
+libtoolize-default: linking file 'build-aux/config.sub'
+libtoolize-default: linking file 'build-aux/install-sh'
+libtoolize-default: linking file 'build-aux/ltmain.sh'
+libtoolize-default: putting macros in 'gl/m4'.
+libtoolize-default: linking file 'gl/m4/libtool.m4'
+libtoolize-default: linking file 'gl/m4/ltoptions.m4'
+libtoolize-default: linking file 'gl/m4/ltsugar.m4'
+libtoolize-default: linking file 'gl/m4/ltversion.m4'
+libtoolize-default: linking file 'gl/m4/lt~obsolete.m4'
+libtoolize-default: Consider adding 'AC_CONFIG_MACRO_DIRS([gl/m4])' to configure.ac,
+libtoolize-default: and rerunning libtoolize-default and aclocal.
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force -I gl/m4 -I m4
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:47: warning: The macro `AC_GNU_SOURCE' is obsolete.
+configure.ac:47: You should run autoupdate.
+./lib/autoconf/specific.m4:298: AC_GNU_SOURCE is expanded from...
+gl/m4/gnulib-comp.m4:34: gl_EARLY is expanded from...
+configure.ac:47: the top level
+configure.ac:47: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:47: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+gl/m4/threadlib.m4:36: gl_THREADLIB_EARLY_BODY is expanded from...
+gl/m4/threadlib.m4:29: gl_THREADLIB_EARLY is expanded from...
+gl/m4/gnulib-comp.m4:34: gl_EARLY is expanded from...
+configure.ac:47: the top level
+configure.ac:49: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:49: You should run autoupdate.
+gl/m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:49: the top level
+configure.ac:119: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:119: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+m4/ax_with_python.m4:14: AX_WITH_PYTHON is expanded from...
+configure.ac:119: the top level
+configure.ac:135: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:135: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:135: the top level
+configure.ac:177: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:177: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:177: the top level
+configure.ac:199: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:199: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:199: the top level
+configure.ac:427: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:427: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:427: the top level
+configure.ac:577: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.ac:577: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.ac:577: the top level
+configure.ac:577: warning: AC_CHECK_HEADERS($gl_header_list): you should use literals
+./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+configure.ac:577: gl_CHECK_HEADER_sys_time_h is expanded from...
+gl/m4/onceonly.m4:52: AC_CHECK_HEADERS_ONCE is expanded from...
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.ac:577: the top level
+configure.ac:587: warning: The macro `AC_TYPE_SIGNAL' is obsolete.
+configure.ac:587: You should run autoupdate.
+./lib/autoconf/types.m4:776: AC_TYPE_SIGNAL is expanded from...
+configure.ac:587: the top level
+configure.ac:589: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:589: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:589: the top level
+configure.ac:597: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:597: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:597: the top level
+configure.ac:611: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:611: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:611: the top level
+configure.ac:607: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:607: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:607: the top level
+configure.ac:623: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:623: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:623: the top level
+configure.ac:1391: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:1391: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:1391: the top level
+configure.ac:1399: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:1399: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+configure.ac:1399: the top level
+configure.ac:1814: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:1814: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+gl/m4/iconv.m4:20: AM_ICONV_LINK is expanded from...
+gl/m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:1814: the top level
+configure.ac:1825: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:1825: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:1825: the top level
+configure.ac:1847: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:1847: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:1847: the top level
+configure.ac:1868: warning: AC_CHECK_FUNCS($gl_func_list): you should use literals
+./lib/autoconf/functions.m4:123: AC_CHECK_FUNCS is expanded from...
+configure.ac:1868: gl_CHECK_FUNC_btowc is expanded from...
+gl/m4/onceonly.m4:75: AC_CHECK_FUNCS_ONCE is expanded from...
+gl/m4/btowc.m4:7: gl_FUNC_BTOWC is expanded from...
+gl/m4/gnulib-comp.m4:161: gl_INIT is expanded from...
+configure.ac:1868: the top level
+configure.ac:1868: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:1868: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+gl/m4/codeset.m4:9: AM_LANGINFO_CODESET is expanded from...
+gl/m4/locale-fr.m4:10: gt_LOCALE_FR is expanded from...
+gl/m4/btowc.m4:7: gl_FUNC_BTOWC is expanded from...
+gl/m4/gnulib-comp.m4:161: gl_INIT is expanded from...
+configure.ac:1868: the top level
+configure.ac:1868: warning: $as_echo_n is obsolete; use AS_ECHO_N(["message"]) instead
+gl/m4/gnulib-common.m4:371: gl_CACHE_VAL_SILENT is expanded from...
+gl/m4/floorf.m4:78: gl_FUNC_FLOORF_LIBS is expanded from...
+gl/m4/floorf.m4:7: gl_FUNC_FLOORF is expanded from...
+gl/m4/gnulib-comp.m4:161: gl_INIT is expanded from...
+configure.ac:1868: the top level
+configure.ac:1868: warning: The macro `_AC_COMPUTE_INT' is obsolete.
+configure.ac:1868: You should run autoupdate.
+./lib/autoconf/general.m4:3376: _AC_COMPUTE_INT is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+gl/m4/gethostname.m4:47: gl_PREREQ_HOST_NAME_MAX is expanded from...
+gl/m4/gethostname.m4:10: gl_FUNC_GETHOSTNAME is expanded from...
+gl/m4/gnulib-comp.m4:161: gl_INIT is expanded from...
+configure.ac:1868: the top level
+configure.ac:1875: warning: AC_OUTPUT should be used without arguments.
+configure.ac:1875: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:46: installing 'build-aux/compile'
+configure.ac:9: installing 'build-aux/missing'
+gl/Makefile.am: installing 'build-aux/depcomp'
+parallel-tests: installing 'build-aux/test-driver'
+autoreconf-default: Leaving directory '.'
++ PATH=/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games:/usr/sbin
++ export ac_cv_path_PATH_TO_FPING=/usr/sbin/fping
++ ac_cv_path_PATH_TO_FPING=/usr/sbin/fping
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --libexecdir=/usr/lib/nagios/plugins --with-cgiurl=/nagios/cgi-bin --with-gnutls=/usr --with-pgsql=/usr --with-mysql=/usr --with-openssl=/usr --with-libiconv-prefix=/usr --without-included-gettext --with-libintl-prefix=/usr --without-ipv6 '--with-ping-command=/bin/ping -n -U -w %d -c %d %s' --with-fping-command=/usr/sbin/fping --with-proc-loadavg=/proc/loadavg --with-proc-meminfo=/proc/meminfo --disable-rpath
+configure: WARNING: unrecognized options: --without-included-gettext, --without-included-gettext, --with-proc-loadavg
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-alt-linux-gcc... none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether x86_64-alt-linux-gcc needs -traditional... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-file... no
+checking for file... file
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for error_at_line... yes
+checking for special C compiler options needed for large files... (cached) no
+checking for _FILE_OFFSET_BITS value needed for large files... (cached) no
+checking for working strtod... yes
+checking for --with-python... no
+checking for python... missing
+checking for sh... /usr/bin/sh
+checking for perl... /usr/bin/perl
+checking for libgnutls-config... no
+checking for hostname... /usr/bin/hostname
+checking for basename... /usr/bin/basename
+checking for main in -ldce... no
+checking for main in -lnsl... no
+checking for socket in -lsocket... no
+checking for main in -lresolv... yes
+checking for math.h... yes
+checking for floor in -lm... yes
+checking for mp.h... no
+checking for pow in -lbsd... no
+checking for plan_tests in -ltap... no
+checking for main in -lcrypt... yes
+checking for PQsetdbLogin in -lpq... yes
+checking for pgsql/libpq-fe.h... yes
+checking for postgresql/libpq-fe.h... yes
+checking for libpq-fe.h... no
+checking for dbi_initialize in -ldbi... no
+configure: WARNING: Skipping dbi plugin
+configure: WARNING: install DBI libs to compile this plugin (see REQUIREMENTS).
+checking for rc_read_config in -lfreeradius-client... no
+checking for rc_read_config in -lradiusclient-ng... yes
+checking for main in -lldap... yes
+checking for ldap_set_option... yes
+checking for ldap_initialize... yes
+checking for ldap_init... yes
+checking for ldap_set_option... (cached) yes
+checking for ldap_get_option... yes
+checking for ldap_start_tls_s... yes
+checking for linux/hdreg.h... yes
+checking for linux/types.h... yes
+checking for sys/time.h... yes
+checking for mysql_init in -lmysqlclient... yes
+checking for utmpx.h... yes
+checking for wtsapi32.h... no
+checking for krb5.h... no
+checking for krb5.h... no
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldl... no
+checking for openssl/ssl.h... yes
+checking for openssl/x509.h... yes
+checking for openssl/rsa.h... yes
+checking for openssl/pem.h... yes
+checking for openssl/crypto.h... yes
+checking for openssl/err.h... yes
+checking for CRYPTO_new_ex_data in -lcrypto... yes
+checking for main in -lssl... yes
+checking for sys/time.h... (cached) yes
+checking for arpa/inet.h... yes
+checking for features.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/vfs.h... yes
+checking for sys/fs_types.h... no
+checking for sys/socket.h... yes
+checking for netdb.h... yes
+checking for netinet/in.h... yes
+checking for getopt.h... yes
+checking for langinfo.h... yes
+checking for xlocale.h... no
+checking for math.h... (cached) yes
+checking for sys/mman.h... yes
+checking for sys/statvfs.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for sys/uio.h... yes
+checking for wctype.h... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for signal.h... yes
+checking for syslog.h... yes
+checking for uio.h... no
+checking for errno.h... yes
+checking for sys/time.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for sys/un.h... yes
+checking for sys/poll.h... yes
+checking for features.h... (cached) yes
+checking for stdarg.h... yes
+checking for sys/unistd.h... yes
+checking for ctype.h... yes
+checking for an ANSI C-conforming const... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for pid_t... yes
+checking for size_t... yes
+checking return type of signal handlers... void
+checking for va_copy... yes
+checking for memmove... yes
+checking for select... yes
+checking for socket... yes
+checking for strdup... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for floor... no
+checking for sigaction... yes
+checking for poll... yes
+checking return type of socket size... int
+checking for ps... /usr/bin/ps
+checking for env... /usr/bin/env
+checking for ps syntax... egrep: warning: egrep is obsolescent; using grep -E
+/usr/bin/ps axwwo 'stat uid pid ppid vsz rss pcpu cgroup:256 comm args'
+checking for ping... /usr/bin/ping
+checking for ping6... /usr/bin/ping6
+checking for ICMP ping syntax... (command-line) /bin/ping -n -U -w %d -c %d %s
+checking for nslookup... /usr/bin/nslookup
+checking for nslookup syntax... /usr/bin/nslookup -sil
+checking for number of online cpus... sysconf(_SC_NPROCESSORS_ONLN)
+checking for number of available cpus... sysconf(_SC_NPROCESSORS_CONF)
+checking for uptime... /usr/bin/uptime
+checking for rpcinfo... /usr/bin/rpcinfo
+checking for lmstat... no
+configure: WARNING: Get lmstat from Globetrotter Software to monitor flexlm licenses
+checking for smbclient... /usr/bin/smbclient
+checking for snmpget... /usr/bin/snmpget
+checking for snmpgetnext... /usr/bin/snmpgetnext
+checking for Net::SNMP perl module... found
+checking for quakestat... no
+checking for qstat... /usr/bin/qstat
+checking for fping... (cached) /usr/sbin/fping
+checking for fping6... no
+checking for ssh... /usr/bin/ssh
+checking for sudo... no
+configure: WARNING: Could not find sudo or eqivalent
+checking for mailq... /usr/bin/mailq
+checking for qmail-qstat... no
+configure: WARNING: Could not find qmail-qstat or equivalent
+checking for swap... no
+checking for swapinfo... no
+checking for lsps... no
+checking for sys/stat.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for sys/swap.h... yes
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking whether swapctl is declared... no
+checking for swaptbl_t... no
+checking for swapent_t... no
+checking for struct swapent.se_nblks... no
+checking for struct msghdr.msg_control... no
+checking for struct msghdr.msg_controllen... no
+checking for /proc/meminfo... (command line) /proc/meminfo
+checking for dig... /usr/bin/dig
+checking for apt-get... no
+checking for sys/sockio.h... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for main in -lpthread... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for C/C++ restrict keyword... __restrict__
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking for btowc... yes
+checking for getuid... yes
+checking for geteuid... yes
+checking for getresuid... yes
+checking for getgid... yes
+checking for getegid... yes
+checking for getresgid... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for seteuid... yes
+checking for setresgid... yes
+checking for setregid... yes
+checking for setegid... yes
+checking for symlink... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for mprotect... yes
+checking for _set_invalid_parameter_handler... no
+checking for nl_langinfo... yes
+checking for isblank... yes
+checking for iswctype... yes
+checking for wcscoll... yes
+checking for setenv... yes
+checking for snprintf... yes
+checking for strndup... yes
+checking for localtime_r... yes
+checking for timegm... yes
+checking for vasnprintf... no
+checking for wcrtomb... yes
+checking for iswcntrl... yes
+checking for nl_langinfo and CODESET... yes
+checking for a traditional french locale... fr_FR
+checking whether byte ordering is bigendian... no
+checking whether // is distinct from /... no
+checking if environ is properly declared... yes
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking whether strerror_r returns char *... yes
+checking whether <sys/socket.h> is self-contained... yes
+checking for shutdown... yes
+checking whether <sys/socket.h> defines the SHUT_* macros... yes
+checking for struct sockaddr_storage... yes
+checking for sa_family_t... yes
+checking for struct sockaddr_storage.ss_family... yes
+checking whether socket is declared without a macro... yes
+checking whether connect is declared without a macro... yes
+checking whether accept is declared without a macro... yes
+checking whether bind is declared without a macro... yes
+checking whether getpeername is declared without a macro... yes
+checking whether getsockname is declared without a macro... yes
+checking whether getsockopt is declared without a macro... yes
+checking whether listen is declared without a macro... yes
+checking whether recv is declared without a macro... yes
+checking whether send is declared without a macro... yes
+checking whether recvfrom is declared without a macro... yes
+checking whether sendto is declared without a macro... yes
+checking whether setsockopt is declared without a macro... yes
+checking whether shutdown is declared without a macro... yes
+checking whether accept4 is declared without a macro... yes
+checking whether getaddrinfo is declared without a macro... yes
+checking whether freeaddrinfo is declared without a macro... yes
+checking whether gai_strerror is declared without a macro... yes
+checking whether getnameinfo is declared without a macro... yes
+checking for library containing gethostbyname... none required
+checking for gethostbyname... yes
+checking for library containing getservbyname... none required
+checking for getservbyname... yes
+checking for library containing inet_ntop... none required
+checking whether inet_ntop is declared... yes
+checking for IPv4 sockets... yes
+checking for IPv6 sockets... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking for working fcntl.h... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for wchar_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether imported symbols can be declared weak... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking for multithread API to use... posix
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for GNU libc compatible malloc... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for mbstate_t... yes
+checking for a traditional japanese locale... ja_JP.EUC-JP
+checking for a transitional chinese locale... zh_CN.GB18030
+checking for a french Unicode locale... fr_FR.UTF-8
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether alarm is declared... yes
+checking for inline... inline
+checking for ssize_t... yes
+checking whether setenv is declared... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking whether snprintf returns a byte count as in C99... yes
+checking whether snprintf is declared... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking whether stdint.h conforms to C99... yes
+checking for strcasestr... yes
+checking whether strcasestr works... yes
+checking whether strerror(0) succeeds... yes
+checking whether ffsl is declared without a macro... yes
+checking whether ffsll is declared without a macro... yes
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... yes
+checking whether stpcpy is declared without a macro... yes
+checking whether stpncpy is declared without a macro... yes
+checking whether strchrnul is declared without a macro... yes
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... yes
+checking whether ffs is declared without a macro... yes
+checking whether strcasecmp is declared without a macro... yes
+checking whether strncasecmp is declared without a macro... yes
+checking whether strndup is declared... (cached) yes
+checking whether strnlen is declared... (cached) yes
+checking for mode_t... yes
+checking for struct timespec in <time.h>... yes
+checking whether unsetenv is declared... yes
+checking for wint_t... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... (cached) yes
+checking for wcrtomb... (cached) yes
+checking whether _snprintf is declared... no
+checking whether vsnprintf is declared... yes
+checking for alloca as a compiler built-in... yes
+checking whether inet_ntop is declared without a macro... yes
+checking whether inet_pton is declared without a macro... yes
+checking whether btowc(0) is correct... yes
+checking whether btowc(EOF) is correct... yes
+checking whether // is distinct from /... (cached) no
+checking for error_at_line... (cached) yes
+checking whether conversion from 'int' to 'long double' works... yes
+checking whether floorf is declared... yes
+checking for sys/mount.h... yes
+configure: checking how to get file system space usage
+checking for statvfs function (SVR4)... yes
+checking whether to use statvfs64... no
+checking for two-argument statfs with statfs.f_frsize member... yes
+checking for dustat.h... no
+checking for sys/fs/s5param.h... no
+checking for sys/filsys.h... no
+checking for sys/statfs.h... yes
+checking for statfs that truncates block counts... no
+configure: checking how to do getaddrinfo, freeaddrinfo and getnameinfo
+checking for library containing getaddrinfo... none required
+checking for getaddrinfo... yes
+checking whether gai_strerror is declared... (cached) yes
+checking whether gai_strerrorA is declared... no
+checking for gai_strerror with POSIX signature... yes
+checking for struct sockaddr.sa_len... no
+checking whether getaddrinfo is declared... (cached) yes
+checking whether freeaddrinfo is declared... (cached) yes
+checking whether getnameinfo is declared... (cached) yes
+checking for struct addrinfo... yes
+checking for gethostname... yes
+checking for HOST_NAME_MAX... yes
+checking for getloadavg... yes
+checking for sys/loadavg.h... no
+checking whether getloadavg is declared... yes
+checking for library containing gethostbyname... (cached) none required
+checking for gethostbyname... (cached) yes
+checking for library containing inet_ntop... (cached) none required
+checking whether inet_ntop is declared... (cached) yes
+checking whether langinfo.h defines CODESET... yes
+checking whether langinfo.h defines T_FMT_AMPM... yes
+checking whether langinfo.h defines ERA... yes
+checking whether langinfo.h defines YESEXPR... yes
+checking whether nl_langinfo is declared without a macro... yes
+checking whether locale.h conforms to POSIX:2001... yes
+checking whether struct lconv is properly defined... yes
+checking whether setlocale is declared without a macro... yes
+checking whether duplocale is declared without a macro... yes
+checking for pthread_rwlock_t... yes
+checking for GNU libc compatible malloc... (cached) yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking whether acosf is declared without a macro... yes
+checking whether acosl is declared without a macro... yes
+checking whether asinf is declared without a macro... yes
+checking whether asinl is declared without a macro... yes
+checking whether atanf is declared without a macro... yes
+checking whether atanl is declared without a macro... yes
+checking whether cbrt is declared without a macro... yes
+checking whether cbrtf is declared without a macro... yes
+checking whether cbrtl is declared without a macro... yes
+checking whether ceilf is declared without a macro... yes
+checking whether ceill is declared without a macro... yes
+checking whether copysign is declared without a macro... yes
+checking whether copysignf is declared without a macro... yes
+checking whether copysignl is declared without a macro... yes
+checking whether cosf is declared without a macro... yes
+checking whether cosl is declared without a macro... yes
+checking whether coshf is declared without a macro... yes
+checking whether expf is declared without a macro... yes
+checking whether expl is declared without a macro... yes
+checking whether exp2 is declared without a macro... yes
+checking whether exp2f is declared without a macro... yes
+checking whether exp2l is declared without a macro... yes
+checking whether expm1 is declared without a macro... yes
+checking whether expm1f is declared without a macro... yes
+checking whether expm1l is declared without a macro... yes
+checking whether fabsf is declared without a macro... yes
+checking whether fabsl is declared without a macro... yes
+checking whether floorf is declared without a macro... yes
+checking whether floorl is declared without a macro... yes
+checking whether fma is declared without a macro... yes
+checking whether fmaf is declared without a macro... yes
+checking whether fmal is declared without a macro... yes
+checking whether fmod is declared without a macro... yes
+checking whether fmodf is declared without a macro... yes
+checking whether fmodl is declared without a macro... yes
+checking whether frexpf is declared without a macro... yes
+checking whether frexpl is declared without a macro... yes
+checking whether hypotf is declared without a macro... yes
+checking whether hypotl is declared without a macro... yes
+checking whether ilogb is declared without a macro... yes
+checking whether ilogbf is declared without a macro... yes
+checking whether ilogbl is declared without a macro... yes
+checking whether ldexpf is declared without a macro... yes
+checking whether ldexpl is declared without a macro... yes
+checking whether log is declared without a macro... yes
+checking whether logf is declared without a macro... yes
+checking whether logl is declared without a macro... yes
+checking whether log10 is declared without a macro... yes
+checking whether log10f is declared without a macro... yes
+checking whether log10l is declared without a macro... yes
+checking whether log1p is declared without a macro... yes
+checking whether log1pf is declared without a macro... yes
+checking whether log1pl is declared without a macro... yes
+checking whether log2 is declared without a macro... yes
+checking whether log2f is declared without a macro... yes
+checking whether log2l is declared without a macro... yes
+checking whether logb is declared without a macro... yes
+checking whether logbf is declared without a macro... yes
+checking whether logbl is declared without a macro... yes
+checking whether modf is declared without a macro... yes
+checking whether modff is declared without a macro... yes
+checking whether modfl is declared without a macro... yes
+checking whether powf is declared without a macro... yes
+checking whether remainder is declared without a macro... yes
+checking whether remainderf is declared without a macro... yes
+checking whether remainderl is declared without a macro... yes
+checking whether rint is declared without a macro... yes
+checking whether rintf is declared without a macro... yes
+checking whether rintl is declared without a macro... yes
+checking whether round is declared without a macro... yes
+checking whether roundf is declared without a macro... yes
+checking whether roundl is declared without a macro... yes
+checking whether sinf is declared without a macro... yes
+checking whether sinl is declared without a macro... yes
+checking whether sinhf is declared without a macro... yes
+checking whether sqrtf is declared without a macro... yes
+checking whether sqrtl is declared without a macro... yes
+checking whether tanf is declared without a macro... yes
+checking whether tanl is declared without a macro... yes
+checking whether tanhf is declared without a macro... yes
+checking whether trunc is declared without a macro... yes
+checking whether truncf is declared without a macro... yes
+checking whether truncl is declared without a macro... yes
+checking whether mbrtowc handles incomplete characters... yes
+checking whether mbrtowc works as well as mbtowc... yes
+checking whether mbrtowc handles a NULL pwc argument... yes
+checking whether mbrtowc handles a NULL string argument... yes
+checking whether mbrtowc has a correct return value... yes
+checking whether mbrtowc returns 0 when parsing a NUL character... yes
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking for working mktime... yes
+checking for __mktime_internal... no
+checking for listmntent... no
+checking for getmntinfo... no
+checking for sys/ucred.h... no
+checking for sys/mount.h... (cached) yes
+checking for mntent.h... yes
+checking for sys/fs_types.h... (cached) no
+checking for struct fsstat.f_fstypename... no
+checking for library containing getmntent... none required
+checking for getmntent... yes
+checking for listmntent of Cray/Unicos-9... no
+checking for mntctl function and struct vmount... no
+checking for one-argument getmntent function... yes
+checking for sys/mntent.h... no
+checking for struct statfs.f_fstypename... no
+checking whether getaddrinfo is declared without a macro... (cached) yes
+checking whether freeaddrinfo is declared without a macro... (cached) yes
+checking whether gai_strerror is declared without a macro... (cached) yes
+checking whether getnameinfo is declared without a macro... (cached) yes
+checking whether <netinet/in.h> is self-contained... yes
+checking whether YESEXPR works... yes
+checking for working re_compile_pattern... yes
+checking for library containing getservbyname... (cached) none required
+checking for getservbyname... (cached) yes
+checking whether setenv validates arguments... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking for library containing setsockopt... none needed
+checking for socklen_t... yes
+checking for ssize_t... (cached) yes
+checking for working stdalign.h... yes
+checking whether NULL can be used in arbitrary expressions... (cached) yes
+checking whether dprintf is declared without a macro... yes
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... yes
+checking whether getline is declared without a macro... yes
+checking whether gets is declared without a macro... no
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... yes
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... yes
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... yes
+checking whether getloadavg is declared without a macro... yes
+checking whether getsubopt is declared without a macro... yes
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... yes
+checking whether initstate_r is declared without a macro... yes
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... yes
+checking whether mkostemps is declared without a macro... yes
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... yes
+checking whether posix_openpt is declared without a macro... yes
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... yes
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... yes
+checking whether secure_getenv is declared without a macro... yes
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... yes
+checking whether setstate_r is declared without a macro... yes
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... yes
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking whether strncasecmp is declared... (cached) yes
+checking whether strcasestr works in linear time... yes
+checking for strcasestr... (cached) yes
+checking whether strcasestr works... (cached) yes
+checking for working strerror function... yes
+checking for working strndup... yes
+checking for working strnlen... yes
+checking for strsep... yes
+checking whether strstr works... yes
+checking whether <sys/socket.h> is self-contained... (cached) yes
+checking for shutdown... (cached) yes
+checking whether <sys/socket.h> defines the SHUT_* macros... (cached) yes
+checking for struct sockaddr_storage... (cached) yes
+checking for sa_family_t... (cached) yes
+checking for struct sockaddr_storage.ss_family... (cached) yes
+checking whether socket is declared without a macro... (cached) yes
+checking whether connect is declared without a macro... (cached) yes
+checking whether accept is declared without a macro... (cached) yes
+checking whether bind is declared without a macro... (cached) yes
+checking whether getpeername is declared without a macro... (cached) yes
+checking whether getsockname is declared without a macro... (cached) yes
+checking whether getsockopt is declared without a macro... (cached) yes
+checking whether listen is declared without a macro... (cached) yes
+checking whether recv is declared without a macro... (cached) yes
+checking whether send is declared without a macro... (cached) yes
+checking whether recvfrom is declared without a macro... (cached) yes
+checking whether sendto is declared without a macro... (cached) yes
+checking whether setsockopt is declared without a macro... (cached) yes
+checking whether shutdown is declared without a macro... (cached) yes
+checking whether accept4 is declared without a macro... (cached) yes
+checking whether localtime_r is declared... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... yes
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... yes
+checking whether faccessat is declared without a macro... yes
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... yes
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... yes
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... yes
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... yes
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... yes
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... yes
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... yes
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... yes
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for ptrdiff_t... yes
+checking for vasprintf... yes
+checking for vsnprintf... yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking whether btowc is declared without a macro... yes
+checking whether wctob is declared without a macro... yes
+checking whether mbsinit is declared without a macro... yes
+checking whether mbrtowc is declared without a macro... yes
+checking whether mbrlen is declared without a macro... yes
+checking whether mbsrtowcs is declared without a macro... yes
+checking whether mbsnrtowcs is declared without a macro... yes
+checking whether wcrtomb is declared without a macro... yes
+checking whether wcsrtombs is declared without a macro... yes
+checking whether wcsnrtombs is declared without a macro... yes
+checking whether wcwidth is declared without a macro... yes
+checking whether wmemchr is declared without a macro... yes
+checking whether wmemcmp is declared without a macro... yes
+checking whether wmemcpy is declared without a macro... yes
+checking whether wmemmove is declared without a macro... yes
+checking whether wmemset is declared without a macro... yes
+checking whether wcslen is declared without a macro... yes
+checking whether wcsnlen is declared without a macro... yes
+checking whether wcscpy is declared without a macro... yes
+checking whether wcpcpy is declared without a macro... yes
+checking whether wcsncpy is declared without a macro... yes
+checking whether wcpncpy is declared without a macro... yes
+checking whether wcscat is declared without a macro... yes
+checking whether wcsncat is declared without a macro... yes
+checking whether wcscmp is declared without a macro... yes
+checking whether wcsncmp is declared without a macro... yes
+checking whether wcscasecmp is declared without a macro... yes
+checking whether wcsncasecmp is declared without a macro... yes
+checking whether wcscoll is declared without a macro... yes
+checking whether wcsxfrm is declared without a macro... yes
+checking whether wcsdup is declared without a macro... yes
+checking whether wcschr is declared without a macro... yes
+checking whether wcsrchr is declared without a macro... yes
+checking whether wcscspn is declared without a macro... yes
+checking whether wcsspn is declared without a macro... yes
+checking whether wcspbrk is declared without a macro... yes
+checking whether wcsstr is declared without a macro... yes
+checking whether wcstok is declared without a macro... yes
+checking whether wcswidth is declared without a macro... yes
+checking whether mbrtowc handles incomplete characters... (cached) yes
+checking whether mbrtowc works as well as mbtowc... (cached) yes
+checking whether wcrtomb return value is correct... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking whether wctype is declared without a macro... yes
+checking whether iswctype is declared without a macro... yes
+checking whether wctrans is declared without a macro... yes
+checking whether towctrans is declared without a macro... yes
+checking for stdint.h... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating gl/Makefile
+config.status: creating nagios-plugins.spec
+config.status: creating tools/build_perl_modules
+config.status: creating Makefile
+config.status: creating tap/Makefile
+config.status: creating lib/Makefile
+config.status: creating plugins/Makefile
+config.status: creating lib/tests/Makefile
+config.status: creating plugins-root/Makefile
+config.status: creating plugins-scripts/Makefile
+config.status: creating plugins-scripts/utils.pm
+config.status: creating plugins-scripts/utils.sh
+config.status: creating perlmods/Makefile
+config.status: creating test.pl
+config.status: creating pkg/solaris/pkginfo
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+configure: WARNING: unrecognized options: --without-included-gettext, --without-included-gettext, --with-proc-loadavg
+            --with-apt-get-command: 
+              --with-ping6-command: 
+               --with-ping-command: /bin/ping -n -U -w %d -c %d %s
+                       --with-ipv6: no
+                      --with-mysql: /usr/bin/mysql_config
+                    --with-openssl: yes
+                     --with-gnutls: no
+               --enable-extra-opts: yes
+                       --with-perl: /usr/bin/perl
+             --enable-perl-modules: no
+                     --with-cgiurl: /nagios/cgi-bin
+               --with-trusted-path: /usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+                   --enable-libtap: no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating gl/Makefile
+config.status: creating nagios-plugins.spec
+config.status: creating tools/build_perl_modules
+config.status: creating Makefile
+config.status: creating tap/Makefile
+config.status: creating lib/Makefile
+config.status: creating plugins/Makefile
+config.status: creating lib/tests/Makefile
+config.status: creating plugins-root/Makefile
+config.status: creating plugins-scripts/Makefile
+config.status: creating plugins-scripts/utils.pm
+config.status: creating plugins-scripts/utils.sh
+config.status: creating perlmods/Makefile
+config.status: creating test.pl
+config.status: creating pkg/solaris/pkginfo
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+configure: WARNING: unrecognized options: --without-included-gettext, --without-included-gettext, --with-proc-loadavg
++ make -j16
+make  all-recursive
+Making all in gl
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f alloca.h-t alloca.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ./alloca.in.h; \
+} > alloca.h-t && \
+mv -f alloca.h-t alloca.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f warn-on-use.h-t warn-on-use.h && \
+sed -n -e '/^.ifndef/,$p' \
+  < ../build-aux/snippet/warn-on-use.h \
+  > warn-on-use.h-t && \
+mv warn-on-use.h-t warn-on-use.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f arg-nonnull.h-t arg-nonnull.h && \
+sed -n -e '/GL_ARG_NONNULL/,$p' \
+  < ../build-aux/snippet/arg-nonnull.h \
+  > arg-nonnull.h-t && \
+mv arg-nonnull.h-t arg-nonnull.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f c++defs.h-t c++defs.h && \
+sed -n -e '/_GL_CXXDEFS/,$p' \
+  < ../build-aux/snippet/c++defs.h \
+  > c++defs.h-t && \
+mv c++defs.h-t c++defs.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f configmake.h-t && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  echo '#define PREFIX "/usr"'; \
+  echo '#define EXEC_PREFIX "/usr"'; \
+  echo '#define BINDIR "/usr/bin"'; \
+  echo '#define SBINDIR "/usr/sbin"'; \
+  echo '#define LIBEXECDIR "/usr/lib/nagios/plugins"'; \
+  echo '#define DATAROOTDIR "/usr/share"'; \
+  echo '#define DATADIR "/usr/share"'; \
+  echo '#define SYSCONFDIR "/etc"'; \
+  echo '#define SHAREDSTATEDIR "/var/lib"'; \
+  echo '#define LOCALSTATEDIR "/var/lib"'; \
+  echo '#define INCLUDEDIR "/usr/include"'; \
+  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+  echo '#define DOCDIR "/usr/share/doc/nagios-plugins"'; \
+  echo '#define INFODIR "/usr/share/info"'; \
+  echo '#define HTMLDIR "/usr/share/doc/nagios-plugins"'; \
+  echo '#define DVIDIR "/usr/share/doc/nagios-plugins"'; \
+  echo '#define PDFDIR "/usr/share/doc/nagios-plugins"'; \
+  echo '#define PSDIR "/usr/share/doc/nagios-plugins"'; \
+  echo '#define LIBDIR "/usr/lib64"'; \
+  echo '#define LISPDIR "/usr/share/emacs/site-lisp"'; \
+  echo '#define LOCALEDIR "/usr/share/locale"'; \
+  echo '#define MANDIR "/usr/share/man"'; \
+  echo '#define MANEXT ""'; \
+  echo '#define PKGDATADIR "/usr/share/nagios-plugins"'; \
+  echo '#define PKGINCLUDEDIR "/usr/include/nagios-plugins"'; \
+  echo '#define PKGLIBDIR "/usr/lib64/nagios-plugins"'; \
+  echo '#define PKGLIBEXECDIR "/usr/lib/nagios/plugins/nagios-plugins"'; \
+} | sed '/""/d' > configmake.h-t && \
+mv -f configmake.h-t configmake.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+/usr/bin/mkdir -p sys
+rm -f sys/types.h-t sys/types.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_TYPES_H''@|<sys/types.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      < ./sys_types.in.h; \
+} > sys/types.h-t && \
+mv sys/types.h-t sys/types.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+/usr/bin/mkdir -p sys
+rm -f sys/uio.h-t sys/uio.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_UIO_H''@|<sys/uio.h>|g' \
+      -e 's|@''HAVE_SYS_UIO_H''@|1|g' \
+      < ./sys_uio.in.h; \
+} > sys/uio.h-t && \
+mv -f sys/uio.h-t sys/uio.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f langinfo.h-t langinfo.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_LANGINFO_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_LANGINFO_H''@|<langinfo.h>|g' \
+      -e 's/@''GNULIB_NL_LANGINFO''@/1/g' \
+      -e 's|@''HAVE_LANGINFO_CODESET''@|1|g' \
+      -e 's|@''HAVE_LANGINFO_T_FMT_AMPM''@|1|g' \
+      -e 's|@''HAVE_LANGINFO_ERA''@|1|g' \
+      -e 's|@''HAVE_LANGINFO_YESEXPR''@|1|g' \
+      -e 's|@''HAVE_NL_LANGINFO''@|1|g' \
+      -e 's|@''REPLACE_NL_LANGINFO''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./langinfo.in.h; \
+} > langinfo.h-t && \
+mv langinfo.h-t langinfo.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f locale.h-t locale.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_LOCALE_H''@|<locale.h>|g' \
+      -e 's/@''GNULIB_LOCALECONV''@/1/g' \
+      -e 's/@''GNULIB_SETLOCALE''@/0/g' \
+      -e 's/@''GNULIB_DUPLOCALE''@/0/g' \
+      -e 's|@''HAVE_DUPLOCALE''@|1|g' \
+      -e 's|@''HAVE_XLOCALE_H''@|0|g' \
+      -e 's|@''REPLACE_LOCALECONV''@|0|g' \
+      -e 's|@''REPLACE_SETLOCALE''@|0|g' \
+      -e 's|@''REPLACE_DUPLOCALE''@|0|g' \
+      -e 's|@''REPLACE_STRUCT_LCONV''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./locale.in.h; \
+} > locale.h-t && \
+mv locale.h-t locale.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+/usr/bin/mkdir -p arpa
+rm -f arpa/inet.h-t arpa/inet.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+      -e 's|@''NEXT_ARPA_INET_H''@|<arpa/inet.h>|g' \
+      -e 's|@''HAVE_ARPA_INET_H''@|1|g' \
+      -e 's/@''GNULIB_INET_NTOP''@/1/g' \
+      -e 's/@''GNULIB_INET_PTON''@/0/g' \
+      -e 's|@''HAVE_DECL_INET_NTOP''@|1|g' \
+      -e 's|@''HAVE_DECL_INET_PTON''@|1|g' \
+      -e 's|@''REPLACE_INET_NTOP''@|0|g' \
+      -e 's|@''REPLACE_INET_PTON''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./arpa_inet.in.h; \
+} > arpa/inet.h-t && \
+mv arpa/inet.h-t arpa/inet.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f netdb.h-t netdb.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_NETDB_H''@|<netdb.h>|g' \
+      -e 's|@''HAVE_NETDB_H''@|1|g' \
+      -e 's/@''GNULIB_GETADDRINFO''@/1/g' \
+      -e 's|@''HAVE_STRUCT_ADDRINFO''@|1|g' \
+      -e 's|@''HAVE_DECL_FREEADDRINFO''@|1|g' \
+      -e 's|@''HAVE_DECL_GAI_STRERROR''@|1|g' \
+      -e 's|@''HAVE_DECL_GETADDRINFO''@|1|g' \
+      -e 's|@''HAVE_DECL_GETNAMEINFO''@|1|g' \
+      -e 's|@''REPLACE_GAI_STRERROR''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./netdb.in.h; \
+} > netdb.h-t && \
+mv netdb.h-t netdb.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f strings.h-t strings.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_STRINGS_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STRINGS_H''@|<strings.h>|g' \
+      -e 's|@''GNULIB_FFS''@|0|g' \
+      -e 's|@''HAVE_FFS''@|1|g' \
+      -e 's|@''HAVE_STRCASECMP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNCASECMP''@|1|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./strings.in.h; \
+} > strings.h-t && \
+mv strings.h-t strings.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f time.h-t time.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_TIME_H''@|<time.h>|g' \
+      -e 's/@''GNULIB_MKTIME''@/1/g' \
+      -e 's/@''GNULIB_NANOSLEEP''@/0/g' \
+      -e 's/@''GNULIB_STRPTIME''@/0/g' \
+      -e 's/@''GNULIB_TIMEGM''@/1/g' \
+      -e 's/@''GNULIB_TIME_R''@/1/g' \
+      -e 's|@''HAVE_DECL_LOCALTIME_R''@|1|g' \
+      -e 's|@''HAVE_NANOSLEEP''@|1|g' \
+      -e 's|@''HAVE_STRPTIME''@|1|g' \
+      -e 's|@''HAVE_TIMEGM''@|1|g' \
+      -e 's|@''REPLACE_LOCALTIME_R''@|0|g' \
+      -e 's|@''REPLACE_MKTIME''@|1|g' \
+      -e 's|@''REPLACE_NANOSLEEP''@|GNULIB_PORTCHECK|g' \
+      -e 's|@''REPLACE_TIMEGM''@|0|g' \
+      -e 's|@''PTHREAD_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+      -e 's|@''SYS_TIME_H_DEFINES_STRUCT_TIMESPEC''@|0|g' \
+      -e 's|@''TIME_H_DEFINES_STRUCT_TIMESPEC''@|1|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./time.in.h; \
+} > time.h-t && \
+mv time.h-t time.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f wctype.h-t wctype.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's/@''HAVE_WCTYPE_H''@/1/g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_WCTYPE_H''@|<wctype.h>|g' \
+      -e 's/@''GNULIB_ISWBLANK''@/0/g' \
+      -e 's/@''GNULIB_WCTYPE''@/0/g' \
+      -e 's/@''GNULIB_ISWCTYPE''@/0/g' \
+      -e 's/@''GNULIB_WCTRANS''@/0/g' \
+      -e 's/@''GNULIB_TOWCTRANS''@/0/g' \
+      -e 's/@''HAVE_ISWBLANK''@/1/g' \
+      -e 's/@''HAVE_ISWCNTRL''@/1/g' \
+      -e 's/@''HAVE_WCTYPE_T''@/1/g' \
+      -e 's/@''HAVE_WCTRANS_T''@/1/g' \
+      -e 's/@''HAVE_WINT_T''@/1/g' \
+      -e 's/@''REPLACE_ISWBLANK''@/0/g' \
+      -e 's/@''REPLACE_ISWCNTRL''@/0/g' \
+      -e 's/@''REPLACE_TOWLOWER''@/0/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./wctype.in.h; \
+} > wctype.h-t && \
+mv wctype.h-t wctype.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+/usr/bin/mkdir -p sys
+rm -f sys/socket.h-t sys/socket.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_SYS_SOCKET_H''@|<sys/socket.h>|g' \
+      -e 's|@''HAVE_SYS_SOCKET_H''@|1|g' \
+      -e 's/@''GNULIB_CLOSE''@/0/g' \
+      -e 's/@''GNULIB_SOCKET''@/0/g' \
+      -e 's/@''GNULIB_CONNECT''@/0/g' \
+      -e 's/@''GNULIB_ACCEPT''@/0/g' \
+      -e 's/@''GNULIB_BIND''@/0/g' \
+      -e 's/@''GNULIB_GETPEERNAME''@/0/g' \
+      -e 's/@''GNULIB_GETSOCKNAME''@/0/g' \
+      -e 's/@''GNULIB_GETSOCKOPT''@/0/g' \
+      -e 's/@''GNULIB_LISTEN''@/0/g' \
+      -e 's/@''GNULIB_RECV''@/0/g' \
+      -e 's/@''GNULIB_SEND''@/0/g' \
+      -e 's/@''GNULIB_RECVFROM''@/0/g' \
+      -e 's/@''GNULIB_SENDTO''@/0/g' \
+      -e 's/@''GNULIB_SETSOCKOPT''@/0/g' \
+      -e 's/@''GNULIB_SHUTDOWN''@/0/g' \
+      -e 's/@''GNULIB_ACCEPT4''@/0/g' \
+      -e 's|@''HAVE_WINSOCK2_H''@|0|g' \
+      -e 's|@''HAVE_WS2TCPIP_H''@|0|g' \
+      -e 's|@''HAVE_STRUCT_SOCKADDR_STORAGE''@|1|g' \
+      -e 's|@''HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY''@|1|g' \
+      -e 's|@''HAVE_SA_FAMILY_T''@|1|g' \
+      -e 's|@''HAVE_ACCEPT4''@|1|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./sys_socket.in.h; \
+} > sys/socket.h-t && \
+mv -f sys/socket.h-t sys/socket.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f stdlib.h-t stdlib.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+      -e 's/@''GNULIB__EXIT''@/0/g' \
+      -e 's/@''GNULIB_ATOLL''@/0/g' \
+      -e 's/@''GNULIB_CALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_CANONICALIZE_FILE_NAME''@/0/g' \
+      -e 's/@''GNULIB_GETLOADAVG''@/1/g' \
+      -e 's/@''GNULIB_GETSUBOPT''@/0/g' \
+      -e 's/@''GNULIB_GRANTPT''@/0/g' \
+      -e 's/@''GNULIB_MALLOC_POSIX''@/1/g' \
+      -e 's/@''GNULIB_MBTOWC''@/1/g' \
+      -e 's/@''GNULIB_MKDTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKOSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMP''@/0/g' \
+      -e 's/@''GNULIB_MKSTEMPS''@/0/g' \
+      -e 's/@''GNULIB_POSIX_OPENPT''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME''@/0/g' \
+      -e 's/@''GNULIB_PTSNAME_R''@/0/g' \
+      -e 's/@''GNULIB_PUTENV''@/0/g' \
+      -e 's/@''GNULIB_RANDOM''@/0/g' \
+      -e 's/@''GNULIB_RANDOM_R''@/0/g' \
+      -e 's/@''GNULIB_REALLOC_POSIX''@/0/g' \
+      -e 's/@''GNULIB_REALPATH''@/0/g' \
+      -e 's/@''GNULIB_RPMATCH''@/0/g' \
+      -e 's/@''GNULIB_SECURE_GETENV''@/0/g' \
+      -e 's/@''GNULIB_SETENV''@/1/g' \
+      -e 's/@''GNULIB_STRTOD''@/0/g' \
+      -e 's/@''GNULIB_STRTOLL''@/0/g' \
+      -e 's/@''GNULIB_STRTOULL''@/0/g' \
+      -e 's/@''GNULIB_SYSTEM_POSIX''@/0/g' \
+      -e 's/@''GNULIB_UNLOCKPT''@/0/g' \
+      -e 's/@''GNULIB_UNSETENV''@/1/g' \
+      -e 's/@''GNULIB_WCTOMB''@/0/g' \
+      < ./stdlib.in.h | \
+  sed -e 's|@''HAVE__EXIT''@|1|g' \
+      -e 's|@''HAVE_ATOLL''@|1|g' \
+      -e 's|@''HAVE_CANONICALIZE_FILE_NAME''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+      -e 's|@''HAVE_GRANTPT''@|1|g' \
+      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKOSTEMPS''@|1|g' \
+      -e 's|@''HAVE_MKSTEMP''@|1|g' \
+      -e 's|@''HAVE_MKSTEMPS''@|1|g' \
+      -e 's|@''HAVE_POSIX_OPENPT''@|1|g' \
+      -e 's|@''HAVE_PTSNAME''@|1|g' \
+      -e 's|@''HAVE_PTSNAME_R''@|1|g' \
+      -e 's|@''HAVE_RANDOM''@|1|g' \
+      -e 's|@''HAVE_RANDOM_H''@|1|g' \
+      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+      -e 's|@''HAVE_REALPATH''@|1|g' \
+      -e 's|@''HAVE_RPMATCH''@|1|g' \
+      -e 's|@''HAVE_SECURE_GETENV''@|1|g' \
+      -e 's|@''HAVE_DECL_SETENV''@|1|g' \
+      -e 's|@''HAVE_STRTOD''@|1|g' \
+      -e 's|@''HAVE_STRTOLL''@|1|g' \
+      -e 's|@''HAVE_STRTOULL''@|1|g' \
+      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|1|g' \
+      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+      -e 's|@''HAVE_UNLOCKPT''@|1|g' \
+      -e 's|@''HAVE_DECL_UNSETENV''@|1|g' \
+      -e 's|@''REPLACE_CALLOC''@|0|g' \
+      -e 's|@''REPLACE_CANONICALIZE_FILE_NAME''@|0|g' \
+      -e 's|@''REPLACE_MALLOC''@|0|g' \
+      -e 's|@''REPLACE_MBTOWC''@|0|g' \
+      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME''@|0|g' \
+      -e 's|@''REPLACE_PTSNAME_R''@|0|g' \
+      -e 's|@''REPLACE_PUTENV''@|0|g' \
+      -e 's|@''REPLACE_RANDOM_R''@|0|g' \
+      -e 's|@''REPLACE_REALLOC''@|0|g' \
+      -e 's|@''REPLACE_REALPATH''@|0|g' \
+      -e 's|@''REPLACE_SETENV''@|0|g' \
+      -e 's|@''REPLACE_STRTOD''@|0|g' \
+      -e 's|@''REPLACE_UNSETENV''@|0|g' \
+      -e 's|@''REPLACE_WCTOMB''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _Noreturn/r ../build-aux/snippet/_Noreturn.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > stdlib.h-t && \
+mv stdlib.h-t stdlib.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f string.h-t string.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+      -e 's/@''GNULIB_FFSL''@/0/g' \
+      -e 's/@''GNULIB_FFSLL''@/0/g' \
+      -e 's/@''GNULIB_MBSLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSNLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSCHR''@/0/g' \
+      -e 's/@''GNULIB_MBSRCHR''@/0/g' \
+      -e 's/@''GNULIB_MBSSTR''@/0/g' \
+      -e 's/@''GNULIB_MBSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSPCASECMP''@/0/g' \
+      -e 's/@''GNULIB_MBSCASESTR''@/0/g' \
+      -e 's/@''GNULIB_MBSCSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSPBRK''@/0/g' \
+      -e 's/@''GNULIB_MBSSPN''@/0/g' \
+      -e 's/@''GNULIB_MBSSEP''@/0/g' \
+      -e 's/@''GNULIB_MBSTOK_R''@/0/g' \
+      -e 's/@''GNULIB_MEMCHR''@/1/g' \
+      -e 's/@''GNULIB_MEMMEM''@/0/g' \
+      -e 's/@''GNULIB_MEMPCPY''@/0/g' \
+      -e 's/@''GNULIB_MEMRCHR''@/0/g' \
+      -e 's/@''GNULIB_RAWMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_STPCPY''@/0/g' \
+      -e 's/@''GNULIB_STPNCPY''@/0/g' \
+      -e 's/@''GNULIB_STRCHRNUL''@/0/g' \
+      -e 's/@''GNULIB_STRDUP''@/0/g' \
+      -e 's/@''GNULIB_STRNCAT''@/0/g' \
+      -e 's/@''GNULIB_STRNDUP''@/1/g' \
+      -e 's/@''GNULIB_STRNLEN''@/1/g' \
+      -e 's/@''GNULIB_STRPBRK''@/0/g' \
+      -e 's/@''GNULIB_STRSEP''@/1/g' \
+      -e 's/@''GNULIB_STRSTR''@/1/g' \
+      -e 's/@''GNULIB_STRCASESTR''@/1/g' \
+      -e 's/@''GNULIB_STRTOK_R''@/0/g' \
+      -e 's/@''GNULIB_STRERROR''@/1/g' \
+      -e 's/@''GNULIB_STRERROR_R''@/0/g' \
+      -e 's/@''GNULIB_STRSIGNAL''@/0/g' \
+      -e 's/@''GNULIB_STRVERSCMP''@/0/g' \
+      < ./string.in.h | \
+  sed -e 's|@''HAVE_FFSL''@|1|g' \
+      -e 's|@''HAVE_FFSLL''@|1|g' \
+      -e 's|@''HAVE_MBSLEN''@|0|g' \
+      -e 's|@''HAVE_MEMCHR''@|1|g' \
+      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+      -e 's|@''HAVE_STPCPY''@|1|g' \
+      -e 's|@''HAVE_STPNCPY''@|1|g' \
+      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+      -e 's|@''HAVE_STRPBRK''@|1|g' \
+      -e 's|@''HAVE_STRSEP''@|1|g' \
+      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+      -e 's|@''HAVE_DECL_STRERROR_R''@|1|g' \
+      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+      -e 's|@''REPLACE_STPNCPY''@|0|g' \
+      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+      -e 's|@''REPLACE_STRCHRNUL''@|0|g' \
+      -e 's|@''REPLACE_STRDUP''@|0|g' \
+      -e 's|@''REPLACE_STRSTR''@|0|g' \
+      -e 's|@''REPLACE_STRERROR''@|0|g' \
+      -e 's|@''REPLACE_STRERROR_R''@|0|g' \
+      -e 's|@''REPLACE_STRNCAT''@|0|g' \
+      -e 's|@''REPLACE_STRNDUP''@|0|g' \
+      -e 's|@''REPLACE_STRNLEN''@|0|g' \
+      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+      -e 's|@''REPLACE_STRTOK_R''@|0|g' \
+      -e 's|@''UNDEFINE_STRTOK_R''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+      < ./string.in.h; \
+} > string.h-t && \
+mv string.h-t string.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f stdio.h-t stdio.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+      -e 's/@''GNULIB_DPRINTF''@/0/g' \
+      -e 's/@''GNULIB_FCLOSE''@/0/g' \
+      -e 's/@''GNULIB_FDOPEN''@/0/g' \
+      -e 's/@''GNULIB_FFLUSH''@/0/g' \
+      -e 's/@''GNULIB_FGETC''@/1/g' \
+      -e 's/@''GNULIB_FGETS''@/1/g' \
+      -e 's/@''GNULIB_FOPEN''@/0/g' \
+      -e 's/@''GNULIB_FPRINTF''@/1/g' \
+      -e 's/@''GNULIB_FPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_FPURGE''@/0/g' \
+      -e 's/@''GNULIB_FPUTC''@/1/g' \
+      -e 's/@''GNULIB_FPUTS''@/1/g' \
+      -e 's/@''GNULIB_FREAD''@/1/g' \
+      -e 's/@''GNULIB_FREOPEN''@/0/g' \
+      -e 's/@''GNULIB_FSCANF''@/1/g' \
+      -e 's/@''GNULIB_FSEEK''@/0/g' \
+      -e 's/@''GNULIB_FSEEKO''@/0/g' \
+      -e 's/@''GNULIB_FTELL''@/0/g' \
+      -e 's/@''GNULIB_FTELLO''@/0/g' \
+      -e 's/@''GNULIB_FWRITE''@/1/g' \
+      -e 's/@''GNULIB_GETC''@/1/g' \
+      -e 's/@''GNULIB_GETCHAR''@/1/g' \
+      -e 's/@''GNULIB_GETDELIM''@/0/g' \
+      -e 's/@''GNULIB_GETLINE''@/0/g' \
+      -e 's/@''GNULIB_OBSTACK_PRINTF''@/0/g' \
+      -e 's/@''GNULIB_OBSTACK_PRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_PCLOSE''@/0/g' \
+      -e 's/@''GNULIB_PERROR''@/0/g' \
+      -e 's/@''GNULIB_POPEN''@/0/g' \
+      -e 's/@''GNULIB_PRINTF''@/1/g' \
+      -e 's/@''GNULIB_PRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_PUTC''@/1/g' \
+      -e 's/@''GNULIB_PUTCHAR''@/1/g' \
+      -e 's/@''GNULIB_PUTS''@/1/g' \
+      -e 's/@''GNULIB_REMOVE''@/0/g' \
+      -e 's/@''GNULIB_RENAME''@/0/g' \
+      -e 's/@''GNULIB_RENAMEAT''@/0/g' \
+      -e 's/@''GNULIB_SCANF''@/1/g' \
+      -e 's/@''GNULIB_SNPRINTF''@/1/g' \
+      -e 's/@''GNULIB_SPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_STDIO_H_NONBLOCKING''@/0/g' \
+      -e 's/@''GNULIB_STDIO_H_SIGPIPE''@/0/g' \
+      -e 's/@''GNULIB_TMPFILE''@/0/g' \
+      -e 's/@''GNULIB_VASPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VDPRINTF''@/0/g' \
+      -e 's/@''GNULIB_VFPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VFPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_VFSCANF''@/0/g' \
+      -e 's/@''GNULIB_VSCANF''@/0/g' \
+      -e 's/@''GNULIB_VPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VPRINTF_POSIX''@/0/g' \
+      -e 's/@''GNULIB_VSNPRINTF''@/1/g' \
+      -e 's/@''GNULIB_VSPRINTF_POSIX''@/0/g' \
+      < ./stdio.in.h | \
+  sed -e 's|@''HAVE_DECL_FPURGE''@|1|g' \
+      -e 's|@''HAVE_DECL_FSEEKO''@|1|g' \
+      -e 's|@''HAVE_DECL_FTELLO''@|1|g' \
+      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+      -e 's|@''HAVE_DPRINTF''@|1|g' \
+      -e 's|@''HAVE_FSEEKO''@|1|g' \
+      -e 's|@''HAVE_FTELLO''@|1|g' \
+      -e 's|@''HAVE_PCLOSE''@|1|g' \
+      -e 's|@''HAVE_POPEN''@|1|g' \
+      -e 's|@''HAVE_RENAMEAT''@|1|g' \
+      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+      -e 's|@''HAVE_VDPRINTF''@|1|g' \
+      -e 's|@''REPLACE_DPRINTF''@|0|g' \
+      -e 's|@''REPLACE_FCLOSE''@|0|g' \
+      -e 's|@''REPLACE_FDOPEN''@|0|g' \
+      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+      -e 's|@''REPLACE_FOPEN''@|0|g' \
+      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+      -e 's|@''REPLACE_FPURGE''@|0|g' \
+      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+      -e 's|@''REPLACE_FSEEK''@|0|g' \
+      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+      -e 's|@''REPLACE_FTELL''@|0|g' \
+      -e 's|@''REPLACE_FTELLO''@|0|g' \
+      -e 's|@''REPLACE_GETDELIM''@|0|g' \
+      -e 's|@''REPLACE_GETLINE''@|0|g' \
+      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+      -e 's|@''REPLACE_PERROR''@|0|g' \
+      -e 's|@''REPLACE_POPEN''@|0|g' \
+      -e 's|@''REPLACE_PRINTF''@|0|g' \
+      -e 's|@''REPLACE_REMOVE''@|0|g' \
+      -e 's|@''REPLACE_RENAME''@|0|g' \
+      -e 's|@''REPLACE_RENAMEAT''@|0|g' \
+      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+      -e 's|@''REPLACE_STDIO_READ_FUNCS''@|0|g' \
+      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+      -e 's|@''REPLACE_TMPFILE''@|0|g' \
+      -e 's|@''REPLACE_VASPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VDPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+      -e 's|@''ASM_SYMBOL_PREFIX''@||g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > stdio.h-t && \
+mv stdio.h-t stdio.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f wchar.h-t wchar.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+      -e 's/@''GNULIB_BTOWC''@/1/g' \
+      -e 's/@''GNULIB_WCTOB''@/0/g' \
+      -e 's/@''GNULIB_MBSINIT''@/1/g' \
+      -e 's/@''GNULIB_MBRTOWC''@/1/g' \
+      -e 's/@''GNULIB_MBRLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_MBSNRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_WCRTOMB''@/1/g' \
+      -e 's/@''GNULIB_WCSRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCSNRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCWIDTH''@/0/g' \
+      -e 's/@''GNULIB_WMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_WMEMCMP''@/0/g' \
+      -e 's/@''GNULIB_WMEMCPY''@/0/g' \
+      -e 's/@''GNULIB_WMEMMOVE''@/0/g' \
+      -e 's/@''GNULIB_WMEMSET''@/0/g' \
+      -e 's/@''GNULIB_WCSLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSNLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSNCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCOLL''@/0/g' \
+      -e 's/@''GNULIB_WCSXFRM''@/0/g' \
+      -e 's/@''GNULIB_WCSDUP''@/0/g' \
+      -e 's/@''GNULIB_WCSCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSRCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSCSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSPBRK''@/0/g' \
+      -e 's/@''GNULIB_WCSSTR''@/0/g' \
+      -e 's/@''GNULIB_WCSTOK''@/0/g' \
+      -e 's/@''GNULIB_WCSWIDTH''@/0/g' \
+      < ./wchar.in.h | \
+  sed -e 's|@''HAVE_WINT_T''@|1|g' \
+      -e 's|@''HAVE_BTOWC''@|1|g' \
+      -e 's|@''HAVE_MBSINIT''@|1|g' \
+      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+      -e 's|@''HAVE_MBRLEN''@|1|g' \
+      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WMEMCHR''@|1|g' \
+      -e 's|@''HAVE_WMEMCMP''@|1|g' \
+      -e 's|@''HAVE_WMEMCPY''@|1|g' \
+      -e 's|@''HAVE_WMEMMOVE''@|1|g' \
+      -e 's|@''HAVE_WMEMSET''@|1|g' \
+      -e 's|@''HAVE_WCSLEN''@|1|g' \
+      -e 's|@''HAVE_WCSNLEN''@|1|g' \
+      -e 's|@''HAVE_WCSCPY''@|1|g' \
+      -e 's|@''HAVE_WCPCPY''@|1|g' \
+      -e 's|@''HAVE_WCSNCPY''@|1|g' \
+      -e 's|@''HAVE_WCPNCPY''@|1|g' \
+      -e 's|@''HAVE_WCSCAT''@|1|g' \
+      -e 's|@''HAVE_WCSNCAT''@|1|g' \
+      -e 's|@''HAVE_WCSCMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCMP''@|1|g' \
+      -e 's|@''HAVE_WCSCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSCOLL''@|1|g' \
+      -e 's|@''HAVE_WCSXFRM''@|1|g' \
+      -e 's|@''HAVE_WCSDUP''@|1|g' \
+      -e 's|@''HAVE_WCSCHR''@|1|g' \
+      -e 's|@''HAVE_WCSRCHR''@|1|g' \
+      -e 's|@''HAVE_WCSCSPN''@|1|g' \
+      -e 's|@''HAVE_WCSSPN''@|1|g' \
+      -e 's|@''HAVE_WCSPBRK''@|1|g' \
+      -e 's|@''HAVE_WCSSTR''@|1|g' \
+      -e 's|@''HAVE_WCSTOK''@|1|g' \
+      -e 's|@''HAVE_WCSWIDTH''@|1|g' \
+      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+  | \
+  sed -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+      -e 's|@''REPLACE_BTOWC''@|0|g' \
+      -e 's|@''REPLACE_WCTOB''@|0|g' \
+      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+      -e 's|@''REPLACE_MBRTOWC''@|0|g' \
+      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSWIDTH''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > wchar.h-t && \
+mv wchar.h-t wchar.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f unistd.h-t unistd.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''HAVE_UNISTD_H''@|1|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+      -e 's|@''WINDOWS_64_BIT_OFF_T''@|0|g' \
+      -e 's/@''GNULIB_CHDIR''@/0/g' \
+      -e 's/@''GNULIB_CHOWN''@/0/g' \
+      -e 's/@''GNULIB_CLOSE''@/0/g' \
+      -e 's/@''GNULIB_DUP''@/0/g' \
+      -e 's/@''GNULIB_DUP2''@/0/g' \
+      -e 's/@''GNULIB_DUP3''@/0/g' \
+      -e 's/@''GNULIB_ENVIRON''@/1/g' \
+      -e 's/@''GNULIB_EUIDACCESS''@/0/g' \
+      -e 's/@''GNULIB_FACCESSAT''@/0/g' \
+      -e 's/@''GNULIB_FCHDIR''@/0/g' \
+      -e 's/@''GNULIB_FCHOWNAT''@/0/g' \
+      -e 's/@''GNULIB_FDATASYNC''@/0/g' \
+      -e 's/@''GNULIB_FSYNC''@/0/g' \
+      -e 's/@''GNULIB_FTRUNCATE''@/0/g' \
+      -e 's/@''GNULIB_GETCWD''@/0/g' \
+      -e 's/@''GNULIB_GETDOMAINNAME''@/0/g' \
+      -e 's/@''GNULIB_GETDTABLESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETGROUPS''@/0/g' \
+      -e 's/@''GNULIB_GETHOSTNAME''@/1/g' \
+      -e 's/@''GNULIB_GETLOGIN''@/0/g' \
+      -e 's/@''GNULIB_GETLOGIN_R''@/0/g' \
+      -e 's/@''GNULIB_GETPAGESIZE''@/0/g' \
+      -e 's/@''GNULIB_GETUSERSHELL''@/0/g' \
+      -e 's/@''GNULIB_GROUP_MEMBER''@/0/g' \
+      -e 's/@''GNULIB_ISATTY''@/0/g' \
+      -e 's/@''GNULIB_LCHOWN''@/0/g' \
+      -e 's/@''GNULIB_LINK''@/0/g' \
+      -e 's/@''GNULIB_LINKAT''@/0/g' \
+      -e 's/@''GNULIB_LSEEK''@/0/g' \
+      -e 's/@''GNULIB_PIPE''@/0/g' \
+      -e 's/@''GNULIB_PIPE2''@/0/g' \
+      -e 's/@''GNULIB_PREAD''@/0/g' \
+      -e 's/@''GNULIB_PWRITE''@/0/g' \
+      -e 's/@''GNULIB_READ''@/1/g' \
+      -e 's/@''GNULIB_READLINK''@/0/g' \
+      -e 's/@''GNULIB_READLINKAT''@/0/g' \
+      -e 's/@''GNULIB_RMDIR''@/0/g' \
+      -e 's/@''GNULIB_SETHOSTNAME''@/0/g' \
+      -e 's/@''GNULIB_SLEEP''@/0/g' \
+      -e 's/@''GNULIB_SYMLINK''@/0/g' \
+      -e 's/@''GNULIB_SYMLINKAT''@/0/g' \
+      -e 's/@''GNULIB_TTYNAME_R''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_GETOPT''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_NONBLOCKING''@/0/g' \
+      -e 's/@''GNULIB_UNISTD_H_SIGPIPE''@/0/g' \
+      -e 's/@''GNULIB_UNLINK''@/0/g' \
+      -e 's/@''GNULIB_UNLINKAT''@/0/g' \
+      -e 's/@''GNULIB_USLEEP''@/0/g' \
+      -e 's/@''GNULIB_WRITE''@/0/g' \
+      < ./unistd.in.h | \
+  sed -e 's|@''HAVE_CHOWN''@|1|g' \
+      -e 's|@''HAVE_DUP2''@|1|g' \
+      -e 's|@''HAVE_DUP3''@|1|g' \
+      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+      -e 's|@''HAVE_FACCESSAT''@|1|g' \
+      -e 's|@''HAVE_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_FCHOWNAT''@|1|g' \
+      -e 's|@''HAVE_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_FSYNC''@|1|g' \
+      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+      -e 's|@''HAVE_GETGROUPS''@|1|g' \
+      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_GETLOGIN''@|1|g' \
+      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_GROUP_MEMBER''@|1|g' \
+      -e 's|@''HAVE_LCHOWN''@|1|g' \
+      -e 's|@''HAVE_LINK''@|1|g' \
+      -e 's|@''HAVE_LINKAT''@|1|g' \
+      -e 's|@''HAVE_PIPE''@|1|g' \
+      -e 's|@''HAVE_PIPE2''@|1|g' \
+      -e 's|@''HAVE_PREAD''@|1|g' \
+      -e 's|@''HAVE_PWRITE''@|1|g' \
+      -e 's|@''HAVE_READLINK''@|1|g' \
+      -e 's|@''HAVE_READLINKAT''@|1|g' \
+      -e 's|@''HAVE_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_SLEEP''@|1|g' \
+      -e 's|@''HAVE_SYMLINK''@|1|g' \
+      -e 's|@''HAVE_SYMLINKAT''@|1|g' \
+      -e 's|@''HAVE_UNLINKAT''@|1|g' \
+      -e 's|@''HAVE_USLEEP''@|1|g' \
+      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+      -e 's|@''HAVE_DECL_FCHDIR''@|1|g' \
+      -e 's|@''HAVE_DECL_FDATASYNC''@|1|g' \
+      -e 's|@''HAVE_DECL_GETDOMAINNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+      -e 's|@''HAVE_DECL_GETPAGESIZE''@|1|g' \
+      -e 's|@''HAVE_DECL_GETUSERSHELL''@|1|g' \
+      -e 's|@''HAVE_DECL_SETHOSTNAME''@|1|g' \
+      -e 's|@''HAVE_DECL_TTYNAME_R''@|1|g' \
+      -e 's|@''HAVE_OS_H''@|0|g' \
+      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+  | \
+  sed -e 's|@''REPLACE_CHOWN''@|0|g' \
+      -e 's|@''REPLACE_CLOSE''@|0|g' \
+      -e 's|@''REPLACE_DUP''@|0|g' \
+      -e 's|@''REPLACE_DUP2''@|0|g' \
+      -e 's|@''REPLACE_FCHOWNAT''@|0|g' \
+      -e 's|@''REPLACE_FTRUNCATE''@|0|g' \
+      -e 's|@''REPLACE_GETCWD''@|0|g' \
+      -e 's|@''REPLACE_GETDOMAINNAME''@|0|g' \
+      -e 's|@''REPLACE_GETLOGIN_R''@|0|g' \
+      -e 's|@''REPLACE_GETGROUPS''@|0|g' \
+      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+      -e 's|@''REPLACE_ISATTY''@|0|g' \
+      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+      -e 's|@''REPLACE_LINK''@|0|g' \
+      -e 's|@''REPLACE_LINKAT''@|0|g' \
+      -e 's|@''REPLACE_LSEEK''@|0|g' \
+      -e 's|@''REPLACE_PREAD''@|0|g' \
+      -e 's|@''REPLACE_PWRITE''@|0|g' \
+      -e 's|@''REPLACE_READ''@|0|g' \
+      -e 's|@''REPLACE_READLINK''@|0|g' \
+      -e 's|@''REPLACE_RMDIR''@|0|g' \
+      -e 's|@''REPLACE_SLEEP''@|0|g' \
+      -e 's|@''REPLACE_SYMLINK''@|0|g' \
+      -e 's|@''REPLACE_TTYNAME_R''@|0|g' \
+      -e 's|@''REPLACE_UNLINK''@|0|g' \
+      -e 's|@''REPLACE_UNLINKAT''@|0|g' \
+      -e 's|@''REPLACE_USLEEP''@|0|g' \
+      -e 's|@''REPLACE_WRITE''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > unistd.h-t && \
+mv unistd.h-t unistd.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f math.h-t math.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT_AS_FIRST_DIRECTIVE''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_AS_FIRST_DIRECTIVE_MATH_H''@|<math.h>|g' \
+      -e 's/@''GNULIB_ACOSF''@/0/g' \
+      -e 's/@''GNULIB_ACOSL''@/0/g' \
+      -e 's/@''GNULIB_ASINF''@/0/g' \
+      -e 's/@''GNULIB_ASINL''@/0/g' \
+      -e 's/@''GNULIB_ATANF''@/0/g' \
+      -e 's/@''GNULIB_ATANL''@/0/g' \
+      -e 's/@''GNULIB_ATAN2F''@/0/g' \
+      -e 's/@''GNULIB_CBRT''@/0/g' \
+      -e 's/@''GNULIB_CBRTF''@/0/g' \
+      -e 's/@''GNULIB_CBRTL''@/0/g' \
+      -e 's/@''GNULIB_CEIL''@/0/g' \
+      -e 's/@''GNULIB_CEILF''@/0/g' \
+      -e 's/@''GNULIB_CEILL''@/0/g' \
+      -e 's/@''GNULIB_COPYSIGN''@/0/g' \
+      -e 's/@''GNULIB_COPYSIGNF''@/0/g' \
+      -e 's/@''GNULIB_COPYSIGNL''@/0/g' \
+      -e 's/@''GNULIB_COSF''@/0/g' \
+      -e 's/@''GNULIB_COSL''@/0/g' \
+      -e 's/@''GNULIB_COSHF''@/0/g' \
+      -e 's/@''GNULIB_EXPF''@/0/g' \
+      -e 's/@''GNULIB_EXPL''@/0/g' \
+      -e 's/@''GNULIB_EXP2''@/0/g' \
+      -e 's/@''GNULIB_EXP2F''@/0/g' \
+      -e 's/@''GNULIB_EXP2L''@/0/g' \
+      -e 's/@''GNULIB_EXPM1''@/0/g' \
+      -e 's/@''GNULIB_EXPM1F''@/0/g' \
+      -e 's/@''GNULIB_EXPM1L''@/0/g' \
+      -e 's/@''GNULIB_FABSF''@/0/g' \
+      -e 's/@''GNULIB_FABSL''@/0/g' \
+      -e 's/@''GNULIB_FLOOR''@/0/g' \
+      -e 's/@''GNULIB_FLOORF''@/1/g' \
+      -e 's/@''GNULIB_FLOORL''@/0/g' \
+      -e 's/@''GNULIB_FMA''@/0/g' \
+      -e 's/@''GNULIB_FMAF''@/0/g' \
+      -e 's/@''GNULIB_FMAL''@/0/g' \
+      -e 's/@''GNULIB_FMOD''@/0/g' \
+      -e 's/@''GNULIB_FMODF''@/0/g' \
+      -e 's/@''GNULIB_FMODL''@/0/g' \
+      -e 's/@''GNULIB_FREXPF''@/0/g' \
+      -e 's/@''GNULIB_FREXP''@/0/g' \
+      -e 's/@''GNULIB_FREXPL''@/0/g' \
+      -e 's/@''GNULIB_HYPOT''@/0/g' \
+      -e 's/@''GNULIB_HYPOTF''@/0/g' \
+      -e 's/@''GNULIB_HYPOTL''@/0/g' \
+      < ./math.in.h | \
+  sed -e 's/@''GNULIB_ILOGB''@/0/g' \
+      -e 's/@''GNULIB_ILOGBF''@/0/g' \
+      -e 's/@''GNULIB_ILOGBL''@/0/g' \
+      -e 's/@''GNULIB_ISFINITE''@/0/g' \
+      -e 's/@''GNULIB_ISINF''@/0/g' \
+      -e 's/@''GNULIB_ISNAN''@/0/g' \
+      -e 's/@''GNULIB_ISNANF''@/0/g' \
+      -e 's/@''GNULIB_ISNAND''@/0/g' \
+      -e 's/@''GNULIB_ISNANL''@/0/g' \
+      -e 's/@''GNULIB_LDEXPF''@/0/g' \
+      -e 's/@''GNULIB_LDEXPL''@/0/g' \
+      -e 's/@''GNULIB_LOG''@/0/g' \
+      -e 's/@''GNULIB_LOGF''@/0/g' \
+      -e 's/@''GNULIB_LOGL''@/0/g' \
+      -e 's/@''GNULIB_LOG10''@/0/g' \
+      -e 's/@''GNULIB_LOG10F''@/0/g' \
+      -e 's/@''GNULIB_LOG10L''@/0/g' \
+      -e 's/@''GNULIB_LOG1P''@/0/g' \
+      -e 's/@''GNULIB_LOG1PF''@/0/g' \
+      -e 's/@''GNULIB_LOG1PL''@/0/g' \
+      -e 's/@''GNULIB_LOG2''@/0/g' \
+      -e 's/@''GNULIB_LOG2F''@/0/g' \
+      -e 's/@''GNULIB_LOG2L''@/0/g' \
+      -e 's/@''GNULIB_LOGB''@/0/g' \
+      -e 's/@''GNULIB_LOGBF''@/0/g' \
+      -e 's/@''GNULIB_LOGBL''@/0/g' \
+      -e 's/@''GNULIB_MODF''@/0/g' \
+      -e 's/@''GNULIB_MODFF''@/0/g' \
+      -e 's/@''GNULIB_MODFL''@/0/g' \
+      -e 's/@''GNULIB_POWF''@/0/g' \
+      -e 's/@''GNULIB_REMAINDER''@/0/g' \
+      -e 's/@''GNULIB_REMAINDERF''@/0/g' \
+      -e 's/@''GNULIB_REMAINDERL''@/0/g' \
+      -e 's/@''GNULIB_RINT''@/0/g' \
+      -e 's/@''GNULIB_RINTF''@/0/g' \
+      -e 's/@''GNULIB_RINTL''@/0/g' \
+      -e 's/@''GNULIB_ROUND''@/0/g' \
+      -e 's/@''GNULIB_ROUNDF''@/0/g' \
+      -e 's/@''GNULIB_ROUNDL''@/0/g' \
+      -e 's/@''GNULIB_SIGNBIT''@/0/g' \
+      -e 's/@''GNULIB_SINF''@/0/g' \
+      -e 's/@''GNULIB_SINL''@/0/g' \
+      -e 's/@''GNULIB_SINHF''@/0/g' \
+      -e 's/@''GNULIB_SQRTF''@/0/g' \
+      -e 's/@''GNULIB_SQRTL''@/0/g' \
+      -e 's/@''GNULIB_TANF''@/0/g' \
+      -e 's/@''GNULIB_TANL''@/0/g' \
+      -e 's/@''GNULIB_TANHF''@/0/g' \
+      -e 's/@''GNULIB_TRUNC''@/0/g' \
+      -e 's/@''GNULIB_TRUNCF''@/0/g' \
+      -e 's/@''GNULIB_TRUNCL''@/0/g' \
+  | \
+  sed -e 's|@''HAVE_ACOSF''@|1|g' \
+      -e 's|@''HAVE_ACOSL''@|1|g' \
+      -e 's|@''HAVE_ASINF''@|1|g' \
+      -e 's|@''HAVE_ASINL''@|1|g' \
+      -e 's|@''HAVE_ATANF''@|1|g' \
+      -e 's|@''HAVE_ATANL''@|1|g' \
+      -e 's|@''HAVE_ATAN2F''@|1|g' \
+      -e 's|@''HAVE_CBRT''@|1|g' \
+      -e 's|@''HAVE_CBRTF''@|1|g' \
+      -e 's|@''HAVE_CBRTL''@|1|g' \
+      -e 's|@''HAVE_COPYSIGN''@|1|g' \
+      -e 's|@''HAVE_COPYSIGNL''@|1|g' \
+      -e 's|@''HAVE_COSF''@|1|g' \
+      -e 's|@''HAVE_COSL''@|1|g' \
+      -e 's|@''HAVE_COSHF''@|1|g' \
+      -e 's|@''HAVE_EXPF''@|1|g' \
+      -e 's|@''HAVE_EXPL''@|1|g' \
+      -e 's|@''HAVE_EXPM1''@|1|g' \
+      -e 's|@''HAVE_EXPM1F''@|1|g' \
+      -e 's|@''HAVE_FABSF''@|1|g' \
+      -e 's|@''HAVE_FABSL''@|1|g' \
+      -e 's|@''HAVE_FMA''@|1|g' \
+      -e 's|@''HAVE_FMAF''@|1|g' \
+      -e 's|@''HAVE_FMAL''@|1|g' \
+      -e 's|@''HAVE_FMODF''@|1|g' \
+      -e 's|@''HAVE_FMODL''@|1|g' \
+      -e 's|@''HAVE_FREXPF''@|1|g' \
+      -e 's|@''HAVE_HYPOTF''@|1|g' \
+      -e 's|@''HAVE_HYPOTL''@|1|g' \
+      -e 's|@''HAVE_ILOGB''@|1|g' \
+      -e 's|@''HAVE_ILOGBF''@|1|g' \
+      -e 's|@''HAVE_ILOGBL''@|1|g' \
+      -e 's|@''HAVE_ISNANF''@|1|g' \
+      -e 's|@''HAVE_ISNAND''@|1|g' \
+      -e 's|@''HAVE_ISNANL''@|1|g' \
+      -e 's|@''HAVE_LDEXPF''@|1|g' \
+      -e 's|@''HAVE_LOGF''@|1|g' \
+      -e 's|@''HAVE_LOGL''@|1|g' \
+      -e 's|@''HAVE_LOG10F''@|1|g' \
+      -e 's|@''HAVE_LOG10L''@|1|g' \
+      -e 's|@''HAVE_LOG1P''@|1|g' \
+      -e 's|@''HAVE_LOG1PF''@|1|g' \
+      -e 's|@''HAVE_LOG1PL''@|1|g' \
+      -e 's|@''HAVE_LOGBF''@|1|g' \
+      -e 's|@''HAVE_LOGBL''@|1|g' \
+      -e 's|@''HAVE_MODFF''@|1|g' \
+      -e 's|@''HAVE_MODFL''@|1|g' \
+      -e 's|@''HAVE_POWF''@|1|g' \
+      -e 's|@''HAVE_REMAINDER''@|1|g' \
+      -e 's|@''HAVE_REMAINDERF''@|1|g' \
+      -e 's|@''HAVE_RINT''@|1|g' \
+      -e 's|@''HAVE_RINTL''@|1|g' \
+      -e 's|@''HAVE_SINF''@|1|g' \
+      -e 's|@''HAVE_SINL''@|1|g' \
+      -e 's|@''HAVE_SINHF''@|1|g' \
+      -e 's|@''HAVE_SQRTF''@|1|g' \
+      -e 's|@''HAVE_SQRTL''@|1|g' \
+      -e 's|@''HAVE_TANF''@|1|g' \
+      -e 's|@''HAVE_TANL''@|1|g' \
+      -e 's|@''HAVE_TANHF''@|1|g' \
+      -e 's|@''HAVE_DECL_ACOSL''@|1|g' \
+      -e 's|@''HAVE_DECL_ASINL''@|1|g' \
+      -e 's|@''HAVE_DECL_ATANL''@|1|g' \
+      -e 's|@''HAVE_DECL_CBRTF''@|1|g' \
+      -e 's|@''HAVE_DECL_CBRTL''@|1|g' \
+      -e 's|@''HAVE_DECL_CEILF''@|1|g' \
+      -e 's|@''HAVE_DECL_CEILL''@|1|g' \
+      -e 's|@''HAVE_DECL_COPYSIGNF''@|1|g' \
+      -e 's|@''HAVE_DECL_COSL''@|1|g' \
+      -e 's|@''HAVE_DECL_EXPL''@|1|g' \
+      -e 's|@''HAVE_DECL_EXP2''@|1|g' \
+      -e 's|@''HAVE_DECL_EXP2F''@|1|g' \
+      -e 's|@''HAVE_DECL_EXP2L''@|1|g' \
+      -e 's|@''HAVE_DECL_EXPM1L''@|1|g' \
+      -e 's|@''HAVE_DECL_FLOORF''@|1|g' \
+      -e 's|@''HAVE_DECL_FLOORL''@|1|g' \
+      -e 's|@''HAVE_DECL_FREXPL''@|1|g' \
+      -e 's|@''HAVE_DECL_LDEXPL''@|1|g' \
+      -e 's|@''HAVE_DECL_LOGL''@|1|g' \
+      -e 's|@''HAVE_DECL_LOG10L''@|1|g' \
+      -e 's|@''HAVE_DECL_LOG2''@|1|g' \
+      -e 's|@''HAVE_DECL_LOG2F''@|1|g' \
+      -e 's|@''HAVE_DECL_LOG2L''@|1|g' \
+      -e 's|@''HAVE_DECL_LOGB''@|1|g' \
+      -e 's|@''HAVE_DECL_REMAINDER''@|1|g' \
+      -e 's|@''HAVE_DECL_REMAINDERL''@|1|g' \
+      -e 's|@''HAVE_DECL_RINTF''@|1|g' \
+      -e 's|@''HAVE_DECL_ROUND''@|1|g' \
+      -e 's|@''HAVE_DECL_ROUNDF''@|1|g' \
+      -e 's|@''HAVE_DECL_ROUNDL''@|1|g' \
+      -e 's|@''HAVE_DECL_SINL''@|1|g' \
+      -e 's|@''HAVE_DECL_SQRTL''@|1|g' \
+      -e 's|@''HAVE_DECL_TANL''@|1|g' \
+      -e 's|@''HAVE_DECL_TRUNC''@|1|g' \
+      -e 's|@''HAVE_DECL_TRUNCF''@|1|g' \
+      -e 's|@''HAVE_DECL_TRUNCL''@|1|g' \
+  | \
+  sed -e 's|@''REPLACE_CBRTF''@|0|g' \
+      -e 's|@''REPLACE_CBRTL''@|0|g' \
+      -e 's|@''REPLACE_CEIL''@|0|g' \
+      -e 's|@''REPLACE_CEILF''@|0|g' \
+      -e 's|@''REPLACE_CEILL''@|0|g' \
+      -e 's|@''REPLACE_EXPM1''@|0|g' \
+      -e 's|@''REPLACE_EXPM1F''@|0|g' \
+      -e 's|@''REPLACE_EXP2''@|0|g' \
+      -e 's|@''REPLACE_EXP2L''@|0|g' \
+      -e 's|@''REPLACE_FABSL''@|0|g' \
+      -e 's|@''REPLACE_FLOOR''@|0|g' \
+      -e 's|@''REPLACE_FLOORF''@|0|g' \
+      -e 's|@''REPLACE_FLOORL''@|0|g' \
+      -e 's|@''REPLACE_FMA''@|0|g' \
+      -e 's|@''REPLACE_FMAF''@|0|g' \
+      -e 's|@''REPLACE_FMAL''@|0|g' \
+      -e 's|@''REPLACE_FMOD''@|0|g' \
+      -e 's|@''REPLACE_FMODF''@|0|g' \
+      -e 's|@''REPLACE_FMODL''@|0|g' \
+      -e 's|@''REPLACE_FREXPF''@|0|g' \
+      -e 's|@''REPLACE_FREXP''@|0|g' \
+      -e 's|@''REPLACE_FREXPL''@|0|g' \
+      -e 's|@''REPLACE_HUGE_VAL''@|0|g' \
+      -e 's|@''REPLACE_HYPOT''@|0|g' \
+      -e 's|@''REPLACE_HYPOTF''@|0|g' \
+      -e 's|@''REPLACE_HYPOTL''@|0|g' \
+      -e 's|@''REPLACE_ILOGB''@|0|g' \
+      -e 's|@''REPLACE_ILOGBF''@|0|g' \
+      -e 's|@''REPLACE_ISFINITE''@|0|g' \
+      -e 's|@''REPLACE_ISINF''@|0|g' \
+      -e 's|@''REPLACE_ISNAN''@|0|g' \
+      -e 's|@''REPLACE_ITOLD''@|0|g' \
+      -e 's|@''REPLACE_LDEXPL''@|0|g' \
+      -e 's|@''REPLACE_LOG''@|0|g' \
+      -e 's|@''REPLACE_LOGF''@|0|g' \
+      -e 's|@''REPLACE_LOGL''@|0|g' \
+      -e 's|@''REPLACE_LOG10''@|0|g' \
+      -e 's|@''REPLACE_LOG10F''@|0|g' \
+      -e 's|@''REPLACE_LOG10L''@|0|g' \
+      -e 's|@''REPLACE_LOG1P''@|0|g' \
+      -e 's|@''REPLACE_LOG1PF''@|0|g' \
+      -e 's|@''REPLACE_LOG1PL''@|0|g' \
+      -e 's|@''REPLACE_LOG2''@|0|g' \
+      -e 's|@''REPLACE_LOG2F''@|0|g' \
+      -e 's|@''REPLACE_LOG2L''@|0|g' \
+      -e 's|@''REPLACE_LOGB''@|0|g' \
+      -e 's|@''REPLACE_LOGBF''@|0|g' \
+      -e 's|@''REPLACE_LOGBL''@|0|g' \
+      -e 's|@''REPLACE_MODF''@|0|g' \
+      -e 's|@''REPLACE_MODFF''@|0|g' \
+      -e 's|@''REPLACE_MODFL''@|0|g' \
+      -e 's|@''REPLACE_NAN''@|0|g' \
+      -e 's|@''REPLACE_REMAINDER''@|0|g' \
+      -e 's|@''REPLACE_REMAINDERF''@|0|g' \
+      -e 's|@''REPLACE_REMAINDERL''@|0|g' \
+      -e 's|@''REPLACE_ROUND''@|0|g' \
+      -e 's|@''REPLACE_ROUNDF''@|0|g' \
+      -e 's|@''REPLACE_ROUNDL''@|0|g' \
+      -e 's|@''REPLACE_SIGNBIT''@|0|g' \
+      -e 's|@''REPLACE_SIGNBIT_USING_GCC''@|0|g' \
+      -e 's|@''REPLACE_SQRTL''@|0|g' \
+      -e 's|@''REPLACE_TRUNC''@|0|g' \
+      -e 's|@''REPLACE_TRUNCF''@|0|g' \
+      -e 's|@''REPLACE_TRUNCL''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > math.h-t && \
+mv math.h-t math.h
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make  all-recursive
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stripslash.o stripslash.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o full-read.o full-read.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o basename.o basename.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o basename-lgpl.o basename-lgpl.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o fd-hook.o fd-hook.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o exitfail.o exitfail.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o sockets.o sockets.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dirname.o dirname.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dirname-lgpl.o dirname-lgpl.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o malloca.o malloca.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o idpriv-droptemp.o idpriv-droptemp.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o sys_socket.o sys_socket.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o safe-read.o safe-read.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o unistd.o unistd.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o glthread/threadlib.o glthread/threadlib.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o xstrndup.o xstrndup.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o asnprintf.o asnprintf.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o xsize.o xsize.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o math.o math.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f t-ref-add.sed ref-add.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/nagios-plugins/g' ref-add.sin > t-ref-add.sed && \
+mv t-ref-add.sed ref-add.sed
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o wctype-h.o wctype-h.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o xmalloc.o xmalloc.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o localcharset.o localcharset.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f t-charset.alias charset.alias && \
+/bin/sh ./config.charset 'x86_64-alt-linux-gnu' > t-charset.alias && \
+mv t-charset.alias charset.alias
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f t-ref-del.sed ref-del.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/nagios-plugins/g' ref-del.sin > t-ref-del.sed && \
+mv t-ref-del.sed ref-del.sed
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o xalloc-die.o xalloc-die.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o fsusage.o fsusage.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o base64.o base64.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o sha1.o sha1.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o printf-args.o printf-args.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mktime.o mktime.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o glthread/lock.o glthread/lock.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mountlist.o mountlist.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o printf-parse.o printf-parse.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vasnprintf.o vasnprintf.c
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+make[4]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+rm -f libgnu.a
+ar cru libgnu.a base64.o sha1.o dirname.o basename.o dirname-lgpl.o basename-lgpl.o stripslash.o exitfail.o fd-hook.o full-read.o idpriv-droptemp.o localcharset.o glthread/lock.o malloca.o math.o safe-read.o sockets.o sys_socket.o glthread/threadlib.o unistd.o wctype-h.o xmalloc.o xalloc-die.o xsize.o xstrndup.o asnprintf.o fsusage.o mktime.o mountlist.o printf-args.o printf-parse.o vasnprintf.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libgnu.a
+make[4]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/gl'
+Making all in tap
+make[2]: Nothing to be done for 'all'.
+Making all in lib
+Making all in .
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils_tcp.o utils_tcp.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils_disk.o utils_disk.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o extra_opts.o extra_opts.c
+extra_opts.c: In function 'np_extra_opts':
+extra_opts.c:96:39: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   96 |                                 while(ea1=ea1->next) ea_num++;
+      |                                       ^~~
+extra_opts.c:103:39: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  103 |                                 while(ea1=ea1->next) ea_num++;
+      |                                       ^~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils_cmd.o utils_cmd.c
+utils_cmd.c: In function 'cmd_run':
+utils_cmd.c:301:29: warning: unused variable 'pfd_err' [-Wunused-variable]
+  301 |         int fd, pfd_out[2], pfd_err[2];
+      |                             ^~~~~~~
+utils_cmd.c:301:17: warning: unused variable 'pfd_out' [-Wunused-variable]
+  301 |         int fd, pfd_out[2], pfd_err[2];
+      |                 ^~~~~~~
+utils_cmd.c:301:13: warning: unused variable 'fd' [-Wunused-variable]
+  301 |         int fd, pfd_out[2], pfd_err[2];
+      |             ^~
+utils_cmd.c: In function '_cmd_open':
+utils_cmd.c:146:12: warning: 'nonnull' argument 'argv' compared to NULL [-Wnonnull-compare]
+  146 |         if (argv == NULL)
+      |            ^
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o parse_ini.o parse_ini.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -DNP_STATE_DIR_PREFIX=\"/var/lib\" -I. -I../gl -I../intl -I../plugins   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils_base.o utils_base.c
+utils_base.c: In function 'np_extract_value':
+utils_base.c:328:17: warning: statement with no effect [-Wunused-value]
+  328 |                 for (varlist; isspace(varlist[0]); varlist++);
+      |                 ^~~
+utils_base.c:333:25: warning: statement with no effect [-Wunused-value]
+  333 |                         for (varlist; isspace(varlist[0]); varlist++);
+      |                         ^~~
+utils_base.c:339:33: warning: statement with no effect [-Wunused-value]
+  339 |                                 for (varlist; isspace(varlist[0]); varlist++);
+      |                                 ^~~
+utils_base.c:341:37: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  341 |                                 if (tmp = index(varlist, sep)) {
+      |                                     ^~~
+utils_base.c:357:21: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  357 |                 if (tmp = index(varlist, sep)) {
+      |                     ^~~
+utils_base.c: In function '_np_state_calculate_location_prefix':
+utils_base.c:445:1: warning: control reaches end of non-void function [-Wreturn-type]
+  445 | }
+      | ^
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+rm -f libnagiosplug.a
+ar cru libnagiosplug.a utils_base.o utils_disk.o utils_tcp.o utils_cmd.o parse_ini.o extra_opts.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libnagiosplug.a
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+Making all in tests
+make[3]: Nothing to be done for 'all'.
+Making all in plugins
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils.o utils.c
+utils.c: In function 'strntolower':
+utils.c:777:24: error: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+  777 |                 *ptr = tolower(*ptr);
+      |                        ^~~~~~~
+utils.c:32:1: note: include '<ctype.h>' or provide a declaration of 'tolower'
+   31 | #include <arpa/inet.h>
+  +++ |+#include <ctype.h>
+   32 | 
+utils.c: In function 'strntoupper':
+utils.c:787:24: error: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  787 |                 *ptr = toupper(*ptr);
+      |                        ^~~~~~~
+utils.c:787:24: note: include '<ctype.h>' or provide a declaration of 'toupper'
+utils.c: In function 'timeout_alarm_handler':
+utils.c:177:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  177 |                                 write(STDOUT_FILENO, "OK", 2);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:180:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  180 |                                 write(STDOUT_FILENO, "WARNING", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:183:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  183 |                                 write(STDOUT_FILENO, "CRITICAL", 8);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:186:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  186 |                                 write(STDOUT_FILENO, "DEPENDENT", 9);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:189:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  189 |                                 write(STDOUT_FILENO, "UNKNOWN", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:192:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  192 |                 write(STDOUT_FILENO, msg, sizeof(msg) - 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:2233: utils.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_dummy.o check_dummy.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_cluster.o check_cluster.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o popen.o popen.c
+popen.c: In function 'popen_timeout_alarm_handler':
+popen.c:308:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  308 |                         write(STDOUT_FILENO, msg1, sizeof(msg1));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+popen.c:311:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  311 |                         write(STDOUT_FILENO, msg2, sizeof(msg2));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o runcmd.o runcmd.c
+runcmd.c: In function 'runcmd_timeout_alarm_handler':
+runcmd.c:268:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  268 |                                 write(STDOUT_FILENO, "OK", 2);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c:271:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  271 |                                 write(STDOUT_FILENO, "WARNING", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c:274:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  274 |                                 write(STDOUT_FILENO, "CRITICAL", 8);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c:277:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  277 |                                 write(STDOUT_FILENO, "DEPENDENT", 9);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c:280:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  280 |                                 write(STDOUT_FILENO, "UNKNOWN", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c:283:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  283 |                 write(STDOUT_FILENO, msg, sizeof(msg) - 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+runcmd.c: In function 'np_runcmd_open':
+runcmd.c:137:12: warning: 'nonnull' argument 'cmdstring' compared to NULL [-Wnonnull-compare]
+  137 |         if (cmdstring == NULL)
+      |            ^
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_load.o check_load.c
+In file included from ../gl/gettext.h:25,
+                 from common.h:209,
+                 from check_load.c:35:
+check_load.c: In function 'main':
+check_load.c:163:27: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  163 |                 printf (_("could not parse load from uptime: %s\n"), result, PATH_TO_UPTIME);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_load.c:163:25: note: in expansion of macro '_'
+  163 |                 printf (_("could not parse load from uptime: %s\n"), result, PATH_TO_UPTIME);
+      |                         ^
+check_load.c:163:63: note: format string is defined here
+  163 |                 printf (_("could not parse load from uptime: %s\n"), result, PATH_TO_UPTIME);
+      |                                                              ~^
+      |                                                               |
+      |                                                               char *
+      |                                                              %d
+check_load.c:163:27: warning: too many arguments for format [-Wformat-extra-args]
+  163 |                 printf (_("could not parse load from uptime: %s\n"), result, PATH_TO_UPTIME);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_load.c:163:25: note: in expansion of macro '_'
+  163 |                 printf (_("could not parse load from uptime: %s\n"), result, PATH_TO_UPTIME);
+      |                         ^
+check_load.c:155:9: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  155 |         fgets (input_buffer, MAX_INPUT_BUFFER - 1, child_process);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_mrtg.o check_mrtg.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_mrtgtraf.o check_mrtgtraf.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o netutils.o netutils.c
+netutils.c: In function 'socket_timeout_alarm_handler':
+netutils.c:49:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   49 |                         write(STDOUT_FILENO, "OK", 2);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:52:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   52 |                         write(STDOUT_FILENO, "WARNING", 7);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:55:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   55 |                         write(STDOUT_FILENO, "CRITICAL", 8);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:58:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   58 |                         write(STDOUT_FILENO, "DEPENDENT", 9);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:61:25: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   61 |                         write(STDOUT_FILENO, "UNKNOWN", 7);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:65:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   65 |                 write(STDOUT_FILENO, msg1, sizeof(msg1) - 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+netutils.c:68:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+   68 |                 write(STDOUT_FILENO, msg2, sizeof(msg2) - 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_apt.o check_apt.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_ntp.o check_ntp.c
+In file included from netutils.h:36,
+                 from check_ntp.c:38:
+check_ntp.c: In function 'calc_offset':
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:211:21: note: in expansion of macro 'NTP64asDOUBLE'
+  211 |         client_tx = NTP64asDOUBLE(m->origts);
+      |                     ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:212:19: note: in expansion of macro 'NTP64asDOUBLE'
+  212 |         peer_rx = NTP64asDOUBLE(m->rxts);
+      |                   ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:213:19: note: in expansion of macro 'NTP64asDOUBLE'
+  213 |         peer_tx = NTP64asDOUBLE(m->txts);
+      |                   ^~~~~~~~~~~~~
+check_ntp.c: In function 'print_ntp_message':
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:182:40: note: in expansion of macro 'L32'
+  182 |                         t.tv_sec=ntohl(L32(n))-EPOCHDIFF; \
+      |                                        ^~~
+check_ntp.c:222:9: note: in expansion of macro 'NTP64toTV'
+  222 |         NTP64toTV(p->refts,ref);
+      |         ^~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:182:40: note: in expansion of macro 'L32'
+  182 |                         t.tv_sec=ntohl(L32(n))-EPOCHDIFF; \
+      |                                        ^~~
+check_ntp.c:223:9: note: in expansion of macro 'NTP64toTV'
+  223 |         NTP64toTV(p->origts,orig);
+      |         ^~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:182:40: note: in expansion of macro 'L32'
+  182 |                         t.tv_sec=ntohl(L32(n))-EPOCHDIFF; \
+      |                                        ^~~
+check_ntp.c:224:9: note: in expansion of macro 'NTP64toTV'
+  224 |         NTP64toTV(p->rxts,rx);
+      |         ^~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:182:40: note: in expansion of macro 'L32'
+  182 |                         t.tv_sec=ntohl(L32(n))-EPOCHDIFF; \
+      |                                        ^~~
+check_ntp.c:225:9: note: in expansion of macro 'NTP64toTV'
+  225 |         NTP64toTV(p->txts,tx);
+      |         ^~~~~~~~~
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:167:33: note: in expansion of macro 'L16'
+  167 | #define NTP32asDOUBLE(x) (ntohs(L16(x)) + (double)ntohs(R16(x))/65536.0)
+      |                                 ^~~
+check_ntp.c:235:40: note: in expansion of macro 'NTP32asDOUBLE'
+  235 |         printf("\trtdelay = %-.16g\n", NTP32asDOUBLE(p->rtdelay));
+      |                                        ^~~~~~~~~~~~~
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:167:33: note: in expansion of macro 'L16'
+  167 | #define NTP32asDOUBLE(x) (ntohs(L16(x)) + (double)ntohs(R16(x))/65536.0)
+      |                                 ^~~
+check_ntp.c:236:39: note: in expansion of macro 'NTP32asDOUBLE'
+  236 |         printf("\trtdisp = %-.16g\n", NTP32asDOUBLE(p->rtdisp));
+      |                                       ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:238:38: note: in expansion of macro 'NTP64asDOUBLE'
+  238 |         printf("\trefts = %-.16g\n", NTP64asDOUBLE(p->refts));
+      |                                      ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:239:39: note: in expansion of macro 'NTP64asDOUBLE'
+  239 |         printf("\torigts = %-.16g\n", NTP64asDOUBLE(p->origts));
+      |                                       ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:240:37: note: in expansion of macro 'NTP64asDOUBLE'
+  240 |         printf("\trxts = %-.16g\n", NTP64asDOUBLE(p->rxts));
+      |                                     ^~~~~~~~~~~~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:171:33: note: in expansion of macro 'L32'
+  171 |                          (ntohl(L32(n))-EPOCHDIFF) + \
+      |                                 ^~~
+check_ntp.c:241:37: note: in expansion of macro 'NTP64asDOUBLE'
+  241 |         printf("\ttxts = %-.16g\n", NTP64asDOUBLE(p->txts));
+      |                                     ^~~~~~~~~~~~~
+check_ntp.c: In function 'setup_request':
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:289:9: note: in expansion of macro 'L16'
+  289 |         L16(p->rtdelay)=htons(1);
+      |         ^~~
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:290:9: note: in expansion of macro 'L16'
+  290 |         L16(p->rtdisp)=htons(1);
+      |         ^~~
+check_ntp.c:160:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  160 | #define L32(x) (((uint32_t*)&x)[0])
+      |                                ^
+check_ntp.c:191:25: note: in expansion of macro 'L32'
+  191 |                         L32(n)=htonl(t.tv_sec + EPOCHDIFF); \
+      |                         ^~~
+check_ntp.c:293:9: note: in expansion of macro 'TVtoNTP64'
+  293 |         TVtoNTP64(t,p->txts);
+      |         ^~~~~~~~~
+check_ntp.c: In function 'best_offset_server':
+check_ntp.c:300:13: warning: unused variable 'i' [-Wunused-variable]
+  300 |         int i=0, cserver=0, best_server=-1;
+      |             ^
+check_ntp.c: In function 'offset_request':
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:167:33: note: in expansion of macro 'L16'
+  167 | #define NTP32asDOUBLE(x) (ntohs(L16(x)) + (double)ntohs(R16(x))/65536.0)
+      |                                 ^~~
+check_ntp.c:461:51: note: in expansion of macro 'NTP32asDOUBLE'
+  461 |                                 servers[i].rtdisp=NTP32asDOUBLE(req[i].rtdisp);
+      |                                                   ^~~~~~~~~~~~~
+check_ntp.c:156:32: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  156 | #define L16(x) (((uint16_t*)&x)[0])
+      |                                ^
+check_ntp.c:167:33: note: in expansion of macro 'L16'
+  167 | #define NTP32asDOUBLE(x) (ntohs(L16(x)) + (double)ntohs(R16(x))/65536.0)
+      |                                 ^~~
+check_ntp.c:462:52: note: in expansion of macro 'NTP32asDOUBLE'
+  462 |                                 servers[i].rtdelay=NTP32asDOUBLE(req[i].rtdelay);
+      |                                                    ^~~~~~~~~~~~~
+check_ntp.c:358:18: warning: unused variable 'j' [-Wunused-variable]
+  358 |         int i=0, j=0, ga_result=0, num_hosts=0, *socklist=NULL, respnum=0;
+      |                  ^
+check_ntp.c:431:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  431 |                                 write(socklist[i], &req[i], sizeof(ntp_message));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp.c:452:33: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+  452 |                                 read(ufds[i].fd, &req[i], sizeof(ntp_message));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp.c: In function 'jitter_request':
+check_ntp.c:547:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  547 |                 write(conn, &req, SIZEOF_NTPCM(req));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp.c:552:17: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+  552 |                 read(conn, &req, SIZEOF_NTPCM(req));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp.c:607:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  607 |                                 write(conn, &req, SIZEOF_NTPCM(req));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp.c:612:33: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+  612 |                                 read(conn, &req, SIZEOF_NTPCM(req));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_ntp_peer.o check_ntp_peer.c
+check_ntp_peer.c: In function 'ntp_request':
+check_ntp_peer.c:242:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  242 |                 write(conn, &req, SIZEOF_NTPCM(req));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp_peer.c:316:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  316 |                                 write(conn, &req, SIZEOF_NTPCM(req));
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_ntp_peer.c:322:41: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+  322 |                                         read(conn, &req, SIZEOF_NTPCM(req));
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_disk.o check_disk.c
+check_disk.c: In function 'main':
+check_disk.c:294:152: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 10 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+  294 |         printf ("For %s, used_pct=%g free_pct=%g used_units=%g free_units=%g total_units=%g used_inodes_pct=%g free_inodes_pct=%g fsp.fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                                                                                     ~~~^
+      |                                                                                                                                                        |
+      |                                                                                                                                                        long long unsigned int
+      |                                                                                                                                                     %lu
+  295 |           me->me_mountdir, path->dused_pct, path->dfree_pct, path->dused_units, path->dfree_units, path->dtotal_units, path->dused_inodes_percent, path->dfree_inodes_percent, fsp.fsu_blocksize, mult);
+      |                                                                                                                                                                                ~~~~~~~~~~~~~~~~~
+      |                                                                                                                                                                                   |
+      |                                                                                                                                                                                   uintmax_t {aka long unsigned int}
+check_disk.c:294:162: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 11 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+  294 |         printf ("For %s, used_pct=%g free_pct=%g used_units=%g free_units=%g total_units=%g used_inodes_pct=%g free_inodes_pct=%g fsp.fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                                                                                               ~~~^
+      |                                                                                                                                                                  |
+      |                                                                                                                                                                  long long unsigned int
+      |                                                                                                                                                               %lu
+  295 |           me->me_mountdir, path->dused_pct, path->dfree_pct, path->dused_units, path->dfree_units, path->dtotal_units, path->dused_inodes_percent, path->dfree_inodes_percent, fsp.fsu_blocksize, mult);
+      |                                                                                                                                                                                                   ~~~~
+      |                                                                                                                                                                                                   |
+      |                                                                                                                                                                                                   uintmax_t {aka long unsigned int}
+check_disk.c:184:24: warning: unused variable 'tmpfsp' [-Wunused-variable]
+  184 |   struct fs_usage fsp, tmpfsp;
+      |                        ^~~~~~
+check_disk.c:178:10: warning: unused variable 'inode_space_pct' [-Wunused-variable]
+  178 |   double inode_space_pct;
+      |          ^~~~~~~~~~~~~~~
+check_disk.c: In function 'process_arguments':
+check_disk.c:446:7: warning: unused variable 'result' [-Wunused-variable]
+  446 |   int result = OK;
+      |       ^~~~~~
+check_disk.c:445:28: warning: unused variable 'temp_me' [-Wunused-variable]
+  445 |   struct mount_entry *me, *temp_me;
+      |                            ^~~~~~~
+check_disk.c:444:26: warning: unused variable 'temp_path_select_list' [-Wunused-variable]
+  444 |   struct parameter_list *temp_path_select_list = NULL;
+      |                          ^~~~~~~~~~~~~~~~~~~~~
+check_disk.c: In function 'get_stats':
+check_disk.c:1022:39: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 3 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+ 1022 |           printf("Group %s: adding %llu blocks sized %llu, (%s) used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                    ~~~^
+      |                                       |
+      |                                       long long unsigned int
+      |                                    %lu
+ 1023 |                  p_list->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p_list->best_match->me_mountdir, p_list->dused_units, p_list->dfree_units,
+      |                                 ~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       uintmax_t {aka long unsigned int}
+check_disk.c:1022:57: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 4 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+ 1022 |           printf("Group %s: adding %llu blocks sized %llu, (%s) used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                      ~~~^
+      |                                                         |
+      |                                                         long long unsigned int
+      |                                                      %lu
+ 1023 |                  p_list->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p_list->best_match->me_mountdir, p_list->dused_units, p_list->dfree_units,
+      |                                                    ~~~~~~~~~~~~~~~~~~~~
+      |                                                          |
+      |                                                          uintmax_t {aka long unsigned int}
+check_disk.c:1022:125: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 9 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+ 1022 |           printf("Group %s: adding %llu blocks sized %llu, (%s) used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                                                          ~~~^
+      |                                                                                                                             |
+      |                                                                                                                             long long unsigned int
+      |                                                                                                                          %lu
+ 1023 |                  p_list->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p_list->best_match->me_mountdir, p_list->dused_units, p_list->dfree_units,
+ 1024 |                  p_list->dtotal_units, mult);
+      |                                        ~~~~                                                                                  
+      |                                        |
+      |                                        uintmax_t {aka long unsigned int}
+check_disk.c:1022:135: warning: format '%llu' expects a matching 'long long unsigned int' argument [-Wformat=]
+ 1022 |           printf("Group %s: adding %llu blocks sized %llu, (%s) used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                                                                    ~~~^
+      |                                                                                                                                       |
+      |                                                                                                                                       long long unsigned int
+check_disk.c:1043:47: warning: format '%g' expects argument of type 'double', but argument 3 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                              ~^
+      |                                               |
+      |                                               double
+      |                                              %ld
+ 1044 |                p->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p->best_match->me_mountdir, p->dused_units,
+      |                          ~~~~~~~~~~~~~~~~~     
+      |                                |
+      |                                uintmax_t {aka long unsigned int}
+check_disk.c:1043:61: warning: format '%g' expects argument of type 'double', but argument 4 has type 'uintmax_t' {aka 'long unsigned int'} [-Wformat=]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                            ~^
+      |                                                             |
+      |                                                             double
+      |                                                            %ld
+ 1044 |                p->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p->best_match->me_mountdir, p->dused_units,
+      |                                             ~~~~~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   uintmax_t {aka long unsigned int}
+check_disk.c:1043:76: warning: format '%g' expects argument of type 'double', but argument 5 has type 'char *' [-Wformat=]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                                           ~^
+      |                                                                            |
+      |                                                                            double
+      |                                                                           %s
+ 1044 |                p->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p->best_match->me_mountdir, p->dused_units,
+      |                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                |
+      |                                                                                char *
+check_disk.c:1043:95: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 6 has type 'double' [-Wformat=]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                            ~~~^
+      |                                                                                               |
+      |                                                                                               long long unsigned int
+      |                                                                                            %f
+ 1044 |                p->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p->best_match->me_mountdir, p->dused_units,
+      |                                                                                               ~~~~~~~~~~~~~~
+      |                                                                                                |
+      |                                                                                                double
+check_disk.c:1043:105: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 7 has type 'double' [-Wformat=]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                                                                                                      ~~~^
+      |                                                                                                         |
+      |                                                                                                         long long unsigned int
+      |                                                                                                      %f
+ 1044 |                p->group, tmpfsp.fsu_bavail, tmpfsp.fsu_blocksize, p->best_match->me_mountdir, p->dused_units,
+ 1045 |                p->dfree_units, p->dtotal_units, mult);
+      |                ~~~~~~~~~~~~~~                                                                            
+      |                 |
+      |                 double
+check_disk.c:1043:16: warning: too many arguments for format [-Wformat-extra-args]
+ 1043 |         printf("Group %s now has: used_units=%g free_units=%g total_units=%g fsu_blocksize=%llu mult=%llu\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_disk.c: At top level:
+check_disk.c:62:12: warning: 'inode_format' defined but not used [-Wunused-variable]
+   62 | static int inode_format = 1;
+      |            ^~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o sslutils.o sslutils.c
+sslutils.c: In function 'np_net_ssl_init_with_hostname_version_and_cert':
+sslutils.c:77:17: warning: 'TLSv1_client_method' is deprecated: Since OpenSSL 1.1.0 [-Wdeprecated-declarations]
+   77 |                 method = TLSv1_client_method();
+      |                 ^~~~~~
+In file included from common.h:158,
+                 from sslutils.c:30:
+/usr/include/openssl/ssl.h:2070:50: note: declared here
+ 2070 | OSSL_DEPRECATEDIN_1_1_0 __owur const SSL_METHOD *TLSv1_client_method(void);
+      |                                                  ^~~~~~~~~~~~~~~~~~~
+sslutils.c:86:17: warning: 'TLSv1_1_client_method' is deprecated: Since OpenSSL 1.1.0 [-Wdeprecated-declarations]
+   86 |                 method = TLSv1_1_client_method();
+      |                 ^~~~~~
+/usr/include/openssl/ssl.h:2078:50: note: declared here
+ 2078 | OSSL_DEPRECATEDIN_1_1_0 __owur const SSL_METHOD *TLSv1_1_client_method(void);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~
+sslutils.c:94:17: warning: 'TLSv1_2_client_method' is deprecated: Since OpenSSL 1.1.0 [-Wdeprecated-declarations]
+   94 |                 method = TLSv1_2_client_method();
+      |                 ^~~~~~
+/usr/include/openssl/ssl.h:2086:50: note: declared here
+ 2086 | OSSL_DEPRECATEDIN_1_1_0 __owur const SSL_METHOD *TLSv1_2_client_method(void);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_http.o check_http.c
+check_http.c: In function 'redir':
+check_http.c:1404:18: warning: format '%[-_.!~*'();/?:@&=+$,%#abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' expects a matching 'char *' argument [-Wformat=]
+ 1404 | #define URI_HTTP "%5[HTPShtps]"
+      |                  ^~~~~~~~~~~~~~
+check_http.c:1413:13: note: in expansion of macro 'URI_HTTP'
+ 1413 | #define HD5 URI_HTTP "//" URI_HOST "/" URI_PATH
+      |             ^~~~~~~~
+check_http.c:1493:27: note: in expansion of macro 'HD5'
+ 1493 |     else if (sscanf (pos, HD5, addr, url) == 2) {
+      |                           ^~~
+check_http.c:1407:103: note: format string is defined here
+ 1407 | #define URI_PATH "%[-_.!~*'();/?:@&=+$,%#abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]"
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+      |                                                                                                       |
+      |                                                                                                       char *
+check_http.c: In function 'check_http':
+check_http.c:1003:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1003 |     asprintf (&buf, "%s %s:%d HTTP/1.1\r\n%s\r\n", http_method, host_name, HTTPS_PORT, user_agent);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1004:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1004 |     asprintf (&buf, "%sProxy-Connection: keep-alive\r\n", buf);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1005:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1005 |     asprintf (&buf, "%sHost: %s\r\n", buf, host_name);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1007:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1007 |     asprintf (&buf, "%s%s", buf, CRLF);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1013:5: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1013 |     read (sd, buffer, MAX_INPUT_BUFFER-1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1040:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1040 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", "GET", server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1042:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1042 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", http_method, server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_nwstat.o check_nwstat.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[1]: *** [Makefile:1544: all-recursive] Error 1
+make: *** [Makefile:1468: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+
+
+RPM build errors:
+    line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+    Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+Command exited with non-zero status 1
+23.48user 19.63system 0:36.70elapsed 117%CPU (0avgtext+0avgdata 51544maxresident)k
+0inputs+0outputs (0major+4664551minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `nagios-plugins-2.2.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+6.21user 3.69system 1:21.37elapsed 12%CPU (0avgtext+0avgdata 142712maxresident)k
+4008inputs+0outputs (0major+275152minor)pagefaults 0swaps

@@ -1,0 +1,35 @@
+--disable-profiling instead.
++ '[' -x Setup ']'
++ ./Setup makefile -f cabal-rpm.mk
+unrecognised command: makefile (try --help)
++ ./Setup build
+Preprocessing library for SHA-1.6.4.4..
+Building library for SHA-1.6.4.4..
+[1 of 1] Compiling Data.Digest.Pure.SHA ( src/Data/Digest/Pure/SHA.hs, dist/build/Data/Digest/Pure/SHA.o )
+[1 of 1] Compiling Data.Digest.Pure.SHA ( src/Data/Digest/Pure/SHA.hs, dist/build/Data/Digest/Pure/SHA.p_o )
+ghc: out of memory (requested 1048576 bytes)
+ghc: out of memory (requested 1048576 bytes)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/ghc8.6.4-sha-1.6.4.4-alt1.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/ghc8.6.4-sha-1.6.4.4-alt1.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+96.33user 8.90system 1:50.21elapsed 95%CPU (0avgtext+0avgdata 4133476maxresident)k
+96.33user 8.90system 1:50.21elapsed 95%CPU (0avgtext+0avgdata 4133476maxresident)k
+0inputs+0outputs (0major+2659133minor)pagefaults 0swaps
+0inputs+0outputs (0major+2659133minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ghc8.6.4-sha-1.6.4.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `ghc8.6.4-sha-1.6.4.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.24user 3.57system 2:16.08elapsed 5%CPU (0avgtext+0avgdata 132792maxresident)k
+0inputs+0outputs (0major+188261minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.78417
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd tarantool-picodata-2.11.5.165
++ echo 2.11.5.165-gfae9c5bbe
++ sed -r 's/([0-9]+.[0-9]+.[0-9]+)\.(.*)/\1-\2/g'
++ '[' -f Makefile ']'
++ '[' -f CMakeCache.txt ']'
++ cmake . -DCMAKE_INSTALL_LOCALSTATEDIR:PATH=/var -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc -DCMAKE_BUILD_TYPE=RelWithDebInfo -DENABLE_BACKTRACE:BOOL=ON -DWITH_SYSTEMD:BOOL=ON -DSYSTEMD_UNIT_DIR:PATH=/usr/lib/systemd/system -DSYSTEMD_TMPFILES_DIR:PATH=/usr/lib/tmpfiles.d -DENABLE_DIST:BOOL=ON -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_FULL_BINDIR:PATH=/usr/bin -DENABLE_BUNDLED_LIBCURL:BOOL=OFF -DENABLE_BUNDLED_ZSTD:BOOL=OFF
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78417 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78417 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.78417 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.78417 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.79user 0.84system 0:03.63elapsed 100%CPU (0avgtext+0avgdata 145732maxresident)k
+2.79user 0.84system 0:03.63elapsed 100%CPU (0avgtext+0avgdata 145732maxresident)k
+0inputs+0outputs (0major+50601minor)pagefaults 0swaps
+0inputs+0outputs (0major+50601minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tarantool-picodata-2.11.5.165-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `tarantool-picodata-2.11.5.165-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.52user 2.76system 0:21.05elapsed 34%CPU (0avgtext+0avgdata 141608maxresident)k
+4.52user 2.76system 0:21.05elapsed 34%CPU (0avgtext+0avgdata 141608maxresident)k
+6320inputs+0outputs (0major+232645minor)pagefaults 0swaps

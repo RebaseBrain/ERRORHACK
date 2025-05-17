@@ -1,0 +1,77 @@
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/deploy/internal/DefaultProjectDeployerTest.java:[42,67] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/install/internal/DefaultProjectInstallerTest.java:[44,67] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/resolve/internal/DefaultArtifactResolverTest.java:[43,56] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/collection/internal/DefaultDependencyCollectorTest.java:[36,54] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/dependencies/resolve/internal/DefaultDependencyResolverTest.java:[43,56] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/dependencies/collect/internal/DefaultDependencyCollectorTest.java:[41,56] none() in org.junit.rules.ExpectedException has been deprecated
+[WARNING] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/install/internal/DefaultArtifactInstallerTest.java:[46,56] none() in org.junit.rules.ExpectedException has been deprecated
+[INFO] 8 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/deploy/internal/DefaultArtifactDeployerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/deploy/internal/DefaultArtifactDeployerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/deploy/internal/DefaultProjectDeployerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/deploy/internal/DefaultProjectDeployerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/install/internal/DefaultProjectInstallerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/install/internal/DefaultProjectInstallerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/resolve/internal/DefaultArtifactResolverTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/resolve/internal/DefaultArtifactResolverTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/collection/internal/DefaultDependencyCollectorTest.java:[22,26] package org.mockito does not exist
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Maven Artifact Transfer
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.441 s
+[INFO] Finished at: 2025-05-16T03:19:30Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-artifact-transfer: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/deploy/internal/DefaultArtifactDeployerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/deploy/internal/DefaultArtifactDeployerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/deploy/internal/DefaultProjectDeployerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/deploy/internal/DefaultProjectDeployerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/install/internal/DefaultProjectInstallerTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/project/install/internal/DefaultProjectInstallerTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/resolve/internal/DefaultArtifactResolverTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/resolve/internal/DefaultArtifactResolverTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/collection/internal/DefaultDependencyCollectorTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/collection/internal/DefaultDependencyCollectorTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-artifact-transfer-0.13.1/src/test/java/org/apache/maven/shared/transfer/artifact/install/internal/DefaultArtifactInstallerTest.java:[133,32] cannot find symbol
+[ERROR]   symbol:   method mock(java.lang.Class<java.io.File>)
+[ERROR]   location: class org.apache.maven.shared.transfer.artifact.install.internal.DefaultArtifactInstallerTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47706 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47706 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.47706 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.47706 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+15.57user 2.88system 0:03.79elapsed 486%CPU (0avgtext+0avgdata 467680maxresident)k
+15.57user 2.88system 0:03.79elapsed 486%CPU (0avgtext+0avgdata 467680maxresident)k
+0inputs+0outputs (0major+154188minor)pagefaults 0swaps
+0inputs+0outputs (0major+154188minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-artifact-transfer-0.13.1-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-artifact-transfer-0.13.1-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.68user 3.19system 0:23.15elapsed 46%CPU (0avgtext+0avgdata 141756maxresident)k
+7.68user 3.19system 0:23.15elapsed 46%CPU (0avgtext+0avgdata 141756maxresident)k
+1168inputs+0outputs (0major+297361minor)pagefaults 0swaps

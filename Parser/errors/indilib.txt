@@ -1,0 +1,56 @@
++ cd indi-1.9.0
++ __kde_build -DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d
++ mkdir -p BUILD-x86_64-alt-linux
++ __kde4_cmake -DINCLUDE_INSTALL_DIR=/usr/include -DSOUND_INSTALL_DIR=/usr/share/sounds -DAUTOSTART_INSTALL_DIR=/etc/xdg/autostart -DXDG_DIRECTORY_INSTALL_DIR=/usr/share/desktop-directories -DXDG_APPS_INSTALL_DIR=/usr/share/applications -DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d
++ export PATH=/usr/lib/kde4/bin:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ PATH=/usr/lib/kde4/bin:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ pushd BUILD-x86_64-alt-linux
+~/RPM/BUILD/indi-1.9.0/BUILD-x86_64-alt-linux ~/RPM/BUILD/indi-1.9.0
++ cmake .. -DCMAKE_SKIP_RPATH:BOOL=yes -DCMAKE_BUILD_TYPE=Release '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 ' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 ' '-DCMAKE_EXE_LINKER_FLAGS:STRING=-L/usr/lib64/kde4link -L/usr/lib64/kde4/devel' '-DCMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/lib64/kde4link -L/usr/lib64/kde4/devel' '-DCMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/lib64/kde4link -L/usr/lib64/kde4/devel' '-DCMAKE_LIBRARY_PATH:LIST=/usr/lib64/kde4/devel;/usr/lib64/kde4link;/usr/lib64;/lib64' -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -DCMAKE_INSTALL_PREFIX=/usr -DBIN_INSTALL_DIR=/usr/bin -DSBIN_INSTALL_DIR=/usr/sbin -DICON_INSTALL_DIR=/usr/share/icons -DXDG_APPS_INSTALL_DIR=/usr/share/applications/kde4 -DXDG_DIRECTORY_INSTALL_DIR=/usr/share/desktop-directories -DLIB_INSTALL_DIR=/usr/lib64 -DLIBEXEC_INSTALL_DIR=/usr/lib64/kde4/libexec -DINCLUDE_INSTALL_DIR=/usr/include/kde4 -DKDE4_INCLUDE_INSTALL_DIR=/usr/include/kde4 -DSYSCONF_INSTALL_DIR=/etc -DDATA_INSTALL_DIR=/usr/share/kde4/apps -DCONFIG_INSTALL_DIR=/usr/share/kde4/config -DKCFG_INSTALL_DIR=/usr/share/kde4/config.kcfg -DHTML_INSTALL_DIR=/usr/share/kde4/doc/HTML -DAPPLNK_INSTALL_DIR=/usr/share/applnk -DLOCALE_INSTALL_DIR=/usr/share/kde4/locale -DSERVICES_INSTALL_DIR=/usr/share/kde4/services -DSERVICETYPES_INSTALL_DIR=/usr/share/kde4/servicetypes -DKCONF_UPDATE_INSTALL_DIR=/usr/share/kde4/apps/kconf_update -DXDG_MIME_INSTALL_DIR=/usr/share/mime/packages -DAUTOSTART_INSTALL_DIR=/usr/share/kde4/autostart -DSOUND_INSTALL_DIR=/usr/share/kde4/sounds -DTEMPLATES_INSTALL_DIR=/usr/share/kde4/templates -DWALLPAPER_INSTALL_DIR=/usr/share/wallpapers -DDBUS_INTERFACES_INSTALL_DIR=/usr/share/dbus-1/interfaces -DDBUS_SERVICES_INSTALL_DIR=/usr/share/dbus-1/services -DDBUS_SYSTEM_SERVICES_INSTALL_DIR=/usr/share/dbus-1/system-services -DMAN_INSTALL_DIR=/usr/share/man -DINFO_INSTALL_DIR=/usr/share/info -DINSTALL_PYTHON_FILES_IN_PYTHON_PREFIX:BOOL=yes -DINCLUDE_INSTALL_DIR=/usr/include -DSOUND_INSTALL_DIR=/usr/share/sounds -DAUTOSTART_INSTALL_DIR=/etc/xdg/autostart -DXDG_DIRECTORY_INSTALL_DIR=/usr/share/desktop-directories -DXDG_APPS_INSTALL_DIR=/usr/share/applications -DUDEVRULES_INSTALL_DIR=/usr/lib/udev/rules.d
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27950 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27950 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.27950 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.27950 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.09user 0.07system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 18840maxresident)k
+0.09user 0.07system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 18840maxresident)k
+0inputs+0outputs (0major+8404minor)pagefaults 0swaps
+0inputs+0outputs (0major+8404minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `indilib-1.9.0-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `indilib-1.9.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.79user 2.83system 0:13.52elapsed 49%CPU (0avgtext+0avgdata 141620maxresident)k
+3.79user 2.83system 0:13.52elapsed 49%CPU (0avgtext+0avgdata 141620maxresident)k
+7760inputs+0outputs (0major+230373minor)pagefaults 0swaps

@@ -1,0 +1,85 @@
+<86>May 10 09:22:37 userdel[722268]: delete user 'rooter'
+<86>May 10 09:22:37 userdel[722268]: removed group 'rooter' owned by 'rooter'
+<86>May 10 09:22:37 userdel[722268]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 09:22:38 groupadd[722394]: group added to /etc/group: name=rooter, GID=1811
+<86>May 10 09:22:38 groupadd[722394]: group added to /etc/gshadow: name=rooter
+<86>May 10 09:22:38 groupadd[722394]: new group: name=rooter, GID=1811
+<86>May 10 09:22:38 useradd[722455]: new user: name=rooter, UID=1811, GID=1811, home=/root, shell=/bin/bash, from=none
+<86>May 10 09:22:38 userdel[722531]: delete user 'builder'
+<86>May 10 09:22:38 groupadd[722603]: group added to /etc/group: name=builder, GID=1812
+<86>May 10 09:22:38 groupadd[722603]: group added to /etc/gshadow: name=builder
+<86>May 10 09:22:38 groupadd[722603]: new group: name=builder, GID=1812
+<86>May 10 09:22:38 useradd[722708]: new user: name=builder, UID=1812, GID=1812, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/ghc8.6.4-sha-1.6.4.4-alt1.src.rpm: license not found in '/usr/share/license' directory: BSD3
+warning: Macro %hs_configure2 not found
+warning: Macro %hs_build not found
+warning: Macro %hs_install not found
+warning: Macro %hs_gen_filelist not found
+<13>May 10 09:22:42 rpmi: rpm-macros-ghc8.6.4-common-8.6.4-alt12 sisyphus+375294.100.1.1 1739955412 installed
+<13>May 10 09:22:42 rpmi: libgmp-devel-6.3.0-alt1 sisyphus+328118.100.2.1 1693294140 installed
+<13>May 10 09:22:42 rpmi: libffi-devel-1:3.4.7-alt1 sisyphus+375890.100.1.1 1740392018 installed
+<13>May 10 09:22:42 rpmi: haskell-filetrigger-0.1.0-alt1 sisyphus+378577.100.1.1 1742391763 installed
+<13>May 10 09:22:42 rpmi: chrpath-0.16-alt1 sisyphus+346101.200.3.1 1716459476 installed
+<13>May 10 09:22:42 rpmi: rpm-build-haskell-1.6.2-alt1 sisyphus+383236.200.3.1 1746452643 installed
+<13>May 10 09:22:42 rpmi: ghc8.6.4-common-8.6.4-alt12 sisyphus+375294.100.1.1 1739955412 installed
+<13>May 10 09:22:54 rpmi: ghc8.6.4-8.6.4-alt12 sisyphus+375294.100.1.1 1739955297 installed
+<13>May 10 09:22:55 rpmi: ghc8.6.4-doc-8.6.4-alt12 sisyphus+375294.100.1.1 1739955297 installed
+warning: File /usr/src/in/source/ghc8.6.4-sha-1.6.4.4-alt1.patch is smaller than 8 bytes
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/ghc8.6.4-sha-1.6.4.4-alt1.nosrc.rpm (w1.gzdio)
+warning: File /usr/src/RPM/SOURCES/ghc8.6.4-sha-1.6.4.4-alt1.patch is smaller than 8 bytes
+Installing ghc8.6.4-sha-1.6.4.4-alt1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.71093
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf ghc8.6.4-sha-1.6.4.4
++ echo 'Source #0 (ghc8.6.4-sha-1.6.4.4.tar):'
+Source #0 (ghc8.6.4-sha-1.6.4.4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/ghc8.6.4-sha-1.6.4.4.tar
++ cd ghc8.6.4-sha-1.6.4.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (ghc8.6.4-sha-1.6.4.4-alt1.patch):'
+Patch #0 (ghc8.6.4-sha-1.6.4.4-alt1.patch):
++ /usr/bin/patch -p1
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.71093
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd ghc8.6.4-sha-1.6.4.4
++ '[' -f configure.ac -a '!' -f configure ']'
++ '[' -x Setup ']'
++ ghc-8.6.4 Setup
+[1 of 1] Compiling Main             ( Setup.hs, Setup.o )
+Linking Setup ...
++ ./Setup configure --prefix=/usr --libdir=/usr/lib --docdir=/usr/share/doc/ghc8.6.4-sha-1.6.4.4 '--libsubdir=$compiler/$pkgid' '--dynlibdir=/usr/lib/$compiler/lib' --docdir=/usr/share/doc/ghc8.6.4-sha-1.6.4.4 --datadir=/usr/share --datasubdir=ghc8.6.4-sha-1.6.4.4 --enable-library-profiling --enable-library-for-ghci --disable-executable-profiling --enable-split-objs --enable-shared -O2 --ghc
+Configuring SHA-1.6.4.4...
+Warning: The flag --disable-executable-profiling is deprecated. Please use
+--disable-profiling instead.
++ '[' -x Setup ']'
++ ./Setup makefile -f cabal-rpm.mk
+unrecognised command: makefile (try --help)
++ ./Setup build
+Preprocessing library for SHA-1.6.4.4..
+Building library for SHA-1.6.4.4..
+[1 of 1] Compiling Data.Digest.Pure.SHA ( src/Data/Digest/Pure/SHA.hs, dist/build/Data/Digest/Pure/SHA.o )
+[1 of 1] Compiling Data.Digest.Pure.SHA ( src/Data/Digest/Pure/SHA.hs, dist/build/Data/Digest/Pure/SHA.p_o )
+ghc: out of memory (requested 1048576 bytes)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+
+
+RPM build errors:
+    File /usr/src/RPM/SOURCES/ghc8.6.4-sha-1.6.4.4-alt1.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.71093 (%build)
+Command exited with non-zero status 1
+96.33user 8.90system 1:50.21elapsed 95%CPU (0avgtext+0avgdata 4133476maxresident)k
+0inputs+0outputs (0major+2659133minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ghc8.6.4-sha-1.6.4.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.24user 3.57system 2:16.08elapsed 5%CPU (0avgtext+0avgdata 132792maxresident)k
+0inputs+0outputs (0major+188261minor)pagefaults 0swaps

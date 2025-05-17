@@ -1,0 +1,118 @@
+<86>May 10 06:22:51 userdel[3849640]: delete user 'rooter'
+<86>May 10 06:22:51 userdel[3849640]: removed group 'rooter' owned by 'rooter'
+<86>May 10 06:22:51 userdel[3849640]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 06:22:51 groupadd[3849655]: group added to /etc/group: name=rooter, GID=1247
+<86>May 10 06:22:51 groupadd[3849655]: group added to /etc/gshadow: name=rooter
+<86>May 10 06:22:51 groupadd[3849655]: new group: name=rooter, GID=1247
+<86>May 10 06:22:51 useradd[3849671]: new user: name=rooter, UID=1247, GID=1247, home=/root, shell=/bin/bash, from=none
+<86>May 10 06:22:51 userdel[3849689]: delete user 'builder'
+<86>May 10 06:22:51 userdel[3849689]: removed group 'builder' owned by 'builder'
+<86>May 10 06:22:51 userdel[3849689]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 06:22:51 groupadd[3849700]: group added to /etc/group: name=builder, GID=1248
+<86>May 10 06:22:51 groupadd[3849700]: group added to /etc/gshadow: name=builder
+<86>May 10 06:22:51 groupadd[3849700]: new group: name=builder, GID=1248
+<86>May 10 06:22:51 useradd[3849717]: new user: name=builder, UID=1248, GID=1248, home=/usr/src, shell=/bin/bash, from=none
+warning: user hacker does not exist - using root
+warning: group hacker does not exist - using root
+warning: user hacker does not exist - using root
+warning: group hacker does not exist - using root
+warning: user hacker does not exist - using root
+warning: group hacker does not exist - using root
+warning: user hacker does not exist - using root
+warning: group hacker does not exist - using root
+Reading Package Lists...
+Building Dependency Tree...
+MI2a: marked for install (shallow): lesstif-devel
+MI2a:  satisfying Depends: imake  (NULL)
+MI2a:   maybe install (a direct target): imake 1.0.8-alt2:sisyphus+380418.100.1.1@1743780389
+MI2a:  target SELECTED: imake 1.0.8-alt2:sisyphus+380418.100.1.1@1743780389
+MI2a:  requesting to install imake (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): imake
+MI2a:  satisfying Depends: libX11-devel  (NULL)
+MI2a:   maybe install (a direct target): libX11-devel 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:  target SELECTED: libX11-devel 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:  requesting to install libX11-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): libX11-devel
+MI2a:     satisfying Depends: libxcb-devel  (NULL)
+MI2a:      maybe install (a direct target): libxcb-devel 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:     target SELECTED: libxcb-devel 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:     requesting to install libxcb-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libxcb-devel
+MI2a:        satisfying Depends: libxcb = 1.17.0-alt1:sisyphus+345308.200.1.1
+MI2a:         maybe install (a direct target): libxcb 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:        target SELECTED: libxcb 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:        requesting to install libxcb (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libxcb
+MI2a:           satisfying Depends: libXau.so.6 >= set:ge34k81
+MI2a:            maybe install (a providing target): libXau 1.0.11-alt1:sisyphus+311428.100.1.1@1670577440
+MI2a:           target SELECTED: libXau 1.0.11-alt1:sisyphus+311428.100.1.1@1670577440
+MI2a:           requesting to install libXau (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libXau
+MI2a:           satisfying Depends: libXdmcp.so.6 >= set:jiOzo
+MI2a:            maybe install (a providing target): libXdmcp 1.1.5-alt1:sisyphus+343583.700.1.1@1711441073
+MI2a:           target SELECTED: libXdmcp 1.1.5-alt1:sisyphus+343583.700.1.1@1711441073
+MI2a:           requesting to install libXdmcp (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libXdmcp
+MI2a:     satisfying Depends: pkgconfig(kbproto)  (NULL)
+MI2a:      maybe install (a providing target): xorg-proto-devel 2024.1-alt1:sisyphus+343583.40.1.1@1711440649
+MI2a:     target SELECTED: xorg-proto-devel 2024.1-alt1:sisyphus+343583.40.1.1@1711440649
+MI2a:     requesting to install xorg-proto-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): xorg-proto-devel
+MI2a:     satisfying Depends: libX11 = 3:1.8.11-alt1:sisyphus+373040.100.1.1
+MI2a:      maybe install (a direct target): libX11 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:     target SELECTED: libX11 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:     requesting to install libX11 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libX11
+MI2a:        satisfying Depends: libX11-locales = 3:1.8.11-alt1:sisyphus+373040.100.1.1
+MI2a:         maybe install (a direct target): libX11-locales 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571640
+MI2a:        target SELECTED: libX11-locales 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571640
+MI2a:        requesting to install libX11-locales (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libX11-locales
+MI2a:  satisfying Depends: libXt-devel  (NULL)
+MI2a:   maybe install (a direct target): libXt-devel 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:  target SELECTED: libXt-devel 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:  requesting to install libXt-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): libXt-devel
+MI2a:     satisfying Depends: libSM-devel  (NULL)
+MI2a:      maybe install (a direct target): libSM-devel 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:     target SELECTED: libSM-devel 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:     requesting to install libSM-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libSM-devel
+MI2a:        satisfying Depends: libICE-devel  (NULL)
+MI2a:         maybe install (a direct target): libICE-devel 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:        target SELECTED: libICE-devel 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:        requesting to install libICE-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libICE-devel
+MI2a:           satisfying Depends: libICE = 1.1.1-alt1:sisyphus+311428.500.1.1
+MI2a:            maybe install (a direct target): libICE 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:           target SELECTED: libICE 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:           requesting to install libICE (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libICE
+MI2a:        satisfying Depends: libSM = 1.2.4-alt1:sisyphus+312057.200.1.1
+MI2a:         maybe install (a direct target): libSM 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:        target SELECTED: libSM 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:        requesting to install libSM (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libSM
+MI2a:     satisfying Depends: libXt = 1.3.0-alt1:sisyphus+331490.500.1.1
+MI2a:      maybe install (a direct target): libXt 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:     target SELECTED: libXt 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:     requesting to install libXt (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libXt
+MI2a:  satisfying Depends: lesstif = 0.95.2-alt5:sisyphus+365061.100.1.1
+MI2a:   maybe install (a direct target): lesstif 0.95.2-alt5:sisyphus+365061.100.1.1@1734210805
+MI2a:  target SELECTED: lesstif 0.95.2-alt5:sisyphus+365061.100.1.1@1734210805
+MI2a:  requesting to install lesstif (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): lesstif
+gettext is already the newest version.
+sed is already the newest version.
+time is already the newest version.
+Package gcc4.5 has no available version, but exists in the database.
+This typically means that the package was mentioned in a dependency and
+never uploaded, has been obsoleted or is not available with the contents
+of sources.list
+E: Package gcc4.5 has no installation candidate
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.52user 1.42system 0:08.40elapsed 58%CPU (0avgtext+0avgdata 126336maxresident)k
+0inputs+0outputs (0major+81977minor)pagefaults 0swaps

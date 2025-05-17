@@ -1,0 +1,224 @@
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for strip... strip
+checking for correct ltmain.sh version... yes
+checking for correct ltmain.sh version... yes
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking pthread.h usability... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strstr... yes
+checking for utime... yes
+checking for utime... yes
+checking for sbrk... yes
+checking for sbrk... yes
+checking for doxygen... /usr/bin/doxygen
+checking for doxygen... /usr/bin/doxygen
+checking for dot... no
+checking for dot... no
+checking for latex... no
+checking for latex... no
+checking for EXPAT - version >= 1.95.1... no
+checking for EXPAT - version >= 1.95.1... no
+*** Could not run EXPAT test program, checking why...
+*** Could not run EXPAT test program, checking why...
+*** The test program failed to compile or link. See the file config.log for the
+*** The test program failed to compile or link. See the file config.log for the
+*** exact error that occured. This usually means EXPAT was incorrectly installed
+*** exact error that occured. This usually means EXPAT was incorrectly installed
+*** or that you have moved EXPAT since it was installed. In the latter case, you
+*** or that you have moved EXPAT since it was installed. In the latter case, you
+*** may want to edit the expat-config script: ''
+*** may want to edit the expat-config script: ''
+*** Log4C will still run without EXPAT--it uses some bundled
+*** Log4C will still run without EXPAT--it uses some bundled
+*** lex/yacc code to parse the configuration file
+*** lex/yacc code to parse the configuration file
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating log4c-config
+config.status: creating log4c-config
+config.status: creating log4crc.sample
+config.status: creating log4crc.sample
+config.status: creating log4c.spec
+config.status: creating log4c.spec
+config.status: creating config/Makefile
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_2.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_3.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c application_3.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o userloc_formatter.lo userloc_formatter.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o userloc_formatter.lo userloc_formatter.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c userloc_formatter.c  -fPIC -DPIC -o .libs/userloc_formatter.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c userloc_formatter.c  -fPIC -DPIC -o .libs/userloc_formatter.o
+userloc_formatter.c: In function 'userloc_format':
+userloc_formatter.c: In function 'userloc_format':
+userloc_formatter.c:30:5: error: implicit declaration of function 'sd_debug' [-Wimplicit-function-declaration]
+userloc_formatter.c:30:5: error: implicit declaration of function 'sd_debug' [-Wimplicit-function-declaration]
+   30 |     sd_debug("Formatter s13_userloc checking location info for userdata %X",a_event->evt_loc->loc_data);
+   30 |     sd_debug("Formatter s13_userloc checking location info for userdata %X",a_event->evt_loc->loc_data);
+      |     ^~~~~~~~
+      |     ^~~~~~~~
+make[3]: *** [Makefile:340: userloc_formatter.lo] Error 1
+make[3]: *** [Makefile:340: userloc_formatter.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_formatters.lo example_formatters.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_formatters.lo example_formatters.c
+mkdir .libs
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c  -fPIC -DPIC -o .libs/example_formatters.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c  -fPIC -DPIC -o .libs/example_formatters.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c -o example_formatters.o >/dev/null 2>&1
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_formatters.c -o example_formatters.o >/dev/null 2>&1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_appenders.lo example_appenders.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_appenders.lo example_appenders.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src  -I../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c -o example_appenders.lo example_appenders.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c  -fPIC -DPIC -o .libs/example_appenders.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c  -fPIC -DPIC -o .libs/example_appenders.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c  -fPIC -DPIC -o .libs/example_appenders.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c -o example_appenders.o >/dev/null 2>&1
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c -o example_appenders.o >/dev/null 2>&1
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c -o example_appenders.o >/dev/null 2>&1
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../src -I../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -c example_appenders.c -o example_appenders.o >/dev/null 2>&1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Entering directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o application_1 application_1.o ../src/log4c/liblog4c.la -lpthread
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o application_1 application_1.o ../src/log4c/liblog4c.la -lpthread
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o application_1 application_1.o ../src/log4c/liblog4c.la -lpthread
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall   -o application_1 application_1.o ../src/log4c/liblog4c.la -lpthread
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/application_1 application_1.o  ../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/application_1 application_1.o  ../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/application_1 application_1.o  ../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -o .libs/application_1 application_1.o  ../src/log4c/.libs/liblog4c.so -lpthread -Wl,--rpath -Wl,/usr/lib64
+creating application_1
+creating application_1
+creating application_1
+creating application_1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/log4c-1.2.1/examples'
+make[2]: *** [Makefile:355: all-recursive] Error 1
+make[2]: *** [Makefile:355: all-recursive] Error 1
+make[2]: *** [Makefile:355: all-recursive] Error 1
+make[2]: *** [Makefile:355: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make[1]: *** [Makefile:338: all-recursive] Error 1
+make: *** [Makefile:226: all] Error 2
+make: *** [Makefile:226: all] Error 2
+make: *** [Makefile:226: all] Error 2
+make: *** [Makefile:226: all] Error 2
+make: *** [Makefile:226: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.9477 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+6.00user 7.89system 0:08.57elapsed 162%CPU (0avgtext+0avgdata 52448maxresident)k
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+0inputs+0outputs (0major+1412013minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `log4c-1.2.1-alt1.1.qa3.src.rpm' failed.
+hsh-rebuild: rebuild of `log4c-1.2.1-alt1.1.qa3.src.rpm' failed.
+hsh-rebuild: rebuild of `log4c-1.2.1-alt1.1.qa3.src.rpm' failed.
+hsh-rebuild: rebuild of `log4c-1.2.1-alt1.1.qa3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.43user 2.66system 0:18.28elapsed 33%CPU (0avgtext+0avgdata 141676maxresident)k
+3.43user 2.66system 0:18.28elapsed 33%CPU (0avgtext+0avgdata 141676maxresident)k
+0inputs+0outputs (0major+190287minor)pagefaults 0swaps

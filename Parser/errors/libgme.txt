@@ -1,0 +1,77 @@
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.76192
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd game-music-emu-0.6.3
++ cmake -DCMAKE_INSTALL_PREFIX=/usr '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+CMake Warning:
+  No source or binary directory provided.  Both will be assumed to be the
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+Problem opening /proc/meminfo
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:12 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76192 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76192 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    ignored self-provides: libgme-devel = 0.6.3-alt2
+    ignored self-provides: libgme-devel = 0.6.3-alt2
+    Bad exit status from /usr/src/tmp/rpm-tmp.76192 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76192 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.27user 0.28system 0:00.53elapsed 103%CPU (0avgtext+0avgdata 24112maxresident)k
+0.27user 0.28system 0:00.53elapsed 103%CPU (0avgtext+0avgdata 24112maxresident)k
+0inputs+0outputs (0major+55182minor)pagefaults 0swaps
+0inputs+0outputs (0major+55182minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgme-0.6.3-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libgme-0.6.3-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.75user 2.97system 0:15.64elapsed 42%CPU (0avgtext+0avgdata 142672maxresident)k
+992inputs+0outputs (0major+230097minor)pagefaults 0swaps

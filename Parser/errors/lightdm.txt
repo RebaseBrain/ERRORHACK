@@ -1,0 +1,770 @@
+Hunk #1 succeeded at 338 (offset 5 lines).
+Hunk #2 succeeded at 383 (offset 5 lines).
+patching file tests/data/greeters/test-qt6-greeter.desktop
+patching file tests/src/Makefile.am
+patching file tests/src/test-qt-greeter.cpp
+patching file tests/test-autologin-guest-timeout-qt6
+patching file tests/test-autologin-session-timeout-qt6
+patching file tests/test-autologin-timeout-qt6
+patching file tests/test-cancel-authentication-qt6
+patching file tests/test-login-guest-disabled-qt6
+patching file tests/test-login-guest-fail-setup-script-qt6
+patching file tests/test-login-guest-logout-qt6
+patching file tests/test-login-guest-no-setup-script-qt6
+patching file tests/test-login-guest-pick-session-qt6
+patching file tests/test-login-guest-qt6
+patching file tests/test-login-info-prompt-qt6
+patching file tests/test-login-invalid-session-qt6
+patching file tests/test-login-invalid-user-qt6
+patching file tests/test-login-logout-qt6
+patching file tests/test-login-long-password-qt6
+patching file tests/test-login-long-username-qt6
+Making check in tests
+make[1]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+Making check in src
+Making check in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make  check-TESTS
+make  check-TESTS
+make[3]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Entering directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+PASS: test-xserver-fail-start
+PASS: test-xserver-fail-start
+PASS: test-greeter-fail-start
+PASS: test-greeter-fail-start
+PASS: test-greeter-not-installed
+PASS: test-greeter-not-installed
+PASS: test-greeter-xserver-crash
+PASS: test-greeter-xserver-crash
+PASS: test-greeter-crash
+PASS: test-greeter-crash
+PASS: test-greeter-wrapper
+PASS: test-greeter-wrapper
+PASS: test-greeter-default-session
+PASS: test-greeter-default-session
+PASS: test-greeter-allow-guest
+PASS: test-greeter-allow-guest
+PASS: test-greeter-hide-users
+PASS: test-greeter-hide-users
+PASS: test-greeter-show-manual-login
+PASS: test-greeter-show-manual-login
+PASS: test-greeter-show-remote-login
+PASS: test-greeter-show-remote-login
+PASS: test-no-config
+PASS: test-additional-system-config
+PASS: test-additional-system-config-priority
+PASS: test-headless
+PASS: test-autologin
+PASS: test-autologin-pam
+PASS: test-autologin-pam-config
+PASS: test-autologin-in-background
+PASS: test-autologin-guest-in-background
+PASS: test-autologin-timeout-in-background
+PASS: test-autologin-invalid-user
+FAIL: test-autologin-unknown
+PASS: test-autologin-invalid-greeter
+PASS: test-autologin-invalid-session
+PASS: test-crash-authenticate
+PASS: test-autologin-xserver-crash
+PASS: test-autologin-session-crash
+PASS: test-autologin-password
+PASS: test-autologin-new-authtok
+PASS: test-autologin-timeout-gobject
+PASS: test-autologin-guest-timeout-gobject
+PASS: test-xlocal-legacy
+PASS: test-cred-expired
+PASS: test-cred-unavail
+PASS: test-autologin-session-error
+PASS: test-autologin-logout
+PASS: test-autologin-session
+PASS: test-autologin-session-timeout-gobject
+PASS: test-autologin-timeout-logout
+PASS: test-autologin-previous-session
+PASS: test-autologin-guest
+PASS: test-autologin-guest-session-config
+PASS: test-autologin-guest-fail-setup-script
+PASS: test-autologin-guest-logout
+PASS: test-guest-wrapper
+PASS: test-login-guest-session-config
+PASS: test-group-membership
+PASS: test-xdg-current-desktop
+PASS: test-xdg-current-desktop-legacy
+PASS: test-language-env
+PASS: test-session-stdout
+PASS: test-session-stderr
+PASS: test-session-stderr-multi-write
+PASS: test-login-manual-remember-session-gobject
+PASS: test-login-previous-session-gobject
+PASS: test-login-wrong-password-gobject
+PASS: test-login-invalid-user-gobject
+PASS: test-login-invalid-session-gobject
+PASS: test-login-logout-gobject
+PASS: test-login-guest-gobject
+PASS: test-login-guest-pick-session-gobject
+PASS: test-login-guest-disabled-gobject
+PASS: test-login-guest-no-setup-script-gobject
+PASS: test-login-guest-fail-setup-script-gobject
+PASS: test-login-guest-logout-gobject
+PASS: test-login-remote-session-gobject
+PASS: test-login-session-crash
+PASS: test-login-xserver-crash
+PASS: test-login-xserver-crash
+PASS: test-login-greeter-return-failure
+PASS: test-login-greeter-return-failure
+PASS: test-multiple-authenticate
+PASS: test-multiple-authenticate
+PASS: test-multiple-authenticate
+PASS: test-xserver-no-share
+PASS: test-xserver-no-share
+PASS: test-xserver-no-share
+PASS: test-home-dir-on-authenticate
+PASS: test-home-dir-on-authenticate
+PASS: test-home-dir-on-authenticate
+PASS: test-home-dir-on-authenticate
+PASS: test-home-dir-on-session
+PASS: test-home-dir-on-session
+PASS: test-home-dir-on-session
+PASS: test-home-dir-on-session
+PASS: test-plymouth-active-vt
+PASS: test-plymouth-active-vt
+PASS: test-plymouth-active-vt
+PASS: test-plymouth-active-vt
+PASS: test-plymouth-inactive-vt
+PASS: test-plymouth-inactive-vt
+PASS: test-plymouth-inactive-vt
+PASS: test-plymouth-no-seat
+PASS: test-plymouth-no-seat
+PASS: test-plymouth-no-seat
+PASS: test-script-hooks
+PASS: test-script-hooks
+PASS: test-script-hooks
+PASS: test-script-hook-display-setup-fail
+PASS: test-script-hook-display-setup-fail
+PASS: test-script-hook-display-setup-fail
+PASS: test-script-hook-display-setup-missing
+PASS: test-script-hook-display-setup-missing
+PASS: test-script-hook-display-setup-missing
+PASS: test-script-hook-greeter-setup-fail
+PASS: test-script-hook-greeter-setup-fail
+PASS: test-script-hook-greeter-setup-fail
+PASS: test-script-hook-greeter-setup-missing
+PASS: test-script-hook-greeter-setup-missing
+PASS: test-script-hook-greeter-setup-missing
+PASS: test-script-hook-session-setup-fail
+PASS: test-script-hook-session-setup-fail
+PASS: test-script-hook-session-setup-fail
+PASS: test-script-hook-session-setup-missing
+PASS: test-script-hook-session-setup-missing
+PASS: test-script-hook-session-setup-missing
+PASS: test-shared-data-greeter-to-session
+PASS: test-shared-data-greeter-to-session
+PASS: test-shared-data-greeter-to-session
+PASS: test-shared-data-session-to-greeter
+PASS: test-shared-data-session-to-greeter
+PASS: test-shared-data-session-to-greeter
+PASS: test-shared-data-session-to-greeter-autologin
+PASS: test-shared-data-session-to-greeter-autologin
+PASS: test-shared-data-session-to-greeter-autologin
+PASS: test-shared-data-invalid-user
+PASS: test-shared-data-invalid-user
+PASS: test-shared-data-invalid-user
+PASS: test-upstart-autologin
+PASS: test-upstart-autologin
+PASS: test-upstart-autologin
+PASS: test-upstart-login
+PASS: test-upstart-login
+PASS: test-dbus
+PASS: test-dbus
+PASS: test-no-dbus
+PASS: test-lock-seat
+PASS: test-lock-seat-return-session-console-kit
+PASS: test-switch-to-greeter
+PASS: test-switch-to-greeter-disabled
+PASS: test-switch-to-greeter-new-session
+PASS: test-switch-to-greeter-resettable
+PASS: test-switch-to-greeter-return-session
+PASS: test-switch-to-greeter-return-session-pam
+PASS: test-switch-to-greeter-return-session-logout
+PASS: test-switch-to-guest
+PASS: test-switch-to-guest-disabled
+PASS: test-switch-to-guest-fail-resettable
+PASS: test-switch-to-user
+PASS: test-switch-to-user-disabled
+PASS: test-switch-to-user-no-password
+PASS: test-switch-to-user-active
+PASS: test-switch-to-user-existing
+PASS: test-switch-to-user-existing-no-password
+PASS: test-switch-to-user-existing-resettable
+PASS: test-switch-to-user-logout-active
+PASS: test-switch-to-user-logout-active-resettable
+PASS: test-switch-to-user-logout-inactive
+PASS: test-login-invalid-user-python
+PASS: test-login-invalid-session-python
+PASS: test-login-logout-python
+PASS: test-login-pick-session-python
+PASS: test-login-remember-session-python
+PASS: test-login-manual-remember-session-python
+PASS: test-login-guest-python
+PASS: test-login-guest-pick-session-python
+PASS: test-login-guest-disabled-python
+PASS: test-login-guest-no-setup-script-python
+PASS: test-login-guest-fail-setup-script-python
+PASS: test-login-guest-logout-python
+PASS: test-login-remote-session-python
+PASS: test-power-python
+PASS: test-autologin-timeout-qt5
+PASS: test-autologin-guest-timeout-qt5
+PASS: test-autologin-session-timeout-qt5
+PASS: test-cancel-authentication-qt5
+PASS: test-login-qt5
+PASS: test-login-manual-qt5
+PASS: test-login-manual-previous-session-qt5
+PASS: test-login-invalid-user-qt5
+PASS: test-login-invalid-session-qt5
+PASS: test-login-logout-qt5
+PASS: test-login-pick-session-qt5
+PASS: test-login-remember-session-qt5
+PASS: test-login-manual-remember-session-qt5
+PASS: test-login-guest-qt5
+PASS: test-login-guest-pick-session-qt5
+PASS: test-login-guest-disabled-qt5
+PASS: test-login-guest-no-setup-script-qt5
+PASS: test-login-guest-fail-setup-script-qt5
+PASS: test-login-guest-logout-qt5
+PASS: test-login-remote-session-qt5
+PASS: test-sessions-qt5
+PASS: test-users-qt5
+PASS: test-power-qt5
+PASS: test-autologin-timeout-qt6
+PASS: test-autologin-guest-timeout-qt6
+PASS: test-autologin-session-timeout-qt6
+PASS: test-cancel-authentication-qt6
+PASS: test-login-qt6
+PASS: test-login-invalid-user-qt6
+PASS: test-login-invalid-session-qt6
+PASS: test-login-logout-qt6
+PASS: test-login-pick-session-qt6
+PASS: test-login-remember-session-qt6
+PASS: test-login-manual-remember-session-qt6
+PASS: test-login-guest-qt6
+PASS: test-login-guest-pick-session-qt6
+PASS: test-login-guest-disabled-qt6
+PASS: test-login-guest-no-setup-script-qt6
+PASS: test-login-guest-fail-setup-script-qt6
+PASS: test-login-guest-logout-qt6
+PASS: test-login-remote-session-qt6
+PASS: test-sessions-qt6
+PASS: test-sessions-qt6
+PASS: test-users-qt6
+PASS: test-users-qt6
+PASS: test-power-qt6
+PASS: test-power-qt6
+PASS: test-power-qt6
+============================================================================
+============================================================================
+============================================================================
+Testsuite summary for lightdm 1.32.0
+Testsuite summary for lightdm 1.32.0
+Testsuite summary for lightdm 1.32.0
+============================================================================
+============================================================================
+============================================================================
+# TOTAL: 355
+# TOTAL: 355
+# TOTAL: 355
+# TOTAL: 355
+# PASS:  354
+# PASS:  354
+# PASS:  354
+# PASS:  354
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# FAIL:  1
+# FAIL:  1
+# FAIL:  1
+# FAIL:  1
+# FAIL:  1
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+See tests/test-suite.log
+See tests/test-suite.log
+See tests/test-suite.log
+See tests/test-suite.log
+See tests/test-suite.log
+See tests/test-suite.log
+See tests/test-suite.log
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: *** [Makefile:1277: test-suite.log] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: *** [Makefile:1385: check-TESTS] Error 2
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: *** [Makefile:3960: check-am] Error 2
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: *** [Makefile:1169: check-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0/tests'
+make: *** [Makefile:498: check-recursive] Error 1
+make: *** [Makefile:498: check-recursive] Error 1
+make: *** [Makefile:498: check-recursive] Error 1
+make: *** [Makefile:498: check-recursive] Error 1
+make: *** [Makefile:498: check-recursive] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
+make: Leaving directory '/usr/src/RPM/BUILD/lightdm-1.32.0'
++ cat tests/test-suite.log
++ cat tests/test-suite.log
++ cat tests/test-suite.log
++ cat tests/test-suite.log
++ cat tests/test-suite.log
++ cat tests/test-suite.log
+==========================================
+==========================================
+==========================================
+==========================================
+==========================================
+==========================================
+   lightdm 1.32.0: tests/test-suite.log
+   lightdm 1.32.0: tests/test-suite.log
+   lightdm 1.32.0: tests/test-suite.log
+   lightdm 1.32.0: tests/test-suite.log
+   lightdm 1.32.0: tests/test-suite.log
+   lightdm 1.32.0: tests/test-suite.log
+==========================================
+==========================================
+==========================================
+==========================================
+==========================================
+
+
+
+
+
+# TOTAL: 355
+# TOTAL: 355
+# TOTAL: 355
+# TOTAL: 355
+# TOTAL: 355
+# PASS:  354
+# PASS:  354
+# PASS:  354
+# PASS:  354
+# PASS:  354
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# FAIL:  1
+# FAIL:  1
+# FAIL:  1
+# FAIL:  1
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+
+
+
+
+
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+
+
+
+
+
+
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+FAIL: test-autologin-unknown
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193013): WARNING **: 04:33:20.597: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193032): WARNING **: 04:33:20.607: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193046): WARNING **: 04:33:20.615: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193057): WARNING **: 04:33:20.624: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+
+
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193070): WARNING **: 04:33:20.633: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+
+
+
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193077): WARNING **: 04:33:20.640: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+
+
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+** (process:4193086): WARNING **: 04:33:20.660: Error loading passwd file: Failed to open file ?/tmp/.r0/etc/passwd?: No such file or directory
+
+
+
+
+
+
+
+
+
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_xsession: assertion 'user != NULL' failed
+
+
+
+
+
+
+
+
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+** (lightdm:4193115): CRITICAL **: 04:33:20.730: user_get_language: assertion 'user != NULL' failed
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryStopping PAM conversation, interaction requested but not supported
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+WARNING! Unable to read and set locale: Error opening file /etc/locale.conf: No such file or directoryCommand line: PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src:/usr/src/RPM/BUILD/lightdm-1.32.0/src:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games LD_PRELOAD=/usr/src/RPM/BUILD/lightdm-1.32.0/tests/src/.libs/libsystem.so LD_LIBRARY_PATH=/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-gobject/.libs:/usr/src/RPM/BUILD/lightdm-1.32.0/liblightdm-qt/.libs LIGHTDM_TEST_ROOT=/tmp/.r0 DBUS_SESSION_BUS_ADDRESS=unix:path=/usr/src/tmp/dbus-tjbNziWr2M,guid=760fe25b17f822d9f21d1f8c6826c010 lightdm --cache-dir /tmp/.r0/cache
+Events:
+Events:
+Events:
+Events:
+Events:
+Events:
+    *START-DAEMON
+    *START-DAEMON
+    *START-DAEMON
+    *START-DAEMON
+    *START-DAEMON
+    *START-DAEMON
+    RUNNER DAEMON-START
+    RUNNER DAEMON-START
+    RUNNER DAEMON-START
+    RUNNER DAEMON-START
+    RUNNER DAEMON-START
+    XSERVER-0 START VT=7 SEAT=seat0
+    XSERVER-0 START VT=7 SEAT=seat0
+    XSERVER-0 START VT=7 SEAT=seat0
+    XSERVER-0 START VT=7 SEAT=seat0
+    XSERVER-0 START VT=7 SEAT=seat0
+    *XSERVER-0 INDICATE-READY
+    *XSERVER-0 INDICATE-READY
+    *XSERVER-0 INDICATE-READY
+    *XSERVER-0 INDICATE-READY
+    XSERVER-0 INDICATE-READY
+    XSERVER-0 INDICATE-READY
+    XSERVER-0 INDICATE-READY
+    XSERVER-0 INDICATE-READY
+    XSERVER-0 ACCEPT-CONNECT
+    XSERVER-0 ACCEPT-CONNECT
+    XSERVER-0 ACCEPT-CONNECT
+    PAM-no-such-user START SERVICE=lightdm-autologin USER=no-such-user
+    PAM-no-such-user START SERVICE=lightdm-autologin USER=no-such-user
+    PAM-no-such-user START SERVICE=lightdm-autologin USER=no-such-user
+    PAM-no-such-user AUTHENTICATE
+    PAM-no-such-user AUTHENTICATE
+    PAM-_ldm START SERVICE=lightdm-greeter USER=_ldm
+    PAM-_ldm OPEN-SESSION
+    LOGIN1 ACTIVATE-SESSION SESSION=c0
+    GREETER-X-0 START XDG_SEAT=seat0 XDG_VTNR=7 XDG_SESSION_CLASS=greeter
+    GREETER-X-0 CONNECT-XSERVER
+    GREETER-X-0 CONNECT-XSERVER
+    GREETER-X-0 CONNECT-TO-DAEMON
+    GREETER-X-0 CONNECT-TO-DAEMON
+    GREETER-X-0 CONNECTED-TO-DAEMON
+    GREETER-X-0 CONNECTED-TO-DAEMON
+    GREETER-X-0 SELECT-USER-HINT USERNAME=no-such-user
+    GREETER-X-0 SELECT-USER-HINT USERNAME=no-such-user
+    XSERVER-0 ACCEPT-CONNECT
+    XSERVER-0 ACCEPT-CONNECT
+    (timeout)
+    (timeout)
+    ^^^ expected "PAM-no-such-user END"
+    ^^^ expected "PAM-no-such-user END"
+FAIL test-autologin-unknown (exit status: 1)
+FAIL test-autologin-unknown (exit status: 1)
+
+
+
++ exit 1
++ exit 1
++ exit 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.14984 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+101.87user 63.86system 3:21.28elapsed 82%CPU (0avgtext+0avgdata 328900maxresident)k
+101.87user 63.86system 3:21.28elapsed 82%CPU (0avgtext+0avgdata 328900maxresident)k
+101.87user 63.86system 3:21.28elapsed 82%CPU (0avgtext+0avgdata 328900maxresident)k
+0inputs+0outputs (0major+7403647minor)pagefaults 0swaps
+0inputs+0outputs (0major+7403647minor)pagefaults 0swaps
+0inputs+0outputs (0major+7403647minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lightdm-1.32.0-alt10.src.rpm' failed.
+hsh-rebuild: rebuild of `lightdm-1.32.0-alt10.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.70user 3.41system 3:53.89elapsed 6%CPU (0avgtext+0avgdata 141968maxresident)k
+10.70user 3.41system 3:53.89elapsed 6%CPU (0avgtext+0avgdata 141968maxresident)k
+40inputs+0outputs (0major+309431minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto '
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto '
++ export FCFLAGS
++ LDFLAGS=-Wl,-z,relro
++ export LDFLAGS
++ /usr/bin/cmake -S . -B x86_64-alt-linux -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_CXX_STANDARD=17 -GNinja
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8384 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8384 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.8384 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.8384 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.08user 0.05system 0:00.13elapsed 102%CPU (0avgtext+0avgdata 18896maxresident)k
+0.08user 0.05system 0:00.13elapsed 102%CPU (0avgtext+0avgdata 18896maxresident)k
+0inputs+0outputs (0major+13193minor)pagefaults 0swaps
+0inputs+0outputs (0major+13193minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `fcitx5-skk-5.1.0-alt1_1.src.rpm' failed.
+hsh-rebuild: rebuild of `fcitx5-skk-5.1.0-alt1_1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.42user 2.90system 0:35.29elapsed 37%CPU (0avgtext+0avgdata 144432maxresident)k
+10.42user 2.90system 0:35.29elapsed 37%CPU (0avgtext+0avgdata 144432maxresident)k
+60616inputs+0outputs (0major+362970minor)pagefaults 0swaps

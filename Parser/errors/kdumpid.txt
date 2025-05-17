@@ -1,0 +1,77 @@
+      |                           |            |
+      |                           long int     kdump_num_t {aka long long unsigned int}
+      |                         %lld
+main.c:44:27: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'kdump_num_t' {aka 'long long unsigned int'} [-Wformat=]
+   44 |                 printf("%ld", attr.val.number);
+      |                         ~~^   ~~~~~~~~~~~~~~~
+      |                           |           |
+      |                           long int    kdump_num_t {aka long long unsigned int}
+      |                         %lld
+main.c: In function 'main':
+main.c:161:48: error: passing argument 3 of 'kdump_get_number_attr' from incompatible pointer type [-Wincompatible-pointer-types]
+main.c:161:48: error: passing argument 3 of 'kdump_get_number_attr' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |                                                &dd.max_pfn);
+  161 |                                                &dd.max_pfn);
+      |                                                ^~~~~~~~~~~
+      |                                                ^~~~~~~~~~~
+      |                                                |
+      |                                                |
+      |                                                long unsigned int *
+      |                                                long unsigned int *
+In file included from kdumpid.h:6,
+In file included from kdumpid.h:6,
+                 from main.c:27:
+                 from main.c:27:
+/usr/include/libkdumpfile/kdumpfile.h:767:71: note: expected 'kdump_num_t *' {aka 'long long unsigned int *'} but argument is of type 'long unsigned int *'
+/usr/include/libkdumpfile/kdumpfile.h:767:71: note: expected 'kdump_num_t *' {aka 'long long unsigned int *'} but argument is of type 'long unsigned int *'
+  767 | kdump_get_number_attr(kdump_ctx_t *ctx, const char *key, kdump_num_t *num)
+  767 | kdump_get_number_attr(kdump_ctx_t *ctx, const char *key, kdump_num_t *num)
+      |                                                          ~~~~~~~~~~~~~^~~
+      |                                                          ~~~~~~~~~~~~~^~~
+make: *** [Makefile.lib:48: main.o] Error 1
+make: *** [Makefile.lib:48: main.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   search.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   ppc64.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   s390.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   ppc.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   util.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Entering directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+[CC]   x86.c
+[CC]   x86.c
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+make: Leaving directory '/usr/src/RPM/BUILD/kdumpid-1.5'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18310 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18310 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.18310 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18310 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.39user 0.20system 0:00.18elapsed 317%CPU (0avgtext+0avgdata 21948maxresident)k
+0.39user 0.20system 0:00.18elapsed 317%CPU (0avgtext+0avgdata 21948maxresident)k
+0inputs+0outputs (0major+37978minor)pagefaults 0swaps
+0inputs+0outputs (0major+37978minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `kdumpid-1.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `kdumpid-1.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.80user 2.93system 0:20.33elapsed 33%CPU (0avgtext+0avgdata 134016maxresident)k
+3.80user 2.93system 0:20.33elapsed 33%CPU (0avgtext+0avgdata 134016maxresident)k
+287816inputs+0outputs (0major+241502minor)pagefaults 0swaps

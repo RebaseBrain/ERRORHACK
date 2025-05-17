@@ -1,0 +1,56 @@
++ cd cercs_env-1.0.53
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.83186
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd cercs_env-1.0.53
++ cmake -DLIB_SUFFIX=64 -DCMAKE_INSTALL_PREFIX:PATH=/usr '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DBUILD_SHARED_STATIC:STRING=SHARED -DCMAKE_STRIP:FILEPATH=/bin/echo .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83186 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83186 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.83186 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.83186 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.01user 0.03system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 18772maxresident)k
+0.01user 0.03system 0:00.05elapsed 101%CPU (0avgtext+0avgdata 18772maxresident)k
+0inputs+0outputs (0major+7560minor)pagefaults 0swaps
+0inputs+0outputs (0major+7560minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `cercs_env-1.0.53-alt1.rev20269.svn20150203.src.rpm' failed.
+hsh-rebuild: rebuild of `cercs_env-1.0.53-alt1.rev20269.svn20150203.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.36user 2.28system 0:12.98elapsed 58%CPU (0avgtext+0avgdata 142180maxresident)k
+5.36user 2.28system 0:12.98elapsed 58%CPU (0avgtext+0avgdata 142180maxresident)k
+0inputs+0outputs (0major+208424minor)pagefaults 0swaps

@@ -1,0 +1,418 @@
+<86>May 16 03:30:01 userdel[914978]: delete user 'rooter'
+<86>May 16 03:30:01 groupadd[914986]: group added to /etc/group: name=rooter, GID=1295
+<86>May 16 03:30:01 groupadd[914986]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:30:01 groupadd[914986]: new group: name=rooter, GID=1295
+<86>May 16 03:30:01 useradd[914992]: new user: name=rooter, UID=1295, GID=1295, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:30:01 userdel[915002]: delete user 'builder'
+<86>May 16 03:30:01 userdel[915002]: removed group 'builder' owned by 'builder'
+<86>May 16 03:30:01 groupadd[915009]: group added to /etc/group: name=builder, GID=1296
+<86>May 16 03:30:01 groupadd[915009]: group added to /etc/gshadow: name=builder
+<86>May 16 03:30:01 groupadd[915009]: new group: name=builder, GID=1296
+<86>May 16 03:30:01 useradd[915016]: new user: name=builder, UID=1296, GID=1296, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:30:27 rpmi: rpm-build-licenses-3.0.0-alt1 sisyphus+241804.100.1.1 1574868053 installed
+<13>May 16 03:30:30 rpmi: libboost_system1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:30:30 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 03:30:30 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:30:30 rpmi: libquadmath14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:30:30 rpmi: libquadmath-devel-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 03:30:30 rpmi: libboost_charconv1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_atomic1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_contract1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_filesystem1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_process1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_chrono1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_timer1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_thread1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: libboost_type_erasure1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:30 rpmi: librevenge-0.0.5-alt1 sisyphus+312735.100.1.1 1672415111 installed
+<13>May 16 03:30:30 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 03:30:30 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 03:30:30 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 03:30:30 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 03:30:30 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 03:30:31 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:30:31 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:30:31 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 03:30:31 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 03:30:31 rpmi: perl-Locale-gettext-1.07-alt1.2 sisyphus+335067.10500.2.2 1701154168 installed
+<13>May 16 03:30:31 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 03:30:31 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:30:32 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:30:32 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:30:32 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:30:32 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 03:30:32 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:30:32 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 03:30:32 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 03:30:32 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 03:30:32 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 03:30:33 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 03:30:33 rpmi: fonts-ttf-dejavu-2.37-alt2 sisyphus+243548.100.1.1 1577296175 installed
+<13>May 16 03:30:33 rpmi: cppunit-1.15.1-alt1 sisyphus+346115.200.2.1 1716284184 installed
+<13>May 16 03:30:33 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:30:33 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 03:30:33 rpmi: libboost_context1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_fiber1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_stacktrace1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_nowide1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_url1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_test1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_serialization1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_random1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_iostreams1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_json1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:33 rpmi: libboost_regex1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:34 rpmi: libboost_graph1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:34 rpmi: libboost_date_time1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:34 rpmi: libboost_container1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:35 rpmi: boost-devel-headers-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:35 rpmi: boost-devel-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 16 03:30:35 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:30:35 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:30:35 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 03:30:35 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 03:30:35 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:30:35 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:30:35 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:30:35 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:30:36 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:30:36 rpmi: cppunit-devel-1.15.1-alt1 sisyphus+346115.200.2.1 1716284184 installed
+<13>May 16 03:30:37 rpmi: doxygen-1:1.13.2-alt1 sisyphus+368555.100.1.1 1736508240 installed
+<13>May 16 03:30:37 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 03:30:37 rpmi: help2man-1.48.5-alt1 sisyphus+346293.200.2.1 1716441067 installed
+<13>May 16 03:30:37 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:30:37 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:30:37 rpmi: librevenge-devel-0.0.5-alt1 sisyphus+312735.100.1.1 1672415111 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/libzmf-0.0.1-alt1.nosrc.rpm (w1.gzdio)
+Installing libzmf-0.0.1-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.3800
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf libzmf-0.0.1
++ echo 'Source #0 (libzmf-0.0.1.tar):'
+Source #0 (libzmf-0.0.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/libzmf-0.0.1.tar
++ cd libzmf-0.0.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.3800
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libzmf-0.0.1
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --disable-silent-rules --disable-static --disable-werror
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for x86_64-alt-linux-ar... no
+checking for x86_64-alt-linux-lib... no
+checking for x86_64-alt-linux-link... no
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... (cached) none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... (cached) yes
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for x86_64-alt-linux-g++... x86_64-alt-linux-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether x86_64-alt-linux-g++ accepts -g... yes
+checking dependency style of x86_64-alt-linux-g++... none
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... x86_64-alt-linux-g++ -E
+checking for ld used by x86_64-alt-linux-g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for x86_64-alt-linux-g++ option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-g++ PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-g++ static flag -static works... no
+checking if x86_64-alt-linux-g++ supports -c -o file.o... yes
+checking if x86_64-alt-linux-g++ supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether x86_64-alt-linux-g++ supports C++11 features by default... yes
+checking for __attribute__((format))... yes
+checking for x86_64-alt-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.20... yes
+checking for REVENGE... yes
+checking for boost/cstdint.hpp... yes
+checking for boost/math/constants/constants.hpp... yes
+checking for boost/optional.hpp... yes
+checking for boost/variant.hpp... yes
+checking for ZLIB... yes
+checking for LIBPNG... yes
+checking for ICU... yes
+checking for native Win32... no
+checking for Win32 platform in general... no
+checking for -fvisibility=hidden compiler flag... yes
+checking for CPPUNIT... yes
+checking for REVENGE_STREAM... yes
+checking for doxygen... /usr/bin/doxygen
+checking for REVENGE_GENERATORS... yes
+checking for REVENGE_STREAM... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/conv/Makefile
+config.status: creating src/conv/raw/Makefile
+config.status: creating src/conv/raw/zmf2raw.rc
+config.status: creating src/conv/svg/Makefile
+config.status: creating src/conv/svg/zmf2svg.rc
+config.status: creating src/lib/Makefile
+config.status: creating src/lib/libzmf.rc
+config.status: creating src/test/Makefile
+config.status: creating inc/Makefile
+config.status: creating inc/libzmf/Makefile
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/doxygen/Makefile
+config.status: creating libzmf-0.0.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext
+configure:
+==============================================================================
+Build configuration:
+    debug:           no
+    debug draw bbox: no
+    docs:            yes
+    tests:           yes
+    tools:           yes
+    werror:          no
+==============================================================================
+
++ make -j8
+make  all-recursive
+Making all in src
+Making all in lib
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZBRHeader.lo ZBRHeader.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZBRHeader.cpp  -fPIC -DPIC -o .libs/ZBRHeader.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMF2Parser.lo ZMF2Parser.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMF2Parser.cpp  -fPIC -DPIC -o .libs/ZMF2Parser.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMF2Header.lo ZMF2Header.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMF2Header.cpp  -fPIC -DPIC -o .libs/ZMF2Header.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMF4Header.lo ZMF4Header.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMF4Header.cpp  -fPIC -DPIC -o .libs/ZMF4Header.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZBRParser.lo ZBRParser.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZBRParser.cpp  -fPIC -DPIC -o .libs/ZBRParser.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o BMITypes.lo BMITypes.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c BMITypes.cpp  -fPIC -DPIC -o .libs/BMITypes.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o BMIHeader.lo BMIHeader.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c BMIHeader.cpp  -fPIC -DPIC -o .libs/BMIHeader.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o BMIParser.lo BMIParser.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c BMIParser.cpp  -fPIC -DPIC -o .libs/BMIParser.o
+BMIParser.cpp: In function 'bool libzmf::{anonymous}::uncompress(const uint8_t*, unsigned int, std::vector<unsigned char>&)':
+BMIParser.cpp:79:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   79 |       data.clear();
+      |       ~~~~~~~~~~^~
+BMIParser.cpp:81:5: note: here
+   81 |     case Z_STREAM_END:
+      |     ^~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMFInternalStream.lo ZMFInternalStream.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMFInternalStream.cpp  -fPIC -DPIC -o .libs/ZMFInternalStream.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMFDocument.lo ZMFDocument.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMFDocument.cpp  -fPIC -DPIC -o .libs/ZMFDocument.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o libzmf_utils.lo libzmf_utils.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c libzmf_utils.cpp  -fPIC -DPIC -o .libs/libzmf_utils.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMFTypes.lo ZMFTypes.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMFTypes.cpp  -fPIC -DPIC -o .libs/ZMFTypes.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMFCollector.lo ZMFCollector.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMFCollector.cpp  -fPIC -DPIC -o .libs/ZMFCollector.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../..    -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o ZMF4Parser.lo ZMF4Parser.cpp
+libtool: compile:  x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../.. -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c ZMF4Parser.cpp  -fPIC -DPIC -o .libs/ZMF4Parser.o
+ZMF4Parser.cpp: In member function 'void libzmf::ZMF4Parser::readPen()':
+ZMF4Parser.cpp:865:39: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  865 |       pen.startArrow = getArrowByRefId(ref.id);
+      |                        ~~~~~~~~~~~~~~~^~~~~~~~
+ZMF4Parser.cpp:867:5: note: here
+  867 |     case 1:
+      |     ^~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=link x86_64-alt-linux-g++ -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++   -o libzmf_internal.la  BMIHeader.lo BMIParser.lo BMITypes.lo ZBRHeader.lo ZBRParser.lo ZMF2Header.lo ZMF2Parser.lo ZMF4Header.lo ZMF4Parser.lo ZMFCollector.lo ZMFTypes.lo ZMFInternalStream.lo libzmf_utils.lo  
+libtool: link: ar cru .libs/libzmf_internal.a .libs/BMIHeader.o .libs/BMIParser.o .libs/BMITypes.o .libs/ZBRHeader.o .libs/ZBRParser.o .libs/ZMF2Header.o .libs/ZMF2Parser.o .libs/ZMF4Header.o .libs/ZMF4Parser.o .libs/ZMFCollector.o .libs/ZMFTypes.o .libs/ZMFInternalStream.o .libs/libzmf_utils.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libzmf_internal.a
+libtool: link: ( cd ".libs" && rm -f "libzmf_internal.la" && ln -s "../libzmf_internal.la" "libzmf_internal.la" )
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+/bin/sh ../../libtool  --tag=CXX   --mode=link x86_64-alt-linux-g++ -I../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0  -I/usr/include/libpng16 -std=c++17 -DNDEBUG -DLIBZMF_BUILD -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -version-info 0:1:0 -export-dynamic -no-undefines  -o libzmf-0.0.la -rpath /usr/lib64 ZMFDocument.lo libzmf_internal.la -lrevenge-0.0 -lz -lpng16 -licui18n  
+libtool: link: x86_64-alt-linux-g++  -fPIC -DPIC -shared -nostdlib /usr/lib64/gcc/x86_64-alt-linux/14/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-alt-linux/14/crtbeginS.o  .libs/ZMFDocument.o  -Wl,--whole-archive ./.libs/libzmf_internal.a -Wl,--no-whole-archive  -lrevenge-0.0 -lz -lpng16 -licui18n -L/usr/lib64/gcc/x86_64-alt-linux/14 -L/usr/lib64/gcc/x86_64-alt-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-alt-linux/14/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib64/gcc/x86_64-alt-linux/14/crtendS.o /usr/lib64/gcc/x86_64-alt-linux/14/../../../../lib64/crtn.o  -g -O2 -flto=auto   -Wl,-soname -Wl,libzmf-0.0.so.0 -o .libs/libzmf-0.0.so.0.0.1
+libtool: link: (cd ".libs" && rm -f "libzmf-0.0.so.0" && ln -s "libzmf-0.0.so.0.0.1" "libzmf-0.0.so.0")
+libtool: link: (cd ".libs" && rm -f "libzmf-0.0.so" && ln -s "libzmf-0.0.so.0.0.1" "libzmf-0.0.so")
+libtool: link: ( cd ".libs" && rm -f "libzmf-0.0.la" && ln -s "../libzmf-0.0.la" "libzmf-0.0.la" )
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/lib'
+Making all in conv
+Making all in raw
+make[4]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/conv/raw'
+x86_64-alt-linux-g++ -DHAVE_CONFIG_H -I. -I../../..    -I../../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -DNDEBUG -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -c -o zmf2raw.o zmf2raw.cpp
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/conv/raw'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/conv/raw'
+/bin/sh ../../../libtool  --tag=CXX   --mode=link x86_64-alt-linux-g++ -I../../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -DNDEBUG -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++   -o zmf2raw zmf2raw.o ../../lib/libzmf-0.0.la -lrevenge-0.0 -lrevenge-generators-0.0 -lrevenge-0.0 -lrevenge-stream-0.0   
+libtool: link: x86_64-alt-linux-g++ -I../../../inc -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -I/usr/include/librevenge-0.0 -DNDEBUG -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fvisibility=hidden -DLIBZMF_VISIBILITY -Wall -Wextra -pedantic -Wshadow -Wunused-variable -Weffc++ -o .libs/zmf2raw zmf2raw.o  ../../lib/.libs/libzmf-0.0.so -lz -lpng16 -licui18n -lrevenge-generators-0.0 -lrevenge-0.0 -lrevenge-stream-0.0
+ld: ../../lib/.libs/libzmf-0.0.so: undefined reference to `ucnv_getNextUChar_76'
+ld: ../../lib/.libs/libzmf-0.0.so: undefined reference to `ucnv_close_76'
+ld: ../../lib/.libs/libzmf-0.0.so: undefined reference to `ucnv_open_76'
+collect2: error: ld returned 1 exit status
+make[4]: *** [Makefile:434: zmf2raw] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libzmf-0.0.1/src/conv/raw'
+make[3]: *** [Makefile:387: all-recursive] Error 1
+make[2]: *** [Makefile:389: all-recursive] Error 1
+make[1]: *** [Makefile:496: all-recursive] Error 1
+make: *** [Makefile:407: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.3800 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.3800 (%build)
+Command exited with non-zero status 1
+23.98user 4.12system 0:12.48elapsed 225%CPU (0avgtext+0avgdata 311828maxresident)k
+0inputs+0outputs (0major+714135minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libzmf-0.0.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+6.67user 2.55system 0:53.44elapsed 17%CPU (0avgtext+0avgdata 142348maxresident)k
+32112inputs+0outputs (0major+285411minor)pagefaults 0swaps

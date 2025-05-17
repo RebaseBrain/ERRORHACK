@@ -1,0 +1,182 @@
+INFO     : Running command: ['/usr/src/RPM/BUILD/pudb-2024.1.3/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/pudb-2024.1.3/dist/pudb-2024.1.3-py3-none-any.whl']
+INFO     : Running command: ['python3', '-m', 'pytest']
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+rootdir: /usr/src/RPM/BUILD/pudb-2024.1.3
+configfile: pyproject.toml
+plugins: mock-3.14.0
+collected 10 items / 3 errors
+
+
+==================================== ERRORS ====================================
+==================================== ERRORS ====================================
+________________ ERROR collecting pudb/test/test_make_canvas.py ________________
+________________ ERROR collecting pudb/test/test_make_canvas.py ________________
+pudb/test/test_make_canvas.py:1: in <module>
+pudb/test/test_make_canvas.py:1: in <module>
+    from pudb.ui_tools import make_canvas
+    from pudb.ui_tools import make_canvas
+pudb/ui_tools.py:143: in <module>
+pudb/ui_tools.py:143: in <module>
+    class StackFrame(urwid.FlowWidget):
+    class StackFrame(urwid.FlowWidget):
+/usr/lib/python3/site-packages/urwid/__init__.py:343: in __getattr__
+/usr/lib/python3/site-packages/urwid/__init__.py:343: in __getattr__
+    raise AttributeError(f"{name} not found in {__package__}")
+    raise AttributeError(f"{name} not found in {__package__}")
+E   AttributeError: FlowWidget not found in urwid
+E   AttributeError: FlowWidget not found in urwid
+___________ ERROR collecting pudb/test/test_source_code_providers.py ___________
+___________ ERROR collecting pudb/test/test_source_code_providers.py ___________
+___________ ERROR collecting pudb/test/test_source_code_providers.py ___________
+pudb/test/test_source_code_providers.py:3: in <module>
+pudb/test/test_source_code_providers.py:3: in <module>
+pudb/test/test_source_code_providers.py:3: in <module>
+    from pudb.debugger import (
+    from pudb.debugger import (
+    from pudb.debugger import (
+pudb/debugger.py:584: in <module>
+pudb/debugger.py:584: in <module>
+    from pudb.ui_tools import (
+    from pudb.ui_tools import (
+pudb/ui_tools.py:143: in <module>
+pudb/ui_tools.py:143: in <module>
+    class StackFrame(urwid.FlowWidget):
+    class StackFrame(urwid.FlowWidget):
+/usr/lib/python3/site-packages/urwid/__init__.py:343: in __getattr__
+/usr/lib/python3/site-packages/urwid/__init__.py:343: in __getattr__
+    raise AttributeError(f"{name} not found in {__package__}")
+    raise AttributeError(f"{name} not found in {__package__}")
+E   AttributeError: FlowWidget not found in urwid
+E   AttributeError: FlowWidget not found in urwid
+_________________ ERROR collecting pudb/test/test_var_view.py __________________
+_________________ ERROR collecting pudb/test/test_var_view.py __________________
+pudb/test/test_var_view.py:6: in <module>
+    from pudb.var_view import (
+pudb/var_view.py:38: in <module>
+    from pudb.ui_tools import text_width
+pudb/ui_tools.py:143: in <module>
+    class StackFrame(urwid.FlowWidget):
+/usr/lib/python3/site-packages/urwid/__init__.py:343: in __getattr__
+    raise AttributeError(f"{name} not found in {__package__}")
+E   AttributeError: FlowWidget not found in urwid
+=============================== warnings summary ===============================
+../../../../lib64/python3.12/inspect.py:914
+  /usr/lib64/python3.12/inspect.py:914: DeprecationWarning: urwid.treetools is moved to urwid.widget.treetools
+  /usr/lib64/python3.12/inspect.py:914: DeprecationWarning: urwid.treetools is moved to urwid.widget.treetools
+    if getattr(object, '__file__', None):
+    if getattr(object, '__file__', None):
+    if getattr(object, '__file__', None):
+
+
+
+../../../../lib64/python3.12/inspect.py:915
+../../../../lib64/python3.12/inspect.py:915
+../../../../lib64/python3.12/inspect.py:915
+  /usr/lib64/python3.12/inspect.py:915: DeprecationWarning: urwid.treetools is moved to urwid.widget.treetools
+  /usr/lib64/python3.12/inspect.py:915: DeprecationWarning: urwid.treetools is moved to urwid.widget.treetools
+  /usr/lib64/python3.12/inspect.py:915: DeprecationWarning: urwid.treetools is moved to urwid.widget.treetools
+    return object.__file__
+    return object.__file__
+    return object.__file__
+    return object.__file__
+
+
+
+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+ERROR pudb/test/test_make_canvas.py - AttributeError: FlowWidget not found in...
+ERROR pudb/test/test_make_canvas.py - AttributeError: FlowWidget not found in...
+ERROR pudb/test/test_make_canvas.py - AttributeError: FlowWidget not found in...
+ERROR pudb/test/test_make_canvas.py - AttributeError: FlowWidget not found in...
+ERROR pudb/test/test_make_canvas.py - AttributeError: FlowWidget not found in...
+ERROR pudb/test/test_source_code_providers.py - AttributeError: FlowWidget no...
+ERROR pudb/test/test_source_code_providers.py - AttributeError: FlowWidget no...
+ERROR pudb/test/test_source_code_providers.py - AttributeError: FlowWidget no...
+ERROR pudb/test/test_source_code_providers.py - AttributeError: FlowWidget no...
+ERROR pudb/test/test_source_code_providers.py - AttributeError: FlowWidget no...
+ERROR pudb/test/test_var_view.py - AttributeError: FlowWidget not found in urwid
+ERROR pudb/test/test_var_view.py - AttributeError: FlowWidget not found in urwid
+ERROR pudb/test/test_var_view.py - AttributeError: FlowWidget not found in urwid
+ERROR pudb/test/test_var_view.py - AttributeError: FlowWidget not found in urwid
+ERROR pudb/test/test_var_view.py - AttributeError: FlowWidget not found in urwid
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+======================== 24 warnings, 3 errors in 0.22s ========================
+======================== 24 warnings, 3 errors in 0.22s ========================
+======================== 24 warnings, 3 errors in 0.22s ========================
+======================== 24 warnings, 3 errors in 0.22s ========================
+======================== 24 warnings, 3 errors in 0.22s ========================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 2.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.82839 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.14user 0.63system 0:01.70elapsed 103%CPU (0avgtext+0avgdata 46224maxresident)k
+1.14user 0.63system 0:01.70elapsed 103%CPU (0avgtext+0avgdata 46224maxresident)k
+1.14user 0.63system 0:01.70elapsed 103%CPU (0avgtext+0avgdata 46224maxresident)k
+0inputs+0outputs (0major+123045minor)pagefaults 0swaps
+0inputs+0outputs (0major+123045minor)pagefaults 0swaps
+0inputs+0outputs (0major+123045minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pudb-2024.1.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `pudb-2024.1.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `pudb-2024.1.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.46user 3.22system 0:14.11elapsed 54%CPU (0avgtext+0avgdata 141660maxresident)k
+4.46user 3.22system 0:14.11elapsed 54%CPU (0avgtext+0avgdata 141660maxresident)k
+1328inputs+0outputs (0major+304968minor)pagefaults 0swaps

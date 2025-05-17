@@ -1,0 +1,187 @@
+<86>May 16 01:04:45 userdel[415673]: delete user 'rooter'
+<86>May 16 01:04:45 userdel[415673]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:04:45 userdel[415673]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:04:45 groupadd[415741]: group added to /etc/group: name=rooter, GID=1874
+<86>May 16 01:04:45 groupadd[415741]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:04:45 groupadd[415741]: new group: name=rooter, GID=1874
+<86>May 16 01:04:45 useradd[415789]: new user: name=rooter, UID=1874, GID=1874, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:04:45 userdel[415855]: delete user 'builder'
+<86>May 16 01:04:45 userdel[415855]: removed group 'builder' owned by 'builder'
+<86>May 16 01:04:45 userdel[415855]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:04:45 groupadd[415917]: group added to /etc/group: name=builder, GID=1875
+<86>May 16 01:04:45 groupadd[415917]: group added to /etc/gshadow: name=builder
+<86>May 16 01:04:45 groupadd[415917]: new group: name=builder, GID=1875
+<86>May 16 01:04:45 useradd[415993]: new user: name=builder, UID=1875, GID=1875, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:04:48 rpmi: ppp-common-0.5.1-alt1 sisyphus+276789.100.1.1 1625233524 installed
+<13>May 16 01:04:48 rpmi: sendmail-common-1.7-alt3 1353029717 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/procmail-3.22-alt11.nosrc.rpm (w1.gzdio)
+Installing procmail-3.22-alt11.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.39308
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf procmail-3.22
++ echo 'Source #0 (procmail-3.22.tar):'
+Source #0 (procmail-3.22.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/procmail-3.22.tar
++ cd procmail-3.22
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (procmail-3.22-deb-fixes.patch):'
+Patch #1 (procmail-3.22-deb-fixes.patch):
++ /usr/bin/patch -p1
+patching file src/autoconf
+patching file src/comsat.c
+patching file src/formail.c
+patching file src/header.h
+patching file src/mailfold.c
+patching file src/manconf.c
+patching file src/memblk.c
+patching file src/memblk.h
+patching file src/pipes.c
+patching file src/procmail.c
++ echo 'Patch #2 (procmail-3.22-owl-alt-fixes.patch):'
+Patch #2 (procmail-3.22-owl-alt-fixes.patch):
++ /usr/bin/patch -p1
+patching file man/mansed
+patching file src/autoconf
+Hunk #2 succeeded at 1454 (offset -4 lines).
+Hunk #3 succeeded at 1462 (offset -4 lines).
+Hunk #4 succeeded at 1492 (offset -4 lines).
+patching file src/cstdio.c
+patching file src/exopen.c
+patching file src/foldinfo.c
+patching file src/formail.c
+patching file src/lmtp.c
+patching file src/lockfile.c
+patching file src/misc.c
+patching file src/pipes.c
+patching file src/procmail.c
+patching file src/regexp.c
+patching file src/robust.c
++ echo 'Patch #3 (procmail-3.22-owl-alt-config.patch):'
+Patch #3 (procmail-3.22-owl-alt-config.patch):
++ /usr/bin/patch -p1
+patching file config.h
++ echo 'Patch #4 (procmail-3.22-deb-alt-doc.patch):'
+Patch #4 (procmail-3.22-deb-alt-doc.patch):
++ /usr/bin/patch -p1
+patching file man/procmail.man
+patching file man/procmailrc.man
++ echo 'Patch #5 (procmail-3.22-deb-355472-doc-procmailex.patch):'
+Patch #5 (procmail-3.22-deb-355472-doc-procmailex.patch):
++ /usr/bin/patch -p1
+patching file man/procmailex.man
++ echo 'Patch #6 (procmail-3.22-deb-151627-formail.patch):'
+Patch #6 (procmail-3.22-deb-151627-formail.patch):
++ /usr/bin/patch -p1
+patching file src/formisc.c
++ echo 'Patch #7 (procmail-3.22-deb-474298-484352-mailfold.patch):'
+Patch #7 (procmail-3.22-deb-474298-484352-mailfold.patch):
++ /usr/bin/patch -p1
+patching file src/mailfold.c
++ echo 'Patch #8 (procmail-3.22-owl-truncate.patch):'
+Patch #8 (procmail-3.22-owl-truncate.patch):
++ /usr/bin/patch -p1
+patching file src/mailfold.c
++ echo 'Patch #9 (procmail-3.22-deb-337048-mailstat.patch):'
+Patch #9 (procmail-3.22-deb-337048-mailstat.patch):
++ /usr/bin/patch -p1
+patching file examples/mailstat
++ echo 'Patch #10 (procmail-3.22-deb-452723-doc-procmailrc.patch):'
+Patch #10 (procmail-3.22-deb-452723-doc-procmailrc.patch):
++ /usr/bin/patch -p1
+patching file man/procmailrc.man
++ echo 'Patch #11 (procmail-3.22-taviso-bound-CVE-2014-3618.patch):'
+Patch #11 (procmail-3.22-taviso-bound-CVE-2014-3618.patch):
++ /usr/bin/patch -p1
+patching file src/formisc.c
++ echo 'Patch #12 (procmail-3.22-deb-771958-bound.patch):'
+Patch #12 (procmail-3.22-deb-771958-bound.patch):
++ /usr/bin/patch -p1
+patching file src/cstdio.c
+Hunk #1 succeeded at 145 (offset 1 line).
+Hunk #2 succeeded at 200 (offset 1 line).
++ echo 'Patch #13 (procmail-3.22-deb-769937-formail-bound.patch):'
+Patch #13 (procmail-3.22-deb-769937-formail-bound.patch):
++ /usr/bin/patch -p1
+patching file src/formail.c
+patching file src/formisc.c
++ echo 'Patch #14 (procmail-3.22-deb-876511-formail-bound-CVE-2017-16844.patch):'
+Patch #14 (procmail-3.22-deb-876511-formail-bound-CVE-2017-16844.patch):
++ /usr/bin/patch -p1
+patching file src/formisc.c
++ echo 'Patch #15 (procmail-3.22-rh-formail-uninitialized.patch):'
+Patch #15 (procmail-3.22-rh-formail-uninitialized.patch):
++ /usr/bin/patch -p1
+patching file src/formail.c
++ echo 'Patch #16 (procmail-3.22-alt-autoconf-strstr.patch):'
+Patch #16 (procmail-3.22-alt-autoconf-strstr.patch):
++ /usr/bin/patch -p1
+patching file src/autoconf
++ find -type f -name '*.orig' -delete
++ find -type f -print0
++ xargs -r0 grep -FZl /usr/ucb/mail --
++ xargs -r0 sed -i 's|/usr/ucb/mail|/bin/mail|g' --
++ find -type f -print0
++ xargs -r0 grep -FZl getline --
++ xargs -r0 sed -i s/getline/get_line/g --
++ sed -i 's,\(/usr\)\(/spool\)\?/mail,/var\2/mail,g' examples/advanced FAQ
++ sed -i /binmail/d man/formail.man man/lockfile.man man/procmail.man man/procmailex.man man/procmailrc.man man/procmailsc.man
++ install -pm644 /usr/src/RPM/SOURCES/README.Maildir .
++ xz -9k HISTORY
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.39308
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd procmail-3.22
+++ getconf LFS_CFLAGS
++ make -j16 CC=gcc 'CFLAGS0=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused ' 'LDFLAGS0=-pie -Wl,-z,relro,-z,now' LOCKINGTEST=100 SEARCHLIBS=-lm
+/bin/sh ./initmake /bin/sh "/bin/sh" "/bin/rm -f" "mv -f" "ln" \
+ "-lm" \
+ "/lib /usr/lib /usr/local/lib" \
+ /dev/null "make" o \
+ "gcc" "-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused  " "-pie -Wl,-z,relro,-z,now  " "procmail lockfile formail mailstat" \
+ "procmail formail lockfile" \
+ "procmailrc procmailsc procmailex" "src man" \
+ "/usr/bin" \
+ "strip"
+Whoeaaa!  There's something fishy going on here.
+You have a look and see if you detect anything uncanny:
+*******************************************************
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+::::
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+::::
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+::::
+*******************************************************
+I suggest you take a look at the definition of CFLAGS* and CC
+in the Makefile before you try make again.
+make: *** [Makefile:128: init] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+Command exited with non-zero status 1
+0.04user 0.11system 0:00.14elapsed 108%CPU (0avgtext+0avgdata 19464maxresident)k
+0inputs+0outputs (0major+21523minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `procmail-3.22-alt11.src.rpm' failed.
+Command exited with non-zero status 1
+3.35user 2.59system 0:08.11elapsed 73%CPU (0avgtext+0avgdata 141852maxresident)k
+0inputs+0outputs (0major+186575minor)pagefaults 0swaps

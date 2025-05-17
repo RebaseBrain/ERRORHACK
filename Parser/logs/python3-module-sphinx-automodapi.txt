@@ -1,0 +1,1250 @@
+<86>May 16 02:31:19 userdel[674698]: delete user 'rooter'
+<86>May 16 02:31:19 userdel[674698]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:31:19 userdel[674698]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:31:19 groupadd[674774]: group added to /etc/group: name=rooter, GID=1868
+<86>May 16 02:31:19 groupadd[674774]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:31:19 groupadd[674774]: new group: name=rooter, GID=1868
+<86>May 16 02:31:19 useradd[674846]: new user: name=rooter, UID=1868, GID=1868, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:31:19 userdel[674943]: delete user 'builder'
+<86>May 16 02:31:19 userdel[674943]: removed group 'builder' owned by 'builder'
+<86>May 16 02:31:19 userdel[674943]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:31:19 groupadd[675032]: group added to /etc/group: name=builder, GID=1869
+<86>May 16 02:31:19 groupadd[675032]: group added to /etc/gshadow: name=builder
+<86>May 16 02:31:19 groupadd[675032]: new group: name=builder, GID=1869
+<86>May 16 02:31:19 useradd[675113]: new user: name=builder, UID=1869, GID=1869, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 02:31:23 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 02:31:23 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 02:31:23 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 02:31:23 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 02:31:23 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 02:31:23 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:31:23 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 02:31:23 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:31:23 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:31:23 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 02:31:23 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 02:31:23 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:31:23 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:31:23 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:31:23 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:31:23 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:31:23 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 02:31:23 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 02:31:23 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 02:31:28 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 02:31:28 rpmi: python3-module-docutils-0.20.1-alt1 sisyphus+323438.100.1.1 1687370718 installed
+<13>May 16 02:31:28 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 02:31:28 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 02:31:28 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 02:31:28 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 02:31:28 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:31:28 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 02:31:28 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 02:31:28 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 02:31:28 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 16 02:31:28 rpmi: libatk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 02:31:28 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 02:31:28 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:31:28 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 02:31:28 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 02:31:28 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:31:28 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 02:31:28 rpmi: python3-module-alabaster-0.7.16-alt1 sisyphus+349698.100.1.1 1716897815 installed
+<13>May 16 02:31:28 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:31:28 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 02:31:28 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:31:28 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:31:28 rpmi: python3-module-snowballstemmer-2.2.0-alt1 sisyphus+319215.100.1.1 1682346633 installed
+<13>May 16 02:31:28 rpmi: python3-module-roman_numerals-3.1.0-alt1 sisyphus+376287.100.1.1 1740659993 installed
+<13>May 16 02:31:28 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 16 02:31:28 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 02:31:29 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 02:31:29 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 16 02:31:29 rpmi: python3-module-imagesize-1.4.1-alt1 sisyphus+318084.100.1.1 1680697673 installed
+<13>May 16 02:31:29 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 02:31:29 rpmi: python3-module-defusedxml-0.7.1-alt1 sisyphus+274841.2300.1.1 1624295691 installed
+<13>May 16 02:31:29 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 02:31:29 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 02:31:29 rpmi: python3-module-babel-1:2.17.0-alt1 sisyphus+383519.100.1.1 1746611672 installed
+<13>May 16 02:31:29 rpmi: python3-module-zombie-imp-0.0.2-alt1 sisyphus+339293.100.1.1 1706537230 installed
+<13>May 16 02:31:29 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 02:31:29 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 02:31:29 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 02:31:29 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 02:31:29 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 02:31:29 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 02:31:29 rpmi: python-sphinx-objects.inv-1:2.3.14.20250414-alt1 sisyphus+381547.100.1.1 1744608913 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-applehelp-2.0.0-alt1 sisyphus+353872.100.1.1 1722243556 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-devhelp-2.0.0-alt1 sisyphus+353872.200.1.1 1722243589 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-jquery-4.1-alt3 sisyphus+339023.100.1.1 1706234262 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-jsmath-1.0.1-alt2 sisyphus+348403.100.1.1 1716017686 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-htmlhelp-2.1.0-alt1 sisyphus+353893.100.2.1 1722416845 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-serializinghtml-2.0.0-alt1 sisyphus+361088.100.1.1 1730215552 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinxcontrib-qthelp-2.0.0-alt1 sisyphus+353872.300.1.1 1722243619 installed
+<13>May 16 02:31:29 rpmi: python3-module-sphinx-sphinx-build-symlink-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 02:31:30 rpmi: python3-module-sphinx-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 02:31:30 rpmi: python3-module-pycparser-2.22-alt1 sisyphus+378485.100.1.1 1742331206 installed
+<13>May 16 02:31:30 rpmi: python3-module-cffi-1.17.1-alt1 sisyphus+357396.100.1.1 1726156476 installed
+<13>May 16 02:31:31 rpmi: mercurial-7.0.1-alt1 sisyphus+382790.100.2.2 1746550268 installed
+<13>May 16 02:31:31 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 02:31:31 rpmi: python3-modules-sqlite3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:31:31 rpmi: python3-module-coverage-7.6.10-alt1 sisyphus+378449.100.1.1 1742313292 installed
+<13>May 16 02:31:31 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:31:31 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:31:31 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:31:31 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:31:32 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:31:32 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 02:31:32 rpmi: libgtk+2-locales-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 16 02:31:32 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659208 installed
+<13>May 16 02:31:32 rpmi: libgts-0.7.6-alt2.drc20130205.1 sisyphus+346279.200.2.1 1716435910 installed
+<13>May 16 02:31:32 rpmi: libpaper2-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276732 installed
+<13>May 16 02:31:32 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745386888 installed
+<13>May 16 02:31:32 rpmi: libnuma-2.0.19-alt1 sisyphus+363830.100.1.1 1733131852 installed
+<13>May 16 02:31:32 rpmi: libx265-199-3.5-alt1.1 sisyphus+277560.100.1.1 1625697230 installed
+<13>May 16 02:31:32 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 02:31:32 rpmi: libde265-1.0.15-alt1 sisyphus+337190.100.1.1 1703502096 installed
+<13>May 16 02:31:33 rpmi: libdav1d_7-1.5.1-alt1 sisyphus+375116.100.1.1 1739813289 installed
+<13>May 16 02:31:33 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 02:31:33 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 02:31:33 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 02:31:33 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:31:33 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 02:31:33 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 02:31:33 rpmi: libaom3-3.12.0-alt2 sisyphus+381948.100.1.1 1744966704 installed
+<13>May 16 02:31:33 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 02:31:33 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 02:31:33 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 02:31:33 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 02:31:33 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 02:31:33 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 02:31:33 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:31:33 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 02:31:33 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 02:31:33 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 02:31:33 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:31:33 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 02:31:33 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 02:31:33 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 02:31:33 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 02:31:33 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 02:31:33 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 02:31:33 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 02:31:33 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 02:31:33 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 02:31:33 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 02:31:33 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 02:31:33 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 02:31:33 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 02:31:33 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 02:31:33 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:31:33 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:31:33 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:31:35 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:31:36 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 02:31:36 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:31:36 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:31:36 rpmi: libGLU-4:9.0.1-alt1 sisyphus+278350.100.1.2 1626174382 installed
+<13>May 16 02:31:36 rpmi: libfreeglut-3.6.0-alt1 sisyphus+351159.100.1.1 1718777664 installed
+<13>May 16 02:31:36 rpmi: icon-theme-hicolor-0.18-alt1 sisyphus+349610.100.1.1 1716831669 installed
+<13>May 16 02:31:36 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 02:31:36 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 02:31:36 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 02:31:36 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 02:31:36 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 02:31:36 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 02:31:36 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 02:31:36 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 02:31:36 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 02:31:36 rpmi: gtk4-update-icon-cache-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 02:31:36 rpmi: libheif-1.19.8-alt1 sisyphus+384099.100.1.1 1747213304 installed
+<13>May 16 02:31:36 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 02:31:36 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 02:31:36 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 02:31:36 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 02:31:36 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 02:31:36 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:31:36 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 02:31:36 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 02:31:36 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:31:36 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:31:36 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:31:36 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 02:31:36 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 02:31:36 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 02:31:36 rpmi: libgd3-2.3.3-alt4 sisyphus+376290.4300.24.2 1745377382 installed
+<13>May 16 02:31:36 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 02:31:36 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 02:31:36 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 02:31:36 rpmi: liblasi-1.1.3-alt3 sisyphus+286812.100.2.1 1633968131 installed
+<13>May 16 02:31:37 rpmi: librsvg-1:2.60.0-alt1 sisyphus+378509.200.1.1 1742367009 installed
+<13>May 16 02:31:37 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 02:31:38 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 02:31:38 rpmi: libxxhash-0.8.2-alt1 sisyphus+336514.200.7.1 1702672118 installed
+<13>May 16 02:31:38 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667412981 installed
+<13>May 16 02:31:38 rpmi: rsync-3.2.7-alt3 sisyphus+372266.100.1.1 1738342240 installed
+<13>May 16 02:31:38 rpmi: openssh-common-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 02:31:38 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 02:31:38 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 02:31:38 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 02:31:38 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<86>May 16 02:31:38 groupadd[777601]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 02:31:38 groupadd[777601]: group added to /etc/gshadow: name=_keytab
+<86>May 16 02:31:38 groupadd[777601]: new group: name=_keytab, GID=999
+<13>May 16 02:31:38 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 02:31:38 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 02:31:38 rpmi: libgtk+2-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 16 02:31:38 rpmi: libgtkglext-1.2.0-alt5 sisyphus+346276.200.2.1 1716434447 installed
+<13>May 16 02:31:38 rpmi: libglade-2.6.4-alt6 sisyphus+361686.300.1.1 1730737740 installed
+<13>May 16 02:31:39 rpmi: libgs-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 02:31:39 rpmi: libgraphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953966 installed
+<86>May 16 02:31:39 groupadd[783980]: group added to /etc/group: name=sshagent, GID=998
+<86>May 16 02:31:39 groupadd[783980]: group added to /etc/gshadow: name=sshagent
+<86>May 16 02:31:39 groupadd[783980]: new group: name=sshagent, GID=998
+<13>May 16 02:31:39 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 02:31:39 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 02:31:39 groupadd[784261]: group added to /etc/group: name=sasl, GID=997
+<86>May 16 02:31:39 groupadd[784261]: group added to /etc/gshadow: name=sasl
+<86>May 16 02:31:39 groupadd[784261]: new group: name=sasl, GID=997
+<13>May 16 02:31:39 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 02:31:39 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:31:40 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 02:31:40 rpmi: less-633-alt1 sisyphus+328181.300.2.1 1693321749 installed
+<13>May 16 02:31:40 rpmi: diffstat-1.64-alt1 sisyphus+346132.200.3.2 1716466240 installed
+<13>May 16 02:31:40 rpmi: git-core-2.42.4-alt1 sisyphus+369547.100.1.1 1736878350 installed
+<13>May 16 02:31:40 rpmi: python3-module-setuptools_scm-8.3.1-alt1 sisyphus+384062.100.2.1 1747309818 installed
+<13>May 16 02:31:40 rpmi: graphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953966 installed
+<13>May 16 02:31:40 rpmi: fonts-ttf-vera-1.10-alt3 1188488742 installed
+<13>May 16 02:31:40 rpmi: python3-module-Cython-3.0.12-alt1 sisyphus+375455.100.1.1 1740050387 installed
+<13>May 16 02:31:41 rpmi: python3-module-sphinx_rtd_theme-3.0.2-alt1 sisyphus+362579.100.1.1 1731658710 installed
+<13>May 16 02:31:41 rpmi: python3-module-pytest-8.3.5-alt2 sisyphus+383865.100.1.1 1747039699 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-sphinx-automodapi-0.18.0-alt1.nosrc.rpm (w1.gzdio)
+<13>May 16 02:31:46 rpmi: python3-module-system-seed-wheels-0.0.1-alt1 sisyphus+270533.400.6.1 1619683425 installed
+<13>May 16 02:31:46 rpmi: python3-module-filelock-3.18.0-alt1 sisyphus+377927.100.2.1 1741959375 installed
+<13>May 16 02:31:46 rpmi: python3-module-pip-wheel-25.1.1-alt1 sisyphus+384061.100.2.1 1747306475 installed
+<13>May 16 02:31:46 rpmi: python3-module-setuptools-wheel-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 02:31:46 rpmi: python3-module-wheel-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 02:31:46 rpmi: python3-module-system-seed-wheels-wheels-0.0.1-alt1 sisyphus+270533.400.6.1 1619683425 installed
+<13>May 16 02:31:46 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+<13>May 16 02:31:46 rpmi: python3-module-pyproject-api-1.6.1-alt1 sisyphus+330404.60.15.1 1698684249 installed
+<13>May 16 02:31:47 rpmi: python3-module-distlib-0.3.9-alt1 sisyphus+359423.100.1.1 1728557083 installed
+<13>May 16 02:31:47 rpmi: python3-module-virtualenv-20.30.0-alt1 sisyphus+379870.100.2.1 1743506980 installed
+<13>May 16 02:31:47 rpmi: python3-module-colorama-0.4.6-alt1 sisyphus+308971.100.1.1 1666698282 installed
+<13>May 16 02:31:47 rpmi: python3-module-chardet-1:5.2.0-alt1 sisyphus+326284.100.2.1 1691056316 installed
+<13>May 16 02:31:47 rpmi: python3-module-cachetools-5.5.2-alt1 sisyphus+375542.100.1.1 1740130789 installed
+<13>May 16 02:31:47 rpmi: python3-module-tox-4.25.0-alt1 sisyphus+379466.100.1.1 1743153108 installed
+<13>May 16 02:31:47 rpmi: python3-module-tox-console-scripts-0.4.0-alt1 sisyphus+371114.200.4.1 1739124059 installed
+<13>May 16 02:31:47 rpmi: python3-module-tox-no-deps-0.3.0-alt1 sisyphus+371114.300.4.1 1739124101 installed
+<13>May 16 02:31:47 rpmi: python3-module-tox-passenv-0.1.0-alt1 sisyphus+371114.500.4.1 1739124145 installed
+Installing python3-module-sphinx-automodapi-0.18.0-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.53050
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf sphinx-automodapi-0.18.0
++ echo 'Source #0 (sphinx-automodapi-0.18.0.tar):'
+Source #0 (sphinx-automodapi-0.18.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/sphinx-automodapi-0.18.0.tar
++ cd sphinx-automodapi-0.18.0
++ /bin/chmod -c -Rf u+rwX,go-w .
+++ grep -rl 'python'\'': ('\''https://docs.python.org/' sphinx_automodapi/tests
++ for N in $(grep -rl "python': ('https://docs.python.org/" sphinx_automodapi/tests)
++ sed -i 's@'\''https://docs.python.org/3/'\''@'\''/usr/share/python-sphinx/'\''@' sphinx_automodapi/tests/test_cases.py
++ for N in $(grep -rl "python': ('https://docs.python.org/" sphinx_automodapi/tests)
++ sed -i 's@'\''https://docs.python.org/3/'\''@'\''/usr/share/python-sphinx/'\''@' sphinx_automodapi/tests/helpers.py
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.53050
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd sphinx-automodapi-0.18.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+DEBUG    : pyproject_installer.lib.build_backend : Parsing configuration file: /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/pyproject.toml
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib64/python3/site-packages/setuptools/dist.py:761: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: BSD License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/version.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/utils.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/smart_resolver.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/automodsumm.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/automodapi.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/autodoc_enhancements.py -> build/lib/sphinx_automodapi
+INFO     : root : copying sphinx_automodapi/__init__.py -> build/lib/sphinx_automodapi
+INFO     : root : creating build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/helpers.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/test_cases.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/test_utils.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/test_automodsumm.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/test_automodapi.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/test_autodoc_enhancements.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : copying sphinx_automodapi/tests/__init__.py -> build/lib/sphinx_automodapi/tests
+INFO     : root : creating build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/variables.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/stdlib.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/slots.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/public.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/other_classes.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/nonascii.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/noall.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/mixed.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/functions_with_ref.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/functions.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/classes.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/abstract_classes.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/_private.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/example_module/__init__.py -> build/lib/sphinx_automodapi/tests/example_module
+INFO     : root : creating build/lib/sphinx_automodapi/tests/duplicated_warning
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/__init__.py -> build/lib/sphinx_automodapi/tests/duplicated_warning
+INFO     : root : creating build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py -> build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated
+INFO     : root : creating build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py -> build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py -> build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : creating build/lib/sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying sphinx_automodapi/templates/autosummary_core/module.rst -> build/lib/sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying sphinx_automodapi/templates/autosummary_core/class.rst -> build/lib/sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying sphinx_automodapi/templates/autosummary_core/base.rst -> build/lib/sphinx_automodapi/templates/autosummary_core
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/variables
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/README.md -> build/lib/sphinx_automodapi/tests/cases/variables
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/source_dir
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/README.md -> build/lib/sphinx_automodapi/tests/cases/source_dir
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/slots
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/README.md -> build/lib/sphinx_automodapi/tests/cases/slots
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/public_from_private
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/README.md -> build/lib/sphinx_automodapi/tests/cases/public_from_private
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/non_ascii
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/README.md -> build/lib/sphinx_automodapi/tests/cases/non_ascii
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/nested
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/README.md -> build/lib/sphinx_automodapi/tests/cases/nested
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/README.md -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/README.md -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/README.md -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/inherited_members
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/README.md -> build/lib/sphinx_automodapi/tests/cases/inherited_members
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_simple
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/README.md -> build/lib/sphinx_automodapi/tests/cases/func_simple
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/README.md -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_noheading
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/README.md -> build/lib/sphinx_automodapi/tests/cases/func_noheading
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_headings
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/README.md -> build/lib/sphinx_automodapi/tests/cases/func_headings
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_with_inherit
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/README.md -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_no_inherit
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_no_inherit/README.md -> build/lib/sphinx_automodapi/tests/cases/classes_no_inherit
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/allowed_names
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/README.md -> build/lib/sphinx_automodapi/tests/cases/allowed_names
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/abstract_classes
+INFO     : root : copying sphinx_automodapi/tests/cases/abstract_classes/README.md -> build/lib/sphinx_automodapi/tests/cases/abstract_classes
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/variables/output
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/variables/output
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/variables/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/variables/input
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/variables/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/slots/output
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/slots/output
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/slots/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/slots/input
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/slots/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/public_from_private/input
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/public_from_private/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/non_ascii/input
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/non_ascii/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/nested/input
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/nested/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/input
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/inherited_members/input
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/inherited_members/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_simple/input
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/func_simple/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/input
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_noheading/input
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/func_noheading/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_headings/input
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/func_headings/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/input
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/input
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_no_inherit/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/allowed_names/input
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/allowed_names/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : copying sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : copying sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/abstract_classes/input
+INFO     : root : copying sphinx_automodapi/tests/cases/abstract_classes/input/index.rst -> build/lib/sphinx_automodapi/tests/cases/abstract_classes/input
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.PARROT_STATE.rst -> build/lib/sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.FUNNY_WALK_STEPS.rst -> build/lib/sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/source_dir/input/src
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/input/src/index.rst -> build/lib/sphinx_automodapi/tests/cases/source_dir/input/src
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.SlotDict.rst -> build/lib/sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedSlotParam.rst -> build/lib/sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedParam.rst -> build/lib/sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Camelot.rst -> build/lib/sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.nonascii.NonAsciiÄöüßő.rst -> build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.add.rst -> build/lib/sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.PARROT_STATE.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.FUNNY_WALK_STEPS.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.other_classes.Foo.rst -> build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/classes_no_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/lib/sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/lib/sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/abstract_classes/output/api
+INFO     : root : copying sphinx_automodapi/tests/cases/abstract_classes/output/api/sphinx_automodapi.tests.example_module.abstract_classes.SequenceSubclass.rst -> build/lib/sphinx_automodapi/tests/cases/abstract_classes/output/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : copying sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodsumm -> build/lib/sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodapi -> build/lib/sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : creating build/lib/sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/input/tests/example_module/references.txt -> build/lib/sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : copying sphinx_automodapi/tests/cases/nested/input/tests/example_module/index.rst -> build/lib/sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : creating build/lib/sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/docs/index.rst -> build/lib/sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/docs/foo.rst -> build/lib/sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying sphinx_automodapi/tests/duplicated_warning/docs/conf.py -> build/lib/sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/templates
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying build/lib/sphinx_automodapi/templates/autosummary_core/base.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying build/lib/sphinx_automodapi/templates/autosummary_core/class.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/templates/autosummary_core
+INFO     : root : copying build/lib/sphinx_automodapi/templates/autosummary_core/module.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/templates/autosummary_core
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/abstract_classes
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/abstract_classes/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/abstract_classes/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/abstract_classes/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/abstract_classes/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/abstract_classes/output/api/sphinx_automodapi.tests.example_module.abstract_classes.SequenceSubclass.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/abstract_classes/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/abstract_classes/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/abstract_classes/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/abstract_classes
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/allowed_names
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/allowed_names/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/allowed_names/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/allowed_names
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_no_inherit
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_no_inherit/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_no_inherit/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_no_inherit/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_no_inherit/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_no_inherit/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_no_inherit/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_no_inherit
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_with_inherit
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_with_inherit/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/classes_with_inherit/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/classes_with_inherit
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_headings
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_headings/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_headings/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_headings
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_noheading
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_noheading/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_noheading/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_noheading
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_nomaindocstring
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_nomaindocstring/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_nomaindocstring/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_nomaindocstring
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_simple
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_simple/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/func_simple/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/func_simple
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/inherited_members
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/inherited_members/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.other_classes.Foo.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/inherited_members/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/inherited_members
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.FUNNY_WALK_STEPS.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.PARROT_STATE.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_all_objects
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Egg.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/output/tests
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/output/tests/example_module
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/output/api
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/input/tests
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/input/tests/example_module/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/input/tests/example_module/references.txt -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/input/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/nested/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/nested
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/non_ascii
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/non_ascii/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.nonascii.NonAsciiÄöüßő.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/non_ascii/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/non_ascii
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/public_from_private
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/public_from_private/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Camelot.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Spam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/public_from_private/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/public_from_private
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/slots
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/slots/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/slots/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedParam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedSlotParam.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.SlotDict.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/slots/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/slots
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir/input/src
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/input/src/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir/input/src
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.add.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.multiply.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir/output/src/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir/output/src
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/source_dir/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/source_dir
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/variables
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/variables/input
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/input/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables/input
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/variables/output
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.FUNNY_WALK_STEPS.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.PARROT_STATE.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables/output/api
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/output/index.rst.automodapi -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/output/index.rst.automodsumm -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables/output
+INFO     : root : copying build/lib/sphinx_automodapi/tests/cases/variables/README.md -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/cases/variables
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/duplicated_warning
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/docs/conf.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/docs/foo.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/docs/index.rst -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/docs
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/duplicated_warning/duplicated
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/duplicated/foo
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning/duplicated
+INFO     : root : copying build/lib/sphinx_automodapi/tests/duplicated_warning/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/duplicated_warning
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/_private.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/abstract_classes.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/classes.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/functions.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/functions_with_ref.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/mixed.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/noall.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/nonascii.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/other_classes.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/public.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/slots.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/stdlib.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/example_module/variables.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests/example_module
+INFO     : root : copying build/lib/sphinx_automodapi/tests/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/test_autodoc_enhancements.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/test_automodapi.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/test_automodsumm.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/test_utils.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/test_cases.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/tests/helpers.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi/tests
+INFO     : root : copying build/lib/sphinx_automodapi/__init__.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/autodoc_enhancements.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/automodapi.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/automodsumm.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/smart_resolver.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/utils.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/version.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : running install_egg_info
+INFO     : root : running egg_info
+INFO     : root : writing sphinx_automodapi.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to sphinx_automodapi.egg-info/dependency_links.txt
+INFO     : root : writing requirements to sphinx_automodapi.egg-info/requires.txt
+INFO     : root : writing top-level names to sphinx_automodapi.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+INFO     : root : reading manifest file 'sphinx_automodapi.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : warning: no previously-included files found matching '*.pyc'
+WARNING  : root : warning: no previously-included files found matching '*.o'
+WARNING  : root : no previously-included directories found matching 'build'
+INFO     : root : adding license file 'LICENSE.rst'
+INFO     : root : writing manifest file 'sphinx_automodapi.egg-info/SOURCES.txt'
+INFO     : root : Copying sphinx_automodapi.egg-info to build/bdist.linux-x86_64/wheel/./sphinx_automodapi-0.18.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi-0.18.0.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/dist/.tmp-1x01kiiy/sphinx_automodapi-0.18.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'sphinx_automodapi/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/autodoc_enhancements.py'
+INFO     : wheel : adding 'sphinx_automodapi/automodapi.py'
+INFO     : wheel : adding 'sphinx_automodapi/automodsumm.py'
+INFO     : wheel : adding 'sphinx_automodapi/smart_resolver.py'
+INFO     : wheel : adding 'sphinx_automodapi/utils.py'
+INFO     : wheel : adding 'sphinx_automodapi/version.py'
+INFO     : wheel : adding 'sphinx_automodapi/templates/autosummary_core/base.rst'
+INFO     : wheel : adding 'sphinx_automodapi/templates/autosummary_core/class.rst'
+INFO     : wheel : adding 'sphinx_automodapi/templates/autosummary_core/module.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/helpers.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/test_autodoc_enhancements.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/test_automodapi.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/test_automodsumm.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/test_cases.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/test_utils.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/abstract_classes/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/abstract_classes/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/abstract_classes/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/abstract_classes/output/api/sphinx_automodapi.tests.example_module.abstract_classes.SequenceSubclass.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/allowed_names/output/api/sphinx_automodapi.tests.example_module.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_no_inherit/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_no_inherit/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_no_inherit/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_no_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/classes_with_inherit/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_headings/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_noheading/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_nomaindocstring/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/func_simple/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.classes.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/inherited_members/output/api/sphinx_automodapi.tests.example_module.other_classes.Foo.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel/output/api/sphinx_automodapi.tests.example_module.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.FUNNY_WALK_STEPS.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.PARROT_STATE.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_all_objects/output/api/sphinx_automodapi.tests.example_module.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Egg.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/mixed_toplevel_nodiagram/output/api/sphinx_automodapi.tests.example_module.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/input/tests/example_module/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/input/tests/example_module/references.txt'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/output/api/sphinx_automodapi.tests.example_module.functions_with_ref.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/nested/output/tests/example_module/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/non_ascii/output/api/sphinx_automodapi.tests.example_module.nonascii.NonAsciiÄöüßő.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Camelot.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/public_from_private/output/api/sphinx_automodapi.tests.example_module.public.Spam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedParam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.DerivedSlotParam.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/slots/output/api/sphinx_automodapi.tests.example_module.slots.SlotDict.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/input/src/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/output/src/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.add.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/source_dir/output/src/api/sphinx_automodapi.tests.example_module.functions.multiply.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/README.md'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/input/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/output/index.rst.automodapi'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/output/index.rst.automodsumm'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.FUNNY_WALK_STEPS.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/cases/variables/output/api/sphinx_automodapi.tests.example_module.variables.PARROT_STATE.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/docs/conf.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/docs/foo.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/docs/index.rst'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/__init__.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/_private.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/abstract_classes.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/classes.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/functions.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/functions_with_ref.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/mixed.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/noall.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/nonascii.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/other_classes.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/public.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/slots.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/stdlib.py'
+INFO     : wheel : adding 'sphinx_automodapi/tests/example_module/variables.py'
+INFO     : wheel : adding 'sphinx_automodapi-0.18.0.dist-info/licenses/LICENSE.rst'
+INFO     : wheel : adding 'sphinx_automodapi-0.18.0.dist-info/METADATA'
+INFO     : wheel : adding 'sphinx_automodapi-0.18.0.dist-info/WHEEL'
+INFO     : wheel : adding 'sphinx_automodapi-0.18.0.dist-info/top_level.txt'
+INFO     : wheel : adding 'sphinx_automodapi-0.18.0.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: sphinx_automodapi-0.18.0-py3-none-any.whl
+++ pwd
++ PYTHONPATH=/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0
++ make -C docs SPHINXBUILD=sphinx-build-3 html
+make: Entering directory '/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs'
+sphinx-build-3 -b html -d _build/doctrees   . _build/html
+Running Sphinx v8.2.1
+loading translations [en]... done
+making output directory... done
+Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
+[autosummary] generating autosummary for: automodapi.rst, automodsumm.rst, index.rst
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 3 source files that are out of date
+updating environment: [new config] 3 added, 0 changed, 0 removed
+reading sources... [ 33%] automodapi
+reading sources... [ 67%] automodsumm
+reading sources... [100%] index
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs/_build/html/_static/language_data.js
+Writing evaluated template result to /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs/_build/html/_static/documentation_options.js
+Writing evaluated template result to /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs/_build/html/_static/basic.css
+Writing evaluated template result to /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs/_build/html/_static/js/versions.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [ 33%] automodapi
+writing output... [ 67%] automodsumm
+writing output... [100%] index
+
+generating indices... genindex py-modindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded.
+
+The HTML pages are in _build/html.
+
+Build finished. The HTML pages are in _build/html.
+make: Leaving directory '/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/docs'
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.92542
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-sphinx-automodapi-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-sphinx-automodapi-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd sphinx-automodapi-0.18.0
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-sphinx-automodapi-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: sphinx_automodapi-0.18.0-py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-sphinx-automodapi-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: sphinx_automodapi-0.18.0.dist-info/licenses/LICENSE.rst
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: sphinx_automodapi-0.18.0.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: sphinx_automodapi-0.18.0.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: sphinx_automodapi-0.18.0.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/conf.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/_private.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/abstract_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions_with_ref.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/mixed.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/noall.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/nonascii.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/other_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/public.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/slots.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/stdlib.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/variables.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/helpers.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_cases.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/smart_resolver.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/version.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/conf.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/_private.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/abstract_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions_with_ref.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/mixed.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/noall.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/nonascii.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/other_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/public.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/slots.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/stdlib.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/variables.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/helpers.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_cases.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/smart_resolver.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/version.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-sphinx-automodapi-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/conf.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/foo.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/_private.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/abstract_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/functions_with_ref.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/mixed.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/noall.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/nonascii.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/other_classes.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/public.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/slots.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/stdlib.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/variables.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/helpers.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_cases.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/tests/test_utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/__init__.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/autodoc_enhancements.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodapi.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/automodsumm.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/smart_resolver.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/utils.py
+compile /usr/src/tmp/python3-module-sphinx-automodapi-buildroot/usr/lib/python3/site-packages/sphinx_automodapi/version.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/autodoc_enhancements.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/autodoc_enhancements.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/automodapi.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/automodapi.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/automodsumm.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/automodsumm.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/smart_resolver.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/smart_resolver.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/utils.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/utils.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/__pycache__/version.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/helpers.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/helpers.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/test_utils.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/__pycache__/test_utils.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/__pycache__/conf.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/__pycache__/conf.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/__pycache__/conf.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/docs/__pycache__/conf.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/foo.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/duplicated_warning/duplicated/foo/__pycache__/foo.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/_private.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/_private.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/abstract_classes.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/abstract_classes.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/classes.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/classes.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/functions.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/functions.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/functions_with_ref.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/functions_with_ref.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/mixed.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/mixed.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/noall.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/noall.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/nonascii.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/nonascii.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/other_classes.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/other_classes.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/public.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/public.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/public.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/public.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/slots.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/slots.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/stdlib.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/stdlib.cpython-312.pyc'
+'./usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/variables.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/sphinx_automodapi/tests/example_module/__pycache__/variables.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.56250
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd sphinx-automodapi-0.18.0
+++ cat ./dist/.wheeltracker
++ _tox_wheel=sphinx_automodapi-0.18.0-py3-none-any.whl
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ export PIP_NO_BUILD_ISOLATION=NO
++ PIP_NO_BUILD_ISOLATION=NO
++ export PIP_NO_INDEX=YES
++ PIP_NO_INDEX=YES
++ export TOXENV=py3
++ TOXENV=py3
++ export TOX_TESTENV_PASSENV=NO_INTERNET
++ TOX_TESTENV_PASSENV=NO_INTERNET
++ export VIRTUALENV_SYSTEM_SITE_PACKAGES=YES
++ VIRTUALENV_SYSTEM_SITE_PACKAGES=YES
++ /usr/bin/tox.py3 --sitepackages -vr -s false --no-deps --console-scripts --installpkg=./dist/sphinx_automodapi-0.18.0-py3-none-any.whl
+ROOT: will run in automatically provisioned tox, host /usr/bin/python3 is missing [requires (has)]: pip>=18.0
+.tox: relaxing dependencies for test env: .tox
+.tox: passing additional environment variables for test env .tox: NO_INTERNET
+ROOT: find interpreter for spec PythonSpec(path=/usr/bin/python3)
+ROOT: proposed PythonInfo(spec=CPython3.12.10.final.0-64, exe=/usr/bin/python3, platform=linux, version='3.12.10 (main, Apr 16 2025, 11:02:44) [GCC 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)]', encoding_fs_io=utf-8-utf-8)
+ROOT: will run in a automatically provisioned python environment under /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.tox/bin/python
+.pkg_external: remove tox env folder /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.pkg_external
+.pkg_external_sdist_meta: remove tox env folder /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.pkg_external_sdist_meta
+ROOT: create virtual environment via CPython3Posix(dest=/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.tox, clear=False, no_vcs_ignore=False, global=True)
+ROOT: add seed packages via FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/usr/src/.local/share/virtualenv)
+ROOT: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+ROOT: installing console scripts
+ROOT: generating console scripts of system packages
+ROOT: generating console scripts of user packages
+.pkg_external: find interpreter for spec PythonSpec(path=/usr/bin/python3)
+.pkg_external: proposed PythonInfo(spec=CPython3.12.10.final.0-64, exe=/usr/bin/python3, platform=linux, version='3.12.10 (main, Apr 16 2025, 11:02:44) [GCC 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)]', encoding_fs_io=utf-8-utf-8)
+.pkg_external: create virtual environment via CPython3Posix(dest=/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.pkg_external, clear=False, no_vcs_ignore=False, global=True)
+.pkg_external: add seed packages via FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/usr/src/.local/share/virtualenv)
+.pkg_external: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+ROOT: install_package_deps> python -I -m pip install 'sphinx>=4'
+[31mERROR: Could not find a version that satisfies the requirement sphinxcontrib-jsmath>=1.0.1 (from sphinx) (from versions: none)
+ERROR: No matching distribution found for sphinxcontrib-jsmath>=1.0.1
+Requirement already satisfied: sphinx>=4 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from sphinx>=4) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from sphinx>=4) (2.0.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from sphinx>=4) (2.1.0)
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+ROOT: exit 1 (1.97 seconds) /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0> python -I -m pip install 'sphinx>=4' pid=836820
+[39merror: Bad exit status from /usr/src/tmp/rpm-tmp.56250 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56250 (%check)
+Command exited with non-zero status 1
+4.77user 1.26system 0:10.21elapsed 59%CPU (0avgtext+0avgdata 67124maxresident)k
+0inputs+0outputs (0major+160948minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-sphinx-automodapi-0.18.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+8.65user 4.29system 0:42.06elapsed 30%CPU (0avgtext+0avgdata 142176maxresident)k
+696inputs+0outputs (0major+403076minor)pagefaults 0swaps

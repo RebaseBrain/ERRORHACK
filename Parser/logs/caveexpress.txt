@@ -1,0 +1,946 @@
+<86>May 16 02:22:46 userdel[2523914]: delete user 'rooter'
+<86>May 16 02:22:46 groupadd[2523969]: group added to /etc/group: name=rooter, GID=1814
+<86>May 16 02:22:46 groupadd[2523969]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:22:46 useradd[2524024]: new user: name=rooter, UID=1814, GID=1814, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:22:46 userdel[2524139]: delete user 'builder'
+<86>May 16 02:22:46 userdel[2524139]: removed group 'builder' owned by 'builder'
+<86>May 16 02:22:46 userdel[2524139]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:22:46 groupadd[2524221]: group added to /etc/group: name=builder, GID=1815
+<86>May 16 02:22:46 groupadd[2524221]: group added to /etc/gshadow: name=builder
+<86>May 16 02:22:46 groupadd[2524221]: new group: name=builder, GID=1815
+<86>May 16 02:22:46 useradd[2524286]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/caveexpress-2.5.2-alt1.src.rpm: bad symbols in the license tag: ,,
+<13>May 16 02:22:53 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 02:22:56 rpmi: libSDL2-2.32.6-alt1 sisyphus+383337.100.1.1 1746466019 installed
+<13>May 16 02:22:56 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:22:56 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 02:22:56 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 02:22:56 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:22:56 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 02:22:56 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 02:22:56 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 02:22:56 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 02:22:56 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:22:56 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 02:22:56 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:22:56 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 02:22:56 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:22:56 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:22:56 rpmi: libGLES-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:22:56 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:22:56 rpmi: libSDL2_mixer-2.8.1-alt1 sisyphus+374087.100.1.1 1739010991 installed
+<13>May 16 02:22:56 rpmi: libSDL2_net-2.2.0-alt1 sisyphus+340661.100.1.1 1707899927 installed
+<13>May 16 02:22:56 rpmi: libyajl-2.1.0-alt3 sisyphus+322972.100.1.1 1686724493 installed
+<13>May 16 02:22:57 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 02:22:57 rpmi: rpm-macros-lua-1.5.2-alt1 sisyphus+315204.340.3.1 1692689366 installed
+<13>May 16 02:22:57 rpmi: rpm-build-lua-0.5-alt2 sisyphus+373321.400.6.1 1740913177 installed
+<13>May 16 02:22:57 rpmi: liblua5.4-5.4.7-alt2 sisyphus+357267.100.2.1 1739537004 installed
+<13>May 16 02:22:57 rpmi: lua5.4-5.4.7-alt2 sisyphus+357267.100.2.1 1739537004 installed
+<13>May 16 02:22:57 rpmi: libbox2d-2.4.1-alt1.2 sisyphus+293641.100.2.1 1642770015 installed
+<13>May 16 02:22:57 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 02:22:57 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 02:22:57 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 02:22:57 rpmi: libSDL2_image-2.8.8-alt1 sisyphus+376290.1140.24.2 1745365313 installed
+<13>May 16 02:22:57 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 02:22:57 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 02:22:57 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:22:57 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 02:22:57 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:22:57 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:22:57 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 02:22:57 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:22:59 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:22:59 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 02:22:59 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 02:22:59 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 02:22:59 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:22:59 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 02:22:59 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 02:22:59 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 02:23:01 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 02:23:01 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:23:01 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 02:23:01 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 02:23:01 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 02:23:02 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 02:23:02 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:23:02 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:23:02 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 02:23:02 rpmi: libEGL-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 02:23:02 rpmi: libEGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:23:02 rpmi: libglvnd-devel-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:23:02 rpmi: libSDL2-devel-2.32.6-alt1 sisyphus+383337.100.1.1 1746466019 installed
+<13>May 16 02:23:02 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 02:23:02 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:23:03 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:23:03 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 02:23:03 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 02:23:03 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 02:23:03 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 02:23:03 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 02:23:03 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 02:23:03 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 02:23:03 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 02:23:03 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:23:03 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 02:23:03 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 02:23:03 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 02:23:03 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 02:23:03 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 02:23:03 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 02:23:03 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:23:03 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:23:03 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 02:23:03 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:23:03 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:23:03 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 02:23:03 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 02:23:03 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:23:03 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:23:03 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 02:23:03 groupadd[2632296]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 02:23:03 groupadd[2632296]: group added to /etc/gshadow: name=_keytab
+<86>May 16 02:23:03 groupadd[2632296]: new group: name=_keytab, GID=999
+<13>May 16 02:23:04 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 02:23:04 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 02:23:04 groupadd[2632908]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 02:23:04 groupadd[2632908]: group added to /etc/gshadow: name=sasl
+<86>May 16 02:23:04 groupadd[2632908]: new group: name=sasl, GID=998
+<13>May 16 02:23:04 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 02:23:04 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:23:04 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 02:23:04 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 02:23:04 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 02:23:04 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 02:23:04 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 02:23:04 rpmi: libSDL2_image-devel-2.8.8-alt1 sisyphus+376290.1140.24.2 1745365313 installed
+<13>May 16 02:23:04 rpmi: libSDL2_mixer-devel-2.8.1-alt1 sisyphus+374087.100.1.1 1739010991 installed
+<13>May 16 02:23:04 rpmi: libSDL2_net-devel-2.2.0-alt1 sisyphus+340661.100.1.1 1707899927 installed
+<13>May 16 02:23:04 rpmi: libbox2d-devel-2.4.1-alt1.2 sisyphus+293641.100.2.1 1642770015 installed
+<13>May 16 02:23:04 rpmi: liblua5.4-devel-5.4.7-alt2 sisyphus+357267.100.2.1 1739537004 installed
+<13>May 16 02:23:04 rpmi: libsqlite3-devel-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 02:23:04 rpmi: libyajl-devel-2.1.0-alt3 sisyphus+322972.100.1.1 1686724493 installed
+<13>May 16 02:23:04 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 02:23:04 rpmi: libglm-devel-0.9.9.8-alt1 sisyphus+288738.100.1.1 1635857392 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/caveexpress-2.5.2-alt1.nosrc.rpm (w1.gzdio)
+Installing caveexpress-2.5.2-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.46357
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf caveexpress-2.5.2
++ echo 'Source #0 (caveexpress-2.5.2.tar):'
+Source #0 (caveexpress-2.5.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/caveexpress-2.5.2.tar
++ cd caveexpress-2.5.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.46357
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd caveexpress-2.5.2
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DPKGDATADIR=/usr/share -DUNITTESTS=off
+Problem opening /proc/meminfo
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Place binaries in /usr/src/RPM/BUILD/caveexpress-2.5.2
+-- No debugger (gdb or lldb) was found
+-- Performing Test COMPILER_SUPPORTS_CXX11
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- CMAKE_SYSTEM_NAME: Linux
+-- CMAKE_HOST_SYSTEM_NAME: Linux
+-- Could not find TexturePacker
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+Problem opening /proc/meminfo
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for __atomic_fetch_add_4
+Problem opening /proc/meminfo
+-- Looking for __atomic_fetch_add_4 - not found
+-- Looking for __atomic_fetch_add_4 in atomic
+Problem opening /proc/meminfo
+-- Looking for __atomic_fetch_add_4 in atomic - found
+-- Looking for include file execinfo.h
+Problem opening /proc/meminfo
+-- Looking for include file execinfo.h - found
+-- Could NOT find Curses (missing: CURSES_LIBRARY CURSES_INCLUDE_PATH) 
+-- Looking for clock_gettime in rt
+Problem opening /proc/meminfo
+-- Looking for clock_gettime in rt - found
+-- You specified a package data dir - the game will append the game name to this directory.
+-- So you get e.g. /usr/share/caveexpress as final directory.
+-- ccache not found
+-- Checking for module 'sdl2>=2.0.3'
+--   Found sdl2, version 2.32.6
+-- Found sdl2: /usr/include/SDL2
+-- sdl2: SDL2_INCLUDE_DIRS: /usr/include/SDL2
+-- sdl2: SDL2_LIBRARIES: /usr/lib64/libSDL2.so
+-- Checking for module 'SDL2_mixer'
+--   Found SDL2_mixer, version 2.8.1
+-- Found SDL2_mixer: /usr/include/SDL2
+-- SDL2_mixer: SDL2_MIXER_INCLUDE_DIRS: /usr/include/SDL2
+-- SDL2_mixer: SDL2_MIXER_LIBRARIES: /usr/lib64/libSDL2_mixer.so
+-- Checking for module 'SDL2_image'
+--   Found SDL2_image, version 2.8.8
+Package libpng was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libpng.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libpng', required by 'SDL2_image', not found
+Package libpng was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libpng.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libpng', required by 'SDL2_image', not found
+Package libpng was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libpng.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libpng', required by 'SDL2_image', not found
+Package libpng was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libpng.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libpng', required by 'SDL2_image', not found
+-- Found SDL2_image: /usr/include/SDL2
+-- SDL2_image: SDL2_IMAGE_INCLUDE_DIRS: /usr/include/SDL2
+-- SDL2_image: SDL2_IMAGE_LIBRARIES: /usr/lib64/libSDL2_image.so
+-- Checking for module 'SDL2_net'
+--   Found SDL2_net, version 2.2.0
+-- Found SDL2_net: /usr/include/SDL2
+-- SDL2_net: SDL2_NET_INCLUDE_DIRS: /usr/include/SDL2
+-- SDL2_net: SDL2_NET_LIBRARIES: /usr/lib64/libSDL2_net.so
+-- Checking for module 'sqlite3'
+--   Found sqlite3, version 3.47.1
+-- Found sqlite3: /usr/include
+-- sqlite3: SQLITE3_INCLUDE_DIRS: /usr/include
+-- sqlite3: SQLITE3_LIBRARIES: /usr/lib64/libsqlite3.so
+-- Checking for module 'lua'
+--   Found lua, version 5.4.0
+-- Found lua: /usr/include
+-- lua: LUA_INCLUDE_DIRS: /usr/include
+-- lua: LUA_LIBRARIES: /usr/lib64/liblua.so
+-- Checking for module 'box2d>=2.4.1'
+--   No package 'box2d' found
+-- Found box2d: /usr/include/box2d
+-- box2d: BOX2D_INCLUDE_DIRS: /usr/include/box2d
+-- box2d: BOX2D_LIBRARIES: /usr/lib64/libbox2d.so
+-- Checking for module 'zlib'
+--   Found zlib, version 1.3.1
+-- Found zlib: /usr/include
+-- zlib: ZLIB_INCLUDE_DIRS: /usr/include
+-- zlib: ZLIB_LIBRARIES: /usr/lib64/libz.so
+-- Checking for module 'glm'
+--   No package 'glm' found
+-- Found glm: /usr/include/glm
+-- glm: GLM_INCLUDE_DIRS: /usr/include/glm
+-- Checking for module 'yajl'
+--   Found yajl, version 2.1.0
+-- Found yajl: /usr/include/yajl
+-- yajl: YAJL_INCLUDE_DIRS: /usr/include/yajl
+-- yajl: YAJL_LIBRARIES: /usr/lib64/libyajl.so
+-- wrote /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/cavepacker-files.h.in
+-- build complete.lua: /usr/src/RPM/BUILD/caveexpress-2.5.2/contrib/assets/png-packed/cavepacker
+-- /usr/bin/luac found
+-- wrote /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/caveexpress-files.h.in
+-- build complete.lua: /usr/src/RPM/BUILD/caveexpress-2.5.2/contrib/assets/png-packed/caveexpress
+-- /usr/bin/luac found
+-- Configuring done (4.3s)
+-- Generating done (0.2s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_FLAGS
+    INCLUDE_INSTALL_DIR
+    LIB_DESTINATION
+    LIB_INSTALL_DIR
+    LIB_SUFFIX
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+
+
+-- Build files have been written to: /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux
++ cmake --build x86_64-alt-linux --verbose --parallel 16
+Change Dir: '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16
+gmake: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/caveexpress-2.5.2 -B/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/CMakeFiles /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux//CMakeFiles/progress.marks
+gmake: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+/usr/bin/gmake  -f src/modules/common/CMakeFiles/common.dir/build.make src/modules/common/CMakeFiles/common.dir/depend
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-textures-complete.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-textures-complete.lua.dir/depend
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-config.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-config.lua.dir/depend
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-fonts.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-fonts.lua.dir/depend
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-sprites.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-sprites.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-textures-complete.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-textures-complete.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-config.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-config.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-entities.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-entities.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-entitysounds.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-entitysounds.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-fonts.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-fonts.lua.dir/depend
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-sprites.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-sprites.lua.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common/CMakeFiles/common.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/common/CMakeFiles/common.dir/build.make src/modules/common/CMakeFiles/common.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main/CMakeFiles/cavepacker-config.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main/CMakeFiles/cavepacker-sprites.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main/CMakeFiles/cavepacker-textures-complete.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-textures-complete.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-textures-complete.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-textures-complete.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/cavepacker/main/CMakeFiles/cavepacker-fonts.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-config.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-config.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-config.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-fonts.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-fonts.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-entitysounds.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-sprites.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/cavepacker/main/CMakeFiles/cavepacker-sprites.lua.dir/build.make src/cavepacker/main/CMakeFiles/cavepacker-sprites.lua.dir/build
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-textures-complete.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-textures-complete.lua.dir/build
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-config.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-config.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-fonts.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-entitysounds.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-entitysounds.lua.dir/build
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-fonts.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-fonts.lua.dir/build
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-sprites.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-sprites.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/caveexpress/main/CMakeFiles/caveexpress-entities.lua.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/caveexpress/main/CMakeFiles/caveexpress-entities.lua.dir/build.make src/caveexpress/main/CMakeFiles/caveexpress-entities.lua.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  1%] checking lua file entities.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p entities.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  0%] checking lua file config.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/cavepacker && /usr/bin/luac -p config.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  0%] checking lua file fonts.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/cavepacker && /usr/bin/luac -p fonts.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  3%] checking lua file entitysounds.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p entitysounds.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  3%] checking lua file textures/complete.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/cavepacker && /usr/bin/luac -p textures/complete.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  2%] checking lua file sprites.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/cavepacker && /usr/bin/luac -p sprites.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] checking lua file sprites.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p sprites.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] checking lua file fonts.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p fonts.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] checking lua file config.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p config.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target cavepacker-config.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target cavepacker-textures-complete.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target cavepacker-fonts.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target caveexpress-fonts.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target caveexpress-entitysounds.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target caveexpress-entities.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target caveexpress-sprites.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] checking lua file textures/complete.lua
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/base/caveexpress && /usr/bin/luac -p textures/complete.lua
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target cavepacker-sprites.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Built target caveexpress-config.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  7%] Built target caveexpress-textures-complete.lua
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  1%] Building CXX object src/modules/common/CMakeFiles/common.dir/ThemeType.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ThemeType.cpp.o -MF CMakeFiles/common.dir/ThemeType.cpp.o.d -o CMakeFiles/common.dir/ThemeType.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ThemeType.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  6%] Building CXX object src/modules/common/CMakeFiles/common.dir/Thread.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/Thread.cpp.o -MF CMakeFiles/common.dir/Thread.cpp.o.d -o CMakeFiles/common.dir/Thread.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/Thread.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  8%] Building CXX object src/modules/common/CMakeFiles/common.dir/MapManager.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/MapManager.cpp.o -MF CMakeFiles/common.dir/MapManager.cpp.o.d -o CMakeFiles/common.dir/MapManager.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/MapManager.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  5%] Building CXX object src/modules/common/CMakeFiles/common.dir/SQLite.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/SQLite.cpp.o -MF CMakeFiles/common.dir/SQLite.cpp.o.d -o CMakeFiles/common.dir/SQLite.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/SQLite.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  9%] Building CXX object src/modules/common/CMakeFiles/common.dir/TimeManager.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/TimeManager.cpp.o -MF CMakeFiles/common.dir/TimeManager.cpp.o.d -o CMakeFiles/common.dir/TimeManager.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/TimeManager.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  8%] Building CXX object src/modules/common/CMakeFiles/common.dir/LUAMapContext.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/LUAMapContext.cpp.o -MF CMakeFiles/common.dir/LUAMapContext.cpp.o.d -o CMakeFiles/common.dir/LUAMapContext.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/LUAMapContext.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/LUAMapContext.cpp: In static member function 'static int LUAMapContext::luaAddEmitter(lua_State*)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/LUAMapContext.cpp:87:27: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+   87 |         const EntityType& type = EntityType::getByName(luaL_checkstring(l, 2));
+      |                           ^~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/LUAMapContext.cpp:87:55: note: the temporary was destroyed at the end of the full expression 'Enum<EntityType>::getByName(std::__cxx11::basic_string<char>(luaL_checklstring(l, 2, 0), std::allocator<char>()))'
+   87 |         const EntityType& type = EntityType::getByName(luaL_checkstring(l, 2));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  6%] Building CXX object src/modules/common/CMakeFiles/common.dir/EventHandler.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/EventHandler.cpp.o -MF CMakeFiles/common.dir/EventHandler.cpp.o.d -o CMakeFiles/common.dir/EventHandler.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/EventHandler.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Building CXX object src/modules/common/CMakeFiles/common.dir/String.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/String.cpp.o -MF CMakeFiles/common.dir/String.cpp.o.d -o CMakeFiles/common.dir/String.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/String.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  5%] Building CXX object src/modules/common/CMakeFiles/common.dir/MemoryAllocator.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/MemoryAllocator.cpp.o -MF CMakeFiles/common.dir/MemoryAllocator.cpp.o.d -o CMakeFiles/common.dir/MemoryAllocator.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/MemoryAllocator.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  0%] Building CXX object src/modules/common/CMakeFiles/common.dir/KeyValueParser.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/KeyValueParser.cpp.o -MF CMakeFiles/common.dir/KeyValueParser.cpp.o.d -o CMakeFiles/common.dir/KeyValueParser.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/KeyValueParser.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  1%] Building CXX object src/modules/common/CMakeFiles/common.dir/TextureDefinition.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/TextureDefinition.cpp.o -MF CMakeFiles/common.dir/TextureDefinition.cpp.o.d -o CMakeFiles/common.dir/TextureDefinition.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/TextureDefinition.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 12%] Building CXX object src/modules/common/CMakeFiles/common.dir/URI.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/URI.cpp.o -MF CMakeFiles/common.dir/URI.cpp.o.d -o CMakeFiles/common.dir/URI.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/URI.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  4%] Building CXX object src/modules/common/CMakeFiles/common.dir/IConsole.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/IConsole.cpp.o -MF CMakeFiles/common.dir/IConsole.cpp.o.d -o CMakeFiles/common.dir/IConsole.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/IConsole.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  9%] Building CXX object src/modules/common/CMakeFiles/common.dir/Log.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/Log.cpp.o -MF CMakeFiles/common.dir/Log.cpp.o.d -o CMakeFiles/common.dir/Log.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/Log.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  7%] Building CXX object src/modules/common/CMakeFiles/common.dir/TextConsole.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/TextConsole.cpp.o -MF CMakeFiles/common.dir/TextConsole.cpp.o.d -o CMakeFiles/common.dir/TextConsole.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/TextConsole.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  0%] Building CXX object src/modules/common/CMakeFiles/common.dir/ConfigPersisterSQL.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ConfigPersisterSQL.cpp.o -MF CMakeFiles/common.dir/ConfigPersisterSQL.cpp.o.d -o CMakeFiles/common.dir/ConfigPersisterSQL.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ConfigPersisterSQL.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  8%] Building CXX object src/modules/common/CMakeFiles/common.dir/FileSystem.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/FileSystem.cpp.o -MF CMakeFiles/common.dir/FileSystem.cpp.o.d -o CMakeFiles/common.dir/FileSystem.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/FileSystem.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  9%] Building CXX object src/modules/common/CMakeFiles/common.dir/ExecutionTime.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ExecutionTime.cpp.o -MF CMakeFiles/common.dir/ExecutionTime.cpp.o.d -o CMakeFiles/common.dir/ExecutionTime.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ExecutionTime.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  7%] Building CXX object src/modules/common/CMakeFiles/common.dir/ConfigManager.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ConfigManager.cpp.o -MF CMakeFiles/common.dir/ConfigManager.cpp.o.d -o CMakeFiles/common.dir/ConfigManager.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ConfigManager.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[  8%] Building CXX object src/modules/common/CMakeFiles/common.dir/LUALibrary.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/LUALibrary.cpp.o -MF CMakeFiles/common.dir/LUALibrary.cpp.o.d -o CMakeFiles/common.dir/LUALibrary.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/LUALibrary.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 11%] Building CXX object src/modules/common/CMakeFiles/common.dir/ConfigVar.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ConfigVar.cpp.o -MF CMakeFiles/common.dir/ConfigVar.cpp.o.d -o CMakeFiles/common.dir/ConfigVar.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ConfigVar.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 10%] Building CXX object src/modules/common/CMakeFiles/common.dir/ConsoleFrontend.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ConsoleFrontend.cpp.o -MF CMakeFiles/common.dir/ConsoleFrontend.cpp.o.d -o CMakeFiles/common.dir/ConsoleFrontend.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ConsoleFrontend.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 10%] Building CXX object src/modules/common/CMakeFiles/common.dir/File.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/File.cpp.o -MF CMakeFiles/common.dir/File.cpp.o.d -o CMakeFiles/common.dir/File.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/File.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 12%] Building CXX object src/modules/common/CMakeFiles/common.dir/ByteStream.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ByteStream.cpp.o -MF CMakeFiles/common.dir/ByteStream.cpp.o.d -o CMakeFiles/common.dir/ByteStream.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ByteStream.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 11%] Building CXX object src/modules/common/CMakeFiles/common.dir/CommandSystem.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/CommandSystem.cpp.o -MF CMakeFiles/common.dir/CommandSystem.cpp.o.d -o CMakeFiles/common.dir/CommandSystem.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/CommandSystem.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Building CXX object src/modules/common/CMakeFiles/common.dir/ports/Unix.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/ports/Unix.cpp.o -MF CMakeFiles/common.dir/ports/Unix.cpp.o.d -o CMakeFiles/common.dir/ports/Unix.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/ports/Unix.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 11%] Building CXX object src/modules/common/CMakeFiles/common.dir/SpriteDefinition.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -D_DEFAULT_SOURCE -D_GNU_SOURCE -D_XOPEN_SOURCE -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/common/CMakeFiles/common.dir/SpriteDefinition.cpp.o -MF CMakeFiles/common.dir/SpriteDefinition.cpp.o.d -o CMakeFiles/common.dir/SpriteDefinition.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/SpriteDefinition.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/SpriteDefinition.cpp: In member function 'void SpriteDefinition::init(const TextureDefinition&)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/SpriteDefinition.cpp:52:34: warning: possibly dangling reference to a temporary [-Wdangling-reference]
+   52 |                 const ThemeType& theme = ThemeType::getByName(lua.getValueStringFromTable("theme"));
+      |                                  ^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/common/SpriteDefinition.cpp:52:62: note: the temporary was destroyed at the end of the full expression 'Enum<ThemeType>::getByName(LUA::getValueStringFromTable(const char*, const std::string&)(((const char*)"theme"), std::__cxx11::basic_string<char>(((const char*)""), std::allocator<char>())))'
+   52 |                 const ThemeType& theme = ThemeType::getByName(lua.getValueStringFromTable("theme"));
+      |                                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Linking CXX static library ../../../Release/lib/libcommon.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/cmake -P CMakeFiles/common.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/common && /usr/bin/cmake -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libcommon.a CMakeFiles/common.dir/ConfigPersisterSQL.cpp.o CMakeFiles/common.dir/ThemeType.cpp.o CMakeFiles/common.dir/KeyValueParser.cpp.o CMakeFiles/common.dir/TextureDefinition.cpp.o CMakeFiles/common.dir/IConsole.cpp.o CMakeFiles/common.dir/String.cpp.o CMakeFiles/common.dir/SQLite.cpp.o CMakeFiles/common.dir/Thread.cpp.o CMakeFiles/common.dir/ConfigManager.cpp.o CMakeFiles/common.dir/EventHandler.cpp.o CMakeFiles/common.dir/MemoryAllocator.cpp.o CMakeFiles/common.dir/TextConsole.cpp.o CMakeFiles/common.dir/MapManager.cpp.o CMakeFiles/common.dir/FileSystem.cpp.o CMakeFiles/common.dir/LUALibrary.cpp.o CMakeFiles/common.dir/LUAMapContext.cpp.o CMakeFiles/common.dir/Log.cpp.o CMakeFiles/common.dir/TimeManager.cpp.o CMakeFiles/common.dir/ExecutionTime.cpp.o CMakeFiles/common.dir/File.cpp.o CMakeFiles/common.dir/ConsoleFrontend.cpp.o CMakeFiles/common.dir/ConfigVar.cpp.o CMakeFiles/common.dir/CommandSystem.cpp.o CMakeFiles/common.dir/SpriteDefinition.cpp.o CMakeFiles/common.dir/URI.cpp.o CMakeFiles/common.dir/ByteStream.cpp.o CMakeFiles/common.dir/ports/Unix.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libcommon.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Built target common
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/network/CMakeFiles/network.dir/build.make src/modules/network/CMakeFiles/network.dir/depend
+/usr/bin/gmake  -f src/modules/campaign/CMakeFiles/campaign.dir/build.make src/modules/campaign/CMakeFiles/campaign.dir/depend
+/usr/bin/gmake  -f src/modules/sound/CMakeFiles/sound.dir/build.make src/modules/sound/CMakeFiles/sound.dir/depend
+/usr/bin/gmake  -f src/modules/textures/CMakeFiles/texture.dir/build.make src/modules/textures/CMakeFiles/texture.dir/depend
+/usr/bin/gmake  -f src/modules/physics/CMakeFiles/physics.dir/build.make src/modules/physics/CMakeFiles/physics.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/physics /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/physics/CMakeFiles/physics.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/physics/CMakeFiles/physics.dir/build.make src/modules/physics/CMakeFiles/physics.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/textures /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures/CMakeFiles/texture.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign/CMakeFiles/campaign.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/textures/CMakeFiles/texture.dir/build.make src/modules/textures/CMakeFiles/texture.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/network /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network/CMakeFiles/network.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/campaign/CMakeFiles/campaign.dir/build.make src/modules/campaign/CMakeFiles/campaign.dir/build
+/usr/bin/gmake  -f src/modules/network/CMakeFiles/network.dir/build.make src/modules/network/CMakeFiles/network.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sound /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sound/CMakeFiles/sound.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/sound/CMakeFiles/sound.dir/build.make src/modules/sound/CMakeFiles/sound.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 15%] Building CXX object src/modules/physics/CMakeFiles/physics.dir/DebugRenderer.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/physics && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/physics/CMakeFiles/physics.dir/DebugRenderer.cpp.o -MF CMakeFiles/physics.dir/DebugRenderer.cpp.o.d -o CMakeFiles/physics.dir/DebugRenderer.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics/DebugRenderer.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Building CXX object src/modules/campaign/CMakeFiles/campaign.dir/CampaignMap.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/campaign/CMakeFiles/campaign.dir/CampaignMap.cpp.o -MF CMakeFiles/campaign.dir/CampaignMap.cpp.o.d -o CMakeFiles/campaign.dir/CampaignMap.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign/CampaignMap.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Linking CXX static library ../../../Release/lib/libphysics.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/physics && /usr/bin/cmake -P CMakeFiles/physics.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/physics && /usr/bin/cmake -E cmake_link_script CMakeFiles/physics.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libphysics.a CMakeFiles/physics.dir/DebugRenderer.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libphysics.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Building CXX object src/modules/sound/CMakeFiles/sound.dir/Sound.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sound && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/sound/CMakeFiles/sound.dir/Sound.cpp.o -MF CMakeFiles/sound.dir/Sound.cpp.o.d -o CMakeFiles/sound.dir/Sound.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/Sound.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Built target physics
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 16%] Building CXX object src/modules/campaign/CMakeFiles/campaign.dir/persister/GooglePlayPersister.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/campaign/CMakeFiles/campaign.dir/persister/GooglePlayPersister.cpp.o -MF CMakeFiles/campaign.dir/persister/GooglePlayPersister.cpp.o.d -o CMakeFiles/campaign.dir/persister/GooglePlayPersister.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign/persister/GooglePlayPersister.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Building CXX object src/modules/network/CMakeFiles/network.dir/INetwork.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/network/CMakeFiles/network.dir/INetwork.cpp.o -MF CMakeFiles/network.dir/INetwork.cpp.o.d -o CMakeFiles/network.dir/INetwork.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/network/INetwork.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 16%] Building CXX object src/modules/campaign/CMakeFiles/campaign.dir/CampaignManager.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/campaign/CMakeFiles/campaign.dir/CampaignManager.cpp.o -MF CMakeFiles/campaign.dir/CampaignManager.cpp.o.d -o CMakeFiles/campaign.dir/CampaignManager.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign/CampaignManager.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 18%] Building CXX object src/modules/campaign/CMakeFiles/campaign.dir/Campaign.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/campaign/CMakeFiles/campaign.dir/Campaign.cpp.o -MF CMakeFiles/campaign.dir/Campaign.cpp.o.d -o CMakeFiles/campaign.dir/Campaign.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign/Campaign.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 17%] Building CXX object src/modules/textures/CMakeFiles/texture.dir/TextureCache.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/textures/CMakeFiles/texture.dir/TextureCache.cpp.o -MF CMakeFiles/texture.dir/TextureCache.cpp.o.d -o CMakeFiles/texture.dir/TextureCache.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/textures/TextureCache.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Building CXX object src/modules/textures/CMakeFiles/texture.dir/Texture.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/textures/CMakeFiles/texture.dir/Texture.cpp.o -MF CMakeFiles/texture.dir/Texture.cpp.o.d -o CMakeFiles/texture.dir/Texture.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/textures/Texture.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Linking CXX static library ../../../Release/lib/libtexture.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures && /usr/bin/cmake -P CMakeFiles/texture.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/textures && /usr/bin/cmake -E cmake_link_script CMakeFiles/texture.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libtexture.a CMakeFiles/texture.dir/Texture.cpp.o CMakeFiles/texture.dir/TextureCache.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libtexture.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Built target texture
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/sprites/CMakeFiles/sprite.dir/build.make src/modules/sprites/CMakeFiles/sprite.dir/depend
+/usr/bin/gmake  -f src/modules/particles/CMakeFiles/particle.dir/build.make src/modules/particles/CMakeFiles/particle.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 13%] Building CXX object src/modules/network/CMakeFiles/network.dir/NoNetwork.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/network/CMakeFiles/network.dir/NoNetwork.cpp.o -MF CMakeFiles/network.dir/NoNetwork.cpp.o.d -o CMakeFiles/network.dir/NoNetwork.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/network/NoNetwork.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 14%] Building CXX object src/modules/network/CMakeFiles/network.dir/Network.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/network/CMakeFiles/network.dir/Network.cpp.o -MF CMakeFiles/network.dir/Network.cpp.o.d -o CMakeFiles/network.dir/Network.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/network/Network.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sprites /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites/CMakeFiles/sprite.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/sprites/CMakeFiles/sprite.dir/build.make src/modules/sprites/CMakeFiles/sprite.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles/CMakeFiles/particle.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/particles/CMakeFiles/particle.dir/build.make src/modules/particles/CMakeFiles/particle.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 19%] Building CXX object src/modules/campaign/CMakeFiles/campaign.dir/persister/SQLitePersister.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/campaign/CMakeFiles/campaign.dir/persister/SQLitePersister.cpp.o -MF CMakeFiles/campaign.dir/persister/SQLitePersister.cpp.o.d -o CMakeFiles/campaign.dir/persister/SQLitePersister.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/campaign/persister/SQLitePersister.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Linking CXX static library ../../../Release/lib/libcampaign.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/cmake -P CMakeFiles/campaign.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/campaign && /usr/bin/cmake -E cmake_link_script CMakeFiles/campaign.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libcampaign.a CMakeFiles/campaign.dir/CampaignMap.cpp.o CMakeFiles/campaign.dir/CampaignManager.cpp.o CMakeFiles/campaign.dir/persister/SQLitePersister.cpp.o CMakeFiles/campaign.dir/persister/GooglePlayPersister.cpp.o CMakeFiles/campaign.dir/Campaign.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libcampaign.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Built target campaign
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/game/CMakeFiles/game.dir/build.make src/modules/game/CMakeFiles/game.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/game /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game/CMakeFiles/game.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/game/CMakeFiles/game.dir/build.make src/modules/game/CMakeFiles/game.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 16%] Building CXX object src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sound && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o -MF CMakeFiles/sound.dir/SDLSoundEngine.cpp.o.d -o CMakeFiles/sound.dir/SDLSoundEngine.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In destructor 'virtual SDLSoundEngine::~SDLSoundEngine()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:34:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+   34 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+      |                       _Mix_Music*
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:11:
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:1:
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual void SDLSoundEngine::close()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:116:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  116 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual int SDLSoundEngine::playMusic(const std::string&, bool)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:149:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  149 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:158:32: error: cannot convert 'Mix_Music*' to '_Mix_Music*' in assignment
+  158 |         _music = Mix_LoadMUS_RW(rwops, 1);
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~
+      |                                |
+      |                                Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:269:16: note: class type 'Mix_Music' is incomplete
+  269 | typedef struct Mix_Music Mix_Music;
+      |                ^~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:167:39: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  167 |         const int ret = Mix_PlayMusic(_music, loop ? -1 : 1);
+      |                                       ^~~~~~
+      |                                       |
+      |                                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:1834:54: note:   initializing argument 1 of 'int Mix_PlayMusic(Mix_Music*, int)'
+ 1834 | extern DECLSPEC int SDLCALL Mix_PlayMusic(Mix_Music *music, int loops);
+      |                                           ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual void SDLSoundEngine::haltMusic(int)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:185:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  185 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+gmake[2]: *** [src/modules/sound/CMakeFiles/sound.dir/build.make:93: src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:936: src/modules/sound/CMakeFiles/sound.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 21%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o -MF CMakeFiles/particle.dir/Snow.cpp.o.d -o CMakeFiles/particle.dir/Snow.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Snow.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Particle.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Particle.cpp.o -MF CMakeFiles/particle.dir/Particle.cpp.o.d -o CMakeFiles/particle.dir/Particle.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Particle.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 17%] Building CXX object src/modules/network/CMakeFiles/network.dir/ProtocolMessageFactory.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/network/CMakeFiles/network.dir/ProtocolMessageFactory.cpp.o -MF CMakeFiles/network.dir/ProtocolMessageFactory.cpp.o.d -o CMakeFiles/network.dir/ProtocolMessageFactory.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/network/ProtocolMessageFactory.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Linking CXX static library ../../../Release/lib/libnetwork.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/cmake -P CMakeFiles/network.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/network && /usr/bin/cmake -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libnetwork.a CMakeFiles/network.dir/NoNetwork.cpp.o CMakeFiles/network.dir/Network.cpp.o CMakeFiles/network.dir/ProtocolMessageFactory.cpp.o CMakeFiles/network.dir/INetwork.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libnetwork.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Built target network
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/ParticleSystem.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/ParticleSystem.cpp.o -MF CMakeFiles/particle.dir/ParticleSystem.cpp.o.d -o CMakeFiles/particle.dir/ParticleSystem.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/ParticleSystem.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Building CXX object src/modules/sprites/CMakeFiles/sprite.dir/Sprite.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/sprites/CMakeFiles/sprite.dir/Sprite.cpp.o -MF CMakeFiles/sprite.dir/Sprite.cpp.o.d -o CMakeFiles/sprite.dir/Sprite.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sprites/Sprite.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 20%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Bubble.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Bubble.cpp.o -MF CMakeFiles/particle.dir/Bubble.cpp.o.d -o CMakeFiles/particle.dir/Bubble.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Bubble.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Building CXX object src/modules/game/CMakeFiles/game.dir/GameRegistry.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/game/CMakeFiles/game.dir/GameRegistry.cpp.o -MF CMakeFiles/game.dir/GameRegistry.cpp.o.d -o CMakeFiles/game.dir/GameRegistry.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/game/GameRegistry.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Sparkle.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Sparkle.cpp.o -MF CMakeFiles/particle.dir/Sparkle.cpp.o.d -o CMakeFiles/particle.dir/Sparkle.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Sparkle.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Building CXX object src/modules/game/CMakeFiles/game.dir/IGame.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/game/CMakeFiles/game.dir/IGame.cpp.o -MF CMakeFiles/game.dir/IGame.cpp.o.d -o CMakeFiles/game.dir/IGame.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/game/IGame.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Linking CXX static library ../../../Release/lib/libparticle.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/cmake -P CMakeFiles/particle.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/cmake -E cmake_link_script CMakeFiles/particle.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libparticle.a CMakeFiles/particle.dir/Bubble.cpp.o CMakeFiles/particle.dir/Particle.cpp.o CMakeFiles/particle.dir/ParticleSystem.cpp.o CMakeFiles/particle.dir/Snow.cpp.o CMakeFiles/particle.dir/Sparkle.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libparticle.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Built target particle
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Linking CXX static library ../../../Release/lib/libgame.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game && /usr/bin/cmake -P CMakeFiles/game.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game && /usr/bin/cmake -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libgame.a CMakeFiles/game.dir/GameRegistry.cpp.o CMakeFiles/game.dir/IGame.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libgame.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Built target game
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 22%] Building CXX object src/modules/sprites/CMakeFiles/sprite.dir/SpriteCache.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/sprites/CMakeFiles/sprite.dir/SpriteCache.cpp.o -MF CMakeFiles/sprite.dir/SpriteCache.cpp.o.d -o CMakeFiles/sprite.dir/SpriteCache.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sprites/SpriteCache.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Linking CXX static library ../../../Release/lib/libsprite.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -P CMakeFiles/sprite.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -E cmake_link_script CMakeFiles/sprite.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libsprite.a CMakeFiles/sprite.dir/Sprite.cpp.o CMakeFiles/sprite.dir/SpriteCache.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libsprite.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Built target sprite
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake: *** [Makefile:156: all] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+Command exited with non-zero status 1
+76.23user 10.34system 0:20.75elapsed 417%CPU (0avgtext+0avgdata 303312maxresident)k
+0inputs+0outputs (0major+1210687minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `caveexpress-2.5.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+8.23user 6.04system 0:52.74elapsed 27%CPU (0avgtext+0avgdata 144216maxresident)k
+1792inputs+0outputs (0major+292588minor)pagefaults 0swaps

@@ -1,0 +1,401 @@
+<86>May 16 03:57:11 userdel[2910289]: delete user 'rooter'
+<86>May 16 03:57:11 userdel[2910289]: removed group 'rooter' owned by 'rooter'
+<86>May 16 03:57:11 userdel[2910289]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 03:57:11 groupadd[2910328]: group added to /etc/group: name=rooter, GID=1829
+<86>May 16 03:57:11 groupadd[2910328]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:57:11 groupadd[2910328]: new group: name=rooter, GID=1829
+<86>May 16 03:57:11 useradd[2910364]: new user: name=rooter, UID=1829, GID=1829, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:57:11 userdel[2910406]: delete user 'builder'
+<86>May 16 03:57:11 userdel[2910406]: removed group 'builder' owned by 'builder'
+<86>May 16 03:57:11 groupadd[2910429]: group added to /etc/group: name=builder, GID=1830
+<86>May 16 03:57:11 groupadd[2910429]: group added to /etc/gshadow: name=builder
+<86>May 16 03:57:11 groupadd[2910429]: new group: name=builder, GID=1830
+<86>May 16 03:57:11 useradd[2910457]: new user: name=builder, UID=1830, GID=1830, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:57:14 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 03:57:14 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 03:57:14 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 03:57:14 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 03:57:14 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 03:57:14 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:57:14 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 03:57:14 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:57:14 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:57:14 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 03:57:14 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 03:57:14 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:57:14 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:57:14 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:57:15 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:57:15 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:57:15 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 03:57:15 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+<13>May 16 03:57:15 rpmi: rpm-macros-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 03:57:15 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 03:57:15 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 03:57:15 rpmi: rpm-build-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 03:57:18 rpmi: python3-module-attrs-25.3.0-alt1 sisyphus+378700.100.1.1 1742472992 installed
+<13>May 16 03:57:18 rpmi: python3-module-docutils-0.20.1-alt1 sisyphus+323438.100.1.1 1687370718 installed
+<13>May 16 03:57:18 rpmi: python3-module-zope.interface-7.2-alt1.1 sisyphus+376369.21500.10.1 1746631801 installed
+<13>May 16 03:57:18 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 03:57:18 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 03:57:18 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 03:57:18 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 03:57:18 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 03:57:18 rpmi: python3-module-click-8.1.8-alt1 sisyphus+366297.100.1.1 1734946237 installed
+<13>May 16 03:57:18 rpmi: python3-module-sortedcontainers-2.4.0-alt1 sisyphus+272042.100.1.1 1621262424 installed
+<13>May 16 03:57:18 rpmi: python3-module-propcache-0.2.1-alt1 sisyphus+369528.100.1.1 1736868993 installed
+<13>May 16 03:57:18 rpmi: python3-module-multidict-6.4.3-alt1 sisyphus+381313.100.1.1 1744375526 installed
+<13>May 16 03:57:18 rpmi: python3-module-frozenlist-1.5.0-alt1 sisyphus+362047.100.1.1 1731079173 installed
+<13>May 16 03:57:19 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 16 03:57:19 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 03:57:19 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760159 installed
+<13>May 16 03:57:19 rpmi: libcares-1.34.5-alt1 sisyphus+381066.100.1.1 1744213475 installed
+<13>May 16 03:57:19 rpmi: python3-module-alabaster-0.7.16-alt1 sisyphus+349698.100.1.1 1716897815 installed
+<13>May 16 03:57:19 rpmi: python3-module-aiosignal-1.3.2-alt1 sisyphus+369480.100.1.1 1736854528 installed
+<13>May 16 03:57:19 rpmi: python3-module-yarl-1.18.3-alt1 sisyphus+369529.100.2.1 1736876451 installed
+<13>May 16 03:57:19 rpmi: python3-module-incremental-22.10.0-alt1 sisyphus+312706.100.1.1 1672404273 installed
+<13>May 16 03:57:19 rpmi: python3-module-hyperlink-21.0.0-alt1.1 sisyphus+304836.100.1.1 1659710964 installed
+<13>May 16 03:57:19 rpmi: python3-module-outcome-1.3.0-alt1 sisyphus+332382.100.1.1 1697882349 installed
+<13>May 16 03:57:19 rpmi: python3-module-snowballstemmer-2.2.0-alt1 sisyphus+319215.100.1.1 1682346633 installed
+<13>May 16 03:57:19 rpmi: python3-module-roman_numerals-3.1.0-alt1 sisyphus+376287.100.1.1 1740659993 installed
+<13>May 16 03:57:19 rpmi: python3-module-imagesize-1.4.1-alt1 sisyphus+318084.100.1.1 1680697673 installed
+<13>May 16 03:57:19 rpmi: python3-module-pytz-1:2025.2-alt1 sisyphus+379213.100.2.1 1742985453 installed
+<13>May 16 03:57:19 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 16 03:57:19 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 16 03:57:19 rpmi: python3-module-pytest-8.3.5-alt2 sisyphus+383865.100.1.1 1747039699 installed
+<13>May 16 03:57:19 rpmi: python3-module-lark-1.2.2-alt1 sisyphus+358322.100.1.1 1727258177 installed
+<13>May 16 03:57:19 rpmi: python3-module-sqlparse-0.5.3-alt1 sisyphus+367438.100.1.1 1735561443 installed
+<13>May 16 03:57:19 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 03:57:19 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 03:57:19 rpmi: python3-module-defusedxml-0.7.1-alt1 sisyphus+274841.2300.1.1 1624295691 installed
+<13>May 16 03:57:19 rpmi: python3-module-six-1.17.0-alt1.1 sisyphus+373470.100.1.1 1738920023 installed
+<13>May 16 03:57:19 rpmi: python3-module-dateutil-2.9.0.post0-alt1 sisyphus+378451.100.1.1 1742313746 installed
+<13>May 16 03:57:19 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 03:57:19 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 03:57:19 rpmi: python3-module-pathspec-0.12.1-alt1 sisyphus+341971.100.1.1 1709553025 installed
+<13>May 16 03:57:19 rpmi: python3-module-mypy_extensions-1.0.0-alt1 sisyphus+316350.100.2.1 1678357948 installed
+<13>May 16 03:57:20 rpmi: python3-module-babel-1:2.17.0-alt1 sisyphus+383519.100.1.1 1746611672 installed
+<13>May 16 03:57:20 rpmi: python3-module-asgiref-3.8.1-alt1 sisyphus+372174.1500.2.1 1738333633 installed
+<13>May 16 03:57:20 rpmi: python3-module-typing_extensions-4.13.2-alt1 sisyphus+381315.100.1.1 1744375640 installed
+<13>May 16 03:57:20 rpmi: python3-module-priority-2.0.0-alt3 sisyphus+338701.100.1.2 1705988383 installed
+<13>May 16 03:57:20 rpmi: python3-module-hpack-4.0.0-alt1 sisyphus+270376.200.1.1 1618956626 installed
+<13>May 16 03:57:20 rpmi: python3-module-hyperframe-6.0.1-alt1 sisyphus+270376.300.2.1 1618957001 installed
+<13>May 16 03:57:20 rpmi: python3-module-h2-4.1.0-alt1 sisyphus+325714.100.2.2 1690478873 installed
+<13>May 16 03:57:20 rpmi: python3-module-constantly-15.1.0-alt7 sisyphus+338906.100.1.1 1706107088 installed
+<13>May 16 03:57:20 rpmi: python3-module-appdirs-1.4.4-alt2 sisyphus+359005.100.1.1 1728036426 installed
+<13>May 16 03:57:20 rpmi: python3-module-certifi-2024.12.14-alt1 sisyphus+369729.200.2.2 1737050219 installed
+<13>May 16 03:57:20 rpmi: python3-module-z3c-3.0.0-alt4 sisyphus+284857.200.1.1 1631109149 installed
+<13>May 16 03:57:20 rpmi: python3-module-zc-1.0.0-alt7 sisyphus+284857.100.1.1 1631109117 installed
+<13>May 16 03:57:20 rpmi: python3-module-zope-3.3.0-alt9 sisyphus+281937.200.4.1 1628175900 installed
+<13>May 16 03:57:20 rpmi: python3-module-zope.event-5.0-alt1.1.1 sisyphus+376369.20700.10.1 1746631591 installed
+<13>May 16 03:57:20 rpmi: python3-module-psutil-7.0.0-alt1 sisyphus+378483.100.1.1 1742330008 installed
+<13>May 16 03:57:20 rpmi: python3-module-objgraph-3.6.2-alt1 sisyphus+359468.100.1.1 1728573508 installed
+<13>May 16 03:57:20 rpmi: python3-module-greenlet-3.2.2-alt1 sisyphus+383924.100.1.2 1747067810 installed
+<13>May 16 03:57:20 rpmi: python3-module-sniffio-1.3.1-alt1 sisyphus+341424.100.1.1 1708941879 installed
+<13>May 16 03:57:20 rpmi: python3-module-astor-0.8.1-alt1.1 sisyphus+315877.100.1.1 1677481862 installed
+<13>May 16 03:57:20 rpmi: python3-module-pycparser-2.22-alt1 sisyphus+378485.100.1.1 1742331206 installed
+<13>May 16 03:57:20 rpmi: python3-module-cffi-1.17.1-alt1 sisyphus+357396.100.1.1 1726156476 installed
+<13>May 16 03:57:20 rpmi: python3-module-cryptography-44.0.0-alt1 sisyphus+368451.100.1.1 1736436050 installed
+<13>May 16 03:57:20 rpmi: python3-module-openssl-24.3.0-alt1 sisyphus+368451.200.1.1 1736436083 installed
+<13>May 16 03:57:20 rpmi: python3-module-redis-py-4.5.5-alt1.1 sisyphus+332415.100.1.1 1697904078 installed
+<13>May 16 03:57:20 rpmi: python3-module-trio-0.30.0-alt1 sisyphus+383467.100.1.2 1746556155 installed
+<13>May 16 03:57:20 rpmi: python3-module-dns-1:2.6.1-alt1 sisyphus+341811.20.3.1 1709382170 installed
+<13>May 16 03:57:20 rpmi: python3-module-pycares-4.8.0-alt1 sisyphus+383444.100.1.1 1746542991 installed
+<13>May 16 03:57:20 rpmi: python3-module-aiohappyeyeballs-2.4.4-alt1 sisyphus+369620.100.1.1 1736938218 installed
+<13>May 16 03:57:20 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 03:57:20 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 03:57:20 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 03:57:20 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 03:57:20 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 03:57:20 rpmi: python3-module-openid-3.2.0-alt1 sisyphus+278049.100.2.1 1625998936 installed
+<13>May 16 03:57:20 rpmi: python3-module-Cheetah-3.4.0-alt1.1.1 sisyphus+376369.27100.10.1 1746633546 installed
+<13>May 16 03:57:20 rpmi: python3-module-paste-3.10.1-alt1.1 sisyphus+376369.11500.10.1 1746629504 installed
+<13>May 16 03:57:20 rpmi: python3-module-PasteDeploy-1:3.1.0-alt1.1 sisyphus+376369.26200.10.1 1746633333 installed
+<13>May 16 03:57:20 rpmi: python3-module-PasteScript-1:3.7.0-alt1.1 sisyphus+376369.24300.10.1 1746632597 installed
+<13>May 16 03:57:20 rpmi: python-sphinx-objects.inv-1:2.3.14.20250414-alt1 sisyphus+381547.100.1.1 1744608913 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-applehelp-2.0.0-alt1 sisyphus+353872.100.1.1 1722243556 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-devhelp-2.0.0-alt1 sisyphus+353872.200.1.1 1722243589 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-jquery-4.1-alt3 sisyphus+339023.100.1.1 1706234262 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-jsmath-1.0.1-alt2 sisyphus+348403.100.1.1 1716017686 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-htmlhelp-2.1.0-alt1 sisyphus+353893.100.2.1 1722416845 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-serializinghtml-2.0.0-alt1 sisyphus+361088.100.1.1 1730215552 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinxcontrib-qthelp-2.0.0-alt1 sisyphus+353872.300.1.1 1722243619 installed
+<13>May 16 03:57:20 rpmi: python3-module-sphinx-sphinx-build-symlink-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 03:57:21 rpmi: python3-module-sphinx-1:8.2.1-alt1 sisyphus+376300.100.1.1 1740663832 installed
+<13>May 16 03:57:21 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 03:57:21 rpmi: python3-module-yaml-6.0.2-alt1.1 sisyphus+376369.16600.10.1 1746631034 installed
+<13>May 16 03:57:21 rpmi: python3-module-libcst-1.7.0-alt1 sisyphus+377931.100.1.1 1741945033 installed
+<13>May 16 03:57:21 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 03:57:21 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 03:57:21 rpmi: python3-modules-sqlite3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:57:21 rpmi: python3-module-coverage-7.6.10-alt1 sisyphus+378449.100.1.1 1742313292 installed
+<13>May 16 03:57:21 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:57:21 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:57:21 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:57:21 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 03:57:22 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:57:22 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:57:22 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 03:57:22 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 03:57:22 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388330 installed
+<13>May 16 03:57:22 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 03:57:22 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 03:57:22 rpmi: libhidapi-0.14.0-alt1 sisyphus+378183.100.1.1 1742067545 installed
+<13>May 16 03:57:22 rpmi: python3-module-cython-hidapi-0.14.0-alt1.1 sisyphus+333513.54340.73.1 1704651867 installed
+<13>May 16 03:57:22 rpmi: python3-module-serial-3.5-alt3 sisyphus+360600.100.2.1 1729786231 installed
+<13>May 16 03:57:22 rpmi: python3-module-automat-25.4.16-alt1.1 sisyphus+376369.25200.10.1 1746633028 installed
+<13>May 16 03:57:22 rpmi: python3-module-twisted-logger-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 03:57:22 rpmi: python3-module-twisted-web-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 03:57:22 rpmi: python3-module-twisted-words-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 03:57:22 rpmi: python3-module-twisted-core-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 03:57:22 rpmi: python3-module-twisted-names-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 03:57:22 rpmi: python3-module-tornado-6.4.2-alt1 sisyphus+363445.100.1.1 1732635491 installed
+<13>May 16 03:57:22 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:57:22 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:57:22 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069366 installed
+<13>May 16 03:57:22 rpmi: python3-module-numpy-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965091 installed
+<13>May 16 03:57:22 rpmi: libev4-4.33-alt3 sisyphus+334335.340.4.1 1699912675 installed
+<13>May 16 03:57:23 rpmi: python3-module-gevent-24.11.1-alt1 sisyphus+378463.100.2.1 1742318286 installed
+<13>May 16 03:57:23 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<86>May 16 03:57:23 groupadd[2992830]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 03:57:23 groupadd[2992830]: group added to /etc/gshadow: name=_keytab
+<86>May 16 03:57:23 groupadd[2992830]: new group: name=_keytab, GID=999
+<13>May 16 03:57:23 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<86>May 16 03:57:23 groupadd[2993049]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 03:57:23 groupadd[2993049]: group added to /etc/gshadow: name=sasl
+<86>May 16 03:57:23 groupadd[2993049]: new group: name=sasl, GID=998
+<13>May 16 03:57:23 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 03:57:23 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:57:23 rpmi: libpq5-17-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 03:57:23 rpmi: python3-module-psycopg2-2.9.10-alt1 sisyphus+361099.100.1.1 1730221764 installed
+<13>May 16 03:57:23 rpmi: python3-module-eventlet-0.40.0-alt1 sisyphus+384110.100.1.1 1747219515 installed
+<13>May 16 03:57:23 rpmi: python3-module-gunicorn-23.0.0-alt1 sisyphus+362920.200.1.1 1732021917 installed
+<13>May 16 03:57:23 rpmi: python3-module-aiohttp-3.11.18-alt1 sisyphus+384011.100.1.1 1747133882 installed
+<13>May 16 03:57:23 rpmi: python3-module-black-25.1.0-alt1 sisyphus+372035.100.1.1 1738146346 installed
+<13>May 16 03:57:23 rpmi: python3-module-django-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 03:57:23 rpmi: python3-module-django-dbbackend-postgresql-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 03:57:24 rpmi: python3-module-hypothesis-6.131.16-alt1 sisyphus+383970.200.2.1 1747157058 installed
+<13>May 16 03:57:24 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 03:57:24 rpmi: python3-module-pytest-cov-6.1.1-alt1 sisyphus+380698.100.1.1 1744020317 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-brotlicffi-1.1.0.0-alt1.nosrc.rpm (w1.gzdio)
+<13>May 16 03:57:26 rpmi: python3-module-system-seed-wheels-0.0.1-alt1 sisyphus+270533.400.6.1 1619683425 installed
+<13>May 16 03:57:26 rpmi: python3-module-filelock-3.18.0-alt1 sisyphus+377927.100.2.1 1741959375 installed
+<13>May 16 03:57:26 rpmi: python3-module-pip-wheel-25.1.1-alt1 sisyphus+384061.100.2.1 1747306475 installed
+<13>May 16 03:57:27 rpmi: python3-module-setuptools-wheel-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 03:57:27 rpmi: python3-module-wheel-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 03:57:27 rpmi: python3-module-system-seed-wheels-wheels-0.0.1-alt1 sisyphus+270533.400.6.1 1619683425 installed
+<13>May 16 03:57:27 rpmi: python3-module-pyproject-api-1.6.1-alt1 sisyphus+330404.60.15.1 1698684249 installed
+<13>May 16 03:57:27 rpmi: python3-module-distlib-0.3.9-alt1 sisyphus+359423.100.1.1 1728557083 installed
+<13>May 16 03:57:27 rpmi: python3-module-virtualenv-20.30.0-alt1 sisyphus+379870.100.2.1 1743506980 installed
+<13>May 16 03:57:27 rpmi: python3-module-colorama-0.4.6-alt1 sisyphus+308971.100.1.1 1666698282 installed
+<13>May 16 03:57:27 rpmi: python3-module-chardet-1:5.2.0-alt1 sisyphus+326284.100.2.1 1691056316 installed
+<13>May 16 03:57:27 rpmi: python3-module-cachetools-5.5.2-alt1 sisyphus+375542.100.1.1 1740130789 installed
+<13>May 16 03:57:27 rpmi: python3-module-tox-4.25.0-alt1 sisyphus+379466.100.1.1 1743153108 installed
+<13>May 16 03:57:27 rpmi: python3-module-tox-console-scripts-0.4.0-alt1 sisyphus+371114.200.4.1 1739124059 installed
+<13>May 16 03:57:27 rpmi: python3-module-tox-no-deps-0.3.0-alt1 sisyphus+371114.300.4.1 1739124101 installed
+<13>May 16 03:57:27 rpmi: python3-module-tox-passenv-0.1.0-alt1 sisyphus+371114.500.4.1 1739124145 installed
+Installing python3-module-brotlicffi-1.1.0.0-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.26443
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf brotlicffi-1.1.0.0
++ echo 'Source #0 (brotlicffi-1.1.0.0.tar):'
+Source #0 (brotlicffi-1.1.0.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/brotlicffi-1.1.0.0.tar
++ cd brotlicffi-1.1.0.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep518
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep518 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep517
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep517 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show metadata
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync metadata --verify
+INFO     : Building metadata
+INFO     : Building metadata with prepare_metadata_for_build_wheel
+INFO     : Source tree: /usr/src/RPM/BUILD/brotlicffi-1.1.0.0
+INFO     : Output dir: /usr/src/tmp/tmpxgf_o4ha
+INFO     : pyproject.toml was not found, using defaults
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.81501
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd brotlicffi-1.1.0.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/brotlicffi-1.1.0.0
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/brotlicffi-1.1.0.0/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/brotlicffi-1.1.0.0/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib.linux-x86_64-cpython-312/brotlicffi
+INFO     : root : copying src/brotlicffi/_build.py -> build/lib.linux-x86_64-cpython-312/brotlicffi
+INFO     : root : copying src/brotlicffi/_api.py -> build/lib.linux-x86_64-cpython-312/brotlicffi
+INFO     : root : copying src/brotlicffi/__init__.py -> build/lib.linux-x86_64-cpython-312/brotlicffi
+INFO     : root : running build_clib
+INFO     : root : building 'libbrotli' library
+INFO     : root : creating build/temp.linux-x86_64-cpython-312/libbrotli/c/common
+INFO     : root : creating build/temp.linux-x86_64-cpython-312/libbrotli/c/dec
+INFO     : root : creating build/temp.linux-x86_64-cpython-312/libbrotli/c/enc
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/constants.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/constants.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/context.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/context.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/dictionary.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/dictionary.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/platform.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/platform.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/shared_dictionary.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/shared_dictionary.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/common/transform.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/transform.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/dec/bit_reader.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/bit_reader.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/dec/decode.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/decode.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/dec/huffman.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/huffman.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/dec/state.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/state.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/backward_references.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/backward_references.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/backward_references_hq.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/backward_references_hq.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/bit_cost.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/bit_cost.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/block_splitter.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/block_splitter.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/brotli_bit_stream.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/brotli_bit_stream.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/cluster.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/cluster.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/command.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/command.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/compound_dictionary.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compound_dictionary.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/compress_fragment.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compress_fragment.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/compress_fragment_two_pass.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compress_fragment_two_pass.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/dictionary_hash.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/dictionary_hash.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/encode.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/encode.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/encoder_dict.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/encoder_dict.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/entropy_encode.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/entropy_encode.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/fast_log.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/fast_log.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/histogram.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/histogram.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/literal_cost.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/literal_cost.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/memory.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/memory.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/metablock.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/metablock.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/static_dict.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/static_dict.o
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c/include -Ilibbrotli/c/common -Ilibbrotli/c -Isrc/brotlicffi -c libbrotli/c/enc/utf8_util.c -o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/utf8_util.o
+INFO     : root : ar rcs build/temp.linux-x86_64-cpython-312/liblibbrotli.a build/temp.linux-x86_64-cpython-312/libbrotli/c/common/constants.o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/context.o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/dictionary.o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/platform.o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/shared_dictionary.o build/temp.linux-x86_64-cpython-312/libbrotli/c/common/transform.o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/bit_reader.o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/decode.o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/huffman.o build/temp.linux-x86_64-cpython-312/libbrotli/c/dec/state.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/backward_references.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/backward_references_hq.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/bit_cost.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/block_splitter.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/brotli_bit_stream.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/cluster.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/command.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compound_dictionary.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compress_fragment.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/compress_fragment_two_pass.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/dictionary_hash.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/encode.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/encoder_dict.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/entropy_encode.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/fast_log.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/histogram.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/literal_cost.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/memory.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/metablock.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/static_dict.o build/temp.linux-x86_64-cpython-312/libbrotli/c/enc/utf8_util.o
+INFO     : root : running build_ext
+INFO     : root : generating cffi module 'build/temp.linux-x86_64-cpython-312/_brotlicffi.c'
+INFO     : root : building '_brotlicffi' extension
+INFO     : root : creating build/temp.linux-x86_64-cpython-312/build/temp.linux-x86_64-cpython-312
+INFO     : root : x86_64-alt-linux-gcc -fno-strict-overflow -Wsign-compare -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DNDEBUG -g -O3 -Wall -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O3 -flto=auto -ffat-lto-objects -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Ilibbrotli/c -Ilibbrotli/c/include -Ilibbrotli/c/common -I/usr/include/python3.12 -c build/temp.linux-x86_64-cpython-312/_brotlicffi.c -o build/temp.linux-x86_64-cpython-312/build/temp.linux-x86_64-cpython-312/_brotlicffi.o
+INFO     : root : x86_64-alt-linux-gcc -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto build/temp.linux-x86_64-cpython-312/build/temp.linux-x86_64-cpython-312/_brotlicffi.o -L/usr/lib64 -Lbuild/temp.linux-x86_64-cpython-312 -llibbrotli -llibbrotli -o build/lib.linux-x86_64-cpython-312/brotlicffi/_brotlicffi.abi3.so
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/brotlicffi
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/brotlicffi/_brotlicffi.abi3.so -> build/bdist.linux-x86_64/wheel/./brotlicffi
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/brotlicffi/__init__.py -> build/bdist.linux-x86_64/wheel/./brotlicffi
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/brotlicffi/_api.py -> build/bdist.linux-x86_64/wheel/./brotlicffi
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/brotlicffi/_build.py -> build/bdist.linux-x86_64/wheel/./brotlicffi
+INFO     : root : running install_egg_info
+INFO     : root : running egg_info
+INFO     : root : creating src/brotlicffi.egg-info
+INFO     : root : writing src/brotlicffi.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to src/brotlicffi.egg-info/dependency_links.txt
+INFO     : root : writing requirements to src/brotlicffi.egg-info/requires.txt
+INFO     : root : writing top-level names to src/brotlicffi.egg-info/top_level.txt
+INFO     : root : writing manifest file 'src/brotlicffi.egg-info/SOURCES.txt'
+INFO     : root : reading manifest file 'src/brotlicffi.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : warning: no files found matching '*.cc' under directory 'libbrotli/c/enc'
+WARNING  : root : warning: no files found matching '*.cc' under directory 'libbrotli/c/dec'
+WARNING  : root : warning: no files found matching '*.cc' under directory 'libbrotli/c/common'
+WARNING  : root : warning: no files found matching '*.c' under directory 'libbrotli/c/include'
+WARNING  : root : warning: no files found matching '*.cc' under directory 'libbrotli/c/include'
+INFO     : root : adding license file 'LICENSE'
+INFO     : root : writing manifest file 'src/brotlicffi.egg-info/SOURCES.txt'
+INFO     : root : Copying src/brotlicffi.egg-info to build/bdist.linux-x86_64/wheel/./brotlicffi-1.1.0.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/brotlicffi-1.1.0.0.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/brotlicffi-1.1.0.0/dist/.tmp-3snsnnhh/brotlicffi-1.1.0.0-cp312-abi3-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'brotlicffi/__init__.py'
+INFO     : wheel : adding 'brotlicffi/_api.py'
+INFO     : wheel : adding 'brotlicffi/_brotlicffi.abi3.so'
+INFO     : wheel : adding 'brotlicffi/_build.py'
+INFO     : wheel : adding 'brotlicffi-1.1.0.0.dist-info/licenses/LICENSE'
+INFO     : wheel : adding 'brotlicffi-1.1.0.0.dist-info/METADATA'
+INFO     : wheel : adding 'brotlicffi-1.1.0.0.dist-info/WHEEL'
+INFO     : wheel : adding 'brotlicffi-1.1.0.0.dist-info/top_level.txt'
+INFO     : wheel : adding 'brotlicffi-1.1.0.0.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: brotlicffi-1.1.0.0-cp312-abi3-linux_x86_64.whl
++ export PYTHONPATH=/usr/src/RPM/BUILD/brotlicffi-1.1.0.0
++ PYTHONPATH=/usr/src/RPM/BUILD/brotlicffi-1.1.0.0
++ make SPHINXBUILD=sphinx-build-3 -C docs man
+make: Entering directory '/usr/src/RPM/BUILD/brotlicffi-1.1.0.0/docs'
+sphinx-build-3 -b man -d build/doctrees   source build/man
+Running Sphinx v8.2.1
+WARNING: Invalid configuration value found: 'language = None'. Update your configuration to a valid language code. Falling back to 'en' (English).
+loading translations [en]... done
+making output directory... done
+WARNING: html_static_path entry '_static' does not exist
+Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
+ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']. Expected a two-element tuple or list.
+
+Configuration error!
+
+Versions
+========
+
+* Platform:         linux; (Linux-6.12.24-6.12-alt1-x86_64-with-glibc2.40)
+* Python version:   3.12.10 (CPython)
+* Sphinx version:   8.2.1
+* Docutils version: 0.20.1
+* Jinja2 version:   3.1.6
+* Pygments version: 2.19.1
+
+Last Messages
+=============
+
+None.
+
+Loaded Extensions
+=================
+
+None.
+
+Traceback
+=========
+
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+        raise ConfigError(msg)
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+
+
+The full traceback has been saved in:
+/usr/src/tmp/sphinx-err-600yyiq6.log
+
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+Please also report this if it was a user error, so that a better error message can be provided next time.
+make: *** [Makefile:141: man] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/brotlicffi-1.1.0.0/docs'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81501 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.81501 (%build)
+Command exited with non-zero status 1
+31.78user 2.61system 0:23.61elapsed 145%CPU (0avgtext+0avgdata 189608maxresident)k
+0inputs+0outputs (0major+610274minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-brotlicffi-1.1.0.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+5.42user 4.16system 0:44.64elapsed 21%CPU (0avgtext+0avgdata 141048maxresident)k
+0inputs+0outputs (0major+386863minor)pagefaults 0swaps

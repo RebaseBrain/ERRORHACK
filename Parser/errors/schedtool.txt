@@ -1,0 +1,98 @@
+make: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+rm -f *.o schedtool
+make: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make CFLAGS="-Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK" schedtool
+make CFLAGS="-Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK" schedtool
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o error.o error.c
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o error.o error.c
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o error.o error.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o schedtool.o schedtool.c
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o schedtool.o schedtool.c
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o schedtool.o schedtool.c
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o schedtool.o schedtool.c
+schedtool.c: In function 'set_process':
+schedtool.c: In function 'set_process':
+schedtool.c: In function 'set_process':
+schedtool.c: In function 'set_process':
+schedtool.c:436:72: error: pointer/integer type mismatch in conditional expression [-Wint-conversion]
+schedtool.c:436:72: error: pointer/integer type mismatch in conditional expression [-Wint-conversion]
+schedtool.c:436:72: error: pointer/integer type mismatch in conditional expression [-Wint-conversion]
+schedtool.c:436:72: error: pointer/integer type mismatch in conditional expression [-Wint-conversion]
+  436 |                              (CHECK_RANGE_POLICY(policy) ? TAB[policy] : policy)
+  436 |                              (CHECK_RANGE_POLICY(policy) ? TAB[policy] : policy)
+  436 |                              (CHECK_RANGE_POLICY(policy) ? TAB[policy] : policy)
+  436 |                              (CHECK_RANGE_POLICY(policy) ? TAB[policy] : policy)
+      |                                                                        ^
+      |                                                                        ^
+      |                                                                        ^
+      |                                                                        ^
+make[1]: *** [<builtin>: schedtool.o] Error 1
+make[1]: *** [<builtin>: schedtool.o] Error 1
+make[1]: *** [<builtin>: schedtool.o] Error 1
+make[1]: *** [<builtin>: schedtool.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make: *** [Makefile:39: affinity_hack] Error 2
+make: *** [Makefile:39: affinity_hack] Error 2
+make: *** [Makefile:39: affinity_hack] Error 2
+make: *** [Makefile:39: affinity_hack] Error 2
+make: *** [Makefile:39: affinity_hack] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.07user 0.04system 0:00.08elapsed 139%CPU (0avgtext+0avgdata 25752maxresident)k
+0.07user 0.04system 0:00.08elapsed 139%CPU (0avgtext+0avgdata 25752maxresident)k
+0.07user 0.04system 0:00.08elapsed 139%CPU (0avgtext+0avgdata 25752maxresident)k
+0.07user 0.04system 0:00.08elapsed 139%CPU (0avgtext+0avgdata 25752maxresident)k
+0inputs+0outputs (0major+10028minor)pagefaults 0swaps
+0inputs+0outputs (0major+10028minor)pagefaults 0swaps
+0inputs+0outputs (0major+10028minor)pagefaults 0swaps
+0inputs+0outputs (0major+10028minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `schedtool-1.3.0-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `schedtool-1.3.0-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `schedtool-1.3.0-alt1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.80user 1.16system 0:03.69elapsed 53%CPU (0avgtext+0avgdata 12240maxresident)k
+0.80user 1.16system 0:03.69elapsed 53%CPU (0avgtext+0avgdata 12240maxresident)k
+0inputs+0outputs (0major+84908minor)pagefaults 0swaps

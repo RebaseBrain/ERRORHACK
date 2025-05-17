@@ -1,0 +1,314 @@
+<86>May 16 01:31:33 userdel[1584289]: delete user 'rooter'
+<86>May 16 01:31:33 userdel[1584289]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:31:33 userdel[1584289]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:31:33 groupadd[1584351]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 01:31:33 groupadd[1584351]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:31:33 groupadd[1584351]: new group: name=rooter, GID=1823
+<86>May 16 01:31:33 useradd[1584392]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:31:33 userdel[1584474]: delete user 'builder'
+<86>May 16 01:31:33 userdel[1584474]: removed group 'builder' owned by 'builder'
+<86>May 16 01:31:33 userdel[1584474]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:31:33 groupadd[1584537]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 01:31:33 groupadd[1584537]: group added to /etc/gshadow: name=builder
+<86>May 16 01:31:33 groupadd[1584537]: new group: name=builder, GID=1824
+<86>May 16 01:31:33 useradd[1584586]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:31:37 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:37 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 01:31:37 rpmi: libflac14-1.5.0-alt1 sisyphus+374510.100.1.1 1739435174 installed
+<13>May 16 01:31:37 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 01:31:37 rpmi: libmpg123-1:1.32.10-alt1 sisyphus+365072.100.1.1 1734226035 installed
+<13>May 16 01:31:37 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:31:37 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:31:37 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:31:37 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:31:37 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:31:37 rpmi: libaudiofile1-0.3.6-alt5 sisyphus+374510.4600.2.2 1739659519 installed
+<13>May 16 01:31:37 rpmi: libGLES-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:37 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:37 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:31:37 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 01:31:37 rpmi: libmad-0.16.4-alt1 sisyphus+377663.100.1.1 1741701826 installed
+<13>May 16 01:31:37 rpmi: timidity-instruments-1:1.0-alt1 sisyphus+276870.100.1.1 1625246545 installed
+<13>May 16 01:31:37 rpmi: libopus-1.5.2-alt1.1 sisyphus+366209.100.1.1 1734786371 installed
+<13>May 16 01:31:37 rpmi: liblame-3.100-alt1 sisyphus+346342.200.2.2 1716474674 installed
+<13>May 16 01:31:37 rpmi: libgsm-1.0.22-alt1 sisyphus+381615.100.1.1 1744646649 installed
+<13>May 16 01:31:38 rpmi: libsndfile-1.2.2-alt1 sisyphus+380661.100.1.1 1744001678 installed
+<13>May 16 01:31:38 rpmi: libasyncns-0.8-alt2.qa1 sisyphus+275091.100.1.1 1624402241 installed
+<13>May 16 01:31:38 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 01:31:38 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 01:31:38 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:31:38 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 01:31:38 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:31:38 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:31:38 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 01:31:38 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:31:39 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:31:39 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:31:39 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:31:39 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:31:39 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:31:39 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:31:39 rpmi: libpulseaudio-17.0-alt2 sisyphus+339257.100.1.1 1706519226 installed
+<13>May 16 01:31:39 rpmi: libmikmod-3.3.11.1-alt2 sisyphus+278211.100.1.1 1626077581 installed
+<13>May 16 01:31:39 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 01:31:39 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 01:31:39 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:31:39 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 01:31:40 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:31:40 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:31:40 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:31:40 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 01:31:40 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 01:31:41 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 01:31:41 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:41 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:41 rpmi: libGLU-4:9.0.1-alt1 sisyphus+278350.100.1.2 1626174382 installed
+<13>May 16 01:31:41 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 01:31:41 rpmi: libEGL-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 01:31:41 rpmi: libEGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:41 rpmi: libglvnd-devel-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 01:31:41 rpmi: libGLU-devel-4:9.0.1-alt1 sisyphus+278350.100.1.2 1626174382 installed
+<13>May 16 01:31:41 rpmi: alsa-ucm-conf-1.2.13-alt2 sisyphus+379457.100.1.1 1743144589 installed
+<13>May 16 01:31:41 rpmi: alsa-topology-conf-1.2.5.1-alt1 sisyphus+274777.100.1.1 1624089141 installed
+<13>May 16 01:31:41 rpmi: libalsa-1:1.2.13-alt1 sisyphus+370533.200.1.1 1737298943 installed
+<13>May 16 01:31:41 rpmi: libSDL-1.2.14-alt10 sisyphus+346015.200.2.1 1716212609 installed
+<13>May 16 01:31:41 rpmi: libSDL-devel-1.2.14-alt10 sisyphus+346015.200.2.1 1716212609 installed
+<13>May 16 01:31:41 rpmi: libSDL_mixer-1.2.12.0.173.ed76-alt1 sisyphus+374510.2000.2.2 1739654447 installed
+<13>May 16 01:31:41 rpmi: libSDL_net-1.2.8-alt3.git9a629d6 sisyphus+346019.200.2.1 1716214192 installed
+<13>May 16 01:31:41 rpmi: libesd-0.2.41-alt11 sisyphus+382436.100.1.1 1745417674 installed
+<13>May 16 01:31:41 rpmi: esd-0.2.41-alt11 sisyphus+382436.100.1.1 1745417674 installed
+<13>May 16 01:31:41 rpmi: libSDL_net-devel-1.2.8-alt3.git9a629d6 sisyphus+346019.200.2.1 1716214192 installed
+<13>May 16 01:31:41 rpmi: libSDL_mixer-devel-1.2.12.0.173.ed76-alt1 sisyphus+374510.2000.2.2 1739654447 installed
+<13>May 16 01:31:41 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/prboom-2.5.0-alt0.3.2.nosrc.rpm (w1.gzdio)
+Installing prboom-2.5.0-alt0.3.2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.74152
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf prboom-2.5.0
++ echo 'Source #0 (prboom-2.5.0.tar.gz):'
+Source #0 (prboom-2.5.0.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/prboom-2.5.0.tar.gz
++ /bin/tar -xf -
++ cd prboom-2.5.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (prboom-2.5.0-alt-libpng15.patch):'
+Patch #0 (prboom-2.5.0-alt-libpng15.patch):
++ /usr/bin/patch -p2
+patching file src/SDL/i_sshot.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.74152
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd prboom-2.5.0
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --disable-cpu-opt
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking target system type... x86_64-alt-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking checking whether to use x86 asm versions of some functions... no
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking whether ln -s works... yes
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking whether compiler supports -Wall... yes
+checking whether compiler supports -Wno-unused... yes
+checking whether compiler supports -Wno-switch... yes
+checking if malloc debugging is wanted... no
+checking whether compiler supports -Wextra... yes
+checking whether compiler supports -Wno-missing-field-initializers... yes
+checking whether compiler supports -Winline... yes
+checking whether compiler supports -Wwrite-strings... yes
+checking whether compiler supports -Wundef... yes
+checking whether compiler supports -Wbad-function-cast... yes
+checking whether compiler supports -Wcast-align... yes
+checking whether compiler supports -Wcast-qual... yes
+checking whether compiler supports -Wdeclaration-after-statement... yes
+checking whether compiler supports -ffast-math... yes
+checking whether compiler supports -O2... yes
+checking whether compiler supports -fomit-frame-pointer... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking whether sys_siglist is declared... no
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for unistd.h... (cached) yes
+checking asm/byteorder.h usability... yes
+checking asm/byteorder.h presence... yes
+checking for asm/byteorder.h... yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking for stricmp... no
+checking for strnicmp... no
+checking for min... no
+checking for max... no
+checking for getopt... yes
+checking for inet_aton... yes
+checking for inet_pton... yes
+checking for inet_ntop... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for mmap... yes
+checking for usleep... yes
+checking for sched_setaffinity... yes
+checking for pow in -lm... yes
+checking for OpenGL support... yes
+checking for sdl-config... /usr/bin/sdl-config
+checking for SDL - version >= 1.1.3... yes
+checking for SDL_JoystickGetAxis... yes
+checking for Mix_OpenAudio in -lSDL_mixer... yes
+checking for SDLNet_UDP_Bind in -lSDL_net... yes
+checking for png_create_info_struct in -lpng... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/POSIX/Makefile
+config.status: creating src/SDL/Makefile
+config.status: creating src/MAC/Makefile
+config.status: creating doc/Makefile
+config.status: creating data/Makefile
+config.status: creating ICONS/Makefile
+config.status: creating VisualC6/Makefile
+config.status: creating VisualC8/Makefile
+config.status: creating prboom.spec
+config.status: creating config.h
+config.status: executing depfiles commands
++ make -j16
+make  all-recursive
+Making all in doc
+make[2]: Nothing to be done for 'all'.
+Making all in data
+make[2]: Nothing to be done for 'all'.
+Making all in src
+Making all in SDL
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_joy.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_main.c
+i_main.c: In function 'main':
+i_main.c:359:10: error: assignment to 'const char * const*' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+  359 |   myargv = argv;
+      |          ^
+make[3]: *** [Makefile:246: i_main.o] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_sshot.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_network.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_system.c
+i_system.c: In function 'I_FindFile':
+i_system.c:358:17: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+  358 |   for (i = 0; i < sizeof(search)/sizeof(*search); i++) {
+      |                 ^
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_sound.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_video.c
+i_video.c: In function 'I_CalculateRes':
+i_video.c:519:27: warning: pointer targets in passing argument 1 of 'I_ClosestResolution' differ in signedness [-Wpointer-sign]
+  519 |       I_ClosestResolution(&width, &height, SDL_OPENGL|SDL_FULLSCREEN);
+      |                           ^~~~~~
+      |                           |
+      |                           unsigned int *
+i_video.c:453:39: note: expected 'int *' but argument is of type 'unsigned int *'
+  453 | static void I_ClosestResolution (int *width, int *height, int flags)
+      |                                  ~~~~~^~~~~
+i_video.c:519:35: warning: pointer targets in passing argument 2 of 'I_ClosestResolution' differ in signedness [-Wpointer-sign]
+  519 |       I_ClosestResolution(&width, &height, SDL_OPENGL|SDL_FULLSCREEN);
+      |                                   ^~~~~~~
+      |                                   |
+      |                                   unsigned int *
+i_video.c:453:51: note: expected 'int *' but argument is of type 'unsigned int *'
+  453 | static void I_ClosestResolution (int *width, int *height, int flags)
+      |                                              ~~~~~^~~~~~
+i_video.c: In function 'I_SkipFrame':
+i_video.c:281:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  281 |     if (!paused)
+      |        ^
+i_video.c:283:3: note: here
+  283 |   default:
+      |   ^~~~~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[2]: *** [Makefile:460: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make: *** [Makefile:205: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+Command exited with non-zero status 1
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `prboom-2.5.0-alt0.3.2.src.rpm' failed.
+Command exited with non-zero status 1
+4.04user 3.07system 0:18.41elapsed 38%CPU (0avgtext+0avgdata 142000maxresident)k
+1936inputs+0outputs (0major+210901minor)pagefaults 0swaps

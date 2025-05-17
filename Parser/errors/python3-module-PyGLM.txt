@@ -1,0 +1,54 @@
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/glm_typing.py
+Can't list '/usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib/python3/site-packages'
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-1.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-2.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-1.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.76816
+Check is turned off by --disable check
+Processing files: python3-module-PyGLM-2.7.3-alt1
+error: No such file or directory: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/PyGLM-2.7.3.dist-info
+Executing(%doc): /bin/sh -e /usr/src/tmp/rpm-tmp.76816
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pyglm-2.7.3
++ DOCDIR=/usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ export DOCDIR
++ export DOCDIR
++ rm -rf /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ rm -rf /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ /bin/mkdir -p /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ /bin/mkdir -p /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ cp -prL README.md LICENSE /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ cp -prL README.md LICENSE /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R go-w /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R go-w /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R a+rX /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R a+rX /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ exit 0
++ exit 0
+
+
+
+
+RPM build errors:
+RPM build errors:
+    No such file or directory: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/PyGLM-2.7.3.dist-info
+    No such file or directory: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/PyGLM-2.7.3.dist-info
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+207.69user 8.74system 1:31.04elapsed 237%CPU (0avgtext+0avgdata 1557188maxresident)k
+207.69user 8.74system 1:31.04elapsed 237%CPU (0avgtext+0avgdata 1557188maxresident)k
+0inputs+0outputs (0major+1669690minor)pagefaults 0swaps
+0inputs+0outputs (0major+1669690minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-PyGLM-2.7.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-PyGLM-2.7.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.57user 2.94system 1:51.49elapsed 10%CPU (0avgtext+0avgdata 142352maxresident)k
+8.57user 2.94system 1:51.49elapsed 10%CPU (0avgtext+0avgdata 142352maxresident)k
+0inputs+0outputs (0major+321235minor)pagefaults 0swaps
+0inputs+0outputs (0major+321235minor)pagefaults 0swaps
+

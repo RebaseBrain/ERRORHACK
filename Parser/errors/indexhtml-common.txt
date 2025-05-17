@@ -1,0 +1,56 @@
++ cd indexhtml-common-0.6.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.76337
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd indexhtml-common-0.6.4
++ cmake -DCMAKE_INSTALL_PREFIX=/usr -DDEFAULTINDEXHTMLDIR=/usr/share/doc/indexhtml .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76337 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76337 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.76337 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76337 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.01user 0.05system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 18844maxresident)k
+0.01user 0.05system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 18844maxresident)k
+0inputs+0outputs (0major+7550minor)pagefaults 0swaps
+0inputs+0outputs (0major+7550minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `indexhtml-common-0.6.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `indexhtml-common-0.6.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.33user 3.19system 0:11.16elapsed 67%CPU (0avgtext+0avgdata 141772maxresident)k
+4.33user 3.19system 0:11.16elapsed 67%CPU (0avgtext+0avgdata 141772maxresident)k
+0inputs+0outputs (0major+272074minor)pagefaults 0swaps

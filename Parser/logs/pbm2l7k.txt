@@ -1,0 +1,120 @@
+<86>May 16 00:03:53 userdel[3371261]: delete user 'rooter'
+<86>May 16 00:03:53 userdel[3371261]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:03:53 userdel[3371261]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:03:53 groupadd[3371282]: group added to /etc/group: name=rooter, GID=1226
+<86>May 16 00:03:53 groupadd[3371282]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:03:53 groupadd[3371282]: new group: name=rooter, GID=1226
+<86>May 16 00:03:53 useradd[3371298]: new user: name=rooter, UID=1226, GID=1226, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:03:53 userdel[3371323]: delete user 'builder'
+<86>May 16 00:03:53 userdel[3371323]: removed group 'builder' owned by 'builder'
+<86>May 16 00:03:53 userdel[3371323]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:03:53 groupadd[3371342]: group added to /etc/group: name=builder, GID=1227
+<86>May 16 00:03:53 groupadd[3371342]: group added to /etc/gshadow: name=builder
+<86>May 16 00:03:53 groupadd[3371342]: new group: name=builder, GID=1227
+<86>May 16 00:03:53 useradd[3371361]: new user: name=builder, UID=1227, GID=1227, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/pbm2l7k-990321-alt1.qa2.src.rpm: The use of such a license name is ambiguous: GPL
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/pbm2l7k-990321-alt1.qa2.nosrc.rpm (w1.gzdio)
+Installing pbm2l7k-990321-alt1.qa2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.32582
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pbm2l7k-990321
++ echo 'Source #0 (pbm2l7k-990321.tar):'
+Source #0 (pbm2l7k-990321.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/pbm2l7k-990321.tar
++ cd pbm2l7k-990321
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.32582
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pbm2l7k-990321
++ make 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+make: Entering directory '/usr/src/RPM/BUILD/pbm2l7k-990321'
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o pbm2l7k.o pbm2l7k.c
+pbm2l7k.c: In function 'read_lines':
+pbm2l7k.c:202:12: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  202 |       lines=(char*)lxmalloc(width*VERTSIZE);
+      |            ^
+pbm2l7k.c: In function 'print_cols':
+pbm2l7k.c:440:19: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  440 |                   if ( (vp2[0] & smask2) !=0 )
+      |                   ^~
+pbm2l7k.c:442:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  442 |                      vp2+=width*2;
+      |                      ^~~
+pbm2l7k.c:380:10: warning: unused variable 'j' [-Wunused-variable]
+  380 |    int i,j,k,m;
+      |          ^
+pbm2l7k.c: In function 'main':
+pbm2l7k.c:530:8: warning: unused variable 'rlines' [-Wunused-variable]
+  530 |    int rlines;
+      |        ^~~~~~
+pbm2l7k.c:527:10: warning: unused variable 'linepairs' [-Wunused-variable]
+  527 |    int i,linepairs;
+      |          ^~~~~~~~~
+pbm2l7k.c:527:8: warning: unused variable 'i' [-Wunused-variable]
+  527 |    int i,linepairs;
+      |        ^
+pbm2l7k.c: In function 'parse_pbm_header':
+pbm2l7k.c:156:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  156 |       fgets(buf,1023,f); /* skip comment line(s) */
+      |       ^~~~~~~~~~~~~~~~~
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o lxmisc.o lxmisc.c
+cc   pbm2l7k.o lxmisc.o   -o pbm2l7k
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o pnmraw2cmyk.o pnmraw2cmyk.c
+pnmraw2cmyk.c: In function 'parse_pnm_header':
+pnmraw2cmyk.c:60:8: warning: unused variable 'tmp' [-Wunused-variable]
+   60 |    int tmp;
+      |        ^~~
+pnmraw2cmyk.c: In function 'read_line':
+pnmraw2cmyk.c:119:12: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  119 |       lines=(char*)malloc(bwidth);
+      |            ^
+pnmraw2cmyk.c:116:8: warning: unused variable 'i' [-Wunused-variable]
+  116 |    int i,c;
+      |        ^
+pnmraw2cmyk.c: In function 'pbmgray2mono':
+pnmraw2cmyk.c:172:7: error: implicit declaration of function 'dither_black' [-Wimplicit-function-declaration]
+  172 |       dither_black(mem,i,width,width,omem);
+      |       ^~~~~~~~~~~~
+pnmraw2cmyk.c: In function 'usage':
+pnmraw2cmyk.c:269:8: warning: unused variable 'i' [-Wunused-variable]
+  269 |    int i;
+      |        ^
+pnmraw2cmyk.c: In function 'main':
+pnmraw2cmyk.c:354:10: error: implicit declaration of function 'dither_cmyk' [-Wimplicit-function-declaration]
+  354 |          dither_cmyk(lines, /* input row */
+      |          ^~~~~~~~~~~
+pnmraw2cmyk.c: In function 'parse_pnm_header':
+pnmraw2cmyk.c:84:4: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+   84 |    fgets(buf,1023,f); /* skip comment line(s) */
+      |    ^~~~~~~~~~~~~~~~~
+pnmraw2cmyk.c:94:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+   94 |       fgets(buf,64,stdin); // scanf corrupts \n !!!
+      |       ^~~~~~~~~~~~~~~~~~~
+make: *** [<builtin>: pnmraw2cmyk.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/pbm2l7k-990321'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+Command exited with non-zero status 1
+0.80user 0.16system 0:00.95elapsed 102%CPU (0avgtext+0avgdata 32436maxresident)k
+0inputs+0outputs (0major+17797minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pbm2l7k-990321-alt1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+0.90user 1.73system 0:05.77elapsed 45%CPU (0avgtext+0avgdata 12168maxresident)k
+0inputs+0outputs (0major+85252minor)pagefaults 0swaps

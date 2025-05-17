@@ -1,0 +1,98 @@
+'./usr/lib/python3/site-packages/gidocgen/__pycache__/mdext.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/gidocgen/__pycache__/mdext.cpython-312.pyc'
+'./usr/lib/python3/site-packages/gidocgen/gir/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/gidocgen/gir/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/gidocgen/gir/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/gidocgen/gir/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/gidocgen/gir/__pycache__/ast.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/gidocgen/gir/__pycache__/ast.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.55858
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd gi-docgen-2025.3
++ /usr/bin/meson test --no-rebuild --print-errorlogs -C noarch-alt-linux
+1/1 flake8 FAIL            0.53s   exit status 1
+>>> MSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 MESON_TEST_ITERATION=1 UBSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 ASAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1 MALLOC_PERTURB_=71 /usr/bin/flake8 --show-source /usr/src/RPM/BUILD/gi-docgen-2025.3/gidocgen
+――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――
+/usr/src/RPM/BUILD/gi-docgen-2025.3/gidocgen/log.py:206:5: F824 `global log_warnings_counter` is unused: name is never assigned in scope
+    global log_warnings_counter
+    global log_warnings_counter
+    ^
+    ^
+/usr/src/RPM/BUILD/gi-docgen-2025.3/gidocgen/utils.py:909:5: F824 `global found_programs` is unused: name is never assigned in scope
+/usr/src/RPM/BUILD/gi-docgen-2025.3/gidocgen/utils.py:909:5: F824 `global found_programs` is unused: name is never assigned in scope
+    global found_programs
+    global found_programs
+    global found_programs
+    ^
+    ^
+    ^
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+
+
+
+
+
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+
+
+
+1/1 flake8 FAIL            0.53s   exit status 1
+1/1 flake8 FAIL            0.53s   exit status 1
+1/1 flake8 FAIL            0.53s   exit status 1
+
+
+
+Ok:                0   
+Ok:                0   
+Ok:                0   
+Fail:              1   
+Fail:              1   
+Fail:              1   
+
+
+
+
+Full log written to /usr/src/RPM/BUILD/gi-docgen-2025.3/noarch-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gi-docgen-2025.3/noarch-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gi-docgen-2025.3/noarch-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gi-docgen-2025.3/noarch-alt-linux/meson-logs/testlog.txt
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.55858 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.66user 0.80system 0:02.44elapsed 141%CPU (0avgtext+0avgdata 37552maxresident)k
+2.66user 0.80system 0:02.44elapsed 141%CPU (0avgtext+0avgdata 37552maxresident)k
+2.66user 0.80system 0:02.44elapsed 141%CPU (0avgtext+0avgdata 37552maxresident)k
+0inputs+0outputs (0major+172314minor)pagefaults 0swaps
+0inputs+0outputs (0major+172314minor)pagefaults 0swaps
+0inputs+0outputs (0major+172314minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `gi-docgen-2025.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `gi-docgen-2025.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.69user 3.11system 0:14.92elapsed 52%CPU (0avgtext+0avgdata 141612maxresident)k
+4.69user 3.11system 0:14.92elapsed 52%CPU (0avgtext+0avgdata 141612maxresident)k
+5872inputs+0outputs (0major+305848minor)pagefaults 0swaps

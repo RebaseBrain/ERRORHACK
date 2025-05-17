@@ -1,0 +1,526 @@
+<86>May 16 02:37:12 userdel[1752407]: delete user 'rooter'
+<86>May 16 02:37:12 userdel[1752407]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:37:12 userdel[1752407]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:37:12 groupadd[1752462]: group added to /etc/group: name=rooter, GID=1826
+<86>May 16 02:37:12 groupadd[1752462]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:37:12 groupadd[1752462]: new group: name=rooter, GID=1826
+<86>May 16 02:37:12 useradd[1752522]: new user: name=rooter, UID=1826, GID=1826, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:37:12 userdel[1752586]: delete user 'builder'
+<86>May 16 02:37:12 userdel[1752586]: removed group 'builder' owned by 'builder'
+<86>May 16 02:37:12 userdel[1752586]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:37:12 groupadd[1752629]: group added to /etc/group: name=builder, GID=1827
+<86>May 16 02:37:12 groupadd[1752629]: group added to /etc/gshadow: name=builder
+<86>May 16 02:37:12 groupadd[1752629]: new group: name=builder, GID=1827
+<86>May 16 02:37:12 useradd[1752678]: new user: name=builder, UID=1827, GID=1827, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 02:37:17 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 02:37:17 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:37:17 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:37:17 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 02:37:17 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 02:37:17 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 02:37:17 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:37:17 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 02:37:17 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 02:37:17 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 02:37:17 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 02:37:17 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 02:37:17 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 02:37:17 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 02:37:17 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 02:37:17 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 02:37:17 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 02:37:17 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:37:17 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 02:37:17 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 02:37:17 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 02:37:17 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 02:37:17 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 02:37:17 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 02:37:17 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:37:17 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:37:17 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 02:37:17 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 02:37:17 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:37:17 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:37:17 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 02:37:17 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 02:37:17 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:37:17 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:37:17 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 02:37:17 groupadd[1772770]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 02:37:17 groupadd[1772770]: group added to /etc/gshadow: name=_keytab
+<86>May 16 02:37:17 groupadd[1772770]: new group: name=_keytab, GID=999
+<13>May 16 02:37:17 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 02:37:17 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 02:37:17 groupadd[1773130]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 02:37:17 groupadd[1773130]: group added to /etc/gshadow: name=sasl
+<86>May 16 02:37:17 groupadd[1773130]: new group: name=sasl, GID=998
+<13>May 16 02:37:17 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 02:37:17 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 02:37:17 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 02:37:17 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 02:37:17 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 02:37:18 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 02:37:20 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 02:37:20 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:37:20 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:37:20 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:37:20 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 02:37:20 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 02:37:20 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 02:37:20 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:37:21 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:37:21 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:37:21 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 02:37:21 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 02:37:21 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 02:37:21 rpmi: libxxhash-0.8.2-alt1 sisyphus+336514.200.7.1 1702672118 installed
+<13>May 16 02:37:21 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667412981 installed
+<13>May 16 02:37:21 rpmi: rsync-3.2.7-alt3 sisyphus+372266.100.1.1 1738342240 installed
+<13>May 16 02:37:21 rpmi: openssh-common-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 02:37:21 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<86>May 16 02:37:21 groupadd[1791402]: group added to /etc/group: name=sshagent, GID=997
+<86>May 16 02:37:21 groupadd[1791402]: group added to /etc/gshadow: name=sshagent
+<86>May 16 02:37:21 groupadd[1791402]: new group: name=sshagent, GID=997
+<13>May 16 02:37:21 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 02:37:21 rpmi: less-633-alt1 sisyphus+328181.300.2.1 1693321749 installed
+<13>May 16 02:37:21 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 02:37:21 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:37:22 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:37:22 rpmi: diffstat-1.64-alt1 sisyphus+346132.200.3.2 1716466240 installed
+<13>May 16 02:37:22 rpmi: git-core-2.42.4-alt1 sisyphus+369547.100.1.1 1736878350 installed
+<13>May 16 02:37:22 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 02:37:23 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:37:23 rpmi: libspirv-tools-devel-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 02:37:23 rpmi: spirv-headers-2:1.5.5-alt18.gaa6cef1 sisyphus+383827.400.1.1 1746996575 installed
+<13>May 16 02:37:23 rpmi: ninja-build-1:1.12.2-alt2.1 sisyphus+384170.100.1.1 1747249398 installed
+<13>May 16 02:37:23 rpmi: directx-headers-1.615.0-alt1 sisyphus+379465.100.1.1 1743153001 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/DirectXShaderCompiler-1.8.2403-alt0.3.nosrc.rpm (w1.gzdio)
+Installing DirectXShaderCompiler-1.8.2403-alt0.3.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.89477
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf DirectXShaderCompiler-1.8.2403
++ echo 'Source #0 (DirectXShaderCompiler-1.8.2403.tar):'
+Source #0 (DirectXShaderCompiler-1.8.2403.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/DirectXShaderCompiler-1.8.2403.tar
++ cd DirectXShaderCompiler-1.8.2403
++ echo 'Source #1 (DirectX-Headers.tar):'
+Source #1 (DirectX-Headers.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/DirectX-Headers.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (alt-spirv-tools-shared.patch):'
+Patch #0 (alt-spirv-tools-shared.patch):
++ /usr/bin/patch -p1
+patching file external/CMakeLists.txt
+Hunk #1 succeeded at 39 (offset 2 lines).
+patching file tools/clang/lib/SPIRV/CMakeLists.txt
+Hunk #1 succeeded at 40 (offset 1 line).
+patching file tools/clang/tools/dxc/CMakeLists.txt
+patching file tools/clang/tools/dxclib/CMakeLists.txt
++ echo 'Patch #3500 (alt-loongarch64.patch):'
+Patch #3500 (alt-loongarch64.patch):
++ /usr/bin/patch -p1
+patching file cmake/config-ix.cmake
++ cp -aLt autoconf -- /usr/share/automake/config.guess /usr/share/automake/config.sub
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.93899
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd DirectXShaderCompiler-1.8.2403
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux -GNinja -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=c++ -DSPIRV-Headers_SOURCE_DIR=/usr -DSPIRV_BUILD_TESTS=OFF -C ./cmake/caches/PredefinedParams.cmake
+loading initial cache file ./cmake/caches/PredefinedParams.cmake
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:26 (cmake_policy):
+  Policy CMP0051 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.1.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0051 for more information.
+
+
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for dirent.h
+Problem opening /proc/meminfo
+-- Looking for dirent.h - found
+-- Looking for dlfcn.h
+Problem opening /proc/meminfo
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+Problem opening /proc/meminfo
+-- Looking for errno.h - found
+-- Looking for execinfo.h
+Problem opening /proc/meminfo
+-- Looking for execinfo.h - found
+-- Looking for fcntl.h
+Problem opening /proc/meminfo
+-- Looking for fcntl.h - found
+-- Looking for inttypes.h
+Problem opening /proc/meminfo
+-- Looking for inttypes.h - found
+-- Looking for limits.h
+Problem opening /proc/meminfo
+-- Looking for limits.h - found
+-- Looking for link.h
+Problem opening /proc/meminfo
+-- Looking for link.h - found
+-- Looking for malloc.h
+Problem opening /proc/meminfo
+-- Looking for malloc.h - found
+-- Looking for malloc/malloc.h
+Problem opening /proc/meminfo
+-- Looking for malloc/malloc.h - not found
+-- Looking for ndir.h
+Problem opening /proc/meminfo
+-- Looking for ndir.h - not found
+-- Looking for pthread.h
+Problem opening /proc/meminfo
+-- Looking for pthread.h - found
+-- Looking for signal.h
+Problem opening /proc/meminfo
+-- Looking for signal.h - found
+-- Looking for stdint.h
+Problem opening /proc/meminfo
+-- Looking for stdint.h - found
+-- Looking for sys/dir.h
+Problem opening /proc/meminfo
+-- Looking for sys/dir.h - found
+-- Looking for sys/ioctl.h
+Problem opening /proc/meminfo
+-- Looking for sys/ioctl.h - found
+-- Looking for sys/mman.h
+Problem opening /proc/meminfo
+-- Looking for sys/mman.h - found
+-- Looking for sys/ndir.h
+Problem opening /proc/meminfo
+-- Looking for sys/ndir.h - not found
+-- Looking for sys/param.h
+Problem opening /proc/meminfo
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+Problem opening /proc/meminfo
+-- Looking for sys/resource.h - found
+-- Looking for sys/stat.h
+Problem opening /proc/meminfo
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+Problem opening /proc/meminfo
+-- Looking for sys/time.h - found
+-- Looking for sys/uio.h
+Problem opening /proc/meminfo
+-- Looking for sys/uio.h - found
+-- Looking for sys/wait.h
+Problem opening /proc/meminfo
+-- Looking for sys/wait.h - found
+-- Looking for termios.h
+Problem opening /proc/meminfo
+-- Looking for termios.h - found
+-- Looking for unistd.h
+Problem opening /proc/meminfo
+-- Looking for unistd.h - found
+-- Looking for utime.h
+Problem opening /proc/meminfo
+-- Looking for utime.h - found
+-- Looking for valgrind/valgrind.h
+Problem opening /proc/meminfo
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for zlib.h
+Problem opening /proc/meminfo
+-- Looking for zlib.h - not found
+-- Looking for fenv.h
+Problem opening /proc/meminfo
+-- Looking for fenv.h - found
+-- Looking for FE_ALL_EXCEPT
+Problem opening /proc/meminfo
+-- Looking for FE_ALL_EXCEPT - found
+-- Looking for FE_INEXACT
+Problem opening /proc/meminfo
+-- Looking for FE_INEXACT - found
+-- Looking for mach/mach.h
+Problem opening /proc/meminfo
+-- Looking for mach/mach.h - not found
+-- Looking for mach-o/dyld.h
+Problem opening /proc/meminfo
+-- Looking for mach-o/dyld.h - not found
+-- Looking for histedit.h
+Problem opening /proc/meminfo
+-- Looking for histedit.h - not found
+-- Performing Test HAVE_CXXABI_H
+Problem opening /proc/meminfo
+-- Performing Test HAVE_CXXABI_H - Success
+-- Looking for pthread_create in pthread
+Problem opening /proc/meminfo
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_getspecific in pthread
+Problem opening /proc/meminfo
+-- Looking for pthread_getspecific in pthread - found
+-- Looking for pthread_rwlock_init in pthread
+Problem opening /proc/meminfo
+-- Looking for pthread_rwlock_init in pthread - found
+-- Looking for pthread_mutex_lock in pthread
+Problem opening /proc/meminfo
+-- Looking for pthread_mutex_lock in pthread - found
+-- Looking for dlopen in dl
+Problem opening /proc/meminfo
+-- Looking for dlopen in dl - found
+-- Looking for clock_gettime in rt
+Problem opening /proc/meminfo
+-- Looking for clock_gettime in rt - found
+-- Looking for compress2 in z
+Problem opening /proc/meminfo
+-- Looking for compress2 in z - not found
+-- Looking for arc4random
+Problem opening /proc/meminfo
+-- Looking for arc4random - found
+-- Looking for backtrace
+Problem opening /proc/meminfo
+-- Looking for backtrace - found
+-- Looking for getpagesize
+Problem opening /proc/meminfo
+-- Looking for getpagesize - found
+-- Looking for getrusage
+Problem opening /proc/meminfo
+-- Looking for getrusage - found
+-- Looking for setrlimit
+Problem opening /proc/meminfo
+-- Looking for setrlimit - found
+-- Looking for isatty
+Problem opening /proc/meminfo
+-- Looking for isatty - found
+-- Looking for futimens
+Problem opening /proc/meminfo
+-- Looking for futimens - found
+-- Looking for futimes
+Problem opening /proc/meminfo
+-- Looking for futimes - found
+-- Looking for writev
+Problem opening /proc/meminfo
+-- Looking for writev - found
+-- Looking for mallctl
+Problem opening /proc/meminfo
+-- Looking for mallctl - not found
+-- Looking for mallinfo
+Problem opening /proc/meminfo
+-- Looking for mallinfo - found
+-- Looking for mallinfo2
+Problem opening /proc/meminfo
+-- Looking for mallinfo2 - found
+-- Looking for malloc_zone_statistics
+Problem opening /proc/meminfo
+-- Looking for malloc_zone_statistics - not found
+-- Looking for mkdtemp
+Problem opening /proc/meminfo
+-- Looking for mkdtemp - found
+-- Looking for mkstemp
+Problem opening /proc/meminfo
+-- Looking for mkstemp - found
+-- Looking for mktemp
+Problem opening /proc/meminfo
+-- Looking for mktemp - found
+-- Looking for closedir
+Problem opening /proc/meminfo
+-- Looking for closedir - found
+-- Looking for opendir
+Problem opening /proc/meminfo
+-- Looking for opendir - found
+-- Looking for readdir
+Problem opening /proc/meminfo
+-- Looking for readdir - found
+-- Looking for getcwd
+Problem opening /proc/meminfo
+-- Looking for getcwd - found
+-- Looking for gettimeofday
+Problem opening /proc/meminfo
+-- Looking for gettimeofday - found
+-- Looking for getrlimit
+Problem opening /proc/meminfo
+-- Looking for getrlimit - found
+-- Looking for posix_spawn
+Problem opening /proc/meminfo
+-- Looking for posix_spawn - found
+-- Looking for pread
+Problem opening /proc/meminfo
+-- Looking for pread - found
+-- Looking for realpath
+Problem opening /proc/meminfo
+-- Looking for realpath - found
+-- Looking for sbrk
+Problem opening /proc/meminfo
+-- Looking for sbrk - found
+-- Looking for srand48
+Problem opening /proc/meminfo
+-- Looking for srand48 - found
+-- Looking for lrand48
+Problem opening /proc/meminfo
+-- Looking for lrand48 - found
+-- Looking for drand48
+Problem opening /proc/meminfo
+-- Looking for drand48 - found
+-- Looking for strtoll
+Problem opening /proc/meminfo
+-- Looking for strtoll - found
+-- Looking for strtoq
+Problem opening /proc/meminfo
+-- Looking for strtoq - found
+-- Looking for strerror
+Problem opening /proc/meminfo
+-- Looking for strerror - found
+-- Looking for strerror_r
+Problem opening /proc/meminfo
+-- Looking for strerror_r - found
+-- Looking for strerror_s
+Problem opening /proc/meminfo
+-- Looking for strerror_s - not found
+-- Looking for setenv
+Problem opening /proc/meminfo
+-- Looking for setenv - found
+-- Looking for dlerror
+Problem opening /proc/meminfo
+-- Looking for dlerror - found
+-- Looking for dlopen
+Problem opening /proc/meminfo
+-- Looking for dlopen - found
+-- Looking for __GLIBC__
+Problem opening /proc/meminfo
+-- Looking for __GLIBC__ - found
+-- Performing Test HAVE_INT64_T
+Problem opening /proc/meminfo
+-- Performing Test HAVE_INT64_T - Success
+-- Performing Test HAVE_UINT64_T
+Problem opening /proc/meminfo
+-- Performing Test HAVE_UINT64_T - Success
+-- Performing Test HAVE_U_INT64_T
+Problem opening /proc/meminfo
+-- Performing Test HAVE_U_INT64_T - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+Problem opening /proc/meminfo
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Performing Test LLVM_HAS_ATOMICS
+Problem opening /proc/meminfo
+-- Performing Test LLVM_HAS_ATOMICS - Success
+-- Performing Test SUPPORTS_NO_VARIADIC_MACROS_FLAG
+Problem opening /proc/meminfo
+-- Performing Test SUPPORTS_NO_VARIADIC_MACROS_FLAG - Success
+-- Performing Test HAS_MAYBE_UNINITIALIZED
+Problem opening /proc/meminfo
+-- Performing Test HAS_MAYBE_UNINITIALIZED - Success
+-- Target triple: x86_64-pc-linux-gnu
+-- Native target X86 is not selected; lli will not JIT code
+-- Threads enabled.
+-- Doxygen disabled.
+-- Sphinx disabled.
+-- Go bindings disabled.
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- Could NOT find OCaml (missing: OCAMLFIND OCAML_VERSION OCAML_STDLIB_PATH) 
+-- OCaml bindings disabled.
+-- Performing Test C_SUPPORTS_FPIC
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+Problem opening /proc/meminfo
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Performing Test C_SUPPORTS_UNUSED_BUT_SET_VARIABLE
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test CXX_SUPPORTS_UNUSED_BUT_SET_VARIABLE
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test C_SUPPORTS_DEPRECATED_COPY
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_DEPRECATED_COPY - Failed
+-- Performing Test CXX_SUPPORTS_DEPRECATED_COPY
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_DEPRECATED_COPY - Success
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG - Success
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP
+Problem opening /proc/meminfo
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_FNO_FUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_FFUNCTION_SECTIONS - Success
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test C_SUPPORTS_FDATA_SECTIONS - Success
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_FDATA_SECTIONS - Success
+CMake Warning (dev) at CMakeLists.txt:450 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.10", minimum required is "3")
+-- Constructing LLVMBuild project information
+CMake Warning at cmake/modules/HCT.cmake:8 (message):
+  Clang-format is not available.  Generating included sources is not
+  supported.
+Call Stack (most recent call first):
+  include/dxc/CMakeLists.txt:1 (include)
+
+
+Will generate dev build version based on current commit count
+/usr/src/RPM/BUILD/DirectXShaderCompiler-1.8.2403/x86_64-alt-linux/utils/version/version.inc
+CMake Deprecation Warning at tools/clang/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Clang version: 3.7.0
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG
+Problem opening /proc/meminfo
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG - Failed
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93899 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.93899 (%build)
+Command exited with non-zero status 1
+5.15user 5.29system 0:09.97elapsed 104%CPU (0avgtext+0avgdata 42300maxresident)k
+0inputs+0outputs (0major+910664minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `DirectXShaderCompiler-1.8.2403-alt0.3.src.rpm' failed.
+Command exited with non-zero status 1
+4.61user 3.33system 0:25.62elapsed 31%CPU (0avgtext+0avgdata 141900maxresident)k
+1224inputs+0outputs (0major+296724minor)pagefaults 0swaps

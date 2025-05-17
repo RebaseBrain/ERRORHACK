@@ -1,0 +1,161 @@
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaption::test_caption_with_markdown PASSED [  5%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaption::test_image_caption PASSED [  5%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaption::test_manual_prepend PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaption::test_nested_caption PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionClass::test_class_insertion PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionClass::test_class_insertion_existing_class PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionClass::test_class_insertion_existing_figure PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_caption PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_consecutive_captions PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_consecutive_captions PASSED [  6%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_depth PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_depth PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph FAILED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph FAILED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_inject_new_p_in_caption PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_inject_new_p_in_caption PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_manual_prepend PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_manual_prepend PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_nested_captions PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_nested_captions PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_nested_consecutive_captions PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_nested_consecutive_captions PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_caption PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_caption PASSED [  7%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_consecutive_captions PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_consecutive_captions PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_depth PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_depth PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph FAILED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph FAILED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_existing_fig_caption PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_existing_fig_caption PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_inject_new_p_in_caption PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_inject_new_p_in_caption PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_manual_number PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_manual_prepend PASSED [  8%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_mixed_captions PASSED [  9%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_nested_captions PASSED [  9%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_nested_captions_manual_id PASSED [  9%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_nested_consecutive_captions PASSED [  9%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoLevel::test_caption PASSED [  9%]
+tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoLevel::test_depth PASSED [  9%]
++++ Actual
+@@ -1,6 +1,6 @@
+@@ -1,6 +1,6 @@
+ <figure id="__figure-caption_1">
+ <figure id="__figure-caption_1">
+ <figure id="__figure-caption_1">
+ <p>Test</p>
+ <p>Test</p>
+ <p>Test</p>
+ <figcaption>
+ <figcaption>
+ <figcaption>
+ <figcaption>
+-<p><span class="caption-prefix">Figure 1.</span></p>
+-<p><span class="caption-prefix">Figure 1.</span></p>
+-<p><span class="caption-prefix">Figure 1.</span></p>
+-<p><span class="caption-prefix">Figure 1.</span></p>
+-<p><span class="caption-prefix">Figure 1.</span></p>
++<p><span class="caption-prefix">Figure 1.</span> </p>
++<p><span class="caption-prefix">Figure 1.</span> </p>
++<p><span class="caption-prefix">Figure 1.</span> </p>
++<p><span class="caption-prefix">Figure 1.</span> </p>
++<p><span class="caption-prefix">Figure 1.</span> </p>
+ </figcaption>
+ </figcaption>
+ </figcaption>
+ </figcaption>
+ </figcaption>
+ </figure>
+ </figure>
+ </figure>
+ </figure>
+ </figure>
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph
+FAILED tests/test_extensions/test_blocks/test_captions.py::TestBlocksCaptionAutoPrefix::test_empty_paragraph
+======================== 2 failed, 688 passed in 3.69s =========================
+======================== 2 failed, 688 passed in 3.69s =========================
+======================== 2 failed, 688 passed in 3.69s =========================
+======================== 2 failed, 688 passed in 3.69s =========================
+======================== 2 failed, 688 passed in 3.69s =========================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pymdown-extensions-10.14.3-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98485 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.95user 1.07system 0:06.96elapsed 100%CPU (0avgtext+0avgdata 113016maxresident)k
+5.95user 1.07system 0:06.96elapsed 100%CPU (0avgtext+0avgdata 113016maxresident)k
+5.95user 1.07system 0:06.96elapsed 100%CPU (0avgtext+0avgdata 113016maxresident)k
+5.95user 1.07system 0:06.96elapsed 100%CPU (0avgtext+0avgdata 113016maxresident)k
+0inputs+0outputs (0major+249407minor)pagefaults 0swaps
+0inputs+0outputs (0major+249407minor)pagefaults 0swaps
+0inputs+0outputs (0major+249407minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-pymdown-extensions-10.14.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pymdown-extensions-10.14.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pymdown-extensions-10.14.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.59user 3.11system 0:19.51elapsed 39%CPU (0avgtext+0avgdata 141884maxresident)k
+0inputs+0outputs (0major+301264minor)pagefaults 0swaps

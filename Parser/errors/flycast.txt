@@ -1,0 +1,140 @@
++ rm -rf core/deps/miniupnpc
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ rm -rf core/deps/patches
++ rm -rf core/deps/patches
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ rm -rf core/deps/SDL
++ rm -rf core/deps/SDL
++ rm -rf core/deps/SDL
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ rm -rf core/deps/vixl
++ rm -rf core/deps/vixl
++ rm -rf core/deps/vixl
++ rm -rf core/deps/vixl
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ for dep in chdr dirent libretro-common libzip miniupnpc patches SDL vixl xxHash
++ rm -rf core/deps/xxHash
++ rm -rf core/deps/xxHash
++ rm -rf core/deps/xxHash
++ rm -rf core/deps/xxHash
++ use '!alsa'
++ use '!alsa'
++ use '!alsa'
++ use '!alsa'
+/usr/src/tmp/rpm-tmp.94701: line 143: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 143: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 143: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 143: use: command not found
++ use '!ao'
++ use '!ao'
++ use '!ao'
++ use '!ao'
+/usr/src/tmp/rpm-tmp.94701: line 146: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 146: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 146: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 146: use: command not found
++ use '!lua'
++ use '!lua'
++ use '!lua'
++ use '!lua'
+/usr/src/tmp/rpm-tmp.94701: line 149: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 149: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 149: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 149: use: command not found
++ use '!pulseaudio'
++ use '!pulseaudio'
++ use '!pulseaudio'
++ use '!pulseaudio'
+/usr/src/tmp/rpm-tmp.94701: line 152: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 152: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 152: use: command not found
+/usr/src/tmp/rpm-tmp.94701: line 152: use: command not found
++ sed -i -e '/add_subdirectory(core\/deps\/glslang/{N;s/.*/find_library(GLSLANG libglslang.so)\nfind_library(SPIRV libSPIRV.so)\ntarget_link_libraries(${PROJECT_NAME} PRIVATE ${GLSLANG} ${SPIRV})/}' CMakeLists.txt
++ sed -i -e '/add_subdirectory(core\/deps\/glslang/{N;s/.*/find_library(GLSLANG libglslang.so)\nfind_library(SPIRV libSPIRV.so)\ntarget_link_libraries(${PROJECT_NAME} PRIVATE ${GLSLANG} ${SPIRV})/}' CMakeLists.txt
++ sed -i -e '/add_subdirectory(core\/deps\/glslang/{N;s/.*/find_library(GLSLANG libglslang.so)\nfind_library(SPIRV libSPIRV.so)\ntarget_link_libraries(${PROJECT_NAME} PRIVATE ${GLSLANG} ${SPIRV})/}' CMakeLists.txt
++ sed -i -e '/add_subdirectory(core\/deps\/glslang/{N;s/.*/find_library(GLSLANG libglslang.so)\nfind_library(SPIRV libSPIRV.so)\ntarget_link_libraries(${PROJECT_NAME} PRIVATE ${GLSLANG} ${SPIRV})/}' CMakeLists.txt
++ sed -i -e '/include.*SPIRV/{s:":<glslang/:;s/"/>/}' core/rend/vulkan/shaders.h core/rend/vulkan/compiler.cpp
++ sed -i -e '/include.*SPIRV/{s:":<glslang/:;s/"/>/}' core/rend/vulkan/shaders.h core/rend/vulkan/compiler.cpp
++ sed -i -e '/include.*SPIRV/{s:":<glslang/:;s/"/>/}' core/rend/vulkan/shaders.h core/rend/vulkan/compiler.cpp
++ sed -i -e '/include.*SPIRV/{s:":<glslang/:;s/"/>/}' core/rend/vulkan/shaders.h core/rend/vulkan/compiler.cpp
++ sed -i -e '/XXHASH_BUILD_XXHSUM/{N;N;s/.*/target_link_libraries(${PROJECT_NAME} PRIVATE xxhash)/}' CMakeLists.txt
++ sed -i -e '/XXHASH_BUILD_XXHSUM/{N;N;s/.*/target_link_libraries(${PROJECT_NAME} PRIVATE xxhash)/}' CMakeLists.txt
++ sed -i -e '/XXHASH_BUILD_XXHSUM/{N;N;s/.*/target_link_libraries(${PROJECT_NAME} PRIVATE xxhash)/}' CMakeLists.txt
++ sed -i -e '/XXHASH_BUILD_XXHSUM/{N;N;s/.*/target_link_libraries(${PROJECT_NAME} PRIVATE xxhash)/}' CMakeLists.txt
++ sed -i -e '/add_subdirectory.*chdr/d' -e s/chdr-static/chdr/ -e s:core/deps/chdr/include:/usr/include/chdr: CMakeLists.txt
++ sed -i -e '/add_subdirectory.*chdr/d' -e s/chdr-static/chdr/ -e s:core/deps/chdr/include:/usr/include/chdr: CMakeLists.txt
++ sed -i -e '/add_subdirectory.*chdr/d' -e s/chdr-static/chdr/ -e s:core/deps/chdr/include:/usr/include/chdr: CMakeLists.txt
++ sed -i -e '/add_subdirectory.*chdr/d' -e s/chdr-static/chdr/ -e s:core/deps/chdr/include:/usr/include/chdr: CMakeLists.txt
++ sed -i -e '/find_program(CCACHE_FOUND/d' CMakeLists.txt
++ sed -i -e '/find_program(CCACHE_FOUND/d' CMakeLists.txt
++ sed -i -e '/find_program(CCACHE_FOUND/d' CMakeLists.txt
++ sed -i -e /BUILD_SHARED_LIBS/d CMakeLists.txt
++ sed -i -e /BUILD_SHARED_LIBS/d CMakeLists.txt
++ sed -i -e /BUILD_SHARED_LIBS/d CMakeLists.txt
++ sed -i -e '/add_subdirectory(core.*Vulkan-Headers)$/,/Vulkan::Headers/d' -e '/core\/deps\/Vulkan-Headers\/include)/d' CMakeLists.txt
++ sed -i -e '/add_subdirectory(core.*Vulkan-Headers)$/,/Vulkan::Headers/d' -e '/core\/deps\/Vulkan-Headers\/include)/d' CMakeLists.txt
++ sed -i -e '/^1,$/d' core/rend/vulkan/compiler.cpp
++ sed -i -e '/^1,$/d' core/rend/vulkan/compiler.cpp
++ sed -i -e '/swapchainExtent = /{s/= /&static_cast<VkExtent2D>(/;s/;/);/}' core/rend/vulkan/vulkan_context.cpp
++ sed -i -e '/find_program(CCACHE_PROGRAM ccache)/d' CMakeLists.txt
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Target architecture: x86_64
+-- Found Git: /usr/bin/git (found version "2.42.4")
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+CMake Error at core/deps/glm/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94350 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94350 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.94350 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.94350 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.51user 1.39system 0:41.47elapsed 23%CPU (0avgtext+0avgdata 67180maxresident)k
+8.51user 1.39system 0:41.47elapsed 23%CPU (0avgtext+0avgdata 67180maxresident)k
+0inputs+0outputs (0major+91595minor)pagefaults 0swaps
+0inputs+0outputs (0major+91595minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `flycast-2.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `flycast-2.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.01user 2.95system 1:22.60elapsed 13%CPU (0avgtext+0avgdata 142276maxresident)k
+8.01user 2.95system 1:22.60elapsed 13%CPU (0avgtext+0avgdata 142276maxresident)k
+47424inputs+0outputs (0major+325197minor)pagefaults 0swaps

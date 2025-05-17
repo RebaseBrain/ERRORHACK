@@ -1,0 +1,582 @@
+<86>May 16 01:46:02 userdel[1582702]: delete user 'rooter'
+<86>May 16 01:46:02 userdel[1582702]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:46:02 userdel[1582702]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:46:02 groupadd[1582749]: group added to /etc/group: name=rooter, GID=1847
+<86>May 16 01:46:02 groupadd[1582749]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:46:02 groupadd[1582749]: new group: name=rooter, GID=1847
+<86>May 16 01:46:02 useradd[1582794]: new user: name=rooter, UID=1847, GID=1847, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:46:02 userdel[1582849]: delete user 'builder'
+<86>May 16 01:46:02 userdel[1582849]: removed group 'builder' owned by 'builder'
+<86>May 16 01:46:02 userdel[1582849]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:46:02 groupadd[1582881]: group added to /etc/group: name=builder, GID=1848
+<86>May 16 01:46:02 groupadd[1582881]: group added to /etc/gshadow: name=builder
+<86>May 16 01:46:02 groupadd[1582881]: new group: name=builder, GID=1848
+<86>May 16 01:46:02 useradd[1582903]: new user: name=builder, UID=1848, GID=1848, home=/usr/src, shell=/bin/bash, from=none
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/volpack-1.0c7-alt2.nosrc.rpm (w1.gzdio)
+Installing volpack-1.0c7-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.85631
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf volpack-1.0c7
++ echo 'Source #0 (volpack-1.0c7.tgz):'
+Source #0 (volpack-1.0c7.tgz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/volpack-1.0c7.tgz
++ /bin/tar -xf -
++ cd volpack-1.0c7
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (volpack-1.0c7-fedora-aarch64.patch):'
+Patch #0 (volpack-1.0c7-fedora-aarch64.patch):
++ /usr/bin/patch -p1
+patching file config.guess
+patching file config.sub
++ echo 'Patch #1 (volpack-1.0c7-fedora-c99.patch):'
+Patch #1 (volpack-1.0c7-fedora-c99.patch):
++ /usr/bin/patch -p1
+patching file examples/classifyvolume.c
+patching file examples/denfile.c
+patching file examples/makeoctree.c
+patching file examples/makevolume.c
+patching file examples/rendervolume.c
+patching file examples/scalevolume.c
+patching file src/makeopts.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.85631
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd volpack-1.0c7
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --disable-dependency-tracking --disable-static
+configure: WARNING: unrecognized options: --disable-silent-rules, --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... (cached) pass_all
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for x86_64-alt-linux-g++... no
+checking for x86_64-alt-linux-c++... no
+checking for x86_64-alt-linux-gpp... no
+checking for x86_64-alt-linux-aCC... no
+checking for x86_64-alt-linux-CC... no
+checking for x86_64-alt-linux-cxx... no
+checking for x86_64-alt-linux-cc++... no
+checking for x86_64-alt-linux-cl.exe... no
+checking for x86_64-alt-linux-FCC... no
+checking for x86_64-alt-linux-KCC... no
+checking for x86_64-alt-linux-RCC... no
+checking for x86_64-alt-linux-xlC_r... no
+checking for x86_64-alt-linux-xlC... no
+checking for g++... no
+checking for c++... no
+checking for gpp... no
+checking for aCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for cl.exe... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking whether we are using the GNU C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking for x86_64-alt-linux-g77... no
+checking for x86_64-alt-linux-xlf... no
+checking for x86_64-alt-linux-f77... no
+checking for x86_64-alt-linux-frt... no
+checking for x86_64-alt-linux-pgf77... no
+checking for x86_64-alt-linux-cf77... no
+checking for x86_64-alt-linux-fort77... no
+checking for x86_64-alt-linux-fl32... no
+checking for x86_64-alt-linux-af77... no
+checking for x86_64-alt-linux-xlf90... no
+checking for x86_64-alt-linux-f90... no
+checking for x86_64-alt-linux-pgf90... no
+checking for x86_64-alt-linux-pghpf... no
+checking for x86_64-alt-linux-epcf90... no
+checking for x86_64-alt-linux-gfortran... no
+checking for x86_64-alt-linux-g95... no
+checking for x86_64-alt-linux-xlf95... no
+checking for x86_64-alt-linux-f95... no
+checking for x86_64-alt-linux-fort... no
+checking for x86_64-alt-linux-ifort... no
+checking for x86_64-alt-linux-ifc... no
+checking for x86_64-alt-linux-efc... no
+checking for x86_64-alt-linux-pgf95... no
+checking for x86_64-alt-linux-lf95... no
+checking for x86_64-alt-linux-ftn... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking for native Win32... no
+checking for Win32 platform in general... no
+checking for gnum4... no
+checking for gm4... no
+checking for m4... /usr/bin/m4
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for vprintf... yes
+checking for _doprnt... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating man/Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating etc/Makefile
+config.status: creating etc/volpack.spec
+config.status: creating etc/volpack-1.0c7-1.info
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-silent-rules, --without-included-gettext
+Moving SPEC file to base directory
++ make
+make: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make  all-recursive
+make[1]: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+Making all in etc
+make[2]: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7/etc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/etc'
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7/src'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_check.lo vp_check.c
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_check.c  -fPIC -DPIC -o .libs/vp_check.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_context.lo vp_context.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_context.c  -fPIC -DPIC -o .libs/vp_context.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_extract.lo vp_extract.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_extract.c  -fPIC -DPIC -o .libs/vp_extract.o
+vp_extract.c: In function 'VPShadeBlock':
+vp_extract.c:444:9: warning: variable 'color_channels' set but not used [-Wunused-but-set-variable]
+  444 |     int color_channels;
+      |         ^~~~~~~~~~~~~~
+vp_extract.c: In function 'ExtractClassifiedVolume':
+vp_extract.c:612:21: warning: variable 'klen' set but not used [-Wunused-but-set-variable]
+  612 |     int ilen, jlen, klen;       /* volume size */
+      |                     ^~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_file.lo vp_file.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_file.c  -fPIC -DPIC -o .libs/vp_file.o
+vp_file.c: In function 'vpLoadContext':
+vp_file.c:1141:9: warning: variable 'swab' set but not used [-Wunused-but-set-variable]
+ 1141 |     int swab, i;
+      |         ^~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_linalg.lo vp_linalg.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_linalg.c  -fPIC -DPIC -o .libs/vp_linalg.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_octree.lo vp_octree.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_octree.c  -fPIC -DPIC -o .libs/vp_octree.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_renderA.lo vp_renderA.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_renderA.c  -fPIC -DPIC -o .libs/vp_renderA.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_renderB.lo vp_renderB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_renderB.c  -fPIC -DPIC -o .libs/vp_renderB.o
+vp_renderB.c:347:1: warning: 'ScaleColors' defined but not used [-Wunused-function]
+  347 | ScaleColors(scale, clr_slice, width, height, color_channels)
+      | ^~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_renderC.lo vp_renderC.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_renderC.c  -fPIC -DPIC -o .libs/vp_renderC.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_renderR.lo vp_renderR.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_renderR.c  -fPIC -DPIC -o .libs/vp_renderR.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_resample.lo vp_resample.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_resample.c  -fPIC -DPIC -o .libs/vp_resample.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_rle.lo vp_rle.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_rle.c  -fPIC -DPIC -o .libs/vp_rle.o
+vp_rle.c: In function 'vpClassifyVolume':
+vp_rle.c:157:9: warning: variable 'xlen' set but not used [-Wunused-but-set-variable]
+  157 |     int xlen, ylen, zlen;       /* volume dimensions */
+      |         ^~~~
+vp_rle.c: In function 'EncodeScanline':
+vp_rle.c:250:9: warning: variable 'skip_rle_z' set but not used [-Wunused-but-set-variable]
+  250 |     int skip_rle_z;             /* if true, do not compute rle_z */
+      |         ^~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_shade.lo vp_shade.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_shade.c  -fPIC -DPIC -o .libs/vp_shade.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_transpose.lo vp_transpose.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_transpose.c  -fPIC -DPIC -o .libs/vp_transpose.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_util.lo vp_util.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_util.c  -fPIC -DPIC -o .libs/vp_util.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_view.lo vp_view.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_view.c  -fPIC -DPIC -o .libs/vp_view.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warp.lo vp_warp.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warp.c  -fPIC -DPIC -o .libs/vp_warp.o
+vp_warp.c: In function 'VPComputeWarpTables':
+vp_warp.c:77:18: warning: operation on 'wptr' may be undefined [-Wsequence-point]
+   77 |             *wptr++ = 1. - wptr[-1] - wptr[-2] - wptr[-3];
+      |              ~~~~^~
+vp_warp.c:77:18: warning: operation on 'wptr' may be undefined [-Wsequence-point]
+vp_warp.c:77:18: warning: operation on 'wptr' may be undefined [-Wsequence-point]
+x86_64-alt-linux-gcc -o makeopts makeopts.c
+./makeopts vp_opts.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_opts.lo vp_opts.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_opts.c  -fPIC -DPIC -o .libs/vp_opts.o
+/usr/bin/m4 -DSourceFile=vp_compAC1NB.c no_edit_header vp_compA.m4 > vp_compAC1NB.c
+/usr/bin/m4 -DSourceFile=vp_compAC3NB.c no_edit_header vp_compA.m4 > vp_compAC3NB.c
+/usr/bin/m4 -DSourceFile=vp_compAR1NB.c no_edit_header vp_compA.m4 > vp_compAR1NB.c
+/usr/bin/m4 -DSourceFile=vp_compAR3NB.c no_edit_header vp_compA.m4 > vp_compAR3NB.c
+/usr/bin/m4 -DSourceFile=vp_compAC1PB.c no_edit_header vp_compA.m4 > vp_compAC1PB.c
+/usr/bin/m4 -DSourceFile=vp_compAC3PB.c no_edit_header vp_compA.m4 > vp_compAC3PB.c
+/usr/bin/m4 -DSourceFile=vp_compAR1PB.c no_edit_header vp_compA.m4 > vp_compAR1PB.c
+/usr/bin/m4 -DSourceFile=vp_compAR3PB.c no_edit_header vp_compA.m4 > vp_compAR3PB.c
+/usr/bin/m4 -DSourceFile=vp_compAC00G.c no_edit_header vp_compA.m4 > vp_compAC00G.c
+/usr/bin/m4 -DSourceFile=vp_compAR00G.c no_edit_header vp_compA.m4 > vp_compAR00G.c
+/usr/bin/m4 -DSourceFile=vp_compAC1NS.c no_edit_header vp_compA.m4 > vp_compAC1NS.c
+/usr/bin/m4 -DSourceFile=vp_compAC3NS.c no_edit_header vp_compA.m4 > vp_compAC3NS.c
+/usr/bin/m4 -DSourceFile=vp_compAR1NS.c no_edit_header vp_compA.m4 > vp_compAR1NS.c
+/usr/bin/m4 -DSourceFile=vp_compAR3NS.c no_edit_header vp_compA.m4 > vp_compAR3NS.c
+/usr/bin/m4 -DSourceFile=vp_compAC11B.c no_edit_header vp_compA.m4 > vp_compAC11B.c
+/usr/bin/m4 -DSourceFile=vp_compAC31B.c no_edit_header vp_compA.m4 > vp_compAC31B.c
+/usr/bin/m4 -DSourceFile=vp_compAC32B.c no_edit_header vp_compA.m4 > vp_compAC32B.c
+/usr/bin/m4 -DSourceFile=vp_compAR11B.c no_edit_header vp_compA.m4 > vp_compAR11B.c
+/usr/bin/m4 -DSourceFile=vp_compAR31B.c no_edit_header vp_compA.m4 > vp_compAR31B.c
+/usr/bin/m4 -DSourceFile=vp_compAR32B.c no_edit_header vp_compA.m4 > vp_compAR32B.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC1NB.lo vp_compAC1NB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC1NB.c  -fPIC -DPIC -o .libs/vp_compAC1NB.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC3NB.lo vp_compAC3NB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC3NB.c  -fPIC -DPIC -o .libs/vp_compAC3NB.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR1NB.lo vp_compAR1NB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR1NB.c  -fPIC -DPIC -o .libs/vp_compAR1NB.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR3NB.lo vp_compAR3NB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR3NB.c  -fPIC -DPIC -o .libs/vp_compAR3NB.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC1PB.lo vp_compAC1PB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC1PB.c  -fPIC -DPIC -o .libs/vp_compAC1PB.o
+vp_compAC1PB.c: In function 'VPCompAC1PB':
+vp_compAC1PB.c:300:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  300 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAC1PB.c:299:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  299 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAC1PB.c:298:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  298 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC3PB.lo vp_compAC3PB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC3PB.c  -fPIC -DPIC -o .libs/vp_compAC3PB.o
+vp_compAC3PB.c: In function 'VPCompAC3PB':
+vp_compAC3PB.c:300:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  300 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAC3PB.c:299:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  299 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAC3PB.c:298:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  298 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR1PB.lo vp_compAR1PB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR1PB.c  -fPIC -DPIC -o .libs/vp_compAR1PB.o
+vp_compAR1PB.c: In function 'VPCompAR1PB':
+vp_compAR1PB.c:301:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  301 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAR1PB.c:300:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  300 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAR1PB.c:299:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  299 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR3PB.lo vp_compAR3PB.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR3PB.c  -fPIC -DPIC -o .libs/vp_compAR3PB.o
+vp_compAR3PB.c: In function 'VPCompAR3PB':
+vp_compAR3PB.c:301:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  301 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAR3PB.c:300:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  300 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAR3PB.c:299:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  299 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC00G.lo vp_compAC00G.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC00G.c  -fPIC -DPIC -o .libs/vp_compAC00G.o
+vp_compAC00G.c: In function 'VPCompAC00G':
+vp_compAC00G.c:308:12: warning: variable 'num_materials' set but not used [-Wunused-but-set-variable]
+  308 |     int m, num_materials;
+      |            ^~~~~~~~~~~~~
+vp_compAC00G.c:308:9: warning: unused variable 'm' [-Wunused-variable]
+  308 |     int m, num_materials;
+      |         ^
+vp_compAC00G.c:307:9: warning: unused variable 'weight_index' [-Wunused-variable]
+  307 |     int weight_index;           /* weight index */
+      |         ^~~~~~~~~~~~
+vp_compAC00G.c:306:9: warning: variable 'wgt_offset' set but not used [-Wunused-but-set-variable]
+  306 |     int wgt_offset;             /* byte offset to weight table index */
+      |         ^~~~~~~~~~
+vp_compAC00G.c:305:12: warning: variable 'weight_table' set but not used [-Wunused-but-set-variable]
+  305 |     float *weight_table;        /* weight lookup table */
+      |            ^~~~~~~~~~~~
+vp_compAC00G.c:301:11: warning: unused variable 'shade_factor' [-Wunused-variable]
+  301 |     float shade_factor;         /* attenuation factor for color
+      |           ^~~~~~~~~~~~
+vp_compAC00G.c:300:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  300 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAC00G.c:299:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  299 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAC00G.c:298:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  298 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+vp_compAC00G.c:293:11: warning: variable 'slice_depth_cueing' set but not used [-Wunused-but-set-variable]
+  293 |     float slice_depth_cueing;   /* depth cueing factor for slice */
+      |           ^~~~~~~~~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR00G.lo vp_compAR00G.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR00G.c  -fPIC -DPIC -o .libs/vp_compAR00G.o
+vp_compAR00G.c: In function 'VPCompAR00G':
+vp_compAR00G.c:309:12: warning: variable 'num_materials' set but not used [-Wunused-but-set-variable]
+  309 |     int m, num_materials;
+      |            ^~~~~~~~~~~~~
+vp_compAR00G.c:309:9: warning: unused variable 'm' [-Wunused-variable]
+  309 |     int m, num_materials;
+      |         ^
+vp_compAR00G.c:308:9: warning: unused variable 'weight_index' [-Wunused-variable]
+  308 |     int weight_index;           /* weight index */
+      |         ^~~~~~~~~~~~
+vp_compAR00G.c:307:9: warning: variable 'wgt_offset' set but not used [-Wunused-but-set-variable]
+  307 |     int wgt_offset;             /* byte offset to weight table index */
+      |         ^~~~~~~~~~
+vp_compAR00G.c:306:12: warning: variable 'weight_table' set but not used [-Wunused-but-set-variable]
+  306 |     float *weight_table;        /* weight lookup table */
+      |            ^~~~~~~~~~~~
+vp_compAR00G.c:302:11: warning: unused variable 'shade_factor' [-Wunused-variable]
+  302 |     float shade_factor;         /* attenuation factor for color
+      |           ^~~~~~~~~~~~
+vp_compAR00G.c:301:9: warning: unused variable 'shade_index' [-Wunused-variable]
+  301 |     int shade_index;            /* shade index */
+      |         ^~~~~~~~~~~
+vp_compAR00G.c:300:9: warning: variable 'norm_offset' set but not used [-Wunused-but-set-variable]
+  300 |     int norm_offset;            /* byte offset to shade table index in voxel */
+      |         ^~~~~~~~~~~
+vp_compAR00G.c:299:12: warning: variable 'shade_table' set but not used [-Wunused-but-set-variable]
+  299 |     float *shade_table;         /* shade lookup table */
+      |            ^~~~~~~~~~~
+vp_compAR00G.c:294:11: warning: variable 'slice_depth_cueing' set but not used [-Wunused-but-set-variable]
+  294 |     float slice_depth_cueing;   /* depth cueing factor for slice */
+      |           ^~~~~~~~~~~~~~~~~~
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC1NS.lo vp_compAC1NS.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC1NS.c  -fPIC -DPIC -o .libs/vp_compAC1NS.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC3NS.lo vp_compAC3NS.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC3NS.c  -fPIC -DPIC -o .libs/vp_compAC3NS.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR1NS.lo vp_compAR1NS.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR1NS.c  -fPIC -DPIC -o .libs/vp_compAR1NS.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR3NS.lo vp_compAR3NS.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR3NS.c  -fPIC -DPIC -o .libs/vp_compAR3NS.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC11B.lo vp_compAC11B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC11B.c  -fPIC -DPIC -o .libs/vp_compAC11B.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC31B.lo vp_compAC31B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC31B.c  -fPIC -DPIC -o .libs/vp_compAC31B.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAC32B.lo vp_compAC32B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAC32B.c  -fPIC -DPIC -o .libs/vp_compAC32B.o
+vp_compAC32B.c: In function 'VPCompAC32B':
+vp_compAC32B.c:308:12: warning: variable 'num_materials' set but not used [-Wunused-but-set-variable]
+  308 |     int m, num_materials;
+      |            ^~~~~~~~~~~~~
+vp_compAC32B.c:308:9: warning: unused variable 'm' [-Wunused-variable]
+  308 |     int m, num_materials;
+      |         ^
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR11B.lo vp_compAR11B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR11B.c  -fPIC -DPIC -o .libs/vp_compAR11B.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR31B.lo vp_compAR31B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR31B.c  -fPIC -DPIC -o .libs/vp_compAR31B.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_compAR32B.lo vp_compAR32B.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_compAR32B.c  -fPIC -DPIC -o .libs/vp_compAR32B.o
+vp_compAR32B.c: In function 'VPCompAR32B':
+vp_compAR32B.c:309:12: warning: variable 'num_materials' set but not used [-Wunused-but-set-variable]
+  309 |     int m, num_materials;
+      |            ^~~~~~~~~~~~~
+vp_compAR32B.c:309:9: warning: unused variable 'm' [-Wunused-variable]
+  309 |     int m, num_materials;
+      |         ^
+/usr/bin/m4 -DSourceFile=vp_warpA101N.c no_edit_header vp_warpA.m4 > vp_warpA101N.c
+/usr/bin/m4 -DSourceFile=vp_warpA301N.c no_edit_header vp_warpA.m4 > vp_warpA301N.c
+/usr/bin/m4 -DSourceFile=vp_warpA110N.c no_edit_header vp_warpA.m4 > vp_warpA110N.c
+/usr/bin/m4 -DSourceFile=vp_warpA111N.c no_edit_header vp_warpA.m4 > vp_warpA111N.c
+/usr/bin/m4 -DSourceFile=vp_warpA330N.c no_edit_header vp_warpA.m4 > vp_warpA330N.c
+/usr/bin/m4 -DSourceFile=vp_warpA331N.c no_edit_header vp_warpA.m4 > vp_warpA331N.c
+/usr/bin/m4 -DSourceFile=vp_warpA330R.c no_edit_header vp_warpA.m4 > vp_warpA330R.c
+/usr/bin/m4 -DSourceFile=vp_warpA331R.c no_edit_header vp_warpA.m4 > vp_warpA331R.c
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA101N.lo vp_warpA101N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA101N.c  -fPIC -DPIC -o .libs/vp_warpA101N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA301N.lo vp_warpA301N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA301N.c  -fPIC -DPIC -o .libs/vp_warpA301N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA110N.lo vp_warpA110N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA110N.c  -fPIC -DPIC -o .libs/vp_warpA110N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA111N.lo vp_warpA111N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA111N.c  -fPIC -DPIC -o .libs/vp_warpA111N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA330N.lo vp_warpA330N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA330N.c  -fPIC -DPIC -o .libs/vp_warpA330N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA331N.lo vp_warpA331N.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA331N.c  -fPIC -DPIC -o .libs/vp_warpA331N.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA330R.lo vp_warpA330R.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA330R.c  -fPIC -DPIC -o .libs/vp_warpA330R.o
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o vp_warpA331R.lo vp_warpA331R.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DCOMP_AC11B -DCOMP_AC31B -DCOMP_AC32B -DCOMP_AR11B -DCOMP_AR31B -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c vp_warpA331R.c  -fPIC -DPIC -o .libs/vp_warpA331R.o
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc -DCOMP_AC11B   -DCOMP_AC31B   -DCOMP_AC32B -DCOMP_AR11B   -DCOMP_AR31B   -DCOMP_AR32B -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -version-info 1:4:0   -o libvolpack.la -rpath /usr/lib64 vp_check.lo vp_context.lo vp_extract.lo vp_file.lo vp_linalg.lo vp_octree.lo vp_renderA.lo vp_renderB.lo vp_renderC.lo vp_renderR.lo vp_resample.lo vp_rle.lo vp_shade.lo vp_transpose.lo vp_util.lo vp_view.lo vp_warp.lo vp_opts.lo vp_compAC1NB.lo vp_compAC3NB.lo vp_compAR1NB.lo vp_compAR3NB.lo vp_compAC1PB.lo vp_compAC3PB.lo vp_compAR1PB.lo vp_compAR3PB.lo vp_compAC00G.lo vp_compAR00G.lo vp_compAC1NS.lo vp_compAC3NS.lo vp_compAR1NS.lo vp_compAR3NS.lo vp_compAC11B.lo vp_compAC31B.lo vp_compAC32B.lo vp_compAR11B.lo vp_compAR31B.lo vp_compAR32B.lo vp_warpA101N.lo vp_warpA301N.lo vp_warpA110N.lo vp_warpA111N.lo vp_warpA330N.lo vp_warpA331N.lo vp_warpA330R.lo vp_warpA331R.lo  
+x86_64-alt-linux-gcc -shared  .libs/vp_check.o .libs/vp_context.o .libs/vp_extract.o .libs/vp_file.o .libs/vp_linalg.o .libs/vp_octree.o .libs/vp_renderA.o .libs/vp_renderB.o .libs/vp_renderC.o .libs/vp_renderR.o .libs/vp_resample.o .libs/vp_rle.o .libs/vp_shade.o .libs/vp_transpose.o .libs/vp_util.o .libs/vp_view.o .libs/vp_warp.o .libs/vp_opts.o .libs/vp_compAC1NB.o .libs/vp_compAC3NB.o .libs/vp_compAR1NB.o .libs/vp_compAR3NB.o .libs/vp_compAC1PB.o .libs/vp_compAC3PB.o .libs/vp_compAR1PB.o .libs/vp_compAR3PB.o .libs/vp_compAC00G.o .libs/vp_compAR00G.o .libs/vp_compAC1NS.o .libs/vp_compAC3NS.o .libs/vp_compAR1NS.o .libs/vp_compAR3NS.o .libs/vp_compAC11B.o .libs/vp_compAC31B.o .libs/vp_compAC32B.o .libs/vp_compAR11B.o .libs/vp_compAR31B.o .libs/vp_compAR32B.o .libs/vp_warpA101N.o .libs/vp_warpA301N.o .libs/vp_warpA110N.o .libs/vp_warpA111N.o .libs/vp_warpA330N.o .libs/vp_warpA331N.o .libs/vp_warpA330R.o .libs/vp_warpA331R.o   -Wl,-soname -Wl,libvolpack.so.1 -o .libs/libvolpack.so.1.0.4
+(cd .libs && rm -f libvolpack.so.1 && ln -s libvolpack.so.1.0.4 libvolpack.so.1)
+(cd .libs && rm -f libvolpack.so && ln -s libvolpack.so.1.0.4 libvolpack.so)
+creating libvolpack.la
+(cd .libs && rm -f libvolpack.la && ln -s ../libvolpack.la libvolpack.la)
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/src'
+Making all in man
+make[2]: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/man'
+Making all in examples
+make[2]: Entering directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c makevolume.c
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -L../src  -o makevolume makevolume.o -lvolpack -lm 
+mkdir .libs
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/makevolume makevolume.o  -L/usr/src/RPM/BUILD/volpack-1.0c7/src /usr/src/RPM/BUILD/volpack-1.0c7/src/.libs/libvolpack.so -lm 
+creating makevolume
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c makeoctree.c
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -L../src  -o makeoctree makeoctree.o -lvolpack -lm 
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/makeoctree makeoctree.o  -L/usr/src/RPM/BUILD/volpack-1.0c7/src /usr/src/RPM/BUILD/volpack-1.0c7/src/.libs/libvolpack.so -lm 
+creating makeoctree
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c classifyvolume.c
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -L../src  -o classifyvolume classifyvolume.o -lvolpack -lm 
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/classifyvolume classifyvolume.o  -L/usr/src/RPM/BUILD/volpack-1.0c7/src /usr/src/RPM/BUILD/volpack-1.0c7/src/.libs/libvolpack.so -lm 
+creating classifyvolume
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c rendervolume.c
+rendervolume.c: In function 'main':
+rendervolume.c:210:18: error: passing argument 1 of 'StorePGM' from incompatible pointer type [-Wincompatible-pointer-types]
+  210 |         StorePGM(image, IMAGE_WIDTH, IMAGE_HEIGHT, filename);
+      |                  ^~~~~
+      |                  |
+      |                  unsigned char (*)[256]
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+      |               ~~~~~~^~~~~
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: *** [Makefile:202: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+Command exited with non-zero status 1
+9.06user 5.96system 0:11.47elapsed 131%CPU (0avgtext+0avgdata 85588maxresident)k
+0inputs+0outputs (0major+1106446minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `volpack-1.0c7-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+3.41user 2.49system 0:19.42elapsed 30%CPU (0avgtext+0avgdata 136244maxresident)k
+0inputs+0outputs (0major+130572minor)pagefaults 0swaps

@@ -1,0 +1,833 @@
+   22 | Py_DEPRECATED(3.12) PyAPI_DATA(const char *) Py_FileSystemDefaultEncoding;
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+gcc -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC= __attribute__ ((visibility ("default"))) PyObject*' -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/utils/matcher.c -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/matcher/matcher.o
+
+
+gcc -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC= __attribute__ ((visibility ("default"))) PyObject*' -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/library/sqlite_custom.c -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/sqlite_custom/sqlite_custom.o
+gcc -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC= __attribute__ ((visibility ("default"))) PyObject*' -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/library/sqlite_custom.c -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/sqlite_custom/sqlite_custom.o
+
+
+g++ -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC=extern "C" __attribute__ ((visibility ("default"))) PyObject*' -std=c++14 -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/sqlite_extension/sqlite_extension.o
+g++ -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC=extern "C" __attribute__ ((visibility ("default"))) PyObject*' -std=c++14 -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/sqlite_extension/sqlite_extension.o
+g++ -Wall -DNDEBUG -fno-strict-aliasing -pipe -O3 -fPIC -fvisibility=hidden -pthread -I/usr/include/python3.12 '-DCALIBRE_MODINIT_FUNC=extern "C" __attribute__ ((visibility ("default"))) PyObject*' -std=c++14 -c /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp -o /usr/src/RPM/BUILD/calibre-7.5.1/build/objects/sqlite_extension/sqlite_extension.o
+In file included from /usr/include/unicode/unistr.h:37,
+In file included from /usr/include/unicode/unistr.h:37,
+In file included from /usr/include/unicode/unistr.h:37,
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:19:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:19:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:19:
+/usr/include/unicode/char16ptr.h:317:10: error: ‘is_convertible_v’ is not a member of ‘std’; did you mean ‘is_convertible’?
+/usr/include/unicode/char16ptr.h:317:10: error: ‘is_convertible_v’ is not a member of ‘std’; did you mean ‘is_convertible’?
+/usr/include/unicode/char16ptr.h:317:10: error: ‘is_convertible_v’ is not a member of ‘std’; did you mean ‘is_convertible’?
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+      |          ^~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~
+      |          is_convertible
+      |          is_convertible
+      |          is_convertible
+      |          is_convertible
+/usr/include/unicode/char16ptr.h:317:28: error: expected primary-expression before ‘,’ token
+/usr/include/unicode/char16ptr.h:317:28: error: expected primary-expression before ‘,’ token
+/usr/include/unicode/char16ptr.h:317:28: error: expected primary-expression before ‘,’ token
+/usr/include/unicode/char16ptr.h:317:28: error: expected primary-expression before ‘,’ token
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+  317 |     std::is_convertible_v<T, std::u16string_view>
+      |                            ^
+      |                            ^
+      |                            ^
+      |                            ^
+      |                            ^
+/usr/include/unicode/char16ptr.h:331:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:331:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:331:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:331:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:331:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+  331 | inline std::u16string_view toU16StringView(std::u16string_view sv) { return sv; }
+  331 | inline std::u16string_view toU16StringView(std::u16string_view sv) { return sv; }
+  331 | inline std::u16string_view toU16StringView(std::u16string_view sv) { return sv; }
+  331 | inline std::u16string_view toU16StringView(std::u16string_view sv) { return sv; }
+  331 | inline std::u16string_view toU16StringView(std::u16string_view sv) { return sv; }
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+/usr/include/unicode/char16ptr.h:339:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:339:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:339:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:339:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:339:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+  339 | inline std::u16string_view toU16StringView(std::basic_string_view<uint16_t> sv) {
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:360:54: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      ^~~~~~~~~~~~
+      |                                                      is_pointer
+      |                                                      is_pointer
+      |                                                      is_pointer
+      |                                                      is_pointer
+      |                                                      is_pointer
+      |                                                      is_pointer
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:360:92: error: template argument 1 is invalid
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+      |                                                                                            ^~
+      |                                                                                            ^~
+      |                                                                                            ^~
+      |                                                                                            ^~
+      |                                                                                            ^~
+      |                                                                                            ^~
+      |                                                                                            ^~
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected identifier before ‘>>’ token
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+  360 |           typename = typename std::enable_if_t<!std::is_pointer_v<std::remove_reference_t<T>>>>
+      |                                                                                              ^~
+      |                                                                                              ^~
+      |                                                                                              ^~
+      |                                                                                              ^~
+      |                                                                                              ^~
+      |                                                                                              ^~
+      |                                                                                              ^~
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:360:94: error: expected ‘>’ before ‘>>’ token
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/char16ptr.h:361:13: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+  361 | inline std::u16string_view toU16StringViewNullable(const T& text) {
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+      |             u16string
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+/usr/include/unicode/char16ptr.h:370:53: error: ‘is_pointer_v’ is not a member of ‘std’; did you mean ‘is_pointer’?
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+      |                                                     is_pointer
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+/usr/include/unicode/char16ptr.h:370:91: error: template argument 1 is invalid
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+      |                                                                                           ^~
+      |                                                                                           ^~
+      |                                                                                           ^~
+      |                                                                                           ^~
+      |                                                                                           ^~
+      |                                                                                           ^~
+/usr/include/unicode/char16ptr.h:370:93: error: expected identifier before ‘>’ token
+/usr/include/unicode/char16ptr.h:370:93: error: expected identifier before ‘>’ token
+/usr/include/unicode/char16ptr.h:370:93: error: expected identifier before ‘>’ token
+/usr/include/unicode/char16ptr.h:370:93: error: expected identifier before ‘>’ token
+/usr/include/unicode/char16ptr.h:370:93: error: expected identifier before ‘>’ token
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+      |                                                                                             ^
+      |                                                                                             ^
+      |                                                                                             ^
+      |                                                                                             ^
+      |                                                                                             ^
+      |                                                                                             ^
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+/usr/include/unicode/char16ptr.h:370:94: error: expected unqualified-id before ‘,’ token
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+  370 |           typename = typename std::enable_if_t<std::is_pointer_v<std::remove_reference_t<T>>>,
+      |                                                                                              ^
+      |                                                                                              ^
+      |                                                                                              ^
+      |                                                                                              ^
+      |                                                                                              ^
+      |                                                                                              ^
+In file included from /usr/include/unicode/unistr.h:40:
+In file included from /usr/include/unicode/unistr.h:40:
+In file included from /usr/include/unicode/unistr.h:40:
+In file included from /usr/include/unicode/unistr.h:40:
+In file included from /usr/include/unicode/unistr.h:40:
+In file included from /usr/include/unicode/unistr.h:40:
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+/usr/include/unicode/stringpiece.h:135:23: error: ‘is_same_v’ is not a member of ‘std’; did you mean ‘is_same’?
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       ^~~~~~~~~
+      |                       is_same
+      |                       is_same
+      |                       is_same
+      |                       is_same
+      |                       is_same
+      |                       is_same
+      |                       is_same
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+/usr/include/unicode/stringpiece.h:135:66: error: template argument 1 is invalid
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+  135 |                 (std::is_same_v<decltype(T().data()), const char*>
+      |                                                                  ^
+      |                                                                  ^
+      |                                                                  ^
+      |                                                                  ^
+      |                                                                  ^
+      |                                                                  ^
+      |                                                                  ^
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected ‘>’ before ‘)’ token
+  139 |                 ) &&
+  139 |                 ) &&
+  139 |                 ) &&
+  139 |                 ) &&
+  139 |                 ) &&
+  139 |                 ) &&
+  139 |                 ) &&
+      |                 ^
+      |                 ^
+      |                 ^
+      |                 ^
+      |                 ^
+      |                 ^
+      |                 ^
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:139:17: error: expected unqualified-id before ‘)’ token
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+/usr/include/unicode/stringpiece.h:185:19: error: expected type-specifier
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+  185 |   inline operator std::string_view() const {
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+/usr/include/unicode/unistr.h:3035:19: error: expected type-specifier
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+ 3035 |   inline operator std::u16string_view() const {
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+      |                   ^~~
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3755:60: error: ‘std::u16string_view’ has not been declared
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+ 3755 |   static UnicodeString readOnlyAliasFromU16StringView(std::u16string_view text);
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3871:64: error: ‘std::u16string_view’ has not been declared
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+ 3871 |   UnicodeString& doReplace(int32_t start, int32_t length, std::u16string_view src);
+      |                                                                ^~~~~~~~~~~~~~
+      |                                                                ^~~~~~~~~~~~~~
+      |                                                                ^~~~~~~~~~~~~~
+      |                                                                ^~~~~~~~~~~~~~
+      |                                                                ^~~~~~~~~~~~~~
+      |                                                                ^~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:3875:32: error: ‘std::u16string_view’ has not been declared
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+ 3875 |   UnicodeString& doAppend(std::u16string_view src);
+      |                                ^~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h: In member function ‘bool icu_76::UnicodeString::operator==(const S&) const’:
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+/usr/include/unicode/unistr.h:348:10: error: ‘u16string_view’ is not a member of ‘std’; did you mean ‘u16string’?
+  348 |     std::u16string_view sv(internal::toU16StringView(text));
+  348 |     std::u16string_view sv(internal::toU16StringView(text));
+  348 |     std::u16string_view sv(internal::toU16StringView(text));
+  348 |     std::u16string_view sv(internal::toU16StringView(text));
+  348 |     std::u16string_view sv(internal::toU16StringView(text));
+      |          ^~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~
+      |          u16string
+      |          u16string
+      |          u16string
+      |          u16string
+      |          u16string
+      |          u16string
+/usr/include/unicode/unistr.h:350:46: error: ‘sv’ was not declared in this scope
+/usr/include/unicode/unistr.h:350:46: error: ‘sv’ was not declared in this scope
+/usr/include/unicode/unistr.h:350:46: error: ‘sv’ was not declared in this scope
+/usr/include/unicode/unistr.h:350:46: error: ‘sv’ was not declared in this scope
+/usr/include/unicode/unistr.h:350:46: error: ‘sv’ was not declared in this scope
+  350 |     return !isBogus() && (len = length()) == sv.length() && doEquals(sv.data(), len);
+  350 |     return !isBogus() && (len = length()) == sv.length() && doEquals(sv.data(), len);
+  350 |     return !isBogus() && (len = length()) == sv.length() && doEquals(sv.data(), len);
+  350 |     return !isBogus() && (len = length()) == sv.length() && doEquals(sv.data(), len);
+  350 |     return !isBogus() && (len = length()) == sv.length() && doEquals(sv.data(), len);
+      |                                              ^~
+      |                                              ^~
+      |                                              ^~
+      |                                              ^~
+      |                                              ^~
+      |                                              ^~
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator=(const S&)’:
+/usr/include/unicode/unistr.h:1962:45: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:1962:45: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:1962:45: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:1962:45: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:1962:45: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+ 1962 |     return doReplace(0, length(), internal::toU16StringView(src));
+ 1962 |     return doReplace(0, length(), internal::toU16StringView(src));
+ 1962 |     return doReplace(0, length(), internal::toU16StringView(src));
+ 1962 |     return doReplace(0, length(), internal::toU16StringView(src));
+ 1962 |     return doReplace(0, length(), internal::toU16StringView(src));
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             ^~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator+=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator+=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator+=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator+=(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::operator+=(const S&)’:
+/usr/include/unicode/unistr.h:2228:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2228:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2228:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2228:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2228:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+ 2228 |     return doAppend(internal::toU16StringView(src));
+ 2228 |     return doAppend(internal::toU16StringView(src));
+ 2228 |     return doAppend(internal::toU16StringView(src));
+ 2228 |     return doAppend(internal::toU16StringView(src));
+ 2228 |     return doAppend(internal::toU16StringView(src));
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::append(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::append(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::append(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::append(const S&)’:
+/usr/include/unicode/unistr.h: In member function ‘icu_76::UnicodeString& icu_76::UnicodeString::append(const S&)’:
+/usr/include/unicode/unistr.h:2301:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2301:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2301:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2301:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:2301:31: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+ 2301 |     return doAppend(internal::toU16StringView(src));
+ 2301 |     return doAppend(internal::toU16StringView(src));
+ 2301 |     return doAppend(internal::toU16StringView(src));
+ 2301 |     return doAppend(internal::toU16StringView(src));
+ 2301 |     return doAppend(internal::toU16StringView(src));
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In constructor ‘icu_76::UnicodeString::UnicodeString(const S&)’:
+/usr/include/unicode/unistr.h: In constructor ‘icu_76::UnicodeString::UnicodeString(const S&)’:
+/usr/include/unicode/unistr.h: In constructor ‘icu_76::UnicodeString::UnicodeString(const S&)’:
+/usr/include/unicode/unistr.h: In constructor ‘icu_76::UnicodeString::UnicodeString(const S&)’:
+/usr/include/unicode/unistr.h: In constructor ‘icu_76::UnicodeString::UnicodeString(const S&)’:
+/usr/include/unicode/unistr.h:3276:24: error: ‘toU16StringViewNullable’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3276:24: error: ‘toU16StringViewNullable’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3276:24: error: ‘toU16StringViewNullable’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3276:24: error: ‘toU16StringViewNullable’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3276:24: error: ‘toU16StringViewNullable’ is not a member of ‘icu_76::internal’
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+ 3276 |     doAppend(internal::toU16StringViewNullable(text));
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In static member function ‘static icu_76::UnicodeString icu_76::UnicodeString::readOnlyAlias(const S&)’:
+/usr/include/unicode/unistr.h: In static member function ‘static icu_76::UnicodeString icu_76::UnicodeString::readOnlyAlias(const S&)’:
+/usr/include/unicode/unistr.h: In static member function ‘static icu_76::UnicodeString icu_76::UnicodeString::readOnlyAlias(const S&)’:
+/usr/include/unicode/unistr.h: In static member function ‘static icu_76::UnicodeString icu_76::UnicodeString::readOnlyAlias(const S&)’:
+/usr/include/unicode/unistr.h: In static member function ‘static icu_76::UnicodeString icu_76::UnicodeString::readOnlyAlias(const S&)’:
+/usr/include/unicode/unistr.h:3601:53: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3601:53: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3601:53: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3601:53: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:3601:53: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+ 3601 |     return readOnlyAliasFromU16StringView(internal::toU16StringView(text));
+ 3601 |     return readOnlyAliasFromU16StringView(internal::toU16StringView(text));
+ 3601 |     return readOnlyAliasFromU16StringView(internal::toU16StringView(text));
+ 3601 |     return readOnlyAliasFromU16StringView(internal::toU16StringView(text));
+ 3601 |     return readOnlyAliasFromU16StringView(internal::toU16StringView(text));
+      |                                                     ^~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h: In function ‘icu_76::UnicodeString icu_76::operator+(const UnicodeString&, const S&)’:
+/usr/include/unicode/unistr.h: In function ‘icu_76::UnicodeString icu_76::operator+(const UnicodeString&, const S&)’:
+/usr/include/unicode/unistr.h: In function ‘icu_76::UnicodeString icu_76::operator+(const UnicodeString&, const S&)’:
+/usr/include/unicode/unistr.h: In function ‘icu_76::UnicodeString icu_76::operator+(const UnicodeString&, const S&)’:
+/usr/include/unicode/unistr.h: In function ‘icu_76::UnicodeString icu_76::operator+(const UnicodeString&, const S&)’:
+/usr/include/unicode/unistr.h:4118:46: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:4118:46: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:4118:46: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:4118:46: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+/usr/include/unicode/unistr.h:4118:46: error: ‘toU16StringView’ is not a member of ‘icu_76::internal’
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+      |                                              ^~~~~~~~~~~~~~~
+      |                                              ^~~~~~~~~~~~~~~
+      |                                              ^~~~~~~~~~~~~~~
+      |                                              ^~~~~~~~~~~~~~~
+      |                                              ^~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h:4118:10: error: there are no arguments to ‘unistr_internalConcat’ that depend on a template parameter, so a declaration of ‘unistr_internalConcat’ must be available [-fpermissive]
+/usr/include/unicode/unistr.h:4118:10: error: there are no arguments to ‘unistr_internalConcat’ that depend on a template parameter, so a declaration of ‘unistr_internalConcat’ must be available [-fpermissive]
+/usr/include/unicode/unistr.h:4118:10: error: there are no arguments to ‘unistr_internalConcat’ that depend on a template parameter, so a declaration of ‘unistr_internalConcat’ must be available [-fpermissive]
+/usr/include/unicode/unistr.h:4118:10: error: there are no arguments to ‘unistr_internalConcat’ that depend on a template parameter, so a declaration of ‘unistr_internalConcat’ must be available [-fpermissive]
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+ 4118 |   return unistr_internalConcat(s1, internal::toU16StringView(s2));
+      |          ^~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/unicode/unistr.h:4118:10: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/unicode/unistr.h:4118:10: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/unicode/unistr.h:4118:10: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/unicode/unistr.h:4118:10: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/unicode/unistr.h:4118:10: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/unicode/unistr.h: At global scope:
+/usr/include/unicode/unistr.h: At global scope:
+/usr/include/unicode/unistr.h: At global scope:
+/usr/include/unicode/unistr.h: At global scope:
+/usr/include/unicode/unistr.h:4125:53: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:4125:53: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:4125:53: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:4125:53: error: ‘std::u16string_view’ has not been declared
+/usr/include/unicode/unistr.h:4125:53: error: ‘std::u16string_view’ has not been declared
+ 4125 | unistr_internalConcat(const UnicodeString &s1, std::u16string_view s2);
+ 4125 | unistr_internalConcat(const UnicodeString &s1, std::u16string_view s2);
+ 4125 | unistr_internalConcat(const UnicodeString &s1, std::u16string_view s2);
+ 4125 | unistr_internalConcat(const UnicodeString &s1, std::u16string_view s2);
+ 4125 | unistr_internalConcat(const UnicodeString &s1, std::u16string_view s2);
+      |                                                     ^~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~
+In file included from /usr/include/unicode/uenum.h:25,
+In file included from /usr/include/unicode/uenum.h:25,
+In file included from /usr/include/unicode/uenum.h:25,
+In file included from /usr/include/unicode/uenum.h:25,
+In file included from /usr/include/unicode/uenum.h:25,
+                 from /usr/include/unicode/utrans.h:22,
+                 from /usr/include/unicode/utrans.h:22,
+                 from /usr/include/unicode/utrans.h:22,
+                 from /usr/include/unicode/utrans.h:22,
+                 from /usr/include/unicode/utrans.h:22,
+                 from /usr/include/unicode/translit.h:29,
+                 from /usr/include/unicode/translit.h:29,
+                 from /usr/include/unicode/translit.h:29,
+                 from /usr/include/unicode/translit.h:29,
+                 from /usr/include/unicode/translit.h:29,
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:21:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:21:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:21:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:21:
+                 from /usr/src/RPM/BUILD/calibre-7.5.1/src/calibre/db/sqlite_extension.cpp:21:
+/usr/include/unicode/localpointer.h:561:26: error: ‘auto’ parameter not permitted in this context
+/usr/include/unicode/localpointer.h:561:26: error: ‘auto’ parameter not permitted in this context
+/usr/include/unicode/localpointer.h:561:26: error: ‘auto’ parameter not permitted in this context
+/usr/include/unicode/localpointer.h:561:26: error: ‘auto’ parameter not permitted in this context
+/usr/include/unicode/localpointer.h:561:26: error: ‘auto’ parameter not permitted in this context
+  561 | template <typename Type, auto closeFunction>
+  561 | template <typename Type, auto closeFunction>
+  561 | template <typename Type, auto closeFunction>
+  561 | template <typename Type, auto closeFunction>
+  561 | template <typename Type, auto closeFunction>
+      |                          ^~~~
+      |                          ^~~~
+      |                          ^~~~
+      |                          ^~~~
+      |                          ^~~~
+/usr/include/unicode/localpointer.h:573:76: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:573:76: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:573:76: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:573:76: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:573:76: error: template argument 2 is invalid
+  573 |     explicit LocalOpenPointer(std::unique_ptr<Type, decltype(closeFunction)> &&p)
+  573 |     explicit LocalOpenPointer(std::unique_ptr<Type, decltype(closeFunction)> &&p)
+  573 |     explicit LocalOpenPointer(std::unique_ptr<Type, decltype(closeFunction)> &&p)
+  573 |     explicit LocalOpenPointer(std::unique_ptr<Type, decltype(closeFunction)> &&p)
+      |                                                                            ^
+      |                                                                            ^
+      |                                                                            ^
+      |                                                                            ^
+/usr/include/unicode/localpointer.h:583:78: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:583:78: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:583:78: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:583:78: error: template argument 2 is invalid
+  583 |     LocalOpenPointer &operator=(std::unique_ptr<Type, decltype(closeFunction)> &&p) {
+  583 |     LocalOpenPointer &operator=(std::unique_ptr<Type, decltype(closeFunction)> &&p) {
+  583 |     LocalOpenPointer &operator=(std::unique_ptr<Type, decltype(closeFunction)> &&p) {
+  583 |     LocalOpenPointer &operator=(std::unique_ptr<Type, decltype(closeFunction)> &&p) {
+      |                                                                              ^
+      |                                                                              ^
+      |                                                                              ^
+      |                                                                              ^
+/usr/include/unicode/localpointer.h:599:59: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:599:59: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:599:59: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:599:59: error: template argument 2 is invalid
+/usr/include/unicode/localpointer.h:599:59: error: template argument 2 is invalid
+  599 |     operator std::unique_ptr<Type, decltype(closeFunction)> () && {
+  599 |     operator std::unique_ptr<Type, decltype(closeFunction)> () && {
+  599 |     operator std::unique_ptr<Type, decltype(closeFunction)> () && {
+  599 |     operator std::unique_ptr<Type, decltype(closeFunction)> () && {
+  599 |     operator std::unique_ptr<Type, decltype(closeFunction)> () && {
+      |                                                           ^
+      |                                                           ^
+      |                                                           ^
+      |                                                           ^
+/usr/include/unicode/uenum.h:69:1: note: invalid template non-type parameter
+/usr/include/unicode/uenum.h:69:1: note: invalid template non-type parameter
+/usr/include/unicode/uenum.h:69:1: note: invalid template non-type parameter
+/usr/include/unicode/uenum.h:69:1: note: invalid template non-type parameter
+   69 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUEnumerationPointer, UEnumeration, uenum_close);
+   69 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUEnumerationPointer, UEnumeration, uenum_close);
+   69 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUEnumerationPointer, UEnumeration, uenum_close);
+   69 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUEnumerationPointer, UEnumeration, uenum_close);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/unicode/uset.h:361:1: note: invalid template non-type parameter
+/usr/include/unicode/uset.h:361:1: note: invalid template non-type parameter
+/usr/include/unicode/uset.h:361:1: note: invalid template non-type parameter
+  361 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUSetPointer, USet, uset_close);
+  361 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUSetPointer, USet, uset_close);
+  361 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUSetPointer, USet, uset_close);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/unicode/utrans.h:23:
+In file included from /usr/include/unicode/utrans.h:23:
+/usr/include/unicode/uset.h:1655:10: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+/usr/include/unicode/uset.h:1655:10: error: ‘u16string_view’ in namespace ‘std’ does not name a type; did you mean ‘u16string’?
+ 1655 |     std::u16string_view operator*() const {
+      |          ^~~~~~~~~~~~~~
+      |          u16string
+/usr/include/unicode/utrans.h:258:1: note: invalid template non-type parameter
+/usr/include/unicode/utrans.h:258:1: note: invalid template non-type parameter
+  258 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUTransliteratorPointer, UTransliterator, utrans_close);
+  258 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUTransliteratorPointer, UTransliterator, utrans_close);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/unicode/utext.h:1596:1: note: invalid template non-type parameter
+/usr/include/unicode/utext.h:1596:1: note: invalid template non-type parameter
+ 1596 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUTextPointer, UText, utext_close);
+ 1596 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUTextPointer, UText, utext_close);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/unicode/ubrk.h:372:1: note: invalid template non-type parameter
+/usr/include/unicode/ubrk.h:372:1: note: invalid template non-type parameter
+  372 | U_DEFINE_LOCAL_OPEN_POINTER(LocalUBreakIteratorPointer, UBreakIterator, ubrk_close);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.96948 (%install)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.96948 (%install)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Macro %_ttffontsdir not found
+    Macro %_ttffontsdir not found
+    Macro %SOURCE2 not found
+    Macro %SOURCE2 not found
+    Bad exit status from /usr/src/tmp/rpm-tmp.96948 (%install)
+    Bad exit status from /usr/src/tmp/rpm-tmp.96948 (%install)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+12.78user 2.37system 0:04.56elapsed 332%CPU (0avgtext+0avgdata 128672maxresident)k
+12.78user 2.37system 0:04.56elapsed 332%CPU (0avgtext+0avgdata 128672maxresident)k
+0inputs+0outputs (0major+290787minor)pagefaults 0swaps
+0inputs+0outputs (0major+290787minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `calibre-7.5.1-alt1.3.src.rpm' failed.
+hsh-rebuild: rebuild of `calibre-7.5.1-alt1.3.src.rpm' failed.
+Command exited with non-zero status 1
+6.56user 5.32system 0:54.65elapsed 21%CPU (0avgtext+0avgdata 140632maxresident)k
+13008inputs+0outputs (0major+500624minor)pagefaults 0swaps

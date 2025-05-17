@@ -1,0 +1,580 @@
+<86>May 10 06:23:18 userdel[1052337]: delete user 'rooter'
+<86>May 10 06:23:18 userdel[1052337]: removed group 'rooter' owned by 'rooter'
+<86>May 10 06:23:18 userdel[1052337]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 06:23:18 groupadd[1052384]: group added to /etc/group: name=rooter, GID=1814
+<86>May 10 06:23:18 groupadd[1052384]: group added to /etc/gshadow: name=rooter
+<86>May 10 06:23:18 groupadd[1052384]: new group: name=rooter, GID=1814
+<86>May 10 06:23:18 useradd[1052428]: new user: name=rooter, UID=1814, GID=1814, home=/root, shell=/bin/bash, from=none
+<86>May 10 06:23:18 userdel[1052475]: delete user 'builder'
+<86>May 10 06:23:18 userdel[1052475]: removed group 'builder' owned by 'builder'
+<86>May 10 06:23:18 userdel[1052475]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 06:23:18 groupadd[1052522]: group added to /etc/group: name=builder, GID=1815
+<86>May 10 06:23:18 groupadd[1052522]: group added to /etc/gshadow: name=builder
+<86>May 10 06:23:18 groupadd[1052522]: new group: name=builder, GID=1815
+<86>May 10 06:23:18 useradd[1052566]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+warning: user viy does not exist - using root
+warning: group viy does not exist - using root
+<13>May 10 06:23:21 rpmi: rpm-macros-java-1:6.0.0-alt3 sisyphus+378353.100.1.1 1742277151 installed
+Reading Package Lists...
+Building Dependency Tree...
+MI2a: marked for install (shallow): gcc-c++
+MI2a:  satisfying Depends: gcc14-c++  (NULL)
+MI2a:   maybe install (a direct target): gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131612
+MI2a:  target SELECTED: gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131612
+MI2a:  requesting to install gcc14-c++ (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): gcc14-c++
+MI2a:     satisfying Depends: libstdc++14-devel = 14.2.1-alt1:sisyphus+360995.100.1.1
+MI2a:      maybe install (a direct target): libstdc++14-devel 14.2.1-alt1:sisyphus+360995.100.1.1@1730131612
+MI2a:     target SELECTED: libstdc++14-devel 14.2.1-alt1:sisyphus+360995.100.1.1@1730131612
+MI2a:     requesting to install libstdc++14-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libstdc++14-devel
+MI2a:        satisfying PreDepends: gcc-c++-common >= 1.4.7
+MI2a:         maybe install (a direct target): gcc-c++-common 1.4.28-alt1:sisyphus+348678.100.1.1@1716396142
+MI2a:        target SELECTED: gcc-c++-common 1.4.28-alt1:sisyphus+348678.100.1.1@1716396142
+MI2a:        requesting to install gcc-c++-common (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): gcc-c++-common
+MI2a: marked for install (shallow): rpm-build-java
+MI2a:  satisfying Depends: python3  (NULL)
+MI2a:   maybe install (a direct target): python3 3.12.10-alt1:sisyphus+381757.100.1.1@1744802963
+MI2a:  target SELECTED: python3 3.12.10-alt1:sisyphus+381757.100.1.1@1744802963
+MI2a:  requesting to install python3 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): python3
+MI2a:     satisfying Depends: python3-base = 3.12.10-alt1:sisyphus+381757.100.1.1
+MI2a:      maybe install (a direct target): python3-base 3.12.10-alt1:sisyphus+381757.100.1.1@1744802963
+MI2a:     target SELECTED: python3-base 3.12.10-alt1:sisyphus+381757.100.1.1@1744802963
+MI2a:     requesting to install python3-base (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): python3-base
+MI2a:        satisfying Depends: libb2.so.1 >= set:ifZigOjACtTxPlFd1
+MI2a:         maybe install (a providing target): libb2 0.98.1-alt1_1:sisyphus+291614.100.1.1@1638962878
+MI2a:        target SELECTED: libb2 0.98.1-alt1_1:sisyphus+291614.100.1.1@1638962878
+MI2a:        requesting to install libb2 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libb2
+MI2a:        satisfying Depends: libcrypto.so.3 >= set:qjvVyozNavZkZ83WeaDscZzHMrdOZJigtBCBJQvrqD5XYvQVKvoQdMyuy5DglZ0g5OwZmoOe8cvPBvDA6cBvaLWgaBpxJxOiy4PQ61VPZubMZ3n8rmRNMs2wGn4RSjR0c9c1A5eS6d1tOqiG9fzsbR8cS3oOKtZJvgseGSsbtRZilsSSEN1DRb8gDv8fs3HcU8gF3WlVBWjlExhbKgbtaz1KLt7XKJ5D27JXgtZ18MDZrMTmWy25HHepmFdREiSVjMWLMNpNZyHpXytuUNFn4zu8HdlaHqcdQEbR0AZrVT6hvEhZbP0CvmDlGUWpFBONGq3ZhQkbqo2Zvp77PWAt9PjNvDQHWoA60LUZ2eWZ408sfeokZLUV59GXm1
+MI2a:         maybe install (a providing target): libcrypto3 3.3.3-alt1:sisyphus+374381.40.2.1@1739299702
+MI2a:        target SELECTED: libcrypto3 3.3.3-alt1:sisyphus+374381.40.2.1@1739299702
+MI2a:        requesting to install libcrypto3 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libcrypto3
+MI2a:           satisfying Depends: openssl-config >= 3.2.0-alt1
+MI2a:            maybe install (a direct target): openssl-config 3.2.0-alt1:sisyphus+366659.140.4.1@1736956949
+MI2a:           target SELECTED: openssl-config 3.2.0-alt1:sisyphus+366659.140.4.1@1736956949
+MI2a:           requesting to install openssl-config (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): openssl-config
+MI2a:           satisfying Depends: ca-certificates  (NULL)
+MI2a:            maybe install (a direct target): ca-certificates 2025.02.10-alt1:sisyphus+374228.100.4.1@1739265441
+MI2a:           target SELECTED: ca-certificates 2025.02.10-alt1:sisyphus+374228.100.4.1@1739265441
+MI2a:           requesting to install ca-certificates (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): ca-certificates
+MI2a:              satisfying Depends: ca-trust  (NULL)
+MI2a:               maybe install (a direct target): ca-trust 0.2.0-alt1:sisyphus+344843.100.1.1@1712743326
+MI2a:              target SELECTED: ca-trust 0.2.0-alt1:sisyphus+344843.100.1.1@1712743326
+MI2a:              requesting to install ca-trust (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): ca-trust
+MI2a:                 satisfying Depends: p11-kit-trust  (NULL)
+MI2a:                  maybe install (a direct target): p11-kit-trust 1:0.25.5-alt1:sisyphus+352553.100.1.1@1720622586
+MI2a:                 target SELECTED: p11-kit-trust 1:0.25.5-alt1:sisyphus+352553.100.1.1@1720622586
+MI2a:                 requesting to install p11-kit-trust (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                   marked for install (shallow): p11-kit-trust
+MI2a:                    satisfying Depends: /etc/alternatives/packages.d  (NULL)
+MI2a:                     maybe install (a providing target): alternatives 0.5.3-alt1:sisyphus+371878.100.1.1@1737988822
+MI2a:                    target SELECTED: alternatives 0.5.3-alt1:sisyphus+371878.100.1.1@1737988822
+MI2a:                    requesting to install alternatives (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                      marked for install (shallow): alternatives
+MI2a:                       satisfying Depends: rpm-macros-alternatives = 0.5.3-alt1:sisyphus+371878.100.1.1
+MI2a:                        maybe install (a direct target): rpm-macros-alternatives 0.5.3-alt1:sisyphus+371878.100.1.1@1737988822
+MI2a:                       target SELECTED: rpm-macros-alternatives 0.5.3-alt1:sisyphus+371878.100.1.1@1737988822
+MI2a:                       requesting to install rpm-macros-alternatives (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                         marked for install (shallow): rpm-macros-alternatives
+MI2a:                    satisfying Depends: libtasn1.so.6 >= set:jfRaXblmF8mf5SLNNXDA2CDacDxCZqQOspDh1
+MI2a:                     maybe install (a providing target): libtasn1 4.20.0-alt2:sisyphus+375829.100.1.1@1740299335
+MI2a:                    target SELECTED: libtasn1 4.20.0-alt2:sisyphus+375829.100.1.1@1740299335
+MI2a:                    requesting to install libtasn1 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                      marked for install (shallow): libtasn1
+MI2a:                    satisfying Depends: libp11-kit = 1:0.25.5-alt1:sisyphus+352553.100.1.1
+MI2a:                     maybe install (a direct target): libp11-kit 1:0.25.5-alt1:sisyphus+352553.100.1.1@1720622586
+MI2a:                    target SELECTED: libp11-kit 1:0.25.5-alt1:sisyphus+352553.100.1.1@1720622586
+MI2a:                    requesting to install libp11-kit (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                      marked for install (shallow): libp11-kit
+MI2a:        satisfying Depends: libexpat.so.1 >= set:keKUFski4R0wXtka97olBOZ17REKhz7nL8ZKWHPFZ33zhdTBZ5OFCUEpIrnbsGoJY0PfVkj7DT11WUO5d0ZFjaYBPnv4YujEVhgTZDgrwOu6Gxfus72
+MI2a:         maybe install (a providing target): libexpat 2.7.1-alt1:sisyphus+379929.100.1.1@1743519386
+MI2a:        target SELECTED: libexpat 2.7.1-alt1:sisyphus+379929.100.1.1@1743519386
+MI2a:        requesting to install libexpat (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libexpat
+MI2a:        satisfying Depends: libgdbm.so.3 >= set:iejT6M96OmuT9HlYJ7ooGKIqQHH2
+MI2a:         maybe install (a providing target): libgdbm 1.8.3-alt10:sisyphus+346222.200.3.2@1716468406
+MI2a:        target SELECTED: libgdbm 1.8.3-alt10:sisyphus+346222.200.3.2@1716468406
+MI2a:        requesting to install libgdbm (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libgdbm
+MI2a:        satisfying Depends: libmpdec.so.3 >= set:mfKMM5WSnhLDPZvFmnT3UZzrmq8c8YrwNbOV4tWrYtxVLhVcTOCZFhcz3lEuvZcwi6sdFMWQoYneheybZqoHPamXBDDj1tDvOSZufCNoCdhGIsFsMAjgDRP3aaYZo365djtoYzTFzMebqqvYejutWDL4iBFP4DZFz95ekTiFkNlEgOfZbzZAVw77cJS8N8NLq7Xj1XrYJOufSLenVyExgbjfSYF9OtF8u2gC6g0GdyiHcFO9CztZ9gC7OBZzxibA5aSk7Oeqpq1
+MI2a:         maybe install (a providing target): libmpdec3 2.5.1-alt3:sisyphus+314490.500.5.1@1675432033
+MI2a:        target SELECTED: libmpdec3 2.5.1-alt3:sisyphus+314490.500.5.1@1675432033
+MI2a:        requesting to install libmpdec3 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libmpdec3
+MI2a:        satisfying Depends: libssl.so.3 >= set:ngBOW1d2ZbyFSsiZvpkX0aRzeV17bAT5EaRCZmKW9X2fa0fNd4nftXJ29hYi6E6Hd1qMzYIpojXnj8FZ0KI36PY52kehmcLhGf88GJ3zUO9WyKkNnDkFyFFvq53gxZeqsWKMvVkUpsBoqj7VAjzuhGZfzuOCmU78tIFTZE6vRAPZBxpFDwPqZtPdOFkSw9oMZFybd4EYZsbgGSruYHq7wgZsJnrdcfCfu6Zd0MZ5oWXbmMkkRksjebiXUZ3R7
+MI2a:         maybe install (a providing target): libssl3 3.3.3-alt1:sisyphus+374381.40.2.1@1739299702
+MI2a:        target SELECTED: libssl3 3.3.3-alt1:sisyphus+374381.40.2.1@1739299702
+MI2a:        requesting to install libssl3 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libssl3
+MI2a:  satisfying Depends: rpm-macros-jurand  (NULL)
+MI2a:   maybe install (a direct target): rpm-macros-jurand 1.3.5-alt2:sisyphus+377872.100.1.1@1741880705
+MI2a:  target SELECTED: rpm-macros-jurand 1.3.5-alt2:sisyphus+377872.100.1.1@1741880705
+MI2a:  requesting to install rpm-macros-jurand (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): rpm-macros-jurand
+MI2a:     satisfying Depends: jurand = 1.3.5-alt2:sisyphus+377872.100.1.1
+MI2a:      maybe install (a direct target): jurand 1.3.5-alt2:sisyphus+377872.100.1.1@1741880705
+MI2a:     target SELECTED: jurand 1.3.5-alt2:sisyphus+377872.100.1.1@1741880705
+MI2a:     requesting to install jurand (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): jurand
+MI2a:  satisfying Depends: javapackages-tools = 1:6.0.0-alt3:sisyphus+378353.100.1.1
+MI2a:   maybe install (a direct target): javapackages-tools 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:  target SELECTED: javapackages-tools 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:  requesting to install javapackages-tools (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): javapackages-tools
+MI2a:     satisfying Depends: javapackages-filesystem = 1:6.0.0-alt3:sisyphus+378353.100.1.1
+MI2a:      maybe install (a direct target): javapackages-filesystem 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:     target SELECTED: javapackages-filesystem 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:     requesting to install javapackages-filesystem (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): javapackages-filesystem
+MI2a:  satisfying Depends: python3-module-javapackages = 1:6.0.0-alt3:sisyphus+378353.100.1.1
+MI2a:   maybe install (a direct target): python3-module-javapackages 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:  target SELECTED: python3-module-javapackages 1:6.0.0-alt3:sisyphus+378353.100.1.1@1742277151
+MI2a:  requesting to install python3-module-javapackages (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): python3-module-javapackages
+MI2a:     satisfying Depends: python3-module-lxml  (NULL)
+MI2a:      maybe install (a direct target): python3-module-lxml 5.4.0-alt1:sisyphus+382313.100.1.1@1745325168
+MI2a:     target SELECTED: python3-module-lxml 5.4.0-alt1:sisyphus+382313.100.1.1@1745325168
+MI2a:     requesting to install python3-module-lxml (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): python3-module-lxml
+MI2a:        satisfying Depends: python3-module-cssselect  (NULL)
+MI2a:         maybe install (a direct target): python3-module-cssselect 1.3.0-alt1:sisyphus+377617.100.1.1@1741681780
+MI2a:        target SELECTED: python3-module-cssselect 1.3.0-alt1:sisyphus+377617.100.1.1@1741681780
+MI2a:        requesting to install python3-module-cssselect (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): python3-module-cssselect
+MI2a:        satisfying Depends: libexslt.so.0 >= set:ifFYpbWiXMSnz0
+MI2a:         maybe install (a providing target): libxslt 1.1.39-alt1:sisyphus+349406.100.1.1@1716751808
+MI2a:        target SELECTED: libxslt 1.1.39-alt1:sisyphus+349406.100.1.1@1716751808
+MI2a:        requesting to install libxslt (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libxslt
+MI2a:        satisfying Depends: python3(html5lib) < 0
+MI2a:         maybe install (a providing target): python3-module-html5lib 1:1.1-alt1:sisyphus+278096.120.5.1@1626086978
+MI2a:        target SELECTED: python3-module-html5lib 1:1.1-alt1:sisyphus+278096.120.5.1@1626086978
+MI2a:        requesting to install python3-module-html5lib (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): python3-module-html5lib
+MI2a:           satisfying Depends: python3(genshi.core) < 0
+MI2a:            maybe install (a providing target): python3-module-genshi 0.7.9-alt2.1:sisyphus+376369.5100.10.1@1746628180
+MI2a:           target SELECTED: python3-module-genshi 0.7.9-alt2.1:sisyphus+376369.5100.10.1@1746628180
+MI2a:           requesting to install python3-module-genshi (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): python3-module-genshi
+MI2a:              satisfying Depends: python3(six) < 0
+MI2a:               maybe install (a providing target): python3-module-six 1.17.0-alt1.1:sisyphus+373470.100.1.1@1738920023
+MI2a:              target SELECTED: python3-module-six 1.17.0-alt1.1:sisyphus+373470.100.1.1@1738920023
+MI2a:              requesting to install python3-module-six (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): python3-module-six
+MI2a:           satisfying Depends: python3(webencodings) < 0
+MI2a:            maybe install (a providing target): python3-module-webencodings 0.5.1-alt3:sisyphus+359244.100.1.1@1728381102
+MI2a:           target SELECTED: python3-module-webencodings 0.5.1-alt3:sisyphus+359244.100.1.1@1728381102
+MI2a:           requesting to install python3-module-webencodings (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): python3-module-webencodings
+MI2a: marked for install (shallow): jpackage-11-compat
+MI2a:  satisfying PreDepends: java-11-devel >= 11
+MI2a:   maybe install (a providing target): java-11-openjdk-devel 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:  target SELECTED: java-11-openjdk-devel 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:  requesting to install java-11-openjdk-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): java-11-openjdk-devel
+MI2a:     satisfying Depends: libX11-devel  (NULL)
+MI2a:      maybe install (a direct target): libX11-devel 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:     target SELECTED: libX11-devel 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:     requesting to install libX11-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libX11-devel
+MI2a:        satisfying Depends: libxcb-devel  (NULL)
+MI2a:         maybe install (a direct target): libxcb-devel 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:        target SELECTED: libxcb-devel 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:        requesting to install libxcb-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libxcb-devel
+MI2a:           satisfying Depends: libxcb = 1.17.0-alt1:sisyphus+345308.200.1.1
+MI2a:            maybe install (a direct target): libxcb 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:           target SELECTED: libxcb 1.17.0-alt1:sisyphus+345308.200.1.1@1713342009
+MI2a:           requesting to install libxcb (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libxcb
+MI2a:              satisfying Depends: libXau.so.6 >= set:ge34k81
+MI2a:               maybe install (a providing target): libXau 1.0.11-alt1:sisyphus+311428.100.1.1@1670577440
+MI2a:              target SELECTED: libXau 1.0.11-alt1:sisyphus+311428.100.1.1@1670577440
+MI2a:              requesting to install libXau (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): libXau
+MI2a:              satisfying Depends: libXdmcp.so.6 >= set:jiOzo
+MI2a:               maybe install (a providing target): libXdmcp 1.1.5-alt1:sisyphus+343583.700.1.1@1711441073
+MI2a:              target SELECTED: libXdmcp 1.1.5-alt1:sisyphus+343583.700.1.1@1711441073
+MI2a:              requesting to install libXdmcp (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): libXdmcp
+MI2a:        satisfying Depends: pkgconfig(kbproto)  (NULL)
+MI2a:         maybe install (a providing target): xorg-proto-devel 2024.1-alt1:sisyphus+343583.40.1.1@1711440649
+MI2a:        target SELECTED: xorg-proto-devel 2024.1-alt1:sisyphus+343583.40.1.1@1711440649
+MI2a:        requesting to install xorg-proto-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): xorg-proto-devel
+MI2a:        satisfying Depends: libX11 = 3:1.8.11-alt1:sisyphus+373040.100.1.1
+MI2a:         maybe install (a direct target): libX11 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:        target SELECTED: libX11 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571643
+MI2a:        requesting to install libX11 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libX11
+MI2a:           satisfying Depends: libX11-locales = 3:1.8.11-alt1:sisyphus+373040.100.1.1
+MI2a:            maybe install (a direct target): libX11-locales 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571640
+MI2a:           target SELECTED: libX11-locales 3:1.8.11-alt1:sisyphus+373040.100.1.1@1738571640
+MI2a:           requesting to install libX11-locales (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libX11-locales
+MI2a:     satisfying Depends: java-11-openjdk = 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1
+MI2a:      maybe install (a direct target): java-11-openjdk 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:     target SELECTED: java-11-openjdk 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:     requesting to install java-11-openjdk (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): java-11-openjdk
+MI2a:        satisfying Depends: libXext.so.6 >= set:lgTltHIIWWIyKBeJFVURXUengPi96OmoVV8meOpv2445kDWr9yoEuR5
+MI2a:         maybe install (a providing target): libXext 1.3.6-alt1:sisyphus+343583.1000.1.1@1711441114
+MI2a:        target SELECTED: libXext 1.3.6-alt1:sisyphus+343583.1000.1.1@1711441114
+MI2a:        requesting to install libXext (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libXext
+MI2a:        satisfying Depends: libXi.so.6 >= set:kisnouS9
+MI2a:         maybe install (a providing target): libXi 1.8-alt1:sisyphus+285490.200.1.1@1632124180
+MI2a:        target SELECTED: libXi 1.8-alt1:sisyphus+285490.200.1.1@1632124180
+MI2a:        requesting to install libXi (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libXi
+MI2a:        satisfying Depends: libXrender.so.1 >= set:jeLBBL6TEZg2gwEmMozjryGKMYZGZH8daXT9rk0
+MI2a:         maybe install (a providing target): libXrender 0.9.12-alt1:sisyphus+373121.100.1.1@1738654919
+MI2a:        target SELECTED: libXrender 0.9.12-alt1:sisyphus+373121.100.1.1@1738654919
+MI2a:        requesting to install libXrender (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libXrender
+MI2a:        satisfying Depends: libXtst.so.6 >= set:ifZnZCgppA6f
+MI2a:         maybe install (a providing target): libXtst 1.2.4-alt1:sisyphus+308663.1300.1.1@1666168504
+MI2a:        target SELECTED: libXtst 1.2.4-alt1:sisyphus+308663.1300.1.1@1666168504
+MI2a:        requesting to install libXtst (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libXtst
+MI2a:        satisfying Depends: libgif.so.4 >= set:jhe3DymTUk
+MI2a:         maybe install (a providing target): libgif 4.1.6-alt4:sisyphus+379672.40.3.1@1746456932
+MI2a:        target SELECTED: libgif 4.1.6-alt4:sisyphus+379672.40.3.1@1746456932
+MI2a:        requesting to install libgif (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libgif
+MI2a:        satisfying Depends: libpng16.so.16 >= set:lgOKIQUxni0O7jU0z4ZwZmEpu5OIkKY0MrPrP8VdfWsPH6dI0NmUg8wvSs7f
+MI2a:         maybe install (a providing target): libpng16 1.6.42-alt2:sisyphus+339555.100.1.1@1706781690
+MI2a:        target SELECTED: libpng16 1.6.42-alt2:sisyphus+339555.100.1.1@1706781690
+MI2a:        requesting to install libpng16 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libpng16
+MI2a:        satisfying Depends: java-11-openjdk-headless = 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1
+MI2a:         maybe install (a direct target): java-11-openjdk-headless 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:        target SELECTED: java-11-openjdk-headless 0:11.0.27.0.6-alt1:sisyphus+382872.100.1.1@1745984188
+MI2a:        requesting to install java-11-openjdk-headless (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): java-11-openjdk-headless
+MI2a:           satisfying PreDepends: ca-trust-java  (NULL)
+MI2a:            maybe install (a direct target): ca-trust-java 0.2.0-alt1:sisyphus+344843.100.1.1@1712743326
+MI2a:           target SELECTED: ca-trust-java 0.2.0-alt1:sisyphus+344843.100.1.1@1712743326
+MI2a:           requesting to install ca-trust-java (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): ca-trust-java
+MI2a:           satisfying Depends: tzdata-java >= 2022a
+MI2a:            maybe install (a providing target): javazi 2024a-alt1:sisyphus+344801.200.1.1@1712691734
+MI2a:           target SELECTED: javazi 2024a-alt1:sisyphus+344801.200.1.1@1712691734
+MI2a:           requesting to install javazi (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): javazi
+MI2a:           satisfying Depends: java-common  (NULL)
+MI2a:            maybe install (a direct target): java-common 1.7.0-alt1:sisyphus+333533.100.1.1@1699037019
+MI2a:           target SELECTED: java-common 1.7.0-alt1:sisyphus+333533.100.1.1@1699037019
+MI2a:           requesting to install java-common (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): java-common
+MI2a:           satisfying Depends: libasound.so.2 >= set:ohtarcYNVhFTZk1CjRZcUdrQkEUH80gOEBNwBsLZ1GjX5jf418NNxd5hOzvtM3gecW4GY9XGrlR990bG6bkXqxYmTjgURwMCO7IpYm8bxB2YMxacgnGl6dZwlXIuCNnghzpJNxk9xjajJGvILL2R4pq8Mu7aqXbaHwxZDyOS6y13NyL8v2RYC8n1k8omfcG9hpdXNlQ4PiAwlfAMjHlgXBjciy3QJbxHRm9s9MPLFiN7ZF6ZooSnz48uh2aeSyLrLvtRWZiJpoe5jfcijzmO2buQe1z9t1awQQ1YCY8ZCMV8iy5GCYvQaZuJETq1
+MI2a:            maybe install (a providing target): libalsa 1:1.2.13-alt1:sisyphus+370533.200.1.1@1737298944
+MI2a:           target SELECTED: libalsa 1:1.2.13-alt1:sisyphus+370533.200.1.1@1737298944
+MI2a:           requesting to install libalsa (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libalsa
+MI2a:              satisfying Depends: alsa-ucm-conf  (NULL)
+MI2a:               maybe install (a direct target): alsa-ucm-conf 1.2.13-alt2:sisyphus+379457.100.1.1@1743144589
+MI2a:              target SELECTED: alsa-ucm-conf 1.2.13-alt2:sisyphus+379457.100.1.1@1743144589
+MI2a:              requesting to install alsa-ucm-conf (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): alsa-ucm-conf
+MI2a:              satisfying Depends: alsa-topology-conf  (NULL)
+MI2a:               maybe install (a direct target): alsa-topology-conf 1.2.5.1-alt1:sisyphus+274777.100.1.1@1624089141
+MI2a:              target SELECTED: alsa-topology-conf 1.2.5.1-alt1:sisyphus+274777.100.1.1@1624089141
+MI2a:              requesting to install alsa-topology-conf (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): alsa-topology-conf
+MI2a:           satisfying Depends: libfreetype.so.6 >= set:lgbRoQAZgZrIYtjTu3b9hvg7Ddskm4TrPMCYlLLD6a7h37c2Si1
+MI2a:            maybe install (a providing target): libfreetype 2.13.3-alt1:sisyphus+355656.100.1.1@1724221065
+MI2a:           target SELECTED: libfreetype 2.13.3-alt1:sisyphus+355656.100.1.1@1724221065
+MI2a:           requesting to install libfreetype (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libfreetype
+MI2a:              satisfying PreDepends: libharfbuzz  (NULL)
+MI2a:               maybe install (a direct target): libharfbuzz 11.2.0-alt1:sisyphus+382811.100.1.1@1745919820
+MI2a:              target SELECTED: libharfbuzz 11.2.0-alt1:sisyphus+382811.100.1.1@1745919820
+MI2a:              requesting to install libharfbuzz (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): libharfbuzz
+MI2a:                 satisfying Depends: libgraphite2.so.3 >= set:kf32hGmUjq3tuKutzOJRzIQSHEyjposq2iEoszFE7SlOdnc
+MI2a:                  maybe install (a providing target): libgraphite2 1.3.14-alt2.1:sisyphus+279571.100.1.2@1626605157
+MI2a:                 target SELECTED: libgraphite2 1.3.14-alt2.1:sisyphus+279571.100.1.2@1626605157
+MI2a:                 requesting to install libgraphite2 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                   marked for install (shallow): libgraphite2
+MI2a:              satisfying Depends: libbrotlidec.so.1 >= set:hgSP7
+MI2a:               maybe install (a providing target): libbrotlidec 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:              target SELECTED: libbrotlidec 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:              requesting to install libbrotlidec (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                marked for install (shallow): libbrotlidec
+MI2a:                 satisfying Depends: libbrotlicommon = 1.1.0-alt1:sisyphus+328501.100.1.1
+MI2a:                  maybe install (a direct target): libbrotlicommon 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:                 target SELECTED: libbrotlicommon 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:                 requesting to install libbrotlicommon (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:                   marked for install (shallow): libbrotlicommon
+MI2a:           satisfying Depends: libjpeg.so.62 >= set:kfjKR4ozTrhOxIegYw6up5cWM4wQbvOOzgAHdTr7Kx7dA3oCxyhjJD1XNAaZj9tdtv1
+MI2a:            maybe install (a providing target): libjpeg 2:3.0.2-alt2.1:sisyphus+340135.100.1.1@1707449053
+MI2a:           target SELECTED: libjpeg 2:3.0.2-alt2.1:sisyphus+340135.100.1.1@1707449053
+MI2a:           requesting to install libjpeg (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libjpeg
+MI2a:           satisfying Depends: liblcms2.so.2 >= set:mgZvFZxIxB750wh7VnyKCaHNtYgQQca6wKNtRetYR4z55IGGzLZInniBDKEHTVjZhMgUkTVJZGDwisO1mFc6M1T1Dme
+MI2a:            maybe install (a providing target): liblcms2 2.17-alt1:sisyphus+376290.10700.24.2@1745384016
+MI2a:           target SELECTED: liblcms2 2.17-alt1:sisyphus+376290.10700.24.2@1745384016
+MI2a:           requesting to install liblcms2 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): liblcms2
+MI2a:  satisfying Depends: java-stub-javadoc  (NULL)
+MI2a:   maybe install (a direct target): java-stub-javadoc 0.1-alt1:sisyphus+276859.100.1.1@1625245070
+MI2a:  target SELECTED: java-stub-javadoc 0.1-alt1:sisyphus+276859.100.1.1@1625245070
+MI2a:  requesting to install java-stub-javadoc (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): java-stub-javadoc
+MI2a: marked for install (shallow): java-1.8.0-openjdk-devel
+MI2a:  satisfying Depends: libXt-devel  (NULL)
+MI2a:   maybe install (a direct target): libXt-devel 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:  target SELECTED: libXt-devel 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:  requesting to install libXt-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): libXt-devel
+MI2a:     satisfying Depends: libSM-devel  (NULL)
+MI2a:      maybe install (a direct target): libSM-devel 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:     target SELECTED: libSM-devel 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:     requesting to install libSM-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libSM-devel
+MI2a:        satisfying Depends: libICE-devel  (NULL)
+MI2a:         maybe install (a direct target): libICE-devel 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:        target SELECTED: libICE-devel 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:        requesting to install libICE-devel (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libICE-devel
+MI2a:           satisfying Depends: libICE = 1.1.1-alt1:sisyphus+311428.500.1.1
+MI2a:            maybe install (a direct target): libICE 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:           target SELECTED: libICE 1.1.1-alt1:sisyphus+311428.500.1.1@1670577559
+MI2a:           requesting to install libICE (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libICE
+MI2a:        satisfying Depends: libSM = 1.2.4-alt1:sisyphus+312057.200.1.1
+MI2a:         maybe install (a direct target): libSM 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:        target SELECTED: libSM 1.2.4-alt1:sisyphus+312057.200.1.1@1671526918
+MI2a:        requesting to install libSM (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libSM
+MI2a:     satisfying Depends: libXt = 1.3.0-alt1:sisyphus+331490.500.1.1
+MI2a:      maybe install (a direct target): libXt 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:     target SELECTED: libXt 1.3.0-alt1:sisyphus+331490.500.1.1@1697023316
+MI2a:     requesting to install libXt (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libXt
+MI2a:  satisfying Depends: java-1.8.0-openjdk = 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1
+MI2a:   maybe install (a direct target): java-1.8.0-openjdk 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1@1746012924
+MI2a:  target SELECTED: java-1.8.0-openjdk 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1@1746012924
+MI2a:  requesting to install java-1.8.0-openjdk (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): java-1.8.0-openjdk
+MI2a:     satisfying Depends: java-1.8.0-openjdk-headless = 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1
+MI2a:      maybe install (a direct target): java-1.8.0-openjdk-headless 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1@1746012924
+MI2a:     target SELECTED: java-1.8.0-openjdk-headless 0:1.8.0.452.b09-alt1:sisyphus+382895.100.2.1@1746012924
+MI2a:     requesting to install java-1.8.0-openjdk-headless (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): java-1.8.0-openjdk-headless
+MI2a: marked for install (shallow): gluegen2-devel
+MI2a:  satisfying Depends: ant-antlr  (NULL)
+MI2a:   maybe install (a direct target): ant-antlr 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:  target SELECTED: ant-antlr 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:  requesting to install ant-antlr (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): ant-antlr
+MI2a:     satisfying Depends: mvn(antlr:antlr)  (NULL)
+MI2a:      maybe install (a providing target): antlr-tool 0:2.7.7-alt12_67jpp11:sisyphus+283898.100.1.1@1630029766
+MI2a:     target SELECTED: antlr-tool 0:2.7.7-alt12_67jpp11:sisyphus+283898.100.1.1@1630029766
+MI2a:     requesting to install antlr-tool (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): antlr-tool
+MI2a:     satisfying Depends: ant = 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1
+MI2a:      maybe install (a direct target): ant 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:     target SELECTED: ant 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:     requesting to install ant (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): ant
+MI2a:        satisfying Depends: ant-lib = 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1
+MI2a:         maybe install (a direct target): ant-lib 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:        target SELECTED: ant-lib 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:        requesting to install ant-lib (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): ant-lib
+MI2a:  satisfying Depends: ant-contrib  (NULL)
+MI2a:   maybe install (a direct target): ant-contrib 0:1.0-alt5_0.36.b3jpp11:sisyphus+302030.100.1.1@1655142661
+MI2a:  target SELECTED: ant-contrib 0:1.0-alt5_0.36.b3jpp11:sisyphus+302030.100.1.1@1655142661
+MI2a:  requesting to install ant-contrib (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): ant-contrib
+MI2a:     satisfying Depends: junit  (NULL)
+MI2a:      maybe install (a direct target): junit 1:4.13.1-alt1_7jpp11:sisyphus+303013.100.1.2@1656753167
+MI2a:     target SELECTED: junit 1:4.13.1-alt1_7jpp11:sisyphus+303013.100.1.2@1656753167
+MI2a:     requesting to install junit (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): junit
+MI2a:        satisfying Depends: mvn(org.hamcrest:hamcrest-core)  (NULL)
+MI2a:         maybe install (a providing target): hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:        target SELECTED: hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:        requesting to install hamcrest (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): hamcrest
+MI2a:     satisfying Depends: xerces-j2  (NULL)
+MI2a:      maybe install (a direct target): xerces-j2 0:2.12.2-alt1_3jpp11:sisyphus+317163.100.1.3@1679419280
+MI2a:     target SELECTED: xerces-j2 0:2.12.2-alt1_3jpp11:sisyphus+317163.100.1.3@1679419280
+MI2a:     requesting to install xerces-j2 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): xerces-j2
+MI2a:        satisfying Depends: xml-commons-apis >= 1.4.01
+MI2a:         maybe install (a direct target): xml-commons-apis 1.4.01-alt3_38jpp11:sisyphus+302931.100.1.1@1656703794
+MI2a:        target SELECTED: xml-commons-apis 1.4.01-alt3_38jpp11:sisyphus+302931.100.1.1@1656703794
+MI2a:        requesting to install xml-commons-apis (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): xml-commons-apis
+MI2a:        satisfying Depends: xml-commons-resolver >= 1.2
+MI2a:         maybe install (a direct target): xml-commons-resolver 0:1.2-alt1_35jpp11:sisyphus+282019.100.1.1@1628183139
+MI2a:        target SELECTED: xml-commons-resolver 0:1.2-alt1_35jpp11:sisyphus+282019.100.1.1@1628183139
+MI2a:        requesting to install xml-commons-resolver (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): xml-commons-resolver
+MI2a:  satisfying Depends: ant-junit  (NULL)
+MI2a:   maybe install (a direct target): ant-junit 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:  target SELECTED: ant-junit 0:1.10.12-alt1_8jpp11:sisyphus+317214.100.1.1@1679497453
+MI2a:  requesting to install ant-junit (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): ant-junit
+MI2a:  satisfying Depends: cpptasks  (NULL)
+MI2a:   maybe install (a direct target): cpptasks 0:1.0b5-alt2_24jpp11:sisyphus+301981.100.1.1@1655127527
+MI2a:  target SELECTED: cpptasks 0:1.0b5-alt2_24jpp11:sisyphus+301981.100.1.1@1655127527
+MI2a:  requesting to install cpptasks (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): cpptasks
+MI2a:  satisfying Depends: /usr/bin/scp  (NULL)
+MI2a:   maybe install (a providing target): openssh-common 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2a:   maybe install (another providing target): openquantumsafe-openssh-common 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2a:  target AMBI
+MI2a:  satisfying Depends: /usr/bin/ssh  (NULL)
+MI2a:   maybe install (a providing target): openssh-clients 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2a:   maybe install (another providing target): openquantumsafe-openssh-clients 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2a:  target AMBI
+MI2a:  satisfying Depends: android-tools  (NULL)
+MI2a:   maybe install (a direct target): android-tools 34.0.5-alt3:sisyphus+372112.11700.37.1@1741288788
+MI2a:  target SELECTED: android-tools 34.0.5-alt3:sisyphus+372112.11700.37.1@1741288788
+MI2a:  requesting to install android-tools (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): android-tools
+MI2a:     satisfying Depends: udev-android  (NULL)
+MI2a:      maybe install (a direct target): udev-android 20250314-alt1:sisyphus+378698.100.1.1@1742472657
+MI2a:     target SELECTED: udev-android 20250314-alt1:sisyphus+378698.100.1.1@1742472657
+MI2a:     requesting to install udev-android (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): udev-android
+MI2a:     satisfying Depends: libbrotlienc.so.1 >= set:hessK06VbvwX1
+MI2a:      maybe install (a providing target): libbrotlienc 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:     target SELECTED: libbrotlienc 1.1.0-alt1:sisyphus+328501.100.1.1@1693598420
+MI2a:     requesting to install libbrotlienc (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libbrotlienc
+MI2a:     satisfying Depends: liblz4.so.1 >= set:kgrz2vFJck5S4Qkwg6uySjoZzi39R8H50
+MI2a:      maybe install (a providing target): liblz4 1:1.9.4-alt1:sisyphus+309416.100.1.1@1667413000
+MI2a:     target SELECTED: liblz4 1:1.9.4-alt1:sisyphus+309416.100.1.1@1667413000
+MI2a:     requesting to install liblz4 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): liblz4
+MI2a:     satisfying Depends: libprotobuf.so.25.5.0 >= set:pjLItftGquZLUZG56Zg4TzBY2hSQ5sapdnnnIpYMtGPmJ0Zme4a1z5HbGwl6WxYlWLv3eOOGic8tnzV65ejgusDR0Oa65gVjCFjiDHyzsPt15WV3szzOTkikkFFddPVAT8
+MI2a:      maybe install (a providing target): libprotobuf25 3.25.5-alt6:sisyphus+372112.176.37.1@1741278001
+MI2a:     target SELECTED: libprotobuf25 3.25.5-alt6:sisyphus+372112.176.37.1@1741278001
+MI2a:     requesting to install libprotobuf25 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libprotobuf25
+MI2a:        satisfying Depends: libabsl_city.so.2501.0.0 >= set:feL2
+MI2a:         maybe install (a providing target): libabseil-cpp2501.0.0 20250127.1-alt1:sisyphus+382966.200.2.1@1746085852
+MI2a:        target SELECTED: libabseil-cpp2501.0.0 20250127.1-alt1:sisyphus+382966.200.2.1@1746085852
+MI2a:        requesting to install libabseil-cpp2501.0.0 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:          marked for install (shallow): libabseil-cpp2501.0.0
+MI2a:           satisfying Depends: libgtest.so.1.17.0 >= set:nlQvVs7GlDjk
+MI2a:            maybe install (a providing target): libgtest 1.17.0-alt1:sisyphus+382966.100.1.1@1746085275
+MI2a:           target SELECTED: libgtest 1.17.0-alt1:sisyphus+382966.100.1.1@1746085275
+MI2a:           requesting to install libgtest (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:             marked for install (shallow): libgtest
+MI2a:     satisfying Depends: libusb-1.0.so.0 >= set:kfVTPakXDbyPTW2o2qDyvyS7RTZ9oJWfxxoCx21ZB4KrUV5luqRlAuoUX5
+MI2a:      maybe install (a providing target): libusb 1.0.27-alt1:sisyphus+347412.100.1.1@1714739652
+MI2a:     target SELECTED: libusb 1.0.27-alt1:sisyphus+347412.100.1.1@1714739652
+MI2a:     requesting to install libusb (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libusb
+MI2a:  satisfying Depends: unzip  (NULL)
+MI2a:   maybe install (a direct target): unzip 6.0-alt7:sisyphus+367458.200.2.1@1735647083
+MI2a:  target SELECTED: unzip 6.0-alt7:sisyphus+367458.200.2.1@1735647083
+MI2a:  requesting to install unzip (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): unzip
+MI2a:     satisfying Depends: libnatspec.so.0 >= set:iglRMQb
+MI2a:      maybe install (a providing target): libnatspec 0.3.4-alt1:sisyphus+383650.100.1.1@1746817004
+MI2a:     target SELECTED: libnatspec 0.3.4-alt1:sisyphus+383650.100.1.1@1746817004
+MI2a:     requesting to install libnatspec (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): libnatspec
+MI2a:  satisfying Depends: gluegen2 = 2.3.2-alt4_11jpp8:sisyphus+302035.100.1.1
+MI2a:   maybe install (a direct target): gluegen2 2.3.2-alt4_11jpp8:sisyphus+302035.100.1.1@1655148060
+MI2a:  target SELECTED: gluegen2 2.3.2-alt4_11jpp8:sisyphus+302035.100.1.1@1655148060
+MI2a:  requesting to install gluegen2 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): gluegen2
+MI2b: marked for install (shallow): gluegen2-devel
+MI2b:  satisfying Depends: /usr/bin/scp  (NULL)
+MI2b:   maybe install (a providing target): openssh-common 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2b:   maybe install (another providing target): openquantumsafe-openssh-common 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2b:  target AMBI
+MI2b:  satisfying Depends: /usr/bin/ssh  (NULL)
+MI2b:   maybe install (a providing target): openssh-clients 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2b:   maybe install (another providing target): openquantumsafe-openssh-clients 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2b:  target AMBI
+MI2c: marked for install (shallow): gluegen2-devel
+MI2c:  satisfying Depends: /usr/bin/scp  (NULL)
+MI2c:   maybe install (a providing target): openssh-common 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2c:   maybe install (another providing target): openquantumsafe-openssh-common 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2c:  target SELECTED: openssh-common 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2c:  requesting to install openssh-common (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:    marked for install (shallow): openssh-common
+MI2c:  satisfying Depends: /usr/bin/ssh  (NULL)
+MI2c:   maybe install (a providing target): openssh-clients 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2c:   maybe install (another providing target): openquantumsafe-openssh-clients 8.9p1.202310-alt4:sisyphus+370596.300.3.1@1737372128
+MI2c:  target SELECTED: openssh-clients 9.6p1-alt3:sisyphus+375192.100.1.1@1739876271
+MI2c:  requesting to install openssh-clients (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:    marked for install (shallow): openssh-clients
+MI2c:     satisfying Depends: libedit.so.3 >= set:lhWGuYssHIHdrdUMkCSKehhHZ5VJp
+MI2c:      maybe install (a providing target): libedit3 3.1.20230828-alt1:sisyphus+330914.200.3.1@1696922745
+MI2c:     target SELECTED: libedit3 3.1.20230828-alt1:sisyphus+330914.200.3.1@1696922745
+MI2c:     requesting to install libedit3 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:       marked for install (shallow): libedit3
+MI2c:     satisfying Depends: libgssapi_krb5.so.2 >= set:lherFpMVOkafm19smcQdYZ8AH2EqSOM6
+MI2c:      maybe install (a providing target): libkrb5 1.21.3-alt2:sisyphus+351857.100.1.1@1719735219
+MI2c:     target SELECTED: libkrb5 1.21.3-alt2:sisyphus+351857.100.1.1@1719735219
+MI2c:     requesting to install libkrb5 (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:       marked for install (shallow): libkrb5
+MI2c:        satisfying Depends: libcom_err.so.2 >= set:ifPl8xIvqFmQe8JQo3
+MI2c:         maybe install (a providing target): libcom_err 1.47.1.0.10.ad56-alt2:sisyphus+363497.200.3.1@1732729916
+MI2c:        target SELECTED: libcom_err 1.47.1.0.10.ad56-alt2:sisyphus+363497.200.3.1@1732729916
+MI2c:        requesting to install libcom_err (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:          marked for install (shallow): libcom_err
+MI2c:        satisfying Depends: libkeyutils.so.1 >= set:jfWn12U6KThBXgruPLZ68yYZt2
+MI2c:         maybe install (a providing target): libkeyutils 1.6.3-alt1:sisyphus+346336.200.2.2@1716472658
+MI2c:        target SELECTED: libkeyutils 1.6.3-alt1:sisyphus+346336.200.2.2@1716472658
+MI2c:        requesting to install libkeyutils (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:          marked for install (shallow): libkeyutils
+MI2c:        satisfying Depends: liblmdb.so.0 >= set:kfalKd4xYAkaAG2MqeH0wB2F4kTaBEo1iv0KFpxVmqzFIV6HJ0
+MI2c:         maybe install (a providing target): liblmdb 0.9.33-alt1:sisyphus+360625.100.1.1@1729819639
+MI2c:        target SELECTED: liblmdb 0.9.33-alt1:sisyphus+360625.100.1.1@1729819639
+MI2c:        requesting to install liblmdb (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:          marked for install (shallow): liblmdb
+MI2c:        satisfying Depends: libverto.so.1 >= set:jfI5MRvI6tmNn0zwQdb68Gk0
+MI2c:         maybe install (a providing target): libverto 0.3.2-alt1_1:sisyphus+321176.2200.10.2@1684806164
+MI2c:        target SELECTED: libverto 0.3.2-alt1_1:sisyphus+321176.2200.10.2@1684806164
+MI2c:        requesting to install libverto (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2c:          marked for install (shallow): libverto
+rpm-macros-java is already the newest version.
+Selecting filesystem for '/proc'
+filesystem is already the newest version.
+Selecting jpackage-11-compat for 'jpackage-default'
+gcc is already the newest version.
+Selecting javapackages-tools for 'jpackage-utils'
+Selected version gluegen2-devel#2.3.2-alt4_11jpp8:sisyphus+302035.100.1.1@1655148055 for gluegen2-devel=2.3.2
+E: Couldn't find package eclipse-swt
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.32user 2.20system 0:07.58elapsed 72%CPU (0avgtext+0avgdata 132420maxresident)k
+0inputs+0outputs (0major+147244minor)pagefaults 0swaps

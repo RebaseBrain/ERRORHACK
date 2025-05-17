@@ -1,0 +1,140 @@
+[DEBUG:LokyProcess-466:MainThread] joining task handler
+[DEBUG:LokyProcess-467:Thread-4 (_handle_tasks)] task handler sending sentinel to workers
+[DEBUG:LokyProcess-467:Thread-4 (_handle_tasks)] task handler sending sentinel to workers
+[DEBUG:LokyProcess-466:MainThread] joining result handler
+[DEBUG:LokyProcess-466:MainThread] joining result handler
+[DEBUG:LokyProcess-467:Thread-4 (_handle_tasks)] task handler exiting
+[DEBUG:LokyProcess-467:Thread-4 (_handle_tasks)] task handler exiting
+[DEBUG:LokyProcess-467:Thread-1 (worker)] worker got sentinel -- exiting
+[DEBUG:LokyProcess-467:Thread-1 (worker)] worker got sentinel -- exiting
+[DEBUG:LokyProcess-467:Thread-1 (worker)] worker exiting after 1 tasks
+[DEBUG:LokyProcess-467:Thread-1 (worker)] worker exiting after 1 tasks
+[DEBUG:LokyProcess-467:MainThread] joining task handler
+[DEBUG:LokyProcess-467:MainThread] joining task handler
+[DEBUG:LokyProcess-467:MainThread] joining result handler
+[DEBUG:LokyProcess-467:MainThread] joining result handler
+[DEBUG:MainProcess:MainThread] shutting down executor <joblib.executor.MemmappingExecutor object at 0x7ff34ae1be60>
+[DEBUG:MainProcess:MainThread] shutting down executor <joblib.executor.MemmappingExecutor object at 0x7ff34ae1be60>
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-467, reason: executor shutting down
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-467, reason: executor shutting down
+/proc/self/stat: No such file or directory
+/proc/self/stat: No such file or directory
+/proc/self/stat: No such file or directory
+Error: /proc must be mounted
+Error: /proc must be mounted
+Error: /proc must be mounted
+Error: /proc must be mounted
+  To mount /proc at boot you need an /etc/fstab line like:
+  To mount /proc at boot you need an /etc/fstab line like:
+  To mount /proc at boot you need an /etc/fstab line like:
+  To mount /proc at boot you need an /etc/fstab line like:
+      proc   /proc   proc    defaults
+      proc   /proc   proc    defaults
+      proc   /proc   proc    defaults
+      proc   /proc   proc    defaults
+  In the meantime, run "mount proc /proc -t proc"
+  In the meantime, run "mount proc /proc -t proc"
+  In the meantime, run "mount proc /proc -t proc"
+  In the meantime, run "mount proc /proc -t proc"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136077824 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136077824 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136077824 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136077824 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136073728 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136073728 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136073728 and name "None"
+[DEBUG:LokyProcess-466:MainThread] created semlock with handle 140035136073728 and name "None"
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:LokyProcess-466:MainThread] added worker
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-466, reason: executor shutting down
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-466, reason: executor shutting down
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-466, reason: executor shutting down
+[DEBUG:MainProcess:ExecutorManagerThread] terminate process LokyProcess-466, reason: executor shutting down
+/proc/self/stat: No such file or directory
+/proc/self/stat: No such file or directory
+/proc/self/stat: No such file or directory
+/proc/self/stat: No such file or directory
+Error: /proc must be mounted
+Error: /proc must be mounted
+Error: /proc must be mounted
+  To mount /proc at boot you need an /etc/fstab line like:
+  To mount /proc at boot you need an /etc/fstab line like:
+      proc   /proc   proc    defaults
+      proc   /proc   proc    defaults
+  In the meantime, run "mount proc /proc -t proc"
+  In the meantime, run "mount proc /proc -t proc"
+[DEBUG:MainProcess:ExecutorManagerThread] found 0 processes to stop
+[DEBUG:MainProcess:ExecutorManagerThread] found 0 processes to stop
+[DEBUG:MainProcess:ExecutorManagerThread] sent 0 sentinels to the call queue
+[DEBUG:MainProcess:ExecutorManagerThread] sent 0 sentinels to the call queue
+[DEBUG:MainProcess:ExecutorManagerThread] closing call_queue
+[DEBUG:MainProcess:ExecutorManagerThread] closing call_queue
+[DEBUG:MainProcess:ExecutorManagerThread] telling queue thread to quit
+[DEBUG:MainProcess:ExecutorManagerThread] telling queue thread to quit
+[DEBUG:MainProcess:ExecutorManagerThread] Queue.join_thread()
+[DEBUG:MainProcess:ExecutorManagerThread] Queue.join_thread()
+[DEBUG:MainProcess:ExecutorManagerThread] closing result_queue
+[DEBUG:MainProcess:ExecutorManagerThread] closing result_queue
+[DEBUG:MainProcess:QueueFeederThread] feeder thread got sentinel -- exiting
+[INFO:MainProcess:MainThread] process shutting down
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] Executor collected: triggering callback for QueueManager wakeup
+[DEBUG:MainProcess:MainThread] Executor collected: triggering callback for QueueManager wakeup
+Timeout (0:01:00)!
+Timeout (0:01:00)!
+Thread 0x00007ff34d803740 (most recent call first):
+Thread 0x00007ff34d803740 (most recent call first):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111 in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111 in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86 in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86 in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77 in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77 in __del__
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.75291 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+81.24user 24.79system 1:47.17elapsed 98%CPU (0avgtext+0avgdata 125680maxresident)k
+81.24user 24.79system 1:47.17elapsed 98%CPU (0avgtext+0avgdata 125680maxresident)k
+81.24user 24.79system 1:47.17elapsed 98%CPU (0avgtext+0avgdata 125680maxresident)k
+0inputs+0outputs (0major+4343651minor)pagefaults 0swaps
+0inputs+0outputs (0major+4343651minor)pagefaults 0swaps
+0inputs+0outputs (0major+4343651minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-joblib-1.4.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-joblib-1.4.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-joblib-1.4.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.41user 3.09system 2:01.02elapsed 6%CPU (0avgtext+0avgdata 141500maxresident)k
+4.41user 3.09system 2:01.02elapsed 6%CPU (0avgtext+0avgdata 141500maxresident)k
+0inputs+0outputs (0major+280208minor)pagefaults 0swaps

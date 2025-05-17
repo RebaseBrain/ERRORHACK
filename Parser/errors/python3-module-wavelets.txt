@@ -1,0 +1,35 @@
++ pushd /usr/src/tmp/python3-module-wavelets-buildroot/usr/lib64/python3/site-packages
++ pytest-3 pywt/tests --verbose -p no:cacheprovider
+ImportError while loading conftest '/usr/src/tmp/python3-module-wavelets-buildroot/usr/lib64/python3/site-packages/pywt/conftest.py'.
+pywt/__init__.py:15: in <module>
+    from ._extensions._pywt import *
+pywt/_extensions/_pywt.pyx:1: in init pywt._extensions._pywt
+    ???
+pywt/_extensions/_dwt.pyx:1: in init _extensions._dwt
+    ???
+    ???
+E   ModuleNotFoundError: No module named '_extensions'
+E   ModuleNotFoundError: No module named '_extensions'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.35193 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.35193 (%check)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.35193 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.35193 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+94.49user 5.21system 1:29.66elapsed 111%CPU (0avgtext+0avgdata 160888maxresident)k
+94.49user 5.21system 1:29.66elapsed 111%CPU (0avgtext+0avgdata 160888maxresident)k
+0inputs+0outputs (0major+974879minor)pagefaults 0swaps
+0inputs+0outputs (0major+974879minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-wavelets-1.8.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-wavelets-1.8.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.94user 3.06system 1:51.51elapsed 9%CPU (0avgtext+0avgdata 144168maxresident)k
+7.94user 3.06system 1:51.51elapsed 9%CPU (0avgtext+0avgdata 144168maxresident)k
+160inputs+0outputs (0major+330673minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.32008
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd fuse-cryfs-0.11.4
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux -DBUILD_TESTING=off -DBoost_INCLUDE_DIRS=/usr/include/boost -DBoost_USE_STATIC_LIBS=off -DCMAKE_BUILD_TYPE=RELEASE -DDEPENDENCY_CONFIG=cmake-utils/DependenciesFromLocalSystem.cmake
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:4 (cmake_policy):
+  Policy CMP0065 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.4.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0065 for more information.
+
+
+-- The C compiler identification is GNU 14.2.1
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libcurl', not found
+-- Found CURL: /usr/lib64/libcurl.so (found version "8.13.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+-- Checking for module 'fuse'
+--   Found fuse, version 2.9.9
+-- Building version 0.11.4
+-- Building version 0.11.4
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32008 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32008 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32008 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32008 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.96user 1.78system 0:04.63elapsed 102%CPU (0avgtext+0avgdata 125304maxresident)k
+2.96user 1.78system 0:04.63elapsed 102%CPU (0avgtext+0avgdata 125304maxresident)k
+0inputs+0outputs (0major+401920minor)pagefaults 0swaps
+0inputs+0outputs (0major+401920minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `fuse-cryfs-0.11.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `fuse-cryfs-0.11.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.68user 3.16system 0:20.26elapsed 38%CPU (0avgtext+0avgdata 142224maxresident)k
+4.68user 3.16system 0:20.26elapsed 38%CPU (0avgtext+0avgdata 142224maxresident)k
+5264inputs+0outputs (0major+314272minor)pagefaults 0swaps

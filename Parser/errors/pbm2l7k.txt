@@ -1,0 +1,98 @@
+   60 |    int tmp;
+      |        ^~~
+pnmraw2cmyk.c: In function 'read_line':
+pnmraw2cmyk.c:119:12: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  119 |       lines=(char*)malloc(bwidth);
+      |            ^
+pnmraw2cmyk.c:116:8: warning: unused variable 'i' [-Wunused-variable]
+  116 |    int i,c;
+      |        ^
+      |        ^
+pnmraw2cmyk.c: In function 'pbmgray2mono':
+pnmraw2cmyk.c: In function 'pbmgray2mono':
+pnmraw2cmyk.c:172:7: error: implicit declaration of function 'dither_black' [-Wimplicit-function-declaration]
+pnmraw2cmyk.c:172:7: error: implicit declaration of function 'dither_black' [-Wimplicit-function-declaration]
+  172 |       dither_black(mem,i,width,width,omem);
+  172 |       dither_black(mem,i,width,width,omem);
+      |       ^~~~~~~~~~~~
+      |       ^~~~~~~~~~~~
+pnmraw2cmyk.c: In function 'usage':
+pnmraw2cmyk.c: In function 'usage':
+pnmraw2cmyk.c:269:8: warning: unused variable 'i' [-Wunused-variable]
+pnmraw2cmyk.c:269:8: warning: unused variable 'i' [-Wunused-variable]
+  269 |    int i;
+  269 |    int i;
+      |        ^
+      |        ^
+pnmraw2cmyk.c: In function 'main':
+pnmraw2cmyk.c: In function 'main':
+pnmraw2cmyk.c:354:10: error: implicit declaration of function 'dither_cmyk' [-Wimplicit-function-declaration]
+pnmraw2cmyk.c:354:10: error: implicit declaration of function 'dither_cmyk' [-Wimplicit-function-declaration]
+pnmraw2cmyk.c:354:10: error: implicit declaration of function 'dither_cmyk' [-Wimplicit-function-declaration]
+  354 |          dither_cmyk(lines, /* input row */
+  354 |          dither_cmyk(lines, /* input row */
+  354 |          dither_cmyk(lines, /* input row */
+      |          ^~~~~~~~~~~
+      |          ^~~~~~~~~~~
+      |          ^~~~~~~~~~~
+      |          ^~~~~~~~~~~
+pnmraw2cmyk.c: In function 'parse_pnm_header':
+pnmraw2cmyk.c: In function 'parse_pnm_header':
+pnmraw2cmyk.c: In function 'parse_pnm_header':
+pnmraw2cmyk.c:84:4: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+pnmraw2cmyk.c:84:4: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+pnmraw2cmyk.c:84:4: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+   84 |    fgets(buf,1023,f); /* skip comment line(s) */
+   84 |    fgets(buf,1023,f); /* skip comment line(s) */
+   84 |    fgets(buf,1023,f); /* skip comment line(s) */
+      |    ^~~~~~~~~~~~~~~~~
+      |    ^~~~~~~~~~~~~~~~~
+      |    ^~~~~~~~~~~~~~~~~
+pnmraw2cmyk.c:94:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+pnmraw2cmyk.c:94:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+pnmraw2cmyk.c:94:7: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+   94 |       fgets(buf,64,stdin); // scanf corrupts \n !!!
+   94 |       fgets(buf,64,stdin); // scanf corrupts \n !!!
+   94 |       fgets(buf,64,stdin); // scanf corrupts \n !!!
+      |       ^~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~
+      |       ^~~~~~~~~~~~~~~~~~~
+make: *** [<builtin>: pnmraw2cmyk.o] Error 1
+make: *** [<builtin>: pnmraw2cmyk.o] Error 1
+make: *** [<builtin>: pnmraw2cmyk.o] Error 1
+make: *** [<builtin>: pnmraw2cmyk.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/pbm2l7k-990321'
+make: Leaving directory '/usr/src/RPM/BUILD/pbm2l7k-990321'
+make: Leaving directory '/usr/src/RPM/BUILD/pbm2l7k-990321'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32582 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.80user 0.16system 0:00.95elapsed 102%CPU (0avgtext+0avgdata 32436maxresident)k
+0.80user 0.16system 0:00.95elapsed 102%CPU (0avgtext+0avgdata 32436maxresident)k
+0.80user 0.16system 0:00.95elapsed 102%CPU (0avgtext+0avgdata 32436maxresident)k
+0inputs+0outputs (0major+17797minor)pagefaults 0swaps
+0inputs+0outputs (0major+17797minor)pagefaults 0swaps
+0inputs+0outputs (0major+17797minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pbm2l7k-990321-alt1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `pbm2l7k-990321-alt1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `pbm2l7k-990321-alt1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.90user 1.73system 0:05.77elapsed 45%CPU (0avgtext+0avgdata 12168maxresident)k
+0.90user 1.73system 0:05.77elapsed 45%CPU (0avgtext+0avgdata 12168maxresident)k
+0inputs+0outputs (0major+85252minor)pagefaults 0swaps

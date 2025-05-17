@@ -1,0 +1,140 @@
+  220 | gtksharp_gdk_event_scroll_get_direction (GdkEventScroll *event)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+event.c:48:7: note: previous declaration of 'gtksharp_gdk_event_scroll_get_direction' with type 'guint(GdkEventScroll *)' {aka 'unsigned int(struct _GdkEventScroll *)'}
+   48 | guint gtksharp_gdk_event_scroll_get_direction (GdkEventScroll *event);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o selection.lo selection.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c selection.c  -fPIC -DPIC -o .libs/selection.o
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../..    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes  -Wmissing-prototypes -Wnested-externs  -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c -o windowmanager.lo windowmanager.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DGTK_SHARP_2_6 -DGTK_SHARP_2_8 -DGTK_SHARP_2_10 -DGTK_SHARP_2_12 -I../.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wall -Wunused -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wshadow -Wpointer-arith -Wno-cast-qual -Wcast-align -Wwrite-strings -DDISABLE_GTHREAD_CHECK -c windowmanager.c  -fPIC -DPIC -o .libs/windowmanager.o
+windowmanager.c: In function 'gtksharp_get_gdk_net_client_list':
+windowmanager.c:113:26: error: assignment to 'gpointer' {aka 'void *'} from 'long int' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                 list [i] = data [i];
+      |                          ^
+In file included from /usr/include/glib-2.0/glib.h:64,
+                 from /usr/include/gtk-2.0/gdk/gdktypes.h:36,
+                 from /usr/include/gtk-2.0/gdk/gdkscreen.h:32,
+                 from windowmanager.c:27:
+windowmanager.c:114:28: warning: format '%d' expects argument of type 'int', but argument 4 has type 'gpointer' {aka 'void *'} [-Wformat=]
+  114 |                 g_message ("WinID: %d", list [i]);
+      |                            ^~~~~~~~~~~  ~~~~~~~~
+      |                                              |
+      |                                              gpointer {aka void *}
+/usr/include/glib-2.0/glib/gmessages.h:358:32: note: in definition of macro 'g_message'
+  358 |                                __VA_ARGS__)
+  358 |                                __VA_ARGS__)
+      |                                ^~~~~~~~~~~
+      |                                ^~~~~~~~~~~
+windowmanager.c:114:37: note: format string is defined here
+windowmanager.c:114:37: note: format string is defined here
+windowmanager.c:114:37: note: format string is defined here
+  114 |                 g_message ("WinID: %d", list [i]);
+  114 |                 g_message ("WinID: %d", list [i]);
+  114 |                 g_message ("WinID: %d", list [i]);
+      |                                    ~^
+      |                                    ~^
+      |                                    ~^
+      |                                    ~^
+      |                                     |
+      |                                     |
+      |                                     |
+      |                                     |
+      |                                     int
+      |                                     int
+      |                                     int
+      |                                     int
+      |                                     int
+      |                                    %p
+      |                                    %p
+      |                                    %p
+      |                                    %p
+      |                                    %p
+make[3]: *** [Makefile:505: windowmanager.lo] Error 1
+make[3]: *** [Makefile:505: windowmanager.lo] Error 1
+make[3]: *** [Makefile:505: windowmanager.lo] Error 1
+make[3]: *** [Makefile:505: windowmanager.lo] Error 1
+make[3]: *** [Makefile:505: windowmanager.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk/glue'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk/glue'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk/glue'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk/glue'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk/glue'
+make[2]: *** [Makefile:538: all-recursive] Error 1
+make[2]: *** [Makefile:538: all-recursive] Error 1
+make[2]: *** [Makefile:538: all-recursive] Error 1
+make[2]: *** [Makefile:538: all-recursive] Error 1
+make[2]: *** [Makefile:538: all-recursive] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45/gdk'
+make[1]: *** [Makefile:457: all-recursive] Error 1
+make[1]: *** [Makefile:457: all-recursive] Error 1
+make[1]: *** [Makefile:457: all-recursive] Error 1
+make[1]: *** [Makefile:457: all-recursive] Error 1
+make[1]: *** [Makefile:457: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: *** [Makefile:385: all] Error 2
+make: *** [Makefile:385: all] Error 2
+make: *** [Makefile:385: all] Error 2
+make: *** [Makefile:385: all] Error 2
+make: *** [Makefile:385: all] Error 2
+make: *** [Makefile:385: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+make: Leaving directory '/usr/src/RPM/BUILD/libgtk-sharp2-2.12.45'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41859 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+25.43user 3.44system 0:29.42elapsed 98%CPU (0avgtext+0avgdata 80396maxresident)k
+25.43user 3.44system 0:29.42elapsed 98%CPU (0avgtext+0avgdata 80396maxresident)k
+25.43user 3.44system 0:29.42elapsed 98%CPU (0avgtext+0avgdata 80396maxresident)k
+25.43user 3.44system 0:29.42elapsed 98%CPU (0avgtext+0avgdata 80396maxresident)k
+0inputs+0outputs (0major+970183minor)pagefaults 0swaps
+0inputs+0outputs (0major+970183minor)pagefaults 0swaps
+0inputs+0outputs (0major+970183minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgtk-sharp2-2.12.45-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtk-sharp2-2.12.45-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtk-sharp2-2.12.45-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.26user 2.92system 1:02.07elapsed 16%CPU (0avgtext+0avgdata 142496maxresident)k
+7.26user 2.92system 1:02.07elapsed 16%CPU (0avgtext+0avgdata 142496maxresident)k
+24inputs+0outputs (0major+271287minor)pagefaults 0swaps

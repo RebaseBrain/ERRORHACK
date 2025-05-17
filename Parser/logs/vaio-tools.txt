@@ -1,0 +1,282 @@
+<86>May 10 06:24:20 userdel[2301090]: delete user 'rooter'
+<86>May 10 06:24:20 userdel[2301090]: removed group 'rooter' owned by 'rooter'
+<86>May 10 06:24:20 userdel[2301090]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 06:24:20 groupadd[2301116]: group added to /etc/group: name=rooter, GID=1838
+<86>May 10 06:24:20 groupadd[2301116]: group added to /etc/gshadow: name=rooter
+<86>May 10 06:24:20 groupadd[2301116]: new group: name=rooter, GID=1838
+<86>May 10 06:24:20 useradd[2301149]: new user: name=rooter, UID=1838, GID=1838, home=/root, shell=/bin/bash, from=none
+<86>May 10 06:24:20 userdel[2301189]: delete user 'builder'
+<86>May 10 06:24:20 userdel[2301189]: removed group 'builder' owned by 'builder'
+<86>May 10 06:24:20 userdel[2301189]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 06:24:20 groupadd[2301217]: group added to /etc/group: name=builder, GID=1839
+<86>May 10 06:24:20 groupadd[2301217]: group added to /etc/gshadow: name=builder
+<86>May 10 06:24:20 groupadd[2301217]: new group: name=builder, GID=1839
+<86>May 10 06:24:20 useradd[2301234]: new user: name=builder, UID=1839, GID=1839, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/vaio-tools-0.0.1-alt8.3.src.rpm: The use of such a license name is ambiguous: GPL
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+<13>May 10 06:24:24 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 10 06:24:24 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577440 installed
+<13>May 10 06:24:24 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577440 installed
+<13>May 10 06:24:24 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 10 06:24:24 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441073 installed
+<13>May 10 06:24:24 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342009 installed
+<13>May 10 06:24:24 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571643 installed
+<13>May 10 06:24:24 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441114 installed
+<13>May 10 06:24:24 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124180 installed
+<13>May 10 06:24:24 rpmi: libXtst-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168504 installed
+<13>May 10 06:24:24 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023235 installed
+<13>May 10 06:24:25 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342009 installed
+<13>May 10 06:24:25 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571643 installed
+<13>May 10 06:24:25 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441114 installed
+<13>May 10 06:24:25 rpmi: libXfixes-devel-6.0.1-alt1 sisyphus+331490.300.1.1 1697023235 installed
+<13>May 10 06:24:25 rpmi: libXi-devel-1.8-alt1 sisyphus+285490.200.1.1 1632124180 installed
+<13>May 10 06:24:25 rpmi: libXtst-devel-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168504 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/vaio-tools-0.0.1-alt8.3.nosrc.rpm (w1.gzdio)
+Installing vaio-tools-0.0.1-alt8.3.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.30066
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf vaio-tools-0.0.1
++ /bin/mkdir -p vaio-tools-0.0.1
++ cd vaio-tools-0.0.1
++ echo 'Source #0 (jogdiald-0.2.4.tar.bz2):'
+Source #0 (jogdiald-0.2.4.tar.bz2):
++ /usr/bin/bzip2 -dc /usr/src/RPM/SOURCES/jogdiald-0.2.4.tar.bz2
++ /bin/tar -xf -
++ /bin/chmod -c -Rf u+rwX,go-w .
++ for i in /usr/src/RPM/SOURCES/jogdiald-plugins.tar.bz2 /usr/src/RPM/SOURCES/spicctrl-1.2.tar.bz2 /usr/src/RPM/SOURCES/atitvout-0.4.tar.bz2 /usr/src/RPM/SOURCES/sonypid.tar.bz2
++ tar xjvf /usr/src/RPM/SOURCES/jogdiald-plugins.tar.bz2
+jogdiald-plugins/
+jogdiald-plugins/brightness
+jogdiald-plugins/functions
+jogdiald-plugins/irda
+jogdiald-plugins/jogdialrc
+jogdiald-plugins/mute
+jogdiald-plugins/mute.sh
+jogdiald-plugins/pcmcia
+jogdiald-plugins/play
+jogdiald-plugins/ppp
+jogdiald-plugins/record
+jogdiald-plugins/shutdown
+jogdiald-plugins/volume
+jogdiald-plugins/xmms
++ for i in /usr/src/RPM/SOURCES/jogdiald-plugins.tar.bz2 /usr/src/RPM/SOURCES/spicctrl-1.2.tar.bz2 /usr/src/RPM/SOURCES/atitvout-0.4.tar.bz2 /usr/src/RPM/SOURCES/sonypid.tar.bz2
++ tar xjvf /usr/src/RPM/SOURCES/spicctrl-1.2.tar.bz2
+spicctrl-1.2/
+spicctrl-1.2/Makefile
+spicctrl-1.2/spicctrl.1
+spicctrl-1.2/spicctrl.c
+spicctrl-1.2/spicctrl.h
++ for i in /usr/src/RPM/SOURCES/jogdiald-plugins.tar.bz2 /usr/src/RPM/SOURCES/spicctrl-1.2.tar.bz2 /usr/src/RPM/SOURCES/atitvout-0.4.tar.bz2 /usr/src/RPM/SOURCES/sonypid.tar.bz2
++ tar xjvf /usr/src/RPM/SOURCES/atitvout-0.4.tar.bz2
+atitvout/
+atitvout/COPYING
+atitvout/HARDWARE
+atitvout/Makefile
+atitvout/Makefile.orig
+atitvout/README
+atitvout/README.in
+atitvout/ati.c
+atitvout/ati.h
+atitvout/atitvout.c
+atitvout/lrmi-0.6/
+atitvout/lrmi-0.6/Makefile
+atitvout/lrmi-0.6/lrmi.c
+atitvout/lrmi-0.6/lrmi.h
+atitvout/lrmi-0.6/pic/
+atitvout/lrmi-0.6/pic/.gitignore
+atitvout/lrmi-0.6/vbe.h
+atitvout/lrmi-0.6/vbetest.c
+atitvout/mach64.c
+atitvout/mach64.h
+atitvout/mails
+atitvout/radeon.c
+atitvout/radeon.h
+atitvout/test.sh
+atitvout/vbecall.c
+atitvout/vbecall.h
+atitvout/vbeinfo.c
+atitvout/vbeinfo.h
++ for i in /usr/src/RPM/SOURCES/jogdiald-plugins.tar.bz2 /usr/src/RPM/SOURCES/spicctrl-1.2.tar.bz2 /usr/src/RPM/SOURCES/atitvout-0.4.tar.bz2 /usr/src/RPM/SOURCES/sonypid.tar.bz2
++ tar xjvf /usr/src/RPM/SOURCES/sonypid.tar.bz2
+sonypid/
+sonypid/Makefile
+sonypid/sonypid.c
++ pushd atitvout
+~/RPM/BUILD/vaio-tools-0.0.1/atitvout ~/RPM/BUILD/vaio-tools-0.0.1
++ patch -p1
+patching file lrmi-0.6/lrmi.c
++ popd
+~/RPM/BUILD/vaio-tools-0.0.1
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.30066
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd vaio-tools-0.0.1
++ for i in jogdiald-0.2.4 spicctrl-1.2 atitvout sonypid
++ make -j16 -C jogdiald-0.2.4
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+gcc -Wall -O2 -I/usr/src/linux/include   -L/usr/X11R6/lib  spicctrl.c   -o spicctrl
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+gcc -c -Wall -O2 -I/usr/src/linux/include  joggui.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+gcc -c -Wall -O2 -I/usr/src/linux/include  jogdiald.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
+gcc -o jogdiald -L/usr/X11R6/lib joggui.o jogdiald.o -lX11 -lXext -lXtst
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/jogdiald-0.2.4'
++ for i in jogdiald-0.2.4 spicctrl-1.2 atitvout sonypid
++ make -j16 -C spicctrl-1.2
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/spicctrl-1.2'
+gcc -Wall -Wstrict-prototypes -O2 -pipe    spicctrl.c   -o spicctrl
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/spicctrl-1.2'
++ for i in jogdiald-0.2.4 spicctrl-1.2 atitvout sonypid
++ make -j16 -C atitvout
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o mach64.o mach64.c
+mach64.c: In function 'mach64_detect_attached_displays':
+mach64.c:28:5: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   28 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+   24 | #include "vbecall.h"
+  +++ |+#include <string.h>
+   25 | 
+mach64.c:28:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   28 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:28:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_get_active_displays':
+mach64.c:44:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   44 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:44:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_set_active_displays':
+mach64.c:57:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   57 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:57:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_get_tvout_config':
+mach64.c:72:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   72 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:72:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_get_tvout_standard':
+mach64.c:98:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   98 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:98:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_set_tvout_standard':
+mach64.c:112:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  112 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:112:5: note: include '<string.h>' or provide a declaration of 'memset'
+make: *** [<builtin>: mach64.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o radeon.o radeon.c
+radeon.c: In function 'radeon_detect_attached_displays':
+radeon.c:32:5: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   32 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+   24 | #include "vbecall.h"
+  +++ |+#include <string.h>
+   25 | 
+radeon.c:32:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   32 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:32:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_get_active_displays':
+radeon.c:63:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   63 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:63:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_set_active_displays':
+radeon.c:79:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   79 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:79:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_get_tvout_config':
+radeon.c:97:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   97 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:97:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_get_tvout_standard':
+radeon.c:123:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  123 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:123:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_set_tvout_standard':
+radeon.c:160:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  160 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:160:5: note: include '<string.h>' or provide a declaration of 'memset'
+make: *** [<builtin>: radeon.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o ati.o ati.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o vbecall.o vbecall.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o vbeinfo.o vbeinfo.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o atitvout.o atitvout.c
+atitvout.c: In function 'main':
+atitvout.c:203:56: warning: pointer targets in passing argument 2 of 'mach64_get_tvout_config' differ in signedness [-Wpointer-sign]
+  203 |                 if ((r = mach64_get_tvout_config(&rev, &freq)) < 0)
+      |                                                        ^~~~~
+      |                                                        |
+      |                                                        unsigned int *
+In file included from atitvout.c:30:
+mach64.h:27:49: note: expected 'int *' but argument is of type 'unsigned int *'
+   27 | int mach64_get_tvout_config(unsigned *rev, int *freq);
+      |                                            ~~~~~^~~~
+atitvout.c:206:56: warning: pointer targets in passing argument 2 of 'radeon_get_tvout_config' differ in signedness [-Wpointer-sign]
+  206 |                 if ((r = radeon_get_tvout_config(&rev, &freq)) < 0)
+      |                                                        ^~~~~
+      |                                                        |
+      |                                                        unsigned int *
+In file included from atitvout.c:31:
+radeon.h:27:49: note: expected 'int *' but argument is of type 'unsigned int *'
+   27 | int radeon_get_tvout_config(unsigned *rev, int *freq);
+      |                                            ~~~~~^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+Command exited with non-zero status 1
+0.54user 0.19system 0:00.47elapsed 155%CPU (0avgtext+0avgdata 26024maxresident)k
+0inputs+0outputs (0major+41392minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `vaio-tools-0.0.1-alt8.3.src.rpm' failed.
+Command exited with non-zero status 1
+3.48user 2.88system 0:10.84elapsed 58%CPU (0avgtext+0avgdata 132240maxresident)k
+280inputs+0outputs (0major+189377minor)pagefaults 0swaps

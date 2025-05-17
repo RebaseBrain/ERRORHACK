@@ -1,0 +1,77 @@
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ org.apache.felix.gogo.command ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ org.apache.felix.gogo.command ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[28,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[28,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[29,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[29,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[38,34] cannot find symbol
+  symbol:   method mock(java.lang.Class<org.apache.felix.service.command.CommandSession>)
+  location: class org.apache.felix.gogo.command.UtilTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[39,9] cannot find symbol
+  symbol:   method when(java.lang.Object)
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Felix Gogo Command
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.726 s
+[INFO] Finished at: 2025-05-16T03:24:55Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project org.apache.felix.gogo.command: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[28,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[28,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[29,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[29,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[38,34] cannot find symbol
+[ERROR]   symbol:   method mock(java.lang.Class<org.apache.felix.service.command.CommandSession>)
+[ERROR]   location: class org.apache.felix.gogo.command.UtilTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[39,9] cannot find symbol
+[ERROR]   symbol:   method when(java.lang.Object)
+[ERROR]   location: class org.apache.felix.gogo.command.UtilTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.gogo.command-1.1.2/src/test/java/org/apache/felix/gogo/command/UtilTest.java:[43,9] cannot find symbol
+[ERROR]   symbol:   method when(java.lang.Object)
+[ERROR]   location: class org.apache.felix.gogo.command.UtilTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.99644 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.99644 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.99644 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.99644 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+12.08user 1.87system 0:02.86elapsed 487%CPU (0avgtext+0avgdata 397848maxresident)k
+12.08user 1.87system 0:02.86elapsed 487%CPU (0avgtext+0avgdata 397848maxresident)k
+0inputs+0outputs (0major+91627minor)pagefaults 0swaps
+0inputs+0outputs (0major+91627minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `felix-gogo-command-1.1.2-alt1_1jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `felix-gogo-command-1.1.2-alt1_1jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.31user 3.15system 0:22.08elapsed 42%CPU (0avgtext+0avgdata 140204maxresident)k
+6.31user 3.15system 0:22.08elapsed 42%CPU (0avgtext+0avgdata 140204maxresident)k
+132064inputs+0outputs (0major+283186minor)pagefaults 0swaps

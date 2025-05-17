@@ -1,0 +1,56 @@
++ /usr/bin/patch -p2
+patching file src/input/InputConfiguration.cpp
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.97183
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd jvgs-0.5-src
++ cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_SKIP_RPATH:BOOL=YES .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:5 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97183 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97183 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.97183 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.97183 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.01user 0.13system 0:02.11elapsed 101%CPU (0avgtext+0avgdata 20224maxresident)k
+2.01user 0.13system 0:02.11elapsed 101%CPU (0avgtext+0avgdata 20224maxresident)k
+0inputs+0outputs (0major+14105minor)pagefaults 0swaps
+0inputs+0outputs (0major+14105minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `jvgs-0.5-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `jvgs-0.5-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.72user 2.67system 0:32.90elapsed 28%CPU (0avgtext+0avgdata 142244maxresident)k
+6.72user 2.67system 0:32.90elapsed 28%CPU (0avgtext+0avgdata 142244maxresident)k
+0inputs+0outputs (0major+268073minor)pagefaults 0swaps

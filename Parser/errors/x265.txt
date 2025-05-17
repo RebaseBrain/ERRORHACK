@@ -1,0 +1,77 @@
++ mkdir -p 10bit
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B 10bit -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DLIB_INSTALL_DIR=lib64 -DCMAKE_SKIP_RPATH:BOOL=YES -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON -DENABLE_PIC:BOOL=ON -DENABLE_TESTS:BOOL=ON -DCMAKE_ASM_NASM_FLAGS=-w-macro-params-legacy -DENABLE_SHARED=ON -DENABLE_CLI=OFF -DENABLE_ALTIVEC=OFF -DHIGH_BIT_DEPTH=ON -S source
+CMake Warning:
+  Ignoring extra path from command line:
+
+   "/usr/src/RPM/BUILD/x265-3.5"
+
+
+Problem opening /proc/meminfo
+-- cmake version 4.0.1
+CMake Error at CMakeLists.txt:10 (cmake_policy):
+CMake Error at CMakeLists.txt:10 (cmake_policy):
+  Policy CMP0025 may not be set to OLD behavior because this version of CMake
+  Policy CMP0025 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+  and use of NEW behavior is now required.
+
+
+  Please either update your CMakeLists.txt files to conform to the new
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0025 for more information.
+  behavior.  Run cmake --help-policy CMP0025 for more information.
+
+
+
+
+CMake Error at CMakeLists.txt:16 (cmake_policy):
+CMake Error at CMakeLists.txt:16 (cmake_policy):
+  Policy CMP0054 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.1.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0054 for more information.
+
+
+CMake Warning (dev) at CMakeLists.txt:19 (project):
+-- Found Nasm 2.16.03 to build assembly primitives
+-- The ASM_NASM compiler identification is NASM
+-- Found assembler: /usr/bin/nasm
+-- Looking for strtok_r
+Problem opening /proc/meminfo
+-- Looking for strtok_r - found
+-- Looking for __rdtsc
+Problem opening /proc/meminfo
+-- Looking for __rdtsc - not found
+-- Looking for __rdtsc - not found
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.90659 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.90659 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.90659 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.90659 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.79user 0.89system 0:01.61elapsed 104%CPU (0avgtext+0avgdata 22892maxresident)k
+0.79user 0.89system 0:01.61elapsed 104%CPU (0avgtext+0avgdata 22892maxresident)k
+0inputs+0outputs (0major+207483minor)pagefaults 0swaps
+0inputs+0outputs (0major+207483minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `x265-3.5-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `x265-3.5-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.39user 2.38system 0:11.72elapsed 49%CPU (0avgtext+0avgdata 142408maxresident)k
+3.39user 2.38system 0:11.72elapsed 49%CPU (0avgtext+0avgdata 142408maxresident)k
+808inputs+0outputs (0major+225914minor)pagefaults 0swaps

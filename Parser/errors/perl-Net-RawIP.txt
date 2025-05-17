@@ -1,0 +1,119 @@
+  614 |         RETVAL = newSVpvf("%u.%06u",tv.tv_sec,tv.tv_usec);
+      |                           ^~~~~~~~~ ~~~~~~~~~
+      |                                       |
+      |                                       __time_t {aka long int}
+RawIP.xs:614:27: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type '__suseconds_t' {aka 'long int'} [-Wformat=]
+  614 |         RETVAL = newSVpvf("%u.%06u",tv.tv_sec,tv.tv_usec);
+  614 |         RETVAL = newSVpvf("%u.%06u",tv.tv_sec,tv.tv_usec);
+      |                           ^~~~~~~~~           ~~~~~~~~~~
+      |                           ^~~~~~~~~           ~~~~~~~~~~
+      |                                                 |
+      |                                                 |
+      |                                                 __suseconds_t {aka long int}
+      |                                                 __suseconds_t {aka long int}
+RawIP.xs: In function 'XS_Net__RawIP_tap':
+RawIP.xs: In function 'XS_Net__RawIP_tap':
+RawIP.xs: In function 'XS_Net__RawIP_tap':
+RawIP.xs:660:14: error: implicit declaration of function 'tap'; did you mean 'tan'? [-Wimplicit-function-declaration]
+RawIP.xs:660:14: error: implicit declaration of function 'tap'; did you mean 'tan'? [-Wimplicit-function-declaration]
+RawIP.xs:660:14: error: implicit declaration of function 'tap'; did you mean 'tan'? [-Wimplicit-function-declaration]
+  660 |     RETVAL = tap(device,&i,m);
+  660 |     RETVAL = tap(device,&i,m);
+  660 |     RETVAL = tap(device,&i,m);
+      |              ^~~
+      |              ^~~
+      |              ^~~
+      |              tan
+      |              tan
+      |              tan
+RawIP.xs: In function 'XS_Net__RawIP_mac_disc':
+RawIP.xs: In function 'XS_Net__RawIP_mac_disc':
+RawIP.xs: In function 'XS_Net__RawIP_mac_disc':
+RawIP.xs:676:14: error: implicit declaration of function 'mac_disc' [-Wimplicit-function-declaration]
+RawIP.xs:676:14: error: implicit declaration of function 'mac_disc' [-Wimplicit-function-declaration]
+RawIP.xs:676:14: error: implicit declaration of function 'mac_disc' [-Wimplicit-function-declaration]
+  676 |     RETVAL = mac_disc(addr,m);
+  676 |     RETVAL = mac_disc(addr,m);
+  676 |     RETVAL = mac_disc(addr,m);
+      |              ^~~~~~~~
+      |              ^~~~~~~~
+      |              ^~~~~~~~
+RawIP.xs: In function 'XS_Net__RawIP_send_eth_packet':
+RawIP.xs: In function 'XS_Net__RawIP_send_eth_packet':
+RawIP.xs: In function 'XS_Net__RawIP_send_eth_packet':
+RawIP.xs:691:5: error: implicit declaration of function 'send_eth_packet' [-Wimplicit-function-declaration]
+RawIP.xs:691:5: error: implicit declaration of function 'send_eth_packet' [-Wimplicit-function-declaration]
+RawIP.xs:691:5: error: implicit declaration of function 'send_eth_packet' [-Wimplicit-function-declaration]
+  691 |     send_eth_packet(fd, eth_device, (char*)SvPV(pkt,PL_na), SvCUR(pkt),flag);
+  691 |     send_eth_packet(fd, eth_device, (char*)SvPV(pkt,PL_na), SvCUR(pkt),flag);
+  691 |     send_eth_packet(fd, eth_device, (char*)SvPV(pkt,PL_na), SvCUR(pkt),flag);
+      |     ^~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~
+RawIP.xs: In function 'XS_Net__RawIP_lookupdev':
+RawIP.xs: In function 'XS_Net__RawIP_lookupdev':
+RawIP.xs:1370:5: warning: 'pcap_lookupdev' is deprecated: use 'pcap_findalldevs' and use the first device [-Wdeprecated-declarations]
+RawIP.xs:1370:5: warning: 'pcap_lookupdev' is deprecated: use 'pcap_findalldevs' and use the first device [-Wdeprecated-declarations]
+ 1370 |     RETVAL = pcap_lookupdev(ebuf);
+ 1370 |     RETVAL = pcap_lookupdev(ebuf);
+      |     ^~~~~~
+      |     ^~~~~~
+      |     ^~~~~~
+In file included from /usr/include/pcap.h:43,
+In file included from /usr/include/pcap.h:43,
+                 from RawIP.xs:36:
+                 from RawIP.xs:36:
+                 from RawIP.xs:36:
+/usr/include/pcap/pcap.h:444:18: note: declared here
+/usr/include/pcap/pcap.h:444:18: note: declared here
+/usr/include/pcap/pcap.h:444:18: note: declared here
+  444 | PCAP_API char   *pcap_lookupdev(char *);
+  444 | PCAP_API char   *pcap_lookupdev(char *);
+  444 | PCAP_API char   *pcap_lookupdev(char *);
+      |                  ^~~~~~~~~~~~~~
+      |                  ^~~~~~~~~~~~~~
+RawIP.xs: At top level:
+RawIP.xs: At top level:
+RawIP.xs:169:1: warning: 'not_here' defined but not used [-Wunused-function]
+RawIP.xs:169:1: warning: 'not_here' defined but not used [-Wunused-function]
+  169 | not_here(s)
+  169 | not_here(s)
+      | ^~~~~~~~
+      | ^~~~~~~~
+make: *** [Makefile:361: RawIP.o] Error 1
+make: *** [Makefile:361: RawIP.o] Error 1
+make: *** [Makefile:361: RawIP.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/Net-RawIP-0.25'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-RawIP-0.25'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-RawIP-0.25'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64525 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.97user 0.33system 0:00.59elapsed 218%CPU (0avgtext+0avgdata 81140maxresident)k
+0.97user 0.33system 0:00.59elapsed 218%CPU (0avgtext+0avgdata 81140maxresident)k
+0.97user 0.33system 0:00.59elapsed 218%CPU (0avgtext+0avgdata 81140maxresident)k
+0inputs+0outputs (0major+59977minor)pagefaults 0swaps
+0inputs+0outputs (0major+59977minor)pagefaults 0swaps
+0inputs+0outputs (0major+59977minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Net-RawIP-0.25-alt3.2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-RawIP-0.25-alt3.2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-RawIP-0.25-alt3.2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.64user 2.48system 0:09.19elapsed 66%CPU (0avgtext+0avgdata 141704maxresident)k
+3.64user 2.48system 0:09.19elapsed 66%CPU (0avgtext+0avgdata 141704maxresident)k
+0inputs+0outputs (0major+187252minor)pagefaults 0swaps

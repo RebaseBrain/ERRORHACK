@@ -1,0 +1,77 @@
+  CC       obj/release/src/libs/sound/sfx.c.o
+src/libs/sound/sfx.c: In function '_GetSoundBankData':
+src/libs/sound/sfx.c:162:15: warning: variable 'opos' set but not used [-Wunused-but-set-variable]
+  162 |         DWORD opos;
+      |               ^~~~
+  CC       obj/release/src/libs/sound/music.c.o
+  CC       obj/release/src/libs/sound/stream.c.o
+  CC       obj/release/src/libs/sound/trackplayer.c.o
+  CC       obj/release/src/libs/sound/openal/audiodrv_openal.c.o
+src/libs/sound/openal/audiodrv_openal.c: In function 'openAL_Init':
+src/libs/sound/openal/audiodrv_openal.c:174:34: error: passing argument 2 of 'alGenSources' from incompatible pointer type [-Wincompatible-pointer-types]
+  174 |                 alGenSources (1, &soundSource[i].handle);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  audio_Object * {aka long unsigned int *}
+In file included from src/libs/sound/openal/audiodrv_openal.h:32,
+                 from src/libs/sound/openal/audiodrv_openal.c:23:
+/usr/include/AL/al.h:503:57: note: expected 'ALuint *' {aka 'unsigned int *'} but argument is of type 'audio_Object *' {aka 'long unsigned int *'}
+  503 | AL_API void AL_APIENTRY alGenSources(ALsizei n, ALuint *sources);
+      |                                                 ~~~~~~~~^~~~~~~
+src/libs/sound/openal/audiodrv_openal.c: In function 'openAL_GetSourcei':
+src/libs/sound/openal/audiodrv_openal.c:338:90: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'audio_IntVal' {aka 'long int'} [-Wformat=]
+  338 |                                 log_add (log_Debug, "openAL_GetSourcei(): unknown value %x",
+      |                                                                                         ~^
+      |                                                                                         ~^
+      |                                                                                          |
+      |                                                                                          |
+      |                                                                                          unsigned int
+      |                                                                                          unsigned int
+      |                                                                                         %lx
+      |                                                                                         %lx
+  339 |                                                 *value);
+  339 |                                                 *value);
+      |                                                 ~~~~~~                                    
+      |                                                 ~~~~~~                                    
+      |                                                 |
+      |                                                 |
+      |                                                 audio_IntVal {aka long int}
+      |                                                 audio_IntVal {aka long int}
+make: *** [Makefile.build:61: obj/release/src/libs/sound/openal/audiodrv_openal.c.o] Error 1
+make: *** [Makefile.build:61: obj/release/src/libs/sound/openal/audiodrv_openal.c.o] Error 1
+make: *** [Makefile.build:61: obj/release/src/libs/sound/openal/audiodrv_openal.c.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/uqm-0.7.0-1'
+make: Leaving directory '/usr/src/RPM/BUILD/uqm-0.7.0-1'
+make: Leaving directory '/usr/src/RPM/BUILD/uqm-0.7.0-1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.63139 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.18user 6.28system 0:13.01elapsed 103%CPU (0avgtext+0avgdata 44972maxresident)k
+7.18user 6.28system 0:13.01elapsed 103%CPU (0avgtext+0avgdata 44972maxresident)k
+7.18user 6.28system 0:13.01elapsed 103%CPU (0avgtext+0avgdata 44972maxresident)k
+0inputs+0outputs (0major+877855minor)pagefaults 0swaps
+0inputs+0outputs (0major+877855minor)pagefaults 0swaps
+0inputs+0outputs (0major+877855minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `uqm-bin-0.7.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `uqm-bin-0.7.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `uqm-bin-0.7.0-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.74user 2.92system 0:28.69elapsed 23%CPU (0avgtext+0avgdata 140552maxresident)k
+3.74user 2.92system 0:28.69elapsed 23%CPU (0avgtext+0avgdata 140552maxresident)k
+920inputs+0outputs (0major+226116minor)pagefaults 0swaps

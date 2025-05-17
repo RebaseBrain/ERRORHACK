@@ -1,0 +1,527 @@
+<86>May 16 04:49:34 userdel[1409019]: delete user 'rooter'
+<86>May 16 04:49:34 userdel[1409019]: removed group 'rooter' owned by 'rooter'
+<86>May 16 04:49:34 userdel[1409019]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 04:49:34 groupadd[1409040]: group added to /etc/group: name=rooter, GID=1289
+<86>May 16 04:49:34 groupadd[1409040]: group added to /etc/gshadow: name=rooter
+<86>May 16 04:49:34 groupadd[1409040]: new group: name=rooter, GID=1289
+<86>May 16 04:49:34 useradd[1409057]: new user: name=rooter, UID=1289, GID=1289, home=/root, shell=/bin/bash, from=none
+<86>May 16 04:49:34 userdel[1409078]: delete user 'builder'
+<86>May 16 04:49:34 userdel[1409078]: removed group 'builder' owned by 'builder'
+<86>May 16 04:49:34 userdel[1409078]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 04:49:34 groupadd[1409093]: group added to /etc/group: name=builder, GID=1290
+<86>May 16 04:49:34 groupadd[1409093]: group added to /etc/gshadow: name=builder
+<86>May 16 04:49:34 groupadd[1409093]: new group: name=builder, GID=1290
+<86>May 16 04:49:34 useradd[1409106]: new user: name=builder, UID=1290, GID=1290, home=/usr/src, shell=/bin/bash, from=none
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+<13>May 16 04:49:39 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 04:49:39 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 04:49:39 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 04:49:39 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 04:49:39 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 04:49:39 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:49:39 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 04:49:39 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:49:39 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:49:39 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 04:49:39 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 04:49:39 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:49:39 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:49:39 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:49:39 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:49:40 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:49:40 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 04:49:40 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 04:49:40 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 04:49:43 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 04:49:43 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 04:49:43 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 04:49:43 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 04:49:43 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 04:49:43 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 04:49:43 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 04:49:43 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 04:49:43 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 04:49:43 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:49:43 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:49:43 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:49:44 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:49:45 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:49:45 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 04:49:46 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:49:47 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:49:47 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 04:49:47 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-PyGLM-2.7.3-alt1.nosrc.rpm (w1.gzdio)
+<13>May 16 04:49:50 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+Installing python3-module-PyGLM-2.7.3-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.65728
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pyglm-2.7.3
++ echo 'Source #0 (pyglm-2.7.3.tar.gz):'
+Source #0 (pyglm-2.7.3.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/pyglm-2.7.3.tar.gz
++ /bin/tar -xf -
++ cd pyglm-2.7.3
++ /bin/chmod -c -Rf u+rwX,go-w .
++ mkdir test
++ cp /usr/src/RPM/SOURCES/PyGLM_test.py test/
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.65728
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pyglm-2.7.3
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/pyglm-2.7.3
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/pyglm-2.7.3/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/pyglm-2.7.3/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib64/python3/site-packages/setuptools/dist.py:761: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: zlib/libpng License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib.linux-x86_64-cpython-312/glm-stubs
+INFO     : root : copying glm-stubs/glm_typing.py -> build/lib.linux-x86_64-cpython-312/glm-stubs
+INFO     : root : copying glm-stubs/__init__.py -> build/lib.linux-x86_64-cpython-312/glm-stubs
+INFO     : root : running egg_info
+INFO     : root : writing PyGLM.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to PyGLM.egg-info/dependency_links.txt
+INFO     : root : writing top-level names to PyGLM.egg-info/top_level.txt
+INFO     : root : reading manifest file 'PyGLM.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+INFO     : root : adding license file 'LICENSE'
+INFO     : root : adding license file 'COPYING'
+INFO     : root : writing manifest file 'PyGLM.egg-info/SOURCES.txt'
+INFO     : root : copying glm-stubs/__init__.pyi -> build/lib.linux-x86_64-cpython-312/glm-stubs
+INFO     : root : running build_ext
+INFO     : root : building 'glm' extension
+INFO     : root : creating build/temp.linux-x86_64-cpython-312
+INFO     : root : x86_64-alt-linux-g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -Iglm/ -I/usr/include/python3.12 -c PyGLM.cpp -o build/temp.linux-x86_64-cpython-312/PyGLM.o -std=c++11
+In file included from glm/glm/gtc/packing.hpp:728,
+                 from PyGLM/imports.h:59,
+                 from PyGLM.cpp:7:
+glm/glm/gtc/packing.inl: In function ‘glm::vec2 glm::unpackUnorm2x8(uint16)’:
+glm/glm/gtc/packing.inl:378:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u8vec2’ {aka ‘struct glm::vec<2, unsigned char, glm::packed_highp>’} from an array of ‘glm::uint16’ {aka ‘short unsigned int’} [-Wclass-memaccess]
+  378 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glm/glm/./ext/vector_bool2.hpp:5,
+                 from glm/glm/vec2.hpp:5,
+                 from glm/glm/glm.hpp:116,
+                 from PyGLM/imports.h:21:
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::u8vec2’ {aka ‘struct glm::vec<2, unsigned char, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::vec2 glm::unpackSnorm2x8(uint16)’:
+glm/glm/gtc/packing.inl:410:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i8vec2’ {aka ‘struct glm::vec<2, signed char, glm::packed_highp>’} from an array of ‘glm::uint16’ {aka ‘short unsigned int’} [-Wclass-memaccess]
+  410 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::i8vec2’ {aka ‘struct glm::vec<2, signed char, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::vec4 glm::unpackUnorm4x16(uint64)’:
+glm/glm/gtc/packing.inl:438:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} from an array of ‘glm::uint64’ {aka ‘long unsigned int’} [-Wclass-memaccess]
+  438 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glm/glm/./ext/vector_bool4.hpp:5,
+                 from glm/glm/vec4.hpp:5,
+                 from glm/glm/glm.hpp:118:
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::vec4 glm::unpackSnorm4x16(uint64)’:
+glm/glm/gtc/packing.inl:470:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} from an array of ‘glm::uint64’ {aka ‘long unsigned int’} [-Wclass-memaccess]
+  470 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::vec4 glm::unpackHalf4x16(uint64)’:
+glm/glm/gtc/packing.inl:506:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} from an array of ‘glm::uint64’ {aka ‘long unsigned int’} [-Wclass-memaccess]
+  506 |                 memcpy(&Unpack, &v, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::i8vec2 glm::unpackInt2x8(int16)’:
+glm/glm/gtc/packing.inl:808:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i8vec2’ {aka ‘struct glm::vec<2, signed char, glm::packed_highp>’} from an array of ‘glm::int16’ {aka ‘short int’} [-Wclass-memaccess]
+  808 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::i8vec2’ {aka ‘struct glm::vec<2, signed char, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::u8vec2 glm::unpackUint2x8(uint16)’:
+glm/glm/gtc/packing.inl:822:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u8vec2’ {aka ‘struct glm::vec<2, unsigned char, glm::packed_highp>’} from an array of ‘glm::uint16’ {aka ‘short unsigned int’} [-Wclass-memaccess]
+  822 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::u8vec2’ {aka ‘struct glm::vec<2, unsigned char, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::i8vec4 glm::unpackInt4x8(int32)’:
+glm/glm/gtc/packing.inl:836:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i8vec4’ {aka ‘struct glm::vec<4, signed char, glm::packed_highp>’} from an array of ‘glm::int32’ {aka ‘int’} [-Wclass-memaccess]
+  836 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::i8vec4’ {aka ‘struct glm::vec<4, signed char, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::u8vec4 glm::unpackUint4x8(uint32)’:
+glm/glm/gtc/packing.inl:850:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u8vec4’ {aka ‘struct glm::vec<4, unsigned char, glm::packed_highp>’} from an array of ‘glm::uint32’ {aka ‘unsigned int’} [-Wclass-memaccess]
+  850 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::u8vec4’ {aka ‘struct glm::vec<4, unsigned char, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::i16vec2 glm::unpackInt2x16(int)’:
+glm/glm/gtc/packing.inl:864:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec2’ {aka ‘struct glm::vec<2, short int, glm::packed_highp>’} from an array of ‘int’ [-Wclass-memaccess]
+  864 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::i16vec2’ {aka ‘struct glm::vec<2, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::i16vec4 glm::unpackInt4x16(int64)’:
+glm/glm/gtc/packing.inl:878:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} from an array of ‘glm::int64’ {aka ‘long int’} [-Wclass-memaccess]
+  878 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::u16vec2 glm::unpackUint2x16(uint)’:
+glm/glm/gtc/packing.inl:892:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec2’ {aka ‘struct glm::vec<2, short unsigned int, glm::packed_highp>’} from an array of ‘glm::uint’ {aka ‘unsigned int’} [-Wclass-memaccess]
+  892 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::u16vec2’ {aka ‘struct glm::vec<2, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::u16vec4 glm::unpackUint4x16(uint64)’:
+glm/glm/gtc/packing.inl:906:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} from an array of ‘glm::uint64’ {aka ‘long unsigned int’} [-Wclass-memaccess]
+  906 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::i32vec2 glm::unpackInt2x32(int64)’:
+glm/glm/gtc/packing.inl:920:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i32vec2’ {aka ‘struct glm::vec<2, int, glm::packed_highp>’} from an array of ‘glm::int64’ {aka ‘long int’} [-Wclass-memaccess]
+  920 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::i32vec2’ {aka ‘struct glm::vec<2, int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In function ‘glm::u32vec2 glm::unpackUint2x32(uint64)’:
+glm/glm/gtc/packing.inl:934:23: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u32vec2’ {aka ‘struct glm::vec<2, unsigned int, glm::packed_highp>’} from an array of ‘glm::uint64’ {aka ‘long unsigned int’} [-Wclass-memaccess]
+  934 |                 memcpy(&Unpack, &p, sizeof(Unpack));
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::u32vec2’ {aka ‘struct glm::vec<2, unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+In file included from PyGLM/internal_functions/unpackers.h:9,
+                 from PyGLM/internal_functions/all.h:17,
+                 from PyGLM.cpp:15:
+PyGLM/internal_functions/type_checkers.h: In function ‘bool get_py_buffer(PyObject*, Py_buffer*)’:
+PyGLM/internal_functions/type_checkers.h:55:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+   55 |         for (int i = 0; i < sizeof(accepted_buffer_flags) / sizeof(int); i++) {
+      |                         ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PyGLM/internal_functions/type_checkers.h: In function ‘_FormatType getFormatType(char*)’:
+PyGLM/internal_functions/type_checkers.h:150:49: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  150 |         if (format[0] == '=' || is_big_endian() && format[0] == '>' || !is_big_endian() && format[0] == '<' || is_big_endian() && format[0] == '!') {
+      |                                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+PyGLM/internal_functions/type_checkers.h:150:89: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  150 |         if (format[0] == '=' || is_big_endian() && format[0] == '>' || !is_big_endian() && format[0] == '<' || is_big_endian() && format[0] == '!') {
+      |                                                                        ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+PyGLM/internal_functions/type_checkers.h:150:128: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  150 |         if (format[0] == '=' || is_big_endian() && format[0] == '>' || !is_big_endian() && format[0] == '<' || is_big_endian() && format[0] == '!') {
+      |                                                                                                                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+PyGLM/internal_functions/type_checkers.h:186:30: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  186 |         if (!is_big_endian() && format[0] == '>' || is_big_endian() && format[0] == '<' || !is_big_endian() && format[0] == '!') {
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+PyGLM/internal_functions/type_checkers.h:186:109: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  186 |         if (!is_big_endian() && format[0] == '>' || is_big_endian() && format[0] == '<' || !is_big_endian() && format[0] == '!') {
+      |                                                                                            ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+In file included from PyGLM/type_methods/all.h:11,
+                 from PyGLM.cpp:18:
+PyGLM/type_methods/glmArray.h: In instantiation of ‘PyObject* glmArray_mul_T_SEQ(glmArray*, glmArray*) [with T = bool; PyObject = _object]’:
+PyGLM/type_methods/glmArray.h:5527:38:   required from here
+ 5527 |                                                 return glmArray_mul_T_SEQ<bool>(arr1, arr2);
+      |                                                        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+PyGLM/type_methods/glmArray.h:5121:105: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+ 5121 |                         outArrayDataPtr[outArrayIndex++] = arr1DataPtr[i * arr1Ratio + (j % arr1Ratio)] * arr2DataPtr[i * arr2Ratio + (j % arr2Ratio)];
+      |                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+PyGLM/type_methods/glmArray.h: In instantiation of ‘PyObject* glmArray_mulO_T(glmArray*, T*, Py_ssize_t, PyGLMTypeObject*) [with T = bool; PyObject = _object; Py_ssize_t = long int]’:
+PyGLM/type_methods/glmArray.h:5744:33:   required from here
+ 5744 |                                 return glmArray_mulO_T<bool>(arr1, &b, 1, NULL);
+      |                                        ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+PyGLM/type_methods/glmArray.h:5244:110: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+ 5244 |                                 outArrayDataPtr[outArrayIndex++] = arrDataPtr[i * arrRatio + (j % arrRatio)] * o[j % o_size];
+      |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+PyGLM/type_methods/glmArray.h:5276:110: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+ 5276 |                                 outArrayDataPtr[outArrayIndex++] = arrDataPtr[i * arrRatio + (j % arrRatio)] * o[j % o_size];
+      |                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<1, short unsigned int, Q> glm::detail::compute_half<1, Q>::pack(const glm::vec<1, float, Q>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:662:42:   required from ‘glm::vec<L, short unsigned int, Q> glm::packHalf(const vec<L, float, Q>&) [with int L = 1; qualifier Q = glm::packed_highp]’
+  662 |                 return detail::compute_half<L, Q>::pack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:93:28:   required from here
+   93 |                 return pack(glm::packHalf(o));
+      |                             ~~~~~~~~~~~~~^~~
+glm/glm/gtc/packing.inl:285:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec1’ {aka ‘struct glm::vec<1, short unsigned int, glm::packed_highp>’} from an array of ‘const glm::detail::int16’ {aka ‘const short int’} [-Wclass-memaccess]
+  285 |                         memcpy(&Packed, &Unpack, sizeof(Packed));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glm/glm/./ext/../detail/../detail/../detail/../exponential.hpp:17,
+                 from glm/glm/./ext/../detail/../detail/../detail/func_geometric.inl:1,
+                 from glm/glm/./ext/../detail/../detail/../geometric.hpp:116,
+                 from glm/glm/./ext/../detail/../detail/func_matrix.inl:1,
+                 from glm/glm/./ext/../detail/../matrix.hpp:161,
+                 from glm/glm/./ext/../detail/type_mat2x2.inl:1,
+                 from glm/glm/./ext/../detail/type_mat2x2.hpp:176,
+                 from glm/glm/./ext/matrix_double2x2.hpp:5,
+                 from glm/glm/mat2x2.hpp:5,
+                 from glm/glm/glm.hpp:119:
+glm/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp:17:16: note: ‘glm::u16vec1’ {aka ‘struct glm::vec<1, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<1, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<2, short unsigned int, P> glm::detail::compute_half<2, Q>::pack(const glm::vec<2, float, P>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:662:42:   required from ‘glm::vec<L, short unsigned int, Q> glm::packHalf(const vec<L, float, Q>&) [with int L = 2; qualifier Q = glm::packed_highp]’
+  662 |                 return detail::compute_half<L, Q>::pack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:97:28:   required from here
+   97 |                 return pack(glm::packHalf(o));
+      |                             ~~~~~~~~~~~~~^~~
+glm/glm/gtc/packing.inl:304:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec2’ {aka ‘struct glm::vec<2, short unsigned int, glm::packed_highp>’} from an array of ‘const struct glm::vec<2, short int, glm::packed_highp>’ [-Wclass-memaccess]
+  304 |                         memcpy(&Packed, &Unpack, sizeof(Packed));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::u16vec2’ {aka ‘struct glm::vec<2, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<3, short unsigned int, Q> glm::detail::compute_half<3, Q>::pack(const glm::vec<3, float, P>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:662:42:   required from ‘glm::vec<L, short unsigned int, Q> glm::packHalf(const vec<L, float, Q>&) [with int L = 3; qualifier Q = glm::packed_highp]’
+  662 |                 return detail::compute_half<L, Q>::pack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:101:28:   required from here
+  101 |                 return pack(glm::packHalf(o));
+      |                             ~~~~~~~~~~~~~^~~
+glm/glm/gtc/packing.inl:323:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec3’ {aka ‘struct glm::vec<3, short unsigned int, glm::packed_highp>’} from an array of ‘const struct glm::vec<3, short int, glm::packed_highp>’ [-Wclass-memaccess]
+  323 |                         memcpy(&Packed, &Unpack, sizeof(Packed));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glm/glm/./ext/vector_bool3.hpp:5,
+                 from glm/glm/vec3.hpp:5,
+                 from glm/glm/glm.hpp:117:
+glm/glm/./ext/../detail/type_vec3.hpp:17:16: note: ‘glm::u16vec3’ {aka ‘struct glm::vec<3, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<3, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<4, short unsigned int, Q> glm::detail::compute_half<4, Q>::pack(const glm::vec<4, float, P>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:662:42:   required from ‘glm::vec<L, short unsigned int, Q> glm::packHalf(const vec<L, float, Q>&) [with int L = 4; qualifier Q = glm::packed_highp]’
+  662 |                 return detail::compute_half<L, Q>::pack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:105:28:   required from here
+  105 |                 return pack(glm::packHalf(o));
+      |                             ~~~~~~~~~~~~~^~~
+glm/glm/gtc/packing.inl:342:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} from an array of ‘const struct glm::vec<4, short int, glm::packed_highp>’ [-Wclass-memaccess]
+  342 |                         memcpy(&Packed, &Unpack, sizeof(Packed));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::u16vec4’ {aka ‘struct glm::vec<4, short unsigned int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<1, float, Q> glm::detail::compute_half<1, Q>::unpack(const glm::vec<1, short unsigned int, Q>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:668:44:   required from ‘glm::vec<L, float, Q> glm::unpackHalf(const vec<L, short unsigned int, Q>&) [with int L = 1; qualifier Q = glm::packed_highp]’
+  668 |                 return detail::compute_half<L, Q>::unpack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:1290:30:   required from here
+ 1290 |                 return pack(glm::unpackHalf(PyGLM_Vec_PTI_Get0(1, glm::u16, arg)));
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/gtc/packing.inl:292:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec1’ {aka ‘struct glm::vec<1, short int, glm::packed_highp>’} from an array of ‘const struct glm::vec<1, short unsigned int, glm::packed_highp>’ [-Wclass-memaccess]
+  292 |                         memcpy(&Unpack, &v, sizeof(Unpack));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp:17:16: note: ‘glm::i16vec1’ {aka ‘struct glm::vec<1, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<1, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<2, float, P> glm::detail::compute_half<2, Q>::unpack(const glm::vec<2, short unsigned int, P>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:668:44:   required from ‘glm::vec<L, float, Q> glm::unpackHalf(const vec<L, short unsigned int, Q>&) [with int L = 2; qualifier Q = glm::packed_highp]’
+  668 |                 return detail::compute_half<L, Q>::unpack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:1293:30:   required from here
+ 1293 |                 return pack(glm::unpackHalf(PyGLM_Vec_PTI_Get0(2, glm::u16, arg)));
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/gtc/packing.inl:311:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec2’ {aka ‘struct glm::vec<2, short int, glm::packed_highp>’} from an array of ‘const struct glm::vec<2, short unsigned int, glm::packed_highp>’ [-Wclass-memaccess]
+  311 |                         memcpy(&Unpack, &v, sizeof(Unpack));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec2.hpp:17:16: note: ‘glm::i16vec2’ {aka ‘struct glm::vec<2, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<2, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<3, float, P> glm::detail::compute_half<3, Q>::unpack(const glm::vec<3, short unsigned int, Q>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:668:44:   required from ‘glm::vec<L, float, Q> glm::unpackHalf(const vec<L, short unsigned int, Q>&) [with int L = 3; qualifier Q = glm::packed_highp]’
+  668 |                 return detail::compute_half<L, Q>::unpack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:1296:30:   required from here
+ 1296 |                 return pack(glm::unpackHalf(PyGLM_Vec_PTI_Get0(3, glm::u16, arg)));
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/gtc/packing.inl:330:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec3’ {aka ‘struct glm::vec<3, short int, glm::packed_highp>’} from an array of ‘const struct glm::vec<3, short unsigned int, glm::packed_highp>’ [-Wclass-memaccess]
+  330 |                         memcpy(&Unpack, &v, sizeof(Unpack));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec3.hpp:17:16: note: ‘glm::i16vec3’ {aka ‘struct glm::vec<3, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<3, T, Q>
+      |                ^~~~~~~~~~~~
+glm/glm/gtc/packing.inl: In instantiation of ‘static glm::vec<4, float, P> glm::detail::compute_half<4, Q>::unpack(const glm::vec<4, short unsigned int, Q>&) [with glm::qualifier Q = glm::packed_highp]’:
+glm/glm/gtc/packing.inl:668:44:   required from ‘glm::vec<L, float, Q> glm::unpackHalf(const vec<L, short unsigned int, Q>&) [with int L = 4; qualifier Q = glm::packed_highp]’
+  668 |                 return detail::compute_half<L, Q>::unpack(v);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+PyGLM/functions/stable_extensions/packing.h:1299:30:   required from here
+ 1299 |                 return pack(glm::unpackHalf(PyGLM_Vec_PTI_Get0(4, glm::u16, arg)));
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/gtc/packing.inl:349:31: warning: ‘void* memcpy(void*, const void*, size_t)’ copying an object of non-trivial type ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} from an array of ‘const struct glm::vec<4, short unsigned int, glm::packed_highp>’ [-Wclass-memaccess]
+  349 |                         memcpy(&Unpack, &v, sizeof(Unpack));
+      |                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+glm/glm/./ext/../detail/type_vec4.hpp:17:16: note: ‘glm::i16vec4’ {aka ‘struct glm::vec<4, short int, glm::packed_highp>’} declared here
+   17 |         struct vec<4, T, Q>
+      |                ^~~~~~~~~~~~
+In file included from PyGLM/internal_functions/all.h:15:
+PyGLM/internal_functions/number_functions.h: At global scope:
+PyGLM/internal_functions/number_functions.h:42:27: warning: ‘long long unsigned int PyLong_AsUnsignedLongLongAndOverflow(PyObject*, int*)’ defined but not used [-Wunused-function]
+   42 | static unsigned long long PyLong_AsUnsignedLongLongAndOverflow(PyObject* arg, int* overflow) {
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from PyGLM/internal_functions/all.h:3:
+PyGLM/internal_functions/ctypes_pointers.h:140:18: warning: ‘PyObject* PyGLM_ToCtypesP(void*)’ defined but not used [-Wunused-function]
+  140 | static PyObject* PyGLM_ToCtypesP(void* ptr) {
+      |                  ^~~~~~~~~~~~~~~
+INFO     : root : x86_64-alt-linux-g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto build/temp.linux-x86_64-cpython-312/PyGLM.o -L/usr/lib64 -o build/lib.linux-x86_64-cpython-312/glm.cpython-312.so
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/glm.cpython-312.so -> build/bdist.linux-x86_64/wheel/.
+INFO     : root : creating build/bdist.linux-x86_64/wheel/glm-stubs
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/glm-stubs/__init__.pyi -> build/bdist.linux-x86_64/wheel/./glm-stubs
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/glm-stubs/__init__.py -> build/bdist.linux-x86_64/wheel/./glm-stubs
+INFO     : root : copying build/lib.linux-x86_64-cpython-312/glm-stubs/glm_typing.py -> build/bdist.linux-x86_64/wheel/./glm-stubs
+INFO     : root : running install_egg_info
+INFO     : root : Copying PyGLM.egg-info to build/bdist.linux-x86_64/wheel/./PyGLM-2.7.3-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/pyglm-2.7.3.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/pyglm-2.7.3/dist/.tmp-rlksvmhc/pyglm-2.7.3-cp312-cp312-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'glm.cpython-312.so'
+INFO     : wheel : adding 'glm-stubs/__init__.py'
+INFO     : wheel : adding 'glm-stubs/__init__.pyi'
+INFO     : wheel : adding 'glm-stubs/glm_typing.py'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/licenses/COPYING'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/licenses/LICENSE'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/METADATA'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/WHEEL'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/top_level.txt'
+INFO     : wheel : adding 'pyglm-2.7.3.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: pyglm-2.7.3-cp312-cp312-linux_x86_64.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.9311
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-PyGLM-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-PyGLM-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd pyglm-2.7.3
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-PyGLM-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/pyglm-2.7.3/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: pyglm-2.7.3-cp312-cp312-linux_x86_64.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-PyGLM-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pyglm-2.7.3.dist-info/licenses/COPYING
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pyglm-2.7.3.dist-info/licenses/LICENSE
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pyglm-2.7.3.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pyglm-2.7.3.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: pyglm-2.7.3.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-PyGLM-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-PyGLM-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-PyGLM-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-PyGLM-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-PyGLM-buildroot
+./usr/lib64: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-PyGLM-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-PyGLM-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-PyGLM-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/__init__.py
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/glm_typing.py
+Can't list '/usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib/python3/site-packages'
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-PyGLM-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/__init__.py
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/glm_typing.py
+Can't list '/usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib/python3/site-packages'
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-PyGLM-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/__init__.py
+compile /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/glm-stubs/glm_typing.py
+Can't list '/usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib/python3/site-packages'
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-1.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.pyc'
+'./usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-2.pyc' => './usr/lib64/python3/site-packages/glm-stubs/__pycache__/glm_typing.cpython-312.opt-1.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.76816
+Check is turned off by --disable check
+Processing files: python3-module-PyGLM-2.7.3-alt1
+error: No such file or directory: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/PyGLM-2.7.3.dist-info
+Executing(%doc): /bin/sh -e /usr/src/tmp/rpm-tmp.76816
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pyglm-2.7.3
++ DOCDIR=/usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ export DOCDIR
++ rm -rf /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ /bin/mkdir -p /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ cp -prL README.md LICENSE /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R go-w /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ chmod -R a+rX /usr/src/tmp/python3-module-PyGLM-buildroot/usr/share/doc/python3-module-PyGLM-2.7.3
++ exit 0
+
+
+RPM build errors:
+    No such file or directory: /usr/src/tmp/python3-module-PyGLM-buildroot/usr/lib64/python3/site-packages/PyGLM-2.7.3.dist-info
+Command exited with non-zero status 1
+207.69user 8.74system 1:31.04elapsed 237%CPU (0avgtext+0avgdata 1557188maxresident)k
+0inputs+0outputs (0major+1669690minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-PyGLM-2.7.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+8.57user 2.94system 1:51.49elapsed 10%CPU (0avgtext+0avgdata 142352maxresident)k
+0inputs+0outputs (0major+321235minor)pagefaults 0swaps

@@ -1,0 +1,182 @@
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
++ : running tests
++ LD_BIND_NOW=1
++ PERL_DL_NONLAZY=1
++ /usr/bin/make test 'CP=/bin/cp -p'
+make: Entering directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00.compile.t .. ok
+t/00.compile.t .. ok
+    # No tests run!
+    # No tests run!
+
+
+#   Failed test 'No tests run for subtest "preserve"'
+#   Failed test 'No tests run for subtest "preserve"'
+#   at t/10.load.t line 49.
+#   at t/10.load.t line 49.
+#   at t/10.load.t line 49.
+Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Looks like your test exited with 255 just after 2.
+# Looks like your test exited with 255 just after 2.
+# Looks like your test exited with 255 just after 2.
+# Looks like your test exited with 255 just after 2.
+t/10.load.t ..... 
+t/10.load.t ..... 
+t/10.load.t ..... 
+t/10.load.t ..... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+
+
+
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+  Failed test:  2
+  Failed test:  2
+  Failed test:  2
+  Failed test:  2
+  Failed test:  2
+  Failed test:  2
+  Failed test:  2
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+Failed 1/2 test programs. 1/4 subtests failed.
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: *** [Makefile:778: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0inputs+0outputs (0major+48796minor)pagefaults 0swaps
+0inputs+0outputs (0major+48796minor)pagefaults 0swaps
+0inputs+0outputs (0major+48796minor)pagefaults 0swaps
+0inputs+0outputs (0major+48796minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-YAML-PP-Ref-0.02-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-YAML-PP-Ref-0.02-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-YAML-PP-Ref-0.02-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.60user 2.76system 0:12.64elapsed 74%CPU (0avgtext+0avgdata 140360maxresident)k
+6.60user 2.76system 0:12.64elapsed 74%CPU (0avgtext+0avgdata 140360maxresident)k
+48inputs+0outputs (0major+210127minor)pagefaults 0swaps

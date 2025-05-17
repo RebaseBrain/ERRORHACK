@@ -1,0 +1,699 @@
+<86>May 16 02:03:12 userdel[1819959]: delete user 'rooter'
+<86>May 16 02:03:12 userdel[1819959]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:03:12 userdel[1819959]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:03:12 groupadd[1820017]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 02:03:12 groupadd[1820017]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:03:12 groupadd[1820017]: new group: name=rooter, GID=1823
+<86>May 16 02:03:12 useradd[1820083]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:03:12 userdel[1820153]: delete user 'builder'
+<86>May 16 02:03:12 userdel[1820153]: removed group 'builder' owned by 'builder'
+<86>May 16 02:03:12 userdel[1820153]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:03:12 groupadd[1820212]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 02:03:12 groupadd[1820212]: group added to /etc/gshadow: name=builder
+<86>May 16 02:03:12 groupadd[1820212]: new group: name=builder, GID=1824
+<86>May 16 02:03:12 useradd[1820255]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/lp_solve-5.5.2.5-alt1.src.rpm: The use of such a license name is ambiguous: LGPL
+warning: user glebfm does not exist - using root
+warning: group glebfm does not exist - using root
+warning: user glebfm does not exist - using root
+warning: group glebfm does not exist - using root
+warning: user glebfm does not exist - using root
+warning: group glebfm does not exist - using root
+warning: user glebfm does not exist - using root
+warning: group glebfm does not exist - using root
+warning: user glebfm does not exist - using root
+warning: group glebfm does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/lp_solve-5.5.2.5-alt1.nosrc.rpm (w1.gzdio)
+Installing lp_solve-5.5.2.5-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.56143
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf lp_solve_5.5
++ echo 'Source #0 (lp_solve_5.5.2.5_source.tar.gz):'
+Source #0 (lp_solve_5.5.2.5_source.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/lp_solve_5.5.2.5_source.tar.gz
++ /bin/tar -xf -
++ cd lp_solve_5.5
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (lpsolve-5.5.0.11-fedora-cflags.patch):'
+Patch #1 (lpsolve-5.5.0.11-fedora-cflags.patch):
++ /usr/bin/patch -p1
+patching file lp_solve/ccc
+patching file lpsolve55/ccc
++ echo 'Patch #2 (lpsolve-5.5.2.5-gcc6.patch):'
+Patch #2 (lpsolve-5.5.2.5-gcc6.patch):
++ /usr/bin/patch -p1
+patching file lp_solve/ccc
+patching file lpsolve55/ccc
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.56143
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd lp_solve_5.5
++ cd lpsolve55
++ sh -x ccc
++ :
++ src='../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c'
++ c=cc
++ echo '#include <stdlib.h>'
++ echo '#include <stdio.h>'
++ echo 'main(){printf("ux%d", (int) (sizeof(void *)*8));}'
++ cc /tmp/platform.c -o /tmp/platform
+/tmp/platform.c:3:1: error: return type defaults to 'int' [-Wimplicit-int]
+    3 | main(){printf("ux%d", (int) (sizeof(void *)*8));}
+      | ^~~~
+++ /tmp/platform
+ccc: line 11: /tmp/platform: No such file or directory
++ PLATFORM=
++ rm /tmp/platform /tmp/platform.c
++ mkdir bin bin/
++ echo '#include <stdio.h>'
++ echo '#include <stdlib.h>'
++ echo '#include <math.h>'
++ echo 'main(){isnan(0.0);}'
++ cc /tmp/isnan.c -o /tmp/isnan
++ '[' 1 = 0 ']'
++ NOISNAN=-DNOISNAN
++ rm /tmp/isnan.c /tmp/isnan
++ def=
++ so=
++ '[' '' = SCO_UNIX ']'
++ dl=-ldl
++ so=y
++ opts='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ cc -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+In file included from ../lp_MDO.c:22:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+  849 |   ftime(&buf);
+      |   ^~~~~
+In file included from ../shared/commonlib.c:9:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+../shared/mmio.c: In function 'mm_read_unsymmetric_sparse':
+../shared/mmio.c:26:9: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   26 |     int x;
+      |         ^
+In file included from ../lp_rlp.c:205:
+../lp_rlp.h:1653:16: warning: 'input' defined but not used [-Wunused-function]
+ 1653 |     static int input  (lp_yyscan_t lp_yyscanner)
+      |                ^~~~~
+In file included from ../lp_crash.c:21:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_LUSOLsetcolumn':
+../bfp/bfp_LUSOL/lp_LUSOL.c:209:7: warning: variable 'nz' set but not used [-Wunused-but-set-variable]
+  209 |   int nz, inform;
+      |       ^~
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_finishupdate':
+../bfp/bfp_LUSOL/lp_LUSOL.c:477:18: warning: variable 'kcol' set but not used [-Wunused-but-set-variable]
+  477 |   int      i, k, kcol, deltarows = bfp_rowoffset(lp);
+      |                  ^~~~
+In file included from ../bfp/bfp_LUSOL/LUSOL/lusol.c:746:
+../bfp/bfp_LUSOL/LUSOL/lusol1.c: In function 'LU1FAC':
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:34: warning: variable 'TSP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                                  ^~~
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:29: warning: variable 'TRP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                             ^~~
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:19: warning: variable 'TCP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                   ^~~
+In file included from ../lp_lib.c:41:
+../lp_lib.h:63:10: warning: "isnan" redefined
+   63 | # define isnan(x) FALSE
+      |          ^~~~~
+In file included from ../lp_lib.c:27:
+/usr/include/math.h:1011:11: note: this is the location of the previous definition
+ 1011 | #  define isnan(x) __builtin_isnan (x)
+      |           ^~~~~
+../lp_lib.c: In function 'MIP_stepOF':
+../lp_lib.c:6843:11: warning: unused variable 'nrows' [-Wunused-variable]
+ 6843 |       int nrows = lp->rows;
+      |           ^~~~~
+../lp_lib.c: In function 'verify_basis':
+../lp_lib.c:7264:17: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+ 7264 |   int    i, ii, k = 0;
+      |                 ^
+../lp_lib.c: In function 'check_solution':
+../lp_lib.c:8956:11: warning: unused variable 'mat' [-Wunused-variable]
+ 8956 |   MATrec *mat = lp->matA;
+      |           ^~~
+../lp_lib.c:8955:66: warning: unused variable 'matColnr' [-Wunused-variable]
+ 8955 |   int    i,j,n, errlevel = IMPORTANT, errlimit = 10, *matRownr, *matColnr;
+      |                                                                  ^~~~~~~~
+../lp_lib.c:8955:55: warning: unused variable 'matRownr' [-Wunused-variable]
+ 8955 |   int    i,j,n, errlevel = IMPORTANT, errlimit = 10, *matRownr, *matColnr;
+      |                                                       ^~~~~~~~
+../lp_lib.c:8946:59: warning: unused variable 'matValue' [-Wunused-variable]
+ 8946 |   REAL   test, value, diff, maxdiff = 0.0, maxerr = 0.0, *matValue;
+      |                                                           ^~~~~~~~
+In file included from ../lp_lib.c:49:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+../lp_presolve.h:91:12: warning: 'presolve_nextcol' declared 'static' but never defined [-Wunused-function]
+   91 | INLINE int presolve_nextcol(presolverec *psdata, int rownr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+In file included from ../lp_lib.c:82:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_lib.c:83:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_lib.c:55:
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_wlp.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_matrix.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+  197 |   int    rowsum, oldrowsalloc;
+      |                  ^~~~~~~~~~~~
+../lp_matrix.c: In function 'prod_Ax':
+../lp_matrix.c:3325:34: warning: variable 've' set but not used [-Wunused-but-set-variable]
+ 3325 |   int      j, colnr, ib, ie, vb, ve;
+      |                                  ^~
+In file included from ../lp_matrix.c:7:
+../lp_price.h: At top level:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_matrix.c:8:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_mipbb.c:30:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_MPS.c:5:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_params.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_presolve.c:36:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+      |                                                   ^
+../lp_presolve.c: In function 'presolve_colfixdual':
+../lp_presolve.c:1993:18: warning: variable 'isMI' set but not used [-Wunused-but-set-variable]
+ 1993 |   MYBOOL  hasOF, isMI, isDualFREE = TRUE;
+      |                  ^~~~
+../lp_presolve.c: In function 'presolve_columns':
+../lp_presolve.c:4873:46: warning: variable 'item' set but not used [-Wunused-but-set-variable]
+ 4873 |            status = RUNNING, ix, j, countNZ, item;
+      |                                              ^~~~
+../lp_presolve.c:4866:31: warning: variable 'unbounded' set but not used [-Wunused-but-set-variable]
+ 4866 |   MYBOOL   candelete, isOFNZ, unbounded,
+      |                               ^~~~~~~~~
+../lp_presolve.c: In function 'presolve_rows':
+../lp_presolve.c:5311:13: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+ 5311 |             if(!presolve_fixSOS1(psdata, j, Value1, &iConRemove, &iVarFixed))
+      |             ^~
+../lp_presolve.c:5313:15: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+ 5313 |               psdata->forceupdate = TRUE;
+      |               ^~~~~~
+../lp_presolve.c: At top level:
+../lp_presolve.c:377:15: warning: 'presolve_mustupdate' defined but not used [-Wunused-function]
+  377 | INLINE MYBOOL presolve_mustupdate(lprec *lp, int colnr)
+      |               ^~~~~~~~~~~~~~~~~~~
+In file included from ../lp_price.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_price.c: In function 'compareImprovementVar':
+../lp_price.c:48:7: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+   48 |       candidatecolno, candidatevarno = candidate->varno;
+      |       ^~~~~~~~~~~~~~
+../lp_price.c:47:7: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+   47 |   int currentcolno, currentvarno = current->varno,
+      |       ^~~~~~~~~~~~
+../lp_price.c: In function 'compareSubstitutionVar':
+../lp_price.c:161:10: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+  161 |          candidatecolno, candidatevarno = candidate->varno;
+      |          ^~~~~~~~~~~~~~
+../lp_price.c:160:10: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+  160 |   int    currentcolno, currentvarno = current->varno,
+      |          ^~~~~~~~~~~~
+../lp_price.c: In function 'partial_findBlocks':
+../lp_price.c:1561:15: warning: variable 'blockdata' set but not used [-Wunused-but-set-variable]
+ 1561 |   partialrec *blockdata;
+      |               ^~~~~~~~~
+In file included from ../lp_price.c:6:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_pricePSE.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_scale.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |                        ^~~~
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |          ^~~~
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c:632:16: warning: variable 'colMax' set but not used [-Wunused-but-set-variable]
+  632 |   int     i,j, colMax, nz;
+      |                ^~~~~~
+In file included from ../lp_simplex.c:27:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_simplex.c: In function 'dualloop':
+../lp_simplex.c:997:10: warning: variable 'epsvalue' set but not used [-Wunused-but-set-variable]
+  997 |   REAL   epsvalue, xviolated, cviolated,
+      |          ^~~~~~~~
+In file included from ../lp_simplex.c:32:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+../lp_presolve.h:91:12: warning: 'presolve_nextcol' declared 'static' but never defined [-Wunused-function]
+   91 | INLINE int presolve_nextcol(presolverec *psdata, int rownr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+In file included from ../lp_simplex.c:33:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_simplex.c:34:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_SOS.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_utils.c:4:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  532 |     if(absolute)
+      |     ^~
+../lp_utils.c:534:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  534 |       while((beginPos < endPos) && (match != target)) {
+      |       ^~~~~
+../lp_utils.c: In function 'compareLink':
+../lp_utils.c:927:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  927 |   if(test == 0)
+      |   ^~
+../lp_utils.c:929:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  929 |     if(test == 0)
+      |     ^~
+In file included from ../lp_utils.c:9:
+../lp_bit.h: At top level:
+../lp_bit.h:19:17: warning: 'is_biton' defined but not used [-Wunused-function]
+   19 | MYINLINE MYBOOL is_biton(MYBOOL *bitarray, int item)
+      |                 ^~~~~~~~
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_bit.h:9:15: warning: 'set_biton' defined but not used [-Wunused-function]
+    9 | MYINLINE void set_biton(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~
+In file included from ../yacc_read.c:36:
+../yacc_read.c: In function 'yacc_read':
+../lpkit.h:32:99: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   32 |   (MALLOC(nptr, nr, type), (nptr != NULL) ? memcpy(nptr, optr, (size_t)((nr) * sizeof(*optr))) : 0, nptr)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+      |           ^~~~~~~~~
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[.]c/.o/g'
+++ sed 's/[^ ]*\///g'
++ ar rv bin//liblpsolve55.a lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o
+ar: creating bin//liblpsolve55.a
+ar: lp_MDO.o: No such file or directory
++ ranlib bin//liblpsolve55.a
+ranlib: 'bin//liblpsolve55.a': No such file
++ '[' y '!=' '' ']'
++ cc -fpic -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+In file included from ../lp_MDO.c:22:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+  849 |   ftime(&buf);
+      |   ^~~~~
+In file included from ../shared/commonlib.c:9:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+../shared/mmio.c: In function 'mm_read_unsymmetric_sparse':
+../shared/mmio.c:26:9: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   26 |     int x;
+      |         ^
+In file included from ../lp_rlp.c:205:
+../lp_rlp.h:1653:16: warning: 'input' defined but not used [-Wunused-function]
+ 1653 |     static int input  (lp_yyscan_t lp_yyscanner)
+      |                ^~~~~
+In file included from ../lp_crash.c:21:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_LUSOLsetcolumn':
+../bfp/bfp_LUSOL/lp_LUSOL.c:209:7: warning: variable 'nz' set but not used [-Wunused-but-set-variable]
+  209 |   int nz, inform;
+      |       ^~
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_finishupdate':
+../bfp/bfp_LUSOL/lp_LUSOL.c:477:18: warning: variable 'kcol' set but not used [-Wunused-but-set-variable]
+  477 |   int      i, k, kcol, deltarows = bfp_rowoffset(lp);
+      |                  ^~~~
+In file included from ../bfp/bfp_LUSOL/LUSOL/lusol.c:746:
+../bfp/bfp_LUSOL/LUSOL/lusol1.c: In function 'LU1FAC':
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:34: warning: variable 'TSP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                                  ^~~
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:29: warning: variable 'TRP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                             ^~~
+../bfp/bfp_LUSOL/LUSOL/lusol1.c:3359:19: warning: variable 'TCP' set but not used [-Wunused-but-set-variable]
+ 3359 |   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+      |                   ^~~
+In file included from ../lp_lib.c:41:
+../lp_lib.h:63:10: warning: "isnan" redefined
+   63 | # define isnan(x) FALSE
+      |          ^~~~~
+In file included from ../lp_lib.c:27:
+/usr/include/math.h:1011:11: note: this is the location of the previous definition
+ 1011 | #  define isnan(x) __builtin_isnan (x)
+      |           ^~~~~
+../lp_lib.c: In function 'MIP_stepOF':
+../lp_lib.c:6843:11: warning: unused variable 'nrows' [-Wunused-variable]
+ 6843 |       int nrows = lp->rows;
+      |           ^~~~~
+../lp_lib.c: In function 'verify_basis':
+../lp_lib.c:7264:17: warning: variable 'k' set but not used [-Wunused-but-set-variable]
+ 7264 |   int    i, ii, k = 0;
+      |                 ^
+../lp_lib.c: In function 'check_solution':
+../lp_lib.c:8956:11: warning: unused variable 'mat' [-Wunused-variable]
+ 8956 |   MATrec *mat = lp->matA;
+      |           ^~~
+../lp_lib.c:8955:66: warning: unused variable 'matColnr' [-Wunused-variable]
+ 8955 |   int    i,j,n, errlevel = IMPORTANT, errlimit = 10, *matRownr, *matColnr;
+      |                                                                  ^~~~~~~~
+../lp_lib.c:8955:55: warning: unused variable 'matRownr' [-Wunused-variable]
+ 8955 |   int    i,j,n, errlevel = IMPORTANT, errlimit = 10, *matRownr, *matColnr;
+      |                                                       ^~~~~~~~
+../lp_lib.c:8946:59: warning: unused variable 'matValue' [-Wunused-variable]
+ 8946 |   REAL   test, value, diff, maxdiff = 0.0, maxerr = 0.0, *matValue;
+      |                                                           ^~~~~~~~
+In file included from ../lp_lib.c:49:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+../lp_presolve.h:91:12: warning: 'presolve_nextcol' declared 'static' but never defined [-Wunused-function]
+   91 | INLINE int presolve_nextcol(presolverec *psdata, int rownr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+In file included from ../lp_lib.c:82:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_lib.c:83:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_lib.c:55:
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_wlp.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_matrix.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+  197 |   int    rowsum, oldrowsalloc;
+      |                  ^~~~~~~~~~~~
+../lp_matrix.c: In function 'prod_Ax':
+../lp_matrix.c:3325:34: warning: variable 've' set but not used [-Wunused-but-set-variable]
+ 3325 |   int      j, colnr, ib, ie, vb, ve;
+      |                                  ^~
+In file included from ../lp_matrix.c:7:
+../lp_price.h: At top level:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_matrix.c:8:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_mipbb.c:30:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_MPS.c:5:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_params.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_presolve.c:36:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+      |                                                   ^
+../lp_presolve.c: In function 'presolve_colfixdual':
+../lp_presolve.c:1993:18: warning: variable 'isMI' set but not used [-Wunused-but-set-variable]
+ 1993 |   MYBOOL  hasOF, isMI, isDualFREE = TRUE;
+      |                  ^~~~
+../lp_presolve.c: In function 'presolve_columns':
+../lp_presolve.c:4873:46: warning: variable 'item' set but not used [-Wunused-but-set-variable]
+ 4873 |            status = RUNNING, ix, j, countNZ, item;
+      |                                              ^~~~
+../lp_presolve.c:4866:31: warning: variable 'unbounded' set but not used [-Wunused-but-set-variable]
+ 4866 |   MYBOOL   candelete, isOFNZ, unbounded,
+      |                               ^~~~~~~~~
+../lp_presolve.c: In function 'presolve_rows':
+../lp_presolve.c:5311:13: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+ 5311 |             if(!presolve_fixSOS1(psdata, j, Value1, &iConRemove, &iVarFixed))
+      |             ^~
+../lp_presolve.c:5313:15: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+ 5313 |               psdata->forceupdate = TRUE;
+      |               ^~~~~~
+../lp_presolve.c: At top level:
+../lp_presolve.c:377:15: warning: 'presolve_mustupdate' defined but not used [-Wunused-function]
+  377 | INLINE MYBOOL presolve_mustupdate(lprec *lp, int colnr)
+      |               ^~~~~~~~~~~~~~~~~~~
+In file included from ../lp_price.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_price.c: In function 'compareImprovementVar':
+../lp_price.c:48:7: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+   48 |       candidatecolno, candidatevarno = candidate->varno;
+      |       ^~~~~~~~~~~~~~
+../lp_price.c:47:7: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+   47 |   int currentcolno, currentvarno = current->varno,
+      |       ^~~~~~~~~~~~
+../lp_price.c: In function 'compareSubstitutionVar':
+../lp_price.c:161:10: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+  161 |          candidatecolno, candidatevarno = candidate->varno;
+      |          ^~~~~~~~~~~~~~
+../lp_price.c:160:10: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+  160 |   int    currentcolno, currentvarno = current->varno,
+      |          ^~~~~~~~~~~~
+../lp_price.c: In function 'partial_findBlocks':
+../lp_price.c:1561:15: warning: variable 'blockdata' set but not used [-Wunused-but-set-variable]
+ 1561 |   partialrec *blockdata;
+      |               ^~~~~~~~~
+In file included from ../lp_price.c:6:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+In file included from ../lp_pricePSE.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_scale.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |                        ^~~~
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |          ^~~~
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c:632:16: warning: variable 'colMax' set but not used [-Wunused-but-set-variable]
+  632 |   int     i,j, colMax, nz;
+      |                ^~~~~~
+In file included from ../lp_simplex.c:27:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_simplex.c: In function 'dualloop':
+../lp_simplex.c:997:10: warning: variable 'epsvalue' set but not used [-Wunused-but-set-variable]
+  997 |   REAL   epsvalue, xviolated, cviolated,
+      |          ^~~~~~~~
+In file included from ../lp_simplex.c:32:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+../lp_presolve.h:91:12: warning: 'presolve_nextcol' declared 'static' but never defined [-Wunused-function]
+   91 | INLINE int presolve_nextcol(presolverec *psdata, int rownr, int *previtem);
+      |            ^~~~~~~~~~~~~~~~
+In file included from ../lp_simplex.c:33:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_simplex.c:34:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_SOS.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+In file included from ../lp_utils.c:4:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  532 |     if(absolute)
+      |     ^~
+../lp_utils.c:534:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  534 |       while((beginPos < endPos) && (match != target)) {
+      |       ^~~~~
+../lp_utils.c: In function 'compareLink':
+../lp_utils.c:927:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  927 |   if(test == 0)
+      |   ^~
+../lp_utils.c:929:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  929 |     if(test == 0)
+      |     ^~
+In file included from ../lp_utils.c:9:
+../lp_bit.h: At top level:
+../lp_bit.h:19:17: warning: 'is_biton' defined but not used [-Wunused-function]
+   19 | MYINLINE MYBOOL is_biton(MYBOOL *bitarray, int item)
+      |                 ^~~~~~~~
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_bit.h:9:15: warning: 'set_biton' defined but not used [-Wunused-function]
+    9 | MYINLINE void set_biton(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~
+In file included from ../yacc_read.c:36:
+../yacc_read.c: In function 'yacc_read':
+../lpkit.h:32:99: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   32 |   (MALLOC(nptr, nr, type), (nptr != NULL) ? memcpy(nptr, optr, (size_t)((nr) * sizeof(*optr))) : 0, nptr)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+      |           ^~~~~~~~~
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[.]c/.o/g'
+++ sed 's/[^ ]*\///g'
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+collect2: error: ld returned 1 exit status
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm 'bin/ux*/liblpsolve55.a'
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+Command exited with non-zero status 1
+4.04user 0.75system 0:04.57elapsed 104%CPU (0avgtext+0avgdata 60464maxresident)k
+0inputs+0outputs (0major+112709minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lp_solve-5.5.2.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+0.54user 1.85system 0:08.91elapsed 26%CPU (0avgtext+0avgdata 11564maxresident)k
+0inputs+0outputs (0major+84642minor)pagefaults 0swaps

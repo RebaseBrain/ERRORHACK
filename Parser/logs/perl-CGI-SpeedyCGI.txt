@@ -1,0 +1,270 @@
+<86>May 16 00:06:08 userdel[1866857]: delete user 'rooter'
+<86>May 16 00:06:08 userdel[1866857]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:06:08 userdel[1866857]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:06:08 groupadd[1866876]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 00:06:08 groupadd[1866876]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:06:08 groupadd[1866876]: new group: name=rooter, GID=1823
+<86>May 16 00:06:08 useradd[1866895]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:06:08 userdel[1866924]: delete user 'builder'
+<86>May 16 00:06:08 userdel[1866924]: removed group 'builder' owned by 'builder'
+<86>May 16 00:06:08 userdel[1866924]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:06:08 groupadd[1866949]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 00:06:08 groupadd[1866949]: group added to /etc/gshadow: name=builder
+<86>May 16 00:06:08 groupadd[1866949]: new group: name=builder, GID=1824
+<86>May 16 00:06:08 useradd[1866965]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+<13>May 16 00:06:11 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 00:06:11 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 00:06:11 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 00:06:11 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 00:06:11 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 00:06:11 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 00:06:11 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 00:06:11 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 00:06:11 rpmi: libgdbm-devel-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 00:06:11 rpmi: perl-devel-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 00:06:11 rpmi: perl-CGI-4.68-alt1 sisyphus+380153.100.1.1 1743709538 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/perl-CGI-SpeedyCGI-2.22-alt9.nosrc.rpm (w1.gzdio)
+Installing perl-CGI-SpeedyCGI-2.22-alt9.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.34946
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf CGI-SpeedyCGI-2.22
++ echo 'Source #0 (CGI-SpeedyCGI-2.22.tar.gz):'
+Source #0 (CGI-SpeedyCGI-2.22.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/CGI-SpeedyCGI-2.22.tar.gz
++ /bin/tar -xf -
++ cd CGI-SpeedyCGI-2.22
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (perl-CGI-SpeedyCGI-2.22-documentation.patch):'
+Patch #0 (perl-CGI-SpeedyCGI-2.22-documentation.patch):
++ /usr/bin/patch -p1 -b --suffix .documentation
+patching file src/SpeedyCGI.src
++ echo 'Patch #1 (perl-CGI-SpeedyCGI-2.22-empty_param.patch):'
+Patch #1 (perl-CGI-SpeedyCGI-2.22-empty_param.patch):
++ /usr/bin/patch -p1 -b --suffix .empty_param
+patching file src/speedy_frontend.c
++ echo 'Patch #2 (perl-CGI-SpeedyCGI-2.22-strerror.patch):'
+Patch #2 (perl-CGI-SpeedyCGI-2.22-strerror.patch):
++ /usr/bin/patch -p1 -b --suffix .strerror
+patching file src/speedy_util.c
++ echo 'Patch #3 (perl-CGI-SpeedyCGI-2.22-brigade_foreach.patch):'
+Patch #3 (perl-CGI-SpeedyCGI-2.22-brigade_foreach.patch):
++ /usr/bin/patch -p1 -b --suffix .brigade_foreach
+patching file src/mod_speedycgi2.c
++ echo 'Patch #4 (perl-CGI-SpeedyCGI-2.22-exit_messages.patch):'
+Patch #4 (perl-CGI-SpeedyCGI-2.22-exit_messages.patch):
++ /usr/bin/patch -p1 -b --suffix .exit_messages
+patching file src/speedy_main.c
++ echo 'Patch #5 (perl-CGI-SpeedyCGI-2.22-perl_510.patch):'
+Patch #5 (perl-CGI-SpeedyCGI-2.22-perl_510.patch):
++ /usr/bin/patch -p1 -b --suffix .perl_510
+patching file src/speedy_backend_main.h
++ echo 'Patch #6 (perl-CGI-SpeedyCGI-2.22-c99_inline.patch):'
+Patch #6 (perl-CGI-SpeedyCGI-2.22-c99_inline.patch):
++ /usr/bin/patch -p1 -b --suffix .c99_inline
+patching file src/speedy_file.c
+patching file src/speedy_file.h
+patching file src/speedy_inc.h
+patching file src/speedy_opt.c
+patching file src/speedy_opt.h
+patching file src/speedy_util.c
+patching file src/speedy_util.c.strerror
+patching file src/speedy_util.h
++ echo 'Patch #7 (CGI-SpeedyCGI-2.22-Fix-building-on-Perl-without-dot-in-INC.patch):'
+Patch #7 (CGI-SpeedyCGI-2.22-Fix-building-on-Perl-without-dot-in-INC.patch):
++ /usr/bin/patch -p1 -b --suffix .inc
+patching file Makefile.PL
++ echo 'Patch #33 (CGI-SpeedyCGI-2.22-alt-perl5.26-EU-MM.patch):'
+Patch #33 (CGI-SpeedyCGI-2.22-alt-perl5.26-EU-MM.patch):
++ /usr/bin/patch -p1
+patching file src/Makefile.PL
++ echo 'Patch #34 (CGI-SpeedyCGI-2.22-alt-gcc10.patch):'
+Patch #34 (CGI-SpeedyCGI-2.22-alt-gcc10.patch):
++ /usr/bin/patch -p1
+patching file src/SpeedyMake.pl
++ '[' 2.22 = 2.22 ']'
++ rm speedy/t/be_memleak.t
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.34946
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd CGI-SpeedyCGI-2.22
++ NPROCS=1
++ perl_vendor_build
++ export PERL_EXTUTILS_AUTOINSTALL=--skip
++ PERL_EXTUTILS_AUTOINSTALL=--skip
++ export XSUBPP_STATIC_XS=1
++ XSUBPP_STATIC_XS=1
++ _perl_vendor_fixin
++ find . -type f -print0
++ xargs -r0 /usr/bin/subst -p '1s,^#![[:space:]]*\([^[:space:]]*/\)\?perl\([^/[:alpha:][:space:]][^/[:space:]]*\)\?\([[:space:]]\|$\),#!/usr/bin/perl\3,'
++ /usr/bin/grep -qs -Ew '((dist|module)_name|Build_PL|Module::Build)' Build.PL
++ _perl_vendor_MM_build
++ : looking for PREREQ dependencies
++ /usr/bin/perl Makefile.PL PRINT_PREREQ=1
++ tee .perl.req
+
+Optional mod_speedycgi support.
+
+Mod_speedycgi increases performance under Apache by avoiding the fork/exec
+overhead associated with each request under normal SpeedyCGI.  However, it
+requires a working copy of "apxs" in your path, Apache with mod_so
+support, and additional Apache configuration.
+
+Compile mod_speedycgi (default no)? 
++ : writing Makefile
++ /usr/bin/perl Makefile.PL PREFIX=/usr INSTALLDIRS=vendor
+
+Optional mod_speedycgi support.
+
+Mod_speedycgi increases performance under Apache by avoiding the fork/exec
+overhead associated with each request under normal SpeedyCGI.  However, it
+requires a working copy of "apxs" in your path, Apache with mod_so
+support, and additional Apache configuration.
+
+Compile mod_speedycgi (default no)? Checking if your kit is complete...
+Warning: the following files are missing in your kit:
+	speedy/t/be_memleak.t
+Please inform the author.
+Use of uninitialized value $val in concatenation (.) or string at /usr/share/perl5/ExtUtils/MM_Unix.pm line 2547.
+Writing Makefile for src
+Use of uninitialized value $val in concatenation (.) or string at /usr/share/perl5/ExtUtils/MM_Unix.pm line 2547.
+Use of uninitialized value $val in concatenation (.) or string at /usr/share/perl5/ExtUtils/MM_Unix.pm line 2547.
+Generating a Unix-style Makefile
+Writing Makefile for CGI::SpeedyCGI
++ : running make
++ make -j1 'OPTIMIZE=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' 'CP=/bin/cp -p'
+make: Entering directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+cd src && make
+make[1]: Entering directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/src'
+"/usr/bin/perl" -w optdefs.pl /usr/bin
+Writing speedy_optdefs.c
+Writing speedy_optdefs.h
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Redundant argument in printf at optdefs.pl line 158.
+Writing mod_speedycgi_cmds.c
+Writing mod_speedycgi2_cmds.c
+Writing SpeedyCGI.pm
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/src'
+cp src/SpeedyCGI.pm blib/lib/CGI/SpeedyCGI.pm
+make[1]: Entering directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+rm -f speedy_backend_main.c
+/bin/cp -p ../src/speedy_backend_main.c speedy_backend_main.c
+gcc -c  -I../src -I. -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"2.22\" -DXS_VERSION=\"2.22\" -fPIC "-I/usr/lib64/perl5/CORE"  -fcommon -DSPEEDY_PROGNAME=\"speedy_backend\" -DSPEEDY_VERSION=\"2.22\" -DSPEEDY_BACKEND speedy_backend_main.c
+rm -f speedy_perl.c
+/bin/cp -p ../src/speedy_perl.c speedy_perl.c
+gcc -c  -I../src -I. -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"2.22\" -DXS_VERSION=\"2.22\" -fPIC "-I/usr/lib64/perl5/CORE"  -fcommon -DSPEEDY_PROGNAME=\"speedy_backend\" -DSPEEDY_VERSION=\"2.22\" -DSPEEDY_BACKEND speedy_perl.c
+speedy_perl.c: In function 'onerun':
+speedy_perl.c:808:9: error: implicit declaration of function 'PerlIO_reopen'; did you mean 'PerlIO_fdopen'? [-Wimplicit-function-declaration]
+  808 |     if (PerlIO_reopen(dev_null, "r", pio_in ) == NULL ||
+      |         ^~~~~~~~~~~~~
+      |         PerlIO_fdopen
+speedy_perl.c:808:47: warning: comparison between pointer and integer
+  808 |     if (PerlIO_reopen(dev_null, "r", pio_in ) == NULL ||
+      |                                               ^~
+speedy_perl.c:809:47: warning: comparison between pointer and integer
+  809 |         PerlIO_reopen(dev_null, "w", pio_out) == NULL ||
+      |                                               ^~
+speedy_perl.c:810:47: warning: comparison between pointer and integer
+  810 |         PerlIO_reopen(dev_null, "w", pio_err) == NULL)
+      |                                               ^~
+speedy_perl.c: In function 'speedy_perl_init':
+speedy_perl.c:917:29: error: passing argument 2 of 'perl_parse' from incompatible pointer type [-Wincompatible-pointer-types]
+  917 |     if (perl_parse(my_perl, xs_init,
+      |                             ^~~~~~~
+      |                             |
+      |                             void (*)(void)
+In file included from /usr/lib64/perl5/CORE/perl.h:6188,
+                 from ../src/speedy_inc_perl.h:25,
+                 from speedy.h:1,
+                 from speedy_perl.c:20:
+/usr/lib64/perl5/CORE/proto.h:3472:47: note: expected 'XSINIT_t' {aka 'void (*)(struct interpreter *)'} but argument is of type 'void (*)(void)'
+ 3472 | perl_parse(PerlInterpreter *my_perl, XSINIT_t xsinit, int argc, char **argv, char **env);
+      |                                      ~~~~~~~~~^~~~~~
+speedy_perl.c: In function 'do_proto2':
+speedy_perl.c:466:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  466 |     write(PREF_FD_ACCEPT_O, &c, 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:324: speedy_perl.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+make: *** [Makefile:525: subdirs] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+Command exited with non-zero status 1
+0.65user 0.46system 0:01.10elapsed 101%CPU (0avgtext+0avgdata 81612maxresident)k
+0inputs+0outputs (0major+75534minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-CGI-SpeedyCGI-2.22-alt9.src.rpm' failed.
+Command exited with non-zero status 1
+3.38user 2.50system 0:09.42elapsed 62%CPU (0avgtext+0avgdata 144444maxresident)k
+3160inputs+0outputs (0major+189254minor)pagefaults 0swaps

@@ -1,0 +1,77 @@
+<86>May 16 02:22:29 groupadd[2413251]: new group: name=rooter, GID=1874
+<86>May 16 02:22:29 useradd[2413302]: new user: name=rooter, UID=1874, GID=1874, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:22:29 userdel[2413388]: delete user 'builder'
+<86>May 16 02:22:29 userdel[2413388]: removed group 'builder' owned by 'builder'
+<86>May 16 02:22:29 userdel[2413388]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:22:29 groupadd[2413479]: group added to /etc/group: name=builder, GID=1875
+<86>May 16 02:22:29 groupadd[2413479]: group added to /etc/gshadow: name=builder
+<86>May 16 02:22:29 groupadd[2413479]: new group: name=builder, GID=1875
+<86>May 16 02:22:29 useradd[2413555]: new user: name=builder, UID=1875, GID=1875, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/fonts-ttf-oxygen-5.4.3-alt1_15.src.rpm: license not found in '/usr/share/license' directory: OFL
+/usr/src/in/srpm/fonts-ttf-oxygen-5.4.3-alt1_15.src.rpm: exception not found in '/usr/share/license-exception' directory: exceptions
+<13>May 16 02:22:32 rpmi: rpm-macros-kde-common-devel-14.12.1-alt1 1422279175 installed
+<13>May 16 02:22:32 rpmi: rpm-macros-generic-compat-0.05-alt1 sisyphus+332093.100.1.1 1697645292 installed
+<13>May 16 02:22:32 rpmi: rpm-macros-fedora-compat-0.159-alt1 sisyphus+258368.100.1.1 1600512138 installed
+<13>May 16 02:22:32 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+warning: Macro %_qt5_prefix not found
+warning: Macro %_qt5_bindir not found
+warning: Macro %__kf5_buildtype not found
+warning: Macro %_K5inc not found
+warning: Macro %_K5libexecdir not found
+warning: Macro %_K5archdata not found
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34522 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34522 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34522 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34522 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.30user 0.31system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 24000maxresident)k
+0.30user 0.31system 0:00.59elapsed 103%CPU (0avgtext+0avgdata 24000maxresident)k
+0inputs+0outputs (0major+60683minor)pagefaults 0swaps
+0inputs+0outputs (0major+60683minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `fonts-ttf-oxygen-5.4.3-alt1_15.src.rpm' failed.
+hsh-rebuild: rebuild of `fonts-ttf-oxygen-5.4.3-alt1_15.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.04user 3.80system 0:25.19elapsed 35%CPU (0avgtext+0avgdata 140468maxresident)k
+5.04user 3.80system 0:25.19elapsed 35%CPU (0avgtext+0avgdata 140468maxresident)k
+88inputs+0outputs (0major+357596minor)pagefaults 0swaps

@@ -1,0 +1,161 @@
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-status.o `test -f 'status.c' || echo './'`status.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-status.o `test -f 'status.c' || echo './'`status.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-thread.o `test -f 'thread.c' || echo './'`thread.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-thread.o `test -f 'thread.c' || echo './'`thread.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-thread.o `test -f 'thread.c' || echo './'`thread.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-droppriv.o `test -f 'droppriv.c' || echo './'`droppriv.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-droppriv.o `test -f 'droppriv.c' || echo './'`droppriv.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-droppriv.o `test -f 'droppriv.c' || echo './'`droppriv.c
+droppriv.c: In function 'drop_priv':
+droppriv.c: In function 'drop_priv':
+droppriv.c: In function 'drop_priv':
+droppriv.c:19:17: error: implicit declaration of function 'error'; did you mean 'perror'? [-Wimplicit-function-declaration]
+droppriv.c:19:17: error: implicit declaration of function 'error'; did you mean 'perror'? [-Wimplicit-function-declaration]
+droppriv.c:19:17: error: implicit declaration of function 'error'; did you mean 'perror'? [-Wimplicit-function-declaration]
+   19 |                 error (EXIT_FAILURE, 0, "user shouldn't be empty");
+   19 |                 error (EXIT_FAILURE, 0, "user shouldn't be empty");
+   19 |                 error (EXIT_FAILURE, 0, "user shouldn't be empty");
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 ^~~~~
+      |                 perror
+      |                 perror
+      |                 perror
+make[3]: *** [Makefile:737: pdnsd-droppriv.o] Error 1
+make[3]: *** [Makefile:737: pdnsd-droppriv.o] Error 1
+make[3]: *** [Makefile:737: pdnsd-droppriv.o] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-servers.o `test -f 'servers.c' || echo './'`servers.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-servers.o `test -f 'servers.c' || echo './'`servers.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-servers.o `test -f 'servers.c' || echo './'`servers.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-hash.o `test -f 'hash.c' || echo './'`hash.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-hash.o `test -f 'hash.c' || echo './'`hash.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns_answer.o `test -f 'dns_answer.c' || echo './'`dns_answer.c
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns_query.o `test -f 'dns_query.c' || echo './'`dns_query.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns_query.o `test -f 'dns_query.c' || echo './'`dns_query.c
+dns_query.c: In function 'p_exec_query':
+dns_query.c: In function 'p_exec_query':
+dns_query.c: In function 'p_exec_query':
+dns_query.c:1402:43: warning: variable 'qc' set but not used [-Wunused-but-set-variable]
+dns_query.c:1402:43: warning: variable 'qc' set but not used [-Wunused-but-set-variable]
+dns_query.c:1402:43: warning: variable 'qc' set but not used [-Wunused-but-set-variable]
+dns_query.c:1402:43: warning: variable 'qc' set but not used [-Wunused-but-set-variable]
+ 1402 |                         unsigned short qt,qc;
+ 1402 |                         unsigned short qt,qc;
+ 1402 |                         unsigned short qt,qc;
+ 1402 |                         unsigned short qt,qc;
+      |                                           ^~
+      |                                           ^~
+      |                                           ^~
+      |                                           ^~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[2]: *** [Makefile:753: all-recursive] Error 1
+make[2]: *** [Makefile:753: all-recursive] Error 1
+make[2]: *** [Makefile:753: all-recursive] Error 1
+make[2]: *** [Makefile:753: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make: *** [Makefile:308: all] Error 2
+make: *** [Makefile:308: all] Error 2
+make: *** [Makefile:308: all] Error 2
+make: *** [Makefile:308: all] Error 2
+make: *** [Makefile:308: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pdnsd-1.2.9a-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `pdnsd-1.2.9a-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `pdnsd-1.2.9a-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `pdnsd-1.2.9a-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.54user 2.58system 0:14.56elapsed 42%CPU (0avgtext+0avgdata 142472maxresident)k
+3.54user 2.58system 0:14.56elapsed 42%CPU (0avgtext+0avgdata 142472maxresident)k
+0inputs+0outputs (0major+187658minor)pagefaults 0swaps

@@ -1,0 +1,182 @@
+INFO: Loading config file: doc/settings.toml
+INFO: Theme name: Basic
+INFO: Output directory: doc/snapd-glib
+INFO: Parsing GIR file
+INFO: Elapsed time 2.764 seconds
+INFO: Generating type hierarchy file: doc/snapd-glib/classes_hierarchy.html
+INFO: Generating references for: ['aliases', 'bitfields', 'callbacks', 'classes', 'constants', 'domains', 'enums', 'functions', 'function_macros', 'interfaces', 'structs', 'unions']
+INFO: Creating callback file for Snapd.LogCallback: doc/snapd-glib/callback.LogCallback.html
+INFO: Creating function file for Snapd.login_async: doc/snapd-glib/func.login_async.html
+INFO: Creating enum file for Snapd.CreateUserFlags: doc/snapd-glib/flags.CreateUserFlags.html
+INFO: Creating enum file for Snapd.Error: doc/snapd-glib/error.Error.html
+INFO: Creating enum file for Snapd.AliasStatus: doc/snapd-glib/enum.AliasStatus.html
+INFO: Creating enum file for Snapd.ChangeFilter: doc/snapd-glib/enum.ChangeFilter.html
+INFO: Creating enum file for Snapd.FindFlags: doc/snapd-glib/flags.FindFlags.html
+INFO: Creating enum file for Snapd.Confinement: doc/snapd-glib/enum.Confinement.html
+INFO: Creating enum file for Snapd.DaemonType: doc/snapd-glib/enum.DaemonType.html
+INFO: Creating enum file for Snapd.GetAppsFlags: doc/snapd-glib/flags.GetAppsFlags.html
+INFO: Creating enum file for Snapd.MaintenanceKind: doc/snapd-glib/enum.MaintenanceKind.html
+INFO: Creating enum file for Snapd.MarkdownNodeType: doc/snapd-glib/enum.MarkdownNodeType.html
+INFO: Creating enum file for Snapd.MarkdownVersion: doc/snapd-glib/enum.MarkdownVersion.html
+INFO: Creating enum file for Snapd.GetConnectionsFlags: doc/snapd-glib/flags.GetConnectionsFlags.html
+/usr/lib/pkgconfig/snapd-glib-2.pc: Libs: '-L${libdir} -lsnapd-glib-2' --> '-lsnapd-glib-2'
+Checking contents of files in /usr/src/tmp/snapd-glib-2-buildroot/ (default)
+Compressing files in /usr/src/tmp/snapd-glib-2-buildroot (auto)
+Adjusting library links in /usr/src/tmp/snapd-glib-2-buildroot
+./usr/lib: (from <cmdline>:0)
+	libsnapd-glib-2.so.1 -> libsnapd-glib-2.so.1.0.0
+	libsnapd-qt-2.so.1 -> libsnapd-qt-2.so.1.0.0
+Verifying ELF objects in /usr/src/tmp/snapd-glib-2-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+phdr[5]: unknown object file note type 1951465473 with owner name 'qt-project!' at offset 168
+section [19] '.note.qt.metadata': unknown object file note type 1951465473 with owner name 'qt-project!' at offset 92
+verify-elf: WARNING: ./usr/lib/qt6/qml/Snapd2/libSnapd2.so: eu-elflint failed
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/snapd-glib-2-buildroot
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/snapd-glib-2-buildroot
+Hardlinking identical .pyc and .opt-?.pyc files
+Hardlinking identical .pyc and .opt-?.pyc files
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.40908
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.40908
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd snapd-glib-1.67
++ cd snapd-glib-1.67
++ /usr/bin/meson test --no-rebuild --print-errorlogs -C i586-alt-linux -t 2
++ /usr/bin/meson test --no-rebuild --print-errorlogs -C i586-alt-linux -t 2
+1/4 Markdown tests       OK                0.02s
+1/4 Markdown tests       OK                0.02s
+2/4 Markdown tests (qt6) OK                0.02s
+2/4 Markdown tests (qt6) OK                0.02s
+3/4 Tests (qt6           FAIL              1.01s   killed by signal 6 SIGABRT
+>>> ASAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1 UBSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 MSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 MALLOC_PERTURB_=69 MESON_TEST_ITERATION=1 LD_LIBRARY_PATH=/usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/snapd-glib:/usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/snapd-qt /usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/tests/test-qt6
+――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――
+Listing only the last 100 lines from a long log.
+ok 55 /get-snap/optional-fields
+ok 56 /get-snap/deprecated-fields
+ok 57 /get-snap/common-ids
+ok 58 /get-snap/not-installed
+ok 59 /get-snap/classic-confinement
+ok 60 /get-snap/devmode-confinement
+ok 61 /get-snap/daemons
+# Start of find tests
+ok 115 /find/query
+ok 116 /find/query-private
+ok 117 /find/bad-query
+ok 118 /find/network-timeout
+ok 118 /find/network-timeout
+ok 119 /find/dns-failure
+ok 119 /find/dns-failure
+ok 120 /find/name
+ok 120 /find/name
+ok 121 /find/name-private
+ok 121 /find/name-private
+ok 122 /find/channels
+ok 122 /find/channels
+ok 123 /find/channels-match
+ok 123 /find/channels-match
+not ok /find/cancel - ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+not ok /find/cancel - ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+Bail out!
+Bail out!
+Bail out!
+stderr:
+stderr:
+stderr:
+**
+**
+**
+ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+ERROR:../tests/test-qt.cpp:4106:void FindHandler::onComplete(): assertion failed (request->error() == QSnapdRequest::Cancelled): (6 == 23)
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+
+
+4/4 Tests                OK                9.45s
+4/4 Tests                OK                9.45s
+4/4 Tests                OK                9.45s
+4/4 Tests                OK                9.45s
+4/4 Tests                OK                9.45s
+
+
+
+
+
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+
+
+
+
+
+3/4 Tests (qt6           FAIL              1.01s   killed by signal 6 SIGABRT
+3/4 Tests (qt6           FAIL              1.01s   killed by signal 6 SIGABRT
+3/4 Tests (qt6           FAIL              1.01s   killed by signal 6 SIGABRT
+3/4 Tests (qt6           FAIL              1.01s   killed by signal 6 SIGABRT
+
+
+
+
+Ok:                3   
+Ok:                3   
+Ok:                3   
+Ok:                3   
+Fail:              1   
+Fail:              1   
+Fail:              1   
+Fail:              1   
+
+
+
+
+Full log written to /usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/snapd-glib-1.67/i586-alt-linux/meson-logs/testlog.txt
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40908 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+277.54user 36.61system 0:50.80elapsed 618%CPU (0avgtext+0avgdata 361988maxresident)k
+277.54user 36.61system 0:50.80elapsed 618%CPU (0avgtext+0avgdata 361988maxresident)k
+277.54user 36.61system 0:50.80elapsed 618%CPU (0avgtext+0avgdata 361988maxresident)k
+0inputs+0outputs (0major+7040185minor)pagefaults 0swaps
+0inputs+0outputs (0major+7040185minor)pagefaults 0swaps
+0inputs+0outputs (0major+7040185minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `snapd-glib-2-1.67-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `snapd-glib-2-1.67-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.41user 3.55system 1:25.42elapsed 12%CPU (0avgtext+0avgdata 133560maxresident)k
+7.41user 3.55system 1:25.42elapsed 12%CPU (0avgtext+0avgdata 133560maxresident)k
+0inputs+0outputs (0major+336743minor)pagefaults 0swaps

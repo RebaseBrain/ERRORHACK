@@ -1,0 +1,140 @@
+config.status: creating doc/doc.gpm
+config.status: creating src/headers/config.h
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ make
+make: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+touch src/.depend # to prevent unecessary warnings
+make -C src dep
+make -C src dep
+make[1]: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+bison -y  /usr/src/RPM/BUILD/gpm-1.20.1/src/prog/gpm-root.y && mv y.tab.c prog/gpm-root.c
+bison -y  /usr/src/RPM/BUILD/gpm-1.20.1/src/prog/gpm-root.y && mv y.tab.c prog/gpm-root.c
+# make links in srcdir
+# make links in srcdir
+make[1]: [Makefile:79: .depend] Error 1 (ignored)
+make[1]: [Makefile:79: .depend] Error 1 (ignored)
+# create dependencies
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+for DEPS in `echo *.c */*.c`; do \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+# make links in srcdir
+# make links in srcdir
+make[1]: [Makefile:79: dep] Error 1 (ignored)
+make[1]: [Makefile:79: dep] Error 1 (ignored)
+# create dependencies
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+for DEPS in `echo *.c */*.c`; do \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+x86_64-alt-linux-gcc -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o gpm.o gpm.c
+gpm.c: In function 'getMouseData':
+gpm.c:358:16: warning: pointer targets in initialization of 'char *' from 'unsigned char *' differ in signedness [-Wpointer-sign]
+  358 |    char *edata=data+type->packetlen;
+  408 |    return data;
+      |           ^~~~
+gpm.c: In function 'processMouse':
+gpm.c:460:42: warning: pointer targets in passing argument 2 of 'which_mouse->m_type->fun' differ in signedness [-Wpointer-sign]
+  460 |             || ((*(m_type->fun))(&nEvent,data)==-1) ) {
+      |                                          ^~~~
+      |                                          |
+      |                                          char *
+gpm.c:460:42: note: expected 'unsigned char *' but argument is of type 'char *'
+gpm.c: In function 'processConn':
+gpm.c:789:51: error: passing argument 3 of 'accept' from incompatible pointer type [-Wincompatible-pointer-types]
+  789 |    if ((newfd=accept(fd,(struct sockaddr *)&addr, &len))<0) {
+      |                                                   ^~~~
+      |                                                   |
+      |                                                   size_t * {aka long unsigned int *}
+In file included from gpm.c:37:
+/usr/include/sys/socket.h:307:42: note: expected 'socklen_t * restrict' {aka 'unsigned int * restrict'} but argument is of type 'size_t *' {aka 'long unsigned int *'}
+  307 |                    socklen_t *__restrict __addr_len);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+gpm.c: In function 'getMouseData':
+gpm.c:371:7: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  394 |             write(fifofd, edata-i, j);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+gpm.c: In function 'do_client':
+gpm.c: In function 'do_client':
+gpm.c:341:4: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+gpm.c:341:4: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  341 |    write(fd,event, sizeof(Gpm_Event));
+  341 |    write(fd,event, sizeof(Gpm_Event));
+  341 |    write(fd,event, sizeof(Gpm_Event));
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpm.c: In function 'processRequest':
+gpm.c: In function 'processRequest':
+gpm.c: In function 'processRequest':
+gpm.c:755:10: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+gpm.c:755:10: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+gpm.c:755:10: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  755 |          write(ci->fd,&event,sizeof(Gpm_Event));
+  755 |          write(ci->fd,&event,sizeof(Gpm_Event));
+  755 |          write(ci->fd,&event,sizeof(Gpm_Event));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:56: gpm.o] Error 1
+make[1]: *** [Makefile:56: gpm.o] Error 1
+make[1]: *** [Makefile:56: gpm.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make: *** [Makefile:62: do-all] Error 1
+make: *** [Makefile:62: do-all] Error 1
+make: *** [Makefile:62: do-all] Error 1
+make: *** [Makefile:62: do-all] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+make: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+make: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+make: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.82user 1.56system 0:03.14elapsed 107%CPU (0avgtext+0avgdata 23820maxresident)k
+1.82user 1.56system 0:03.14elapsed 107%CPU (0avgtext+0avgdata 23820maxresident)k
+1.82user 1.56system 0:03.14elapsed 107%CPU (0avgtext+0avgdata 23820maxresident)k
+1.82user 1.56system 0:03.14elapsed 107%CPU (0avgtext+0avgdata 23820maxresident)k
+0inputs+0outputs (0major+304777minor)pagefaults 0swaps
+0inputs+0outputs (0major+304777minor)pagefaults 0swaps
+0inputs+0outputs (0major+304777minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `gpm-1.20.1-alt19.src.rpm' failed.
+hsh-rebuild: rebuild of `gpm-1.20.1-alt19.src.rpm' failed.
+hsh-rebuild: rebuild of `gpm-1.20.1-alt19.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.09user 2.66system 0:12.56elapsed 53%CPU (0avgtext+0avgdata 140856maxresident)k
+4.09user 2.66system 0:12.56elapsed 53%CPU (0avgtext+0avgdata 140856maxresident)k
+0inputs+0outputs (0major+192396minor)pagefaults 0swaps

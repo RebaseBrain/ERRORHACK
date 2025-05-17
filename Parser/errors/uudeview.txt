@@ -1,0 +1,56 @@
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ sort -u
++ configure_runstatedir_flags=
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --enable-tcl=/usr/lib64
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --enable-tcl=/usr/lib64
+creating cache ./config.cache
+creating cache ./config.cache
+checking for gcc... gcc
+checking for gcc... gcc
+checking whether the C compiler (gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC ) works... no
+checking whether the C compiler (gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC ) works... no
+checking whether the C compiler (gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC ) works... no
+configure: error: installation or configuration problem: C compiler cannot create executables.
+configure: error: installation or configuration problem: C compiler cannot create executables.
+configure: error: installation or configuration problem: C compiler cannot create executables.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.94660 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.15user 0.11system 0:00.39elapsed 68%CPU (0avgtext+0avgdata 32132maxresident)k
+0.15user 0.11system 0:00.39elapsed 68%CPU (0avgtext+0avgdata 32132maxresident)k
+0.15user 0.11system 0:00.39elapsed 68%CPU (0avgtext+0avgdata 32132maxresident)k
+0inputs+0outputs (0major+27939minor)pagefaults 0swaps
+0inputs+0outputs (0major+27939minor)pagefaults 0swaps
+0inputs+0outputs (0major+27939minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `uudeview-0.5.20-alt10.src.rpm' failed.
+hsh-rebuild: rebuild of `uudeview-0.5.20-alt10.src.rpm' failed.
+hsh-rebuild: rebuild of `uudeview-0.5.20-alt10.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.66user 3.86system 2:54.85elapsed 8%CPU (0avgtext+0avgdata 142700maxresident)k
+10.66user 3.86system 2:54.85elapsed 8%CPU (0avgtext+0avgdata 142700maxresident)k
+560inputs+0outputs (0major+298229minor)pagefaults 0swaps

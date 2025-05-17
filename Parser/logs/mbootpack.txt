@@ -1,0 +1,100 @@
+<86>May 10 10:03:41 userdel[3361639]: delete user 'rooter'
+<86>May 10 10:03:41 userdel[3361639]: removed group 'rooter' owned by 'rooter'
+<86>May 10 10:03:41 userdel[3361639]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 10:03:41 groupadd[3361652]: group added to /etc/group: name=rooter, GID=1226
+<86>May 10 10:03:41 groupadd[3361652]: group added to /etc/gshadow: name=rooter
+<86>May 10 10:03:41 groupadd[3361652]: new group: name=rooter, GID=1226
+<86>May 10 10:03:41 useradd[3361659]: new user: name=rooter, UID=1226, GID=1226, home=/root, shell=/bin/bash, from=none
+<86>May 10 10:03:41 userdel[3361671]: delete user 'builder'
+<86>May 10 10:03:41 userdel[3361671]: removed group 'builder' owned by 'builder'
+<86>May 10 10:03:41 userdel[3361671]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 10:03:41 groupadd[3361683]: group added to /etc/group: name=builder, GID=1227
+<86>May 10 10:03:41 groupadd[3361683]: group added to /etc/gshadow: name=builder
+<86>May 10 10:03:41 groupadd[3361683]: new group: name=builder, GID=1227
+<86>May 10 10:03:41 useradd[3361690]: new user: name=builder, UID=1227, GID=1227, home=/usr/src, shell=/bin/bash, from=none
+<13>May 10 10:03:45 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901530 installed
+<13>May 10 10:03:45 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875480 installed
+<13>May 10 10:03:45 rpmi: perl-Locale-gettext-1.07-alt1.2 sisyphus+335067.10500.2.2 1701152269 installed
+<13>May 10 10:03:45 rpmi: help2man-1.48.5-alt1 sisyphus+346293.200.2.1 1716441066 installed
+<13>May 10 10:03:46 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/mbootpack-0.6a-alt3.nosrc.rpm (w1.gzdio)
+Installing mbootpack-0.6a-alt3.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.42964
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf mbootpack-0.6a
++ echo 'Source #0 (mbootpack-0.6a.tar):'
+Source #0 (mbootpack-0.6a.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/mbootpack-0.6a.tar
++ cd mbootpack-0.6a
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (mbootpack-0.6a-alt3.patch):'
+Patch #0 (mbootpack-0.6a-alt3.patch):
++ /usr/bin/patch -p1
+patching file Makefile
+patching file buildimage.c
+patching file mbootpack.c
+patching file mbootpack.h
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.42964
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd mbootpack-0.6a
++ make -j8 CC=gcc 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic' VERSION=0.6a WITH_ZLIB=1
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+gcc -m32 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -D__MB_ASM -c bootsect.S -o bootsect.o
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+ld -m elf_i386 -Ttext 0x0 -s --oformat binary bootsect.o -o bootsect
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+gcc -m32 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -D__MB_ASM -c setup.S -o setup.o
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+ld -m elf_i386 -Ttext 0x0 -s --oformat binary setup.o -o setup
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wp,-MD,mbootpack.o.d -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -c mbootpack.c -o mbootpack.o
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+mbootpack.c: In function 'fatal':
+mbootpack.c:155:9: warning: 'args' is used uninitialized [-Wuninitialized]
+  155 |         fprintf(stderr, fmt, args);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+mbootpack.c:152:17: note: 'args' was declared here
+  152 |         va_list args;
+      |                 ^~~~
+mbootpack.c: In function 'fatal_err':
+mbootpack.c:163:9: warning: 'args' is used uninitialized [-Wuninitialized]
+  163 |         fatal(fmt, args, strerror(errno));
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mbootpack.c:161:17: note: 'args' was declared here
+  161 |         va_list args;
+      |                 ^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+sh ./mkhex bzimage_bootsect bootsect > bzimage_header.c
+sh ./mkhex bzimage_setup setup >> bzimage_header.c
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wp,-MD,buildimage.o.d -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -c buildimage.c -o buildimage.o
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+virtual memory exhausted: Cannot allocate memory
+make: *** [Makefile:77: buildimage.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+Command exited with non-zero status 1
+186.93user 24.27system 2:10.89elapsed 161%CPU (0avgtext+0avgdata 3325968maxresident)k
+0inputs+0outputs (0major+438512minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `mbootpack-0.6a-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+4.89user 2.23system 2:20.81elapsed 5%CPU (0avgtext+0avgdata 133420maxresident)k
+320inputs+0outputs (0major+182700minor)pagefaults 0swaps

@@ -1,0 +1,782 @@
+<86>May 16 04:33:33 userdel[1317999]: delete user 'rooter'
+<86>May 16 04:33:33 userdel[1317999]: removed group 'rooter' owned by 'rooter'
+<86>May 16 04:33:33 userdel[1317999]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 04:33:33 groupadd[1318059]: group added to /etc/group: name=rooter, GID=1838
+<86>May 16 04:33:33 groupadd[1318059]: group added to /etc/gshadow: name=rooter
+<86>May 16 04:33:33 groupadd[1318059]: new group: name=rooter, GID=1838
+<86>May 16 04:33:33 useradd[1318118]: new user: name=rooter, UID=1838, GID=1838, home=/root, shell=/bin/bash, from=none
+<86>May 16 04:33:33 userdel[1318182]: delete user 'builder'
+<86>May 16 04:33:33 userdel[1318182]: removed group 'builder' owned by 'builder'
+<86>May 16 04:33:33 userdel[1318182]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 04:33:34 groupadd[1318231]: group added to /etc/group: name=builder, GID=1839
+<86>May 16 04:33:34 groupadd[1318231]: group added to /etc/gshadow: name=builder
+<86>May 16 04:33:34 groupadd[1318231]: new group: name=builder, GID=1839
+<86>May 16 04:33:34 useradd[1318273]: new user: name=builder, UID=1839, GID=1839, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/perl-Alien-Build-2.84-alt1.src.rpm: license not found in '/usr/share/license' directory: GPL+
+/usr/src/in/srpm/perl-Alien-Build-2.84-alt1.src.rpm: The use of such a license name is ambiguous: Artistic
+<13>May 16 04:33:51 rpmi: perl-common-sense-3.75-alt2 sisyphus+335067.300.1.1 1700901390 installed
+<13>May 16 04:33:51 rpmi: perl-Unicode-Normalize-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 04:33:51 rpmi: perl-Locale-Maketext-Simple-0.21-alt3 1321333616 installed
+<13>May 16 04:33:51 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 04:33:51 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 04:33:51 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 04:33:51 rpmi: perl-Params-Check-0.38-alt1 1374748239 installed
+<13>May 16 04:33:51 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 04:33:51 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 04:33:51 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 04:33:51 rpmi: perl-Digest-SHA-6.04-alt1 sisyphus+335067.1500.1.1 1700901652 installed
+<13>May 16 04:33:51 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 04:33:51 rpmi: perl-IO-AIO-3:4.81-alt1 sisyphus+343118.100.1.3 1710883825 installed
+<13>May 16 04:33:51 rpmi: perl-Text-Balanced-2.06-alt1 sisyphus+301349.100.1.1 1654439692 installed
+<13>May 16 04:33:51 rpmi: perl-Shell-Guess-0.10-alt1 sisyphus+380284.100.1.2 1743750103 installed
+<13>May 16 04:33:51 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 04:33:51 rpmi: perl-File-chdir-0.1011-alt1 sisyphus+305463.100.1.1 1660815006 installed
+<13>May 16 04:33:51 rpmi: perl-Capture-Tiny-0.50-alt1 sisyphus+380148.100.1.1 1743709310 installed
+<13>May 16 04:33:51 rpmi: perl-Path-Tiny-0.148-alt1 sisyphus+380275.100.1.2 1743747715 installed
+<13>May 16 04:33:51 rpmi: perl-File-Which-1.27-alt1 sisyphus+271986.100.1.1 1621196035 installed
+<13>May 16 04:33:51 rpmi: perl-Perl-OSType-1.010-alt1 1467551766 installed
+<13>May 16 04:33:51 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 04:33:51 rpmi: perl-Sub-Install-0.929-alt1 sisyphus+313262.100.1.1 1673494334 installed
+<13>May 16 04:33:51 rpmi: perl-Params-Util-1.102-alt1 sisyphus+335067.1600.1.1 1700901673 installed
+<13>May 16 04:33:51 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 04:33:51 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 04:33:51 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 04:33:51 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:33:51 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 04:33:51 rpmi: perl-Data-OptList-0.114-alt1 sisyphus+321538.100.1.2 1684664440 installed
+<13>May 16 04:33:51 rpmi: perl-FFI-CheckLib-0.31-alt1 sisyphus+307789.100.1.1 1664800927 installed
+<13>May 16 04:33:51 rpmi: perl-Shell-Config-Generate-0.34-alt1 sisyphus+245991.100.1.3 1581539534 installed
+<13>May 16 04:33:51 rpmi: perl-Parse-RecDescent-1.967015-alt1 1494357414 installed
+<13>May 16 04:33:51 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 04:33:51 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 04:33:51 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 04:33:51 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 04:33:51 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 04:33:51 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 04:33:51 rpmi: perl-unicore-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 04:33:51 rpmi: perl-Net-IDN-Encode-2.500-alt2 sisyphus+335067.2600.1.1 1700901862 installed
+<13>May 16 04:33:51 rpmi: perl-Types-Serialiser-1.01-alt1 sisyphus+262741.100.1.1 1606814280 installed
+<13>May 16 04:33:51 rpmi: perl-EV-4.34-alt1 sisyphus+335067.12400.2.2 1701158026 installed
+<13>May 16 04:33:51 rpmi: perl-Readonly-2.05-alt1 1465835045 installed
+<13>May 16 04:33:51 rpmi: perl-Readonly-XS-1.05-alt21 sisyphus+335433.100.1.2 1701359198 installed
+<13>May 16 04:33:51 rpmi: perl-Tie-RefHash-1.41-alt1 sisyphus+380330.100.1.2 1743763271 installed
+<13>May 16 04:33:51 rpmi: su-0.60-alt37 sisyphus+358299.200.3.1 1728461042 installed
+<13>May 16 04:33:51 rpmi: perl-experimental-0.034-alt1 sisyphus+380203.100.1.2 1743727352 installed
+<13>May 16 04:33:51 rpmi: perl-Guard-1.023-alt1.2 sisyphus+335067.10300.2.2 1701154078 installed
+<13>May 16 04:33:51 rpmi: perl-Time-Piece-2:1.36-alt1 sisyphus+381775.100.1.1 1744805866 installed
+<13>May 16 04:33:51 rpmi: perl-Sort-Versions-1.62-alt1 1450189721 installed
+<13>May 16 04:33:51 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 04:33:51 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 04:33:51 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 04:33:51 rpmi: perl-HTTP-Tiny-0.090-alt1 sisyphus+380224.100.1.2 1743732877 installed
+<13>May 16 04:33:51 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 04:33:51 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 04:33:51 rpmi: perl-Class-Inspector-1.36-alt1 sisyphus+235287.100.1.1 1564605020 installed
+<13>May 16 04:33:51 rpmi: perl-File-ShareDir-1.118-alt1 sisyphus+260305.100.1.1 1603547163 installed
+<13>May 16 04:33:51 rpmi: perl-Math-Complex-1.59-alt1 1334229876 installed
+<13>May 16 04:33:51 rpmi: perl-Math-BigInt-2.005003-alt1 sisyphus+381904.100.1.1 1744908928 installed
+<13>May 16 04:33:51 rpmi: perl-Math-BigInt-FastCalc-0.5020-alt1 sisyphus+380407.100.1.2 1743778372 installed
+<13>May 16 04:33:51 rpmi: perl-YAML-1.31-alt1 sisyphus+337639.100.1.1 1704231191 installed
+<13>May 16 04:33:51 rpmi: perl-Term-Size-Perl-0.031-alt1_6 sisyphus+241327.100.1.1 1574288839 installed
+<13>May 16 04:33:51 rpmi: perl-Term-Size-Any-0.002-alt2_29 sisyphus+241326.100.1.1 1574288724 installed
+<13>May 16 04:33:51 rpmi: perl-TermReadKey-2.38-alt1.1 sisyphus+335067.1700.1.1 1700901696 installed
+<13>May 16 04:33:51 rpmi: perl-Importer-0.026-alt1 sisyphus+257144.100.1.3 1598997893 installed
+<13>May 16 04:33:51 rpmi: perl-Module-Pluggable-6.3-alt1 sisyphus+380257.100.1.2 1743743981 installed
+<13>May 16 04:33:51 rpmi: perl-Package-Generator-1.106-alt1.1 sisyphus+250488.100.1.1 1587587540 installed
+<13>May 16 04:33:51 rpmi: perl-Sub-Exporter-0.991-alt1 sisyphus+335867.100.1.1 1701794586 installed
+<13>May 16 04:33:51 rpmi: perl-PerlIO-utf8_strict-0.010-alt1 sisyphus+335067.2000.1.1 1700901717 installed
+<13>May 16 04:33:51 rpmi: perl-Mixin-Linewise-0.111-alt1 sisyphus+313408.100.1.1 1673679857 installed
+<13>May 16 04:33:51 rpmi: perl-Config-INI-0.029-alt1 sisyphus+325536.100.1.1 1690285022 installed
+<13>May 16 04:33:51 rpmi: perl-Config-INI-Reader-Multiline-1.001-alt2 1514549144 installed
+<13>May 16 04:33:51 rpmi: perl-Term-Cap-1.18-alt1 sisyphus+315126.100.1.1 1676227129 installed
+<13>May 16 04:33:51 rpmi: perl-Pod-Escapes-1.07-alt1 1418767892 installed
+<13>May 16 04:33:51 rpmi: perl-IO-String-1.08-alt2 1321677915 installed
+<13>May 16 04:33:51 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 04:33:51 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 04:33:51 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 04:33:51 rpmi: perl-JSON-PP-1:4.16-alt1 sisyphus+313250.100.1.1 1673493761 installed
+<13>May 16 04:33:51 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 04:33:51 rpmi: perl-Pod-Simple-3.45-alt1 sisyphus+321554.100.1.1 1684663135 installed
+<13>May 16 04:33:51 rpmi: perl-Pod-Usage-2.05-alt1 sisyphus+380280.100.1.2 1743749666 installed
+<13>May 16 04:33:51 rpmi: perl-podlators-6.0.2-alt1 sisyphus+380278.100.1.2 1743747710 installed
+<13>May 16 04:33:51 rpmi: perl-Module-CoreList-5.20250421-alt1 sisyphus+382498.100.1.1 1745489176 installed
+<13>May 16 04:33:51 rpmi: perl-Module-Metadata-1.000038-alt1 sisyphus+319540.100.1.1 1682734027 installed
+<13>May 16 04:33:51 rpmi: perl-Module-Load-Conditional-0.74-alt1 sisyphus+257151.100.1.2 1598998133 installed
+<13>May 16 04:33:51 rpmi: perl-CPAN-Meta-YAML-0.020-alt1 sisyphus+380163.100.1.1 1743710032 installed
+<13>May 16 04:33:51 rpmi: perl-Parse-CPAN-Meta-2.150010-alt3 sisyphus+236868.100.1.1 1567107580 installed
+<13>May 16 04:33:51 rpmi: perl-CPAN-Meta-2.150010-alt3 sisyphus+236868.100.1.1 1567107580 installed
+<13>May 16 04:33:51 rpmi: perl-Pod-Html-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 04:33:51 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 04:33:51 rpmi: perl-CBOR-XS-2:1.87-alt1 sisyphus+335067.3100.1.1 1700901926 installed
+<13>May 16 04:33:51 rpmi: perl-Archive-Zip-1.68-alt1 sisyphus+247814.100.1.1 1584186814 installed
+<13>May 16 04:33:51 rpmi: perl-File-BOM-0.18-alt1 sisyphus+252883.100.1.1 1591385360 installed
+<13>May 16 04:33:51 rpmi: perl-MIME-Charset-1.013.1-alt1 sisyphus+305467.100.1.3 1660819106 installed
+<13>May 16 04:33:51 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 04:33:51 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 04:33:51 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 04:33:51 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 04:33:51 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 04:33:51 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 04:33:51 rpmi: perl-IO-Zlib-1.15-alt1 sisyphus+343119.100.1.3 1710884191 installed
+<13>May 16 04:33:51 rpmi: perl-Archive-Tar-3.04-alt1 sisyphus+380140.100.1.1 1743708681 installed
+<13>May 16 04:33:51 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 04:33:51 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 04:33:51 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 04:33:51 rpmi: libgdbm-devel-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 04:33:52 rpmi: perl-devel-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 04:33:52 rpmi: perl-IPC-Cmd-1.04-alt1 sisyphus+234736.100.1.1 1563377607 installed
+<13>May 16 04:33:52 rpmi: perl-ExtUtils-CBuilder-0.280236-alt1 sisyphus+266439.100.1.1 1613496606 installed
+<13>May 16 04:33:52 rpmi: perl-Archive-Extract-0.88-alt1 sisyphus+271972.100.1.1 1621194713 installed
+<13>May 16 04:33:52 rpmi: perl-inc-latest-0.500-alt2 1447197123 installed
+<13>May 16 04:33:52 rpmi: perl-Module-Build-0.4234-alt1 sisyphus+319536.100.1.3 1682735642 installed
+<13>May 16 04:33:52 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 04:33:52 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 04:33:52 rpmi: libsombok-2.4.0-alt4_21 sisyphus+328319.100.1.1 1693407631 installed
+<13>May 16 04:33:52 rpmi: perl-Unicode-LineBreak-2019.001-alt1.1 sisyphus+335067.2200.1.1 1700901765 installed
+<13>May 16 04:33:52 rpmi: perl-Term-Table-0.024-alt1 sisyphus+380309.100.1.2 1743756652 installed
+<13>May 16 04:33:52 rpmi: perl-Test2-Suite-0.000159-alt1 sisyphus+332891.100.1.1 1698409636 installed
+<13>May 16 04:33:52 rpmi: libcares-1.34.5-alt1 sisyphus+381066.100.1.1 1744213475 installed
+<13>May 16 04:33:52 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 04:33:52 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:33:53 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:33:53 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:33:53 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 04:33:53 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 04:33:53 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 04:33:53 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 04:33:53 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 04:33:53 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:33:53 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 04:33:53 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 04:33:53 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 04:33:53 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 04:33:53 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 04:33:53 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 04:33:53 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 04:33:53 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 04:33:53 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 04:33:53 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 04:33:53 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:33:53 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:33:53 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 04:33:53 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 04:33:53 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:33:54 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:33:54 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 04:33:54 groupadd[1418361]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 04:33:54 groupadd[1418361]: group added to /etc/gshadow: name=_keytab
+<86>May 16 04:33:54 groupadd[1418361]: new group: name=_keytab, GID=999
+<13>May 16 04:33:54 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 04:33:54 rpmi: perl-Net-SSLeay-1.94-alt1 sisyphus+340982.100.1.1 1708280650 installed
+<13>May 16 04:33:54 rpmi: perl-IO-Socket-SSL-2.089-alt1 sisyphus+380228.100.1.2 1743734794 installed
+<13>May 16 04:33:54 rpmi: perl-AnyEvent-AIO-1.1-alt1 sisyphus+276411.100.1.1 1624998985 installed
+<13>May 16 04:33:54 rpmi: perl-AnyEvent-7.17-alt3 sisyphus+274905.100.1.1 1624289145 installed
+<13>May 16 04:33:54 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 04:33:54 groupadd[1419488]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 04:33:54 groupadd[1419488]: group added to /etc/gshadow: name=sasl
+<86>May 16 04:33:54 groupadd[1419488]: new group: name=sasl, GID=998
+<13>May 16 04:33:54 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 04:33:54 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:33:54 rpmi: wget-1.25.0-alt4 sisyphus+374167.100.1.1 1739171035 installed
+<13>May 16 04:33:54 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 04:33:54 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 04:33:54 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 04:33:55 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:33:55 rpmi: ctest-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:33:55 rpmi: curl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 04:33:55 rpmi: perl-Alien-cmake3-0.09-alt1 sisyphus+380136.100.1.3 1743710251 installed
+<13>May 16 04:33:55 rpmi: perl-Alien-Build-2.84-alt1 sisyphus+380135.100.1.3 1743709909 installed
+<13>May 16 04:33:55 rpmi: perl-Alien-Base-ModuleBuild-1.17-alt1 sisyphus+306739.100.1.1 1663098707 installed
+<13>May 16 04:33:55 rpmi: perl-Mojolicious-1:9.39-alt1 sisyphus+380128.100.1.1 1743700332 installed
+<13>May 16 04:33:55 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 04:33:55 rpmi: perl-Inline-0.86-alt1 sisyphus+244795.100.1.1 1579741797 installed
+<13>May 16 04:33:55 rpmi: perl-Devel-Hide-0.0015-alt1 sisyphus+286467.100.1.1 1633455380 installed
+<13>May 16 04:33:55 rpmi: perl-autodie-2.37-alt1 sisyphus+337625.100.1.1 1704230186 installed
+<13>May 16 04:33:55 rpmi: perl-Proc-Daemon-0.23-alt1 1451923889 installed
+<13>May 16 04:33:55 rpmi: perl-Env-ShellWords-0.02-alt2 1514897505 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/perl-Alien-Build-2.84-alt1.nosrc.rpm (w1.gzdio)
+Installing perl-Alien-Build-2.84-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.96605
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf Alien-Build-2.84
++ echo 'Source #0 (Alien-Build-2.84.tar.gz):'
+Source #0 (Alien-Build-2.84.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/Alien-Build-2.84.tar.gz
++ /bin/tar -xf -
++ cd Alien-Build-2.84
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.96605
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd Alien-Build-2.84
++ perl Makefile.PL INSTALLDIRS=vendor NO_PACKLIST=1
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Alien::Build
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+cp lib/Alien/Build/Log/Abbreviate.pm blib/lib/Alien/Build/Log/Abbreviate.pm
+cp lib/Alien/Build/Manual/AlienUser.pod blib/lib/Alien/Build/Manual/AlienUser.pod
+cp lib/Alien/Build/Manual/PluginAuthor.pod blib/lib/Alien/Build/Manual/PluginAuthor.pod
+cp lib/Alien/Build/Plugin/Core/FFI.pm blib/lib/Alien/Build/Plugin/Core/FFI.pm
+cp lib/Alien/Build/Interpolate/Default.pm blib/lib/Alien/Build/Interpolate/Default.pm
+cp lib/Alien/Build/Plugin.pm blib/lib/Alien/Build/Plugin.pm
+cp lib/Alien/Build/Log.pm blib/lib/Alien/Build/Log.pm
+cp lib/Alien/Build/MM.pm blib/lib/Alien/Build/MM.pm
+cp lib/Alien/Base/Wrapper.pm blib/lib/Alien/Base/Wrapper.pm
+cp lib/Alien/Build/Interpolate.pm blib/lib/Alien/Build/Interpolate.pm
+cp lib/Alien/Build/Manual/Contributing.pod blib/lib/Alien/Build/Manual/Contributing.pod
+cp lib/Alien/Build/Plugin/Build/Autoconf.pm blib/lib/Alien/Build/Plugin/Build/Autoconf.pm
+cp lib/Alien/Build/Manual/Alien.pod blib/lib/Alien/Build/Manual/Alien.pod
+cp lib/Alien/Build/Plugin/Core/Download.pm blib/lib/Alien/Build/Plugin/Core/Download.pm
+cp lib/Alien/Build/Plugin/Build/Make.pm blib/lib/Alien/Build/Plugin/Build/Make.pm
+cp lib/Alien/Build/Plugin/Build/CMake.pm blib/lib/Alien/Build/Plugin/Build/CMake.pm
+cp lib/Alien/Build/Plugin/Build/SearchDep.pm blib/lib/Alien/Build/Plugin/Build/SearchDep.pm
+cp lib/Alien/Build/Manual/FAQ.pod blib/lib/Alien/Build/Manual/FAQ.pod
+cp lib/Alien/Base/Authoring.pod blib/lib/Alien/Base/Authoring.pod
+cp lib/Alien/Build/Plugin/Build/Copy.pm blib/lib/Alien/Build/Plugin/Build/Copy.pm
+cp lib/Alien/Build/Plugin/Core.pod blib/lib/Alien/Build/Plugin/Core.pod
+cp lib/Alien/Build/Manual.pod blib/lib/Alien/Build/Manual.pod
+cp lib/Alien/Build/Manual/AlienAuthor.pod blib/lib/Alien/Build/Manual/AlienAuthor.pod
+cp lib/Alien/Base/FAQ.pod blib/lib/Alien/Base/FAQ.pod
+cp lib/Alien/Build/Manual/Security.pod blib/lib/Alien/Build/Manual/Security.pod
+cp lib/Alien/Build/CommandSequence.pm blib/lib/Alien/Build/CommandSequence.pm
+cp lib/Alien/Build/Log/Default.pm blib/lib/Alien/Build/Log/Default.pm
+cp lib/Alien/Build/Plugin/Build/MSYS.pm blib/lib/Alien/Build/Plugin/Build/MSYS.pm
+cp lib/Alien/Build/Plugin/Core/CleanInstall.pm blib/lib/Alien/Build/Plugin/Core/CleanInstall.pm
+cp lib/Alien/Build/Plugin/Build.pod blib/lib/Alien/Build/Plugin/Build.pod
+cp lib/Alien/Base.pm blib/lib/Alien/Base.pm
+cp lib/Alien/Build.pm blib/lib/Alien/Build.pm
+cp lib/Alien/Base/PkgConfig.pm blib/lib/Alien/Base/PkgConfig.pm
+cp lib/Alien/Build/Plugin/Extract/File.pm blib/lib/Alien/Build/Plugin/Extract/File.pm
+cp lib/Alien/Build/Plugin/Extract.pod blib/lib/Alien/Build/Plugin/Extract.pod
+cp lib/Alien/Build/Plugin/Fetch/HTTPTiny.pm blib/lib/Alien/Build/Plugin/Fetch/HTTPTiny.pm
+cp lib/Alien/Build/Plugin/Core/Legacy.pm blib/lib/Alien/Build/Plugin/Core/Legacy.pm
+cp lib/Alien/Build/Plugin/Extract/ArchiveTar.pm blib/lib/Alien/Build/Plugin/Extract/ArchiveTar.pm
+cp lib/Alien/Build/Plugin/Digest.pod blib/lib/Alien/Build/Plugin/Digest.pod
+cp lib/Alien/Build/Plugin/Extract/Directory.pm blib/lib/Alien/Build/Plugin/Extract/Directory.pm
+cp lib/Alien/Build/Plugin/Digest/SHA.pm blib/lib/Alien/Build/Plugin/Digest/SHA.pm
+cp lib/Alien/Build/Plugin/Decode.pod blib/lib/Alien/Build/Plugin/Decode.pod
+cp lib/Alien/Build/Plugin/Download/Negotiate.pm blib/lib/Alien/Build/Plugin/Download/Negotiate.pm
+cp lib/Alien/Build/Plugin/Fetch/LWP.pm blib/lib/Alien/Build/Plugin/Fetch/LWP.pm
+cp lib/Alien/Build/Plugin/Decode/DirListing.pm blib/lib/Alien/Build/Plugin/Decode/DirListing.pm
+cp lib/Alien/Build/Plugin/Extract/Negotiate.pm blib/lib/Alien/Build/Plugin/Extract/Negotiate.pm
+cp lib/Alien/Build/Plugin/Extract/ArchiveZip.pm blib/lib/Alien/Build/Plugin/Extract/ArchiveZip.pm
+cp lib/Alien/Build/Plugin/Core/Override.pm blib/lib/Alien/Build/Plugin/Core/Override.pm
+cp lib/Alien/Build/Plugin/Digest/Negotiate.pm blib/lib/Alien/Build/Plugin/Digest/Negotiate.pm
+cp lib/Alien/Build/Plugin/Fetch/CurlCommand.pm blib/lib/Alien/Build/Plugin/Fetch/CurlCommand.pm
+cp lib/Alien/Build/Plugin/Decode/HTML.pm blib/lib/Alien/Build/Plugin/Decode/HTML.pm
+cp lib/Alien/Build/Plugin/Download.pod blib/lib/Alien/Build/Plugin/Download.pod
+cp lib/Alien/Build/Plugin/Extract/CommandLine.pm blib/lib/Alien/Build/Plugin/Extract/CommandLine.pm
+cp lib/Alien/Build/Plugin/Core/Setup.pm blib/lib/Alien/Build/Plugin/Core/Setup.pm
+cp lib/Alien/Build/Plugin/Fetch.pod blib/lib/Alien/Build/Plugin/Fetch.pod
+cp lib/Alien/Build/Plugin/Core/Gather.pm blib/lib/Alien/Build/Plugin/Core/Gather.pm
+cp lib/Alien/Build/Plugin/Decode/Mojo.pm blib/lib/Alien/Build/Plugin/Decode/Mojo.pm
+cp lib/Alien/Build/Plugin/Fetch/Local.pm blib/lib/Alien/Build/Plugin/Fetch/Local.pm
+cp lib/Alien/Build/Plugin/Core/Tail.pm blib/lib/Alien/Build/Plugin/Core/Tail.pm
+cp lib/Alien/Build/Plugin/Digest/SHAPP.pm blib/lib/Alien/Build/Plugin/Digest/SHAPP.pm
+cp lib/Alien/Build/Plugin/Decode/DirListingFtpcopy.pm blib/lib/Alien/Build/Plugin/Decode/DirListingFtpcopy.pm
+cp lib/Alien/Build/Version/Basic.pm blib/lib/Alien/Build/Version/Basic.pm
+cp lib/Alien/Build/Temp.pm blib/lib/Alien/Build/Temp.pm
+cp lib/Alien/Build/Plugin/Fetch/LocalDir.pm blib/lib/Alien/Build/Plugin/Fetch/LocalDir.pm
+cp lib/Alien/Build/Plugin/Probe.pod blib/lib/Alien/Build/Plugin/Probe.pod
+cp lib/Alien/Build/Plugin/Test.pod blib/lib/Alien/Build/Plugin/Test.pod
+cp lib/Alien/Build/Plugin/PkgConfig.pod blib/lib/Alien/Build/Plugin/PkgConfig.pod
+cp lib/Test/Alien.pm blib/lib/Test/Alien.pm
+cp lib/Alien/Build/Plugin/PkgConfig/PP.pm blib/lib/Alien/Build/Plugin/PkgConfig/PP.pm
+cp lib/Alien/Build/Plugin/Gather.pod blib/lib/Alien/Build/Plugin/Gather.pod
+cp lib/Alien/Build/Plugin/Gather/IsolateDynamic.pm blib/lib/Alien/Build/Plugin/Gather/IsolateDynamic.pm
+cp lib/Test/Alien/CanPlatypus.pm blib/lib/Test/Alien/CanPlatypus.pm
+cp lib/Alien/Build/Util.pm blib/lib/Alien/Build/Util.pm
+cp lib/Alien/Build/Plugin/Probe/Vcpkg.pm blib/lib/Alien/Build/Plugin/Probe/Vcpkg.pm
+cp lib/Alien/Build/Plugin/Prefer/BadVersion.pm blib/lib/Alien/Build/Plugin/Prefer/BadVersion.pm
+cp lib/Test/Alien/CanCompile.pm blib/lib/Test/Alien/CanCompile.pm
+cp lib/Alien/Build/Plugin/PkgConfig/CommandLine.pm blib/lib/Alien/Build/Plugin/PkgConfig/CommandLine.pm
+cp lib/Alien/Build/Plugin/Prefer/SortVersions.pm blib/lib/Alien/Build/Plugin/Prefer/SortVersions.pm
+cp lib/Alien/Util.pm blib/lib/Alien/Util.pm
+cp lib/Alien/Build/Plugin/Probe/CommandLine.pm blib/lib/Alien/Build/Plugin/Probe/CommandLine.pm
+cp lib/Alien/Build/Plugin/Probe/CBuilder.pm blib/lib/Alien/Build/Plugin/Probe/CBuilder.pm
+cp lib/Alien/Build/Plugin/Fetch/Wget.pm blib/lib/Alien/Build/Plugin/Fetch/Wget.pm
+cp lib/Alien/Role.pm blib/lib/Alien/Role.pm
+cp lib/Alien/Build/rc.pm blib/lib/Alien/Build/rc.pm
+cp lib/Alien/Build/Plugin/PkgConfig/LibPkgConf.pm blib/lib/Alien/Build/Plugin/PkgConfig/LibPkgConf.pm
+cp lib/Alien/Build/Plugin/PkgConfig/MakeStatic.pm blib/lib/Alien/Build/Plugin/PkgConfig/MakeStatic.pm
+cp lib/Alien/Build/Plugin/Test/Mock.pm blib/lib/Alien/Build/Plugin/Test/Mock.pm
+cp lib/Alien/Build/Plugin/PkgConfig/Negotiate.pm blib/lib/Alien/Build/Plugin/PkgConfig/Negotiate.pm
+cp lib/Alien/Build/Plugin/Prefer/GoodVersion.pm blib/lib/Alien/Build/Plugin/Prefer/GoodVersion.pm
+cp lib/Alien/Build/Plugin/Fetch/NetFTP.pm blib/lib/Alien/Build/Plugin/Fetch/NetFTP.pm
+cp lib/Alien/Build/Plugin/Prefer.pod blib/lib/Alien/Build/Plugin/Prefer.pod
+cp lib/Test/Alien/Build.pm blib/lib/Test/Alien/Build.pm
+cp lib/Test/Alien/Run.pm blib/lib/Test/Alien/Run.pm
+cp lib/alienfile.pm blib/lib/alienfile.pm
+cp lib/Test/Alien/Synthetic.pm blib/lib/Test/Alien/Synthetic.pm
+cp lib/Test/Alien/Diag.pm blib/lib/Test/Alien/Diag.pm
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.61192
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/perl-Alien-Build-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/perl-Alien-Build-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd Alien-Build-2.84
++ make pure_install DESTDIR=/usr/src/tmp/perl-Alien-Build-buildroot
+make: Entering directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/alienfile.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/Diag.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/Synthetic.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/Run.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/Build.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/CanCompile.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Test/Alien/CanPlatypus.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Role.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Util.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Base.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Base/PkgConfig.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Base/FAQ.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Base/Authoring.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Base/Wrapper.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/rc.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Util.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Temp.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/CommandSequence.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Interpolate.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/MM.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Log.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Version/Basic.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Interpolate/Default.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Prefer.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Gather.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Test.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Probe.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Download.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Decode.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Digest.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Test/Mock.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Prefer/GoodVersion.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Prefer/SortVersions.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Prefer/BadVersion.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Probe/CBuilder.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Probe/CommandLine.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Probe/Vcpkg.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Gather/IsolateDynamic.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig/Negotiate.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig/MakeStatic.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig/LibPkgConf.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig/CommandLine.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/PkgConfig/PP.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Decode/DirListingFtpcopy.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Decode/Mojo.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Decode/HTML.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Decode/DirListing.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Download/Negotiate.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Digest/SHAPP.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Digest/Negotiate.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Digest/SHA.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/NetFTP.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/Wget.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/LocalDir.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/Local.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/CurlCommand.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/LWP.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Fetch/HTTPTiny.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/CommandLine.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/ArchiveZip.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/Negotiate.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/Directory.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/ArchiveTar.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Extract/File.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/MSYS.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/Copy.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/SearchDep.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/CMake.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/Make.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Build/Autoconf.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Tail.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Gather.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Setup.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Override.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Legacy.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/CleanInstall.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/Download.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Plugin/Core/FFI.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/Security.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/AlienAuthor.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/FAQ.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/Alien.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/Contributing.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/PluginAuthor.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Manual/AlienUser.pod
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Log/Default.pm
+Installing /usr/src/tmp/perl-Alien-Build-buildroot/usr/share/perl5/Alien/Build/Log/Abbreviate.pm
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/perl-Alien-Build-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/perl-Alien-Build-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/perl-Alien-Build-buildroot/ (default)
+Compressing files in /usr/src/tmp/perl-Alien-Build-buildroot (auto)
+Verifying ELF objects in /usr/src/tmp/perl-Alien-Build-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/perl-Alien-Build-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.61192
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd Alien-Build-2.84
++ make test
+make: Entering directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# 
+# 
+# HARNESS_ACTIVE=1
+# HARNESS_VERSION=3.44
+# PERL5LIB=/usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib:/usr/src/RPM/BUILD/Alien-Build-2.84/blib/arch
+# PERL_DL_NONLAZY=1
+# PERL_USE_UNSAFE_INC=1
+# RPM_PERL_REQ_METHOD=normal
+# 
+# 
+# 
+# PERL5LIB path
+# /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib
+# /usr/src/RPM/BUILD/Alien-Build-2.84/blib/arch
+# 
+# 
+# 
+# perl                     5.038002 linux x86_64-linux-thread-multi
+# Acme::Alien::DontPanic   -
+# Alien::Base::ModuleBuild 1.17
+# Alien::Libbz2            -
+# Alien::cmake3            0.09
+# Alien::gzip              -
+# Alien::xz                -
+# Archive::Tar             3.04
+# Archive::Zip             1.68
+# Capture::Tiny            0.50
+# Devel::Hide              0.0015
+# Digest::SHA              6.04
+# Env::ShellWords          0.02
+# ExtUtils::CBuilder       0.280236
+# ExtUtils::MakeMaker      7.70
+# ExtUtils::ParseXS        3.51
+# FFI::CheckLib            0.31
+# FFI::Platypus            -
+# File::Listing            6.16
+# File::Listing::Ftpcopy   -
+# File::Which              1.27
+# File::chdir              0.1011
+# HTML::Parser             3.83
+# HTTP::Tiny               0.090
+# IO::Compress::Bzip2      2.213
+# IO::Socket::SSL          2.089
+# IO::Uncompress::Bunzip2  2.213
+# IO::Zlib                 1.15
+# JSON::PP                 4.16
+# LWP                      6.78
+# LWP::Protocol::https     -
+# List::Util               1.63
+# Mojo::DOM58              -
+# Mojolicious              9.39
+# Net::FTP                 3.15
+# Net::SSLeay              1.94
+# Path::Tiny               0.148
+# PkgConfig                -
+# PkgConfig::LibPkgConf    -
+# Plack                    -
+# Readonly                 2.05
+# Sort::Versions           1.62
+# Test2::API               1.302194
+# Test2::V0                0.000159
+# Text::ParseWords         3.31
+# URI                      5.31
+# YAML                     1.31
+# parent                   0.244
+# 
+# 
+# 
+# ---
+# cmake_generator: Unix Makefiles
+# compiler_type: unix
+# cpu:
+#   arch:
+#     name: x86_64
+#   count: 1
+# pkg-config:
+#   pkg-config: /usr/bin/pkg-config
+#   pkgconf: ~
+# system_type: unix
+# pkg-config negotiate pick = PkgConfig::CommandLine
+# 
+# 
+# [config.site]
+# # file automatically generated by /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib/Alien/Build/Plugin/Build/Autoconf.pm
+# libdir='${prefix}/lib'
+# 
+# 
+# 
+t/00_diag.t .......................................... ok
+t/01_use.t ........................................... ok
+t/alien_base.t ....................................... ok
+t/alien_base__system_installed.t ..................... ok
+t/alien_base_pkgconfig.t ............................. ok
+t/alien_base_wrapper.t ............................... ok
+t/alien_build.t ...................................... ok
+t/alien_build__download_rule.t ....................... ok
+t/alien_build_commandsequence.t ...................... ok
+t/alien_build_commandsequence__cd.t .................. ok
+t/alien_build_interpolate.t .......................... ok
+t/alien_build_interpolate_default.t .................. ok
+t/alien_build_log.t .................................. ok
+t/alien_build_log_abbreviate.t ....................... ok
+t/alien_build_log_default.t .......................... ok
+t/alien_build_meta.t ................................. ok
+t/alien_build_mm.t ................................... ok
+t/alien_build_plugin.t ............................... ok
+t/alien_build_plugin_build_autoconf.t ................ ok
+    # Failed test 'alien builds okay'
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/LICENSE /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/LICENSE
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/CMakeLists.txt
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/main.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/main.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/CMakeLists.txt
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/palindrome.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/palindrome.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/libpalindrome.h /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/libpalindrome.h
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/CMakeLists.txt
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ
+    # Re-run cmake no build system arguments
+    # Problem opening /proc/meminfo
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    # 
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to work with policies introduced by <max> or earlier.
+    # 
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    # 
+    # 
+    # -- Configuring incomplete, errors occurred!
+    # build threw exception: external command failed at /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib/Alien/Build/CommandSequence.pm line 72.
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw:
+    # total 4
+    # -rw-r--r-- 1 builder builder 1065 May 16 04:34 alienfile
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 prefix
+    # drwxr-xr-x 3 builder builder   60 May 16 04:34 root
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 stage
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/prefix:
+    # total 0
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root:
+    # total 0
+    # drwx------ 5 builder builder 160 May 16 04:34 build_AFbQ
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ:
+    # total 28
+    # -rw-r--r-- 1 builder builder  2724 May 16 04:34 CMakeCache.txt
+    # drwxr-xr-x 3 builder builder    80 May 16 04:34 CMakeFiles
+    # -rw-r--r-- 1 builder builder   122 May 16 04:34 CMakeLists.txt
+    # -rw-r--r-- 1 builder builder 18349 May 16 04:34 LICENSE
+    # drwxr-xr-x 2 builder builder   100 May 16 04:34 libpalindrome
+    # drwxr-xr-x 2 builder builder    80 May 16 04:34 palx
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/CMakeFiles:
+    # total 4
+    # -rw-r--r-- 1 builder builder 85 May 16 04:34 cmake.check_cache
+    # drwxr-xr-x 2 builder builder 40 May 16 04:34 pkgRedirects
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/CMakeFiles/pkgRedirects:
+    # total 0
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome:
+    # total 12
+    # -rw-r--r-- 1 builder builder 631 May 16 04:34 CMakeLists.txt
+    # -rw-r--r-- 1 builder builder 130 May 16 04:34 libpalindrome.h
+    # -rw-r--r-- 1 builder builder 815 May 16 04:34 palindrome.c
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx:
+    # total 8
+    # -rw-r--r-- 1 builder builder 133 May 16 04:34 CMakeLists.txt
+    # -rw-r--r-- 1 builder builder 243 May 16 04:34 main.c
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/stage:
+    # total 0
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    #   undefined alien
+
+# Failed test 'basic'
+# at t/alien_build_plugin_build_cmake.t line 117.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+    # Failed test 'alien builds okay'
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Re-run cmake no build system arguments
+    # Problem opening /proc/meminfo
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    # 
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to work with policies introduced by <max> or earlier.
+    # 
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    # 
+    # 
+    # -- Configuring incomplete, errors occurred!
+    # build threw exception: external command failed at /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib/Alien/Build/CommandSequence.pm line 72.
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa:
+    # total 4
+    # -rw-r--r-- 1 builder builder 1065 May 16 04:34 alienfile
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 prefix
+    # drwxr-xr-x 3 builder builder   60 May 16 04:34 root
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 stage
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix:
+    # total 0
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root:
+    # total 0
+    # drwx------ 3 builder builder 80 May 16 04:34 build_0WUL
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL:
+    # total 4
+    # -rw-r--r-- 1 builder builder 2719 May 16 04:34 CMakeCache.txt
+    # drwxr-xr-x 3 builder builder   80 May 16 04:34 CMakeFiles
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL/CMakeFiles:
+    # total 4
+    # -rw-r--r-- 1 builder builder 85 May 16 04:34 cmake.check_cache
+    # drwxr-xr-x 2 builder builder 40 May 16 04:34 pkgRedirects
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL/CMakeFiles/pkgRedirects:
+    # total 0
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/stage:
+    # total 0
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    #   undefined alien
+
+# Failed test 'out-of-source'
+# at t/alien_build_plugin_build_cmake.t line 117.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+t/alien_build_plugin_build_cmake.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+t/alien_build_plugin_build_copy.t .................... ok
+t/alien_build_plugin_build_make.t .................... ok
+t/alien_build_plugin_build_msys.t .................... ok
+t/alien_build_plugin_build_searchdep.t ............... ok
+t/alien_build_plugin_core_cleaninstall.t ............. ok
+t/alien_build_plugin_core_download.t ................. ok
+t/alien_build_plugin_core_ffi.t ...................... ok
+t/alien_build_plugin_core_gather.t ................... ok
+t/alien_build_plugin_core_legacy.t ................... ok
+t/alien_build_plugin_core_override.t ................. ok
+t/alien_build_plugin_core_setup.t .................... ok
+t/alien_build_plugin_core_tail.t ..................... ok
+t/alien_build_plugin_decode_dirlisting.t ............. ok
+t/alien_build_plugin_decode_dirlistingftpcopy.t ...... ok
+t/alien_build_plugin_decode_html.t ................... ok
+t/alien_build_plugin_decode_mojo.t ................... ok
+t/alien_build_plugin_digest_negotiate.t .............. ok
+t/alien_build_plugin_digest_sha.t .................... ok
+t/alien_build_plugin_digest_shapp.t .................. ok
+t/alien_build_plugin_download_negotiate.t ............ ok
+t/alien_build_plugin_extract_archivetar.t ............ ok
+t/alien_build_plugin_extract_archivezip.t ............ ok
+t/alien_build_plugin_extract_commandline.t ........... ok
+t/alien_build_plugin_extract_commandline__tar_can.t .. ok
+t/alien_build_plugin_extract_directory.t ............. ok
+t/alien_build_plugin_extract_file.t .................. ok
+t/alien_build_plugin_extract_negotiate.t ............. ok
+t/alien_build_plugin_fetch_curlcommand.t ............. ok
+t/alien_build_plugin_fetch_httptiny.t ................ ok
+t/alien_build_plugin_fetch_local.t ................... ok
+t/alien_build_plugin_fetch_localdir.t ................ ok
+t/alien_build_plugin_fetch_lwp.t ..................... ok
+t/alien_build_plugin_fetch_netftp.t .................. ok
+t/alien_build_plugin_fetch_wget.t .................... ok
+t/alien_build_plugin_gather_isolatedynamic.t ......... ok
+t/alien_build_plugin_meta.t .......................... ok
+t/alien_build_plugin_pkgconfig_commandline.t ......... ok
+t/alien_build_plugin_pkgconfig_libpkgconf.t .......... skipped: Test requires PkgConfig::LibPkgConf
+t/alien_build_plugin_pkgconfig_makestatic.t .......... skipped: test requires PkgConfig.pm
+t/alien_build_plugin_pkgconfig_negotiate.t ........... ok
+t/alien_build_plugin_pkgconfig_negotiate__pick.t ..... ok
+t/alien_build_plugin_pkgconfig_pp.t .................. skipped: test requires PkgConfig 0.14026
+t/alien_build_plugin_prefer_badversion.t ............. ok
+t/alien_build_plugin_prefer_goodversion.t ............ ok
+t/alien_build_plugin_prefer_sortversions.t ........... ok
+t/alien_build_plugin_probe_cbuilder.t ................ ok
+t/alien_build_plugin_probe_cbuilder__live.t .......... skipped: CI only
+t/alien_build_plugin_probe_commandline.t ............. ok
+t/alien_build_plugin_probe_vcpkg.t ................... skipped: Test requires Win32::Vcpkg 0.02
+t/alien_build_plugin_test_mock.t ..................... ok
+t/alien_build_rc.t ................................... ok
+t/alien_build_rc__prepostload.t ...................... ok
+t/alien_build_rc__prepostload_plugin.t ............... ok
+t/alien_build_temp.t ................................. ok
+t/alien_build_tempdir.t .............................. ok
+t/alien_build_util.t ................................. ok
+t/alien_build_version_basic.t ........................ ok
+t/alien_role.t ....................................... ok
+t/alien_util.t ....................................... ok
+t/alienfile.t ........................................ ok
+t/test_alien.t ....................................... ok
+t/test_alien_build.t ................................. ok
+t/test_alien_cancompile.t ............................ ok
+Devel::Hide hides FFI/Platypus.pm
+t/test_alien_canplatypus.t ........................... ok
+t/test_alien_diag.t .................................. ok
+t/test_alien_run.t ................................... ok
+t/test_alien_synthetic.t ............................. ok
+
+Test Summary Report
+-------------------
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 2
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Result: FAIL
+Failed 1/87 test programs. 2/442 subtests failed.
+make: *** [Makefile:868: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+Command exited with non-zero status 1
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+0inputs+0outputs (0major+1107243minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Alien-Build-2.84-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+29.44user 3.64system 1:11.83elapsed 46%CPU (0avgtext+0avgdata 135544maxresident)k
+232inputs+0outputs (0major+252903minor)pagefaults 0swaps

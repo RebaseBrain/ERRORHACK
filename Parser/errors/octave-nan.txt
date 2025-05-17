@@ -1,0 +1,326 @@
+checking for strcspn... yes
+checking for strdup... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strtol... yes
+checking for strtoul... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+make: Entering directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+ls: cannot access './bin/mexext': No such file or directory
+make: Leaving directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+make: Entering directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+/usr/bin/mkoctfile-10.1.0 --verbose -o "svm_model_octave.o" -c "svm_model_matlab.c"
+x86_64-alt-linux-gcc -c  -fPIC -I/usr/include/octave-10.1.0/octave/.. -I/usr/include/octave-10.1.0/octave  -pthread -fexceptions -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -I/usr/include/pcre -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -fpermissive -lm    svm_model_matlab.c -o svm_model_octave.o
+make: Leaving directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+make: Entering directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+g++ -Wall -Wextra -Wconversion -O2  -fPIC -fopenmp -fexceptions -fPIC -fno-omit-frame-pointer -pthread -c tron.cpp
+make: Leaving directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+make: Entering directory '/usr/src/RPM/BUILD/nan-3.7.0/nan-3.7.0/src'
+/usr/bin/mkoctfile-10.1.0 --verbose --mex -lgomp "histo_mex.cpp"
++ cp -prL NEWS DESCRIPTION COPYING doc /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ chmod -R go-w /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ chmod -R go-w /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ chmod -R a+rX /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ chmod -R a+rX /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ chmod -R a+rX /usr/src/tmp/octave-nan-buildroot/usr/share/doc/octave-nan-3.7.0
++ exit 0
++ exit 0
++ exit 0
++ exit 0
+Finding Provides (using /usr/lib/rpm/find-provides)
+Finding Provides (using /usr/lib/rpm/find-provides)
+Finding Provides (using /usr/lib/rpm/find-provides)
+Finding Provides (using /usr/lib/rpm/find-provides)
+Finding Provides (using /usr/lib/rpm/find-provides)
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.PAQnD2
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+find-provides: running scripts (alternatives,debuginfo,lib,pam,perl,pkgconfig,python,python3,shell)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Finding Requires (using /usr/lib/rpm/find-requires)
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+Executing: /bin/sh -e /usr/src/tmp/rpm-tmp.DbeZCA
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+find-requires: running scripts (cpp,debuginfo,files,lib,pam,perl,pkgconfig,pkgconfiglib,python,python3,rpmlib,shebang,shell,static,symlinks,systemd-services)
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/covm_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/histo_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/kth_element.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/str2array.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/sumskipnan_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmpredict_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/svmtrain_mex.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/train.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+lib.req: ERROR: /usr/src/tmp/octave-nan-buildroot/usr/lib64/octave/packages/nan-3.7.0/x86_64-alt-linux-gnu-api-v60/xptopen.mex: library liboctmex.so.1 not found
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+find-requires: ERROR: /usr/lib/rpm/lib.req failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: /bin/sh failed
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+error: Failed to find Requires
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    /bin/sh failed
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+    Failed to find Requires
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+18.76user 7.48system 0:22.26elapsed 117%CPU (0avgtext+0avgdata 108460maxresident)k
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+0inputs+0outputs (0major+1094077minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `octave-nan-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `octave-nan-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `octave-nan-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `octave-nan-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `octave-nan-3.7.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.97user 7.73system 1:10.94elapsed 24%CPU (0avgtext+0avgdata 142136maxresident)k
+9.97user 7.73system 1:10.94elapsed 24%CPU (0avgtext+0avgdata 142136maxresident)k
+9.97user 7.73system 1:10.94elapsed 24%CPU (0avgtext+0avgdata 142136maxresident)k
+72880inputs+0outputs (0major+391923minor)pagefaults 0swaps
+72880inputs+0outputs (0major+391923minor)pagefaults 0swaps
+72880inputs+0outputs (0major+391923minor)pagefaults 0swaps
+
+

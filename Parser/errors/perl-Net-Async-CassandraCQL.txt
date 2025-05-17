@@ -1,0 +1,287 @@
++ PERL_DL_NONLAZY=1
++ /usr/bin/perl Build test
+t/00use.t ................... ok
+t/01quote.t ................. ok
+t/10conn-send_message.t ..... ok
+t/11conn-messages.t ......... ok
+t/11conn-messages.t ......... ok
+t/12conn-queue.t ............ ok
+t/12conn-queue.t ............ ok
+t/13conn-events.t ........... ok
+t/13conn-events.t ........... ok
+t/20connect.t ............... ok
+t/20connect.t ............... ok
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/21prepare.t line 9.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/21prepare.t line 9.
+BEGIN failed--compilation aborted at t/21prepare.t line 9.
+BEGIN failed--compilation aborted at t/21prepare.t line 9.
+BEGIN failed--compilation aborted at t/21prepare.t line 9.
+t/21prepare.t ............... 
+t/21prepare.t ............... 
+t/21prepare.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+No subtests run 
+No subtests run 
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/22clustering.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/22clustering.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/22clustering.t line 8.
+BEGIN failed--compilation aborted at t/22clustering.t line 8.
+BEGIN failed--compilation aborted at t/22clustering.t line 8.
+BEGIN failed--compilation aborted at t/22clustering.t line 8.
+BEGIN failed--compilation aborted at t/22clustering.t line 8.
+t/22clustering.t ............ 
+t/22clustering.t ............ 
+t/22clustering.t ............ 
+t/22clustering.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+No subtests run 
+No subtests run 
+No subtests run 
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/23clustering-primaries.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/23clustering-primaries.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/23clustering-primaries.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/23clustering-primaries.t line 8.
+BEGIN failed--compilation aborted at t/23clustering-primaries.t line 8.
+BEGIN failed--compilation aborted at t/23clustering-primaries.t line 8.
+BEGIN failed--compilation aborted at t/23clustering-primaries.t line 8.
+BEGIN failed--compilation aborted at t/23clustering-primaries.t line 8.
+BEGIN failed--compilation aborted at t/23clustering-primaries.t line 8.
+t/23clustering-primaries.t .. 
+t/23clustering-primaries.t .. 
+t/23clustering-primaries.t .. 
+t/23clustering-primaries.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+No subtests run 
+No subtests run 
+No subtests run 
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/24clustering-events.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/24clustering-events.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/24clustering-events.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/24clustering-events.t line 8.
+BEGIN failed--compilation aborted at t/24clustering-events.t line 8.
+BEGIN failed--compilation aborted at t/24clustering-events.t line 8.
+BEGIN failed--compilation aborted at t/24clustering-events.t line 8.
+BEGIN failed--compilation aborted at t/24clustering-events.t line 8.
+t/24clustering-events.t ..... 
+t/24clustering-events.t ..... 
+t/24clustering-events.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+No subtests run 
+No subtests run 
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/25clustering-prefer-dc.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/25clustering-prefer-dc.t line 8.
+Can't locate Test/Refcount.pm in @INC (you may need to install the Test::Refcount module) (@INC entries checked: /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/lib /usr/src/RPM/BUILD/Net-Async-CassandraCQL-0.12/blib/arch /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at t/25clustering-prefer-dc.t line 8.
+BEGIN failed--compilation aborted at t/25clustering-prefer-dc.t line 8.
+BEGIN failed--compilation aborted at t/25clustering-prefer-dc.t line 8.
+BEGIN failed--compilation aborted at t/25clustering-prefer-dc.t line 8.
+BEGIN failed--compilation aborted at t/25clustering-prefer-dc.t line 8.
+t/25clustering-prefer-dc.t .. 
+t/25clustering-prefer-dc.t .. 
+t/25clustering-prefer-dc.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+No subtests run 
+No subtests run 
+No subtests run 
+t/30compression.t ........... ok
+t/30compression.t ........... ok
+t/30compression.t ........... ok
+t/30compression.t ........... ok
+t/90local.t ................. skipped: No t/local.yaml config
+t/90local.t ................. skipped: No t/local.yaml config
+t/90local.t ................. skipped: No t/local.yaml config
+t/90local.t ................. skipped: No t/local.yaml config
+t/99pod.t ................... ok
+t/99pod.t ................... ok
+t/99pod.t ................... ok
+t/99pod.t ................... ok
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/21prepare.t             (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/21prepare.t             (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/21prepare.t             (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/21prepare.t             (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/21prepare.t             (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/22clustering.t          (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/22clustering.t          (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/22clustering.t          (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/22clustering.t          (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/22clustering.t          (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/23clustering-primaries.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/24clustering-events.t   (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+t/25clustering-prefer-dc.t (Wstat: 512 (exited 2) Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Files=15, Tests=85,  1 wallclock secs ( 0.03 usr  0.02 sys +  0.99 cusr  0.22 csys =  1.26 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 5/15 test programs. 0/85 subtests failed.
+Failed 5/15 test programs. 0/85 subtests failed.
+Failed 5/15 test programs. 0/85 subtests failed.
+Failed 5/15 test programs. 0/85 subtests failed.
+Failed 5/15 test programs. 0/85 subtests failed.
+Failed 5/15 test programs. 0/85 subtests failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.2369 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.29user 0.39system 0:01.66elapsed 101%CPU (0avgtext+0avgdata 23652maxresident)k
+1.29user 0.39system 0:01.66elapsed 101%CPU (0avgtext+0avgdata 23652maxresident)k
+1.29user 0.39system 0:01.66elapsed 101%CPU (0avgtext+0avgdata 23652maxresident)k
+1.29user 0.39system 0:01.66elapsed 101%CPU (0avgtext+0avgdata 23652maxresident)k
+0inputs+0outputs (0major+95427minor)pagefaults 0swaps
+0inputs+0outputs (0major+95427minor)pagefaults 0swaps
+0inputs+0outputs (0major+95427minor)pagefaults 0swaps
+0inputs+0outputs (0major+95427minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Net-Async-CassandraCQL-0.12-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-Async-CassandraCQL-0.12-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-Async-CassandraCQL-0.12-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-Async-CassandraCQL-0.12-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.39user 3.00system 0:11.87elapsed 62%CPU (0avgtext+0avgdata 141212maxresident)k
+4.39user 3.00system 0:11.87elapsed 62%CPU (0avgtext+0avgdata 141212maxresident)k
+2104inputs+0outputs (0major+271002minor)pagefaults 0swaps

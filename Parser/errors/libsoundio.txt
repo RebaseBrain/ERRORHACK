@@ -1,0 +1,56 @@
++ cd libsoundio-2.0.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.57568
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libsoundio-2.0.0
++ cmake -S . -B build -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DCMAKE_INSTALL_LIBEXECDIR:PATH=/usr/lib -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_STATIC_LIBS:BOOL=OFF
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.57568 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.57568 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.57568 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.57568 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.05user 0.07system 0:00.12elapsed 104%CPU (0avgtext+0avgdata 18788maxresident)k
+0.05user 0.07system 0:00.12elapsed 104%CPU (0avgtext+0avgdata 18788maxresident)k
+0inputs+0outputs (0major+12898minor)pagefaults 0swaps
+0inputs+0outputs (0major+12898minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libsoundio-2.0.0-alt1_2.src.rpm' failed.
+hsh-rebuild: rebuild of `libsoundio-2.0.0-alt1_2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.94user 3.45system 0:15.99elapsed 52%CPU (0avgtext+0avgdata 140576maxresident)k
+4.94user 3.45system 0:15.99elapsed 52%CPU (0avgtext+0avgdata 140576maxresident)k
+21504inputs+0outputs (0major+298750minor)pagefaults 0swaps

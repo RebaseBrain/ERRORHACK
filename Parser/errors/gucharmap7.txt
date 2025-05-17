@@ -1,0 +1,140 @@
+   78 | G_CONST_RETURN gchar *  gucharmap_unicode_version_to_string       (GucharmapUnicodeVersion version);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gucharmap-chartable-accessible.c: In function 'cell_destroyed':
+gucharmap-chartable-accessible.c:77:13: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+   77 |   priv = GET_PRIVATE (accessible);
+      |             ^~~~~~~~~~~~~~~~~~~~~~                                           
+gucharmap-chartable-accessible.c: In function 'gucharmap_chartable_accessible_ref_child':
+gucharmap-chartable-accessible.c:121:13: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  121 |   priv = GET_PRIVATE (table);
+      |             ^~~~~~~~~~~~~~~~~                                                
+/usr/include/glib-2.0/gobject/gobject.h:533:28: error: returning 'GucharmapChartableCellAccessible *' {aka 'struct _GucharmapChartableCellAccessible *'} from a function with incompatible return type 'AtkObject *' {aka 'struct _AtkObject *'} [-Wincompatible-pointer-types]
+  533 | #define g_object_ref(Obj) ((glib_typeof (Obj)) (g_object_ref) (Obj))
+      |                           ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gucharmap-chartable-accessible.c:131:16: note: in expansion of macro 'g_object_ref'
+  131 |         return g_object_ref (cell);
+      |                ^~~~~~~~~~~~
+gucharmap-chartable-accessible.c: In function 'gucharmap_chartable_accessible_init':
+gucharmap-chartable-accessible.c:293:13: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  293 |   GucharmapChartableAccessiblePrivate *priv = GET_PRIVATE (accessible);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+gucharmap-chartable-accessible.c: In function 'gucharmap_chartable_accessible_finalize':
+gucharmap-chartable-accessible.c: In function 'gucharmap_chartable_accessible_get_type':
+/usr/include/glib-2.0/glib/gatomic.h:131:5: warning: argument 2 of '__atomic_load' discards 'volatile' qualifier [-Wdiscarded-qualifiers]
+  131 |     __atomic_load (gapg_temp_atomic, &gapg_temp_newval, __ATOMIC_SEQ_CST); \
+      |     ^~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/gthread.h:274:7: note: in expansion of macro 'g_atomic_pointer_get'
+  274 |     (!g_atomic_pointer_get (location) &&                             \
+      |       ^~~~~~~~~~~~~~~~~~~~
+gucharmap-chartable-accessible.c:757:7: note: in expansion of macro 'g_once_init_enter'
+  757 |   if (g_once_init_enter (&type__volatile))
+      |       ^~~~~~~~~~~~~~~~~
+make[3]: *** [Makefile:749: libgucharmap_la-gucharmap-chartable-accessible.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+\
+#	source='gucharmap-codepoint-list.c' object='libgucharmap_la-gucharmap-codepoint-list.lo' libtool=yes 
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I.. -DGUCHARMAP_COMPILATION -DDATADIR=\"/usr/share\" -DLOCALEDIR=\"/usr/share/locale\" -DHELPDIR=\"/usr/share/gnome/help\" -DG_DISABLE_SINGLE_INCLUDES -DPANGO_DISABLE_SINGLE_INCLUDES -DATK_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_SINGLE_INCLUDES -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_SINGLE_INCLUDES    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o libgucharmap_la-gucharmap-codepoint-list.lo `test -f 'gucharmap-codepoint-list.c' || echo './'`gucharmap-codepoint-list.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DGUCHARMAP_COMPILATION -DDATADIR=\"/usr/share\" -DLOCALEDIR=\"/usr/share/locale\" -DHELPDIR=\"/usr/share/gnome/help\" -DG_DISABLE_SINGLE_INCLUDES -DPANGO_DISABLE_SINGLE_INCLUDES -DATK_DISABLE_SINGLE_INCLUDES -DGDK_DISABLE_SINGLE_INCLUDES -DGDK_PIXBUF_DISABLE_SINGLE_INCLUDES -DGTK_DISABLE_SINGLE_INCLUDES -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c gucharmap-codepoint-list.c  -fPIC -DPIC -o .libs/libgucharmap_la-gucharmap-codepoint-list.o
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkcontainer.h:35,
+  450 | G_CONST_RETURN gchar **
+      |             ^~~~~~~~~~~                                              
+      |             ^~~~~~~~~~~                                              
+gucharmap-unicode-info.c:476:13: warning: Deprecated pre-processor symbol: replace with "const"
+gucharmap-unicode-info.c:476:13: warning: Deprecated pre-processor symbol: replace with "const"
+gucharmap-unicode-info.c:476:13: warning: Deprecated pre-processor symbol: replace with "const"
+  476 | G_CONST_RETURN gchar **
+  476 | G_CONST_RETURN gchar **
+  476 | G_CONST_RETURN gchar **
+  476 | G_CONST_RETURN gchar **
+      |             ^~~~~~~~~~~                                              
+      |             ^~~~~~~~~~~                                              
+      |             ^~~~~~~~~~~                                              
+      |             ^~~~~~~~~~~                                              
+gucharmap-unicode-info.c: In function 'gucharmap_unichar_to_printable_utf8':
+gucharmap-unicode-info.c: In function 'gucharmap_unichar_to_printable_utf8':
+gucharmap-unicode-info.c: In function 'gucharmap_unichar_to_printable_utf8':
+gucharmap-unicode-info.c: In function 'gucharmap_unichar_to_printable_utf8':
+gucharmap-unicode-info.c:541:13: warning: Deprecated pre-processor symbol: replace with "G_UNICODE_SPACING_MARK"
+gucharmap-unicode-info.c:541:13: warning: Deprecated pre-processor symbol: replace with "G_UNICODE_SPACING_MARK"
+gucharmap-unicode-info.c:541:13: warning: Deprecated pre-processor symbol: replace with "G_UNICODE_SPACING_MARK"
+gucharmap-unicode-info.c:541:13: warning: Deprecated pre-processor symbol: replace with "G_UNICODE_SPACING_MARK"
+  541 |   else if (gucharmap_unichar_type (uc) == G_UNICODE_COMBINING_MARK
+  541 |   else if (gucharmap_unichar_type (uc) == G_UNICODE_COMBINING_MARK
+  541 |   else if (gucharmap_unichar_type (uc) == G_UNICODE_COMBINING_MARK
+  541 |   else if (gucharmap_unichar_type (uc) == G_UNICODE_COMBINING_MARK
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    
+make[3]: Leaving directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/gucharmap-2.32.1/gucharmap'
+make[2]: *** [Makefile:528: all] Error 2
+make[2]: *** [Makefile:528: all] Error 2
+make[2]: *** [Makefile:528: all] Error 2
+make[2]: *** [Makefile:528: all] Error 2
+make[1]: *** [Makefile:536: all-recursive] Error 1
+make[1]: *** [Makefile:536: all-recursive] Error 1
+make[1]: *** [Makefile:536: all-recursive] Error 1
+make[1]: *** [Makefile:536: all-recursive] Error 1
+make[1]: *** [Makefile:536: all-recursive] Error 1
+make: *** [Makefile:397: all] Error 2
+make: *** [Makefile:397: all] Error 2
+make: *** [Makefile:397: all] Error 2
+make: *** [Makefile:397: all] Error 2
+make: *** [Makefile:397: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64084 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+11.01user 5.32system 0:06.44elapsed 253%CPU (0avgtext+0avgdata 142768maxresident)k
+11.01user 5.32system 0:06.44elapsed 253%CPU (0avgtext+0avgdata 142768maxresident)k
+11.01user 5.32system 0:06.44elapsed 253%CPU (0avgtext+0avgdata 142768maxresident)k
+11.01user 5.32system 0:06.44elapsed 253%CPU (0avgtext+0avgdata 142768maxresident)k
+11.01user 5.32system 0:06.44elapsed 253%CPU (0avgtext+0avgdata 142768maxresident)k
+0inputs+0outputs (0major+875990minor)pagefaults 0swaps
+0inputs+0outputs (0major+875990minor)pagefaults 0swaps
+0inputs+0outputs (0major+875990minor)pagefaults 0swaps
+0inputs+0outputs (0major+875990minor)pagefaults 0swaps
+0inputs+0outputs (0major+875990minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `gucharmap7-2.32.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `gucharmap7-2.32.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `gucharmap7-2.32.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `gucharmap7-2.32.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.35user 3.74system 0:28.15elapsed 35%CPU (0avgtext+0avgdata 142120maxresident)k
+6.35user 3.74system 0:28.15elapsed 35%CPU (0avgtext+0avgdata 142120maxresident)k
+8664inputs+0outputs (0major+264432minor)pagefaults 0swaps

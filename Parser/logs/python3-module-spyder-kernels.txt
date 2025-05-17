@@ -1,0 +1,923 @@
+<86>May 16 05:47:42 userdel[129069]: delete user 'rooter'
+<86>May 16 05:47:42 userdel[129069]: removed group 'rooter' owned by 'rooter'
+<86>May 16 05:47:42 userdel[129069]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 05:47:42 groupadd[129076]: group added to /etc/group: name=rooter, GID=1295
+<86>May 16 05:47:42 groupadd[129076]: group added to /etc/gshadow: name=rooter
+<86>May 16 05:47:42 groupadd[129076]: new group: name=rooter, GID=1295
+<86>May 16 05:47:42 useradd[129082]: new user: name=rooter, UID=1295, GID=1295, home=/root, shell=/bin/bash, from=none
+<86>May 16 05:47:42 userdel[129092]: delete user 'builder'
+<86>May 16 05:47:42 userdel[129092]: removed group 'builder' owned by 'builder'
+<86>May 16 05:47:42 userdel[129092]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 05:47:42 groupadd[129099]: group added to /etc/group: name=builder, GID=1296
+<86>May 16 05:47:42 groupadd[129099]: group added to /etc/gshadow: name=builder
+<86>May 16 05:47:42 groupadd[129099]: new group: name=builder, GID=1296
+<86>May 16 05:47:42 useradd[129105]: new user: name=builder, UID=1296, GID=1296, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 05:47:46 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 05:47:46 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 05:47:46 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 05:47:46 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 05:47:46 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 05:47:46 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:47:46 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 05:47:46 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:47:46 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:47:46 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 05:47:46 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 05:47:46 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:47:47 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:47:47 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:47:47 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:47:47 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:47:47 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 05:47:47 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+<13>May 16 05:47:47 rpmi: rpm-macros-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 05:47:47 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 05:47:47 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 05:47:47 rpmi: rpm-build-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 05:47:53 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 05:47:53 rpmi: python3-module-traitlets-5.14.3-alt1 sisyphus+345559.100.1.1 1713606266 installed
+<13>May 16 05:47:53 rpmi: python3-module-attrs-25.3.0-alt1 sisyphus+378700.100.1.1 1742472992 installed
+<13>May 16 05:47:53 rpmi: python3-module-typing_extensions-4.13.2-alt1 sisyphus+381315.100.1.1 1744375640 installed
+<13>May 16 05:47:53 rpmi: python3-module-zope.interface-7.2-alt1.1 sisyphus+376369.21500.10.1 1746631801 installed
+<13>May 16 05:47:53 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 05:47:53 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 05:47:53 rpmi: python3-module-pytz-1:2025.2-alt1 sisyphus+379213.100.2.1 1742985453 installed
+<13>May 16 05:47:53 rpmi: python3-module-cloudpickle-3.1.1-alt1 sisyphus+369592.100.1.1 1736931089 installed
+<13>May 16 05:47:53 rpmi: python3-module-six-1.17.0-alt1.1 sisyphus+373470.100.1.1 1738920023 installed
+<13>May 16 05:47:53 rpmi: python3-module-dateutil-2.9.0.post0-alt1 sisyphus+378451.100.1.1 1742313746 installed
+<13>May 16 05:47:53 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 05:47:53 rpmi: libtcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 05:47:53 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760159 installed
+<13>May 16 05:47:53 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 05:47:53 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 05:47:53 rpmi: python3-module-jupyter_core-5.7.2-alt1 sisyphus+342603.200.2.1 1710317793 installed
+<13>May 16 05:47:53 rpmi: python3-module-wcwidth-0.2.13-alt1 sisyphus+341792.100.2.1 1709543329 installed
+<13>May 16 05:47:53 rpmi: python3-module-pygobject3-nox-3.52.3-alt1 sisyphus+378334.100.1.1 1742236125 installed
+<13>May 16 05:47:53 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 05:47:53 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 05:47:53 rpmi: python3-module-mpmath-1.3.0-alt1 sisyphus+380739.100.1.1 1744031172 installed
+<13>May 16 05:47:53 rpmi: python3-module-mypy_extensions-1.0.0-alt1 sisyphus+316350.100.2.1 1678357948 installed
+<13>May 16 05:47:53 rpmi: python3-module-decorator-5.2.1-alt1 sisyphus+376067.100.1.1 1740491622 installed
+<13>May 16 05:47:53 rpmi: python3-module-click-8.1.8-alt1 sisyphus+366297.100.1.1 1734946237 installed
+<13>May 16 05:47:53 rpmi: python3-module-psutil-7.0.0-alt1 sisyphus+378483.100.1.1 1742330008 installed
+<13>May 16 05:47:53 rpmi: python3-module-sortedcontainers-2.4.0-alt1 sisyphus+272042.100.1.1 1621262424 installed
+<13>May 16 05:47:53 rpmi: python3-module-propcache-0.2.1-alt1 sisyphus+369528.100.1.1 1736868993 installed
+<13>May 16 05:47:53 rpmi: python3-module-multidict-6.4.3-alt1 sisyphus+381313.100.1.1 1744375526 installed
+<13>May 16 05:47:54 rpmi: python3-module-frozenlist-1.5.0-alt1 sisyphus+362047.100.1.1 1731079173 installed
+<13>May 16 05:47:54 rpmi: python3-module-Pygments-2.19.1-alt1 sisyphus+368586.100.2.1 1737039695 installed
+<13>May 16 05:47:54 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 05:47:54 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 05:47:54 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:47:54 rpmi: libcares-1.34.5-alt1 sisyphus+381066.100.1.1 1744213475 installed
+<13>May 16 05:47:54 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667412981 installed
+<13>May 16 05:47:54 rpmi: libfontenc-1.1.8-alt1 sisyphus+343583.200.1.1 1711440759 installed
+<13>May 16 05:47:54 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 05:47:54 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 05:47:54 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 05:47:54 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 05:47:54 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 05:47:54 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 05:47:54 rpmi: libblosc-1.21.6-alt1 sisyphus+356073.100.1.1 1724669237 installed
+<13>May 16 05:47:54 rpmi: libblosc2-2.17.1-alt1 sisyphus+379422.100.2.1 1743102124 installed
+<13>May 16 05:47:54 rpmi: libimagequant-2.17.0-alt1_1 sisyphus+291138.100.1.1 1638394107 installed
+<13>May 16 05:47:54 rpmi: python3-module-ipython-pygments-lexers-1.1.1-alt1 sisyphus+377149.100.4.1 1741352254 installed
+<13>May 16 05:47:54 rpmi: python3-module-aiosignal-1.3.2-alt1 sisyphus+369480.100.1.1 1736854528 installed
+<13>May 16 05:47:54 rpmi: python3-module-yarl-1.18.3-alt1 sisyphus+369529.100.2.1 1736876451 installed
+<13>May 16 05:47:54 rpmi: python3-module-incremental-22.10.0-alt1 sisyphus+312706.100.1.1 1672404273 installed
+<13>May 16 05:47:54 rpmi: python3-module-mypy-1.15.0-alt2 sisyphus+384204.100.1.1 1747304735 installed
+<13>May 16 05:47:54 rpmi: tcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 05:47:54 rpmi: python3-module-genshi-0.7.9-alt2.1 sisyphus+376369.5100.10.1 1746628134 installed
+<13>May 16 05:47:54 rpmi: python3-module-loky-3.5.1-alt1 sisyphus+378532.100.1.1 1742374986 installed
+<13>May 16 05:47:54 rpmi: python3-module-joblib-1.4.2-alt1 sisyphus+347403.100.1.1 1714736716 installed
+<13>May 16 05:47:55 rpmi: python3-module-yapf-0.43.0-alt1 sisyphus+362821.100.1.1 1731926840 installed
+<13>May 16 05:47:55 rpmi: python3-module-hyperlink-21.0.0-alt1.1 sisyphus+304836.100.1.1 1659710964 installed
+<13>May 16 05:47:55 rpmi: python3-module-outcome-1.3.0-alt1 sisyphus+332382.100.1.1 1697882349 installed
+<13>May 16 05:47:55 rpmi: python3-module-comm-0.2.2-alt1 sisyphus+342682.100.1.1 1710401944 installed
+<13>May 16 05:47:55 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 05:47:55 rpmi: rgb-1.0.6-alt3 sisyphus+275450.100.1.2 1624513780 installed
+<13>May 16 05:47:55 rpmi: python3-module-threadpoolctl-3.6.0-alt1 sisyphus+377938.100.2.1 1742201332 installed
+<13>May 16 05:47:55 rpmi: python3-module-pymysql-1.1.1-alt1.1 sisyphus+376369.12700.10.1 1746629893 installed
+<13>May 16 05:47:55 rpmi: python3-module-testpath-0.6.0-alt2 sisyphus+309123.500.4.1 1668095372 installed
+<13>May 16 05:47:55 rpmi: python3-module-pure-eval-0.2.3-alt1 sisyphus+353357.100.1.1 1721650016 installed
+<13>May 16 05:47:55 rpmi: python3-module-pyogg-0.6.14-alt1 sisyphus+367505.100.1.1 1735845349 installed
+<13>May 16 05:47:55 rpmi: python3-module-pyglet-1.5.30-alt1 sisyphus+367527.100.1.1 1735927191 installed
+<13>May 16 05:47:55 rpmi: python3-module-pyperclip-1.9.0-alt1 sisyphus+353859.100.1.1 1722231798 installed
+<13>May 16 05:47:55 rpmi: python3-module-pickleshare-0.7.5-alt3 sisyphus+339447.100.1.1 1706675898 installed
+<13>May 16 05:47:55 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 05:47:55 rpmi: python3-module-lark-1.2.2-alt1 sisyphus+358322.100.1.1 1727258177 installed
+<13>May 16 05:47:55 rpmi: python3-module-executing-2.2.0-alt1 sisyphus+370911.100.1.1 1737575455 installed
+<13>May 16 05:47:55 rpmi: python3-module-docutils-0.20.1-alt1 sisyphus+323438.100.1.1 1687370718 installed
+<13>May 16 05:47:55 rpmi: python3-module-sqlparse-0.5.3-alt1 sisyphus+367438.100.1.1 1735561443 installed
+<13>May 16 05:47:55 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 16 05:47:55 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 16 05:47:55 rpmi: python3-module-pytest-8.3.5-alt2 sisyphus+383865.100.1.1 1747039699 installed
+<13>May 16 05:47:55 rpmi: python3-module-toolz-1.0.0-alt1.1 sisyphus+373478.100.1.1 1738922129 installed
+<13>May 16 05:47:55 rpmi: python3-module-matplotlib-data-3.10.3-alt1 sisyphus+384058.100.1.1 1747148923 installed
+<13>May 16 05:47:55 rpmi: python3-module-railroad-diagrams-3.0.1-alt1 sisyphus+358318.100.1.1 1727257812 installed
+<13>May 16 05:47:55 rpmi: python3-module-pyparsing-3.2.3-alt1 sisyphus+379206.100.2.1 1742978787 installed
+<13>May 16 05:47:55 rpmi: python3-module-kiwisolver-1.4.8-alt1 sisyphus+366446.100.5.1 1735114509 installed
+<13>May 16 05:47:55 rpmi: python3-module-xlwt-1.3.0-alt2 sisyphus+276024.100.1.1 1624812681 installed
+<13>May 16 05:47:56 rpmi: python3-module-xlsxwriter-3.2.3-alt1 sisyphus+382369.100.1.1 1745376343 installed
+<13>May 16 05:47:56 rpmi: python3-module-et_xmlfile-1.1.0-alt1 sisyphus+300537.100.1.1 1653384154 installed
+<13>May 16 05:47:56 rpmi: python3-module-xlrd-2.0.1-alt2.1 sisyphus+274166.200.2.1 1623321346 installed
+<13>May 16 05:47:56 rpmi: python3-module-cycler-0.12.1-alt1 sisyphus+331222.100.1.1 1696668651 installed
+<13>May 16 05:47:56 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 05:47:56 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 05:47:56 rpmi: python3-module-pathspec-0.12.1-alt1 sisyphus+341971.100.1.1 1709553025 installed
+<13>May 16 05:47:56 rpmi: python3-module-webencodings-0.5.1-alt3 sisyphus+359244.100.1.1 1728381102 installed
+<13>May 16 05:47:56 rpmi: python3-module-cssselect-1.3.0-alt1 sisyphus+377617.100.1.1 1741681780 installed
+<13>May 16 05:47:56 rpmi: python3-module-pycryptodome-3.22.0-alt1 sisyphus+378294.100.1.1 1742210220 installed
+<13>May 16 05:47:56 rpmi: python3-module-asttokens-3.0.0-alt1 sisyphus+363799.100.1.1 1733123348 installed
+<13>May 16 05:47:56 rpmi: python3-module-stack-data-0.6.3-alt2 sisyphus+380649.100.1.1 1743970069 installed
+<13>May 16 05:47:56 rpmi: python3-module-asgiref-3.8.1-alt1 sisyphus+372174.1500.2.1 1738333633 installed
+<13>May 16 05:47:56 rpmi: python3-module-antlr4-4.6-alt1.1 sisyphus+275891.100.1.1 1624803052 installed
+<13>May 16 05:47:57 rpmi: python3-module-sympy-1:1.13.2-alt2 sisyphus+357674.100.1.1 1726556106 installed
+<13>May 16 05:47:57 rpmi: python3-module-priority-2.0.0-alt3 sisyphus+338701.100.1.2 1705988383 installed
+<13>May 16 05:47:57 rpmi: python3-module-hpack-4.0.0-alt1 sisyphus+270376.200.1.1 1618956626 installed
+<13>May 16 05:47:57 rpmi: python3-module-hyperframe-6.0.1-alt1 sisyphus+270376.300.2.1 1618957001 installed
+<13>May 16 05:47:57 rpmi: python3-module-h2-4.1.0-alt1 sisyphus+325714.100.2.2 1690478873 installed
+<13>May 16 05:47:57 rpmi: python3-module-constantly-15.1.0-alt7 sisyphus+338906.100.1.1 1706107088 installed
+<13>May 16 05:47:57 rpmi: python3-module-appdirs-1.4.4-alt2 sisyphus+359005.100.1.1 1728036426 installed
+<13>May 16 05:47:57 rpmi: python3-module-certifi-2024.12.14-alt1 sisyphus+369729.200.2.2 1737050219 installed
+<13>May 16 05:47:57 rpmi: python3-module-z3c-3.0.0-alt4 sisyphus+284857.200.1.1 1631109149 installed
+<13>May 16 05:47:57 rpmi: python3-module-zc-1.0.0-alt7 sisyphus+284857.100.1.1 1631109117 installed
+<13>May 16 05:47:57 rpmi: python3-module-zope-3.3.0-alt9 sisyphus+281937.200.4.1 1628175900 installed
+<13>May 16 05:47:57 rpmi: python3-module-zope.event-5.0-alt1.1.1 sisyphus+376369.20700.10.1 1746631591 installed
+<13>May 16 05:47:57 rpmi: python3-module-objgraph-3.6.2-alt1 sisyphus+359468.100.1.1 1728573508 installed
+<13>May 16 05:47:57 rpmi: python3-module-greenlet-3.2.2-alt1 sisyphus+383924.100.1.2 1747067810 installed
+<13>May 16 05:47:57 rpmi: python3-module-sniffio-1.3.1-alt1 sisyphus+341424.100.1.1 1708941879 installed
+<13>May 16 05:47:57 rpmi: python3-module-astor-0.8.1-alt1.1 sisyphus+315877.100.1.1 1677481862 installed
+<13>May 16 05:47:57 rpmi: python3-module-pycparser-2.22-alt1 sisyphus+378485.100.1.1 1742331206 installed
+<13>May 16 05:47:57 rpmi: python3-module-cffi-1.17.1-alt1 sisyphus+357396.100.1.1 1726156476 installed
+<13>May 16 05:47:57 rpmi: python3-module-cryptography-44.0.0-alt1 sisyphus+368451.100.1.1 1736436050 installed
+<13>May 16 05:47:57 rpmi: python3-module-openssl-24.3.0-alt1 sisyphus+368451.200.1.1 1736436083 installed
+<13>May 16 05:47:58 rpmi: python3-module-trio-0.30.0-alt1 sisyphus+383467.100.1.2 1746556155 installed
+<13>May 16 05:47:58 rpmi: python3-module-dns-1:2.6.1-alt1 sisyphus+341811.20.3.1 1709382170 installed
+<13>May 16 05:47:58 rpmi: python3-module-redis-py-4.5.5-alt1.1 sisyphus+332415.100.1.1 1697904078 installed
+<13>May 16 05:47:58 rpmi: python3-module-pycares-4.8.0-alt1 sisyphus+383444.100.1.1 1746542991 installed
+<13>May 16 05:47:58 rpmi: python3-module-aiohappyeyeballs-2.4.4-alt1 sisyphus+369620.100.1.1 1736938218 installed
+<13>May 16 05:47:58 rpmi: python3-module-olefile-0.46-alt2 sisyphus+288126.100.1.1 1635163866 installed
+<13>May 16 05:47:58 rpmi: python3-module-openid-3.2.0-alt1 sisyphus+278049.100.2.1 1625998936 installed
+<13>May 16 05:47:59 rpmi: python3-module-OpenGL-3.1.9-alt2.1 sisyphus+376369.34300.10.2 1746655744 installed
+<13>May 16 05:47:59 rpmi: python3-module-zombie-imp-0.0.2-alt1 sisyphus+339293.100.1.1 1706537230 installed
+<13>May 16 05:47:59 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 05:47:59 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 05:47:59 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 05:47:59 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 05:47:59 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 05:47:59 rpmi: python3-module-Cheetah-3.4.0-alt1.1.1 sisyphus+376369.27100.10.1 1746633546 installed
+<13>May 16 05:47:59 rpmi: python3-module-paste-3.10.1-alt1.1 sisyphus+376369.11500.10.1 1746629504 installed
+<13>May 16 05:47:59 rpmi: python3-module-PasteDeploy-1:3.1.0-alt1.1 sisyphus+376369.26200.10.1 1746633333 installed
+<13>May 16 05:47:59 rpmi: python3-module-PasteScript-1:3.7.0-alt1.1 sisyphus+376369.24300.10.1 1746632597 installed
+<13>May 16 05:47:59 rpmi: libzeromq-4.3.4-alt3 sisyphus+326735.200.2.1 1691482840 installed
+<13>May 16 05:47:59 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 05:47:59 rpmi: python3-module-yaml-6.0.2-alt1.1 sisyphus+376369.16600.10.1 1746631034 installed
+<13>May 16 05:48:00 rpmi: python3-module-libcst-1.7.0-alt1 sisyphus+377931.100.1.1 1741945033 installed
+<13>May 16 05:48:00 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 05:48:00 rpmi: python3-module-html5lib-1:1.1-alt1 sisyphus+278096.120.5.1 1626086978 installed
+<13>May 16 05:48:00 rpmi: python3-module-lxml-5.4.0-alt1 sisyphus+382313.100.1.1 1745325124 installed
+<13>May 16 05:48:00 rpmi: python3-module-soupsieve-2.6-alt1 sisyphus+376619.40.2.1 1740871634 installed
+<13>May 16 05:48:00 rpmi: python3-module-beautifulsoup4-4.13.4-alt1 sisyphus+381733.100.1.1 1744791244 installed
+<13>May 16 05:48:00 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 05:48:00 rpmi: vulkan-filesystem-1.4.313-alt1 sisyphus+383827.700.1.1 1746997048 installed
+<13>May 16 05:48:00 rpmi: libvulkan1-1.4.313-alt1 sisyphus+383827.700.1.1 1746997048 installed
+<13>May 16 05:48:00 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 05:48:00 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 05:48:00 rpmi: python3-modules-sqlite3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:48:00 rpmi: python3-module-coverage-7.6.10-alt1 sisyphus+378449.100.1.1 1742313292 installed
+<13>May 16 05:48:00 rpmi: python3-module-sqlalchemy-2.0.40-alt1 sisyphus+380006.100.1.1 1743586270 installed
+<13>May 16 05:48:00 rpmi: libqhull-2020.2-alt2 sisyphus+384239.100.1.1 1747324499 installed
+<13>May 16 05:48:01 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:48:01 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 05:48:01 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745386888 installed
+<13>May 16 05:48:01 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 05:48:01 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 05:48:01 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 05:48:02 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:48:02 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 05:48:03 rpmi: python3-module-Cython-3.0.12-alt1 sisyphus+375455.100.1.1 1740050387 installed
+<13>May 16 05:48:03 rpmi: liblzo2-2.10-alt2 sisyphus+283836.100.1.1 1629977727 installed
+<13>May 16 05:48:03 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:48:03 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 05:48:03 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 05:48:03 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 05:48:03 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388330 installed
+<13>May 16 05:48:03 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 05:48:03 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 05:48:03 rpmi: libhidapi-0.14.0-alt1 sisyphus+378183.100.1.1 1742067545 installed
+<13>May 16 05:48:03 rpmi: python3-module-cython-hidapi-0.14.0-alt1.1 sisyphus+333513.54340.73.1 1704651867 installed
+<13>May 16 05:48:03 rpmi: python3-module-serial-3.5-alt3 sisyphus+360600.100.2.1 1729786231 installed
+<13>May 16 05:48:03 rpmi: python3-module-automat-25.4.16-alt1.1 sisyphus+376369.25200.10.1 1746633028 installed
+<13>May 16 05:48:03 rpmi: python3-module-twisted-logger-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 05:48:03 rpmi: python3-module-twisted-web-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 05:48:04 rpmi: python3-module-twisted-words-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 05:48:04 rpmi: python3-module-twisted-core-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 05:48:04 rpmi: python3-module-twisted-names-24.11.0-alt2 sisyphus+376609.40.2.1 1740866761 installed
+<13>May 16 05:48:04 rpmi: python3-module-tornado-6.4.2-alt1 sisyphus+363445.100.1.1 1732635491 installed
+<13>May 16 05:48:04 rpmi: libhdf5-310-1.14.6-alt1 sisyphus+375936.100.1.1 1740420589 installed
+<13>May 16 05:48:04 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:48:04 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:48:04 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069366 installed
+<13>May 16 05:48:05 rpmi: python3-module-numpy-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965091 installed
+<13>May 16 05:48:07 rpmi: python3-module-scipy-1.11.4-alt4 sisyphus+379420.300.4.1 1743594679 installed
+<13>May 16 05:48:07 rpmi: python3-module-numpy-testing-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965091 installed
+<13>May 16 05:48:07 rpmi: python3-module-numexpr-1:2.10.2-alt1.1 sisyphus+373414.100.1.1 1738852839 installed
+<13>May 16 05:48:07 rpmi: python3-module-tables-1:3.10.2-alt1 sisyphus+379422.200.2.1 1743102376 installed
+<13>May 16 05:48:09 rpmi: python3-module-scikit-learn-1.5.2-alt1 sisyphus+359097.100.1.1 1728131546 installed
+<13>May 16 05:48:09 rpmi: python3-module-openpyxl-3.1.5-alt1 sisyphus+367462.100.1.1 1735668246 installed
+<13>May 16 05:48:09 rpmi: python3-module-numpy-tests-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965091 installed
+<13>May 16 05:48:09 rpmi: python3-module-patsy-1.0.1-alt1 sisyphus+364148.100.1.1 1733407402 installed
+<13>May 16 05:48:09 rpmi: libev4-4.33-alt3 sisyphus+334335.340.4.1 1699912675 installed
+<13>May 16 05:48:09 rpmi: python3-module-gevent-24.11.1-alt1 sisyphus+378463.100.2.1 1742318286 installed
+<13>May 16 05:48:09 rpmi: python3-module-zmq-26.4.0-alt1 sisyphus+381036.100.1.1 1744210132 installed
+<13>May 16 05:48:10 rpmi: python3-module-jupyter_client-8.6.3-alt1 sisyphus+357733.100.1.1 1726593924 installed
+<13>May 16 05:48:10 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 05:48:10 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 05:48:10 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<86>May 16 05:48:10 groupadd[160507]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 05:48:10 groupadd[160507]: group added to /etc/gshadow: name=_keytab
+<86>May 16 05:48:10 groupadd[160507]: new group: name=_keytab, GID=999
+<13>May 16 05:48:10 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<86>May 16 05:48:10 groupadd[160754]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 05:48:10 groupadd[160754]: group added to /etc/gshadow: name=sasl
+<86>May 16 05:48:10 groupadd[160754]: new group: name=sasl, GID=998
+<13>May 16 05:48:10 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 05:48:10 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:48:10 rpmi: libpq5-17-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:48:10 rpmi: python3-module-psycopg2-2.9.10-alt1 sisyphus+361099.100.1.1 1730221764 installed
+<13>May 16 05:48:10 rpmi: python3-module-eventlet-0.40.0-alt1 sisyphus+384110.100.1.1 1747219515 installed
+<13>May 16 05:48:10 rpmi: python3-module-gunicorn-23.0.0-alt1 sisyphus+362920.200.1.1 1732021917 installed
+<13>May 16 05:48:10 rpmi: python3-module-aiohttp-3.11.18-alt1 sisyphus+384011.100.1.1 1747133882 installed
+<13>May 16 05:48:10 rpmi: python3-module-black-25.1.0-alt1 sisyphus+372035.100.1.1 1738146346 installed
+<13>May 16 05:48:11 rpmi: python3-module-django-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 05:48:11 rpmi: python3-module-django-dbbackend-postgresql-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 05:48:11 rpmi: python3-module-hypothesis-6.131.16-alt1 sisyphus+383970.200.2.1 1747157058 installed
+<13>May 16 05:48:11 rpmi: python3-module-gssapi-1.9.0-alt1 sisyphus+359349.100.1.1 1728472724 installed
+<13>May 16 05:48:11 rpmi: python3-module-asyncssh-2.21.0-alt1 sisyphus+383474.100.1.1 1746551078 installed
+<13>May 16 05:48:11 rpmi: python3-module-prompt_toolkit-3.0.51-alt1 sisyphus+381665.100.1.1 1744717056 installed
+<13>May 16 05:48:11 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 05:48:11 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:48:11 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:48:11 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 05:48:12 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:48:12 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 05:48:12 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 05:48:12 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 05:48:13 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 05:48:13 rpmi: libXfont2-2.0.6-alt1 sisyphus+305922.100.1.1 1661759203 installed
+<13>May 16 05:48:13 rpmi: mkfontscale-1.2.2-alt1 sisyphus+302400.100.1.1 1655810947 installed
+<13>May 16 05:48:13 rpmi: fonts-bitmap-misc-7.0.0-alt7 sisyphus+278605.100.1.1 1626095607 installed
+<13>May 16 05:48:14 rpmi: python3-module-Pillow-11.2.1-alt1 sisyphus+376290.15240.24.2 1745390306 installed
+<13>May 16 05:48:14 rpmi: python3-module-mpl_toolkits-3.10.3-alt1 sisyphus+384058.100.1.1 1747148923 installed
+<13>May 16 05:48:14 rpmi: python3-module-matplotlib-3.10.3-alt1 sisyphus+384058.100.1.1 1747148923 installed
+<13>May 16 05:48:15 rpmi: python3-module-pandas-2.2.3-alt1 sisyphus+358071.100.1.1 1726939840 installed
+<13>May 16 05:48:15 rpmi: python3-module-matplotlib-inline-0.1.7-alt2 sisyphus+374260.100.2.1 1741201733 installed
+<13>May 16 05:48:16 rpmi: python3-module-pandas-tests-2.2.3-alt1 sisyphus+358071.100.1.1 1726939840 installed
+<13>May 16 05:48:18 rpmi: python3-module-statsmodels-1:0.14.2-alt1 sisyphus+345321.100.2.1 1713364274 installed
+<13>May 16 05:48:18 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 05:48:18 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 05:48:18 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 05:48:18 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 05:48:18 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 05:48:18 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 05:48:18 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:48:18 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:48:18 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 05:48:18 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 05:48:18 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 05:48:18 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 05:48:18 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 05:48:18 rpmi: libtk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 05:48:18 rpmi: tk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 05:48:18 rpmi: tcl-tix-8.4.3-alt5 sisyphus+371748.200.2.1 1738070355 installed
+<13>May 16 05:48:18 rpmi: python3-modules-tkinter-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:48:19 rpmi: python3-module-ipython-9.2.0-alt1 sisyphus+382673.100.1.1 1745773363 installed
+<13>May 16 05:48:19 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 05:48:19 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 05:48:19 rpmi: xauth-1:1.1.2-alt1 sisyphus+302412.100.1.1 1655815532 installed
+<13>May 16 05:48:19 rpmi: libxkbfile-1.1.3-alt1 sisyphus+343583.1100.1.1 1711441133 installed
+<13>May 16 05:48:19 rpmi: xkbcomp-1.4.5-alt1 sisyphus+289922.100.2.1 1637566373 installed
+<13>May 16 05:48:19 rpmi: xkeyboard-config-1:2.42-alt1 sisyphus+352855.100.1.1 1721024969 installed
+<13>May 16 05:48:19 rpmi: xorg-server-common-2:21.1.16-alt2 sisyphus+384208.100.1.1 1747309689 installed
+<13>May 16 05:48:19 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:48:19 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:48:19 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 05:48:19 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:48:22 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 05:48:23 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 05:48:23 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 05:48:23 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 05:48:24 rpmi: xorg-dri-swrast-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 05:48:24 rpmi: xorg-xvfb-2:21.1.16-alt2 sisyphus+384208.100.1.1 1747309689 installed
+<13>May 16 05:48:24 rpmi: xvfb-run-1.20.3-alt1 sisyphus.219055.100 1547009175 installed
+<13>May 16 05:48:24 rpmi: python3-module-ipykernel-6.29.5-alt2 sisyphus+377407.100.1.1 1741450061 installed
+<13>May 16 05:48:24 rpmi: python3-module-dask-2021.7.2-alt2 sisyphus+339016.100.1.1 1706210395 installed
+<13>May 16 05:48:24 rpmi: python3-module-xarray-2025.1.1-alt1 sisyphus+378511.100.2.1 1742423673 installed
+<13>May 16 05:48:24 rpmi: python3-module-flaky-3.8.1-alt1 sisyphus+344119.100.1.1 1711967596 installed
+<13>May 16 05:48:24 rpmi: python3-module-wurlitzer-3.1.1-alt1 sisyphus+351495.100.1.1 1719286689 installed
+<13>May 16 05:48:24 rpmi: python3-module-mock-5.2.0-alt1 sisyphus+376793.100.1.1 1741087496 installed
+warning: File /usr/src/in/source/python3-module-spyder-kernels-2.5.2-alt.patch is smaller than 8 bytes
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-spyder-kernels-2.5.2-alt1.nosrc.rpm (w1.gzdio)
+warning: File /usr/src/RPM/SOURCES/python3-module-spyder-kernels-2.5.2-alt.patch is smaller than 8 bytes
+Installing python3-module-spyder-kernels-2.5.2-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.94624
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf python3-module-spyder-kernels-2.5.2
++ echo 'Source #0 (python3-module-spyder-kernels-2.5.2.tar):'
+Source #0 (python3-module-spyder-kernels-2.5.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/python3-module-spyder-kernels-2.5.2.tar
++ cd python3-module-spyder-kernels-2.5.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (python3-module-spyder-kernels-2.5.2-alt.patch):'
+Patch #0 (python3-module-spyder-kernels-2.5.2-alt.patch):
++ /usr/bin/patch -p1
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep518
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep518 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep517
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep517 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show metadata
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync metadata --verify
+INFO     : Building metadata
+INFO     : Building metadata with prepare_metadata_for_build_wheel
+INFO     : Source tree: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2
+INFO     : Output dir: /usr/src/tmp/tmphdexniol
+INFO     : pyproject.toml was not found, using defaults
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.58498
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-spyder-kernels-2.5.2
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib64/python3/site-packages/setuptools/dist.py:761: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO     : root : running bdist_wheel
+/usr/lib64/python3/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+!!
+
+        ********************************************************************************
+        With Python 2.7 end-of-life, support for building universal wheels
+        (i.e., wheels that support both Python 2 and Python 3)
+        is being obviated.
+        Please discontinue using this option, or if you still need it,
+        file an issue with pypa/setuptools describing your use case.
+
+        By 2025-Aug-30, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+        ********************************************************************************
+
+!!
+  self.finalize_options()
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/spyder_kernels
+INFO     : root : copying spyder_kernels/py3compat.py -> build/lib/spyder_kernels
+INFO     : root : copying spyder_kernels/_version.py -> build/lib/spyder_kernels
+INFO     : root : copying spyder_kernels/__init__.py -> build/lib/spyder_kernels
+INFO     : root : creating build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/test_utils.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/nsview.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/mpl.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/misc.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/lazymodules.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/iofuncs.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/dochelpers.py -> build/lib/spyder_kernels/utils
+INFO     : root : copying spyder_kernels/utils/__init__.py -> build/lib/spyder_kernels/utils
+INFO     : root : creating build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/utils.py -> build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/umr.py -> build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/spyderpdb.py -> build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/spydercustomize.py -> build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/namespace_manager.py -> build/lib/spyder_kernels/customize
+INFO     : root : copying spyder_kernels/customize/__init__.py -> build/lib/spyder_kernels/customize
+INFO     : root : creating build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/start.py -> build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/shell.py -> build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/outstream.py -> build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/kernel.py -> build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/__main__.py -> build/lib/spyder_kernels/console
+INFO     : root : copying spyder_kernels/console/__init__.py -> build/lib/spyder_kernels/console
+INFO     : root : creating build/lib/spyder_kernels/comms
+INFO     : root : copying spyder_kernels/comms/frontendcomm.py -> build/lib/spyder_kernels/comms
+INFO     : root : copying spyder_kernels/comms/commbase.py -> build/lib/spyder_kernels/comms
+INFO     : root : copying spyder_kernels/comms/__init__.py -> build/lib/spyder_kernels/comms
+INFO     : root : running egg_info
+INFO     : root : writing spyder_kernels.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to spyder_kernels.egg-info/dependency_links.txt
+INFO     : root : writing requirements to spyder_kernels.egg-info/requires.txt
+INFO     : root : writing top-level names to spyder_kernels.egg-info/top_level.txt
+INFO     : root : reading manifest file 'spyder_kernels.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+INFO     : root : adding license file 'LICENSE.txt'
+INFO     : root : adding license file 'AUTHORS.txt'
+INFO     : root : writing manifest file 'spyder_kernels.egg-info/SOURCES.txt'
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels/comms
+INFO     : root : copying build/lib/spyder_kernels/comms/__init__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/comms
+INFO     : root : copying build/lib/spyder_kernels/comms/commbase.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/comms
+INFO     : root : copying build/lib/spyder_kernels/comms/frontendcomm.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/comms
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/__init__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/__main__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/kernel.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/outstream.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/shell.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : copying build/lib/spyder_kernels/console/start.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/console
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/__init__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/namespace_manager.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/spydercustomize.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/spyderpdb.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/umr.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : copying build/lib/spyder_kernels/customize/utils.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/customize
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/__init__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/dochelpers.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/iofuncs.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/lazymodules.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/misc.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/mpl.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/nsview.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/utils/test_utils.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels/utils
+INFO     : root : copying build/lib/spyder_kernels/__init__.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels
+INFO     : root : copying build/lib/spyder_kernels/_version.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels
+INFO     : root : copying build/lib/spyder_kernels/py3compat.py -> build/bdist.linux-x86_64/wheel/./spyder_kernels
+INFO     : root : running install_egg_info
+INFO     : root : Copying spyder_kernels.egg-info to build/bdist.linux-x86_64/wheel/./spyder_kernels-2.5.2-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/spyder_kernels-2.5.2.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist/.tmp-qeeovwns/spyder_kernels-2.5.2-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'spyder_kernels/__init__.py'
+INFO     : wheel : adding 'spyder_kernels/_version.py'
+INFO     : wheel : adding 'spyder_kernels/py3compat.py'
+INFO     : wheel : adding 'spyder_kernels/comms/__init__.py'
+INFO     : wheel : adding 'spyder_kernels/comms/commbase.py'
+INFO     : wheel : adding 'spyder_kernels/comms/frontendcomm.py'
+INFO     : wheel : adding 'spyder_kernels/console/__init__.py'
+INFO     : wheel : adding 'spyder_kernels/console/__main__.py'
+INFO     : wheel : adding 'spyder_kernels/console/kernel.py'
+INFO     : wheel : adding 'spyder_kernels/console/outstream.py'
+INFO     : wheel : adding 'spyder_kernels/console/shell.py'
+INFO     : wheel : adding 'spyder_kernels/console/start.py'
+INFO     : wheel : adding 'spyder_kernels/customize/__init__.py'
+INFO     : wheel : adding 'spyder_kernels/customize/namespace_manager.py'
+INFO     : wheel : adding 'spyder_kernels/customize/spydercustomize.py'
+INFO     : wheel : adding 'spyder_kernels/customize/spyderpdb.py'
+INFO     : wheel : adding 'spyder_kernels/customize/umr.py'
+INFO     : wheel : adding 'spyder_kernels/customize/utils.py'
+INFO     : wheel : adding 'spyder_kernels/utils/__init__.py'
+INFO     : wheel : adding 'spyder_kernels/utils/dochelpers.py'
+INFO     : wheel : adding 'spyder_kernels/utils/iofuncs.py'
+INFO     : wheel : adding 'spyder_kernels/utils/lazymodules.py'
+INFO     : wheel : adding 'spyder_kernels/utils/misc.py'
+INFO     : wheel : adding 'spyder_kernels/utils/mpl.py'
+INFO     : wheel : adding 'spyder_kernels/utils/nsview.py'
+INFO     : wheel : adding 'spyder_kernels/utils/test_utils.py'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/licenses/AUTHORS.txt'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/licenses/LICENSE.txt'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/METADATA'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/WHEEL'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/top_level.txt'
+INFO     : wheel : adding 'spyder_kernels-2.5.2.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: spyder_kernels-2.5.2-py2.py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.31912
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-spyder-kernels-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-spyder-kernels-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd python3-module-spyder-kernels-2.5.2
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-spyder-kernels-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: spyder_kernels-2.5.2-py2.py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-spyder-kernels-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: spyder_kernels-2.5.2.dist-info/licenses/AUTHORS.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: spyder_kernels-2.5.2.dist-info/licenses/LICENSE.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: spyder_kernels-2.5.2.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: spyder_kernels-2.5.2.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: spyder_kernels-2.5.2.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-spyder-kernels-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-spyder-kernels-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-spyder-kernels-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-spyder-kernels-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-spyder-kernels-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-spyder-kernels-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-spyder-kernels-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-spyder-kernels-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/commbase.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/frontendcomm.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__main__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/kernel.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/outstream.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/shell.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/start.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/namespace_manager.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spydercustomize.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spyderpdb.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/umr.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/dochelpers.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/iofuncs.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/lazymodules.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/misc.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/mpl.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/nsview.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/test_utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/_version.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/py3compat.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-spyder-kernels-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/commbase.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/frontendcomm.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__main__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/kernel.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/outstream.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/shell.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/start.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/namespace_manager.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spydercustomize.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spyderpdb.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/umr.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/dochelpers.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/iofuncs.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/lazymodules.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/misc.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/mpl.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/nsview.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/test_utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/_version.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/py3compat.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-spyder-kernels-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/commbase.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/comms/frontendcomm.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/__main__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/kernel.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/outstream.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/shell.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/console/start.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/namespace_manager.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spydercustomize.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/spyderpdb.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/umr.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/customize/utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/dochelpers.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/iofuncs.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/lazymodules.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/misc.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/mpl.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/nsview.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/utils/test_utils.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/__init__.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/_version.py
+compile /usr/src/tmp/python3-module-spyder-kernels-buildroot/usr/lib/python3/site-packages/spyder_kernels/py3compat.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/spyder_kernels/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/__pycache__/_version.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/__pycache__/_version.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/__pycache__/py3compat.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/__pycache__/py3compat.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/commbase.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/commbase.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/frontendcomm.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/comms/__pycache__/frontendcomm.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/__main__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/outstream.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/outstream.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/shell.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/shell.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/start.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/console/__pycache__/start.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/namespace_manager.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/namespace_manager.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/spydercustomize.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/spydercustomize.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/spyderpdb.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/spyderpdb.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/umr.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/umr.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/utils.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/customize/__pycache__/utils.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/dochelpers.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/dochelpers.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/iofuncs.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/iofuncs.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/lazymodules.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/lazymodules.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/misc.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/misc.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/mpl.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/mpl.cpython-312.pyc'
+'./usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/test_utils.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/spyder_kernels/utils/__pycache__/test_utils.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.15106
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-spyder-kernels-2.5.2
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ /usr/bin/python3 -m pyproject_installer run -- xvfb-run -- pytest -vra
+INFO     : Creating venv
+INFO     : Installing console scripts
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist/spyder_kernels-2.5.2-py2.py3-none-any.whl
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/dist/spyder_kernels-2.5.2-py2.py3-none-any.whl']
+INFO     : Running command: ['xvfb-run', '--', 'pytest', '-vra']
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0 -- /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/.run_venv/bin/python3
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/.hypothesis/examples'))
+rootdir: /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2
+plugins: flaky-3.8.1, hypothesis-6.131.16
+collecting ... collected 98 items
+
+spyder_kernels/console/tests/test_console_kernel.py::test_magics PASSED  [  1%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_namespace_view PASSED [  2%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_var_properties PASSED [  3%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_value PASSED [  4%]
+spyder_kernels/console/tests/test_console_kernel.py::test_set_value PASSED [  5%]
+spyder_kernels/console/tests/test_console_kernel.py::test_remove_value PASSED [  6%]
+spyder_kernels/console/tests/test_console_kernel.py::test_copy_value PASSED [  7%]
+spyder_kernels/console/tests/test_console_kernel.py::test_load_npz_data[load0] PASSED [  8%]
+spyder_kernels/console/tests/test_console_kernel.py::test_load_npz_data[load1] PASSED [  9%]
+spyder_kernels/console/tests/test_console_kernel.py::test_load_data PASSED [ 10%]
+spyder_kernels/console/tests/test_console_kernel.py::test_save_namespace PASSED [ 11%]
+spyder_kernels/console/tests/test_console_kernel.py::test_is_defined PASSED [ 12%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_doc PASSED [ 13%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_source PASSED [ 14%]
+spyder_kernels/console/tests/test_console_kernel.py::test_output_from_c_libraries PASSED [ 15%]
+spyder_kernels/console/tests/test_console_kernel.py::test_cwd_in_sys_path PASSED [ 16%]
+spyder_kernels/console/tests/test_console_kernel.py::test_multiprocessing PASSED [ 17%]
+spyder_kernels/console/tests/test_console_kernel.py::test_multiprocessing_2 PASSED [ 18%]
+spyder_kernels/console/tests/test_console_kernel.py::test_dask_multiprocessing SKIPPED [ 19%]
+spyder_kernels/console/tests/test_console_kernel.py::test_runfile PASSED [ 20%]
+spyder_kernels/console/tests/test_console_kernel.py::test_np_threshold PASSED [ 21%]
+spyder_kernels/console/tests/test_console_kernel.py::test_turtle_launch PASSED [ 22%]
+spyder_kernels/console/tests/test_console_kernel.py::test_matplotlib_inline PASSED [ 23%]
+spyder_kernels/console/tests/test_console_kernel.py::test_do_complete PASSED [ 24%]
+spyder_kernels/console/tests/test_console_kernel.py::test_callables_and_modules[True-True] PASSED [ 25%]
+spyder_kernels/console/tests/test_console_kernel.py::test_callables_and_modules[True-False] PASSED [ 26%]
+spyder_kernels/console/tests/test_console_kernel.py::test_callables_and_modules[False-True] PASSED [ 27%]
+spyder_kernels/console/tests/test_console_kernel.py::test_callables_and_modules[False-False] PASSED [ 28%]
+spyder_kernels/console/tests/test_console_kernel.py::test_comprehensions_with_locals_in_pdb PASSED [ 29%]
+spyder_kernels/console/tests/test_console_kernel.py::test_comprehensions_with_locals_in_pdb_2 PASSED [ 30%]
+spyder_kernels/console/tests/test_console_kernel.py::test_namespaces_in_pdb PASSED [ 31%]
+spyder_kernels/console/tests/test_console_kernel.py::test_functions_with_locals_in_pdb PASSED [ 32%]
+spyder_kernels/console/tests/test_console_kernel.py::test_functions_with_locals_in_pdb_2 PASSED [ 33%]
+spyder_kernels/console/tests/test_console_kernel.py::test_locals_globals_in_pdb PASSED [ 34%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_interactive_backend[None] SKIPPED [ 35%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_interactive_backend[inline] SKIPPED [ 36%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_interactive_backend[tk] SKIPPED [ 37%]
+spyder_kernels/console/tests/test_console_kernel.py::test_get_interactive_backend[qt5] SKIPPED [ 38%]
+spyder_kernels/console/tests/test_console_kernel.py::test_debug_namespace FAILED [ 39%]
+spyder_kernels/console/tests/test_console_kernel.py::test_non_strings_in_locals PASSED [ 40%]
+spyder_kernels/console/tests/test_console_kernel.py::test_django_settings PASSED [ 41%]
+spyder_kernels/customize/tests/test_umr.py::test_umr_skip_cython PASSED  [ 42%]
+spyder_kernels/customize/tests/test_umr.py::test_umr_run PASSED          [ 43%]
+spyder_kernels/customize/tests/test_umr.py::test_umr_previous_modules PASSED [ 44%]
+spyder_kernels/customize/tests/test_umr.py::test_umr_namelist PASSED     [ 45%]
+spyder_kernels/customize/tests/test_umr.py::test_umr_reload_modules PASSED [ 46%]
+spyder_kernels/customize/tests/test_utils.py::test_user_sitepackages_in_pathlist PASSED [ 47%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_dochelpers PASSED    [ 48%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_no_signature PASSED  [ 50%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext_py2[foo(x, y)-foo-(x, y)] PASSED [ 51%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext_py2[foo(x, y)--(x, y)] PASSED [ 52%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo(x, y)-foo-(x, y)] PASSED [ 53%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo(x, y)--(x, y)] PASSED [ 54%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo(x)--(x)] PASSED [ 55%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo(x = {})--(x = {})] PASSED [ 56%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[1a(x, y)--] PASSED [ 57%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[a1(x, y=2)--(x, y=2)] PASSED [ 58%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[\u03a3\u0394(x, y)-\u03a3\u0394-(x, y)] PASSED [ 59%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[\u03a3\u0394(x, y)--(x, y)] PASSED [ 60%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[\u03a3\u0394(x, y) foo(a, b)--(x, y)] PASSED [ 61%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[1a(x, y) foo(a, b)--(a, b)] PASSED [ 62%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo(a, b = 1)\n\n\u03a3\u0394(x, y=2)--(a, b = 1)] PASSED [ 63%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[1a(a, b = 1)\n\n\u03a3\u0394(x, y=2)--(x, y=2)] PASSED [ 64%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[2(3 + 5) 3*(99) \u03a3\u0394(x, y)--(x, y)] PASSED [ 65%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[(x, y)--] PASSED [ 66%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo (a=1, b = 2)--] PASSED [ 67%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo()--] PASSED [ 68%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_getsignaturefromtext[foo()-foo-] PASSED [ 69%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_multisignature PASSED [ 70%]
+spyder_kernels/utils/tests/test_dochelpers.py::test_multiline_signature PASSED [ 71%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_npz_import PASSED       [ 72%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_matlab_import PASSED    [ 73%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import[export_data.spydata] PASSED [ 74%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import[export_data_renamed.spydata] PASSED [ 75%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import_witherror PASSED [ 76%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import_missing_file PASSED [ 77%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_matlabstruct PASSED     [ 78%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[spydata_values-spydata_values-export_data_copy] PASSED [ 79%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[namespace_objects_full-namespace_objects_filtered-export_data_2] PASSED [ 80%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[namespace_objects_nocopyable-None-export_data_none_1] PASSED [ 81%]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[namespace_objects_nopickleable-None-export_data_none_2] PASSED [ 82%]
+spyder_kernels/utils/tests/test_lazymodules.py::test_non_existent_module PASSED [ 83%]
+spyder_kernels/utils/tests/test_lazymodules.py::test_existing_modules PASSED [ 84%]
+spyder_kernels/utils/tests/test_nsview.py::test_get_size PASSED          [ 85%]
+spyder_kernels/utils/tests/test_nsview.py::test_sort_against PASSED      [ 86%]
+spyder_kernels/utils/tests/test_nsview.py::test_sort_against_is_stable PASSED [ 87%]
+spyder_kernels/utils/tests/test_nsview.py::test_none_values_are_supported PASSED [ 88%]
+spyder_kernels/utils/tests/test_nsview.py::test_str_subclass_display PASSED [ 89%]
+spyder_kernels/utils/tests/test_nsview.py::test_default_display PASSED   [ 90%]
+spyder_kernels/utils/tests/test_nsview.py::test_list_display PASSED      [ 91%]
+spyder_kernels/utils/tests/test_nsview.py::test_dict_display PASSED      [ 92%]
+spyder_kernels/utils/tests/test_nsview.py::test_set_display PASSED       [ 93%]
+spyder_kernels/utils/tests/test_nsview.py::test_datetime_display PASSED  [ 94%]
+spyder_kernels/utils/tests/test_nsview.py::test_str_in_container_display PASSED [ 95%]
+spyder_kernels/utils/tests/test_nsview.py::test_ellipses PASSED          [ 96%]
+spyder_kernels/utils/tests/test_nsview.py::test_get_type_string PASSED   [ 97%]
+spyder_kernels/utils/tests/test_nsview.py::test_is_editable_type PASSED  [ 98%]
+spyder_kernels/utils/tests/test_nsview.py::test_get_numpy_type PASSED    [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_debug_namespace _____________________________
+
+tmpdir = local('/usr/src/tmp/pytest-of-builder/pytest-0/test_debug_namespace2')
+
+    @flaky(max_runs=3)
+    @pytest.mark.skipif(
+        sys.version_info[0] < 3,
+        reason="Fails with python 2")
+    def test_debug_namespace(tmpdir):
+        """
+        Test that the kernel uses the proper namespace while debugging.
+        """
+        # Command to start the kernel
+        cmd = "from spyder_kernels.console import start; start.main()"
+    
+        with setup_kernel(cmd) as client:
+            # Write code to a file
+            d = tmpdir.join("pdb-ns-test.py")
+            d.write('def func():\n    bb = "hello"\n    breakpoint()\nfunc()')
+    
+            # Run code file `d`
+            msg_id = client.execute("runfile(r'{}')".format(to_text_string(d)))
+    
+            # make sure that 'bb' returns 'hello'
+>           client.get_stdin_msg(timeout=TIMEOUT)
+
+spyder_kernels/console/tests/test_console_kernel.py:1169: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3/site-packages/jupyter_core/utils/__init__.py:165: in wrapped
+    return loop.run_until_complete(inner)
+/usr/lib64/python3.12/asyncio/base_events.py:691: in run_until_complete
+    return future.result()
+/usr/lib/python3/site-packages/jupyter_client/client.py:151: in _async_get_stdin_msg
+    return await ensure_async(self.stdin_channel.get_msg(*args, **kwargs))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <jupyter_client.channels.ZMQSocketChannel object at 0x7f5e4ea9d580>
+timeout = 15
+
+    def get_msg(self, timeout: t.Optional[float] = None) -> t.Dict[str, t.Any]:
+        """Gets a message if there is one that is ready."""
+        assert self.socket is not None
+        timeout_ms = None if timeout is None else int(timeout * 1000)  # seconds to ms
+        ready = self.socket.poll(timeout_ms)
+        if ready:
+            res = self._recv()
+            return res
+        else:
+>           raise Empty
+E           _queue.Empty
+
+/usr/lib/python3/site-packages/jupyter_client/channels.py:232: Empty
+=============================== warnings summary ===============================
+../../../../lib/python3/site-packages/jupyter_client/connect.py:22
+  /usr/lib/python3/site-packages/jupyter_client/connect.py:22: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+  given by the platformdirs library.  To remove this warning and
+  see the appropriate new directories, set the environment variable
+  `JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+  The use of platformdirs will be the default in `jupyter_core` v6
+    from jupyter_core.paths import jupyter_data_dir, jupyter_runtime_dir, secure_write
+
+spyder_kernels/console/tests/test_console_kernel.py::test_load_data
+spyder_kernels/console/tests/test_console_kernel.py::test_save_namespace
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import[export_data.spydata]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import[export_data_renamed.spydata]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_import_witherror
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[spydata_values-spydata_values-export_data_copy]
+spyder_kernels/utils/tests/test_iofuncs.py::test_spydata_export[namespace_objects_full-namespace_objects_filtered-export_data_2]
+  /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/utils/iofuncs.py:390: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+    tar.extractall(path, members, numeric_owner=numeric_owner)
+
+spyder_kernels/utils/tests/test_nsview.py::test_get_type_string
+  /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/utils/tests/test_nsview.py:345: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+    matrix = np.matrix([[1, 2], [3, 4]])
+
+spyder_kernels/utils/tests/test_nsview.py::test_is_editable_type
+  /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/utils/tests/test_nsview.py:400: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+    matrix = np.matrix([[1, 2], [3, 4]])
+
+spyder_kernels/utils/tests/test_nsview.py::test_get_numpy_type
+  /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/utils/tests/test_nsview.py:438: PendingDeprecationWarning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+    matrix = np.matrix([[1, 2], [3, 4]])
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+===Flaky Test Report===
+
+test_cwd_in_sys_path passed 1 out of the required 1 times. Success!
+test_multiprocessing passed 1 out of the required 1 times. Success!
+test_multiprocessing_2 passed 1 out of the required 1 times. Success!
+test_runfile passed 1 out of the required 1 times. Success!
+test_np_threshold passed 1 out of the required 1 times. Success!
+test_turtle_launch passed 1 out of the required 1 times. Success!
+test_matplotlib_inline passed 1 out of the required 1 times. Success!
+test_debug_namespace failed (2 runs remaining out of 3).
+	<class '_queue.Empty'>
+	
+	[<TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:341>, <TracebackEntry /usr/lib/python3/site-packages/flaky/flaky_pytest_plugin.py:146>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:182>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_result.py:100>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:92>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:68>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:95>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:70>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:846>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:829>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/capture.py:898>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/skipping.py:257>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:174>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:1627>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:139>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:159>, <TracebackEntry /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/console/tests/test_console_kernel.py:1169>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_core/utils/__init__.py:165>, <TracebackEntry /usr/lib64/python3.12/asyncio/base_events.py:691>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/client.py:151>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/channels.py:232>]
+test_debug_namespace failed (1 runs remaining out of 3).
+	<class '_queue.Empty'>
+	
+	[<TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:341>, <TracebackEntry /usr/lib/python3/site-packages/flaky/flaky_pytest_plugin.py:146>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:182>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_result.py:100>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:92>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:68>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:95>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:70>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:846>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:829>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/capture.py:898>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/skipping.py:257>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:174>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:1627>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:139>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:159>, <TracebackEntry /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/console/tests/test_console_kernel.py:1169>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_core/utils/__init__.py:165>, <TracebackEntry /usr/lib64/python3.12/asyncio/base_events.py:691>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/client.py:151>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/channels.py:232>]
+test_debug_namespace failed; it passed 0 out of the required 1 times.
+	<class '_queue.Empty'>
+	
+	[<TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:341>, <TracebackEntry /usr/lib/python3/site-packages/flaky/flaky_pytest_plugin.py:146>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:182>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_result.py:100>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:92>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/threadexception.py:68>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:95>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/unraisableexception.py:70>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:846>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/logging.py:829>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/capture.py:898>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:167>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/skipping.py:257>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/runner.py:174>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:1627>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_hooks.py:513>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_manager.py:120>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:139>, <TracebackEntry /usr/lib/python3/site-packages/pluggy/_callers.py:103>, <TracebackEntry /usr/lib/python3/site-packages/_pytest/python.py:159>, <TracebackEntry /usr/src/RPM/BUILD/python3-module-spyder-kernels-2.5.2/spyder_kernels/console/tests/test_console_kernel.py:1169>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_core/utils/__init__.py:165>, <TracebackEntry /usr/lib64/python3.12/asyncio/base_events.py:691>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/client.py:151>, <TracebackEntry /usr/lib/python3/site-packages/jupyter_client/channels.py:232>]
+
+===End Flaky Test Report===
+=========================== short test summary info ============================
+SKIPPED [1] spyder_kernels/console/tests/test_console_kernel.py:543: Doesn't work with pip packages
+SKIPPED [4] spyder_kernels/console/tests/test_console_kernel.py:1106: Doesn't work with pip packages
+FAILED spyder_kernels/console/tests/test_console_kernel.py::test_debug_namespace
+======= 1 failed, 92 passed, 5 skipped, 11 warnings in 133.11s (0:02:13) =======
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['xvfb-run', '--', 'pytest', '-vra']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15106 (%check)
+
+
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-spyder-kernels-2.5.2-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.15106 (%check)
+Command exited with non-zero status 1
+55.21user 4.38system 2:20.44elapsed 42%CPU (0avgtext+0avgdata 319192maxresident)k
+0inputs+0outputs (0major+500561minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-spyder-kernels-2.5.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+11.80user 3.20system 3:13.08elapsed 7%CPU (0avgtext+0avgdata 142544maxresident)k
+99032inputs+0outputs (0major+356050minor)pagefaults 0swaps

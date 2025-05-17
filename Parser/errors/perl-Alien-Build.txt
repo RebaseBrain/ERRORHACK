@@ -1,0 +1,413 @@
+t/alien_build_commandsequence__cd.t .................. ok
+t/alien_build_interpolate.t .......................... ok
+t/alien_build_interpolate_default.t .................. ok
+t/alien_build_log.t .................................. ok
+t/alien_build_log_abbreviate.t ....................... ok
+t/alien_build_log_default.t .......................... ok
+t/alien_build_meta.t ................................. ok
+t/alien_build_mm.t ................................... ok
+t/alien_build_plugin.t ............................... ok
+t/alien_build_plugin_build_autoconf.t ................ ok
+    # Failed test 'alien builds okay'
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/LICENSE /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/LICENSE
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/CMakeLists.txt
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/main.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/main.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/main.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/main.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/CMakeLists.txt
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/palx/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx/CMakeLists.txt
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome
+    # Alien::Build::Util> mkdir -p /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/palindrome.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/palindrome.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/palindrome.c /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/palindrome.c
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/libpalindrome.h /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/libpalindrome.h
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/libpalindrome.h /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/libpalindrome.h
+    # Alien::Build::Util> cp /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome/libpalindrome/CMakeLists.txt /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/libpalindrome/CMakeLists.txt
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ
+    # Re-run cmake no build system arguments
+    # Problem opening /proc/meminfo
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    # 
+    # 
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to work with policies introduced by <max> or earlier.
+    #   to work with policies introduced by <max> or earlier.
+    # 
+    # 
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    # 
+    # 
+    # 
+    # 
+    # -- Configuring incomplete, errors occurred!
+    # -- Configuring incomplete, errors occurred!
+    # build threw exception: external command failed at /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib/Alien/Build/CommandSequence.pm line 72.
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw:
+    # total 4
+    # -rw-r--r-- 1 builder builder 1065 May 16 04:34 alienfile
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 prefix
+    # drwxr-xr-x 3 builder builder   60 May 16 04:34 root
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 stage
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/prefix:
+    # total 0
+    # 
+    # -rw-r--r-- 1 builder builder 130 May 16 04:34 libpalindrome.h
+    # -rw-r--r-- 1 builder builder 815 May 16 04:34 palindrome.c
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/root/build_AFbQ/palx:
+    # total 8
+    # total 8
+    # -rw-r--r-- 1 builder builder 133 May 16 04:34 CMakeLists.txt
+    # -rw-r--r-- 1 builder builder 133 May 16 04:34 CMakeLists.txt
+    # -rw-r--r-- 1 builder builder 243 May 16 04:34 main.c
+    # -rw-r--r-- 1 builder builder 243 May 16 04:34 main.c
+    # -rw-r--r-- 1 builder builder 243 May 16 04:34 main.c
+    # 
+    # 
+    # 
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/stage:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/stage:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/stage:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/8FR_wBotlw/stage:
+    # total 0
+    # total 0
+    # total 0
+    # total 0
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    #   undefined alien
+    #   undefined alien
+    #   undefined alien
+    #   undefined alien
+
+
+
+
+
+# Failed test 'basic'
+# Failed test 'basic'
+# Failed test 'basic'
+# Failed test 'basic'
+# Failed test 'basic'
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+    # Failed test 'alien builds okay'
+    # Failed test 'alien builds okay'
+    # Failed test 'alien builds okay'
+    # Failed test 'alien builds okay'
+    # Failed test 'alien builds okay'
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # at t/alien_build_plugin_build_cmake.t line 75.
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::Plugin::Core::Download> downloaded cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Alien::Build::CommandSequence> + /usr/bin/cmake -G Unix Makefiles -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix -DCMAKE_INSTALL_LIBDIR:PATH=lib -DCMAKE_MAKE_PROGRAM:PATH=make /usr/src/RPM/BUILD/Alien-Build-2.84/corpus/cmake-libpalindrome
+    # Re-run cmake no build system arguments
+    # Re-run cmake no build system arguments
+    # Re-run cmake no build system arguments
+    # Re-run cmake no build system arguments
+    # Problem opening /proc/meminfo
+    # Problem opening /proc/meminfo
+    # Problem opening /proc/meminfo
+    # Problem opening /proc/meminfo
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    # CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    #   Compatibility with CMake < 3.5 has been removed from CMake.
+    # 
+    # 
+    # 
+    # 
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to tell CMake that the project requires at least <min> but has been updated
+    #   to work with policies introduced by <max> or earlier.
+    #   to work with policies introduced by <max> or earlier.
+    # 
+    # 
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    #   Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+    # 
+    # 
+    # 
+    # 
+    # -- Configuring incomplete, errors occurred!
+    # -- Configuring incomplete, errors occurred!
+    # build threw exception: external command failed at /usr/src/RPM/BUILD/Alien-Build-2.84/blib/lib/Alien/Build/CommandSequence.pm line 72.
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa:
+    # total 4
+    # -rw-r--r-- 1 builder builder 1065 May 16 04:34 alienfile
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 prefix
+    # drwxr-xr-x 3 builder builder   60 May 16 04:34 root
+    # drwxr-xr-x 2 builder builder   40 May 16 04:34 stage
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/prefix:
+    # total 0
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL/CMakeFiles:
+    # total 4
+    # -rw-r--r-- 1 builder builder 85 May 16 04:34 cmake.check_cache
+    # drwxr-xr-x 2 builder builder 40 May 16 04:34 pkgRedirects
+    # 
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL/CMakeFiles/pkgRedirects:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/root/build_0WUL/CMakeFiles/pkgRedirects:
+    # total 0
+    # total 0
+    # total 0
+    # 
+    # 
+    # 
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/stage:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/stage:
+    # /usr/src/RPM/BUILD/Alien-Build-2.84/.tmp/PHqMdRsPAa/stage:
+    # total 0
+    # total 0
+    # total 0
+    # total 0
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # Failed test 'undef responds to: cflags libs dynamic_libs bin_dir'
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    # at t/alien_build_plugin_build_cmake.t line 94.
+    #   undefined alien
+    #   undefined alien
+    #   undefined alien
+    #   undefined alien
+
+
+
+
+# Failed test 'out-of-source'
+# Failed test 'out-of-source'
+# Failed test 'out-of-source'
+# Failed test 'out-of-source'
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# at t/alien_build_plugin_build_cmake.t line 117.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+# Caught exception in subtest: Can't call method "cflags" on an undefined value at t/alien_build_plugin_build_cmake.t line 96.
+t/alien_build_plugin_build_cmake.t ................... 
+t/alien_build_plugin_build_cmake.t ................... 
+t/alien_build_plugin_build_cmake.t ................... 
+t/alien_build_plugin_build_cmake.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+Failed 2/2 subtests 
+t/alien_build_plugin_build_copy.t .................... ok
+t/alien_build_plugin_build_copy.t .................... ok
+t/alien_build_plugin_build_copy.t .................... ok
+t/alien_build_plugin_build_copy.t .................... ok
+t/alien_build_plugin_build_make.t .................... ok
+t/alien_build_plugin_build_make.t .................... ok
+t/alien_build_plugin_build_make.t .................... ok
+t/alien_build_plugin_build_msys.t .................... ok
+t/alien_build_plugin_build_msys.t .................... ok
+t/alien_build_plugin_build_msys.t .................... ok
+t/alien_build_plugin_build_searchdep.t ............... ok
+t/alien_build_plugin_build_searchdep.t ............... ok
+t/alien_build_plugin_build_searchdep.t ............... ok
+t/alien_build_plugin_core_cleaninstall.t ............. ok
+t/alien_build_plugin_core_cleaninstall.t ............. ok
+t/alien_build_plugin_core_cleaninstall.t ............. ok
+t/alien_build_plugin_core_download.t ................. ok
+t/alien_build_plugin_core_download.t ................. ok
+t/alien_build_plugin_core_ffi.t ...................... ok
+t/alien_build_plugin_core_ffi.t ...................... ok
+t/alien_build_plugin_core_gather.t ................... ok
+t/alien_build_plugin_core_legacy.t ................... ok
+t/alien_build_plugin_core_override.t ................. ok
+t/test_alien_build.t ................................. ok
+t/test_alien_cancompile.t ............................ ok
+t/test_alien_cancompile.t ............................ ok
+Devel::Hide hides FFI/Platypus.pm
+Devel::Hide hides FFI/Platypus.pm
+t/test_alien_canplatypus.t ........................... ok
+t/test_alien_canplatypus.t ........................... ok
+t/test_alien_diag.t .................................. ok
+t/test_alien_diag.t .................................. ok
+t/test_alien_diag.t .................................. ok
+t/test_alien_run.t ................................... ok
+t/test_alien_run.t ................................... ok
+t/test_alien_run.t ................................... ok
+t/test_alien_run.t ................................... ok
+t/test_alien_synthetic.t ............................. ok
+t/test_alien_synthetic.t ............................. ok
+t/test_alien_synthetic.t ............................. ok
+t/test_alien_synthetic.t ............................. ok
+t/test_alien_synthetic.t ............................. ok
+
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+t/alien_build_plugin_build_cmake.t                 (Wstat: 512 (exited 2) Tests: 2 Failed: 2)
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Failed tests:  1-2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+  Non-zero exit status: 2
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Files=87, Tests=442, 29 wallclock secs ( 0.35 usr  0.13 sys + 22.48 cusr  5.03 csys = 27.99 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 1/87 test programs. 2/442 subtests failed.
+Failed 1/87 test programs. 2/442 subtests failed.
+Failed 1/87 test programs. 2/442 subtests failed.
+Failed 1/87 test programs. 2/442 subtests failed.
+Failed 1/87 test programs. 2/442 subtests failed.
+Failed 1/87 test programs. 2/442 subtests failed.
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: *** [Makefile:868: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-Build-2.84'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.61192 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+24.17user 5.80system 0:30.91elapsed 97%CPU (0avgtext+0avgdata 84192maxresident)k
+0inputs+0outputs (0major+1107243minor)pagefaults 0swaps
+0inputs+0outputs (0major+1107243minor)pagefaults 0swaps
+0inputs+0outputs (0major+1107243minor)pagefaults 0swaps
+0inputs+0outputs (0major+1107243minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Alien-Build-2.84-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Alien-Build-2.84-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Alien-Build-2.84-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+29.44user 3.64system 1:11.83elapsed 46%CPU (0avgtext+0avgdata 135544maxresident)k
+29.44user 3.64system 1:11.83elapsed 46%CPU (0avgtext+0avgdata 135544maxresident)k
+232inputs+0outputs (0major+252903minor)pagefaults 0swaps

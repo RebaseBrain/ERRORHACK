@@ -1,0 +1,977 @@
+<86>May 16 05:13:45 userdel[698939]: delete user 'rooter'
+<86>May 16 05:13:45 groupadd[698957]: group added to /etc/group: name=rooter, GID=1826
+<86>May 16 05:13:45 groupadd[698957]: group added to /etc/gshadow: name=rooter
+<86>May 16 05:13:45 groupadd[698957]: new group: name=rooter, GID=1826
+<86>May 16 05:13:45 useradd[698994]: new user: name=rooter, UID=1826, GID=1826, home=/root, shell=/bin/bash, from=none
+<86>May 16 05:13:45 userdel[699024]: delete user 'builder'
+<86>May 16 05:13:45 userdel[699024]: removed group 'builder' owned by 'builder'
+<86>May 16 05:13:45 userdel[699024]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 05:13:45 groupadd[699049]: group added to /etc/group: name=builder, GID=1827
+<86>May 16 05:13:45 groupadd[699049]: group added to /etc/gshadow: name=builder
+<86>May 16 05:13:45 groupadd[699049]: new group: name=builder, GID=1827
+<86>May 16 05:13:46 useradd[699080]: new user: name=builder, UID=1827, GID=1827, home=/usr/src, shell=/bin/bash, from=none
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+<13>May 16 05:13:55 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 05:13:55 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 05:13:55 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 05:13:55 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:55 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:13:55 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 05:13:55 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 05:13:55 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 05:13:55 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 05:13:55 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 05:13:55 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 05:13:55 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 05:13:55 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 05:13:55 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 05:13:55 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 05:13:55 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 05:13:55 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 05:13:56 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 05:13:56 rpmi: libICE-devel-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 05:13:56 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 05:13:56 rpmi: libturbojpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 05:13:56 rpmi: libjpeg-devel-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 05:13:56 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 05:13:56 groupadd[721255]: group added to /etc/group: name=messagebus, GID=999
+<86>May 16 05:13:56 groupadd[721255]: group added to /etc/gshadow: name=messagebus
+<86>May 16 05:13:56 groupadd[721255]: new group: name=messagebus, GID=999
+<86>May 16 05:13:56 useradd[721375]: new user: name=messagebus, UID=999, GID=999, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 05:13:56 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:13:56 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 05:13:56 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 05:13:56 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 05:13:56 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 05:13:56 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:13:56 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:13:56 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:13:56 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 05:13:56 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 05:13:56 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 05:13:57 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 05:13:57 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:13:57 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:13:57 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:13:57 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 05:13:57 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 05:13:57 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 05:13:57 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 05:13:57 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 05:13:57 rpmi: xsltproc-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 05:13:57 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 05:13:57 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 05:13:57 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 05:13:57 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 05:13:57 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 05:13:57 rpmi: libdbus-glib-1:0.110-alt1 sisyphus+278470.100.1.2 1626224690 installed
+<13>May 16 05:13:57 rpmi: libpolkit-126-alt2 sisyphus+383823.100.1.1 1746990253 installed
+<13>May 16 05:13:57 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 05:13:57 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 05:13:57 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:13:57 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 05:13:57 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:13:57 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:13:57 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 05:13:57 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 05:13:57 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:13:57 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 05:13:57 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:13:57 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 05:13:58 groupadd[725953]: group added to /etc/group: name=_keytab, GID=998
+<86>May 16 05:13:58 groupadd[725953]: group added to /etc/gshadow: name=_keytab
+<86>May 16 05:13:58 groupadd[725953]: new group: name=_keytab, GID=998
+<13>May 16 05:13:58 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<86>May 16 05:13:58 groupadd[726081]: group added to /etc/group: name=sasl, GID=997
+<86>May 16 05:13:58 groupadd[726081]: group added to /etc/gshadow: name=sasl
+<86>May 16 05:13:58 groupadd[726081]: new group: name=sasl, GID=997
+<13>May 16 05:13:58 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 05:13:58 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:13:58 rpmi: libGConf-3.2.6-alt4 sisyphus+361686.400.1.1 1730737823 installed
+<13>May 16 05:13:58 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 05:13:58 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:59 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:59 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 05:13:59 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:13:59 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 05:13:59 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 05:13:59 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:13:59 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 05:13:59 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 05:13:59 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 05:13:59 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 05:13:59 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 05:13:59 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 05:13:59 rpmi: libxsettings-client0-0.17-alt4 sisyphus+285746.100.1.1 1632385545 installed
+<13>May 16 05:14:01 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 05:14:01 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:14:01 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 05:14:01 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 05:14:01 rpmi: libXfixes-devel-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 05:14:01 rpmi: libxsettings-client-devel-0.17-alt4 sisyphus+285746.100.1.1 1632385545 installed
+<13>May 16 05:14:01 rpmi: libmatchbox-1.9-alt4.1 sisyphus+223370.100.1.1 1551505651 installed
+<13>May 16 05:14:01 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 05:14:01 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:14:01 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 05:14:01 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 05:14:01 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 05:14:01 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:14:01 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 05:14:01 rpmi: libpango-devel-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 05:14:01 rpmi: dbus-tools-gui-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:14:01 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 05:14:01 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 05:14:01 rpmi: libxcbutil-1:0.4.1-alt1 sisyphus+312057.100.1.1 1671526887 installed
+<13>May 16 05:14:01 rpmi: libstartup-notification-0.12-alt1.1 sisyphus+275185.100.2.1 1624562508 installed
+<13>May 16 05:14:01 rpmi: libstartup-notification-devel-0.12-alt1.1 sisyphus+275185.100.2.1 1624562508 installed
+<13>May 16 05:14:01 rpmi: libXdamage-devel-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 05:14:01 rpmi: libXcomposite-devel-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 05:14:02 rpmi: GConf-3.2.6-alt4 sisyphus+361686.400.1.1 1730737823 installed
+<13>May 16 05:14:02 rpmi: libmatchbox-devel-1.9-alt4.1 sisyphus+223370.100.1.1 1551505651 installed
+<13>May 16 05:14:02 rpmi: libXcursor-devel-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 05:14:02 rpmi: libGConf-devel-3.2.6-alt4 sisyphus+361686.400.1.1 1730737823 installed
+<13>May 16 05:14:02 rpmi: libSM-devel-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 05:14:02 rpmi: libexpat-devel-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/matchbox-window-manager-1.2-alt5.1.nosrc.rpm (w1.gzdio)
+Installing matchbox-window-manager-1.2-alt5.1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.603
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf matchbox-window-manager-1.2
++ echo 'Source #0 (matchbox-window-manager_1.2-osso21.orig.tar):'
+Source #0 (matchbox-window-manager_1.2-osso21.orig.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/matchbox-window-manager_1.2-osso21.orig.tar
++ cd matchbox-window-manager-1.2
++ echo 'Source #1 (matchbox-window-manager_1.2-osso21-1.debian.tar):'
+Source #1 (matchbox-window-manager_1.2-osso21-1.debian.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/matchbox-window-manager_1.2-osso21-1.debian.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
+++ cat debian/patches/series
++ for patch in `cat debian/patches/series`
++ patch -p1
+patching file matchbox-window-manager/src/Makefile.am
++ for patch in `cat debian/patches/series`
++ patch -p1
+patching file matchbox-window-manager/configure.ac
++ for patch in `cat debian/patches/series`
++ patch -p1
+patching file matchbox-window-manager/configure.ac
++ for patch in `cat debian/patches/series`
++ patch -p1
+patching file matchbox-window-manager/data/themes/Default/theme.xml
++ for patch in `cat debian/patches/series`
++ patch -p1
+patching file matchbox-window-manager/data/themes/Makefile.am
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.603
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd matchbox-window-manager-1.2
++ cp -a matchbox-window-manager matchbox-window-manager-embedded
++ pushd matchbox-window-manager
+~/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager ~/RPM/BUILD/matchbox-window-manager-1.2
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force 
+autoreconf-default: configure.ac: tracing
+autoreconf-default: configure.ac: not using Libtool
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:7: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:7: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:1102: AM_CONFIG_HEADER is expanded from...
+configure.ac:7: the top level
+configure.ac:399: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:399: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:30: AM_GCONF_SOURCE_2 is expanded from...
+configure.ac:399: the top level
+configure.ac:499: warning: AC_OUTPUT should be used without arguments.
+configure.ac:499: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:10: installing './compile'
+src/Makefile.am:17: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FCFLAGS
++ '[' -n '' ']'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ sort -u
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --enable-startup-notification --enable-session --enable-alt-input-wins --enable-keyboard --enable-expat --enable-pango
+configure: WARNING: unrecognized options: --without-included-gettext, --enable-pango
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for vfork.h... no
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for x86_64-alt-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libmb >= 1.5... yes
+checking for xfixes >= 4.0... yes
+checking for xcursor... yes
+checking for expat.h... yes
+checking for XML_ParserCreate... yes
+checking for libstartup-notification-1.0... yes
+Using config source xml:readwrite:/var/cache/gconf/gconf.xml.defaults for schema installation
+Using $(sysconfdir)/gconf/schemas as install directory for schema files
+checking for SmcSaveYourselfDone in -lSM... yes
+checking for X11/SM/SMlib.h... yes
+checking for libmb xsettings support... Package xdmcp was not found in the pkg-config search path.
+Perhaps you should add the directory containing `xdmcp.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'xdmcp', required by 'xcb', not found
+no
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for fork... yes
+checking for vfork... yes
+checking for vprintf... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strsep... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating data/Makefile
+config.status: creating data/themes/Makefile
+config.status: creating data/themes/blondie/Makefile
+config.status: creating data/themes/bluebox/Makefile
+config.status: creating data/themes/borillo/Makefile
+config.status: creating data/themes/Default/Makefile
+config.status: creating data/themes/MBOpus/Makefile
+config.status: creating data/schemas/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --without-included-gettext, --enable-pango
+
+                    Matchbox-wm 1.2
+                  ======================
+
+        prefix:                 /usr
+        source code location:   .
+        compiler:               x86_64-alt-linux-gcc 
+
+        Building with Debug:                no
+        Building with gcov:                 no
+        Building with gprof:                no
+
+        Building Standalone:                no
+        Building Standalone with Xft:       no
+
+        Building with Keyboard:             yes
+	Building with XRM support           yes
+        Building with wm ping protocol:     yes
+        Building with Alt input Windows:    yes
+        Building with Expat:                yes
+        Building with XSync:                no
+        Building with XSettings:            no
+        Building with Startup-Notification: yes
+        Building with GConf:                no
+        Building with Session support:      yes
+        Building with Composite manager:    no
+        Building with Frame animations:     no
+
+
+
+
++ make -j16
+make  all-recursive
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client.o toolbar_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o client_common.o client_common.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o base_client.o base_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o dockbar_client.o dockbar_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main_client.o main_client.c
+main_client.c: In function 'main_client_reparent':
+main_client.c:264:9: warning: variable 'frame_north_height' set but not used [-Wunused-but-set-variable]
+  264 |   int   frame_north_height;
+      |         ^~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o desktop_client.o desktop_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o ewmh.o ewmh.c
+ewmh.c: In function 'ewmh_update_lists':
+ewmh.c:359:22: warning: pointer targets in passing argument 1 of 'strcat' differ in signedness [-Wpointer-sign]
+  359 |               strcat(bin_map_str, str_tmp);
+      |                      ^~~~~~~~~~~
+      |                      |
+      |                      unsigned char *
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from structs.h:26,
+                 from ewmh.h:24,
+                 from ewmh.c:21:
+/usr/include/bits/string_fortified.h:136:16: note: expected 'char *' but argument is of type 'unsigned char *'
+  136 | __NTH (strcat (__fortify_clang_overload_arg (char *, __restrict, __dest),
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ewmh.c:371:64: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  371 |                           (unsigned char *)bin_map_str, strlen(bin_map_str)
+      |                                                                ^~~~~~~~~~~
+      |                                                                |
+      |                                                                unsigned char *
+In file included from structs.h:28:
+/usr/include/string.h:407:35: note: expected 'const char *' but argument is of type 'unsigned char *'
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+ewmh.c: In function 'ewmh_utf8_len':
+ewmh.c:1284:7: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+ 1284 |   int mask, len, result = 0;
+      |       ^~~~
+ewmh.c: In function 'ewmh_utf8_get_byte_cnt':
+ewmh.c:1300:7: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+ 1300 |   int mask, len, result = 0;
+      |       ^~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o matchbox-remote.o matchbox-remote.c
+matchbox-remote.c: In function 'mbcommand':
+matchbox-remote.c:150:16: warning: argument 2 null where non-null expected [-Wnonnull]
+  150 |                execvp ("mbdesktop", NULL);
+      |                ^~~~~~
+In file included from matchbox-remote.c:29:
+/usr/include/unistd.h:599:12: note: in a call to function 'execvp' declared 'nonnull'
+  599 | extern int execvp (const char *__file, char *const __argv[])
+      |            ^~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o list.o list.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main.o main.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client_alt.o toolbar_client_alt.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o xml.o xml.c
+xml.c: In function 'xml_parse_data_dom':
+xml.c:499:57: warning: format '%d' expects argument of type 'int', but argument 3 has type 'XML_Size' {aka 'long unsigned int'} [-Wformat=]
+  499 |     fprintf(stderr, "Matchbox: XML Parse error at line %d:\n%s\n",
+      |                                                        ~^
+      |                                                         |
+      |                                                         int
+      |                                                        %ld
+  500 |             XML_GetCurrentLineNumber(p),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~                  
+      |             |
+      |             XML_Size {aka long unsigned int}
+xml.c: At top level:
+xml.c:453:1: warning: 'catch_sigsegv' defined but not used [-Wunused-function]
+  453 | catch_sigsegv(int sig)
+      | ^~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o select_client.o select_client.c
+select_client.c: In function 'select_client_event_loop':
+select_client.c:182:11: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+  182 |           switch (key = XKeycodeToKeysym (c->wm->dpy, ev.xkey.keycode, 0))
+      |           ^~~~~~
+In file included from structs.h:35,
+                 from select_client.h:24,
+                 from select_client.c:25:
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o keys.o keys.c
+keys.c: In function 'keys_keysym_needs_shift':
+keys.c:37:5: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+   37 |     for (col = 0; (k = XKeycodeToKeysym (w->dpy, keycode, col))
+      |     ^~~
+In file included from structs.h:35,
+                 from keys.c:21:
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+keys.c: In function 'keys_keysym_get_shifted':
+keys.c:55:5: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+   55 |     if ((k = XKeycodeToKeysym (w->dpy, keycode, 0)) == keysym)
+      |     ^~
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+keys.c:56:7: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+   56 |       return XKeycodeToKeysym (w->dpy, keycode, 1);
+      |       ^~~~~~
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+keys.c: In function 'keys_get_modifiers':
+keys.c:440:13: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+  440 |             KeySym sym = (code ? XKeycodeToKeysym(w->dpy, code, col) : 0);
+      |             ^~~~~~
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o misc.o misc.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon   -o matchbox-remote matchbox-remote.o -lSM -lICE -lmb -ljpeg -lXsettings-client -lX11 -lXext -lpangoxft-1.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype -lXft -lpng16 -lX11 -lXext -lXsettings-client 
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o wm.o wm.c
+wm.c: In function 'wm_handle_keypress':
+wm.c:1107:8: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+ 1107 |        if (XKeycodeToKeysym(w->dpy, e->keycode, entry->index) == entry->key
+      |        ^~
+In file included from structs.h:35,
+                 from wm.h:24,
+                 from wm.c:21:
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+wm.c: In function 'wm_sn_monitor_event_func':
+wm.c:3432:45: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+ 3432 |               if (p->startup_id && !strcmp(p->startup_id, seq_id))
+      |                                            ~^~~~~~~~~~~~
+      |                                             |
+      |                                             unsigned char *
+In file included from structs.h:28:
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'unsigned char *'
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |                    ~~~~~~~~~~~~^~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o dialog_client.o dialog_client.c
+dialog_client.c: In function 'dialog_client_title_height':
+dialog_client.c:176:7: warning: unused variable 'w' [-Wunused-variable]
+  176 |   Wm *w = c->wm;
+      |       ^
+dialog_client.c: At top level:
+dialog_client.c:1039:1: warning: 'dialog_client_drag' defined but not used [-Wunused-function]
+ 1039 | dialog_client_drag(Client *c) /* drag box */
+      | ^~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o stack.o stack.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o session.o session.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o mbtheme.o mbtheme.c
+mbtheme.c: In function 'theme_frame_paint':
+mbtheme.c:602:21: warning: variable 'layer_list_item' set but not used [-Wunused-but-set-variable]
+  602 |   struct list_item *layer_list_item;
+      |                     ^~~~~~~~~~~~~~~
+mbtheme.c: In function 'theme_frame_menu_highlight_entry':
+mbtheme.c:981:18: warning: variable 'color' set but not used [-Wunused-but-set-variable]
+  981 |   MBColor       *color;
+      |                  ^~~~~
+mbtheme.c: In function 'parse_color_tag':
+mbtheme.c:1982:7: warning: variable 'alpha' set but not used [-Wunused-but-set-variable]
+ 1982 |   int alpha;
+      |       ^~~~~
+mbtheme.c: In function 'mbtheme_init':
+mbtheme.c:2508:7: warning: unused variable 'k' [-Wunused-variable]
+ 2508 |   int k;
+      |       ^
+mbtheme.c:2554:3: warning: ignoring return value of 'chdir' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2554 |   chdir(theme_path);
+      |   ^~~~~~~~~~~~~~~~~
+mbtheme.c:2727:4: warning: ignoring return value of 'chdir' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2727 |    chdir(orig_wd);
+      |    ^~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o composite-engine.o composite-engine.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon   -o matchbox-window-manager main.o wm.o base_client.o main_client.o toolbar_client.o toolbar_client_alt.o dockbar_client.o dialog_client.o select_client.o desktop_client.o ewmh.o misc.o client_common.o keys.o list.o stack.o composite-engine.o session.o mbtheme.o xml.o -lSM -lICE -lmb -ljpeg -lXsettings-client -lX11 -lXext -lpangoxft-1.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype -lXft -lpng16  -L/lib -lexpat -lstartup-notification-1  -lXfixes -lXcursor -lX11 -lXext -lXsettings-client 
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+Making all in data
+Making all in themes
+Making all in Default
+make[4]: Nothing to be done for 'all'.
+Making all in blondie
+make[4]: Nothing to be done for 'all'.
+Making all in bluebox
+make[4]: Nothing to be done for 'all'.
+Making all in borillo
+make[4]: Nothing to be done for 'all'.
+Making all in MBOpus
+make[4]: Nothing to be done for 'all'.
+make[4]: Nothing to be done for 'all-am'.
+make[3]: Nothing to be done for 'all-am'.
++ popd
+~/RPM/BUILD/matchbox-window-manager-1.2
++ pushd matchbox-window-manager-embedded
+~/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded ~/RPM/BUILD/matchbox-window-manager-1.2
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force 
+autoreconf-default: configure.ac: tracing
+autoreconf-default: configure.ac: not using Libtool
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:7: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:7: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:1102: AM_CONFIG_HEADER is expanded from...
+configure.ac:7: the top level
+configure.ac:399: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:399: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+aclocal.m4:30: AM_GCONF_SOURCE_2 is expanded from...
+configure.ac:399: the top level
+configure.ac:499: warning: AC_OUTPUT should be used without arguments.
+configure.ac:499: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:10: installing './compile'
+src/Makefile.am:17: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --disable-startup-notification --disable-expat --disable-keyboard --disable-xrm --disable-ping-protocol --enable-standalone
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for vfork.h... no
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+Disabling Keyboard Support.
+Disabling Ping Protocol Support.
+Disabling Xrm Support.
+checking for xfixes >= 4.0... yes
+checking for xcursor... yes
+Using config source xml:readwrite:/var/cache/gconf/gconf.xml.defaults for schema installation
+Using $(sysconfdir)/gconf/schemas as install directory for schema files
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for fork... yes
+checking for vfork... yes
+checking for vprintf... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strsep... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating data/Makefile
+config.status: creating data/themes/Makefile
+config.status: creating data/themes/blondie/Makefile
+config.status: creating data/themes/bluebox/Makefile
+config.status: creating data/themes/borillo/Makefile
+config.status: creating data/themes/Default/Makefile
+config.status: creating data/themes/MBOpus/Makefile
+config.status: creating data/schemas/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --without-included-gettext
+
+                    Matchbox-wm 1.2
+                  ======================
+
+        prefix:                 /usr
+        source code location:   .
+        compiler:               x86_64-alt-linux-gcc 
+
+        Building with Debug:                no
+        Building with gcov:                 no
+        Building with gprof:                no
+
+        Building Standalone:                yes
+        Building Standalone with Xft:       no
+
+        Building with Keyboard:             no
+	Building with XRM support           no
+        Building with wm ping protocol:     no
+        Building with Alt input Windows:    no
+        Building with Expat:                no
+        Building with XSync:                no
+        Building with XSettings:            
+        Building with Startup-Notification: no
+        Building with GConf:                no
+        Building with Session support:      no
+        Building with Composite manager:    no
+        Building with Frame animations:     no
+
+
+
+
++ make -j16
+make  all-recursive
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o dockbar_client.o dockbar_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o desktop_client.o desktop_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o keys.o keys.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o base_client.o base_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client.o toolbar_client.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o list.o list.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o select_client.o select_client.c
+select_client.c: In function 'select_client_event_loop':
+select_client.c:182:11: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+  182 |           switch (key = XKeycodeToKeysym (c->wm->dpy, ev.xkey.keycode, 0))
+      |           ^~~~~~
+In file included from structs.h:35,
+                 from select_client.h:24,
+                 from select_client.c:25:
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o misc.o misc.c
+misc.c: In function 'sig_handler':
+misc.c:74:11: error: implicit declaration of function 'wait' [-Wimplicit-function-declaration]
+   74 |           wait(NULL); break;
+      |           ^~~~
+make[2]: *** [Makefile:477: misc.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main.o main.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o stack.o stack.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client_alt.o toolbar_client_alt.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o dialog_client.o dialog_client.c
+dialog_client.c: In function 'dialog_client_title_height':
+dialog_client.c:176:7: warning: unused variable 'w' [-Wunused-variable]
+  176 |   Wm *w = c->wm;
+      |       ^
+dialog_client.c: At top level:
+dialog_client.c:1039:1: warning: 'dialog_client_drag' defined but not used [-Wunused-function]
+ 1039 | dialog_client_drag(Client *c) /* drag box */
+      | ^~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o ewmh.o ewmh.c
+ewmh.c: In function 'ewmh_utf8_len':
+ewmh.c:1284:7: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+ 1284 |   int mask, len, result = 0;
+      |       ^~~~
+ewmh.c: In function 'ewmh_utf8_get_byte_cnt':
+ewmh.c:1300:7: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+ 1300 |   int mask, len, result = 0;
+      |       ^~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o session.o session.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o composite-engine.o composite-engine.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o wm.o wm.c
+wm.c: In function 'wm_load_config':
+wm.c:418:34: warning: pointer targets in passing argument 4 of 'XParseGeometry' differ in signedness [-Wpointer-sign]
+  418 |                                  &w->toolbar_panel_w,
+      |                                  ^~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  int *
+In file included from structs.h:35,
+                 from wm.h:24,
+                 from wm.c:21:
+/usr/include/X11/Xlib.h:2871:5: note: expected 'unsigned int *' but argument is of type 'int *'
+ 2871 |     unsigned int*       /* width_return */,
+      |     ^~~~~~~~~~~~~
+wm.c:419:34: warning: pointer targets in passing argument 5 of 'XParseGeometry' differ in signedness [-Wpointer-sign]
+  419 |                                  &w->toolbar_panel_h) ;
+      |                                  ^~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  int *
+/usr/include/X11/Xlib.h:2872:5: note: expected 'unsigned int *' but argument is of type 'int *'
+ 2872 |     unsigned int*       /* height_return */
+      |     ^~~~~~~~~~~~~
+wm.c: In function 'wm_event_loop':
+wm.c:878:7: warning: unused variable 'hung_app_timer' [-Wunused-variable]
+  878 |   int hung_app_timer = 0;
+      |       ^~~~~~~~~~~~~~
+wm.c: In function 'wm_activate_client':
+wm.c:2640:12: warning: variable 'switching_from_to_fullscreen' set but not used [-Wunused-but-set-variable]
+ 2640 |       Bool switching_from_to_fullscreen = False;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o client_common.o client_common.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main_client.o main_client.c
+main_client.c: In function 'main_client_reparent':
+main_client.c:264:9: warning: variable 'frame_north_height' set but not used [-Wunused-but-set-variable]
+  264 |   int   frame_north_height;
+      |         ^~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o matchbox-remote.o matchbox-remote.c
+matchbox-remote.c: In function 'mbcommand':
+matchbox-remote.c:150:16: warning: argument 2 null where non-null expected [-Wnonnull]
+  150 |                execvp ("mbdesktop", NULL);
+      |                ^~~~~~
+In file included from matchbox-remote.c:29:
+/usr/include/unistd.h:599:12: note: in a call to function 'execvp' declared 'nonnull'
+  599 | extern int execvp (const char *__file, char *const __argv[])
+      |            ^~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o mbtheme-standalone.o mbtheme-standalone.c
+mbtheme-standalone.c: In function 'font_paint':
+mbtheme-standalone.c:127:47: warning: pointer targets in passing argument 6 of 'XDrawString' differ in signedness [-Wpointer-sign]
+  127 |       XDrawString(w->dpy, drawable, gc, x, y, text, text_len);
+      |                                               ^~~~
+      |                                               |
+      |                                               unsigned char *
+In file included from /usr/include/X11/Xlib.h:47,
+                 from structs.h:35,
+                 from mbtheme-standalone.h:24,
+                 from mbtheme-standalone.c:21:
+/usr/include/X11/Xlib.h:2420:5: note: expected 'const char *' but argument is of type 'unsigned char *'
+ 2420 |     _Xconst char*       /* string */,
+      |     ^
+mbtheme-standalone.c: In function 'font_get_str_width':
+mbtheme-standalone.c:158:28: warning: pointer targets in passing argument 2 of 'XTextWidth' differ in signedness [-Wpointer-sign]
+  158 |    return XTextWidth(font, text, text_len);
+      |                            ^~~~
+      |                            |
+      |                            unsigned char *
+/usr/include/X11/Xlib.h:3446:5: note: expected 'const char *' but argument is of type 'unsigned char *'
+ 3446 |     _Xconst char*       /* string */,
+      |     ^
+mbtheme-standalone.c: In function 'theme_frame_paint':
+mbtheme-standalone.c:558:26: warning: pointer targets in passing argument 1 of 'ewmh_utf8_len' differ in signedness [-Wpointer-sign]
+  558 |         ? ewmh_utf8_len(c->name) : strlen(c->name);
+      |                         ~^~~~~~
+      |                          |
+      |                          char *
+In file included from wm.h:34,
+                 from mbtheme-standalone.h:25:
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+   98 | ewmh_utf8_len(unsigned char *str);
+      |               ~~~~~~~~~~~~~~~^~~
+mbtheme-standalone.c:576:44: warning: pointer targets in passing argument 3 of 'font_get_str_width' differ in signedness [-Wpointer-sign]
+  576 |                                           c->name,
+      |                                           ~^~~~~~
+      |                                            |
+      |                                            char *
+mbtheme-standalone.c:143:43: note: expected 'unsigned char *' but argument is of type 'char *'
+  143 |                     unsigned char        *text,
+      |                     ~~~~~~~~~~~~~~~~~~~~~~^~~~
+mbtheme-standalone.c:608:20: warning: pointer targets in passing argument 6 of 'font_paint' differ in signedness [-Wpointer-sign]
+  608 |                   c->name,
+      |                   ~^~~~~~
+      |                    |
+      |                    char *
+mbtheme-standalone.c:102:35: note: expected 'unsigned char *' but argument is of type 'char *'
+  102 |             unsigned char        *text,
+      |             ~~~~~~~~~~~~~~~~~~~~~~^~~~
+mbtheme-standalone.c: In function '_theme_frame_menu_paint_text_entry':
+mbtheme-standalone.c:639:34: warning: pointer targets in passing argument 1 of 'ewmh_utf8_len' differ in signedness [-Wpointer-sign]
+  639 |     str_len = ewmh_utf8_len(entry->name);
+      |                             ~~~~~^~~~~~
+      |                                  |
+      |                                  char *
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+   98 | ewmh_utf8_len(unsigned char *str);
+      |               ~~~~~~~~~~~~~~~^~~
+mbtheme-standalone.c:645:35: warning: pointer targets in passing argument 3 of 'font_get_str_width' differ in signedness [-Wpointer-sign]
+  645 |                              entry->name,
+      |                              ~~~~~^~~~~~
+      |                                   |
+      |                                   char *
+mbtheme-standalone.c:143:43: note: expected 'unsigned char *' but argument is of type 'char *'
+  143 |                     unsigned char        *text,
+      |                     ~~~~~~~~~~~~~~~~~~~~~~^~~~
+mbtheme-standalone.c:667:24: warning: pointer targets in passing argument 6 of 'font_paint' differ in signedness [-Wpointer-sign]
+  667 |                   entry->name,
+      |                   ~~~~~^~~~~~
+      |                        |
+      |                        char *
+mbtheme-standalone.c:102:35: note: expected 'unsigned char *' but argument is of type 'char *'
+  102 |             unsigned char        *text,
+      |             ~~~~~~~~~~~~~~~~~~~~~~^~~~
+mbtheme-standalone.c: In function 'theme_frame_menu_get_dimentions':
+mbtheme-standalone.c:766:31: warning: pointer targets in initialization of 'unsigned char *' from 'char *' differ in signedness [-Wpointer-sign]
+  766 |         unsigned char *name = p->name;
+      |                               ^
+mbtheme-standalone.c:769:37: warning: pointer targets in passing argument 1 of 'ewmh_utf8_len' differ in signedness [-Wpointer-sign]
+  769 |            str_len = ewmh_utf8_len(p->name);
+      |                                    ~^~~~~~
+      |                                     |
+      |                                     char *
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+   98 | ewmh_utf8_len(unsigned char *str);
+      |               ~~~~~~~~~~~~~~~^~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[1]: *** [Makefile:382: all-recursive] Error 1
+make: *** [Makefile:323: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+Command exited with non-zero status 1
+16.77user 6.33system 0:28.18elapsed 81%CPU (0avgtext+0avgdata 63616maxresident)k
+0inputs+0outputs (0major+854916minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `matchbox-window-manager-1.2-alt5.1.src.rpm' failed.
+Command exited with non-zero status 1
+10.69user 5.62system 1:00.97elapsed 26%CPU (0avgtext+0avgdata 143372maxresident)k
+1760inputs+0outputs (0major+241847minor)pagefaults 0swaps

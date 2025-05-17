@@ -1,0 +1,56 @@
++ cd /usr/src/RPM/BUILD
++ cd awesome-4.3
++ echo -n v4.3
++ mkdir -p build
++ pushd build
+~/RPM/BUILD/awesome-4.3/build ~/RPM/BUILD/awesome-4.3
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ cmake -Wno-dev -DPREFIX=/usr -DAWESOME_DOC_PATH=/usr/share/doc/awesome-4.3 -DCMAKE_INSTALL_PREFIX=/usr -DSYSCONF_INSTALL_DIR=/etc -DSYSCONFDIR=/etc -DCOMPRESS_MANPAGES=OFF -DLIB_SUFFIX=64 ..
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92145 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92145 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92145 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92145 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.15user 0.12system 0:00.42elapsed 66%CPU (0avgtext+0avgdata 18804maxresident)k
+0.15user 0.12system 0:00.42elapsed 66%CPU (0avgtext+0avgdata 18804maxresident)k
+0inputs+0outputs (0major+15249minor)pagefaults 0swaps
+0inputs+0outputs (0major+15249minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `awesome-4.3-alt5.src.rpm' failed.
+hsh-rebuild: rebuild of `awesome-4.3-alt5.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.23user 4.59system 0:31.06elapsed 41%CPU (0avgtext+0avgdata 142844maxresident)k
+8.23user 4.59system 0:31.06elapsed 41%CPU (0avgtext+0avgdata 142844maxresident)k
+10112inputs+0outputs (0major+353604minor)pagefaults 0swaps

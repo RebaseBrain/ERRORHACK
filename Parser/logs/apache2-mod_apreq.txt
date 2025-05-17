@@ -1,0 +1,1225 @@
+<86>May 10 08:02:31 userdel[3446630]: delete user 'rooter'
+<86>May 10 08:02:31 userdel[3446630]: removed group 'rooter' owned by 'rooter'
+<86>May 10 08:02:31 userdel[3446630]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 08:02:31 groupadd[3446677]: group added to /etc/group: name=rooter, GID=1838
+<86>May 10 08:02:31 groupadd[3446677]: group added to /etc/gshadow: name=rooter
+<86>May 10 08:02:31 groupadd[3446677]: new group: name=rooter, GID=1838
+<86>May 10 08:02:31 useradd[3446718]: new user: name=rooter, UID=1838, GID=1838, home=/root, shell=/bin/bash, from=none
+<86>May 10 08:02:31 userdel[3446802]: delete user 'builder'
+<86>May 10 08:02:31 userdel[3446802]: removed group 'builder' owned by 'builder'
+<86>May 10 08:02:31 userdel[3446802]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 08:02:31 groupadd[3446863]: group added to /etc/group: name=builder, GID=1839
+<86>May 10 08:02:31 groupadd[3446863]: group added to /etc/gshadow: name=builder
+<86>May 10 08:02:31 groupadd[3446863]: new group: name=builder, GID=1839
+<86>May 10 08:02:31 useradd[3446912]: new user: name=builder, UID=1839, GID=1839, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/apache2-mod_apreq-2.16-alt1.src.rpm: license not found in '/usr/share/license' directory: 2.0
+<13>May 10 08:02:34 rpmi: libapr1-1.7.5-alt1 sisyphus+361190.100.1.1 1730305970 installed
+<13>May 10 08:02:34 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718975 installed
+<13>May 10 08:02:34 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078268 installed
+<13>May 10 08:02:34 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819639 installed
+<13>May 10 08:02:34 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 08:02:34 rpmi: libaprutil1-1.6.3-alt2 sisyphus+373342.100.1.1 1738822310 installed
+<13>May 10 08:02:34 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:02:34 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 08:02:34 rpmi: libexpat-devel-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 08:02:34 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078268 installed
+<13>May 10 08:02:34 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618521 installed
+<13>May 10 08:02:34 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743457 installed
+<13>May 10 08:02:34 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743457 installed
+<86>May 10 08:02:34 groupadd[3471860]: group added to /etc/group: name=crontab, GID=999
+<86>May 10 08:02:34 groupadd[3471860]: group added to /etc/gshadow: name=crontab
+<86>May 10 08:02:34 groupadd[3471860]: new group: name=crontab, GID=999
+<13>May 10 08:02:34 rpmi: crontab-control-1.1-alt1 sisyphus+276802.100.1.1 1625236144 installed
+<13>May 10 08:02:34 rpmi: shadow-groups-1:4.17.4-alt1 sisyphus+381076.100.1.1 1744220808 installed
+<13>May 10 08:02:35 rpmi: webserver-common-control-1.4-alt1 sisyphus+277015.100.1.2 1625347616 installed
+<86>May 10 08:02:35 groupadd[3472390]: group added to /etc/group: name=_webserver, GID=998
+<86>May 10 08:02:35 groupadd[3472390]: group added to /etc/gshadow: name=_webserver
+<86>May 10 08:02:35 groupadd[3472390]: new group: name=_webserver, GID=998
+<86>May 10 08:02:35 groupadd[3472448]: group added to /etc/group: name=webmaster, GID=997
+<86>May 10 08:02:35 groupadd[3472448]: group added to /etc/gshadow: name=webmaster
+<86>May 10 08:02:35 groupadd[3472448]: new group: name=webmaster, GID=997
+<13>May 10 08:02:35 rpmi: webserver-common-1.4-alt1 sisyphus+277015.100.1.2 1625347616 installed
+<13>May 10 08:02:35 rpmi: setproctitle-0.3.2-alt3 sisyphus+278100.6300.1.1 1626061075 installed
+<13>May 10 08:02:35 rpmi: vixie-cron-4.1.20060426-alt10.3 sisyphus+302849.200.2.1 1656579734 installed
+<13>May 10 08:02:35 rpmi: crontabs-1.8-alt1 sisyphus+276803.100.1.1 1625236331 installed
+<13>May 10 08:02:35 rpmi: logrotate-3.20.1-alt2 sisyphus+321776.100.2.1 1684960311 installed
+<13>May 10 08:02:35 rpmi: rpm-macros-webserver-common-1.4-alt1 sisyphus+277015.100.1.2 1625347616 installed
+<13>May 10 08:02:35 rpmi: rpm-macros-apache2-3.14-alt1 sisyphus+322310.100.1.1 1685636944 installed
+<13>May 10 08:02:35 rpmi: rpm-build-apache2-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:35 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543124 installed
+<13>May 10 08:02:35 rpmi: libpcre3-8.45-alt2 sisyphus+369650.4200.9.1 1736953804 installed
+<13>May 10 08:02:35 rpmi: libjansson4-2.14.1-alt1 sisyphus+379832.100.1.1 1743438035 installed
+<13>May 10 08:02:35 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 08:02:35 rpmi: libdb5.3-5.3.28-alt7 sisyphus+370699.300.4.1 1740047067 installed
+<13>May 10 08:02:35 rpmi: perl-DBM-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358153 installed
+<13>May 10 08:02:35 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 10 08:02:35 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684771 installed
+<13>May 10 08:02:35 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 10 08:02:35 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259318 installed
+<13>May 10 08:02:35 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501149 installed
+<13>May 10 08:02:35 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769693 installed
+<13>May 10 08:02:35 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:02:35 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 08:02:35 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 10 08:02:35 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684806164 installed
+<13>May 10 08:02:35 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 10 08:02:35 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729916 installed
+<13>May 10 08:02:35 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 08:02:35 rpmi: libuuid-devel-2.39.2-alt2 sisyphus+368471.140.2.1 1737124285 installed
+<13>May 10 08:02:35 rpmi: libapr1-devel-1.7.5-alt1 sisyphus+361190.100.1.1 1730305970 installed
+<13>May 10 08:02:35 rpmi: condstopstart-common-0.3-alt2.qa1 sisyphus.214740.100 1539558755 installed
+<13>May 10 08:02:35 rpmi: condstopstart-web-0.3-alt2.qa1 sisyphus.214741.100 1539559038 installed
+<13>May 10 08:02:35 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:02:35 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 08:02:35 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 08:02:35 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 08:02:35 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 08:02:35 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 08:02:35 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<86>May 10 08:02:35 groupadd[3476048]: group added to /etc/group: name=_keytab, GID=996
+<86>May 10 08:02:35 groupadd[3476048]: group added to /etc/gshadow: name=_keytab
+<86>May 10 08:02:35 groupadd[3476048]: new group: name=_keytab, GID=996
+<13>May 10 08:02:35 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735219 installed
+<86>May 10 08:02:35 groupadd[3476622]: group added to /etc/group: name=sasl, GID=995
+<86>May 10 08:02:35 groupadd[3476622]: group added to /etc/gshadow: name=sasl
+<86>May 10 08:02:35 groupadd[3476622]: new group: name=sasl, GID=995
+<13>May 10 08:02:35 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482553 installed
+<13>May 10 08:02:35 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841767 installed
+<13>May 10 08:02:35 rpmi: libldap-devel-2.6.9-alt2 sisyphus+367501.300.4.1 1735841767 installed
+<13>May 10 08:02:35 rpmi: libaprutil1-devel-1.6.3-alt2 sisyphus+373342.100.1.1 1738822310 installed
+<13>May 10 08:02:35 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905438 installed
+<13>May 10 08:02:35 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593140 installed
+<13>May 10 08:02:35 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595160 installed
+<86>May 10 08:02:35 groupadd[3477564]: group added to /etc/group: name=apache2, GID=994
+<86>May 10 08:02:35 groupadd[3477564]: group added to /etc/gshadow: name=apache2
+<86>May 10 08:02:35 groupadd[3477564]: new group: name=apache2, GID=994
+<86>May 10 08:02:35 useradd[3477630]: new user: name=apache2, UID=999, GID=994, home=/var/www, shell=/dev/null, from=none
+<86>May 10 08:02:35 useradd[3477630]: add 'apache2' to group '_webserver'
+<86>May 10 08:02:35 useradd[3477630]: add 'apache2' to shadow group '_webserver'
+<13>May 10 08:02:35 rpmi: apache2-base-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:35 rpmi: apache2-httpd-worker-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:35 rpmi: apache2-mods-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:35 rpmi: apache2-devel-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:35 rpmi: rpm-build-licenses-3.0.0-alt1 sisyphus+241804.100.1.1 1574868053 installed
+<13>May 10 08:02:38 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 10 08:02:38 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 10 08:02:38 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 10 08:02:38 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 10 08:02:38 rpmi: perl-Tie-IxHash-1.23-alt1 1374770680 installed
+<13>May 10 08:02:38 rpmi: apache2-datadirs-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: webserver-cgi-bin-control-0.4-alt2 sisyphus+299678.100.1.1 1651930047 installed
+<13>May 10 08:02:38 rpmi: apache2-cgi-bin-test-cgi-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: apache2-cgi-bin-printenv-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: apache2-cgi-bin-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 10 08:02:38 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 10 08:02:38 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 10 08:02:38 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 10 08:02:38 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901700 installed
+<13>May 10 08:02:38 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 10 08:02:38 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 10 08:02:38 rpmi: perl-Text-Balanced-2.06-alt1 sisyphus+301349.100.1.1 1654439692 installed
+<13>May 10 08:02:38 rpmi: perl-Parse-RecDescent-1.967015-alt1 1494357414 installed
+<13>May 10 08:02:38 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901530 installed
+<13>May 10 08:02:38 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875480 installed
+<13>May 10 08:02:38 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 10 08:02:38 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732881 installed
+<13>May 10 08:02:38 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 10 08:02:38 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 10 08:02:38 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 10 08:02:38 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 10 08:02:38 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 10 08:02:38 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 10 08:02:38 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 10 08:02:38 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 10 08:02:38 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 10 08:02:38 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 10 08:02:38 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 10 08:02:38 rpmi: perl-BSD-Resource-1.2911-alt1.2 sisyphus+335067.14000.2.2 1701154700 installed
+<13>May 10 08:02:38 rpmi: libgdbm-devel-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 08:02:38 rpmi: perl-devel-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358153 installed
+<13>May 10 08:02:38 rpmi: apache2-htcacheclean-control-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: apache2-httpd-prefork-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:38 rpmi: apache2-htcacheclean-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+auto
+daemon
+<13>May 10 08:02:38 rpmi: apache2-mod_cache_disk-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:38 rpmi: apache2-icons-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: apache2-html-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826173 installed
+<13>May 10 08:02:38 rpmi: apache2-htpasswd-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:38 rpmi: apache2-ab-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:38 rpmi: apache2-1:2.4.63-alt1 sisyphus+373342.300.2.1 1738826205 installed
+<13>May 10 08:02:38 rpmi: apache2-mod_perl-2.0.13-alt1 sisyphus+335067.16200.2.2 1701156160 installed
+<13>May 10 08:02:38 rpmi: apache2-mod_perl-devel-2.0.13-alt1 sisyphus+335067.16200.2.2 1701156160 installed
+<13>May 10 08:02:38 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 10 08:02:38 rpmi: perl-ExtUtils-XSBuilder-0.28-alt1.1 1290532694 installed
+<13>May 10 08:02:38 rpmi: chrpath-0.16-alt1 sisyphus+346101.200.3.1 1716459476 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/apache2-mod_apreq-2.16-alt1.nosrc.rpm (w1.gzdio)
+Installing apache2-mod_apreq-2.16-alt1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.88163
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf libapreq2-2.16
++ echo 'Source #0 (libapreq2-2.16.tar):'
+Source #0 (libapreq2-2.16.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/libapreq2-2.16.tar
++ cd libapreq2-2.16
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (libapreq2-2.07-rc3-ldflags.patch):'
+Patch #1 (libapreq2-2.07-rc3-ldflags.patch):
++ /usr/bin/patch -p0
+patching file apreq2-config.in
+Hunk #1 succeeded at 175 (offset 2 lines).
++ echo 'Patch #2 (libapreq2-2.09-pkgconfig.patch):'
+Patch #2 (libapreq2-2.09-pkgconfig.patch):
++ /usr/bin/patch -p0
+patching file configure.ac
++ echo 'Patch #3 (libapreq2-2.12-install.patch):'
+Patch #3 (libapreq2-2.12-install.patch):
++ /usr/bin/patch -p1
+patching file glue/Makefile.am
+patching file glue/perl/Makefile.PL
++ echo 'Patch #10 (libapreq2-2.10-alt-apreq2-config.patch):'
+Patch #10 (libapreq2-2.10-alt-apreq2-config.patch):
++ /usr/bin/patch -p0
+patching file ./apreq2-config.in
+Hunk #1 succeeded at 35 (offset 2 lines).
+Hunk #2 succeeded at 47 (offset 2 lines).
+Hunk #3 succeeded at 81 (offset 2 lines).
+Hunk #4 succeeded at 126 (offset 2 lines).
+Hunk #5 succeeded at 136 (offset 2 lines).
++ echo 'Patch #11 (libapreq2-2.13-alt-t-util-stack.patch):'
+Patch #11 (libapreq2-2.13-alt-t-util-stack.patch):
++ /usr/bin/patch -p2
+patching file library/t/util.c
+Hunk #1 succeeded at 152 with fuzz 1.
++ echo 'Patch #12 (libapreq-2.13-debian-04-pass-libdir-to-configure.patch):'
+Patch #12 (libapreq-2.13-debian-04-pass-libdir-to-configure.patch):
++ /usr/bin/patch -p1
+patching file Makefile.PL
++ sed -i -e 's,^libdir=.*,libdir="`pkg-config --variable=libdir libapreq2`",' -e 's,^LDFLAGS=.*,LDFLAGS="`pkg-config --libs libapreq2`",' -e 's,^LIBS=.*,LIBS="`pkg-config --libs libapreq2`",' -e 's,^INCLUDES=.*,INCLUDES="`pkg-config --cflags-only-I libapreq2`",' apreq2-config.in
++ cp -p /usr/src/RPM/SOURCES/libapreq2.pc.in .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.88163
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libapreq2-2.16
++ rm -f aclocal.m4
++ ./buildconf
+removing stale config files
+checking buildconf prereqs
+libtool: 2.4.7 ok
+autoconf: 2.71 ok
+automake: 1.16.5 ok
+ExtUtils::XSBuilder: 0.28 ok
+running libtoolize --automake --copy --force
+running aclocal
+running autoconf
+configure.ac:16: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:9521: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:16: the top level
+configure.ac:22: warning: The macro `AM_PROG_LIBTOOL' is obsolete.
+configure.ac:22: You should run autoupdate.
+aclocal.m4:123: AM_PROG_LIBTOOL is expanded from...
+configure.ac:22: the top level
+configure.ac:30: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:30: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:9873: AM_CONFIG_HEADER is expanded from...
+configure.ac:30: the top level
+configure.ac:34: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:34: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+acinclude.m4:1: AC_APREQ is expanded from...
+configure.ac:34: the top level
+running autoheader
+running automake -a -c
+configure.ac:16: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:16: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:21: installing './compile'
+configure.ac:16: installing './missing'
+library/Makefile.am: installing './depcomp'
+library/t/Makefile.am:14: warning: '%'-style pattern rules are a GNU make extension
+parallel-tests: installing './test-driver'
+running xsbuilder
+Initialize parser
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_version.h ...
+constant: APREQ_VERSION_H
+constant: APREQ_MAJOR_VERSION
+constant: APREQ_MINOR_VERSION
+constant: APREQ_PATCH_VERSION
+constant: APREQ_VERSION_STRING
+func:     apreq_version
+func:     apreq_version_string
+constant: APREQ_IS_DEV_STRING
+constant: APREQ_IS_DEV_STRING
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_util.h ...
+constant: APREQ_UTIL_H
+func:     apreq_join
+func:     apreq_index
+func:     apreq_quote
+func:     apreq_quote_once
+func:     apreq_encode
+func:     apreq_cp1252_to_utf8
+func:     apreq_charset_divine
+func:     apreq_decode
+func:     apreq_decodev
+func:     apreq_escape
+func:     apreq_unescape
+func:     apreq_atoi64f
+func:     apreq_atoi64t
+func:     apreq_brigade_fwrite
+func:     apreq_file_mktemp
+func:     apreq_brigade_setaside
+func:     apreq_brigade_copy
+func:     apreq_brigade_move
+func:     apreq_header_attribute
+func:     apreq_brigade_concat
+func:     apreq_brigade_spoolfile
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_parser.h ...
+constant: APREQ_PARSERS_H
+constant: APREQ_PARSER_ARGS
+constant: APREQ_HOOK_ARGS
+constant: APREQ_DECLARE_NONSTD
+constant: APREQ_DECLARE_NONSTD
+  valuefield: apreq_hook_function_t : hook
+  valuefield: apreq_hook_t * : next
+  valuefield: apr_pool_t * : pool
+  valuefield: void * : ctx
+struct:   struct apreq_hook_t (type=)
+
+  valuefield: apreq_parser_function_t : parser
+  valuefield: const char * : content_type
+  valuefield: apr_pool_t * : pool
+  valuefield: apr_bucket_alloc_t * : bucket_alloc
+  valuefield: apr_size_t : brigade_limit
+  valuefield: const char * : temp_dir
+  valuefield: apreq_hook_t * : hook
+  valuefield: void * : ctx
+struct:   struct apreq_parser_t (type=)
+
+func:     apreq_parser_run
+func:     apreq_hook_run
+func:     apreq_parser_make
+func:     apreq_hook_make
+func:     apreq_parser_add_hook
+func:     apreq_parser
+func:     apreq_register_parser
+  valuefield: const char * : name
+  valuefield: apreq_param_t * : param
+  valuefield: apreq_hook_t * : prev
+struct:   struct apreq_hook_find_param_ctx_t (type=apreq_hook_find_param_ctx_t)
+
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_param.h ...
+constant: APREQ_PARAM_H
+  valuefield: apr_table_t * : info
+  valuefield: apr_bucket_brigade * : upload
+  valuefield: unsigned : flags
+  valuefield: const apreq_value_t : v
+struct:   struct apreq_param_t (type=apreq_param_t)
+
+func:     apreq_param_is_tainted
+func:     apreq_param_tainted_on
+func:     apreq_param_tainted_off
+func:     apreq_param_charset_set
+func:     apreq_param_charset_get
+func:     apreq_value_to_param
+func:     apreq_param_make
+func:     apreq_param_decode
+func:     apreq_param_encode
+func:     apreq_parse_query_string
+func:     apreq_params_as_array
+func:     apreq_params_as_string
+func:     apreq_uploads
+func:     apreq_upload
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_module.h ...
+constant: APREQ_MODULE_H
+  valuefield: const struct apreq_module_t * : module
+  valuefield: apr_pool_t * : pool
+  valuefield: apr_bucket_alloc_t * : bucket_alloc
+struct:   struct apreq_handle_t (type=apreq_handle_t)
+
+  valuefield: const char * : name
+  valuefield: apr_uint32_t : magic_number
+
+func:     apreq_module_status_is_error
+func:     apreq_jar
+func:     apreq_args
+func:     apreq_body
+func:     apreq_jar_get
+func:     apreq_args_get
+func:     apreq_body_get
+func:     apreq_parser_get
+func:     apreq_parser_set
+func:     apreq_hook_add
+func:     apreq_brigade_limit_set
+func:     apreq_brigade_limit_get
+func:     apreq_read_limit_set
+func:     apreq_read_limit_get
+func:     apreq_temp_dir_set
+func:     apreq_temp_dir_get
+constant: APREQ_MODULE
+func:     apreq_handle_cgi
+func:     apreq_handle_custom
+func:     apreq_param
+constant: apreq_cookie
+func:     apreq_params
+func:     apreq_cookies
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_error.h ...
+constant: APREQ_ERROR_H
+func:     apreq_strerror
+constant: APR_EBADARG
+constant: APREQ_ERROR_GENERAL
+constant: APREQ_ERROR_TAINTED
+constant: APREQ_ERROR_INTERRUPT
+constant: APREQ_ERROR_BADDATA
+constant: APREQ_ERROR_BADCHAR
+constant: APREQ_ERROR_BADSEQ
+constant: APREQ_ERROR_BADATTR
+constant: APREQ_ERROR_BADHEADER
+constant: APREQ_ERROR_BADUTF8
+constant: APREQ_ERROR_NODATA
+constant: APREQ_ERROR_NOTOKEN
+constant: APREQ_ERROR_NOATTR
+constant: APREQ_ERROR_NOHEADER
+constant: APREQ_ERROR_NOPARSER
+constant: APREQ_ERROR_MISMATCH
+constant: APREQ_ERROR_OVERLIMIT
+constant: APREQ_ERROR_UNDERLIMIT
+constant: APREQ_ERROR_NOTEMPTY
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_cookie.h ...
+constant: APREQ_COOKIE_H
+constant: APREQ_COOKIE_MAX_LENGTH
+  valuefield: char * : path
+  valuefield: char * : domain
+  valuefield: char * : port
+  valuefield: char * : comment
+  valuefield: char * : commentURL
+  valuefield: apr_time_t : max_age
+  valuefield: unsigned : flags
+  valuefield: const apreq_value_t : v
+struct:   struct apreq_cookie_t (type=apreq_cookie_t)
+
+func:     apreq_value_to_cookie
+func:     apreq_cookie_version
+func:     apreq_cookie_version_set
+func:     apreq_cookie_is_secure
+func:     apreq_cookie_secure_on
+func:     apreq_cookie_secure_off
+func:     apreq_cookie_is_httponly
+func:     apreq_cookie_httponly_on
+func:     apreq_cookie_httponly_off
+func:     apreq_cookie_is_tainted
+func:     apreq_cookie_tainted_on
+func:     apreq_cookie_tainted_off
+func:     apreq_parse_cookie_header
+func:     apreq_cookie_make
+func:     apreq_cookie_as_string
+func:     apreq_cookie_serialize
+func:     apreq_cookie_expires
+scan /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq.h ...
+constant: APREQ_H
+constant: d
+constant: APREQ_DECLARE_NONSTD
+constant: APREQ_DECLARE_DATA
+constant: type
+constant: APREQ_DECLARE_NONSTD
+constant: APREQ_DECLARE_DATA
+constant: type
+constant: APREQ_DECLARE_NONSTD
+constant: APREQ_DECLARE_DATA
+constant: type
+constant: APREQ_DECLARE_NONSTD
+constant: APREQ_DECLARE_DATA
+constant: APREQ_DEFAULT_READ_BLOCK_SIZE
+constant: APREQ_DEFAULT_READ_LIMIT
+constant: APREQ_DEFAULT_BRIGADE_LIMIT
+constant: APREQ_DEFAULT_NELTS
+constant: APREQ_FLAGS_OFF
+constant: APREQ_FLAGS_ON
+constant: APREQ_FLAGS_GET
+constant: APREQ_FLAGS_SET
+constant: APREQ_CHARSET_BIT
+constant: APREQ_CHARSET_MASK
+constant: APREQ_TAINTED_BIT
+constant: APREQ_TAINTED_MASK
+constant: APREQ_COOKIE_VERSION_BIT
+constant: APREQ_COOKIE_VERSION_MASK
+constant: APREQ_COOKIE_SECURE_BIT
+constant: APREQ_COOKIE_SECURE_MASK
+constant: APREQ_COOKIE_HTTPONLY_BIT
+constant: APREQ_COOKIE_HTTPONLY_MASK
+  valuefield: char * : name
+  valuefield: apr_size_t : nlen
+  valuefield: apr_size_t : dlen
+  valuefield: char : data[1]
+struct:   struct apreq_value_t (type=apreq_value_t)
+
+func:     apreq_value_table_add
+constant: apreq_attr_to_type
+func:     apreq_initialize
+func:     apreq_pre_initialize
+func:     apreq_post_initialize
+scan /usr/src/RPM/BUILD/libapreq2-2.16/module/apache2/apreq_module_apache2.h ...
+constant: APREQ_APACHE2_H
+func:     apreq_handle_apache2
+constant: APREQ_FILTER_NAME
+constant: APREQ_APACHE2_MMN
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/ppport.h ...
+constant: _P_P_PORTABILITY_H_
+constant: DPPP_CAT2
+constant: DPPP_
+constant: PERL_BCDVERSION
+constant: eval_pv
+constant: Perl_eval_pv
+constant: newRV_noinc
+constant: Perl_newRV_noinc
+constant: newCONSTSUB
+constant: Perl_newCONSTSUB
+constant: START_MY_CXT
+constant: dMY_CXT_SV
+constant: dMY_CXT_SV
+constant: dMY_CXT
+constant: MY_CXT_INIT
+constant: MY_CXT
+constant: pMY_CXT
+constant: pMY_CXT_
+constant: _pMY_CXT
+constant: aMY_CXT
+constant: aMY_CXT_
+constant: _aMY_CXT
+constant: MY_CXT_CLONE
+constant: START_MY_CXT
+constant: dMY_CXT_SV
+constant: dMY_CXT
+constant: MY_CXT_INIT
+constant: MY_CXT
+constant: pMY_CXT
+constant: pMY_CXT_
+constant: aMY_CXT
+constant: _aMY_CXT
+constant: MY_CXT_CLONE
+constant: sv_2pv_nolen
+constant: Perl_sv_2pv_nolen
+constant: SvPV_nolen
+constant: sv_2pvbyte
+constant: Perl_sv_2pvbyte
+constant: SvPVbyte
+constant: vnewSVpvf
+constant: Perl_vnewSVpvf
+constant: Perl_sv_catpvf_mg
+constant: sv_catpvf_mg_nocontext
+constant: Perl_sv_catpvf_mg_nocontext
+constant: Perl_sv_setpvf_mg
+constant: sv_setpvf_mg_nocontext
+constant: Perl_sv_setpvf_mg_nocontext
+constant: grok_numeric_radix
+constant: Perl_grok_numeric_radix
+constant: grok_number
+constant: Perl_grok_number
+constant: grok_bin
+constant: Perl_grok_bin
+constant: grok_hex
+constant: Perl_grok_hex
+constant: grok_oct
+constant: Perl_grok_oct
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h ...
+constant: APREQ_XS_TABLES_H
+func:     apreq_xs_cookie_table_magic_copy
+func:     apreq_xs_cookie_table2sv
+func:     apreq_xs_cookie_table_keys
+func:     apreq_xs_cookie_table_values
+func:     apreq_xs_param_table_magic_copy
+func:     apreq_xs_param_table2sv
+func:     apreq_xs_param_table_keys
+func:     apreq_xs_param_table_values
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_preperl.h ...
+constant: APREQ_XS_PREPERL_H
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h ...
+constant: APREQ_XS_POSTPERL_H
+constant: APR__Request__Param__Table
+constant: APR__BucketAlloc
+constant: HANDLE_CLASS
+constant: COOKIE_CLASS
+constant: PARAM_CLASS
+constant: ERROR_CLASS
+constant: COOKIE_TABLE_CLASS
+constant: PARAM_TABLE_CLASS
+  valuefield: const char * : pkg
+
+func:     apreq_xs_find_obj
+func:     apreq_xs_object2sv
+func:     apreq_xs_handle2sv
+func:     apreq_xs_param2sv
+func:     apreq_xs_cookie2sv
+func:     apreq_xs_error2sv
+func:     apreq_xs_sv2object
+func:     SvRV
+func:     apreq_xs_sv2handle
+func:     INT2PTR
+func:     apreq_xs_sv2param
+func:     apreq_xs_sv2cookie
+func:     apreq_xs_croak
+func:     apreq_xs_helper_class
+func:     SvPV_nolen
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/APR__Request.h ...
+func:     apreq_xs_jar
+func:     apreq_xs_args
+func:     apreq_xs_body
+func:     apreq_xs_param
+func:     apreq_xs_parse
+  valuefield: SV * : hook
+  valuefield: SV * : bucket_data
+  valuefield: SV * : parent
+  valuefield: PerlInterpreter * : perl
+struct:   struct hook_ctx (type=)
+
+constant: DEREF
+func:     upload_hook_cleanup
+func:     eval_upload_hook
+func:     apreq_xs_upload_hook
+func:     apreq_xs_cookie_table_do_sub
+func:     apreq_xs_cookie_table_do
+func:     apreq_xs_cookie_table_FETCH
+func:     XSRETURN
+func:     apreq_xs_cookie_table_NEXTKEY
+func:     apreq_xs_param_table_do_sub
+func:     apreq_xs_param_table_do
+func:     apreq_xs_param_table_FETCH
+func:     apreq_xs_param_table_NEXTKEY
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Apache2/APR__Request__Apache2.h ...
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Cookie/APR__Request__Cookie.h ...
+func:     XS_APR__Request__Cookie_nil
+func:     apreq_xs_cookie_pool_copy
+func:     apr_pstrmemdup
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Error/APR__Request__Error.h ...
+func:     XS_APR__Request__Error_nil
+scan /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/Param/APR__Request__Param.h ...
+func:     XS_APR__Request__Param_nil
+func:     apreq_xs_find_bb_obj
+func:     apreq_xs_brigade_copy
+func:     apreq_xs_brigade_read
+func:     apreq_xs_brigade_readline
+running cpan prereq fixups
+saving arguments for reuse.
+buildconf successful.
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force 
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in '.'.
+libtoolize-default: linking file './config.guess'
+libtoolize-default: linking file './config.sub'
+libtoolize-default: linking file './install-sh'
+libtoolize-default: linking file './ltmain.sh'
+libtoolize-default: Consider adding 'AC_CONFIG_MACRO_DIRS([m4])' to configure.ac,
+libtoolize-default: and rerunning libtoolize-default and aclocal.
+libtoolize-default: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+libtoolize-default: 'AC_PROG_RANLIB' is rendered obsolete by 'LT_INIT'
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force 
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:16: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:9521: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:16: the top level
+configure.ac:22: warning: The macro `AM_PROG_LIBTOOL' is obsolete.
+configure.ac:22: You should run autoupdate.
+aclocal.m4:123: AM_PROG_LIBTOOL is expanded from...
+configure.ac:22: the top level
+configure.ac:30: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:30: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:9873: AM_CONFIG_HEADER is expanded from...
+configure.ac:30: the top level
+configure.ac:34: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:34: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+acinclude.m4:1: AC_APREQ is expanded from...
+configure.ac:34: the top level
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:16: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:16: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:21: installing './compile'
+configure.ac:16: installing './missing'
+library/Makefile.am: installing './depcomp'
+library/t/Makefile.am:14: warning: '%'-style pattern rules are a GNU make extension
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=' -march=i586 -mtune=generic'
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=i586-alt-linux --host=i586-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --disable-dependency-tracking --disable-static --with-apache2-apxs=/usr/bin/apxs2 --with-apr-config=/usr/bin/apr-1-config --with-apu-config=/usr/bin/apu-1-config --enable-perl-glue --with-mm-opts=INSTALLDIRS=vendor
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for i586-alt-linux-gcc... i586-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether i586-alt-linux-gcc accepts -g... yes
+checking for i586-alt-linux-gcc option to enable C11 features... none needed
+checking whether i586-alt-linux-gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of i586-alt-linux-gcc... none
+checking build system type... i586-alt-linux-gnu
+checking host system type... i586-alt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by i586-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert i586-alt-linux-gnu file names to i586-alt-linux-gnu format... func_convert_file_noop
+checking how to convert i586-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for i586-alt-linux-file... no
+checking for file... file
+checking for i586-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for i586-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for i586-alt-linux-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for i586-alt-linux-strip... no
+checking for strip... strip
+checking for i586-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from i586-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for i586-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if i586-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for i586-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if i586-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if i586-alt-linux-gcc static flag -static works... no
+checking if i586-alt-linux-gcc supports -c -o file.o... yes
+checking if i586-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the i586-alt-linux-gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for i586-alt-linux-ranlib... ranlib
+checking whether ln -s works... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for /usr/bin/apr-1-config... yes
+checking for /usr/bin/apu-1-config... yes
+checking for perl... perl
+checking for ExtUtils::XSBuilder... yes
+checking for mod_perl2... yes
+checking for Apache::Test... yes
+checking for ExtUtils::MakeMaker... yes
+  setting APR_INCLUDES to " -I/usr/include/apr-1 "
+  adding "-I/usr/include/apu-1" to APR_INCLUDES
+  setting APR_LTFLAGS to " -L/usr/lib -R/usr/lib -lapr-1"
+  adding "-laprutil-1" to APR_LTFLAGS
+  setting APR_LIBS to " -luuid -lcrypt -lpthread"
+  adding "-lexpat" to APR_LIBS
+  setting APR_LDFLAGS to " -L/usr/lib -laprutil-1 "
+  adding "-lapr-1" to APR_LDFLAGS
+  setting CPPFLAGS to " -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE"
+libapreq2 Version: 2.8.1
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating library/Makefile
+config.status: creating library/t/Makefile
+config.status: creating module/Makefile
+config.status: creating module/apache2/Makefile
+config.status: creating glue/Makefile
+config.status: creating build/doxygen.conf
+config.status: creating include/groups.dox
+config.status: creating apreq2-config
+config.status: creating libapreq2.pc
+config.status: creating include/apreq_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext
++ make -j16
+Making all in .
+make[1]: Nothing to be done for 'all-am'.
+Making all in include
+make  all-am
+Making all in library
+make  all-am
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o version.lo version.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c version.c  -fPIC -DPIC -o .libs/version.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o error.lo error.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c error.c  -fPIC -DPIC -o .libs/error.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o param.lo param.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c param.c  -fPIC -DPIC -o .libs/param.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o parser_urlencoded.lo parser_urlencoded.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c parser_urlencoded.c  -fPIC -DPIC -o .libs/parser_urlencoded.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o module.lo module.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c module.c  -fPIC -DPIC -o .libs/module.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o module_custom.lo module_custom.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c module_custom.c  -fPIC -DPIC -o .libs/module_custom.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o parser.lo parser.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c parser.c  -fPIC -DPIC -o .libs/parser.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o cookie.lo cookie.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c cookie.c  -fPIC -DPIC -o .libs/cookie.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o parser_header.lo parser_header.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c parser_header.c  -fPIC -DPIC -o .libs/parser_header.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o parser_multipart.lo parser_multipart.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c parser_multipart.c  -fPIC -DPIC -o .libs/parser_multipart.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o module_cgi.lo module_cgi.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c module_cgi.c  -fPIC -DPIC -o .libs/module_cgi.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o util.lo util.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c util.c  -fPIC -DPIC -o .libs/util.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -version-info 11:1:8  -L/usr/lib -R/usr/lib -lapr-1 -laprutil-1  -luuid -lcrypt  -lpthread -lexpat  -o libapreq2.la -rpath /usr/lib util.lo version.lo cookie.lo param.lo parser.lo parser_urlencoded.lo parser_header.lo parser_multipart.lo module.lo module_custom.lo module_cgi.lo error.lo  
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/util.o .libs/version.o .libs/cookie.o .libs/param.o .libs/parser.o .libs/parser_urlencoded.o .libs/parser_header.o .libs/parser_multipart.o .libs/module.o .libs/module_custom.o .libs/module_cgi.o .libs/error.o   -L/usr/lib -lapr-1 -laprutil-1 -luuid -lcrypt -lpthread -lexpat  -g -O2 -flto=auto -march=i586 -mtune=generic   -Wl,-soname -Wl,libapreq2.so.3 -o .libs/libapreq2.so.3.8.1
+libtool: link: (cd ".libs" && rm -f "libapreq2.so.3" && ln -s "libapreq2.so.3.8.1" "libapreq2.so.3")
+libtool: link: (cd ".libs" && rm -f "libapreq2.so" && ln -s "libapreq2.so.3.8.1" "libapreq2.so")
+libtool: link: ( cd ".libs" && rm -f "libapreq2.la" && ln -s "../libapreq2.la" "libapreq2.la" )
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/library'
+Making all in module
+Making all in apache2
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../include  -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o handle.lo handle.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../include -I/usr/include/apache2 -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c handle.c  -fPIC -DPIC -o .libs/handle.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../include  -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o filter.lo filter.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../include -I/usr/include/apache2 -I/usr/include/apr-1 -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c filter.c  -fPIC -DPIC -o .libs/filter.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+/bin/sh ../../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -export-dynamic -module -avoid-version `/usr/src/RPM/BUILD/libapreq2-2.16/apreq2-config --link-libtool --libs`  -L/usr/lib -R/usr/lib -lapr-1 -laprutil-1  -o mod_apreq2.la -rpath `/usr/bin/apxs2 -q LIBEXECDIR` handle.lo filter.lo  
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+libtool: link: i586-alt-linux-gcc -shared  -fPIC -DPIC  .libs/handle.o .libs/filter.o   -Wl,-rpath -Wl,/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs /usr/src/RPM/BUILD/libapreq2-2.16/library/.libs/libapreq2.so -L/usr/lib -lapr-1 -laprutil-1  -g -O2 -flto=auto -march=i586 -mtune=generic   -Wl,-soname -Wl,mod_apreq2.so -o .libs/mod_apreq2.so
+libtool: link: ( cd ".libs" && rm -f "mod_apreq2.la" && ln -s "../mod_apreq2.la" "mod_apreq2.la" )
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/module/apache2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/module'
+i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I/usr/include/apr-1  -I/usr/include/apu-1 -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o test_cgi.o test_cgi.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/module'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/module'
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic `/usr/src/RPM/BUILD/libapreq2-2.16/apreq2-config --link-libtool`  -L/usr/lib -laprutil-1  -lapr-1  -o test_cgi test_cgi.o  
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -o .libs/test_cgi test_cgi.o  /usr/src/RPM/BUILD/libapreq2-2.16/library/.libs/libapreq2.so -L/usr/lib -laprutil-1 -lapr-1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/module'
+Making all in glue
+make[1]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue'
+cd perl; perl  Makefile.PL -apxs /usr/bin/apxs2 INSTALLDIRS=vendor
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Package libapreq2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libapreq2.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libapreq2' found
+Parse xsbuilder/maps/apreq_types.map...
+mkdir xs
+writing...xs//typemap
+WARNING no convert code for HASH(0x582dfffc) -> {typemapid}
+WARNING no convert code for HASH(0x582dfffc) -> {typemapid}
+WARNING no convert code for HASH(0x5818c8d0) -> {typemapid}
+WARNING no convert code for HASH(0x5818c8d0) -> {typemapid}
+WARNING no convert code for HASH(0x5818c9ac) -> {typemapid}
+WARNING no convert code for HASH(0x5818c9ac) -> {typemapid}
+WARNING no convert code for HASH(0x582dfea8) -> {typemapid}
+WARNING no convert code for HASH(0x582dfea8) -> {typemapid}
+WARNING no convert code for HASH(0x581a452c) -> {typemapid}
+WARNING no convert code for HASH(0x581a452c) -> {typemapid}
+Parse xsbuilder/maps/apreq_functions.map...
+DEFINE DEFINE_apreq_xs_APR__Request__Apache2_handle arg=const char *:class, request_rec *:r
+DEFINE DEFINE_apreq_xs_APR__Request__CGI_handle arg=const char *:class, apr_pool_t *:p
+DEFINE DEFINE_apreq_xs_APR__Request__Cookie__Table_get arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Cookie__Table_FETCH arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Cookie__Table_NEXTKEY arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Cookie__Table_FIRSTKEY arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Cookie__Table_do arg=
+DEFINE DEFINE_apreq_xs_APR__Request_parse arg=
+DEFINE DEFINE_apreq_xs_APR__Request_jar arg=
+DEFINE DEFINE_apreq_xs_APR__Request_args arg=
+DEFINE DEFINE_apreq_xs_APR__Request_body arg=
+DEFINE DEFINE_apreq_xs_APR__Request_param arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Param__Table_get arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Param__Table_FETCH arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Param__Table_NEXTKEY arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Param__Table_FIRSTKEY arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Param__Table_do arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade_new arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade_TIEHANDLE arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade_READ arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade_READLINE arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade__IO_read arg=
+DEFINE DEFINE_apreq_xs_APR__Request__Brigade__IO_readline arg=
+struct apreq_cookie_t...
+Parse xsbuilder/maps/apreq_structures.map...
+WARNING: apreq_cookie_t for path not in mapfile
+WARNING: apreq_cookie_t for domain not in mapfile
+WARNING: apreq_cookie_t for port not in mapfile
+WARNING: apreq_cookie_t for comment not in mapfile
+WARNING: apreq_cookie_t for commentURL not in mapfile
+WARNING: apreq_cookie_t for max_age not in mapfile
+WARNING: apreq_cookie_t for flags not in mapfile
+WARNING: apreq_cookie_t for v not in mapfile
+struct apreq_handle_t...
+WARNING: apreq_handle_t for module not in mapfile
+WARNING: pool not in mapfile
+WARNING: bucket_alloc not in mapfile
+struct apreq_hook_find_param_ctx_t...
+WARNING: Type 'apreq_hook_find_param_ctx_t' not in mapfile
+WARNING: Struture 'apreq_hook_find_param_ctx_t' not found in map file
+struct apreq_hook_t...
+WARNING: apreq_hook_t for hook not in mapfile
+WARNING: apreq_hook_t for next not in mapfile
+WARNING: pool not in mapfile
+WARNING: apreq_hook_t for ctx not in mapfile
+struct apreq_param_t...
+WARNING: flags not in mapfile
+WARNING: apreq_param_t for v not in mapfile
+     info...
+     upload...
+struct apreq_parser_t...
+WARNING: apreq_parser_t for parser not in mapfile
+WARNING: apreq_parser_t for content_type not in mapfile
+WARNING: pool not in mapfile
+WARNING: bucket_alloc not in mapfile
+WARNING: brigade_limit not in mapfile
+WARNING: temp_dir not in mapfile
+WARNING: apreq_parser_t for hook not in mapfile
+WARNING: apreq_parser_t for ctx not in mapfile
+struct apreq_value_t...
+WARNING: Type 'apreq_value_t' not in mapfile
+WARNING: Struture 'apreq_value_t' not found in map file
+struct struct hook_ctx...
+WARNING: Type 'struct hook_ctx' not in mapfile
+WARNING: Struture 'struct hook_ctx' not found in map file
+mod APR::Request::Apache2
+mkdir xs/APR
+mkdir xs/APR/Request
+mkdir xs/APR/Request/Apache2
+writing...xs/APR/Request/Apache2/Makefile.PL
+writing...xs/APR/Request/Apache2/Apache2.xs
+writing...xs/APR/Request/Apache2/Apache2.pm
+mod_pod xsbuilder/APR/Request/Apache2/Apache2.pod xsbuilder/APR/Request/Apache2/Apache2.pod 1
+writing...xs/APR/Request/Apache2/Apache2.pod
+mod APR::Request::Param
+mkdir xs/APR/Request/Param
+writing...xs/APR/Request/Param/Makefile.PL
+writing...xs/APR/Request/Param/Param.xs
+writing...xs/APR/Request/Param/Param.pm
+mod_pod xsbuilder/APR/Request/Param/Param.pod xsbuilder/APR/Request/Param/Param.pod 1
+writing...xs/APR/Request/Param/Param.pod
+mod APR::Request::Error
+mkdir xs/APR/Request/Error
+writing...xs/APR/Request/Error/Makefile.PL
+writing...xs/APR/Request/Error/Error.xs
+writing...xs/APR/Request/Error/Error.pm
+mod_pod xsbuilder/APR/Request/Error/Error.pod xsbuilder/APR/Request/Error/Error.pod 1
+writing...xs/APR/Request/Error/Error.pod
+mod APR::Request::Hook
+mkdir xs/APR/Request/Hook
+writing...xs/APR/Request/Hook/Makefile.PL
+writing...xs/APR/Request/Hook/Hook.xs
+writing...xs/APR/Request/Hook/Hook.pm
+mod_pod xsbuilder/APR/Request/Hook/Hook.pod xsbuilder/APR/Request/Hook/Hook.pod 1
+writing...xs/APR/Request/Hook/Hook.pod
+mod APR::Request
+writing...xs/APR/Request/Makefile.PL
+writing...xs/APR/Request/Request.xs
+writing...xs/APR/Request/Request.pm
+mod_pod xsbuilder/APR/Request/Request.pod xsbuilder/APR/Request/Request.pod 1
+writing...xs/APR/Request/Request.pod
+mod APR::Request::CGI
+mkdir xs/APR/Request/CGI
+writing...xs/APR/Request/CGI/Makefile.PL
+writing...xs/APR/Request/CGI/CGI.xs
+writing...xs/APR/Request/CGI/CGI.pm
+mod_pod xsbuilder/APR/Request/CGI/CGI.pod xsbuilder/APR/Request/CGI/CGI.pod 1
+writing...xs/APR/Request/CGI/CGI.pod
+mod APR::Request::Parser
+mkdir xs/APR/Request/Parser
+writing...xs/APR/Request/Parser/Makefile.PL
+writing...xs/APR/Request/Parser/Parser.xs
+writing...xs/APR/Request/Parser/Parser.pm
+mod_pod xsbuilder/APR/Request/Parser/Parser.pod xsbuilder/APR/Request/Parser/Parser.pod 1
+writing...xs/APR/Request/Parser/Parser.pod
+mod APR::Request::Cookie
+mkdir xs/APR/Request/Cookie
+writing...xs/APR/Request/Cookie/Makefile.PL
+writing...xs/APR/Request/Cookie/Cookie.xs
+writing...xs/APR/Request/Cookie/Cookie.pm
+mod_pod xsbuilder/APR/Request/Cookie/Cookie.pod xsbuilder/APR/Request/Cookie/Cookie.pod 1
+writing...xs/APR/Request/Cookie/Cookie.pod
+writing...xs//Makefile.PL
+writing...xs/APR/Makefile.PL
+[   info] generating script t/TEST
+Generating a Unix-style Makefile
+Writing Makefile for libapreq2
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue'
+cd perl; make
+make[2]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl'
+cp lib/APR/Request/Magic.pm blib/lib/APR/Request/Magic.pm
+cp lib/Apache2/Cookie.pm blib/lib/Apache2/Cookie.pm
+cp lib/Apache2/Request.pm blib/lib/Apache2/Request.pm
+cp lib/Apache2/Upload.pm blib/lib/Apache2/Upload.pm
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl'
+make[5]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+Running Mkbootstrap for Request ()
+chmod 644 "Request.bs"
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[5]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Request.bs ../../../blib/arch/auto/APR/Request/Request.bs 644
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+Running Mkbootstrap for Apache2 ()
+chmod 644 "Apache2.bs"
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[5]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+cp Request.pm ../../../blib/lib/APR/Request.pm
+cp Request.pod ../../../blib/lib/APR/Request.pod
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Apache2.bs ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.bs 644
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+cp Apache2.pod ../../../../blib/lib/APR/Request/Apache2.pod
+cp Apache2.pm ../../../../blib/lib/APR/Request/Apache2.pm
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[5]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+"/usr/bin/perl" "/usr/share/perl5/ExtUtils/xsubpp"  -typemap '/usr/share/perl5/ExtUtils/typemap' -typemap '/usr/lib/perl5/auto/Apache2/typemap' -typemap '/usr/lib/perl5/auto/Apache2/typemap' -typemap '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/../../typemap'  Request.xs > Request.xsc
+mv Request.xsc Request.c
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+"/usr/bin/perl" "/usr/share/perl5/ExtUtils/xsubpp"  -typemap '/usr/share/perl5/ExtUtils/typemap' -typemap '/usr/lib/perl5/auto/Apache2/typemap' -typemap '/usr/lib/perl5/auto/Apache2/typemap' -typemap '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2/../../../typemap'  Apache2.xs > Apache2.xsc
+mv Apache2.xsc Apache2.c
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[5]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+gcc -c -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/include/apache2  -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"2.16\" -DXS_VERSION=\"2.16\" -fPIC "-I/usr/lib/perl5/CORE"   Request.c
+In file included from Request.xs:39:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h: In function 'apreq_xs_find_obj':
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h:97:30: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   97 |             Perl_croak(aTHX_ "attribute hash has no '%s' key!", key);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                                                                 |
+      |                                                                 int
+In file included from /usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/APR/Request/APR__Request.h:1,
+                 from Request.xs:45:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h: At top level:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+   70 |                                 apreq_xs_cookie_table_magic_copy};
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:70:33: note: (near initialization for 'apreq_xs_cookie_table_magic.svt_copy')
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+  179 |                                  apreq_xs_param_table_magic_copy};
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_tables.h:179:34: note: (near initialization for 'apreq_xs_param_table_magic.svt_copy')
+Request.xs: In function 'XS_APR__Request_upload_hook':
+Request.xs:282:5: warning: argument 4 null where non-null expected [-Wnonnull]
+  282 |     apr_pool_cleanup_register(req->pool, ctx, upload_hook_cleanup, NULL);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/apr-1/apr_file_io.h:26,
+                 from /usr/src/RPM/BUILD/libapreq2-2.16/include/apreq_util.h:21,
+                 from Request.xs:13:
+/usr/include/apr-1/apr_pools.h:628:19: note: in a call to function 'apr_pool_cleanup_register' declared 'nonnull'
+  628 | APR_DECLARE(void) apr_pool_cleanup_register(
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+Request.c: In function 'XS_APR__Request__Param__Table_uploads':
+Request.c:660:37: warning: format '%c' expects argument of type 'int', but argument 3 has type 'MAGIC *' {aka 'struct magic *'} [-Wformat=]
+  660 |                     Perl_warn(aTHX_ "Not a tied hash: (magic=%c)", mg);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~
+      |                                                                    |
+      |                                                                    MAGIC * {aka struct magic *}
+Request.c: In function 'XS_APR__Request__Param__Table_param_class':
+Request.c:731:37: warning: format '%c' expects argument of type 'int', but argument 3 has type 'MAGIC *' {aka 'struct magic *'} [-Wformat=]
+  731 |                     Perl_warn(aTHX_ "Not a tied hash: (magic=%c)", mg);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~
+      |                                                                    |
+      |                                                                    MAGIC * {aka struct magic *}
+Request.c:712:41: warning: variable 't' set but not used [-Wunused-but-set-variable]
+  712 |         APR__Request__Param__Table      t;
+      |                                         ^
+Request.c: In function 'XS_APR__Request__Cookie__Table_cookie_class':
+Request.c:817:37: warning: format '%c' expects argument of type 'int', but argument 3 has type 'MAGIC *' {aka 'struct magic *'} [-Wformat=]
+  817 |                     Perl_warn(aTHX_ "Not a tied hash: (magic=%c)", mg);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~
+      |                                                                    |
+      |                                                                    MAGIC * {aka struct magic *}
+Request.c:798:41: warning: variable 't' set but not used [-Wunused-but-set-variable]
+  798 |         APR__Request__Cookie__Table     t;
+      |                                         ^
+make[5]: *** [Makefile:329: Request.o] Error 1
+make[5]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request'
+make[5]: *** Waiting for unfinished jobs....
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+gcc -c -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -I/usr/include/apache2  -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs -I/usr/src/RPM/BUILD/libapreq2-2.16/include -I/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder -I/usr/include/apache2  -I/usr/include/apr-1  -I/usr/include/apu-1 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"2.16\" -DXS_VERSION=\"2.16\" -fPIC "-I/usr/lib/perl5/CORE"   Apache2.c
+In file included from Apache2.xs:39:
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h: In function 'apreq_xs_find_obj':
+/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xsbuilder/apreq_xs_postperl.h:97:30: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   97 |             Perl_croak(aTHX_ "attribute hash has no '%s' key!", key);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~
+      |                                                                 |
+      |                                                                 int
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[6]: Entering directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+rm -f ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+LD_RUN_PATH="/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs" gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Apache2.o -fstack-protector-strong -L/usr/local/lib -o ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so  \
+   -L/usr/src/RPM/BUILD/libapreq2-2.16/library/.libs -lapreq2   \
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+chmod 755 ../../../../blib/arch/auto/APR/Request/Apache2/Apache2.so
+make[6]: Leaving directory '/usr/src/RPM/BUILD/libapreq2-2.16/glue/perl/xs/APR/Request/Apache2'
+make[4]: *** [Makefile:483: subdirs] Error 2
+make[3]: *** [Makefile:482: subdirs] Error 2
+make[2]: *** [Makefile:499: subdirs] Error 2
+make[1]: *** [Makefile:475: perl_glue] Error 2
+make: *** [Makefile:503: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.88163 (%build)
+Command exited with non-zero status 1
+11.68user 4.46system 0:13.96elapsed 115%CPU (0avgtext+0avgdata 63812maxresident)k
+0inputs+0outputs (0major+924218minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `apache2-mod_apreq-2.16-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.20user 3.41system 0:27.14elapsed 28%CPU (0avgtext+0avgdata 133632maxresident)k
+488inputs+0outputs (0major+332966minor)pagefaults 0swaps

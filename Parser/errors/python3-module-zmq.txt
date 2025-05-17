@@ -1,0 +1,98 @@
+1.25s call     tests/test_poll.py::TestPoll::test_reqrep
+1.21s call     tests/test_monqueue.py::TestMonitoredQueue::test_router_router
+1.21s call     tests/test_monqueue.py::TestMonitoredQueue::test_router_router
+1.02s call     tests/test_asyncio.py::test_process_teardown
+1.02s call     tests/test_asyncio.py::test_process_teardown
+1.01s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor
+1.01s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor
+1.01s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor
+1.00s call     tests/test_monqueue.py::TestMonitoredQueue::test_prefix
+1.00s call     tests/test_monqueue.py::TestMonitoredQueue::test_prefix
+1.00s call     tests/test_monqueue.py::TestMonitoredQueue::test_prefix
+1.00s call     tests/test_monqueue.py::TestMonitoredQueue::test_prefix
+1.00s call     tests/test_context.py::TestContext::test_instance_threadsafe
+1.00s call     tests/test_context.py::TestContext::test_instance_threadsafe
+1.00s call     tests/test_context.py::TestContext::test_instance_threadsafe
+1.00s call     tests/test_context.py::TestContext::test_instance_threadsafe
+0.71s call     tests/test_security.py::TestSecurity::test_curve
+0.71s call     tests/test_security.py::TestSecurity::test_curve
+0.71s call     tests/test_security.py::TestSecurity::test_curve
+0.71s call     tests/test_security.py::TestSecurity::test_curve
+0.71s call     tests/test_device.py::TestDevice::test_single_socket_forwarder_bind
+0.71s call     tests/test_device.py::TestDevice::test_single_socket_forwarder_bind
+0.71s call     tests/test_device.py::TestDevice::test_single_socket_forwarder_bind
+0.71s call     tests/test_device.py::TestDevice::test_single_socket_forwarder_bind
+0.70s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor_subscribe
+0.70s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor_subscribe
+0.70s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor_subscribe
+0.70s call     tests/test_monqueue.py::TestMonitoredQueue::test_monitor_subscribe
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_retry_eintr.py::TestEINTRSysCall::test_retry_poll - assert ...
+FAILED tests/test_retry_eintr.py::TestEINTRSysCall::test_retry_poll - assert ...
+FAILED tests/test_retry_eintr.py::TestEINTRSysCall::test_retry_poll - assert ...
+FAILED tests/test_retry_eintr.py::TestEINTRSysCall::test_retry_poll - assert ...
+==== 1 failed, 333 passed, 33 skipped, 2 deselected, 78 warnings in 35.52s =====
+==== 1 failed, 333 passed, 33 skipped, 2 deselected, 78 warnings in 35.52s =====
+==== 1 failed, 333 passed, 33 skipped, 2 deselected, 78 warnings in 35.52s =====
+==== 1 failed, 333 passed, 33 skipped, 2 deselected, 78 warnings in 35.52s =====
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_cython']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_cython']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_cython']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_cython']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_cython']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60731 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+22.09user 3.45system 0:55.06elapsed 46%CPU (0avgtext+0avgdata 86252maxresident)k
+22.09user 3.45system 0:55.06elapsed 46%CPU (0avgtext+0avgdata 86252maxresident)k
+22.09user 3.45system 0:55.06elapsed 46%CPU (0avgtext+0avgdata 86252maxresident)k
+22.09user 3.45system 0:55.06elapsed 46%CPU (0avgtext+0avgdata 86252maxresident)k
+22.09user 3.45system 0:55.06elapsed 46%CPU (0avgtext+0avgdata 86252maxresident)k
+0inputs+0outputs (0major+369857minor)pagefaults 0swaps
+0inputs+0outputs (0major+369857minor)pagefaults 0swaps
+0inputs+0outputs (0major+369857minor)pagefaults 0swaps
+0inputs+0outputs (0major+369857minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-zmq-26.4.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-zmq-26.4.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-zmq-26.4.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.09user 5.85system 1:23.06elapsed 15%CPU (0avgtext+0avgdata 133404maxresident)k
+7.09user 5.85system 1:23.06elapsed 15%CPU (0avgtext+0avgdata 133404maxresident)k
+2120inputs+0outputs (0major+367103minor)pagefaults 0swaps

@@ -1,0 +1,136 @@
+<86>May 16 01:46:17 userdel[1672506]: delete user 'rooter'
+<86>May 16 01:46:17 userdel[1672506]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:46:17 userdel[1672506]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:46:17 groupadd[1672620]: group added to /etc/group: name=rooter, GID=1841
+<86>May 16 01:46:17 groupadd[1672620]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:46:17 groupadd[1672620]: new group: name=rooter, GID=1841
+<86>May 16 01:46:17 useradd[1672698]: new user: name=rooter, UID=1841, GID=1841, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:46:17 userdel[1672831]: delete user 'builder'
+<86>May 16 01:46:17 userdel[1672831]: removed group 'builder' owned by 'builder'
+<86>May 16 01:46:17 userdel[1672831]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:46:17 groupadd[1672927]: group added to /etc/group: name=builder, GID=1842
+<86>May 16 01:46:17 groupadd[1672927]: group added to /etc/gshadow: name=builder
+<86>May 16 01:46:17 groupadd[1672927]: new group: name=builder, GID=1842
+<86>May 16 01:46:17 useradd[1673006]: new user: name=builder, UID=1842, GID=1842, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/perl-YAML-PP-Ref-0.02-alt1.src.rpm: license not found in '/usr/share/license' directory: perl
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+warning: user igor does not exist - using root
+warning: group igor does not exist - using root
+<13>May 16 01:46:22 rpmi: perl-boolean-0.46-alt1 1469475440 installed
+<13>May 16 01:46:22 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 01:46:22 rpmi: perl-YAML-1.31-alt1 sisyphus+337639.100.1.1 1704231191 installed
+<13>May 16 01:46:22 rpmi: perl-XXX-0.38-alt2 sisyphus+333145.100.1.1 1698677688 installed
+<13>May 16 01:46:22 rpmi: perl-Term-Cap-1.18-alt1 sisyphus+315126.100.1.1 1676227129 installed
+<13>May 16 01:46:22 rpmi: perl-Pod-Escapes-1.07-alt1 1418767892 installed
+<13>May 16 01:46:22 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 01:46:22 rpmi: perl-Math-Complex-1.59-alt1 1334229876 installed
+<13>May 16 01:46:22 rpmi: perl-Math-BigInt-2.005003-alt1 sisyphus+381904.100.1.1 1744908928 installed
+<13>May 16 01:46:22 rpmi: perl-Math-BigInt-FastCalc-0.5020-alt1 sisyphus+380407.100.1.2 1743778372 installed
+<13>May 16 01:46:22 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 01:46:22 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 01:46:22 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 01:46:22 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 01:46:22 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 01:46:22 rpmi: perl-JSON-PP-1:4.16-alt1 sisyphus+313250.100.1.1 1673493761 installed
+<13>May 16 01:46:22 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 01:46:22 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 01:46:22 rpmi: perl-Pod-Simple-3.45-alt1 sisyphus+321554.100.1.1 1684663135 installed
+<13>May 16 01:46:22 rpmi: perl-Pod-Usage-2.05-alt1 sisyphus+380280.100.1.2 1743749666 installed
+<13>May 16 01:46:22 rpmi: perl-podlators-6.0.2-alt1 sisyphus+380278.100.1.2 1743747710 installed
+<13>May 16 01:46:22 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:46:22 rpmi: libgdbm-devel-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:46:22 rpmi: perl-devel-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 01:46:22 rpmi: perl-YAML-PP-0.39.0-alt1 sisyphus+380346.100.1.2 1743768857 installed
+<13>May 16 01:46:22 rpmi: perl-YAML-Parser-0.0.5-alt1 sisyphus+297899.100.1.1 1649157686 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/perl-YAML-PP-Ref-0.02-alt1.nosrc.rpm (w1.gzdio)
+Installing perl-YAML-PP-Ref-0.02-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.93283
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf YAML-PP-Ref-0.02
++ echo 'Source #0 (YAML-PP-Ref-0.02.tar.gz):'
+Source #0 (YAML-PP-Ref-0.02.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/YAML-PP-Ref-0.02.tar.gz
++ /bin/tar -xf -
++ cd YAML-PP-Ref-0.02
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.93283
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd YAML-PP-Ref-0.02
++ perl_vendor_build
++ export PERL_EXTUTILS_AUTOINSTALL=--skip
++ PERL_EXTUTILS_AUTOINSTALL=--skip
++ export XSUBPP_STATIC_XS=1
++ XSUBPP_STATIC_XS=1
++ _perl_vendor_fixin
++ find . -type f -print0
++ xargs -r0 /usr/bin/subst -p '1s,^#![[:space:]]*\([^[:space:]]*/\)\?perl\([^/[:alpha:][:space:]][^/[:space:]]*\)\?\([[:space:]]\|$\),#!/usr/bin/perl\3,'
++ /usr/bin/grep -qs -Ew '((dist|module)_name|Build_PL|Module::Build)' Build.PL
++ _perl_vendor_MM_build
++ : looking for PREREQ dependencies
++ /usr/bin/perl Makefile.PL PRINT_PREREQ=1
++ tee .perl.req
+perl(Scalar::Util)>=1.07  perl(YAML::PP)>=0.027  perl(YAML::PP::Common)>=0  perl(YAML::PP::Parser)>=0  perl(YAML::Parser)>=0  perl(base)>=0  perl(perl)>=5.014000  perl(strict)>=0  perl(warnings)>=0 
++ : writing Makefile
++ /usr/bin/perl Makefile.PL PREFIX=/usr INSTALLDIRS=vendor
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for YAML::PP::Ref
++ : running make
++ make -j16 'OPTIMIZE=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' 'CP=/bin/cp -p'
+make: Entering directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+cp lib/YAML/PP/Ref.pm blib/lib/YAML/PP/Ref.pm
+cp lib/YAML/PP/Ref/Parser.pm blib/lib/YAML/PP/Ref/Parser.pm
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
++ : running tests
++ LD_BIND_NOW=1
++ PERL_DL_NONLAZY=1
++ /usr/bin/make test 'CP=/bin/cp -p'
+make: Entering directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00.compile.t .. ok
+    # No tests run!
+
+#   Failed test 'No tests run for subtest "preserve"'
+#   at t/10.load.t line 49.
+Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+# Tests were run but no plan was declared and done_testing() was not seen.
+# Looks like your test exited with 255 just after 2.
+t/10.load.t ..... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 1/2 subtests 
+
+Test Summary Report
+-------------------
+t/10.load.t   (Wstat: 65280 (exited 255) Tests: 2 Failed: 1)
+  Failed test:  2
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+Files=2, Tests=4,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.40 cusr  0.06 csys =  0.49 CPU)
+Result: FAIL
+Failed 1/2 test programs. 1/4 subtests failed.
+make: *** [Makefile:778: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/YAML-PP-Ref-0.02'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.93283 (%build)
+Command exited with non-zero status 1
+0.73user 0.23system 0:00.81elapsed 118%CPU (0avgtext+0avgdata 24772maxresident)k
+0inputs+0outputs (0major+48796minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-YAML-PP-Ref-0.02-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+6.60user 2.76system 0:12.64elapsed 74%CPU (0avgtext+0avgdata 140360maxresident)k
+48inputs+0outputs (0major+210127minor)pagefaults 0swaps

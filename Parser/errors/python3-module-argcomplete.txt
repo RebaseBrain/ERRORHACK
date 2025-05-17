@@ -1,0 +1,203 @@
+test_positional_remainder (__main__.TestArgcomplete.test_positional_remainder) ... ok
+test_readline_entry_point (__main__.TestArgcomplete.test_readline_entry_point) ... ok
+test_shellcode_utility (__main__.TestArgcomplete.test_shellcode_utility) ... ok
+test_shellcode_utility (__main__.TestArgcomplete.test_shellcode_utility) ... ok
+test_skipped_completer (__main__.TestArgcomplete.test_skipped_completer) ... ok
+test_skipped_completer (__main__.TestArgcomplete.test_skipped_completer) ... ok
+test_subparser_completers (__main__.TestArgcomplete.test_subparser_completers) ... ok
+test_subparser_completers (__main__.TestArgcomplete.test_subparser_completers) ... ok
+test_subparsers (__main__.TestArgcomplete.test_subparsers) ... ok
+test_subparsers (__main__.TestArgcomplete.test_subparsers) ... ok
+test_suppress_args (__main__.TestArgcomplete.test_suppress_args) ... ok
+test_suppress_args (__main__.TestArgcomplete.test_suppress_args) ... ok
+test_suppress_completer (__main__.TestArgcomplete.test_suppress_completer) ... ok
+test_suppress_completer (__main__.TestArgcomplete.test_suppress_completer) ... ok
+test_suppress_completer (__main__.TestArgcomplete.test_suppress_completer) ... ok
+test_repl_multiple_complete (__main__.TestArgcompleteREPL.test_repl_multiple_complete) ... ok
+test_repl_multiple_complete (__main__.TestArgcompleteREPL.test_repl_multiple_complete) ... ok
+test_repl_multiple_complete (__main__.TestArgcompleteREPL.test_repl_multiple_complete) ... ok
+test_repl_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_parse_after_complete) ... usage: test.py [-h] --foo FOO {bar}
+test_repl_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_parse_after_complete) ... usage: test.py [-h] --foo FOO {bar}
+test_repl_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_parse_after_complete) ... usage: test.py [-h] --foo FOO {bar}
+test.py: error: too few arguments
+test.py: error: too few arguments
+test.py: error: too few arguments
+usage: test.py [-h] --foo FOO {bar}
+usage: test.py [-h] --foo FOO {bar}
+usage: test.py [-h] --foo FOO {bar}
+test.py: error: argument --foo is required
+test.py: error: argument --foo is required
+test.py: error: argument --foo is required
+ok
+ok
+ok
+test_repl_reuse_parser_with_positional (__main__.TestArgcompleteREPL.test_repl_reuse_parser_with_positional) ... ok
+test_repl_reuse_parser_with_positional (__main__.TestArgcompleteREPL.test_repl_reuse_parser_with_positional) ... ok
+test_repl_reuse_parser_with_positional (__main__.TestArgcompleteREPL.test_repl_reuse_parser_with_positional) ... ok
+test_repl_subcommand (__main__.TestArgcompleteREPL.test_repl_subcommand) ... ok
+test_repl_subcommand (__main__.TestArgcompleteREPL.test_repl_subcommand) ... ok
+test_repl_subcommand (__main__.TestArgcompleteREPL.test_repl_subcommand) ... ok
+test_repl_subparser_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_subparser_parse_after_complete) ... usage: test.py foo [-h] {bar}
+test_repl_subparser_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_subparser_parse_after_complete) ... usage: test.py foo [-h] {bar}
+test_repl_subparser_parse_after_complete (__main__.TestArgcompleteREPL.test_repl_subparser_parse_after_complete) ... usage: test.py foo [-h] {bar}
+test.py foo: error: too few arguments
+test.py foo: error: too few arguments
+test.py foo: error: too few arguments
+ok
+ok
+ok
+test_comp_point (__main__.TestBash.test_comp_point) ... ok
+test_comp_point (__main__.TestBash.test_comp_point) ... ok
+test_comp_point (__main__.TestBash.test_comp_point) ... ok
+test_completion_environment (__main__.TestBash.test_completion_environment) ... ok
+test_completion_environment (__main__.TestBash.test_completion_environment) ... ok
+test_completion_environment (__main__.TestBash.test_completion_environment) ... ok
+test_continuation (__main__.TestBash.test_continuation) ... ok
+test_continuation (__main__.TestBash.test_continuation) ... ok
+test_debug_output (__main__.TestBash.test_debug_output) ... ok
+test_debug_output (__main__.TestBash.test_debug_output) ... ok
+test_double_quoted_completion (__main__.TestBash.test_double_quoted_completion) ... ok
+test_exclamation_in_double_quotes (__main__.TestBash.test_exclamation_in_double_quotes) ... expected failure
+test_nounset (__main__.TestBash.test_nounset) ... ok
+test_one_space_after_exact (__main__.TestBash.test_one_space_after_exact)
+Test exactly one space is appended after an exact match. ... ok
+test_console_script_package_wheel (__main__.TestBashGlobal.test_console_script_package_wheel)
+Test completing a console_script for a package from a wheel. ... ok
+test_continuation (__main__.TestBashGlobal.test_continuation) ... ok
+test_debug_output (__main__.TestBashGlobal.test_debug_output) ... ok
+test_double_quoted_completion (__main__.TestBashGlobal.test_double_quoted_completion) ... ok
+test_exclamation_in_double_quotes (__main__.TestBashGlobal.test_exclamation_in_double_quotes) ... expected failure
+test_nounset (__main__.TestBashGlobal.test_nounset) ... ok
+test_one_space_after_exact (__main__.TestBashGlobal.test_one_space_after_exact)
+Test exactly one space is appended after an exact match. ... ok
+test_parse_special_characters (__main__.TestBashGlobal.test_parse_special_characters) ... ok
+test_parse_special_characters_dollar (__main__.TestBashGlobal.test_parse_special_characters_dollar) ... FAIL
+test_partial_completion (__main__.TestBashGlobal.test_partial_completion) ... ok
+test_python_completion (__main__.TestBashGlobal.test_python_completion) ... ok
+test_python_filename_completion (__main__.TestBashGlobal.test_python_filename_completion) ... ok
+test_python_module (__main__.TestBashGlobal.test_python_module)
+Test completing a module run with python3 -m. ... ok
+test_python_not_executable (__main__.TestBashGlobal.test_python_not_executable)
+Test completing a script that cannot be run directly. ... ok
+test_python_stuck (__main__.TestBashGlobal.test_python_stuck) ... ok
+test_quoted_exact (__main__.TestBashGlobal.test_quoted_exact) ... ok
+test_quoted_space (__main__.TestBashGlobal.test_quoted_space) ... ok
+test_single_quotes_in_double_quotes (__main__.TestZshGlobalImplicit.test_single_quotes_in_double_quotes) ... ok
+test_single_quotes_in_single_quotes (__main__.TestZshGlobalImplicit.test_single_quotes_in_single_quotes) ... ok
+test_special_characters (__main__.TestZshGlobalImplicit.test_special_characters) ... ok
+test_special_characters (__main__.TestZshGlobalImplicit.test_special_characters) ... ok
+test_special_characters_double_quoted (__main__.TestZshGlobalImplicit.test_special_characters_double_quoted) ... ok
+test_special_characters_double_quoted (__main__.TestZshGlobalImplicit.test_special_characters_double_quoted) ... ok
+test_special_characters_single_quoted (__main__.TestZshGlobalImplicit.test_special_characters_single_quoted) ... ok
+test_special_characters_single_quoted (__main__.TestZshGlobalImplicit.test_special_characters_single_quoted) ... ok
+test_unquoted_space (__main__.TestZshGlobalImplicit.test_unquoted_space) ... ok
+test_unquoted_space (__main__.TestZshGlobalImplicit.test_unquoted_space) ... ok
+test_wordbreak_chars (__main__.TestZshGlobalImplicit.test_wordbreak_chars) ... ok
+test_wordbreak_chars (__main__.TestZshGlobalImplicit.test_wordbreak_chars) ... ok
+test_warn (__main__.Warn.test_warn) ... ok
+test_warn (__main__.Warn.test_warn) ... ok
+
+
+======================================================================
+======================================================================
+FAIL: test_parse_special_characters_dollar (__main__.TestBashGlobal.test_parse_special_characters_dollar)
+FAIL: test_parse_special_characters_dollar (__main__.TestBashGlobal.test_parse_special_characters_dollar)
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/src/RPM/BUILD/python3-module-argcomplete-3.6.2/./test/test.py", line 1163, in tearDown
+  File "/usr/src/RPM/BUILD/python3-module-argcomplete-3.6.2/./test/test.py", line 1163, in tearDown
+  File "/usr/src/RPM/BUILD/python3-module-argcomplete-3.6.2/./test/test.py", line 1163, in tearDown
+  File "/usr/src/RPM/BUILD/python3-module-argcomplete-3.6.2/./test/test.py", line 1163, in tearDown
+    with self.assertRaises((pexpect.EOF, OSError)):
+    with self.assertRaises((pexpect.EOF, OSError)):
+    with self.assertRaises((pexpect.EOF, OSError)):
+    with self.assertRaises((pexpect.EOF, OSError)):
+    with self.assertRaises((pexpect.EOF, OSError)):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (<class 'pexpect.exceptions.EOF'>, <class 'OSError'>) not raised
+AssertionError: (<class 'pexpect.exceptions.EOF'>, <class 'OSError'>) not raised
+AssertionError: (<class 'pexpect.exceptions.EOF'>, <class 'OSError'>) not raised
+AssertionError: (<class 'pexpect.exceptions.EOF'>, <class 'OSError'>) not raised
+AssertionError: (<class 'pexpect.exceptions.EOF'>, <class 'OSError'>) not raised
+
+
+
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Ran 189 tests in 130.278s
+Ran 189 tests in 130.278s
+Ran 189 tests in 130.278s
+Ran 189 tests in 130.278s
+Ran 189 tests in 130.278s
+
+
+
+
+
+FAILED (failures=1, skipped=14, expected failures=4)
+FAILED (failures=1, skipped=14, expected failures=4)
+FAILED (failures=1, skipped=14, expected failures=4)
+FAILED (failures=1, skipped=14, expected failures=4)
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', './test/test.py', '-v']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', './test/test.py', '-v']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', './test/test.py', '-v']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', './test/test.py', '-v']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5146 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+33.19user 11.20system 2:12.20elapsed 33%CPU (0avgtext+0avgdata 43332maxresident)k
+33.19user 11.20system 2:12.20elapsed 33%CPU (0avgtext+0avgdata 43332maxresident)k
+33.19user 11.20system 2:12.20elapsed 33%CPU (0avgtext+0avgdata 43332maxresident)k
+33.19user 11.20system 2:12.20elapsed 33%CPU (0avgtext+0avgdata 43332maxresident)k
+0inputs+0outputs (0major+1974237minor)pagefaults 0swaps
+0inputs+0outputs (0major+1974237minor)pagefaults 0swaps
+0inputs+0outputs (0major+1974237minor)pagefaults 0swaps
+0inputs+0outputs (0major+1974237minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-argcomplete-3.6.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-argcomplete-3.6.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-argcomplete-3.6.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.88user 3.49system 2:27.15elapsed 5%CPU (0avgtext+0avgdata 141980maxresident)k
+4.88user 3.49system 2:27.15elapsed 5%CPU (0avgtext+0avgdata 141980maxresident)k
+5792inputs+0outputs (0major+365594minor)pagefaults 0swaps

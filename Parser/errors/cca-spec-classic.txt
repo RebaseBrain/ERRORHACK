@@ -1,0 +1,539 @@
+checking whether make sets $(MAKE)... yes
+checking for x86_64-alt-linux-ranlib... no
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking babel-libtool... /usr/bin/babel-libtool
+checking babel-libtool... /usr/bin/babel-libtool
+checking if the C++ compiler does virtual stdarg... no
+checking if the C++ compiler does virtual stdarg... no
+looks like there might be a JAVA_HOME in /usr
+looks like there might be a JAVA_HOME in /usr
+checking for javac... /usr/lib/jvm/java/bin/javac
+checking for javac... /usr/lib/jvm/java/bin/javac
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for egrep... /usr/bin/grep -E
+checking C++ for namespaces... ./configure: line 7112: /usr/bin/g++-13: No such file or directory
+checking C++ for namespaces... ./configure: line 7112: /usr/bin/g++-13: No such file or directory
+./configure: line 7113: /usr/bin/g++-13: No such file or directory
+./configure: line 7113: /usr/bin/g++-13: No such file or directory
+checking for dot... yes
+checking for dot... yes
+checking for sin... ./configure: line 1895: test: =: unary operator expected
+checking for sin... ./configure: line 1895: test: =: unary operator expected
+no
+no
+checking for main in -lieee... no
+checking for main in -lieee... no
+checking for main in -ldl... yes
+checking for main in -ldl... yes
+checking for stdio.h... no
+checking for stdio.h... no
+checking for stdlib.h... no
+checking for stdlib.h... no
+checking for string.h... no
+checking for string.h... no
+checking for inttypes.h... no
+checking for inttypes.h... no
+checking for stdint.h... no
+rm -f *.o *.a *.so
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+make: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+#======================================
+Done with our best shot at everything.
+Done with our best shot at everything.
+#======================================
+#======================================
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+/usr/bin/babel-libtool --mode=compile  --tag=CXX \
+/usr/bin/babel-libtool --mode=compile  --tag=CXX \
+	g++ -c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -std=c++14 -Wno-error=int-conversion -Wno-deprecated -fallow-argument-mismatch -fno-strict-aliasing -Wall   -DHAVE_SYS_TYPES_H -DHAVE_SYS_STAT_H -DSTDC_HEADERS -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_INTTYPES_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -I../include -o cca.lo -I. cca.cpp
+	g++ -c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -std=c++14 -Wno-error=int-conversion -Wno-deprecated -fallow-argument-mismatch -fno-strict-aliasing -Wall   -DHAVE_SYS_TYPES_H -DHAVE_SYS_STAT_H -DSTDC_HEADERS -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_INTTYPES_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -I../include -o cca.lo -I. cca.cpp
+/usr/bin/babel-libtool: line 1551: g++-13: command not found
+/usr/bin/babel-libtool: line 1551: g++-13: command not found
+/usr/bin/babel-libtool: line 1551: g++-13: command not found
+babel-libtool: compile:  g++ -c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -std=c++14 -Wno-error=int-conversion -Wno-deprecated -fallow-argument-mismatch -fno-strict-aliasing -Wall -DHAVE_SYS_TYPES_H -DHAVE_SYS_STAT_H -DSTDC_HEADERS -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_INTTYPES_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -I../include -I. cca.cpp  -fPIC -DPIC -o .libs/cca.o
+babel-libtool: compile:  g++ -c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -std=c++14 -Wno-error=int-conversion -Wno-deprecated -fallow-argument-mismatch -fno-strict-aliasing -Wall -DHAVE_SYS_TYPES_H -DHAVE_SYS_STAT_H -DSTDC_HEADERS -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_INTTYPES_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -I../include -I. cca.cpp  -fPIC -DPIC -o .libs/cca.o
+babel-libtool: compile:  g++ -c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -std=c++14 -Wno-error=int-conversion -Wno-deprecated -fallow-argument-mismatch -fno-strict-aliasing -Wall -DHAVE_SYS_TYPES_H -DHAVE_SYS_STAT_H -DSTDC_HEADERS -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_INTTYPES_H -DHAVE_STDINT_H -DHAVE_UNISTD_H -I../include -I. cca.cpp  -fPIC -DPIC -o .libs/cca.o
+cc1plus: warning: command-line option '-fallow-argument-mismatch' is valid for Fortran but not for C++
+cc1plus: warning: command-line option '-fallow-argument-mismatch' is valid for Fortran but not for C++
+cc1plus: warning: command-line option '-fallow-argument-mismatch' is valid for Fortran but not for C++
+In file included from cca.cpp:2:
+In file included from cca.cpp:2:
+In file included from cca.cpp:2:
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+../include/cca.h:246:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:246:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:246:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:246:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+  246 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace cca
+  246 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace cca
+  246 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace cca
+  246 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace cca
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+../include/cca.h:247:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:247:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:247:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:247:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+  247 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace gov
+  247 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace gov
+  247 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace gov
+  247 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace gov
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+../include/cca.h:20:36: error: 'broken' does not name a type
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+   20 | #define CCA_NAMESPACE_ENDSEMICOLON broken
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+      |                                    ^~~~~~
+../include/cca.h:248:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:248:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+../include/cca.h:248:3: note: in expansion of macro 'CCA_NAMESPACE_ENDSEMICOLON'
+  248 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace classic
+  248 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace classic
+  248 | } CCA_NAMESPACE_ENDSEMICOLON // end namespace classic
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:77: cca.lo] Error 1
+make[1]: *** [Makefile:77: cca.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/src'
+(cd gov/cca; make JAVAC=/usr/lib/jvm/java/bin/javac JAVADOC=/usr/lib/jvm/java/bin/javadoc)
+(cd gov/cca; make JAVAC=/usr/lib/jvm/java/bin/javac JAVADOC=/usr/lib/jvm/java/bin/javadoc)
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java'
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java'
+/usr/lib/jvm/java/bin/jar cf ccaSpecClassic.jar gov
+/usr/lib/jvm/java/bin/jar cf ccaSpecClassic.jar gov
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java'
+make[2]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java/gov/cca'
+/usr/lib/jvm/java/bin/javac -classpath :../.. ComponentID.java
+make[2]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java/gov/cca'
+make[2]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java/gov/cca'
+/usr/lib/jvm/java/bin/javac -classpath :../.. ConnectionInfo.java
+(cd gov/cca/eg/port; make JAVAC=/usr/lib/jvm/java/bin/javac JAVADOC=/usr/lib/jvm/java/bin/javadoc)
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java/doc'
+/usr/lib/jvm/java/bin/javadoc -classpath :.. -d . gov.cca gov.cca.ports gov.cca.eg.component gov.cca.eg.port
+Loading source files for package gov.cca...
+Loading source files for package gov.cca.ports...
+Loading source files for package gov.cca.eg.component...
+Loading source files for package gov.cca.eg.port...
+Constructing Javadoc information...
+Standard Doclet version 11.0.27.1
+Building tree for all the packages and classes...
+../gov/cca/ports/KeyValuePort.java:23: error: unexpected end tag: </p>
+ * every component with a properties for the frameworks use.</p>
+                                                            ^
+Generating ./gov/cca/Component.html...
+../gov/cca/Component.java:10: warning: no @param for svc
+  void setServices(Services svc);
+       ^
+Generating ./gov/cca/ComponentID.html...
+../gov/cca/ComponentID.java:46: warning: no @return
+  public String getClassName();
+                ^
+  public String getType();
+                ^
+../gov/cca/PortInfo.java:11: warning: no @return
+  public String getName();
+  public String getName();
+                ^
+                ^
+../gov/cca/PortInfo.java:14: warning: no @param for propertyKey
+../gov/cca/PortInfo.java:14: warning: no @param for propertyKey
+  public String getProperty(String propertyKey);
+  public String getProperty(String propertyKey);
+  public String getProperty(String propertyKey);
+                ^
+                ^
+                ^
+Generating ./gov/cca/Services.html...
+Generating ./gov/cca/Services.html...
+Generating ./gov/cca/Services.html...
+Generating ./gov/cca/Services.html...
+../gov/cca/Services.java:14: warning: no @param for name
+../gov/cca/Services.java:14: warning: no @param for name
+../gov/cca/Services.java:14: warning: no @param for name
+../gov/cca/Services.java:14: warning: no @param for name
+../gov/cca/Services.java:14: warning: no @param for name
+  public Port getPort(String name) throws Exception;
+  public Port getPort(String name) throws Exception;
+  public Port getPort(String name) throws Exception;
+  public Port getPort(String name) throws Exception;
+  public Port getPort(String name) throws Exception;
+              ^
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:22: warning: no @param for name
+../gov/cca/Services.java:22: warning: no @param for name
+../gov/cca/Services.java:22: warning: no @param for name
+../gov/cca/Services.java:22: warning: no @param for name
+../gov/cca/Services.java:22: warning: no @param for name
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+              ^
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:22: warning: no @return
+../gov/cca/Services.java:22: warning: no @return
+../gov/cca/Services.java:22: warning: no @return
+../gov/cca/Services.java:22: warning: no @return
+../gov/cca/Services.java:22: warning: no @return
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+              ^
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:22: warning: no @throws for java.lang.Exception
+../gov/cca/Services.java:22: warning: no @throws for java.lang.Exception
+../gov/cca/Services.java:22: warning: no @throws for java.lang.Exception
+../gov/cca/Services.java:22: warning: no @throws for java.lang.Exception
+../gov/cca/Services.java:22: warning: no @throws for java.lang.Exception
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+  public Port getPortNonblocking(String name) throws Exception;
+              ^
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:29: warning: no @param for name
+../gov/cca/Services.java:29: warning: no @param for name
+../gov/cca/Services.java:29: warning: no @param for name
+../gov/cca/Services.java:29: warning: no @param for name
+  public void releasePort(String name);
+  public void releasePort(String name);
+  public void releasePort(String name);
+  public void releasePort(String name);
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:33: warning: no @param for name
+../gov/cca/Services.java:33: warning: no @param for name
+../gov/cca/Services.java:33: warning: no @param for name
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+           ^
+           ^
+           ^
+../gov/cca/Services.java:33: warning: no @param for type
+../gov/cca/Services.java:33: warning: no @param for type
+../gov/cca/Services.java:33: warning: no @param for type
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+           ^
+           ^
+../gov/cca/Services.java:33: warning: no @param for properties
+../gov/cca/Services.java:33: warning: no @param for properties
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+           ^
+           ^
+../gov/cca/Services.java:33: warning: no @return
+../gov/cca/Services.java:33: warning: no @return
+../gov/cca/Services.java:33: warning: no @return
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+  PortInfo createPortInfo(String name, String type, String[] properties );
+           ^
+           ^
+           ^
+../gov/cca/Services.java:39: warning: no @param for name_and_type
+../gov/cca/Services.java:39: warning: no @param for name_and_type
+../gov/cca/Services.java:39: warning: no @param for name_and_type
+../gov/cca/Services.java:39: warning: no @param for name_and_type
+  public void registerUsesPort(PortInfo name_and_type) throws Exception;
+  public void registerUsesPort(PortInfo name_and_type) throws Exception;
+  public void registerUsesPort(PortInfo name_and_type) throws Exception;
+  public void registerUsesPort(PortInfo name_and_type) throws Exception;
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:45: warning: no @param for name
+../gov/cca/Services.java:45: warning: no @param for name
+../gov/cca/Services.java:45: warning: no @param for name
+../gov/cca/Services.java:45: warning: no @param for name
+  public void unregisterUsesPort(String name) throws Exception;
+  public void unregisterUsesPort(String name) throws Exception;
+  public void unregisterUsesPort(String name) throws Exception;
+  public void unregisterUsesPort(String name) throws Exception;
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:52: warning: no @param for inPort
+../gov/cca/Services.java:52: warning: no @param for inPort
+../gov/cca/Services.java:52: warning: no @param for inPort
+../gov/cca/Services.java:52: warning: no @param for inPort
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:52: warning: no @param for name_type_and_props
+../gov/cca/Services.java:52: warning: no @param for name_type_and_props
+../gov/cca/Services.java:52: warning: no @param for name_type_and_props
+../gov/cca/Services.java:52: warning: no @param for name_type_and_props
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+  public void addProvidesPort(Port inPort, PortInfo name_type_and_props) throws Exception;
+              ^
+              ^
+              ^
+              ^
+../gov/cca/Services.java:57: warning: no @param for name
+../gov/cca/Services.java:57: warning: no @param for name
+../gov/cca/Services.java:57: warning: no @param for name
+  public void removeProvidesPort(String name);
+  public void removeProvidesPort(String name);
+  public void removeProvidesPort(String name);
+              ^
+              ^
+              ^
+../gov/cca/Services.java:60: warning: no @return
+../gov/cca/Services.java:60: warning: no @return
+  public PortInfo[] getProvidedPorts();
+  public PortInfo[] getProvidedPorts();
+  public PortInfo[] getProvidedPorts();
+                    ^
+                    ^
+                    ^
+../gov/cca/Services.java:63: warning: no @return
+../gov/cca/Services.java:63: warning: no @return
+../gov/cca/Services.java:63: warning: no @return
+  public PortInfo[] getRegisteredPorts();
+  public PortInfo[] getRegisteredPorts();
+  public PortInfo[] getRegisteredPorts();
+  public PortInfo[] getRegisteredPorts();
+                    ^
+                    ^
+                    ^
+                    ^
+../gov/cca/Services.java:66: warning: no @return
+../gov/cca/Services.java:66: warning: no @return
+../gov/cca/Services.java:66: warning: no @return
+  public ComponentID  getComponentID();
+  public ComponentID  getComponentID();
+  public ComponentID  getComponentID();
+                      ^
+                      ^
+                      ^
+Generating ./gov/cca/eg/component/TimeStamper.html...
+Generating ./gov/cca/eg/component/TimeStamper.html...
+Generating ./gov/cca/eg/component/TimeStamper.html...
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @param for s
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @param for s
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @param for s
+    public void setString(String s) throws Exception;
+    public void setString(String s) throws Exception;
+    public void setString(String s) throws Exception;
+                ^
+                ^
+                ^
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @throws for java.lang.Exception
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @throws for java.lang.Exception
+../gov/cca/eg/port/StringConsumerPort.java:6: warning: no @throws for java.lang.Exception
+    public void setString(String s) throws Exception;
+    public void setString(String s) throws Exception;
+    public void setString(String s) throws Exception;
+                ^
+                ^
+                ^
+Generating ./gov/cca/eg/port/StringConsumerPort.html...
+Generating ./gov/cca/eg/port/StringConsumerPort.html...
+Generating ./gov/cca/eg/port/StringConsumerPort.html...
+Generating ./gov/cca/eg/port/TimeProducerPort.html...
+Generating ./gov/cca/eg/port/TimeProducerPort.html...
+Generating ./gov/cca/eg/port/TimeProducerPort.html...
+../gov/cca/eg/port/TimeProducerPort.java:7: warning: no @return
+../gov/cca/eg/port/TimeProducerPort.java:7: warning: no @return
+../gov/cca/eg/port/TimeProducerPort.java:7: warning: no @return
+  public Date getTime();
+  public Date getTime();
+  public Date getTime();
+              ^
+              ^
+              ^
+Generating ./gov/cca/ports/ConnectionEvent.html...
+Generating ./gov/cca/ports/ConnectionEvent.html...
+Generating ./gov/cca/ports/ConnectionEvent.html...
+../gov/cca/ports/ConnectionEvent.java:42: warning: no @return
+../gov/cca/ports/ConnectionEvent.java:42: warning: no @return
+  public int getEventType();
+  public int getEventType();
+             ^
+  public void connectionActivity(ConnectionEvent evt);
+              ^
+Generating ./gov/cca/ports/ConnectionEventService.html...
+../gov/cca/ports/ConnectionEventService.java:15: warning: no @param for l
+  public void addConnectionEventListener(int connectionEventType, ConnectionEventListener l);
+              ^
+../gov/cca/ports/ConnectionEventService.java:22: warning: no @param for l
+  public void removeConnectionEventListener(int connectionEventType, ConnectionEventListener l);
+              ^
+Generating ./gov/cca/ports/FrameworkConnectionEventService.html...
+../gov/cca/ports/FrameworkConnectionEventService.java:13: error: @param name not found
+      @param event must be an object supporting the ConnectionEvent interface.
+             ^
+../gov/cca/ports/FrameworkConnectionEventService.java:15: warning: no @param for evt
+  public void fireConnectionEvent(ConnectionEvent evt);
+              ^
+Generating ./gov/cca/ports/GoPort.html...
+Generating ./gov/cca/ports/KeyValuePort.html...
+../gov/cca/ports/KeyValuePort.java:52: warning: no @param for key
+  public String getValue(String key);
+                ^
+Generating ./allpackages-index.html...
+Generating ./deprecated-list.html...
+Building index for all classes...
+Generating ./allclasses.html...
+Generating ./allclasses.html...
+Generating ./index.html...
+Generating ./overview-summary.html...
+Generating ./help-doc.html...
+2 errors
+45 warnings
+make[1]: *** [Makefile:10: doc] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/java/doc'
+#======================================
+Building documentation in cxx/doc
+#======================================
+make[1]: Entering directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7/cxx/doc'
+if [ ! -d ../dox ] ; then mkdir ../dox; fi
+/usr/bin/doxygen ../../doc/DoxyConfig
+warning: Tag 'CLASS_DIAGRAMS' at line 119 of file '../../doc/DoxyConfig' has become obsolete.
+         To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag 'COLS_IN_ALPHA_INDEX' at line 319 of file '../../doc/DoxyConfig' has become obsolete.
+Installing cxx/include/ports/MPIBorrow.h
+Installing cxx/include/ports/MPIService.h
+Installing cxx/include/ports/PrintfPort.h
+Installing cxx/include/ports/PrintfPort.h
+Installing cxx/include/ports/RawData.h
+Installing cxx/include/ports/RawData.h
+Installing cxx/include/ports/StringConsumerPort.h
+Installing cxx/include/ports/StringConsumerPort.h
+Installing cxx/include/ports/StringConsumerPort.h
+Installing cxx/include/ports/TimeProducerPort.h
+Installing cxx/include/ports/TimeProducerPort.h
+Installing cxx/include/ports/TimeProducerPort.h
+/usr/bin/babel-libtool --mode=install \
+/usr/bin/babel-libtool --mode=install \
+/usr/bin/babel-libtool --mode=install \
+	cp cxx/src/libclassic_0_5_7.la /usr/src/tmp/cca-spec-classic-buildroot/usr/lib64
+	cp cxx/src/libclassic_0_5_7.la /usr/src/tmp/cca-spec-classic-buildroot/usr/lib64
+	cp cxx/src/libclassic_0_5_7.la /usr/src/tmp/cca-spec-classic-buildroot/usr/lib64
+babel-libtool: install: `cxx/src/libclassic_0_5_7.la' is not a valid libtool archive
+babel-libtool: install: `cxx/src/libclassic_0_5_7.la' is not a valid libtool archive
+babel-libtool: install: `cxx/src/libclassic_0_5_7.la' is not a valid libtool archive
+babel-libtool: install: Try `babel-libtool --help --mode=install' for more information.
+babel-libtool: install: Try `babel-libtool --help --mode=install' for more information.
+babel-libtool: install: Try `babel-libtool --help --mode=install' for more information.
+make[1]: *** [Makefile.install:124: install-lib-libtool] Error 1
+make[1]: *** [Makefile.install:124: install-lib-libtool] Error 1
+make[1]: *** [Makefile.install:124: install-lib-libtool] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make: *** [Makefile:51: install] Error 2
+make: *** [Makefile:51: install] Error 2
+make: *** [Makefile:51: install] Error 2
+make: *** [Makefile:51: install] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+make: Leaving directory '/usr/src/RPM/BUILD/cca-spec-classic-0.5.7'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32257 (%install)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+26.47user 3.33system 0:11.22elapsed 265%CPU (0avgtext+0avgdata 143348maxresident)k
+26.47user 3.33system 0:11.22elapsed 265%CPU (0avgtext+0avgdata 143348maxresident)k
+26.47user 3.33system 0:11.22elapsed 265%CPU (0avgtext+0avgdata 143348maxresident)k
+26.47user 3.33system 0:11.22elapsed 265%CPU (0avgtext+0avgdata 143348maxresident)k
+0inputs+0outputs (0major+605943minor)pagefaults 0swaps
+0inputs+0outputs (0major+605943minor)pagefaults 0swaps
+0inputs+0outputs (0major+605943minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `cca-spec-classic-0.5.7-alt8.src.rpm' failed.
+hsh-rebuild: rebuild of `cca-spec-classic-0.5.7-alt8.src.rpm' failed.
+hsh-rebuild: rebuild of `cca-spec-classic-0.5.7-alt8.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.96user 3.36system 0:56.92elapsed 21%CPU (0avgtext+0avgdata 142408maxresident)k
+8.96user 3.36system 0:56.92elapsed 21%CPU (0avgtext+0avgdata 142408maxresident)k
+176152inputs+0outputs (0major+355950minor)pagefaults 0swaps

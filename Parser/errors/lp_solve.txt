@@ -1,0 +1,1043 @@
++ cd lp_solve_5.5
++ cd lpsolve55
++ sh -x ccc
++ :
++ src='../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c'
++ src='../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c'
++ c=cc
++ c=cc
++ echo '#include <stdlib.h>'
++ echo '#include <stdlib.h>'
++ echo '#include <stdio.h>'
++ echo '#include <stdio.h>'
++ echo 'main(){printf("ux%d", (int) (sizeof(void *)*8));}'
++ echo 'main(){printf("ux%d", (int) (sizeof(void *)*8));}'
++ cc /tmp/platform.c -o /tmp/platform
++ cc /tmp/platform.c -o /tmp/platform
+/tmp/platform.c:3:1: error: return type defaults to 'int' [-Wimplicit-int]
+/tmp/platform.c:3:1: error: return type defaults to 'int' [-Wimplicit-int]
+    3 | main(){printf("ux%d", (int) (sizeof(void *)*8));}
+    3 | main(){printf("ux%d", (int) (sizeof(void *)*8));}
+      | ^~~~
+      | ^~~~
+++ /tmp/platform
+++ /tmp/platform
+ccc: line 11: /tmp/platform: No such file or directory
+ccc: line 11: /tmp/platform: No such file or directory
++ PLATFORM=
++ PLATFORM=
++ rm /tmp/platform /tmp/platform.c
++ rm /tmp/platform /tmp/platform.c
++ mkdir bin bin/
++ mkdir bin bin/
++ echo '#include <stdio.h>'
++ echo '#include <stdio.h>'
++ echo '#include <stdlib.h>'
++ echo '#include <stdlib.h>'
++ echo '#include <math.h>'
++ echo '#include <math.h>'
++ echo 'main(){isnan(0.0);}'
++ cc /tmp/isnan.c -o /tmp/isnan
++ '[' 1 = 0 ']'
++ NOISNAN=-DNOISNAN
++ NOISNAN=-DNOISNAN
++ rm /tmp/isnan.c /tmp/isnan
++ def=
++ so=
++ '[' '' = SCO_UNIX ']'
++ dl=-ldl
++ so=y
++ opts='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ cc -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+In file included from ../lp_MDO.c:22:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+  849 |   ftime(&buf);
+      |   ^~~~~
+In file included from ../shared/commonlib.c:9:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+      |            ^~~~~
+../shared/mmio.c: In function 'mm_read_unsymmetric_sparse':
+../shared/mmio.c:26:9: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   26 |     int x;
+      |         ^
+In file included from ../lp_rlp.c:205:
+../lp_rlp.h:1653:16: warning: 'input' defined but not used [-Wunused-function]
+ 1653 |     static int input  (lp_yyscan_t lp_yyscanner)
+      |                ^~~~~
+In file included from ../lp_crash.c:21:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_LUSOLsetcolumn':
+../bfp/bfp_LUSOL/lp_LUSOL.c:209:7: warning: variable 'nz' set but not used [-Wunused-but-set-variable]
+  209 |   int nz, inform;
+      |       ^~
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_finishupdate':
+../bfp/bfp_LUSOL/lp_LUSOL.c:477:18: warning: variable 'kcol' set but not used [-Wunused-but-set-variable]
+  477 |   int      i, k, kcol, deltarows = bfp_rowoffset(lp);
+      |                  ^~~~
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_wlp.c:6:
+In file included from ../lp_wlp.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_matrix.c:3:
+In file included from ../lp_matrix.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+  197 |   int    rowsum, oldrowsalloc;
+  197 |   int    rowsum, oldrowsalloc;
+      |                  ^~~~~~~~~~~~
+      |                  ^~~~~~~~~~~~
+../lp_matrix.c: In function 'prod_Ax':
+../lp_matrix.c:3325:34: warning: variable 've' set but not used [-Wunused-but-set-variable]
+ 3325 |   int      j, colnr, ib, ie, vb, ve;
+      |                                  ^~
+In file included from ../lp_matrix.c:7:
+../lp_price.h: At top level:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_matrix.c:8:
+In file included from ../lp_matrix.c:8:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+In file included from ../lp_mipbb.c:30:
+In file included from ../lp_mipbb.c:30:
+In file included from ../lp_mipbb.c:30:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_presolve.c:36:
+In file included from ../lp_presolve.c:36:
+In file included from ../lp_presolve.c:36:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+      |                                                   ^
+      |                                                   ^
+../lp_presolve.c: In function 'presolve_colfixdual':
+../lp_presolve.c:1993:18: warning: variable 'isMI' set but not used [-Wunused-but-set-variable]
+ 1993 |   MYBOOL  hasOF, isMI, isDualFREE = TRUE;
+      |                  ^~~~
+ 5311 |             if(!presolve_fixSOS1(psdata, j, Value1, &iConRemove, &iVarFixed))
+      |             ^~
+../lp_presolve.c:5313:15: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+ 5313 |               psdata->forceupdate = TRUE;
+      |               ^~~~~~
+../lp_presolve.c: At top level:
+../lp_presolve.c:377:15: warning: 'presolve_mustupdate' defined but not used [-Wunused-function]
+  377 | INLINE MYBOOL presolve_mustupdate(lprec *lp, int colnr)
+      |               ^~~~~~~~~~~~~~~~~~~
+In file included from ../lp_price.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_price.c: In function 'compareImprovementVar':
+../lp_price.c:48:7: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+   48 |       candidatecolno, candidatevarno = candidate->varno;
+      |       ^~~~~~~~~~~~~~
+../lp_price.c:47:7: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+   47 |   int currentcolno, currentvarno = current->varno,
+      |       ^~~~~~~~~~~~
+../lp_price.c: In function 'compareSubstitutionVar':
+../lp_price.c: In function 'partial_findBlocks':
+../lp_price.c:1561:15: warning: variable 'blockdata' set but not used [-Wunused-but-set-variable]
+ 1561 |   partialrec *blockdata;
+      |               ^~~~~~~~~
+In file included from ../lp_price.c:6:
+In file included from ../lp_price.c:6:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+In file included from ../lp_pricePSE.c:3:
+In file included from ../lp_pricePSE.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_scale.c:3:
+In file included from ../lp_scale.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |                        ^~~~
+      |                        ^~~~
+      |                        ^~~~
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |          ^~~~
+      |          ^~~~
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c:632:16: warning: variable 'colMax' set but not used [-Wunused-but-set-variable]
+  632 |   int     i,j, colMax, nz;
+      |                ^~~~~~
+In file included from ../lp_simplex.c:27:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_simplex.c: In function 'dualloop':
+../lp_simplex.c:997:10: warning: variable 'epsvalue' set but not used [-Wunused-but-set-variable]
+  997 |   REAL   epsvalue, xviolated, cviolated,
+      |          ^~~~~~~~
+In file included from ../lp_simplex.c:32:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_SOS.c:3:
+In file included from ../lp_SOS.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_utils.c:4:
+In file included from ../lp_utils.c:4:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  532 |     if(absolute)
+  532 |     if(absolute)
+      |     ^~
+      |     ^~
+../lp_utils.c:534:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  534 |       while((beginPos < endPos) && (match != target)) {
+      |       ^~~~~
+../lp_utils.c: In function 'compareLink':
+   32 |   (MALLOC(nptr, nr, type), (nptr != NULL) ? memcpy(nptr, optr, (size_t)((nr) * sizeof(*optr))) : 0, nptr)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
++ ar rv bin//liblpsolve55.a lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o
++ ar rv bin//liblpsolve55.a lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o
++ ar rv bin//liblpsolve55.a lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o
+ar: creating bin//liblpsolve55.a
+ar: creating bin//liblpsolve55.a
+ar: creating bin//liblpsolve55.a
+ar: lp_MDO.o: No such file or directory
+ar: lp_MDO.o: No such file or directory
+ar: lp_MDO.o: No such file or directory
++ ranlib bin//liblpsolve55.a
++ ranlib bin//liblpsolve55.a
++ ranlib bin//liblpsolve55.a
+ranlib: 'bin//liblpsolve55.a': No such file
+ranlib: 'bin//liblpsolve55.a': No such file
+ranlib: 'bin//liblpsolve55.a': No such file
++ '[' y '!=' '' ']'
++ '[' y '!=' '' ']'
++ '[' y '!=' '' ']'
++ cc -fpic -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
++ cc -fpic -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
++ cc -fpic -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNOISNAN -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+In file included from ../lp_MDO.c:22:
+In file included from ../lp_MDO.c:22:
+In file included from ../lp_MDO.c:22:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c: In function 'timeNow':
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+../shared/commonlib.c:849:3: warning: 'ftime' is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+  849 |   ftime(&buf);
+  849 |   ftime(&buf);
+      |   ^~~~~
+      |   ^~~~~
+In file included from ../shared/commonlib.c:9:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+      |            ^~~~~
+../shared/mmio.c: In function 'mm_read_unsymmetric_sparse':
+../shared/mmio.c:26:9: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   26 |     int x;
+      |         ^
+In file included from ../lp_rlp.c:205:
+../lp_rlp.h:1653:16: warning: 'input' defined but not used [-Wunused-function]
+ 1653 |     static int input  (lp_yyscan_t lp_yyscanner)
+      |                ^~~~~
+In file included from ../lp_crash.c:21:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_LUSOLsetcolumn':
+../bfp/bfp_LUSOL/lp_LUSOL.c:209:7: warning: variable 'nz' set but not used [-Wunused-but-set-variable]
+  209 |   int nz, inform;
+      |       ^~
+../bfp/bfp_LUSOL/lp_LUSOL.c: In function 'bfp_finishupdate':
+../bfp/bfp_LUSOL/lp_LUSOL.c:477:18: warning: variable 'kcol' set but not used [-Wunused-but-set-variable]
+  477 |   int      i, k, kcol, deltarows = bfp_rowoffset(lp);
+      |                  ^~~~
+../lp_bit.h:14:15: warning: 'set_bitoff' defined but not used [-Wunused-function]
+   14 | MYINLINE void set_bitoff(MYBOOL *bitarray, int item)
+      |               ^~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_wlp.c:6:
+In file included from ../lp_wlp.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_matrix.c:3:
+In file included from ../lp_matrix.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c: In function 'inc_matrow_space':
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+../lp_matrix.c:197:18: warning: variable 'oldrowsalloc' set but not used [-Wunused-but-set-variable]
+  197 |   int    rowsum, oldrowsalloc;
+  197 |   int    rowsum, oldrowsalloc;
+      |                  ^~~~~~~~~~~~
+      |                  ^~~~~~~~~~~~
+../lp_matrix.c: In function 'prod_Ax':
+../lp_matrix.c:3325:34: warning: variable 've' set but not used [-Wunused-but-set-variable]
+ 3325 |   int      j, colnr, ib, ie, vb, ve;
+      |                                  ^~
+In file included from ../lp_matrix.c:7:
+../lp_price.h: At top level:
+../lp_price.h:39:13: warning: 'normalizeEdge' declared 'static' but never defined [-Wunused-function]
+   39 | INLINE REAL normalizeEdge(lprec *lp, int item, REAL edge, MYBOOL isdual);
+      |             ^~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~
+In file included from ../lp_matrix.c:8:
+In file included from ../lp_matrix.c:8:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+In file included from ../lp_mipbb.c:30:
+In file included from ../lp_mipbb.c:30:
+In file included from ../lp_mipbb.c:30:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+In file included from ../lp_MPS.c:5:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+In file included from ../lp_params.c:6:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+      |                        ^
+In file included from ../lp_presolve.c:36:
+In file included from ../lp_presolve.c:36:
+In file included from ../lp_presolve.c:36:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+      |                        ^
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c: In function 'presolve_debugmap':
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+../lp_presolve.c:462:51: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+  462 |   int    colnr, ix, ie, nx, jx, je, *cols, *rows, n;
+      |                                                   ^
+      |                                                   ^
+../lp_presolve.c: In function 'presolve_colfixdual':
+../lp_presolve.c:1993:18: warning: variable 'isMI' set but not used [-Wunused-but-set-variable]
+ 1993 |   MYBOOL  hasOF, isMI, isDualFREE = TRUE;
+      |                  ^~~~
+ 5311 |             if(!presolve_fixSOS1(psdata, j, Value1, &iConRemove, &iVarFixed))
+      |             ^~
+../lp_presolve.c:5313:15: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+ 5313 |               psdata->forceupdate = TRUE;
+      |               ^~~~~~
+../lp_presolve.c: At top level:
+../lp_presolve.c:377:15: warning: 'presolve_mustupdate' defined but not used [-Wunused-function]
+  377 | INLINE MYBOOL presolve_mustupdate(lprec *lp, int colnr)
+      |               ^~~~~~~~~~~~~~~~~~~
+In file included from ../lp_price.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_price.c: In function 'compareImprovementVar':
+../lp_price.c:48:7: warning: variable 'candidatecolno' set but not used [-Wunused-but-set-variable]
+   48 |       candidatecolno, candidatevarno = candidate->varno;
+      |       ^~~~~~~~~~~~~~
+../lp_price.c:47:7: warning: variable 'currentcolno' set but not used [-Wunused-but-set-variable]
+   47 |   int currentcolno, currentvarno = current->varno,
+      |       ^~~~~~~~~~~~
+../lp_price.c: In function 'compareSubstitutionVar':
+../lp_price.c: In function 'partial_findBlocks':
+../lp_price.c:1561:15: warning: variable 'blockdata' set but not used [-Wunused-but-set-variable]
+ 1561 |   partialrec *blockdata;
+      |               ^~~~~~~~~
+In file included from ../lp_price.c:6:
+In file included from ../lp_price.c:6:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h: At top level:
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+      |               ^~~~~~~~~~~
+In file included from ../lp_pricePSE.c:3:
+In file included from ../lp_pricePSE.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_scale.c:3:
+In file included from ../lp_scale.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c: In function 'CurtisReidScales':
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+../lp_scale.c:150:24: warning: variable 'ekm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |                        ^~~~
+      |                        ^~~~
+      |                        ^~~~
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+../lp_scale.c:150:10: warning: variable 'qkm2' set but not used [-Wunused-but-set-variable]
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+  150 |          qkm2, qkqkm1, ekm2, ekekm1,
+      |          ^~~~
+      |          ^~~~
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c: In function 'scale_columns':
+../lp_scale.c:632:16: warning: variable 'colMax' set but not used [-Wunused-but-set-variable]
+  632 |   int     i,j, colMax, nz;
+      |                ^~~~~~
+In file included from ../lp_simplex.c:27:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+      |                        ^
+../lp_simplex.c: In function 'dualloop':
+../lp_simplex.c:997:10: warning: variable 'epsvalue' set but not used [-Wunused-but-set-variable]
+  997 |   REAL   epsvalue, xviolated, cviolated,
+      |          ^~~~~~~~
+In file included from ../lp_simplex.c:32:
+../lp_presolve.h: At top level:
+../lp_presolve.h:90:12: warning: 'presolve_nextrow' declared 'static' but never defined [-Wunused-function]
+   90 | INLINE int presolve_nextrow(presolverec *psdata, int colnr, int *previtem);
+../lp_pricePSE.h:14:15: warning: 'applyPricer' declared 'static' but never defined [-Wunused-function]
+   14 | INLINE MYBOOL applyPricer(lprec *lp);
+      |               ^~~~~~~~~~~
+../lp_presolve.h:110:12: warning: 'presolve_collength' defined but not used [-Wunused-function]
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+  110 | INLINE int presolve_collength(presolverec *psdata, int colnr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+../lp_presolve.h:101:12: warning: 'presolve_rowlength' defined but not used [-Wunused-function]
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+  101 | INLINE int presolve_rowlength(presolverec *psdata, int rownr)
+      |            ^~~~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from ../lp_SOS.c:3:
+In file included from ../lp_SOS.c:3:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+In file included from ../lp_utils.c:4:
+In file included from ../lp_utils.c:4:
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+../shared/commonlib.h:88:24: error: expected identifier or '(' before numeric constant
+   88 |   #define FALSE        0
+   88 |   #define FALSE        0
+      |                        ^
+      |                        ^
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c: In function 'searchFor':
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+../lp_utils.c:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  532 |     if(absolute)
+  532 |     if(absolute)
+      |     ^~
+      |     ^~
+../lp_utils.c:534:7: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  534 |       while((beginPos < endPos) && (match != target)) {
+      |       ^~~~~
+../lp_utils.c: In function 'compareLink':
+../lpkit.h:32:99: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   32 |   (MALLOC(nptr, nr, type), (nptr != NULL) ? memcpy(nptr, optr, (size_t)((nr) * sizeof(*optr))) : 0, nptr)
+   32 |   (MALLOC(nptr, nr, type), (nptr != NULL) ? memcpy(nptr, optr, (size_t)((nr) * sizeof(*optr))) : 0, nptr)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+../yacc_read.c:1282:11: note: in expansion of macro 'MALLOCCPY'
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+ 1282 |           MALLOCCPY(orig_upbo, lp->orig_upbo, 1 + pp->Rows, REAL);
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+      |           ^~~~~~~~~
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[.]c/.o/g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
+++ sed 's/[^ ]*\///g'
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ cc -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin//liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_MDO.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_crash.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_wlp.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_matrix.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_mipbb.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_MPS.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_params.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_presolve.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_price.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_pricePSE.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_scale.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_simplex.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_SOS.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+ld: cannot find lp_utils.o: No such file or directory
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_lib.o lp_report.o lp_rlp.o lusol.o mmio.o myblas.o yacc_read.o
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
++ rm 'bin/ux*/liblpsolve55.a'
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+rm: cannot remove 'bin/ux*/liblpsolve55.a': No such file or directory
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.56143 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.04user 0.75system 0:04.57elapsed 104%CPU (0avgtext+0avgdata 60464maxresident)k
+4.04user 0.75system 0:04.57elapsed 104%CPU (0avgtext+0avgdata 60464maxresident)k
+4.04user 0.75system 0:04.57elapsed 104%CPU (0avgtext+0avgdata 60464maxresident)k
+4.04user 0.75system 0:04.57elapsed 104%CPU (0avgtext+0avgdata 60464maxresident)k
+0inputs+0outputs (0major+112709minor)pagefaults 0swaps
+0inputs+0outputs (0major+112709minor)pagefaults 0swaps
+0inputs+0outputs (0major+112709minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lp_solve-5.5.2.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `lp_solve-5.5.2.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `lp_solve-5.5.2.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.54user 1.85system 0:08.91elapsed 26%CPU (0avgtext+0avgdata 11564maxresident)k
+0.54user 1.85system 0:08.91elapsed 26%CPU (0avgtext+0avgdata 11564maxresident)k
+0inputs+0outputs (0major+84642minor)pagefaults 0swaps

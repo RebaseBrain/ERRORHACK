@@ -1,0 +1,77 @@
+CairoFt.xs:33:29: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   33 |                 real_face = (FT_Face) SvIV ((SV *) SvRV (face));
+      |                             ^
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   CairoSurface.c
+In file included from /usr/lib/perl5/CORE/perl.h:4530,
+                 from ./cairo-perl.h:14,
+                 from CairoSurface.xs:10:
+CairoSurface.xs: In function 'XS_Cairo__Surface_set_mime_data':
+/usr/lib/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+CairoSurface.xs:395:45: note: in expansion of macro 'SvPV'
+CairoSurface.xs:395:45: note: in expansion of macro 'SvPV'
+  395 |         mime_data = (const unsigned char *) SvPV(data, length);
+  395 |         mime_data = (const unsigned char *) SvPV(data, length);
+      |                                             ^~~~
+      |                                             ^~~~
+In file included from /usr/lib/perl5/CORE/perl.h:7812:
+In file included from /usr/lib/perl5/CORE/perl.h:7812:
+/usr/lib/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'unsigned int * const'} but argument is of type 'long unsigned int *'
+/usr/lib/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'unsigned int * const'} but argument is of type 'long unsigned int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+make: *** [Makefile:380: CairoSurface.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   CairoRegion.c
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   CairoRegion.c
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   CairoPath.c
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   CairoPath.c
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Entering directory '/usr/src/RPM/BUILD/Cairo-1.109'
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   Cairo.c
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   Cairo.c
+gcc -c  -I. -Ibuild -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"1.109\" -DXS_VERSION=\"1.109\" -fPIC "-I/usr/lib/perl5/CORE"   Cairo.c
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+make: Leaving directory '/usr/src/RPM/BUILD/Cairo-1.109'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38164 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38164 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.38164 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38164 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.29user 0.79system 0:04.68elapsed 151%CPU (0avgtext+0avgdata 69652maxresident)k
+6.29user 0.79system 0:04.68elapsed 151%CPU (0avgtext+0avgdata 69652maxresident)k
+0inputs+0outputs (0major+271192minor)pagefaults 0swaps
+0inputs+0outputs (0major+271192minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Cairo-1.109-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Cairo-1.109-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.77user 2.45system 0:26.53elapsed 31%CPU (0avgtext+0avgdata 133672maxresident)k
+5.77user 2.45system 0:26.53elapsed 31%CPU (0avgtext+0avgdata 133672maxresident)k
+56inputs+0outputs (0major+219575minor)pagefaults 0swaps

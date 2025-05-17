@@ -1,0 +1,77 @@
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-shade-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/target/test-classes
+[INFO] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java: Some input files use or override a deprecated API.
+[INFO] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java: /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java uses unchecked or unsafe operations.
+[INFO] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/DefaultShaderTest.java:[55,19] package org.mockito does not exist
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Maven Shade Plugin
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.963 s
+[INFO] Finished at: 2025-05-16T03:40:49Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-shade-plugin: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/SimpleFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/mojo/ShadeMojoTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/DefaultShaderTest.java:[55,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/DefaultShaderTest.java:[70,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-shade-plugin-3.3.0/src/test/java/org/apache/maven/plugins/shade/filter/MinijarFilterTest.java:[164,22] cannot find symbol
+[ERROR]   symbol:   method times(int)
+[ERROR]   location: class org.apache.maven.plugins.shade.filter.MinijarFilterTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97146 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97146 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.97146 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.97146 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+19.65user 3.52system 0:04.17elapsed 555%CPU (0avgtext+0avgdata 519236maxresident)k
+19.65user 3.52system 0:04.17elapsed 555%CPU (0avgtext+0avgdata 519236maxresident)k
+0inputs+0outputs (0major+175191minor)pagefaults 0swaps
+0inputs+0outputs (0major+175191minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-shade-plugin-3.3.0-alt1_4jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-shade-plugin-3.3.0-alt1_4jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.80user 3.26system 0:26.92elapsed 52%CPU (0avgtext+0avgdata 140836maxresident)k
+10.80user 3.26system 0:26.92elapsed 52%CPU (0avgtext+0avgdata 140836maxresident)k
+123360inputs+0outputs (0major+299213minor)pagefaults 0swaps

@@ -1,0 +1,98 @@
+[6/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-math.c.o
+[7/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-dom.c.o
+[8/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-interp-akima.c.o
+[9/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-edid.c.o
+[9/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-edid.c.o
+[10/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-context-lcms.c.o
+[10/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-context-lcms.c.o
+[11/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-color.c.o
+[11/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-color.c.o
+[12/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-store.c.o
+[12/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-store.c.o
+[13/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-utils.c.o
+[13/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc-utils.c.o
+[14/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-it8-utils.c.o
+[14/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-it8-utils.c.o
+[15/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o
+[15/295] Compiling C object lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o
+FAILED: lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o 
+FAILED: lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o 
+cc -Ilib/colord/libcolordprivate.so.2.0.5.p -Ilib/colord -I../lib/colord -I. -I.. -Ilib -I../lib -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gudev-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -fstack-protector-strong -Waggregate-return -Wunused -Warray-bounds -Wcast-align -Wclobbered -Wdeclaration-after-statement -Wempty-body -Wextra -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-signedness -Wignored-qualifiers -Wimplicit-function-declaration -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-parameter-type -Wmissing-prototypes -Wnested-externs -Wno-discarded-qualifiers -Wno-cast-function-type -Wno-deprecated-declarations -Wno-enum-conversion -Wno-missing-field-initializers -Wno-strict-aliasing -Wno-suggest-attribute=format -Wno-unused-parameter -Wold-style-definition -Woverride-init -Wpointer-arith -Wreturn-type -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-prototypes -Wswitch-default -Wtype-limits -Wundef -Wuninitialized -Wunused-but-set-variable -Wwrite-strings -DCD_COMPILATION -D_XOPEN_SOURCE=700 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC -pthread '-DG_LOG_DOMAIN="libcolord"' '-DLOCALSTATEDIR="/var"' -MD -MQ lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -MF lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o.d -o lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -c ../lib/colord/cd-icc.c
+cc -Ilib/colord/libcolordprivate.so.2.0.5.p -Ilib/colord -I../lib/colord -I. -I.. -Ilib -I../lib -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gudev-1.0 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -fstack-protector-strong -Waggregate-return -Wunused -Warray-bounds -Wcast-align -Wclobbered -Wdeclaration-after-statement -Wempty-body -Wextra -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-signedness -Wignored-qualifiers -Wimplicit-function-declaration -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-parameter-type -Wmissing-prototypes -Wnested-externs -Wno-discarded-qualifiers -Wno-cast-function-type -Wno-deprecated-declarations -Wno-enum-conversion -Wno-missing-field-initializers -Wno-strict-aliasing -Wno-suggest-attribute=format -Wno-unused-parameter -Wold-style-definition -Woverride-init -Wpointer-arith -Wreturn-type -Wshadow -Wsign-compare -Wstrict-aliasing -Wstrict-prototypes -Wswitch-default -Wtype-limits -Wundef -Wuninitialized -Wunused-but-set-variable -Wwrite-strings -DCD_COMPILATION -D_XOPEN_SOURCE=700 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC -pthread '-DG_LOG_DOMAIN="libcolord"' '-DLOCALSTATEDIR="/var"' -MD -MQ lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -MF lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o.d -o lib/colord/libcolordprivate.so.2.0.5.p/cd-icc.c.o -c ../lib/colord/cd-icc.c
+../lib/colord/cd-icc.c: In function ‘cd_icc_save_data’:
+../lib/colord/cd-icc.c: In function ‘cd_icc_save_data’:
+../lib/colord/cd-icc.c:1723:32: error: passing argument 1 of ‘gmtime_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+../lib/colord/cd-icc.c:1723:32: error: passing argument 1 of ‘gmtime_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 1723 |                 if (!gmtime_r (&priv->creation_time, &creation_time)) {
+ 1723 |                 if (!gmtime_r (&priv->creation_time, &creation_time)) {
+      |                                ^~~~~~~~~~~~~~~~~~~~
+      |                                ^~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                |
+      |                                gint64 * {aka long long int *}
+      |                                gint64 * {aka long long int *}
+In file included from /usr/include/glib-2.0/glib/gtypes.h:41,
+In file included from /usr/include/glib-2.0/glib/gtypes.h:41,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from ../lib/colord/cd-icc.c:30:
+/usr/include/time.h:154:54: note: expected ‘const time_t * restrict’ {aka ‘const long int * restrict’} but argument is of type ‘gint64 *’ {aka ‘long long int *’}
+  154 | extern struct tm *gmtime_r (const time_t *__restrict __timer,
+/usr/include/lcms2.h:1432:37: note: in a call to function ‘cmsAppendNamedColor’
+ 1432 | CMSAPI cmsBool            CMSEXPORT cmsAppendNamedColor(cmsNAMEDCOLORLIST* v, const char* Name,
+ 1432 | CMSAPI cmsBool            CMSEXPORT cmsAppendNamedColor(cmsNAMEDCOLORLIST* v, const char* Name,
+      |                                     ^~~~~~~~~~~~~~~~~~~
+      |                                     ^~~~~~~~~~~~~~~~~~~
+[24/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-device.c.o
+[24/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-device.c.o
+[25/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-profile.c.o
+[25/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-profile.c.o
+[26/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor-sync.c.o
+[26/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor-sync.c.o
+[27/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-client.c.o
+[27/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-client.c.o
+[28/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor.c.o
+[28/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-sensor.c.o
+[29/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-color.c.o
+[29/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-color.c.o
+[30/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-context-lcms.c.o
+[30/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-context-lcms.c.o
+[30/295] Compiling C object lib/colord/libcolord.so.2.0.5.p/cd-context-lcms.c.o
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.58690 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.97user 2.65system 0:03.92elapsed 270%CPU (0avgtext+0avgdata 43328maxresident)k
+7.97user 2.65system 0:03.92elapsed 270%CPU (0avgtext+0avgdata 43328maxresident)k
+7.97user 2.65system 0:03.92elapsed 270%CPU (0avgtext+0avgdata 43328maxresident)k
+0inputs+0outputs (0major+595578minor)pagefaults 0swaps
+0inputs+0outputs (0major+595578minor)pagefaults 0swaps
+0inputs+0outputs (0major+595578minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `colord-1.4.7-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `colord-1.4.7-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `colord-1.4.7-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.02user 3.22system 0:26.97elapsed 30%CPU (0avgtext+0avgdata 138252maxresident)k
+5.02user 3.22system 0:26.97elapsed 30%CPU (0avgtext+0avgdata 138252maxresident)k
+50968inputs+0outputs (0major+325111minor)pagefaults 0swaps

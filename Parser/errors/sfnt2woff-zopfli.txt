@@ -1,0 +1,161 @@
++ cd /usr/src/RPM/BUILD
++ cd sfnt2woff-zopfli-1.3.1
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+cc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Izopfli  \
+	woff.c woff2sfnt.c -o woff2sfnt-zopfli \
+	 zopfli/blocksplitter.c zopfli/cache.c zopfli/deflate.c zopfli/gzip_container.c zopfli/hash.c zopfli/katajainen.c zopfli/lz77.c zopfli/squeeze.c zopfli/tree.c zopfli/util.c zopfli/zlib_container.c zopfli/zopfli_lib.c -lz -lm
+woff.c: In function 'woffEncode':
+woff.c:291:113: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) (sfntData + sourceOffset), sourceLen, &dest, &destLen);
+      |                                                                                                                 ^~~~~~~~
+      |                                                                                                                 |
+      |                                                                                                                 uLong * {aka long unsigned int *}
+In file included from woff.c:45:
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+  138 |   uint32_t tableBase;
+  138 |   uint32_t tableBase;
+      |            ^~~~~~~~~
+woff.c: In function 'rebuildWoff':
+woff.c:412:13: warning: unused variable 'tableData' [-Wunused-variable]
+  412 |   uint8_t * tableData = NULL;
+      |             ^~~~~~~~~
+      |             ^~~~~~~~~
+woff.c: In function 'woffSetMetadata':
+woff.c: In function 'woffSetMetadata':
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  |
+      |                                                                                                  |
+      |                                                                                                  uLong * {aka long unsigned int *}
+      |                                                                                                  uLong * {aka long unsigned int *}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+make: *** [Makefile:33: woff2sfnt-zopfli] Error 1
+make: *** [Makefile:33: woff2sfnt-zopfli] Error 1
+make: *** [Makefile:33: woff2sfnt-zopfli] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Entering directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+cc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Izopfli  \
+cc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Izopfli  \
+	woff.c sfnt2woff.c -o sfnt2woff-zopfli \
+	woff.c sfnt2woff.c -o sfnt2woff-zopfli \
+	 zopfli/blocksplitter.c zopfli/cache.c zopfli/deflate.c zopfli/gzip_container.c zopfli/hash.c zopfli/katajainen.c zopfli/lz77.c zopfli/squeeze.c zopfli/tree.c zopfli/util.c zopfli/zlib_container.c zopfli/zopfli_lib.c -lz -lm
+	 zopfli/blocksplitter.c zopfli/cache.c zopfli/deflate.c zopfli/gzip_container.c zopfli/hash.c zopfli/katajainen.c zopfli/lz77.c zopfli/squeeze.c zopfli/tree.c zopfli/util.c zopfli/zlib_container.c zopfli/zopfli_lib.c -lz -lm
+woff.c: In function 'woffEncode':
+woff.c: In function 'woffEncode':
+woff.c:291:113: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+woff.c:291:113: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) (sfntData + sourceOffset), sourceLen, &dest, &destLen);
+  291 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) (sfntData + sourceOffset), sourceLen, &dest, &destLen);
+      |                                                                                                                 ^~~~~~~~
+      |                                                                                                                 ^~~~~~~~
+      |                                                                                                                 |
+      |                                                                                                                 uLong * {aka long unsigned int *}
+In file included from woff.c:45:
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+  138 |   uint32_t tableBase;
+  138 |   uint32_t tableBase;
+      |            ^~~~~~~~~
+woff.c: In function 'rebuildWoff':
+woff.c:412:13: warning: unused variable 'tableData' [-Wunused-variable]
+  412 |   uint8_t * tableData = NULL;
+      |             ^~~~~~~~~
+      |             ^~~~~~~~~
+woff.c: In function 'woffSetMetadata':
+woff.c: In function 'woffSetMetadata':
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  |
+      |                                                                                                  |
+      |                                                                                                  |
+      |                                                                                                  uLong * {aka long unsigned int *}
+      |                                                                                                  uLong * {aka long unsigned int *}
+      |                                                                                                  uLong * {aka long unsigned int *}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+      |                                          ~~~~~~~~^~~~~~~
+make: *** [Makefile:28: sfnt2woff-zopfli] Error 1
+make: *** [Makefile:28: sfnt2woff-zopfli] Error 1
+make: *** [Makefile:28: sfnt2woff-zopfli] Error 1
+make: *** [Makefile:28: sfnt2woff-zopfli] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.31user 0.45system 0:01.86elapsed 95%CPU (0avgtext+0avgdata 21764maxresident)k
+1.31user 0.45system 0:01.86elapsed 95%CPU (0avgtext+0avgdata 21764maxresident)k
+1.31user 0.45system 0:01.86elapsed 95%CPU (0avgtext+0avgdata 21764maxresident)k
+0inputs+0outputs (0major+73216minor)pagefaults 0swaps
+0inputs+0outputs (0major+73216minor)pagefaults 0swaps
+0inputs+0outputs (0major+73216minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `sfnt2woff-zopfli-1.3.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `sfnt2woff-zopfli-1.3.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `sfnt2woff-zopfli-1.3.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.73user 4.92system 0:20.07elapsed 53%CPU (0avgtext+0avgdata 134140maxresident)k
+5.73user 4.92system 0:20.07elapsed 53%CPU (0avgtext+0avgdata 134140maxresident)k
+264inputs+0outputs (0major+181703minor)pagefaults 0swaps

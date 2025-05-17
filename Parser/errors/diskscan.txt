@@ -1,0 +1,56 @@
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.87865
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd diskscan-0.20
++ find . -name CMakeLists.txt -exec sed -i -re '/^[[:blank:]]*[sS][eE][tT][[:blank:]]*\([[:blank:]]*(CMAKE_BUILD_TYPE|CMAKE_COLOR_MAKEFILE|CMAKE_INSTALL_PREFIX|CMAKE_VERBOSE_MAKEFILE).*\)/{s/^/#IGNORE /}' '{}' +
++ mkdir -p build
++ cd build
++ /usr/bin/cmake /usr/src/RPM/BUILD/diskscan-0.20/. '-GUnix Makefiles' -DCMAKE_INSTALL_PREFIX:PATH=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DCMAKE_BUILD_TYPE=RelWithDebInfo '-DCMAKE_C_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNDEBUG' '-DCMAKE_CXX_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNDEBUG' '-DCMAKE_Fortran_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DNDEBUG' '-DCMAKE_EXE_LINKER_FLAGS=-Wl,--as-needed -Wl,--no-undefined -Wl,-z,now' '-DCMAKE_MODULE_LINKER_FLAGS=-Wl,--as-needed -Wl,--no-undefined -Wl,-z,now' '-DCMAKE_SHARED_LINKER_FLAGS=-Wl,--as-needed -Wl,--no-undefined -Wl,-z,now' -DLIB_SUFFIX=64 -DCMAKE_SKIP_RPATH:BOOL=ON -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_STATIC_LIBS:BOOL=OFF -DCMAKE_COLOR_MAKEFILE:BOOL=OFF -DCMAKE_INSTALL_DO_STRIP:BOOL=OFF -DCMAKE_MODULES_INSTALL_DIR=/usr/share/cmake/Modules
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.87865 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.87865 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.87865 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.87865 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.06user 0.07system 0:00.13elapsed 104%CPU (0avgtext+0avgdata 18628maxresident)k
+0.06user 0.07system 0:00.13elapsed 104%CPU (0avgtext+0avgdata 18628maxresident)k
+0inputs+0outputs (0major+13449minor)pagefaults 0swaps
+0inputs+0outputs (0major+13449minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `diskscan-0.20-alt1_3.11.src.rpm' failed.
+hsh-rebuild: rebuild of `diskscan-0.20-alt1_3.11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.07user 3.37system 0:14.45elapsed 58%CPU (0avgtext+0avgdata 140416maxresident)k
+5.07user 3.37system 0:14.45elapsed 58%CPU (0avgtext+0avgdata 140416maxresident)k
+568inputs+0outputs (0major+308367minor)pagefaults 0swaps

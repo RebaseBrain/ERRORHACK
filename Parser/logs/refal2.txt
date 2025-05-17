@@ -1,0 +1,67 @@
+<86>May 10 06:23:33 userdel[1097909]: delete user 'rooter'
+<86>May 10 06:23:33 userdel[1097909]: removed group 'rooter' owned by 'rooter'
+<86>May 10 06:23:33 userdel[1097909]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 06:23:33 groupadd[1097946]: group added to /etc/group: name=rooter, GID=1817
+<86>May 10 06:23:33 groupadd[1097946]: group added to /etc/gshadow: name=rooter
+<86>May 10 06:23:33 groupadd[1097946]: new group: name=rooter, GID=1817
+<86>May 10 06:23:33 useradd[1097983]: new user: name=rooter, UID=1817, GID=1817, home=/root, shell=/bin/bash, from=none
+<86>May 10 06:23:33 userdel[1098042]: delete user 'builder'
+<86>May 10 06:23:33 userdel[1098042]: removed group 'builder' owned by 'builder'
+<86>May 10 06:23:33 userdel[1098042]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 06:23:33 groupadd[1098095]: group added to /etc/group: name=builder, GID=1818
+<86>May 10 06:23:33 groupadd[1098095]: group added to /etc/gshadow: name=builder
+<86>May 10 06:23:33 groupadd[1098095]: new group: name=builder, GID=1818
+<86>May 10 06:23:33 useradd[1098141]: new user: name=builder, UID=1818, GID=1818, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/refal2-0.2.3-alt4.src.rpm: license not found in '/usr/share/license' directory: BSD-like
+<13>May 10 06:23:36 rpmi: fasm-1.73.30-alt1 sisyphus+302445.100.1.1 1655833761 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/refal2-0.2.3-alt4.nosrc.rpm (w1.gzdio)
+Installing refal2-0.2.3-alt4.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.92945
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf refal2-0.2.3
++ echo 'Source #0 (refal2-0.2.3.tar.gz):'
+Source #0 (refal2-0.2.3.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/refal2-0.2.3.tar.gz
++ /bin/tar -xf -
++ cd refal2-0.2.3
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.92945
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd refal2-0.2.3
++ make FASM=1
+make: Entering directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst1.o src/comp/ccst1.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst2.o src/comp/ccst2.c
+src/comp/ccst2.c:160:1: error: return type defaults to 'int' [-Wimplicit-int]
+  160 | lsg_p() {
+      | ^~~~~
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+  195 | rsg_p() {
+      | ^~~~~
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+  232 | ortgn(n1, n2) short n1, n2; {
+      | ^~~~~
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+Command exited with non-zero status 1
+0.07user 0.06system 0:00.13elapsed 107%CPU (0avgtext+0avgdata 24976maxresident)k
+0inputs+0outputs (0major+11566minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `refal2-0.2.3-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+3.11user 2.49system 0:07.85elapsed 71%CPU (0avgtext+0avgdata 132856maxresident)k
+2392inputs+0outputs (0major+195394minor)pagefaults 0swaps

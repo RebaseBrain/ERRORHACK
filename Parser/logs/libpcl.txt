@@ -1,0 +1,378 @@
+<86>May 16 00:05:55 userdel[3585142]: delete user 'rooter'
+<86>May 16 00:05:55 groupadd[3585183]: group added to /etc/group: name=rooter, GID=1250
+<86>May 16 00:05:55 groupadd[3585183]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:05:55 groupadd[3585183]: new group: name=rooter, GID=1250
+<86>May 16 00:05:55 useradd[3585202]: new user: name=rooter, UID=1250, GID=1250, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:05:55 userdel[3585223]: delete user 'builder'
+<86>May 16 00:05:55 userdel[3585223]: removed group 'builder' owned by 'builder'
+<86>May 16 00:05:55 userdel[3585223]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:05:55 groupadd[3585247]: group added to /etc/group: name=builder, GID=1251
+<86>May 16 00:05:55 groupadd[3585247]: group added to /etc/gshadow: name=builder
+<86>May 16 00:05:55 groupadd[3585247]: new group: name=builder, GID=1251
+<86>May 16 00:05:55 useradd[3585296]: new user: name=builder, UID=1251, GID=1251, home=/usr/src, shell=/bin/bash, from=none
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+warning: user mike does not exist - using root
+warning: group mike does not exist - using root
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/libpcl-1.12-alt2.nosrc.rpm (w1.gzdio)
+Installing libpcl-1.12-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.35171
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pcl-1.12
++ echo 'Source #0 (pcl-1.12.tar.gz):'
+Source #0 (pcl-1.12.tar.gz):
++ /bin/tar -xf /usr/src/RPM/SOURCES/pcl-1.12.tar.gz
++ cd pcl-1.12
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.35171
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pcl-1.12
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext
+configure: WARNING: unrecognized options: --disable-silent-rules, --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ANSI C header files... (cached) yes
+checking for inline... inline
+checking for working volatile... yes
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking for memset... yes
+checking for malloc... yes
+checking for free... yes
+checking for makecontext... yes
+checking for getcontext... yes
+checking for swapcontext... yes
+checking for sigaction... yes
+checking for longjmp... yes
+checking for setjmp... yes
+checking for sigaltstack... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pcl/Makefile
+config.status: creating test/Makefile
+config.status: creating man/Makefile
+config.status: creating include/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-silent-rules, --without-included-gettext
++ make -j8
+make  all-recursive
+Making all in .
+Making all in pcl
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pcl_version.lo pcl_version.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl_version.c  -fPIC -DPIC -o .libs/pcl_version.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl_version.c -o pcl_version.o >/dev/null 2>&1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pcl.lo pcl.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl.c  -fPIC -DPIC -o .libs/pcl.o
+pcl.c: In function 'co_create':
+pcl.c:383:24: warning: unused variable 'r' [-Wunused-variable]
+  383 |         int alloc = 0, r = CO_STK_COROSIZE;
+      |                        ^
+pcl.c: At top level:
+pcl.c:60:12: warning: 'co_ctx_stackdir' defined but not used [-Wunused-function]
+   60 | static int co_ctx_stackdir(void)
+      |            ^~~~~~~~~~~~~~~
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl.c -o pcl.o >/dev/null 2>&1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+/bin/sh ../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pcl_private.lo pcl_private.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl_private.c  -fPIC -DPIC -o .libs/pcl_private.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c pcl_private.c -o pcl_private.o >/dev/null 2>&1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -version-info 1:11:0 -lpthread  -o libpcl.la -rpath /usr/lib64 pcl.lo pcl_version.lo pcl_private.lo  
+libtool: link: x86_64-alt-linux-gcc -shared  .libs/pcl.o .libs/pcl_version.o .libs/pcl_private.o   -lpthread    -Wl,-soname -Wl,libpcl.so.1 -o .libs/libpcl.so.1.0.11
+libtool: link: (cd ".libs" && rm -f "libpcl.so.1" && ln -s "libpcl.so.1.0.11" "libpcl.so.1")
+libtool: link: (cd ".libs" && rm -f "libpcl.so" && ln -s "libpcl.so.1.0.11" "libpcl.so")
+libtool: link: ar cru .libs/libpcl.a  pcl.o pcl_version.o pcl_private.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libpcl.a
+libtool: link: ( cd ".libs" && rm -f "libpcl.la" && ln -s "../libpcl.la" "libpcl.la" )
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+Making all in test
+make[2]: Nothing to be done for 'all'.
+Making all in include
+make[2]: Nothing to be done for 'all'.
+Making all in man
+make[2]: Nothing to be done for 'all'.
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.38414
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/libpcl-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/libpcl-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd pcl-1.12
++ make 'INSTALL=/usr/libexec/rpm-build/install -p' install DESTDIR=/usr/src/tmp/libpcl-buildroot
+make: Entering directory '/usr/src/RPM/BUILD/pcl-1.12'
+Making install in .
+make[1]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12'
+Making install in pcl
+make[1]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+test -z "/usr/lib64" || /usr/bin/mkdir -p "/usr/src/tmp/libpcl-buildroot/usr/lib64"
+ /bin/sh ../libtool   --mode=install /usr/libexec/rpm-build/install -p   libpcl.la '/usr/src/tmp/libpcl-buildroot/usr/lib64'
+libtool: install: /usr/libexec/rpm-build/install -p .libs/libpcl.so.1.0.11 /usr/src/tmp/libpcl-buildroot/usr/lib64/libpcl.so.1.0.11
+libtool: install: (cd /usr/src/tmp/libpcl-buildroot/usr/lib64 && { ln -s -f libpcl.so.1.0.11 libpcl.so.1 || { rm -f libpcl.so.1 && ln -s libpcl.so.1.0.11 libpcl.so.1; }; })
+libtool: install: (cd /usr/src/tmp/libpcl-buildroot/usr/lib64 && { ln -s -f libpcl.so.1.0.11 libpcl.so || { rm -f libpcl.so && ln -s libpcl.so.1.0.11 libpcl.so; }; })
+libtool: install: /usr/libexec/rpm-build/install -p .libs/libpcl.lai /usr/src/tmp/libpcl-buildroot/usr/lib64/libpcl.la
+libtool: install: /usr/libexec/rpm-build/install -p .libs/libpcl.a /usr/src/tmp/libpcl-buildroot/usr/lib64/libpcl.a
+libtool: install: chmod 644 /usr/src/tmp/libpcl-buildroot/usr/lib64/libpcl.a
+libtool: install: ranlib /usr/src/tmp/libpcl-buildroot/usr/lib64/libpcl.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib64'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/pcl'
+Making install in test
+make[1]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+Making install in include
+make[1]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/include'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/include" || /usr/bin/mkdir -p "/usr/src/tmp/libpcl-buildroot/usr/include"
+ /usr/libexec/rpm-build/install -p -m 644 pcl.h '/usr/src/tmp/libpcl-buildroot/usr/include'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/include'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/include'
+Making install in man
+make[1]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/man'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/man/man3" || /usr/bin/mkdir -p "/usr/src/tmp/libpcl-buildroot/usr/share/man/man3"
+ /usr/libexec/rpm-build/install -p -m 644 pcl.3 '/usr/src/tmp/libpcl-buildroot/usr/share/man/man3'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/man'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/man'
+make: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12'
++ rm -f /usr/src/tmp/libpcl-buildroot//usr/lib64/libpcl.la
++ rm -f /usr/src/tmp/libpcl-buildroot//usr/lib64/libpcl.a
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/libpcl-buildroot (auto)
+mode of './usr/lib64/libpcl.so.1.0.11' changed from 0755 (rwxr-xr-x) to 0644 (rw-r--r--)
+Verifying and fixing files in /usr/src/tmp/libpcl-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/libpcl-buildroot/ (default)
+Compressing files in /usr/src/tmp/libpcl-buildroot (auto)
+Adjusting library links in /usr/src/tmp/libpcl-buildroot
+./usr/lib64: (from <cmdline>:0)
+	libpcl.so.1 -> libpcl.so.1.0.11
+Verifying ELF objects in /usr/src/tmp/libpcl-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/libpcl-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.38414
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pcl-1.12
++ make -j8 check
+Making check in .
+Making check in pcl
+make[1]: Nothing to be done for 'check'.
+Making check in test
+make  cobench cothread
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c cothread.c
+cothread.c: In function 'main':
+cothread.c:353:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  353 |                                 nthreads = atoi(argv[i]);
+      |                                            ^~~~
+cothread.c:359:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+cothread.c:9:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    8 | #include <pcl.h>
+  +++ |+#include <stdlib.h>
+    9 | 
+cothread.c:359:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+cothread.c:359:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cothread.c: In function 'test2':
+cothread.c:308:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  308 |                 write(out, buf, n);
+      |                 ^~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:251: cothread.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c cobench.c
+cobench.c: In function 'run_test':
+cobench.c:62:28: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   62 |         fprintf(stdout, "[%p] measuring co_create+co_delete performance ...\n",
+      |                           ~^
+      |                            |
+      |                            void *
+      |                           %ld
+   63 |                 pthread_self());
+      |                 ~~~~~~~~~~~~~~
+      |                 |
+      |                 pthread_t {aka long unsigned int}
+cobench.c:78:28: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   78 |         fprintf(stdout, "[%p] %g usec\n", pthread_self(),
+      |                           ~^              ~~~~~~~~~~~~~~
+      |                            |              |
+      |                            void *         pthread_t {aka long unsigned int}
+      |                           %ld
+cobench.c:83:36: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   83 |                 fprintf(stdout, "[%p] measuring switch performance ...\n",
+      |                                   ~^
+      |                                    |
+      |                                    void *
+      |                                   %ld
+   84 |                         pthread_self());
+      |                         ~~~~~~~~~~~~~~
+      |                         |
+      |                         pthread_t {aka long unsigned int}
+cobench.c:96:36: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   96 |                 fprintf(stdout, "[%p] %g usec\n", pthread_self(),
+      |                                   ~^              ~~~~~~~~~~~~~~
+      |                                    |              |
+      |                                    void *         pthread_t {aka long unsigned int}
+      |                                   %ld
+cobench.c: In function 'main':
+cobench.c:125:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  125 |                                 nthreads = atoi(argv[i]);
+      |                                            ^~~~
+cobench.c:131:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+cobench.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   29 | #include <pcl.h>
+  +++ |+#include <stdlib.h>
+   30 | 
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+make[2]: *** [Makefile:251: cobench.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[1]: *** [Makefile:356: check-am] Error 2
+make: *** [Makefile:289: check-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+Command exited with non-zero status 1
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+0inputs+0outputs (0major+488234minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libpcl-1.12-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+0.96user 1.89system 0:13.80elapsed 20%CPU (0avgtext+0avgdata 12248maxresident)k
+0inputs+0outputs (0major+84188minor)pagefaults 0swaps

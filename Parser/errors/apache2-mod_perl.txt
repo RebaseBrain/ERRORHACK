@@ -1,0 +1,119 @@
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_constants.c && mv modperl_constants.o modperl_constants.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+/usr/bin/perl "/usr/share/perl5/ExtUtils/xsubpp"  -typemap '/usr/share/perl5/ExtUtils/typemap' -typemap '/usr/src/RPM/BUILD/mod_perl-2.0.13/xs/typemap'  Base64.xs > Base64.xsc
+/usr/bin/perl "/usr/share/perl5/ExtUtils/xsubpp"  -typemap '/usr/share/perl5/ExtUtils/typemap' -typemap '/usr/src/RPM/BUILD/mod_perl-2.0.13/xs/typemap'  Base64.xs > Base64.xsc
+mv Base64.xsc Base64.c
+mv Base64.xsc Base64.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_common_util.c && mv modperl_common_util.o modperl_common_util.lo
+-c modperl_common_util.c && mv modperl_common_util.o modperl_common_util.lo
+modperl_common_util.c:57:53: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+modperl_common_util.c:57:53: error: initialization of 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, I32)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, long int)'} from incompatible pointer type 'int (*)(PerlInterpreter *, SV *, MAGIC *, SV *, const char *, int)' {aka 'int (*)(struct interpreter *, struct sv *, struct magic *, struct sv *, const char *, int)'} [-Wincompatible-pointer-types]
+   57 |                                                     modperl_table_magic_copy};
+   57 |                                                     modperl_table_magic_copy};
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~
+modperl_common_util.c:57:53: note: (near initialization for 'modperl_table_magic_prefetch.svt_copy')
+modperl_common_util.c:57:53: note: (near initialization for 'modperl_table_magic_prefetch.svt_copy')
+make[1]: *** [Makefile:114: modperl_common_util.lo] Error 1
+make[1]: *** [Makefile:114: modperl_common_util.lo] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_debug.c && mv modperl_debug.o modperl_debug.lo
+-c modperl_debug.c && mv modperl_debug.o modperl_debug.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_common_log.c && mv modperl_common_log.o modperl_common_log.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+-c modperl_directives.c && mv modperl_directives.o modperl_directives.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_flags.c && mv modperl_flags.o modperl_flags.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make[1]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+gcc -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/lib/perl5/CORE -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_LARGEFILE64_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC \
+-c modperl_exports.c && mv modperl_exports.o modperl_exports.lo
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl'
+make: *** [Makefile:447: modperl_lib] Error 2
+make: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+gcc -c -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2  -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"0.009000\" -DXS_VERSION=\"0.009000\" -fPIC "-I/usr/lib/perl5/CORE" -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS  -DMP_HAVE_APR_LIBS Base64.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Base64'
+rm -f ../../../blib/arch/auto/APR/Base64/Base64.so
+gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Base64.o -fstack-protector-strong -L/usr/local/lib -o ../../../blib/arch/auto/APR/Base64/Base64.so  \
+      \
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+chmod 755 ../../../blib/arch/auto/APR/Base64/Base64.so
+gcc -c -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2  -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"0.009000\" -DXS_VERSION=\"0.009000\" -fPIC "-I/usr/lib/perl5/CORE" -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS  -DMP_HAVE_APR_LIBS Date.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Date'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Date'
+rm -f ../../../blib/arch/auto/APR/Date/Date.so
+gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Date.o -fstack-protector-strong -L/usr/local/lib -o ../../../blib/arch/auto/APR/Date/Date.so  \
+      \
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+chmod 755 ../../../blib/arch/auto/APR/Date/Date.so
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Date'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+Running Mkbootstrap for Error ()
+chmod 644 "Error.bs"
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+/usr/bin/perl -MExtUtils::Command::MM -e 'cp_nonempty' -- Error.bs ../../../blib/arch/auto/APR/Error/Error.bs 644
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+cp Error.pm ../../../blib/lib/APR/Error.pm
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/APR/Error'
+/usr/bin/perl "/usr/share/perl5/ExtUtils/xsubpp"  -typemap '/usr/share/perl5/ExtUtils/typemap' -typemap '/usr/src/RPM/BUILD/mod_perl-2.0.13/xs/typemap'  Error.xs > Error.xsc
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/ModPerl/Util'
+gcc -c -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2  -I/usr/src/RPM/BUILD/mod_perl-2.0.13/src/modules/perl -I/usr/src/RPM/BUILD/mod_perl-2.0.13/xs -I/usr/include/apr-1 -I/usr/include/apu-1  -I/usr/include/apache2 -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DMOD_PERL -DMP_COMPAT_1X -fgnu89-inline -DLINUX -D_REENTRANT -D_GNU_SOURCE -D_LARGEFILE64_SOURCE  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic   -DVERSION=\"2.000013\" -DXS_VERSION=\"2.000013\" -fPIC "-I/usr/lib/perl5/CORE" -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS -DMP_HAVE_APR_LIBS  -DMP_HAVE_APR_LIBS Util.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/ModPerl/Util'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/ModPerl/Util'
+rm -f ../../../blib/arch/auto/ModPerl/Util/Util.so
+gcc  -shared -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -L/usr/local/lib -fstack-protector-strong  Util.o -fstack-protector-strong -L/usr/local/lib -o ../../../blib/arch/auto/ModPerl/Util/Util.so  \
+      \
+   -L/usr/lib/perl5/CORE -lperl -lpthread
+chmod 755 ../../../blib/arch/auto/ModPerl/Util/Util.so
+chmod 755 ../../../blib/arch/auto/ModPerl/Util/Util.so
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/ModPerl/Util'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mod_perl-2.0.13/WrapXS/ModPerl/Util'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51599 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51599 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.51599 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.51599 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+45.92user 13.06system 0:36.01elapsed 163%CPU (0avgtext+0avgdata 67556maxresident)k
+45.92user 13.06system 0:36.01elapsed 163%CPU (0avgtext+0avgdata 67556maxresident)k
+0inputs+0outputs (0major+3296741minor)pagefaults 0swaps
+0inputs+0outputs (0major+3296741minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `apache2-mod_perl-2.0.13-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `apache2-mod_perl-2.0.13-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.55user 3.23system 0:50.40elapsed 15%CPU (0avgtext+0avgdata 135248maxresident)k
+4.55user 3.23system 0:50.40elapsed 15%CPU (0avgtext+0avgdata 135248maxresident)k
+4664inputs+0outputs (0major+322890minor)pagefaults 0swaps

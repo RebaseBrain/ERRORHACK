@@ -1,0 +1,77 @@
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/yajl-2.1.0/src/api/yajl_common.h /usr/src/RPM/BUILD/yajl-2.1.0/x86_64-alt-linux/src/../yajl-2.1.0/include/yajl  2>&1
+CMake Warning (dev) at src/CMakeLists.txt:70 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/yajl-2.1.0/src/api/yajl_tree.h /usr/src/RPM/BUILD/yajl-2.1.0/x86_64-alt-linux/src/../yajl-2.1.0/include/yajl  2>&1
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/yajl-2.1.0/src/api/yajl_tree.h /usr/src/RPM/BUILD/yajl-2.1.0/x86_64-alt-linux/src/../yajl-2.1.0/include/yajl  2>&1
+CMake Error at reformatter/CMakeLists.txt:38 (GET_TARGET_PROPERTY):
+CMake Error at reformatter/CMakeLists.txt:38 (GET_TARGET_PROPERTY):
+  The LOCATION property may not be read from target "json_reformat".  Use the
+  The LOCATION property may not be read from target "json_reformat".  Use the
+  target name directly with add_custom_command, or use the generator
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+  expression $<TARGET_FILE>, as appropriate.
+
+
+
+
+
+
+
+CMake Error at verify/CMakeLists.txt:32 (GET_TARGET_PROPERTY):
+CMake Error at verify/CMakeLists.txt:32 (GET_TARGET_PROPERTY):
+CMake Error at verify/CMakeLists.txt:32 (GET_TARGET_PROPERTY):
+  The LOCATION property may not be read from target "json_verify".  Use the
+  The LOCATION property may not be read from target "json_verify".  Use the
+  The LOCATION property may not be read from target "json_verify".  Use the
+  target name directly with add_custom_command, or use the generator
+  target name directly with add_custom_command, or use the generator
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+  expression $<TARGET_FILE>, as appropriate.
+  expression $<TARGET_FILE>, as appropriate.
+
+
+
+
+
+
+!! doxygen not found, not generating documentation
+!! doxygen not found, not generating documentation
+!! doxygen not found, not generating documentation
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58229 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58229 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.58229 (%build)
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.58229 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.58229 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.16user 0.24system 0:00.40elapsed 102%CPU (0avgtext+0avgdata 22912maxresident)k
+0.16user 0.24system 0:00.40elapsed 102%CPU (0avgtext+0avgdata 22912maxresident)k
+0inputs+0outputs (0major+50620minor)pagefaults 0swaps
+0inputs+0outputs (0major+50620minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `yajl-2.1.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `yajl-2.1.0-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.22user 3.12system 0:11.37elapsed 64%CPU (0avgtext+0avgdata 141916maxresident)k
+4.22user 3.12system 0:11.37elapsed 64%CPU (0avgtext+0avgdata 141916maxresident)k
+0inputs+0outputs (0major+293228minor)pagefaults 0swaps

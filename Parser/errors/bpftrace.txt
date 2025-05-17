@@ -1,0 +1,98 @@
+[92m[       OK ] [0mbtf.tracepoint_nested_pointer_type_resolution (8347 ms)
+[92m[ RUN      ] [0mbtf.tracepoint_pointer_type_resolution
+[92m[ RUN      ] [0mbtf.tracepoint_pointer_type_resolution
+[92m[       OK ] [0mbtf.tracepoint_pointer_type_resolution (8304 ms)
+[92m[       OK ] [0mbtf.tracepoint_pointer_type_resolution (8304 ms)
+[92m[ RUN      ] [0mbtf.user_supplied_c_def_using_btf
+[92m[ RUN      ] [0mbtf.user_supplied_c_def_using_btf
+[92m[       OK ] [0mbtf.user_supplied_c_def_using_btf (5877 ms)
+[92m[       OK ] [0mbtf.user_supplied_c_def_using_btf (5877 ms)
+[92m[----------][0m 14 tests from btf
+[92m[----------][0m 14 tests from btf
+
+
+[92m[----------][0m 29 tests from builtin
+[92m[----------][0m 29 tests from builtin
+[92m[ RUN      ] [0mbuiltin.cat
+[92m[ RUN      ] [0mbuiltin.cat
+[92m[       OK ] [0mbuiltin.cat (2294 ms)
+[92m[       OK ] [0mbuiltin.cat (2294 ms)
+[92m[ RUN      ] [0mbuiltin.cat "no such file"
+[92m[ RUN      ] [0mbuiltin.cat "no such file"
+[92m[       OK ] [0mbuiltin.cat "no such file" (2331 ms)
+[92m[       OK ] [0mbuiltin.cat "no such file" (2331 ms)
+[92m[ RUN      ] [0mbuiltin.cat format str
+[92m[ RUN      ] [0mbuiltin.cat format str
+[92m[       OK ] [0mbuiltin.cat format str (2314 ms)
+[92m[       OK ] [0mbuiltin.cat format str (2314 ms)
+[92m[ RUN      ] [0mbuiltin.cat limited output
+[92m[ RUN      ] [0mbuiltin.cat limited output
+[92m[       OK ] [0mbuiltin.cat limited output (2122 ms)
+[92m[       OK ] [0mbuiltin.cat limited output (2122 ms)
+[92m[ RUN      ] [0mbuiltin.cgroup
+[92m[ RUN      ] [0mbuiltin.cgroup
+[92m[       OK ] [0mbuiltin.cgroup (2300 ms)
+[92m[       OK ] [0mbuiltin.cgroup (2300 ms)
+[92m[ RUN      ] [0mbuiltin.comm
+[92m[ RUN      ] [0mbuiltin.comm
+[92m[       OK ] [0mbuiltin.comm (2310 ms)
+[92m[       OK ] [0mbuiltin.comm (2310 ms)
+[92m[ RUN      ] [0mbuiltin.cpu
+[92m[ RUN      ] [0mbuiltin.cpu
+[92m[       OK ] [0mbuiltin.cpu (2381 ms)
+[94m[   SKIP   ][0m btf.kernel_module_tracepoint (unmet condition: 'lsmod | grep "^xfs"')
+[94m[   SKIP   ][0m btf.kernel_module_type_fwd (unmet condition: 'lsmod | grep '^kvm'')
+[94m[   SKIP   ][0m btf.kernel_module_types (unmet condition: 'lsmod | grep '^nf_tables' && nft --help')
+[94m[   SKIP   ][0m btf.kprobe_kernel_module_type_fwd (unmet condition: 'lsmod | grep '^kvm'')
+[94m[   SKIP   ][0m call.cgroup_path (unmet condition: 'grep -q '^cgroup2' /proc/mounts')
+[94m[   SKIP   ][0m call.cgroup_path (unmet condition: 'grep -q '^cgroup2' /proc/mounts')
+[94m[   SKIP   ][0m call.cgroup_path printf (unmet condition: 'grep -q '^cgroup2' /proc/mounts')
+[94m[   SKIP   ][0m call.cgroup_path printf (unmet condition: 'grep -q '^cgroup2' /proc/mounts')
+[94m[   SKIP   ][0m call.nsecs_tai (missed feature: 'get_tai_ns')
+[94m[   SKIP   ][0m call.nsecs_tai (missed feature: 'get_tai_ns')
+[94m[   SKIP   ][0m dwarf.kprobe inlined function (missed feature: 'dwarf,kernel_dwarf')
+[94m[   SKIP   ][0m dwarf.kprobe inlined function (missed feature: 'dwarf,kernel_dwarf')
+[94m[   SKIP   ][0m probe.kprobe_offset_module (unmet condition: 'lsmod | grep '^nf_tables' && nft --help && test -d /mnt/vmtest')
+[94m[   SKIP   ][0m probe.kprobe_offset_module (unmet condition: 'lsmod | grep '^nf_tables' && nft --help && test -d /mnt/vmtest')
+[94m[   SKIP   ][0m probe.kprobe_offset_module_error (unmet condition: 'lsmod | grep '^nf_tables'')
+[94m[   SKIP   ][0m probe.kprobe_offset_module_error (unmet condition: 'lsmod | grep '^nf_tables'')
+[91m[  FAILED  ][0m 1 tests, listed below:
+[91m[  FAILED  ][0m 1 tests, listed below:
+[91m[  TIMEOUT ][0m call.printf_enum_symbolize_tracepoint
+[91m[  TIMEOUT ][0m call.printf_enum_symbolize_tracepoint
+404.26user 859.07system 11:39.78elapsed 180%CPU (0avgtext+0avgdata 3544008maxresident)k
+404.26user 859.07system 11:39.78elapsed 180%CPU (0avgtext+0avgdata 3544008maxresident)k
+404.26user 859.07system 11:39.78elapsed 180%CPU (0avgtext+0avgdata 3544008maxresident)k
+0inputs+0outputs (0major+12830minor)pagefaults 0swaps
+0inputs+0outputs (0major+12830minor)pagefaults 0swaps
+0inputs+0outputs (0major+12830minor)pagefaults 0swaps
+error: Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.3822 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1271.30user 900.07system 16:15.27elapsed 222%CPU (0avgtext+0avgdata 3544008maxresident)k
+1271.30user 900.07system 16:15.27elapsed 222%CPU (0avgtext+0avgdata 3544008maxresident)k
+1271.30user 900.07system 16:15.27elapsed 222%CPU (0avgtext+0avgdata 3544008maxresident)k
+0inputs+0outputs (0major+7797790minor)pagefaults 0swaps
+0inputs+0outputs (0major+7797790minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `bpftrace-0.23.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `bpftrace-0.23.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+11.86user 4.16system 18:42.83elapsed 1%CPU (0avgtext+0avgdata 142116maxresident)k
+11.86user 4.16system 18:42.83elapsed 1%CPU (0avgtext+0avgdata 142116maxresident)k
+2103784inputs+0outputs (0major+373923minor)pagefaults 0swaps

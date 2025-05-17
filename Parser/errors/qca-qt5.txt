@@ -1,0 +1,56 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:19 (cmake_policy):
+  Policy CMP0042 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0042 for more information.
+
+
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+Binary will be installed to /usr/share/qt5/bin
+Library will be installed to /usr/lib64
+Public headers will be installed to /usr/include/qt5/Qca-qt5
+Private headers will be installed to /usr/include/qt5/Qca-qt5
+Feature file will be installed to /usr/lib64/qt5/mkspecs/features
+Documentation will be installed to /usr/share/doc/qt5/html/qca
+Man page will be installed to /usr/share/man
+Pkg-config file will be installed to /usr/lib64/pkgconfig
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13089 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.13089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.13089 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.04user 2.28system 0:05.49elapsed 78%CPU (0avgtext+0avgdata 23848maxresident)k
+2.04user 2.28system 0:05.49elapsed 78%CPU (0avgtext+0avgdata 23848maxresident)k
+0inputs+0outputs (0major+283063minor)pagefaults 0swaps
+0inputs+0outputs (0major+283063minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `qca-qt5-2.3.8-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `qca-qt5-2.3.8-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.51user 7.82system 0:45.55elapsed 38%CPU (0avgtext+0avgdata 144464maxresident)k
+9.51user 7.82system 0:45.55elapsed 38%CPU (0avgtext+0avgdata 144464maxresident)k
+7984inputs+0outputs (0major+327024minor)pagefaults 0swaps

@@ -1,0 +1,1232 @@
+            """
+            _, stderr = check_subprocess_call(
+                [sys.executable, "-c", code], timeout=55
+            )
+    
+>           _assert_no_error(stderr)
+
+tests/_test_process_executor.py:157: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+stderr = 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n'
+
+    def _assert_no_error(stderr):
+    def _assert_no_error(stderr):
+        if sys.platform == "darwin":
+        if sys.platform == "darwin":
+        if sys.platform == "darwin":
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # implementation.
+            # implementation.
+            # implementation.
+            stderr = "\n".join(
+            stderr = "\n".join(
+            stderr = "\n".join(
+                line
+                line
+                line
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+            )
+            )
+            )
+            )
+            )
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f3555dc5bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f116f465bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f34af565bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f515c935bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+
+
+tests/_test_process_executor.py:98: AssertionError
+tests/_test_process_executor.py:98: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+---------------------------- Captured stderr setup -----------------------------
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886472900608 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886472900608 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886472896512 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886472896512 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886472892416 and name "None"
+        """
+        stdout, stderr = check_subprocess_call(
+            [sys.executable, "-c", code], timeout=55
+        )
+    
+>       _assert_no_error(stderr)
+
+tests/_test_process_executor.py:408: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+stderr = 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n'
+
+    def _assert_no_error(stderr):
+    def _assert_no_error(stderr):
+        if sys.platform == "darwin":
+        if sys.platform == "darwin":
+        if sys.platform == "darwin":
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # On macOS, ignore UserWarning related to their broken semaphore
+            # implementation.
+            # implementation.
+            # implementation.
+            stderr = "\n".join(
+            stderr = "\n".join(
+            stderr = "\n".join(
+                line
+                line
+                line
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                for line in stderr.splitlines()
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+                if "increase its maximal value" not in line
+            )
+            )
+            )
+            )
+            )
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+>       assert len(stderr) == 0, stderr
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       AssertionError: Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7f71cf82dbc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fce8a815bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Exception ignored in: <function ResourceTracker.__del__ at 0x7fd62f435bc0>
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E       Traceback (most recent call last):
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E         File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+E       ChildProcessError: [Errno 10] No child processes
+
+
+tests/_test_process_executor.py:98: AssertionError
+tests/_test_process_executor.py:98: AssertionError
+---------------------------- Captured stderr setup -----------------------------
+---------------------------- Captured stderr setup -----------------------------
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886471827456 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886471827456 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886471823360 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886471823360 and name "None"
+[DEBUG:MainProcess:MainThread] created semlock with handle 139886471819264 and name "None"
+[INFO:LokyProcess-446:MainThread] process shutting down
+[DEBUG:LokyProcess-442:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-442:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-446:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:LokyProcess-446:MainThread] running all "atexit" finalizers with priority >= 0
+[INFO:LokyProcess-443:MainThread] process shutting down
+[INFO:LokyProcess-443:MainThread] process shutting down
+[DEBUG:LokyProcess-443:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:LokyProcess-443:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:LokyProcess-446:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-446:MainThread] running the remaining "atexit" finalizers
+[INFO:LokyProcess-442:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-442:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-442:MainThread] process exiting with exitcode 0
+[DEBUG:LokyProcess-443:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-443:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-443:MainThread] running the remaining "atexit" finalizers
+[DEBUG:LokyProcess-443:MainThread] running the remaining "atexit" finalizers
+[INFO:LokyProcess-446:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-446:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-446:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-446:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-443:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-443:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-443:MainThread] process exiting with exitcode 0
+[INFO:LokyProcess-443:MainThread] process exiting with exitcode 0
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fd675745bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7fb879f69bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f7035a8dbc0>
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f120f8f1bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Exception ignored in: <function ResourceTracker.__del__ at 0x7f80eb815bc0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 77, in __del__
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 86, in _stop
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+  File "/usr/lib64/python3.12/multiprocessing/resource_tracker.py", line 111, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+ChildProcessError: [Errno 10] No child processes
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-445 with pid 926810
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-445 with pid 926810
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-444 with pid 926805
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-444 with pid 926805
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-443 with pid 926802
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-443 with pid 926802
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-442 with pid 926801
+[DEBUG:MainProcess:ExecutorManagerThread] joining process LokyProcess-442 with pid 926801
+[DEBUG:MainProcess:ExecutorManagerThread] executor management thread clean shutdown of 5 workers
+[DEBUG:MainProcess:ExecutorManagerThread] executor management thread clean shutdown of 5 workers
+_ TestResourceTracker.test_loky_process_inherit_multiprocessing_resource_tracker _
+            # parent should not generate warnings.
+            shm = SharedMemory(create=True, size=10)
+            shm = SharedMemory(create=True, size=10)
+            f = executor.submit(shm.unlink).result()
+            f = executor.submit(shm.unlink).result()
+    
+    
+        """
+        """
+        p = subprocess.run(
+        p = subprocess.run(
+            [sys.executable, "-c", cmd], capture_output=True, text=True
+            [sys.executable, "-c", cmd], capture_output=True, text=True
+        )
+        )
+        assert not p.stdout
+        assert not p.stdout
+>       assert not p.stderr
+>       assert not p.stderr
+E       assert not 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f1d32dfdc60>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n'
+E       assert not 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f1d32dfdc60>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n'
+E        +  where 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f1d32dfdc60>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n' = CompletedProcess(args=['/usr/src/RPM/BUILD/python3-module-loky-3.5.1/.run_venv/bin/python3', '-c', "if 1:\n        fro...2/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n').stderr
+E        +  where 'Exception ignored in: <function ResourceTracker.__del__ at 0x7f1d32dfdc60>\nTraceback (most recent call last):\n  Fil...12/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n' = CompletedProcess(args=['/usr/src/RPM/BUILD/python3-module-loky-3.5.1/.run_venv/bin/python3', '-c', "if 1:\n        fro...2/multiprocessing/resource_tracker.py", line 111, in _stop_locked\nChildProcessError: [Errno 10] No child processes\n').stderr
+
+
+tests/test_resource_tracker.py:330: AssertionError
+tests/test_resource_tracker.py:330: AssertionError
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+SKIPPED [1] tests/utils.py:174: Test requires parallel_sum to be compiled
+SKIPPED [1] tests/utils.py:174: Test requires parallel_sum to be compiled
+SKIPPED [2] tests/test_loky_backend.py:719: could not import 'psutil': No module named 'psutil'
+SKIPPED [2] tests/test_loky_backend.py:719: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_loky_module.py:60: Windows specific test
+SKIPPED [1] tests/test_loky_module.py:60: Windows specific test
+SKIPPED [1] tests/test_loky_module.py:78: Skipped
+SKIPPED [1] tests/test_loky_module.py:78: Skipped
+SKIPPED [1] tests/test_loky_module.py:114: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_loky_module.py:114: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_loky_module.py:138: docker is required to run this test
+SKIPPED [1] tests/test_loky_module.py:138: docker is required to run this test
+SKIPPED [1] tests/test_loky_module.py:199: Skipped
+SKIPPED [2] tests/_test_process_executor.py:1105: Only work with loky context
+SKIPPED [3] tests/_test_process_executor.py:1119: could not import 'viztracer': No module named 'viztracer'
+SKIPPED [3] tests/_test_process_executor.py:1119: could not import 'viztracer': No module named 'viztracer'
+SKIPPED [3] tests/_test_process_executor.py:1149: could not import 'viztracer': No module named 'viztracer'
+SKIPPED [3] tests/_test_process_executor.py:1149: could not import 'viztracer': No module named 'viztracer'
+SKIPPED [3] tests/_test_process_executor.py:1149: could not import 'viztracer': No module named 'viztracer'
+SKIPPED [3] tests/_test_process_executor.py:1179: could not import 'tblib.pickling_support': No module named 'tblib'
+SKIPPED [3] tests/_test_process_executor.py:1179: could not import 'tblib.pickling_support': No module named 'tblib'
+SKIPPED [3] tests/_test_process_executor.py:1179: could not import 'tblib.pickling_support': No module named 'tblib'
+SKIPPED [3] tests/_test_process_executor.py:1179: could not import 'tblib.pickling_support': No module named 'tblib'
+SKIPPED [3] tests/_test_process_executor.py:1206: Cannot test without _testcapi module
+SKIPPED [3] tests/_test_process_executor.py:1206: Cannot test without _testcapi module
+SKIPPED [3] tests/_test_process_executor.py:1206: Cannot test without _testcapi module
+SKIPPED [3] tests/_test_process_executor.py:1206: Cannot test without _testcapi module
+SKIPPED [4] tests/test_reusable_executor.py:376: could not import 'psutil': No module named 'psutil'
+SKIPPED [4] tests/test_reusable_executor.py:376: could not import 'psutil': No module named 'psutil'
+SKIPPED [4] tests/test_reusable_executor.py:376: could not import 'psutil': No module named 'psutil'
+SKIPPED [4] tests/test_reusable_executor.py:376: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:459: requires numpy
+SKIPPED [1] tests/test_reusable_executor.py:459: requires numpy
+SKIPPED [1] tests/test_reusable_executor.py:459: requires numpy
+SKIPPED [1] tests/test_reusable_executor.py:459: requires numpy
+SKIPPED [1] tests/test_reusable_executor.py:492: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:492: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:492: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:492: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:587: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:587: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:587: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:587: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:587: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+SKIPPED [1] tests/test_reusable_executor.py:646: could not import 'psutil': No module named 'psutil'
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_interpreter_shutdown
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_process_executor_loky.py::TestsProcessPoolLokyShutdown::test_hang_issue39205
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+FAILED tests/test_resource_tracker.py::TestResourceTracker::test_loky_process_inherit_multiprocessing_resource_tracker
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+============ 3 failed, 277 passed, 39 skipped in 172.53s (0:02:52) =============
+[INFO:MainProcess:MainThread] process shutting down
+[INFO:MainProcess:MainThread] process shutting down
+[INFO:MainProcess:MainThread] process shutting down
+[INFO:MainProcess:MainThread] process shutting down
+[INFO:MainProcess:MainThread] process shutting down
+[INFO:MainProcess:MainThread] process shutting down
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running all "atexit" finalizers with priority >= 0
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+[DEBUG:MainProcess:MainThread] running the remaining "atexit" finalizers
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '--skip-high-memory', '-ra']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-loky-3.5.1-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-loky-3.5.1-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-loky-3.5.1-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-loky-3.5.1-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84151 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+172.92user 27.84system 2:55.98elapsed 114%CPU (0avgtext+0avgdata 58084maxresident)k
+172.92user 27.84system 2:55.98elapsed 114%CPU (0avgtext+0avgdata 58084maxresident)k
+172.92user 27.84system 2:55.98elapsed 114%CPU (0avgtext+0avgdata 58084maxresident)k
+0inputs+0outputs (0major+6004084minor)pagefaults 0swaps
+0inputs+0outputs (0major+6004084minor)pagefaults 0swaps
+0inputs+0outputs (0major+6004084minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-loky-3.5.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-loky-3.5.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-loky-3.5.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.90user 2.53system 3:11.68elapsed 4%CPU (0avgtext+0avgdata 142176maxresident)k
+0inputs+0outputs (0major+281986minor)pagefaults 0swaps

@@ -1,0 +1,140 @@
+-- Found GLEW: /usr/include
+-- Found SDL2: /usr/lib64/libSDL2.so
+-- Could NOT find OpenAL (missing: OPENAL_LIBRARY OPENAL_INCLUDE_DIR) 
+-- CMAKE_SYSTEM_NAME Linux
+-- CMAKE_SYSTEM_PROCESSOR x86_64
+-- Looking for linux/joystick.h
+Problem opening /proc/meminfo
+-- Looking for linux/joystick.h - found
+-- Performing Test LINUX_CDROM_H_OK
+Problem opening /proc/meminfo
+-- Performing Test LINUX_CDROM_H_OK - Failed
+-- Qt5 Found
+-- Configuring done (2.6s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_FLAGS
+    INCLUDE_INSTALL_DIR
+    LIB_DESTINATION
+    LIB_INSTALL_DIR
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+gmake[2]: *** [src/CMakeFiles/m68kmake.dir/build.make:92: src/m68kmake-prefix/src/m68kmake-stamp/m68kmake-configure] Error 1
+gmake[2]: *** [src/CMakeFiles/m68kmake.dir/build.make:92: src/m68kmake-prefix/src/m68kmake-stamp/m68kmake-configure] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:244: src/CMakeFiles/m68kmake.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:244: src/CMakeFiles/m68kmake.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+[ 22%] Building C object src/tools/libchdr/CMakeFiles/chdr-static.dir/src/chd.c.o
+[ 22%] Building C object src/tools/libchdr/CMakeFiles/chdr-static.dir/src/chd.c.o
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cc -DFLAC__NO_DLL -DIMPROVED_SAVESTATES -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/bios/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/vdp1/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/vdp2/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/sh2/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/scu/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/scsp/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/smpc/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/memory/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/utils/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/core/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/compute_shader/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/common/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/soft -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sh2/sh2_kronos/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/mac -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/linux -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/sdl -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/common -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/linux -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/windows -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/dummy -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sound/al -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sound/sdl -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/ctrl/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/ctrl/threads -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/junzip -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/osd/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/m68k -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/crypto -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/flac-1.3.2/src/libFLAC/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/lzma-16.04/C -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/zlib-1.2.11 -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr/deps/zlib-1.2.11 -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/flac-1.3.2/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -DNDEBUG -MD -MT src/tools/libchdr/CMakeFiles/chdr-static.dir/src/chd.c.o -MF CMakeFiles/chdr-static.dir/src/chd.c.o.d -o CMakeFiles/chdr-static.dir/src/chd.c.o -c /usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cc -DFLAC__NO_DLL -DIMPROVED_SAVESTATES -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/bios/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/vdp1/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/vdp2/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/sh2/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/scu/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/scsp/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/smpc/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/sys/memory/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/utils/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/core/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/compute_shader/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/opengl/common/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/video/soft -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sh2/sh2_kronos/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/mac -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/linux -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/sdl -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/peripheral/common -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/linux -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/windows -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/net/dummy -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sound/al -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/sound/sdl -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/ctrl/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/ctrl/threads -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/junzip -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/osd/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/core/m68k -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/crypto -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/flac-1.3.2/src/libFLAC/include -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/lzma-16.04/C -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/zlib-1.2.11 -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr/deps/zlib-1.2.11 -I/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/deps/flac-1.3.2/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -DNDEBUG -MD -MT src/tools/libchdr/CMakeFiles/chdr-static.dir/src/chd.c.o -MF CMakeFiles/chdr-static.dir/src/chd.c.o.d -o CMakeFiles/chdr-static.dir/src/chd.c.o -c /usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c
+/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c: In function 'chd_open':
+/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c: In function 'chd_open':
+/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c:1451:16: warning: unused variable 'openflags' [-Wunused-variable]
+/usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c:1451:16: warning: unused variable 'openflags' [-Wunused-variable]
+ 1451 |         UINT32 openflags;
+ 1451 |         UINT32 openflags;
+      |                ^~~~~~~~~
+      |                ^~~~~~~~~
+In file included from /usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.h:49,
+                 from /usr/src/RPM/BUILD/kronos-2.6.2/yabause/src/tools/libchdr/src/chd.c:45:
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+[ 23%] Linking C static library libchdr-static.a
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cmake -P CMakeFiles/chdr-static.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cmake -P CMakeFiles/chdr-static.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cmake -E cmake_link_script CMakeFiles/chdr-static.dir/link.txt --verbose=1
+cd /usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux/src/tools/libchdr && /usr/bin/cmake -E cmake_link_script CMakeFiles/chdr-static.dir/link.txt --verbose=1
+/usr/bin/ar qc libchdr-static.a "CMakeFiles/chdr-static.dir/src/bitstream.c.o" "CMakeFiles/chdr-static.dir/src/cdrom.c.o" "CMakeFiles/chdr-static.dir/src/chd.c.o" "CMakeFiles/chdr-static.dir/src/flac.c.o" "CMakeFiles/chdr-static.dir/src/huffman.c.o"
+/usr/bin/ar qc libchdr-static.a "CMakeFiles/chdr-static.dir/src/bitstream.c.o" "CMakeFiles/chdr-static.dir/src/cdrom.c.o" "CMakeFiles/chdr-static.dir/src/chd.c.o" "CMakeFiles/chdr-static.dir/src/flac.c.o" "CMakeFiles/chdr-static.dir/src/huffman.c.o"
+/usr/bin/ranlib libchdr-static.a
+/usr/bin/ranlib libchdr-static.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+[ 23%] Built target chdr-static
+[ 23%] Built target chdr-static
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/kronos-2.6.2/yabause/x86_64-alt-linux'
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+
+
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.46290 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.83user 3.95system 0:03.79elapsed 231%CPU (0avgtext+0avgdata 30980maxresident)k
+4.83user 3.95system 0:03.79elapsed 231%CPU (0avgtext+0avgdata 30980maxresident)k
+4.83user 3.95system 0:03.79elapsed 231%CPU (0avgtext+0avgdata 30980maxresident)k
+0inputs+0outputs (0major+669827minor)pagefaults 0swaps
+0inputs+0outputs (0major+669827minor)pagefaults 0swaps
+0inputs+0outputs (0major+669827minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `kronos-2.6.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `kronos-2.6.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `kronos-2.6.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.34user 4.32system 0:36.86elapsed 26%CPU (0avgtext+0avgdata 142380maxresident)k
+5.34user 4.32system 0:36.86elapsed 26%CPU (0avgtext+0avgdata 142380maxresident)k
+0inputs+0outputs (0major+431726minor)pagefaults 0swaps

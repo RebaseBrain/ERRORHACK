@@ -1,0 +1,792 @@
+<86>May 16 05:12:44 userdel[831996]: delete user 'rooter'
+<86>May 16 05:12:44 userdel[831996]: removed group 'rooter' owned by 'rooter'
+<86>May 16 05:12:44 userdel[831996]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 05:12:44 groupadd[832005]: group added to /etc/group: name=rooter, GID=1838
+<86>May 16 05:12:44 groupadd[832005]: group added to /etc/gshadow: name=rooter
+<86>May 16 05:12:44 groupadd[832005]: new group: name=rooter, GID=1838
+<86>May 16 05:12:44 useradd[832014]: new user: name=rooter, UID=1838, GID=1838, home=/root, shell=/bin/bash, from=none
+<86>May 16 05:12:44 userdel[832029]: delete user 'builder'
+<86>May 16 05:12:44 userdel[832029]: removed group 'builder' owned by 'builder'
+<86>May 16 05:12:44 userdel[832029]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 05:12:44 groupadd[832048]: group added to /etc/group: name=builder, GID=1839
+<86>May 16 05:12:44 groupadd[832048]: group added to /etc/gshadow: name=builder
+<86>May 16 05:12:44 groupadd[832048]: new group: name=builder, GID=1839
+<86>May 16 05:12:44 useradd[832072]: new user: name=builder, UID=1839, GID=1839, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 05:12:47 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:12:47 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:12:47 rpmi: libpcap0.8-2:1.10.5-alt1 sisyphus+373333.200.2.1 1738835147 installed
+<13>May 16 05:12:47 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 05:12:47 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 05:12:48 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:12:48 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:12:48 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 05:12:48 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:12:48 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:12:48 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 05:12:48 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:12:48 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 05:12:48 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 05:12:48 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 05:12:48 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 05:12:48 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 05:12:49 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 05:12:50 rpmi: fonts-ttf-dejavu-2.37-alt2 sisyphus+243548.100.1.1 1577296175 installed
+<13>May 16 05:12:50 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:12:50 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 05:12:50 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:12:50 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:12:50 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 05:12:50 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 05:12:50 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:12:50 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:12:50 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:12:50 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:12:50 rpmi: doxygen-1:1.13.2-alt1 sisyphus+368555.100.1.1 1736508240 installed
+<13>May 16 05:12:50 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 05:12:50 rpmi: libpcap-devel-2:1.10.5-alt1 sisyphus+373333.200.2.1 1738835147 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/ldns-1.8.4-alt1.nosrc.rpm (w1.gzdio)
+Installing ldns-1.8.4-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.62276
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf ldns-1.8.4
++ echo 'Source #0 (ldns-1.8.4.tar):'
+Source #0 (ldns-1.8.4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/ldns-1.8.4.tar
++ cd ldns-1.8.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.62276
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd ldns-1.8.4
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force 
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in '.'.
+libtoolize-default: linking file './config.guess'
+libtoolize-default: linking file './config.sub'
+libtoolize-default: linking file './install-sh'
+libtoolize-default: linking file './ltmain.sh'
+libtoolize-default: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize-default: linking file 'm4/libtool.m4'
+libtoolize-default: linking file 'm4/ltoptions.m4'
+libtoolize-default: linking file 'm4/ltsugar.m4'
+libtoolize-default: linking file 'm4/ltversion.m4'
+libtoolize-default: linking file 'm4/lt~obsolete.m4'
+libtoolize-default: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force 
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:789: warning: The preprocessor macro `STDC_HEADERS' is obsolete.
+configure.ac:789:   Except in unusual embedded environments, you can safely include all
+configure.ac:789:   ISO C90 headers unconditionally.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: configure.ac: not using Automake
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --disable-rpath --disable-static --with-drill --with-examples --enable-rrtype-ninfo --enable-rrtype-rkey --enable-rrtype-cds --enable-rrtype-uri --enable-rrtype-ta
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext, --enable-rrtype-cds, --enable-rrtype-uri
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for vfork.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-file... no
+checking for file... file
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking x86_64-alt-linux-gcc dependency flag... -MM
+checking whether make sets $(MAKE)... yes
+checking whether x86_64-alt-linux-gcc supports -std=c99... yes
+checking whether x86_64-alt-linux-gcc supports -xc99... no
+checking for an ANSI C-conforming const... yes
+checking whether x86_64-alt-linux-gcc supports -Wall... yes
+checking whether x86_64-alt-linux-gcc supports -W... yes
+checking whether x86_64-alt-linux-gcc supports -Wwrite-strings... yes
+checking whether x86_64-alt-linux-gcc supports -Wstrict-prototypes... yes
+checking whether x86_64-alt-linux-gcc supports -Wunused-function... yes
+checking whether x86_64-alt-linux-gcc supports -Wmissing-prototypes... no
+checking whether x86_64-alt-linux-gcc supports -fno-strict-aliasing... yes
+checking for getopt.h... yes
+checking for time.h... yes
+checking for winsock2.h... no
+checking for ws2tcpip.h... no
+checking for TargetConditionals.h... no
+checking whether x86_64-alt-linux-gcc supports -Werror... yes
+checking whether x86_64-alt-linux-gcc supports -Wall... (cached) yes
+checking whether x86_64-alt-linux-gcc supports -std=c99... (cached) yes
+checking whether x86_64-alt-linux-gcc supports -xc99... (cached) no
+checking for getopt.h... (cached) yes
+checking for time.h... (cached) yes
+checking whether we need -std=c99 -D__EXTENSIONS__ -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_POSIX_C_SOURCE=200112 -D_XOPEN_SOURCE=600 -D_XOPEN_SOURCE_EXTENDED=1 -D_ALL_SOURCE as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -std=c99 -D__EXTENSIONS__ -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_POSIX_C_SOURCE=200112 -D_XOPEN_SOURCE=600 -D_ALL_SOURCE as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -std=c99 as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -D_BSD_SOURCE -D_DEFAULT_SOURCE as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -D_GNU_SOURCE as a flag for x86_64-alt-linux-gcc... yes
+checking whether we need -D_GNU_SOURCE -D_FRSRESGID as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -D_POSIX_C_SOURCE=200112 as a flag for x86_64-alt-linux-gcc... no
+checking whether we need -D__EXTENSIONS__ as a flag for x86_64-alt-linux-gcc... no
+checking for inline... inline
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for doxygen... doxygen
+checking for socket... yes
+checking for inet_ntop... yes
+checking for inet_pton... yes
+checking for poll(2)... yes
+checking for x86_64-alt-linux-ar... no
+checking for ar... /usr/bin/ar
+checking for SSL... found in /usr
+checking for EVP_sha256 in -lcrypto... yes
+checking for openssl/ssl.h... yes
+checking for openssl/err.h... yes
+checking for openssl/rand.h... yes
+checking for LibreSSL... no
+checking for openssl/ssl.h... (cached) yes
+checking for openssl/evp.h... yes
+checking for openssl/engine.h... yes
+checking for openssl/conf.h... yes
+checking for EVP_sha256... yes
+checking for EVP_sha384... yes
+checking for EVP_sha512... yes
+checking for EVP_PKEY_keygen... yes
+checking for ECDSA_SIG_get0... yes
+checking for EVP_MD_CTX_new... yes
+checking for DSA_SIG_set0... yes
+checking for DSA_SIG_get0... yes
+checking for EVP_dss1... no
+checking for DSA_get0_pqg... yes
+checking for DSA_get0_key... yes
+checking for EVP_cleanup... no
+checking for ENGINE_cleanup... no
+checking for ENGINE_free... yes
+checking for CRYPTO_cleanup_all_ex_data... no
+checking for ERR_free_strings... no
+checking for CONF_modules_unload... yes
+checking for OPENSSL_init_ssl... no
+checking for OPENSSL_init_crypto... yes
+checking for ERR_load_crypto_strings... no
+checking for CRYPTO_memcmp... yes
+checking for EVP_PKEY_get_base_id... yes
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking whether EVP_PKEY_base_id is declared... yes
+checking Checking for OpenSSL >= 3.0.0... yes
+checking for SHA256 and SHA512... checking for SHA256_Init... yes
+checking for GOST... checking for EVP_PKEY_set_type_str... yes
+checking for EC_KEY_new... yes
+checking if GOST works... no
+configure: WARNING: Gost support does not work because the engine is missing.
+configure: WARNING: Install gost-engine first or use the --enable-gost-anyway to compile with GOST support anyway
+configure: WARNING: See also https://github.com/gost-engine/engine/wiki for information about gost-engine
+checking for ECDSA_sign... yes
+checking for SHA384_Init... yes
+checking whether NID_X9_62_prime256v1 is declared... yes
+checking whether NID_secp384r1 is declared... yes
+checking for DSA_SIG_new... yes
+checking whether NID_ED25519 is declared... yes
+checking whether NID_ED448 is declared... yes
+checking for X509_check_ca... yes
+checking for SSL_get0_dane... yes
+checking whether byte ordering is bigendian... no
+checking for egrep... (cached) /usr/bin/grep -E
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99... yes
+checking for getopt.h... (cached) yes
+checking for stdarg.h... yes
+checking for openssl/ssl.h... (cached) yes
+checking for netinet/in.h... yes
+checking for time.h... (cached) yes
+checking for arpa/inet.h... yes
+checking for netdb.h... yes
+checking for sys/param.h... yes
+checking for sys/mount.h... yes
+checking for sys/socket.h... yes
+checking for inttypes.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking size of time_t... 8
+checking for pcap.h... yes
+checking for pcap_open_offline in -lpcap... yes
+checking for netinet/in_systm.h... yes
+checking for net/if.h... yes
+checking for netinet/ip.h... yes
+checking for netinet/udp.h... yes
+checking for netinet/igmp.h... yes
+checking for netinet/if_ether.h... yes
+checking for netinet/ip6.h... yes
+checking for net/ethernet.h... yes
+checking for netinet/ip_compat.h... no
+checking for socklen_t... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for intptr_t... yes
+checking for in_addr_t... yes
+checking for in_port_t... yes
+checking for struct sockaddr_storage.ss_family... yes
+checking whether inet_pton is declared... yes
+checking whether inet_ntop is declared... yes
+checking for b64_pton... no
+checking for b64_ntop... no
+checking for calloc... yes
+checking for timegm... yes
+checking for gmtime_r... yes
+checking for asctime_r... yes
+checking for ctime_r... yes
+checking for localtime_r... yes
+checking for isblank... yes
+checking for isascii... yes
+checking for inet_aton... yes
+checking for inet_pton... (cached) yes
+checking for inet_ntop... (cached) yes
+checking for snprintf... yes
+checking for strlcpy... yes
+checking for memmove... yes
+checking for pid_t... yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking compile of fork... yes
+checking for endprotoent... yes
+checking for endservent... yes
+checking for sleep... yes
+checking for random... yes
+checking for fcntl... yes
+checking for strtoul... yes
+checking for bzero... yes
+checking for memset... yes
+checking for b32_ntop... no
+checking for b32_pton... no
+checking for symlink... yes
+checking for getaddrinfo... yes
+checking for ioctlsocket... no
+checking whether the C compiler (x86_64-alt-linux-gcc) accepts the "format" attribute... yes
+checking whether the C compiler (x86_64-alt-linux-gcc) accepts the "unused" attribute... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libdns.doxygen
+config.status: creating ldns/common.h
+config.status: creating ldns/net.h
+config.status: creating ldns/util.h
+config.status: creating packaging/libldns.pc
+config.status: creating packaging/ldns-config
+config.status: creating ldns/config.h
+config.status: executing libtool commands
+config.status: executing disable-rpath commands
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext, --enable-rrtype-cds, --enable-rrtype-uri
+copying header files
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./duration.c -o duration.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./error.c -o error.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./buffer.c -o buffer.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./higher.c -o higher.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./host2wire.c -o host2wire.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dname.c -o dname.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./net.c -o net.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dnssec_sign.c -o dnssec_sign.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./packet.c -o packet.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dane.c -o dane.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./keys.c -o keys.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dnssec_zone.c -o dnssec_zone.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dnssec.c -o dnssec.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./dnssec_verify.c -o dnssec_verify.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./parse.c -o parse.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./rbtree.c -o rbtree.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./radix.c -o radix.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./sha2.c -o sha2.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./host2str.c -o host2str.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./rdata.c -o rdata.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./rr_functions.c -o rr_functions.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./sha1.c -o sha1.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./compat/b64_pton.c -o compat/b64_pton.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./resolver.c -o resolver.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./util.c -o util.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./update.c -o update.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./tsig.c -o tsig.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+sed -e 's|@LDNS_TRUST_ANCHOR_FILE[@]|/etc/unbound/root.key|g' -e 's|@DEFAULT_CAFILE[@]||g' -e 's|@DEFAULT_CAPATH[@]||g' ./drill/drill.1.in > drill/drill.1
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./compat/b64_ntop.c -o compat/b64_ntop.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./wire2host.c -o wire2host.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+Generating manpages...
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./edns.c -o edns.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./rr.c -o rr.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./zone.c -o zone.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./str2host.c -o str2host.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/chasetrace.c -o drill/chasetrace.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/error.c -o drill/error.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/dnssec.c -o drill/dnssec.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/root.c -o drill/root.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/drill.c -o drill/drill.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/drill_util.c -o drill/drill_util.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/securetrace.c -o drill/securetrace.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./drill/work.c -o drill/work.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-chaos.c -o examples/ldns-chaos.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-chaos.c -o examples/ldns-chaos.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-compare-zones.c -o examples/ldns-compare-zones.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-compare-zones.c -o examples/ldns-compare-zones.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldnsd.c -o examples/ldnsd.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-gen-zone.c -o examples/ldns-gen-zone.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldnsd.c -o examples/ldnsd.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-gen-zone.c -o examples/ldns-gen-zone.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-key2ds.c -o examples/ldns-key2ds.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-key2ds.c -o examples/ldns-key2ds.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-mx.c -o examples/ldns-mx.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-keyfetcher.c -o examples/ldns-keyfetcher.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-keyfetcher.c -o examples/ldns-keyfetcher.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-keygen.c -o examples/ldns-keygen.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-keygen.c -o examples/ldns-keygen.lo
+mv: cannot stat 'examples/ldns-keygen.loT': No such file or directory
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-mx.c -o examples/ldns-mx.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-notify.c -o examples/ldns-notify.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-notify.c -o examples/ldns-notify.lo
+mv: cannot stat 'examples/ldns-notify.loT': No such file or directory
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-read-zone.c -o examples/ldns-read-zone.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-read-zone.c -o examples/ldns-read-zone.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-resolver.c -o examples/ldns-resolver.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-resolver.c -o examples/ldns-resolver.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-rrsig.c -o examples/ldns-rrsig.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-rrsig.c -o examples/ldns-rrsig.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-test-edns.c -o examples/ldns-test-edns.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-test-edns.c -o examples/ldns-test-edns.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-version.c -o examples/ldns-version.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-version.c -o examples/ldns-version.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-update.c -o examples/ldns-update.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-update.c -o examples/ldns-update.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-walk.c -o examples/ldns-walk.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-zcat.c -o examples/ldns-zcat.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-walk.c -o examples/ldns-walk.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-zcat.c -o examples/ldns-zcat.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-zsplit.c -o examples/ldns-zsplit.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-zsplit.c -o examples/ldns-zsplit.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-testns.c -o examples/ldns-testns.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+sed -e 's|@LDNS_TRUST_ANCHOR_FILE[@]|/etc/unbound/root.key|g' -e 's|@DEFAULT_CAFILE[@]||g' -e 's|@DEFAULT_CAPATH[@]||g' ./examples/ldns-dane.1.in > examples/ldns-dane.1
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+sed -e 's|@LDNS_TRUST_ANCHOR_FILE[@]|/etc/unbound/root.key|g' -e 's|@DEFAULT_CAFILE[@]||g' -e 's|@DEFAULT_CAPATH[@]||g' ./examples/ldns-verify-zone.1.in > examples/ldns-verify-zone.1
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-testns.c -o examples/ldns-testns.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-testpkts.c -o examples/ldns-testpkts.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-nsec3-hash.c -o examples/ldns-nsec3-hash.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-nsec3-hash.c -o examples/ldns-nsec3-hash.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-revoke.c -o examples/ldns-revoke.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-testpkts.c -o examples/ldns-testpkts.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-revoke.c -o examples/ldns-revoke.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-verify-zone.c -o examples/ldns-verify-zone.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-dane.c -o examples/ldns-dane.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-verify-zone.c -o examples/ldns-verify-zone.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-dane.c -o examples/ldns-dane.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-signzone.c -o examples/ldns-signzone.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-signzone.c -o examples/ldns-signzone.lo
+mv: cannot stat 'examples/ldns-signzone.loT': No such file or directory
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c examples/ldns-dpa.c -o examples/ldns-dpa.o
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./examples/ldns-dpa.c -o examples/ldns-dpa.lo
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   -version-info 9:0:6 -no-undefined  -lssl  -lcrypto -export-symbols-regex '^(ldns_|b32_[pn]to[pn]|mktime_from_utc|qsort_rr_compare_nsec3)' -o libldns.la buffer.lo dane.lo dname.lo dnssec.lo dnssec_sign.lo dnssec_verify.lo dnssec_zone.lo duration.lo error.lo higher.lo host2str.lo host2wire.lo keys.lo net.lo packet.lo parse.lo radix.lo rbtree.lo rdata.lo resolver.lo rr.lo rr_functions.lo sha1.lo sha2.lo str2host.lo tsig.lo update.lo util.lo wire2host.lo zone.lo edns.lo compat/b64_pton.lo compat/b64_ntop.lo -rpath /usr/lib64 
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-resolver.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-resolver ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-chaos.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-chaos ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-mx.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-mx ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-rrsig.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-rrsig ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-key2ds.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-key2ds ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-test-edns.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-test-edns ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-gen-zone.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-gen-zone ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-keygen.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-keygen ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-notify.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-notify ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-update.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-update ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldnsd.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldnsd ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-read-zone.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-read-zone ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-compare-zones.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-compare-zones ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=compile x86_64-alt-linux-gcc -I. -I.  -DHAVE_CONFIG_H -DLDNS_TRUST_ANCHOR_FILE="\"/etc/unbound/root.key\"" -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE  -c ./linktest.c -o linktest.lo
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   linktest.lo libldns.la -lssl  -lcrypto  -o linktest ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-keyfetcher.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-keyfetcher ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-signzone.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-signzone ./libldns.la
+lto-wrapper: fatal error: malformed 'COLLECT_GCC_OPTIONS'
+compilation terminated.
+ld: error: lto-wrapper failed
+collect2: error: ld returned 1 exit status
+make: *** [Makefile:222: examples/ldns-signzone] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-version.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-version ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-zcat.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-zcat ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-nsec3-hash.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-nsec3-hash ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-zsplit.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-zsplit ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-revoke.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-revoke ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-walk.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-walk ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-verify-zone.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-verify-zone ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-testns.lo examples/ldns-testpkts.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o examples/ldns-testns ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   drill/chasetrace.lo drill/dnssec.lo drill/drill.lo drill/drill_util.lo drill/error.lo drill/root.lo drill/securetrace.lo drill/work.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  -o drill/drill ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-dane.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lssl  -lcrypto  \
+	 -o examples/ldns-dane ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+make: Entering directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+./libtool --tag=CC --quiet --mode=link x86_64-alt-linux-gcc -DOPENSSL_API_COMPAT=10100 -fno-strict-aliasing -Wunused-function -Wstrict-prototypes -Wwrite-strings -W -Wall -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE   examples/ldns-dpa.lo compat/b64_pton.lo compat/b64_ntop.lo libldns.la -lpcap -lssl  -lcrypto  \
+	 -o examples/ldns-dpa ./libldns.la
+make: Leaving directory '/usr/src/RPM/BUILD/ldns-1.8.4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62276 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.62276 (%build)
+Command exited with non-zero status 1
+37.34user 14.69system 0:18.26elapsed 284%CPU (0avgtext+0avgdata 68084maxresident)k
+0inputs+0outputs (0major+2849621minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ldns-1.8.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.12user 2.45system 0:29.98elapsed 21%CPU (0avgtext+0avgdata 144520maxresident)k
+0inputs+0outputs (0major+207221minor)pagefaults 0swaps

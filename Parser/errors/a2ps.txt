@@ -1,0 +1,308 @@
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+* - to send a JOB to the printer PRINTER, run `lpr -P PRINTER job'
+* - to ask `file(1)' to follow the links, run `/usr/bin/file -L'
+*   (`file(1)' is used to guess the type of the files to print.)
+*
+* If a2ps is wrong somewhere, fix the `System Dependent parameters'
+* in `etc/a2ps-site.cfg'.  See the README file.
+*****************************************************************
+*****************************************************************
++ make
++ make
+make: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14'
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run aclocal-1.9 -I m4
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run aclocal-1.9 -I m4
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: aclocal-1.9: command not found
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: aclocal-1.9: command not found
+WARNING: `aclocal-1.9' is missing on your system.  You should only need it if
+WARNING: `aclocal-1.9' is missing on your system.  You should only need it if
+         you modified `acinclude.m4' or `configure.in'.  You might want
+         you modified `acinclude.m4' or `configure.in'.  You might want
+         to install the `Automake' and `Perl' packages.  Grab them from
+         to install the `Automake' and `Perl' packages.  Grab them from
+         any GNU archive site.
+         any GNU archive site.
+ cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run automake-1.9 --gnu 
+ cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run automake-1.9 --gnu 
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: automake-1.9: command not found
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: automake-1.9: command not found
+WARNING: `automake-1.9' is missing on your system.  You should only need it if
+WARNING: `automake-1.9' is missing on your system.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.in'.
+         you modified `Makefile.am', `acinclude.m4' or `configure.in'.
+         You might want to install the `Automake' and `Perl' packages.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+         Grab them from any GNU archive site.
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run autoconf
+configure.in:13: warning: The macro `AC_FOREACH' is obsolete.
+configure.in:13: You should run autoupdate.
+./lib/autoconf/general.m4:191: AC_FOREACH is expanded from...
+aclocal.m4:7332: _AM_SET_OPTIONS is expanded from...
+aclocal.m4:6984: AM_INIT_AUTOMAKE is expanded from...
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking whether the compiler supports GNU Fortran 77... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+ -o ogonkify.info ogonkify.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./ogonkify.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/doc'
+Making all in m4
+make[3]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/m4'
+ cd .. && /bin/sh ./config.status m4/Makefile 
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c options.c  -fPIC -DPIC -o .libs/options.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o dsc.lo dsc.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c dsc.c  -fPIC -DPIC -o .libs/dsc.o
+/bin/sh ../auxdir/ylwrap fonts.l lex.yy.c fonts.c -- flex -CFe  
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o fonts.lo fonts.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c fonts.c  -fPIC -DPIC -o .libs/fonts.o
+In file included from media.h:31,
+In file included from media.h:31,
+                 from jobs.h:38,
+                 from jobs.h:38,
+                 from fonts.l:37:
+                 from fonts.l:37:
+fonts.c: In function 'afmalloc':
+fonts.c: In function 'afmalloc':
+../config.h:496:16: error: implicit declaration of function 'rpl_malloc'; did you mean 'xmalloc'? [-Wimplicit-function-declaration]
+../config.h:496:16: error: implicit declaration of function 'rpl_malloc'; did you mean 'xmalloc'? [-Wimplicit-function-declaration]
+  496 | #define malloc rpl_malloc
+  496 | #define malloc rpl_malloc
+      |                ^~~~~~~~~~
+      |                ^~~~~~~~~~
+      |                ^~~~~~~~~~
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+ 2384 |         return malloc(size);
+ 2384 |         return malloc(size);
+ 2384 |         return malloc(size);
+      |                ^~~~~~
+      |                ^~~~~~
+      |                ^~~~~~
+../config.h:496:16: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+../config.h:496:16: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+../config.h:496:16: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+  496 | #define malloc rpl_malloc
+  496 | #define malloc rpl_malloc
+  496 | #define malloc rpl_malloc
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+ 2384 |         return malloc(size);
+ 2384 |         return malloc(size);
+ 2384 |         return malloc(size);
+ 2384 |         return malloc(size);
+      |                ^~~~~~
+      |                ^~~~~~
+      |                ^~~~~~
+      |                ^~~~~~
+fonts.c: In function 'afmrealloc':
+fonts.c: In function 'afmrealloc':
+fonts.c: In function 'afmrealloc':
+../config.h:508:17: error: implicit declaration of function 'rpl_realloc'; did you mean 'xrealloc'? [-Wimplicit-function-declaration]
+../config.h:508:17: error: implicit declaration of function 'rpl_realloc'; did you mean 'xrealloc'? [-Wimplicit-function-declaration]
+../config.h:508:17: error: implicit declaration of function 'rpl_realloc'; did you mean 'xrealloc'? [-Wimplicit-function-declaration]
+  508 | #define realloc rpl_realloc
+  508 | #define realloc rpl_realloc
+  508 | #define realloc rpl_realloc
+      |                 ^~~~~~~~~~~
+      |                 ^~~~~~~~~~~
+      |                 ^~~~~~~~~~~
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+ 2396 |         return realloc(ptr, size);
+ 2396 |         return realloc(ptr, size);
+ 2396 |         return realloc(ptr, size);
+      |                ^~~~~~~
+      |                ^~~~~~~
+../config.h:508:17: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+../config.h:508:17: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+  508 | #define realloc rpl_realloc
+  508 | #define realloc rpl_realloc
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+ 2396 |         return realloc(ptr, size);
+ 2396 |         return realloc(ptr, size);
+ 2396 |         return realloc(ptr, size);
+      |                ^~~~~~~
+      |                ^~~~~~~
+      |                ^~~~~~~
+      |                ^~~~~~~
+fonts.c: At top level:
+fonts.c: At top level:
+fonts.c: At top level:
+fonts.c:1782:16: warning: 'input' defined but not used [-Wunused-function]
+fonts.c:1782:16: warning: 'input' defined but not used [-Wunused-function]
+fonts.c:1782:16: warning: 'input' defined but not used [-Wunused-function]
+fonts.c:1782:16: warning: 'input' defined but not used [-Wunused-function]
+ 1782 |     static int input  (void)
+ 1782 |     static int input  (void)
+ 1782 |     static int input  (void)
+ 1782 |     static int input  (void)
+      |                ^~~~~
+      |                ^~~~~
+      |                ^~~~~
+      |                ^~~~~
+      |                ^~~~~
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+ 1739 |     static void yyunput (int c, char * yy_bp )
+ 1739 |     static void yyunput (int c, char * yy_bp )
+ 1739 |     static void yyunput (int c, char * yy_bp )
+ 1739 |     static void yyunput (int c, char * yy_bp )
+ 1739 |     static void yyunput (int c, char * yy_bp )
+ 1739 |     static void yyunput (int c, char * yy_bp )
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+      |                 ^~~~~~~
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: *** [Makefile:286: all] Error 2
+make: *** [Makefile:286: all] Error 2
+make: *** [Makefile:286: all] Error 2
+make: *** [Makefile:286: all] Error 2
+make: *** [Makefile:286: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+    line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+    line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+    line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+    Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+68.43user 12.41system 1:21.84elapsed 98%CPU (0avgtext+0avgdata 57160maxresident)k
+68.43user 12.41system 1:21.84elapsed 98%CPU (0avgtext+0avgdata 57160maxresident)k
+0inputs+0outputs (0major+2435493minor)pagefaults 0swaps
+0inputs+0outputs (0major+2435493minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `a2ps-4.14-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+4.74user 3.34system 2:00.19elapsed 6%CPU (0avgtext+0avgdata 143712maxresident)k
+360inputs+0outputs (0major+293623minor)pagefaults 0swaps

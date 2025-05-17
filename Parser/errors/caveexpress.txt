@@ -1,0 +1,224 @@
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/caveexpress-2.5.2 /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/game /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/game/CMakeFiles/game.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+/usr/bin/gmake  -f src/modules/game/CMakeFiles/game.dir/build.make src/modules/game/CMakeFiles/game.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 16%] Building CXX object src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sound && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o -MF CMakeFiles/sound.dir/SDLSoundEngine.cpp.o.d -o CMakeFiles/sound.dir/SDLSoundEngine.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In destructor 'virtual SDLSoundEngine::~SDLSoundEngine()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:34:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+   34 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       |
+      |                       _Mix_Music*
+      |                       _Mix_Music*
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:11:
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:11:
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+      |                                            ~~~~~~~~~~~^~~~~
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:1:
+In file included from /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:1:
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual void SDLSoundEngine::close()':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:116:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  116 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       |
+      |                       |
+      |                       _Mix_Music*
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual int SDLSoundEngine::playMusic(const std::string&, bool)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:149:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  149 |         Mix_FreeMusic(_music);
+  149 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       |
+      |                       |
+      |                       _Mix_Music*
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:158:32: error: cannot convert 'Mix_Music*' to '_Mix_Music*' in assignment
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:158:32: error: cannot convert 'Mix_Music*' to '_Mix_Music*' in assignment
+  158 |         _music = Mix_LoadMUS_RW(rwops, 1);
+  158 |         _music = Mix_LoadMUS_RW(rwops, 1);
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~
+      |                                |
+      |                                |
+      |                                Mix_Music*
+      |                                Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:269:16: note: class type 'Mix_Music' is incomplete
+/usr/include/SDL2/SDL_mixer.h:269:16: note: class type 'Mix_Music' is incomplete
+  269 | typedef struct Mix_Music Mix_Music;
+  269 | typedef struct Mix_Music Mix_Music;
+      |                ^~~~~~~~~
+      |                ^~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:167:39: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:167:39: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  167 |         const int ret = Mix_PlayMusic(_music, loop ? -1 : 1);
+  167 |         const int ret = Mix_PlayMusic(_music, loop ? -1 : 1);
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       |
+      |                                       |
+      |                                       _Mix_Music*
+      |                                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:1834:54: note:   initializing argument 1 of 'int Mix_PlayMusic(Mix_Music*, int)'
+/usr/include/SDL2/SDL_mixer.h:1834:54: note:   initializing argument 1 of 'int Mix_PlayMusic(Mix_Music*, int)'
+ 1834 | extern DECLSPEC int SDLCALL Mix_PlayMusic(Mix_Music *music, int loops);
+ 1834 | extern DECLSPEC int SDLCALL Mix_PlayMusic(Mix_Music *music, int loops);
+      |                                           ~~~~~~~~~~~^~~~~
+      |                                           ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp: In member function 'virtual void SDLSoundEngine::haltMusic(int)':
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.cpp:185:23: error: cannot convert '_Mix_Music*' to 'Mix_Music*'
+  185 |         Mix_FreeMusic(_music);
+  185 |         Mix_FreeMusic(_music);
+      |                       ^~~~~~
+      |                       ^~~~~~
+      |                       |
+      |                       |
+      |                       |
+      |                       _Mix_Music*
+      |                       _Mix_Music*
+      |                       _Mix_Music*
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+/usr/include/SDL2/SDL_mixer.h:844:55: note:   initializing argument 1 of 'void Mix_FreeMusic(Mix_Music*)'
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+  844 | extern DECLSPEC void SDLCALL Mix_FreeMusic(Mix_Music *music);
+      |                                            ~~~~~~~~~~~^~~~~
+      |                                            ~~~~~~~~~~~^~~~~
+      |                                            ~~~~~~~~~~~^~~~~
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/sound/SDLSoundEngine.h:8:8: note: class type '_Mix_Music' is incomplete
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+    8 | struct _Mix_Music;
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+gmake[2]: *** [src/modules/sound/CMakeFiles/sound.dir/build.make:93: src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o] Error 1
+gmake[2]: *** [src/modules/sound/CMakeFiles/sound.dir/build.make:93: src/modules/sound/CMakeFiles/sound.dir/SDLSoundEngine.cpp.o] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:936: src/modules/sound/CMakeFiles/sound.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:936: src/modules/sound/CMakeFiles/sound.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 21%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o
+[ 21%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o -MF CMakeFiles/particle.dir/Snow.cpp.o.d -o CMakeFiles/particle.dir/Snow.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Snow.cpp
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Snow.cpp.o -MF CMakeFiles/particle.dir/Snow.cpp.o.d -o CMakeFiles/particle.dir/Snow.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Snow.cpp
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<built-in>: note: this is the location of the previous definition
+<built-in>: note: this is the location of the previous definition
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 23%] Building CXX object src/modules/particles/CMakeFiles/particle.dir/Particle.cpp.o
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/particles && /usr/bin/c++ -DHAVE_LUA_H -DPKGDATADIR=\"/usr/share\" -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/physics -I/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src -I/usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules -I/usr/include/SDL2 -I/usr/include/box2d -I/usr/include/glm -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -fno-exceptions -fno-rtti -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -g -Wcast-qual -Wcast-align -Wpointer-arith -Wno-long-long -Wno-multichar -Wshadow -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wreturn-type -Wwrite-strings -Wno-variadic-macros -Wno-unknown-pragmas -pthread -Wnon-virtual-dtor -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -std=c++11 -fno-exceptions -fno-rtti -O2 -DNDEBUG -O2 -DNDEBUG -D_GNU_SOURCE -D_DEFAULT_SOURCE -D_XOPEN_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -fexpensive-optimizations -fomit-frame-pointer -O3 -std=c++11 -fPIC -MD -MT src/modules/particles/CMakeFiles/particle.dir/Particle.cpp.o -MF CMakeFiles/particle.dir/Particle.cpp.o.d -o CMakeFiles/particle.dir/Particle.cpp.o -c /usr/src/RPM/BUILD/caveexpress-2.5.2/src/modules/particles/Particle.cpp
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Linking CXX static library ../../../Release/lib/libsprite.a
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -P CMakeFiles/sprite.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -P CMakeFiles/sprite.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -E cmake_link_script CMakeFiles/sprite.dir/link.txt --verbose=1
+cd /usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux/src/modules/sprites && /usr/bin/cmake -E cmake_link_script CMakeFiles/sprite.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../Release/lib/libsprite.a CMakeFiles/sprite.dir/Sprite.cpp.o CMakeFiles/sprite.dir/SpriteCache.cpp.o
+/usr/bin/ar qc ../../../Release/lib/libsprite.a CMakeFiles/sprite.dir/Sprite.cpp.o CMakeFiles/sprite.dir/SpriteCache.cpp.o
+/usr/bin/ranlib ../../../Release/lib/libsprite.a
+/usr/bin/ranlib ../../../Release/lib/libsprite.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+[ 24%] Built target sprite
+[ 24%] Built target sprite
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/caveexpress-2.5.2/x86_64-alt-linux'
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+
+
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.46357 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+76.23user 10.34system 0:20.75elapsed 417%CPU (0avgtext+0avgdata 303312maxresident)k
+76.23user 10.34system 0:20.75elapsed 417%CPU (0avgtext+0avgdata 303312maxresident)k
+76.23user 10.34system 0:20.75elapsed 417%CPU (0avgtext+0avgdata 303312maxresident)k
+0inputs+0outputs (0major+1210687minor)pagefaults 0swaps
+0inputs+0outputs (0major+1210687minor)pagefaults 0swaps
+0inputs+0outputs (0major+1210687minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `caveexpress-2.5.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `caveexpress-2.5.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `caveexpress-2.5.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.23user 6.04system 0:52.74elapsed 27%CPU (0avgtext+0avgdata 144216maxresident)k
+8.23user 6.04system 0:52.74elapsed 27%CPU (0avgtext+0avgdata 144216maxresident)k
+1792inputs+0outputs (0major+292588minor)pagefaults 0swaps

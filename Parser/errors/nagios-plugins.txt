@@ -1,0 +1,203 @@
+<13>May 16 05:14:05 rpmi: crontab-control-1.1-alt1 sisyphus+276802.100.1.1 1625236144 installed
+<13>May 16 05:14:05 rpmi: vixie-cron-4.1.20060426-alt10.3 sisyphus+302849.200.2.1 1656579733 installed
+<13>May 16 05:14:05 rpmi: crontabs-1.8-alt1 sisyphus+276803.100.1.1 1625236331 installed
+<13>May 16 05:14:05 rpmi: procmail-3.22-alt11 sisyphus+278100.5300.1.1 1626059896 installed
+<13>May 16 05:14:05 rpmi: postfix-control-1.6.1-alt1 sisyphus+276788.100.1.1 1625233333 installed
+<13>May 16 05:14:05 rpmi: ppp-common-0.5.1-alt1 sisyphus+276789.100.1.1 1625233524 installed
+<13>May 16 05:14:05 rpmi: sendmail-common-1.7-alt3 1353029717 installed
+<86>May 16 05:14:05 groupadd[1033264]: group added to /etc/group: name=mailadm, GID=995
+<86>May 16 05:14:05 groupadd[1033264]: group added to /etc/gshadow: name=mailadm
+<86>May 16 05:14:05 groupadd[1033264]: new group: name=mailadm, GID=995
+<86>May 16 05:14:05 useradd[1033293]: failed adding user 'postfix', exit code: 9
+<86>May 16 05:14:05 useradd[1033309]: new user: name=postman, UID=998, GID=48, home=/dev/null, shell=/dev/null, from=none
+<13>May 16 05:14:06 rpmi: postfix-1:3.8.6-alt1 sisyphus+347244.100.2.1 1715170791 installed
+    COMPATIBILITY: editing /etc/postfix/main.cf, setting
+    COMPATIBILITY: editing /etc/postfix/main.cf, setting
+    inet_protocols=ipv4.  Specify inet_protocols explicitly if you want
+    inet_protocols=ipv4.  Specify inet_protocols explicitly if you want
+    to enable IPv6.  In a future release IPv6 will be enabled by default.
+    to enable IPv6.  In a future release IPv6 will be enabled by default.
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/group: name=sshagent, GID=994
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/group: name=sshagent, GID=994
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/gshadow: name=sshagent
+<86>May 16 05:14:06 groupadd[1035493]: group added to /etc/gshadow: name=sshagent
+<86>May 16 05:14:06 groupadd[1035493]: new group: name=sshagent, GID=994
+<86>May 16 05:14:06 groupadd[1035493]: new group: name=sshagent, GID=994
+<13>May 16 05:14:06 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 05:14:06 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 05:14:06 rpmi: samba-client-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:06 rpmi: samba-client-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 05:14:06 rpmi: net-snmp-clients-5.9.4-alt1.1 sisyphus+366326.100.1.1 1734955875 installed
+<13>May 16 05:14:06 rpmi: rpcbind-1.2.6-alt1.qa1 sisyphus+294340.100.1.1 1643466463 installed
+<86>May 16 05:14:06 useradd[1035618]: failed adding user 'rpc', exit code: 9
+<13>May 16 05:14:06 rpmi: postgresql17-devel-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 05:14:06 rpmi: libldap-devel-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:14:06 rpmi: bind-utils-9.18.36-alt1 sisyphus+381798.100.2.2 1744985978 installed
+<13>May 16 05:14:06 rpmi: libmysqlclient21-devel-8.0.41-alt1 sisyphus+372112.5200.37.1 1741283348 installed
+<13>May 16 05:14:06 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:14:06 rpmi: libradiusclient-ng-devel-0.5.6-alt1 sisyphus+276919.100.1.3 1625276693 installed
+<13>May 16 05:14:06 rpmi: libradiusclient-ng-devel-0.5.6-alt1 sisyphus+276919.100.1.3 1625276693 installed
+<13>May 16 05:14:06 rpmi: perl-Net-SNMP-6.0.1-alt3 sisyphus+277107.100.1.1 1625402791 installed
+<13>May 16 05:14:06 rpmi: perl-Net-SNMP-6.0.1-alt3 sisyphus+277107.100.1.1 1625402791 installed
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/group: name=iputils, GID=993
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/group: name=iputils, GID=993
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/gshadow: name=iputils
+<86>May 16 05:14:06 groupadd[1035749]: group added to /etc/gshadow: name=iputils
+<86>May 16 05:14:06 groupadd[1035749]: new group: name=iputils, GID=993
+<86>May 16 05:14:06 groupadd[1035749]: new group: name=iputils, GID=993
+<86>May 16 05:14:06 useradd[1035764]: new user: name=iputils, UID=997, GID=993, home=/dev/null, shell=/dev/null, from=none
+<86>May 16 05:14:06 groupadd[1035777]: group added to /etc/group: name=netadmin, GID=992
+<86>May 16 05:14:06 groupadd[1035777]: group added to /etc/gshadow: name=netadmin
+<86>May 16 05:14:06 groupadd[1035777]: new group: name=netadmin, GID=992
+<13>May 16 05:14:06 rpmi: iputils-20240905-alt1 sisyphus+359483.100.1.1 1728585656 installed
+sysctl: cannot stat /proc/sys/net/ipv4/ping_group_range: No such file or directory
+<13>May 16 05:14:06 rpmi: fping-5.2-alt1 sisyphus+358418.100.1.1 1727345193 installed
+<13>May 16 05:14:06 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 05:14:06 rpmi: qstat-2.17-alt1 sisyphus+286988.100.1.1 1634109114 installed
+warning: line 110: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/nagios-plugins-2.2.1-alt1.nosrc.rpm (w1.gzdio)
+warning: line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+Installing nagios-plugins-2.2.1-alt1.src.rpm
+Building target platforms: x86_64
+ar cru libnagiosplug.a utils_base.o utils_disk.o utils_tcp.o utils_cmd.o parse_ini.o extra_opts.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libnagiosplug.a
+make[3]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/lib'
+Making all in tests
+make[3]: Nothing to be done for 'all'.
+Making all in plugins
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils.o utils.c
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o utils.o utils.c
+utils.c: In function 'strntolower':
+utils.c: In function 'strntolower':
+utils.c:777:24: error: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+utils.c:777:24: error: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+  777 |                 *ptr = tolower(*ptr);
+  777 |                 *ptr = tolower(*ptr);
+      |                        ^~~~~~~
+      |                        ^~~~~~~
+utils.c:32:1: note: include '<ctype.h>' or provide a declaration of 'tolower'
+utils.c:32:1: note: include '<ctype.h>' or provide a declaration of 'tolower'
+   31 | #include <arpa/inet.h>
+   31 | #include <arpa/inet.h>
+  +++ |+#include <ctype.h>
+  +++ |+#include <ctype.h>
+   32 | 
+   32 | 
+utils.c: In function 'strntoupper':
+utils.c: In function 'strntoupper':
+utils.c:787:24: error: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+utils.c:787:24: error: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  787 |                 *ptr = toupper(*ptr);
+  787 |                 *ptr = toupper(*ptr);
+      |                        ^~~~~~~
+      |                        ^~~~~~~
+utils.c:787:24: note: include '<ctype.h>' or provide a declaration of 'toupper'
+utils.c: In function 'timeout_alarm_handler':
+utils.c:177:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  177 |                                 write(STDOUT_FILENO, "OK", 2);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:180:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  180 |                                 write(STDOUT_FILENO, "WARNING", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:186:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  186 |                                 write(STDOUT_FILENO, "DEPENDENT", 9);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:189:33: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  189 |                                 write(STDOUT_FILENO, "UNKNOWN", 7);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+utils.c:192:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  192 |                 write(STDOUT_FILENO, msg, sizeof(msg) - 1);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:2233: utils.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_dummy.o check_dummy.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_cluster.o check_cluster.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o popen.o popen.c
+check_http.c:1040:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1040 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", "GET", server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+ 1040 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", "GET", server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+check_http.c:1042:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+check_http.c:1042:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+check_http.c:1042:5: warning: ignoring return value of 'asprintf' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1042 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", http_method, server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+ 1042 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", http_method, server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+ 1042 |     asprintf (&buf, "%s %s %s\r\n%s\r\n", http_method, server_url, host_name ? "HTTP/1.1" : "HTTP/1.0", user_agent);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Entering directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_nwstat.o check_nwstat.c
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_nwstat.o check_nwstat.c
+x86_64-alt-linux-gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I..  -I.. -I../lib -I../gl -I../intl -I/usr/include/ldap -I/usr/include/pgsql -I/usr/include  -DNP_VERSION='"2.2.1"' -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o check_nwstat.o check_nwstat.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/nagios-plugins-2.2.1/plugins'
+make[1]: *** [Makefile:1544: all-recursive] Error 1
+make[1]: *** [Makefile:1544: all-recursive] Error 1
+make[1]: *** [Makefile:1544: all-recursive] Error 1
+make: *** [Makefile:1468: all] Error 2
+make: *** [Makefile:1468: all] Error 2
+make: *** [Makefile:1468: all] Error 2
+make: *** [Makefile:1468: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+    line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+    line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+    line 86: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-daemon
+    Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38313 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+23.48user 19.63system 0:36.70elapsed 117%CPU (0avgtext+0avgdata 51544maxresident)k
+23.48user 19.63system 0:36.70elapsed 117%CPU (0avgtext+0avgdata 51544maxresident)k
+23.48user 19.63system 0:36.70elapsed 117%CPU (0avgtext+0avgdata 51544maxresident)k
+23.48user 19.63system 0:36.70elapsed 117%CPU (0avgtext+0avgdata 51544maxresident)k
+0inputs+0outputs (0major+4664551minor)pagefaults 0swaps
+0inputs+0outputs (0major+4664551minor)pagefaults 0swaps
+0inputs+0outputs (0major+4664551minor)pagefaults 0swaps
+0inputs+0outputs (0major+4664551minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `nagios-plugins-2.2.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `nagios-plugins-2.2.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `nagios-plugins-2.2.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.21user 3.69system 1:21.37elapsed 12%CPU (0avgtext+0avgdata 142712maxresident)k
+4008inputs+0outputs (0major+275152minor)pagefaults 0swaps

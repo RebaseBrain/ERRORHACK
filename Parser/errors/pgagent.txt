@@ -1,0 +1,56 @@
++ cd pgagent-4.2.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.95415
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pgagent-4.2.2
++ cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_STRIP:FILEPATH=/bin/echo -DCMAKE_SKIP_RPATH:BOOL=ON -DPostgreSQL_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pg_config -DwxWidgets_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/wx-config -DSTATIC_BUILD:BOOL=OFF -DwxWidgets_USE_STATIC:BOOL=OFF -DwxWidgets_USE_UNICODE:BOOL=ON -DwxWidgets_wxrc_EXECUTABLE:FILEPATH=/usr/bin/wxrc .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:17 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.95415 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.95415 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.95415 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.95415 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.05user 0.06system 0:00.11elapsed 102%CPU (0avgtext+0avgdata 17792maxresident)k
+0.05user 0.06system 0:00.11elapsed 102%CPU (0avgtext+0avgdata 17792maxresident)k
+0inputs+0outputs (0major+12675minor)pagefaults 0swaps
+0inputs+0outputs (0major+12675minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pgagent-4.2.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `pgagent-4.2.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.92user 4.19system 0:46.50elapsed 23%CPU (0avgtext+0avgdata 139284maxresident)k
+6.92user 4.19system 0:46.50elapsed 23%CPU (0avgtext+0avgdata 139284maxresident)k
+743376inputs+0outputs (0major+247403minor)pagefaults 0swaps

@@ -1,0 +1,835 @@
+<86>May 16 02:00:44 userdel[4103443]: delete user 'rooter'
+<86>May 16 02:00:44 userdel[4103443]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:00:44 userdel[4103443]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:00:44 groupadd[4103489]: group added to /etc/group: name=rooter, GID=1874
+<86>May 16 02:00:44 groupadd[4103489]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:00:44 groupadd[4103489]: new group: name=rooter, GID=1874
+<86>May 16 02:00:44 useradd[4103528]: new user: name=rooter, UID=1874, GID=1874, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:00:44 userdel[4103576]: delete user 'builder'
+<86>May 16 02:00:44 userdel[4103576]: removed group 'builder' owned by 'builder'
+<86>May 16 02:00:44 userdel[4103576]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:00:44 groupadd[4103607]: group added to /etc/group: name=builder, GID=1875
+<86>May 16 02:00:44 groupadd[4103607]: group added to /etc/gshadow: name=builder
+<86>May 16 02:00:44 groupadd[4103607]: new group: name=builder, GID=1875
+<86>May 16 02:00:44 useradd[4103638]: new user: name=builder, UID=1875, GID=1875, home=/usr/src, shell=/bin/bash, from=none
+warning: line 36: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+<13>May 16 02:00:48 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 02:00:48 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 02:00:48 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 02:00:48 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 02:00:48 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 02:00:49 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 02:00:49 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 02:00:49 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 02:00:49 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 02:00:49 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 02:00:49 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 02:00:50 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 02:00:50 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 02:00:50 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 02:00:50 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 02:00:50 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 02:00:50 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 02:00:50 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 02:00:50 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 02:00:50 rpmi: libICE-devel-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 02:00:50 rpmi: libSM-devel-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 02:00:50 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:00:50 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 02:00:50 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 02:00:50 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 02:00:50 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 02:00:50 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 02:00:50 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 02:00:50 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:00:50 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:00:50 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 02:00:50 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:00:52 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 02:00:52 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 02:00:52 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:00:53 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 02:00:53 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 02:00:53 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:00:53 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 02:00:53 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:00:53 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 02:00:53 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 02:00:53 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 02:00:54 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 02:00:54 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:00:54 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:00:54 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:00:54 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:00:54 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 02:00:54 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 02:00:54 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 02:00:54 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 02:00:54 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 02:00:54 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:00:54 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 02:00:54 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 02:00:54 rpmi: libXt-devel-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 02:00:54 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 02:00:54 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 02:00:54 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 02:00:54 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 02:00:54 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 02:00:55 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 02:00:55 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:00:55 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 02:00:55 rpmi: libGLU-4:9.0.1-alt1 sisyphus+278350.100.1.2 1626174382 installed
+<13>May 16 02:00:55 rpmi: libftgl2-2.4.0-alt2 sisyphus+359620.100.1.1 1728720866 installed
+<13>May 16 02:00:55 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 02:00:55 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 02:00:55 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 02:00:55 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 02:00:55 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 02:00:55 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 02:00:55 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 02:00:55 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 02:00:55 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 02:00:55 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:00:55 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 02:00:55 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:00:55 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:00:55 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 02:00:55 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 02:00:55 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:00:55 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:00:55 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:00:55 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:00:56 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 02:00:56 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 02:00:56 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 02:00:56 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 02:00:56 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 02:00:56 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 02:00:56 rpmi: rpm-macros-pam0-1.7.0-alt1 sisyphus+349410.1200.7.1 1729774588 installed
+<13>May 16 02:00:56 rpmi: libpam0-devel-1.7.0-alt1 sisyphus+349410.1200.7.1 1729774588 installed
+<13>May 16 02:00:56 rpmi: libftgl-devel-2.4.0-alt2 sisyphus+359620.100.1.1 1728720866 installed
+<13>May 16 02:00:56 rpmi: libXinerama-devel-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 02:00:56 rpmi: libXpm-devel-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 02:00:56 rpmi: libXmu-devel-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 02:00:56 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 02:00:56 rpmi: libXdmcp-devel-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 02:00:56 rpmi: xorg-cf-files-1.0.7-alt3 sisyphus+299066.100.1.1 1650986799 installed
+<13>May 16 02:00:56 rpmi: imake-1.0.8-alt2 sisyphus+380418.100.1.1 1743780388 installed
+<13>May 16 02:00:56 rpmi: autoconf-archive-2024.10.16-alt1 sisyphus+360704.100.1.1 1729860896 installed
+warning: line 36: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/xlockmore-5.69-alt1.nosrc.rpm (w1.gzdio)
+warning: line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+Installing xlockmore-5.69-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.36946
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf xlockmore-5.69
++ echo 'Source #0 (xlockmore-5.69.tar.xz):'
+Source #0 (xlockmore-5.69.tar.xz):
++ /usr/bin/xz -dc /usr/src/RPM/SOURCES/xlockmore-5.69.tar.xz
++ /bin/tar -xf -
++ cd xlockmore-5.69
++ echo 'Source #1 (icons.tar.gz):'
+Source #1 (icons.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/icons.tar.gz
++ /bin/tar -xf -
++ echo 'Source #2 (pam.d.tar):'
+Source #2 (pam.d.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/pam.d.tar
++ echo 'Source #3 (po.tar.gz):'
+Source #3 (po.tar.gz):
++ /usr/bin/gzip -dc /usr/src/RPM/SOURCES/po.tar.gz
++ /bin/tar -xf -
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (0001-Fix-install-modes.patch):'
+Patch #1 (0001-Fix-install-modes.patch):
++ /usr/bin/patch -p2
+patching file configure.ac
+Hunk #1 succeeded at 5106 (offset 199 lines).
+Hunk #2 succeeded at 5124 (offset 199 lines).
++ echo 'Patch #3 (0003-Localize-and-translate.patch):'
+Patch #3 (0003-Localize-and-translate.patch):
++ /usr/bin/patch -p2
+patching file Makefile.in
+patching file modes/Makefile.in
+Hunk #1 succeeded at 58 (offset 1 line).
+patching file xlock/Makefile.in
+Hunk #2 succeeded at 45 with fuzz 2.
+patching file xlock/XLock-ja.ad
+patching file xlock/XLock-ru.ad
+patching file xlock/XLock.ad
+patching file xlock/msgmerge.c
+patching file xlock/msgmerge.h
+patching file xlock/resource-msg-en.h
+patching file xlock/resource.c
+Hunk #2 succeeded at 1749 (offset 11 lines).
+Hunk #3 succeeded at 1799 (offset 11 lines).
+patching file xlock/xlock.c
+Hunk #1 succeeded at 576 (offset -20 lines).
+Hunk #2 succeeded at 1622 (offset -11 lines).
+Hunk #3 succeeded at 1656 (offset -11 lines).
+Hunk #4 succeeded at 1755 (offset -11 lines).
+Hunk #5 succeeded at 2468 (offset -27 lines).
+Hunk #6 succeeded at 2745 (offset -56 lines).
+Hunk #7 succeeded at 3171 (offset -55 lines).
+Hunk #8 succeeded at 3254 (offset -55 lines).
+Hunk #9 succeeded at 3493 (offset -55 lines).
++ echo 'Patch #4 (0004-Use-KBD-monitoring.patch):'
+Patch #4 (0004-Use-KBD-monitoring.patch):
++ /usr/bin/patch -p2
+patching file .gear/tags/list
+patching file config.h.in
+Hunk #1 succeeded at 417 (offset 3 lines).
+patching file configure.ac
+Hunk #1 succeeded at 5144 (offset 199 lines).
+patching file xlock/XLock.ad
+patching file xlock/mode.h
+Hunk #1 succeeded at 84 (offset -163 lines).
+Hunk #2 succeeded at 101 (offset -163 lines).
+patching file xlock/resource-msg-en.h
+patching file xlock/resource.c
+Hunk #1 succeeded at 395 (offset 2 lines).
+Hunk #2 succeeded at 841 (offset 4 lines).
+Hunk #3 succeeded at 984 (offset 5 lines).
+patching file xlock/xlock.c
+Hunk #1 succeeded at 876 (offset -19 lines).
+Hunk #2 succeeded at 1023 (offset -19 lines).
+Hunk #3 succeeded at 2011 with fuzz 2 (offset -11 lines).
+Hunk #4 succeeded at 2355 (offset -11 lines).
+Hunk #5 succeeded at 2575 (offset -27 lines).
+Hunk #6 succeeded at 2894 (offset -56 lines).
+Hunk #7 succeeded at 4014 (offset -55 lines).
++ echo 'Patch #5 (0005-Provide-nologout-option-for-user-switching.patch):'
+Patch #5 (0005-Provide-nologout-option-for-user-switching.patch):
++ /usr/bin/patch -p2
+patching file xlock/logout.c
+Hunk #1 succeeded at 53 (offset 6 lines).
+Hunk #2 succeeded at 404 (offset 6 lines).
+patching file xlock/resource.c
+Hunk #1 succeeded at 469 (offset 2 lines).
+Hunk #2 succeeded at 695 (offset 3 lines).
+Hunk #3 succeeded at 870 (offset 4 lines).
+Hunk #4 succeeded at 1004 (offset 5 lines).
+patching file xlock/xlock.c
+Hunk #1 succeeded at 857 (offset -19 lines).
+Hunk #2 succeeded at 1737 (offset -11 lines).
+Hunk #3 succeeded at 1747 (offset -11 lines).
+patching file xlock/xlock.man
+Hunk #1 succeeded at 278 (offset 3 lines).
+Hunk #2 succeeded at 1616 (offset 3 lines).
++ echo 'Patch #6 (0006-Use-Droid-fonts-instead-of-legacy-ones.patch):'
+Patch #6 (0006-Use-Droid-fonts-instead-of-legacy-ones.patch):
++ /usr/bin/patch -p2
+patching file configure.ac
+Hunk #1 succeeded at 1943 (offset 197 lines).
+Hunk #2 succeeded at 2343 (offset 197 lines).
+patching file etc/marquee.sh
+patching file etc/xlockmess.sh
+patching file modes/xjack.c
+Hunk #1 succeeded at 39 with fuzz 1.
+patching file xglock/xglockrc
+patching file xlock/XLock-ja.ad
+patching file xlock/XLock-ru.ad
+patching file xlock/XLock.ad
+patching file xlock/iostuff.h
+patching file xlock/resource.c
+Hunk #1 succeeded at 164 (offset 1 line).
++ echo 'Patch #8 (0008-Fix-freetype2-detection.patch):'
+Patch #8 (0008-Fix-freetype2-detection.patch):
++ /usr/bin/patch -p2
+patching file configure.ac
+Hunk #1 succeeded at 2169 (offset 197 lines).
++ sed -i 's/#define MODE_boxed/#undef MODE_boxed/' xlock/mode.h
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.36946
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd xlockmore-5.69
++ cp /usr/share/aclocal/ax_pthread.m4 .
++ autoconf
+configure.ac:203: warning: The macro `AC_AIX' is obsolete.
+configure.ac:203: You should run autoupdate.
+./lib/autoconf/specific.m4:526: AC_AIX is expanded from...
+configure.ac:203: the top level
+configure.ac:203: warning: AC_LINK_IFELSE was called before AC_USE_SYSTEM_EXTENSIONS
+./lib/autoconf/specific.m4:526: AC_AIX is expanded from...
+configure.ac:203: the top level
+configure.ac:221: warning: The macro `AC_ISC_POSIX' is obsolete.
+configure.ac:221: You should run autoupdate.
+./lib/autoconf/specific.m4:536: AC_ISC_POSIX is expanded from...
+configure.ac:221: the top level
+configure.ac:233: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.ac:233: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.ac:233: the top level
+configure.ac:2900: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:2900: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:2900: the top level
+configure.ac:4133: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:4133: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+configure.ac:260: AC_PATH_GTK is expanded from...
+configure.ac:4133: the top level
+configure.ac:4133: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:4133: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+configure.ac:260: AC_PATH_GTK is expanded from...
+configure.ac:4133: the top level
+configure.ac:4360: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:4360: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:4360: the top level
+configure.ac:4360: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:4360: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2823: _AC_COMPILE_IFELSE is expanded from...
+./lib/autoconf/general.m4:2839: AC_COMPILE_IFELSE is expanded from...
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:4360: the top level
+configure.ac:4410: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:4410: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:4410: the top level
+configure.ac:4426: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:4426: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:4426: the top level
+configure.ac:4447: warning: The macro `AC_LANG_CPLUSPLUS' is obsolete.
+configure.ac:4447: You should run autoupdate.
+./lib/autoconf/c.m4:289: AC_LANG_CPLUSPLUS is expanded from...
+configure.ac:4447: the top level
+configure.ac:4451: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:4451: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:4451: the top level
+configure.ac:4462: warning: The macro `AC_LANG_C' is obsolete.
+configure.ac:4462: You should run autoupdate.
+./lib/autoconf/c.m4:72: AC_LANG_C is expanded from...
+configure.ac:4462: the top level
+configure.ac:5230: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.ac:5230: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.ac:5230: the top level
++ ftgl_includes=/usr/include/FTGL
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --without-motif --without-gtk --without-esound --disable-def-play --enable-pam --enable-bad-pam --enable-vtlock --enable-button-logout=85 --enable-kbdmon
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for a sed that does not truncate output... /usr/bin/sed
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether x86_64-alt-linux-gcc is Clang... no
+checking whether pthreads work with "-pthread" and "-lpthread"... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for CC... no
+checking for C++... no
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+Turning on GNU compiler warnings.
+checking whether ln -s works... yes
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/time.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether make sets $(MAKE)... yes
+checking test -h... -h
+checking for library containing strerror... none required
+checking for fcntl.h... yes
+checking for limits.h... yes
+checking for sys/resource.h... yes
+checking for sys/select.h... yes
+checking for sys/time.h... (cached) yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking for memory.h... yes
+checking for sys/param.h... yes
+checking for an ANSI C-conforming const... yes
+checking for mode_t... yes
+checking for uid_t in sys/types.h... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for getenv declaration... yes
+checking for gethostname... yes
+checking for select... yes
+checking for strdup... yes
+checking for vfork... yes
+checking for seteuid... yes
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for X app-defaults directory... /usr/lib/X11/app-defaults
+checking for Motif... no
+checking for Editres... libraries , headers /usr/include
+checking for XPM... libraries , headers /usr/include
+checking for LIBPNG... libraries , headers /usr/include
+checking for MAGICK... no Magick-config
+checking for GLTT... no
+checking for TTF... no
+checking for FTGL... libraries , headers /usr/include
+checking for FREETYPE2... libraries , headers /usr/include/freetype2
+checking for OpenGL (OK if this is Mesa)... no
+checking for Mesa... no
+checking for GL >=1.1... yes
+checking for DtSaver... no
+checking for EXT... libraries , headers /usr/include
+checking for DPMS... libraries , headers /usr/include
+checking for XINERAMA... libraries , headers /usr/include
+checking for DEF_PLAY... no
+checking for RPLAY... no
+checking for ESOUND... no
+checking for NAS... no
+checking for CRYPT... no
+checking for library containing crypt... -lcrypt
+checking for pkg-config... /usr/bin/pkg-config
+checking for gtk+-2.0... no
+checking for elf.h... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for usleep... yes
+checking how to call gettimeofday... two arguments
+checking for tzset... yes
+checking for timelocal... yes
+checking for inline... inline
+checking for srand48... yes
+checking for srand48 declaration... yes
+checking matherr support... no
+checking struct sigset_t... no
+checking whether wchar_t is defined internal to C++... no
+defining option USE_VROOT
+defining option ALWAYS_ALLOW_ROOT
+defining option USE_VTLOCK
+defining option USE_BUTTON_LOGOUT = 85 minutes
+defining option USE_BOMB
+defining option USE_PAM
+checking for dlsym... yes
+defining option BAD_PAM
+defining option USE_MB
+using default language (English)
+defining install options (setuid/setgid) = "-m 4711" for vtlock
+checking for X11/XKBlib.h... yes
+enabling keyboard state monitor
+checking for X11/Xlib.h... yes
+enabling double buffer X11 extension
+checking for X11/extensions/Xdbe.h... yes
+enabling double buffer X11 extension
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating xlock/Makefile
+config.status: creating modes/Makefile
+config.status: creating modes/glx/Makefile
+config.status: creating xmlock/Makefile
+config.status: creating xglock/Makefile
+config.status: creating config.h
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ echo '#define FTGL213'
++ make -j16 xapploaddir=/etc/X11/app-defaults
+for dir in xlock modes/glx modes xmlock xglock; do make -C $dir all; done
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread random.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread parsecmd.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread visgl.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread xbm.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread xlockimage.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread ras.c
+ras.c: In function 'RasterFileToImage':
+ras.c:67:16: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+   67 |         (void) fread((void *) xlockimage.header, 8, 4, file);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ras.c:115:16: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  115 |         (void) fread((void *) xlockimage.color, (int) xlockimage.colors, 3, file);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ras.c:116:16: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  116 |         (void) fread((void *) rasdata, read_width, (int) xlockimage.height, file);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread passwd.c
+passwd.c: In function 'checkPasswd':
+passwd.c:1200:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1200 |         (void) seteuid(0); /* temporarily go to root so that pam can get shadow password */
+      |                ^~~~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1207:9: note: in expansion of macro 'PAM_BAIL'
+ 1207 |         PAM_BAIL;
+      |         ^~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1212:17: note: in expansion of macro 'PAM_BAIL'
+ 1212 |                 PAM_BAIL;
+      |                 ^~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1221:41: note: in expansion of macro 'PAM_BAIL'
+ 1221 |                                         PAM_BAIL;
+      |                                         ^~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1226:17: note: in expansion of macro 'PAM_BAIL'
+ 1226 |                 PAM_BAIL;
+      |                 ^~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1228:17: note: in expansion of macro 'PAM_BAIL'
+ 1228 |                 PAM_BAIL;
+      |                 ^~~~~~~~
+passwd.c:1231:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1231 |         (void) seteuid(ruid); /* back to user's privileges */
+      |                ^~~~~~~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1244:9: note: in expansion of macro 'PAM_BAIL'
+ 1244 |         PAM_BAIL;
+      |         ^~~~~~~~
+passwd.c:1190:25: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1190 | #define BAD_PAM_SETUID  seteuid(ruid);
+      |                         ^~~~~~~~~~~~~
+passwd.c:1196:31: note: in expansion of macro 'BAD_PAM_SETUID'
+ 1196 |     pam_end(pamh, pam_error); BAD_PAM_SETUID return False; \
+      |                               ^~~~~~~~~~~~~~
+passwd.c:1247:9: note: in expansion of macro 'PAM_BAIL'
+ 1247 |         PAM_BAIL;
+      |         ^~~~~~~~
+passwd.c: At top level:
+passwd.c:2:19: warning: 'sccsid' defined but not used [-Wunused-const-variable=]
+    2 | static const char sccsid[] = "@(#)passwd.c      5.00 2000/11/01 xlockmore";
+      |                   ^~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread vis.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread mode.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread spline.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread sound.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread util.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread automata.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread msgmerge.c
+msgmerge.c: In function 'msgmerge':
+msgmerge.c:25:9: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   25 |   tmp = malloc(buflen);
+      |         ^~~~~~
+msgmerge.c:4:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    3 | #include "msgmerge.h"
+  +++ |+#include <stdlib.h>
+    4 | 
+msgmerge.c:25:9: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   25 |   tmp = malloc(buflen);
+      |         ^~~~~~
+msgmerge.c:25:9: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+msgmerge.c:71:3: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   71 |   free(tmp);
+      |   ^~~~
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+msgmerge.c:71:3: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+make[1]: *** [Makefile:132: msgmerge.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread aligned_malloc.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread logout.c
+logout.c: In function 'logoutUser':
+logout.c:403:32: warning: ignoring return value of 'system' declared with attribute 'warn_unused_result' [-Wunused-result]
+  403 |                         (void) system(logoutCmd);
+      |                                ^~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread color.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread thread_util.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread resource.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread magick.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread xshm.c
+xshm.c: In function 'create_xshm_image':
+xshm.c:96:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   96 |   if (old_handler)                                      \
+      |   ^~
+xshm.c:165:3: note: in expansion of macro 'UNCATCH_X_ERROR'
+  165 |   UNCATCH_X_ERROR(dpy);
+      |   ^~~~~~~~~~~~~~~
+xshm.c:98:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   98 |     old_handler = 0;                                    \
+      |     ^~~~~~~~~~~
+xshm.c:165:3: note: in expansion of macro 'UNCATCH_X_ERROR'
+  165 |   UNCATCH_X_ERROR(dpy);
+      |   ^~~~~~~~~~~~~~~
+xshm.c:96:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   96 |   if (old_handler)                                      \
+      |   ^~
+xshm.c:204:7: note: in expansion of macro 'UNCATCH_X_ERROR'
+  204 |       UNCATCH_X_ERROR(dpy);
+      |       ^~~~~~~~~~~~~~~
+xshm.c:98:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   98 |     old_handler = 0;                                    \
+      |     ^~~~~~~~~~~
+xshm.c:204:7: note: in expansion of macro 'UNCATCH_X_ERROR'
+  204 |       UNCATCH_X_ERROR(dpy);
+      |       ^~~~~~~~~~~~~~~
+xshm.c: In function 'destroy_xshm_image':
+xshm.c:96:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   96 |   if (old_handler)                                      \
+      |   ^~
+xshm.c:317:3: note: in expansion of macro 'UNCATCH_X_ERROR'
+  317 |   UNCATCH_X_ERROR(dpy);
+      |   ^~~~~~~~~~~~~~~
+xshm.c:98:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   98 |     old_handler = 0;                                    \
+      |     ^~~~~~~~~~~
+xshm.c:317:3: note: in expansion of macro 'UNCATCH_X_ERROR'
+  317 |   UNCATCH_X_ERROR(dpy);
+      |   ^~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread iostuff.c
+iostuff.c: In function 'getWords':
+iostuff.c:855:56: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  855 |                                                 (void) fgets(p, BUFSIZ - strlen(&buf[screen * BUFSIZ]), pp);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iostuff.c:857:56: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  857 |                                                 (void) fgets(p, BUFSIZ - strlen(&buf[screen * BUFSIZ]), pp);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread vtlock.c
+vtlock.c: In function 'getrootprivs':
+vtlock.c:95:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+   95 |         (void) seteuid(0);
+      |                ^~~~~~~~~~
+vtlock.c: In function 'revokerootprivs':
+vtlock.c:102:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+  102 |         (void) seteuid(ruid);
+      |                ^~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread xlock.c
+xlock.c: In function 'lockDisplay':
+xlock.c:3155:62: warning: passing argument 3 to 'restrict'-qualified parameter aliases with argument 2 [-Wrestrict]
+ 3155 |                 (void) sigprocmask(SIG_SETMASK, &oldsigmask, &oldsigmask);
+      |                                                 ~~~~~~~~~~~  ^~~~~~~~~~~
+xlock.c: In function 'createFontSet':
+xlock.c:3302:16: warning: unused variable 'font_name_list' [-Wunused-variable]
+ 3302 |         char **font_name_list;
+      |                ^~~~~~~~~~~~~~
+xlock.c:3301:23: warning: unused variable 'font_struct_list' [-Wunused-variable]
+ 3301 |         XFontStruct **font_struct_list;
+      |                       ^~~~~~~~~~~~~~~~
+xlock.c:3300:24: warning: unused variable 'n' [-Wunused-variable]
+ 3300 |         int         i, n, miss_count;
+      |                        ^
+xlock.c: In function 'main':
+xlock.c:4159:83: warning: passing argument 3 to 'restrict'-qualified parameter aliases with argument 2 [-Wrestrict]
+ 4159 |                         (void) sigprocmask(SIG_SETMASK, (sigset_t *)&old_sigmask, (sigset_t *)&old_sigmask);
+      |                                                         ~~~~~~~~~~~~~~~~~~~~~~~~  ^~~~~~~~~~~~~~~~~~~~~~~~
+xlock.c: In function 'finish':
+xlock.c:1530:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1530 |         (void) nice(0);
+      |                ^~~~~~~
+xlock.c: In function 'main':
+xlock.c:3436:16: warning: ignoring return value of 'setegid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 3436 |         (void) setegid(rgid);
+      |                ^~~~~~~~~~~~~
+xlock.c:3437:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 3437 |         (void) seteuid(ruid);
+      |                ^~~~~~~~~~~~~
+xlock.c:3471:16: warning: ignoring return value of 'setegid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 3471 |         (void) setegid(egid);
+      |                ^~~~~~~~~~~~~
+xlock.c:3472:16: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 3472 |         (void) seteuid(euid);
+      |                ^~~~~~~~~~~~~
+xlock.c:3514:14: warning: ignoring return value of 'seteuid' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 3514 |       (void) seteuid(ruid);
+      |              ^~~~~~~~~~~~~
+xlock.c:4135:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 4135 |         (void) nice(nicelevel);
+      |                ^~~~~~~~~~~~~~~
+xlock.c:4163:32: warning: ignoring return value of 'system' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 4163 |                         (void) system(startCmd);
+      |                                ^~~~~~~~~~~~~~~~
+xlock.c:4202:32: warning: ignoring return value of 'system' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 4202 |                         (void) system(endCmd);
+      |                                ^~~~~~~~~~~~~~
+xlock.c: In function 'getPassword':
+xlock.c:2444:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2444 |         (void) nice(0);
+      |                ^~~~~~~
+xlock.c:2909:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2909 |         (void) nice(nicelevel);
+      |                ^~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread vtlock_proc.c
+vtlock_proc.c: In function 'find_x_proc':
+vtlock_proc.c:191:64: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+  191 |     if ((names = scan_dir(PROCDIR, &namelist, proc_dir_select, alphasort)) == -1 )
+      |                                                                ^~~~~~~~~
+      |                                                                |
+      |                                                                int (*)(const struct dirent **, const struct dirent **)
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+   82 |                      int         (*compare) (const void *, const void *));
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vtlock_proc.c: In function 'scan_x_fds':
+vtlock_proc.c:304:43: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+  304 |     if (scan_dir(xfddir, &namelist, NULL, alphasort) == -1) {
+      |                                           ^~~~~~~~~
+      |                                           |
+      |                                           int (*)(const struct dirent **, const struct dirent **)
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+   82 |                      int         (*compare) (const void *, const void *));
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:132: vtlock_proc.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread erase.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make: *** [Makefile:12: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+
+
+RPM build errors:
+    line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+    Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+Command exited with non-zero status 1
+4.47user 2.89system 0:04.31elapsed 170%CPU (0avgtext+0avgdata 39972maxresident)k
+0inputs+0outputs (0major+494292minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `xlockmore-5.69-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.18user 2.95system 0:22.25elapsed 32%CPU (0avgtext+0avgdata 143140maxresident)k
+6640inputs+0outputs (0major+234460minor)pagefaults 0swaps

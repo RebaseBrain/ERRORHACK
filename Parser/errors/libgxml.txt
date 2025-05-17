@@ -1,0 +1,161 @@
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd gxml-0.20.4
++ /usr/bin/meson test --no-rebuild --print-errorlogs -C x86_64-alt-linux
+ 1/10 xdocument     OK              0.04s
+ 2/10 xxpath        OK              0.03s
+ 3/10 xsd           OK              0.02s
+ 4/10 document      OK              0.02s
+ 5/10 css           OK              0.01s
+ 6/10 element       OK              0.02s
+ 7/10 serialization FAIL            0.02s   killed by signal 6 SIGABRT
+>>> MESON_TEST_ITERATION=1 MALLOC_PERTURB_=172 MSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 UBSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 LD_LIBRARY_PATH=/usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/gxml ASAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1 /usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/test/serialization
+――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――
+Listing only the last 100 lines from a long log.
+# <GomBasicTypes integer="0" realDouble="0" realFloat="0" unsignedInteger="0" Boolean="false"/>
+# 
+# MESSAGE: SerializationTest.vala:1459: <?xml version="1.0"?>
+# <GomBasicTypes text="Text" integer="-1" realDouble="2.2000000000000002" realFloat="1.1" unsignedInteger="1" Boolean="false"/>
+# 
+# MESSAGE: SerializationTest.vala:1464: realFloat = 1.1
+# MESSAGE: SerializationTest.vala:1466: unsignedInteger = 1
+# MESSAGE: SerializationTest.vala:862: DOC:<?xml version="1.0"?>
+# <BookStand Classification="Science"><BookRegister Year="2016"/><BookRegister Year="2010"/><Test/><BookRegister Year="2000"/><Dimension Length="1" Type="x"/><Dimension Length="1" Type="y"/><Dimension Length="1" Type="z"/></BookStand>
+# 
+ok 10 /gxml/serialization/write/property-arraylist
+ok 11 /gxml/serialization/write/property-hashmap
+ok 12 /gxml/serialization/write/mappeablepairedkey
+# MESSAGE: SerializationTest.vala:993: 2017
+# MESSAGE: SerializationTest.vala:995: Book1
+# MESSAGE: SerializationTest.vala:997: SYSTEMS
+ok 13 /gxml/serialization/write/mappeablethreekey
+# MESSAGE: Error when transform from attribute string value to enum: text 'UnkNown' cannot be parsed to enumeration type: SerializationTestMotorTensionSupplyEnum
+# MESSAGE: SerializationTest.vala:1066: <?xml version="1.0"?>
+# <Motor On="false" Torque="0.0000" Speed="1.0000" TensionType="ac" TensionClassification="ONE"/>
+# 
+ok 14 /gxml/serialization/write/property
+# End of write tests
+# Start of read tests
+# MESSAGE: SerializationTest.vala:742: DOC:<?xml version="1.0"?>
+# <Taxes monthRate="0" TaxFree="false" Month="january" PayDate="2050-12-09"/>
+# 
+ok 15 /gxml/serialization/read/property-date
+# Start of collection tests
+# MESSAGE: SerializationTest.vala:1503: <?xml version="1.0"?>
+# <BookStore><Book Name="Title 1"/><Book Name="Title 2"/><Book Name="Title 3"/><Book Name="Title 4"/><Book Name="Title 5"/><Book Name="Title 6"/><Book Name="Title 7"/><Book Name="Title 8"/><Book Name="Title 9"/><Book Name="Title 10"/></BookStore>
+# 
+ok 24 /gxml/serialization/collection/iteration
+ok 24 /gxml/serialization/collection/iteration
+# End of collection tests
+# End of collection tests
+# Start of collection-parent tests
+# Start of collection-parent tests
+# Start of list tests
+# Start of list tests
+# MESSAGE: SerializationTest.vala:1612: Found Type: StoreShelf
+# MESSAGE: SerializationTest.vala:1612: Found Type: StoreShelf
+# MESSAGE: SerializationTest.vala:1616: Found Type: StoreShelf
+# MESSAGE: SerializationTest.vala:1616: Found Type: StoreShelf
+not ok /gxml/serialization/collection-parent/list/read - ERROR:../test/SerializationTest.vala:1624:__lambda28_: assertion failed: (found_cpu)
+not ok /gxml/serialization/collection-parent/list/read - ERROR:../test/SerializationTest.vala:1624:__lambda28_: assertion failed: (found_cpu)
+Bail out!
+Bail out!
+stderr:
+stderr:
+**
+**
+**
+ERROR:../test/SerializationTest.vala:1624:__lambda28_: assertion failed: (found_cpu)
+ERROR:../test/SerializationTest.vala:1624:__lambda28_: assertion failed: (found_cpu)
+ERROR:../test/SerializationTest.vala:1624:__lambda28_: assertion failed: (found_cpu)
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+
+
+ 8/10 htmlxdocument OK              0.06s
+ 8/10 htmlxdocument OK              0.06s
+ 8/10 htmlxdocument OK              0.06s
+ 8/10 htmlxdocument OK              0.06s
+ 9/10 html          OK              0.04s
+ 9/10 html          OK              0.04s
+ 9/10 html          OK              0.04s
+ 9/10 html          OK              0.04s
+10/10 xelement      OK              0.09s
+10/10 xelement      OK              0.09s
+10/10 xelement      OK              0.09s
+10/10 xelement      OK              0.09s
+10/10 xelement      OK              0.09s
+
+
+
+
+
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+Summary of Failures:
+
+
+
+
+ 7/10 serialization FAIL            0.02s   killed by signal 6 SIGABRT
+ 7/10 serialization FAIL            0.02s   killed by signal 6 SIGABRT
+ 7/10 serialization FAIL            0.02s   killed by signal 6 SIGABRT
+ 7/10 serialization FAIL            0.02s   killed by signal 6 SIGABRT
+
+
+
+
+Ok:                9   
+Ok:                9   
+Ok:                9   
+Fail:              1   
+Fail:              1   
+Fail:              1   
+
+
+
+
+Full log written to /usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/meson-logs/testlog.txt
+Full log written to /usr/src/RPM/BUILD/gxml-0.20.4/x86_64-alt-linux/meson-logs/testlog.txt
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.60443 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+60.83user 11.91system 0:09.39elapsed 774%CPU (0avgtext+0avgdata 140436maxresident)k
+60.83user 11.91system 0:09.39elapsed 774%CPU (0avgtext+0avgdata 140436maxresident)k
+60.83user 11.91system 0:09.39elapsed 774%CPU (0avgtext+0avgdata 140436maxresident)k
+0inputs+0outputs (0major+2793060minor)pagefaults 0swaps
+0inputs+0outputs (0major+2793060minor)pagefaults 0swaps
+0inputs+0outputs (0major+2793060minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgxml-0.20.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgxml-0.20.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.60user 3.25system 1:00.85elapsed 12%CPU (0avgtext+0avgdata 141896maxresident)k
+4.60user 3.25system 1:00.85elapsed 12%CPU (0avgtext+0avgdata 141896maxresident)k
+192712inputs+0outputs (0major+351681minor)pagefaults 0swaps

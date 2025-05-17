@@ -1,0 +1,140 @@
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main.o main.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client_alt.o toolbar_client_alt.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16   -I/usr/include/startup-notification-1.0       -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o xml.o xml.c
+xml.c: In function 'xml_parse_data_dom':
+xml.c:499:57: warning: format '%d' expects argument of type 'int', but argument 3 has type 'XML_Size' {aka 'long unsigned int'} [-Wformat=]
+  499 |     fprintf(stderr, "Matchbox: XML Parse error at line %d:\n%s\n",
+      |                                                        ~^
+      |                                                         |
+      |                                                         int
+      |                                                        %ld
+  500 |             XML_GetCurrentLineNumber(p),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~                  
+      |             |
+      |             XML_Size {aka long unsigned int}
+xml.c: At top level:
+xml.c:453:1: warning: 'catch_sigsegv' defined but not used [-Wunused-function]
+In file included from structs.h:35,
+                 from select_client.h:24,
+                 from select_client.c:25:
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+/usr/include/X11/Xlib.h:1683:15: note: declared here
+ 1683 | extern KeySym XKeycodeToKeysym(
+ 1683 | extern KeySym XKeycodeToKeysym(
+      |               ^~~~~~~~~~~~~~~~
+      |               ^~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o misc.o misc.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o misc.o misc.c
+misc.c: In function 'sig_handler':
+misc.c: In function 'sig_handler':
+misc.c:74:11: error: implicit declaration of function 'wait' [-Wimplicit-function-declaration]
+misc.c:74:11: error: implicit declaration of function 'wait' [-Wimplicit-function-declaration]
+   74 |           wait(NULL); break;
+   74 |           wait(NULL); break;
+      |           ^~~~
+      |           ^~~~
+make[2]: *** [Makefile:477: misc.o] Error 1
+make[2]: *** [Makefile:477: misc.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main.o main.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o main.o main.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o stack.o stack.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o stack.o stack.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DDATADIR=\"/usr/share\" -DCONFDIR=\"/etc/matchbox\" -DPKGDATADIR=\"/usr/share/matchbox\" -DPREFIX=\"/usr\" -g -Wall -fno-strict-aliasing    -DNO_KBD -DNO_PING          -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o toolbar_client_alt.o toolbar_client_alt.c
+      |                               ^
+mbtheme-standalone.c:769:37: warning: pointer targets in passing argument 1 of 'ewmh_utf8_len' differ in signedness [-Wpointer-sign]
+mbtheme-standalone.c:769:37: warning: pointer targets in passing argument 1 of 'ewmh_utf8_len' differ in signedness [-Wpointer-sign]
+  769 |            str_len = ewmh_utf8_len(p->name);
+  769 |            str_len = ewmh_utf8_len(p->name);
+  769 |            str_len = ewmh_utf8_len(p->name);
+      |                                    ~^~~~~~
+      |                                    ~^~~~~~
+      |                                    ~^~~~~~
+      |                                     |
+      |                                     |
+      |                                     |
+      |                                     char *
+      |                                     char *
+      |                                     char *
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+ewmh.h:98:30: note: expected 'unsigned char *' but argument is of type 'char *'
+   98 | ewmh_utf8_len(unsigned char *str);
+   98 | ewmh_utf8_len(unsigned char *str);
+   98 | ewmh_utf8_len(unsigned char *str);
+      |               ~~~~~~~~~~~~~~~^~~
+      |               ~~~~~~~~~~~~~~~^~~
+      |               ~~~~~~~~~~~~~~~^~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/matchbox-window-manager-1.2/matchbox-window-manager-embedded/src'
+make[1]: *** [Makefile:382: all-recursive] Error 1
+make[1]: *** [Makefile:382: all-recursive] Error 1
+make[1]: *** [Makefile:382: all-recursive] Error 1
+make[1]: *** [Makefile:382: all-recursive] Error 1
+make: *** [Makefile:323: all] Error 2
+make: *** [Makefile:323: all] Error 2
+make: *** [Makefile:323: all] Error 2
+make: *** [Makefile:323: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.603 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+16.77user 6.33system 0:28.18elapsed 81%CPU (0avgtext+0avgdata 63616maxresident)k
+16.77user 6.33system 0:28.18elapsed 81%CPU (0avgtext+0avgdata 63616maxresident)k
+16.77user 6.33system 0:28.18elapsed 81%CPU (0avgtext+0avgdata 63616maxresident)k
+16.77user 6.33system 0:28.18elapsed 81%CPU (0avgtext+0avgdata 63616maxresident)k
+0inputs+0outputs (0major+854916minor)pagefaults 0swaps
+0inputs+0outputs (0major+854916minor)pagefaults 0swaps
+0inputs+0outputs (0major+854916minor)pagefaults 0swaps
+0inputs+0outputs (0major+854916minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `matchbox-window-manager-1.2-alt5.1.src.rpm' failed.
+hsh-rebuild: rebuild of `matchbox-window-manager-1.2-alt5.1.src.rpm' failed.
+hsh-rebuild: rebuild of `matchbox-window-manager-1.2-alt5.1.src.rpm' failed.
+hsh-rebuild: rebuild of `matchbox-window-manager-1.2-alt5.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.69user 5.62system 1:00.97elapsed 26%CPU (0avgtext+0avgdata 143372maxresident)k
+10.69user 5.62system 1:00.97elapsed 26%CPU (0avgtext+0avgdata 143372maxresident)k
+1760inputs+0outputs (0major+241847minor)pagefaults 0swaps

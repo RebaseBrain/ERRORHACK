@@ -1,0 +1,140 @@
+checking if we should export unwind.h... yes
+checking if we should build libunwind-setjmp... no
+checking for build architecture... x86
+checking for host architecture... x86
+checking for target architecture... x86
+checking for target operating system... linux-gnu
+checking for ELF helper width... 32
+checking whether to include DWARF support... yes
+checking whether to restrict build to remote support... no
+checking whether to enable debug support... 
+checking whether to enable C++ exception support... no
+checking whether to load .debug_frame sections... no
+checking whether to block signals during mutex ops... yes
+checking whether to validate memory addresses before use... yes
+checking whether to enable msabi support... 
+checking whether to support LZMA-compressed symbol tables... auto
+checking for lzma_mf_is_supported in -llzma... no
+checking whether to support ZLIB-compressed symbol tables... auto
+checking for uncompress in -lz... no
+checking whether to support UNW_CACHE_PER_THREAD... 
+checking for Intel compiler... no
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c -o mi/strerror.lo mi/strerror.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c mi/strerror.c  -fPIC -DPIC -o mi/.libs/strerror.o
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c -o x86/is_fpreg.lo x86/is_fpreg.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c x86/is_fpreg.c  -fPIC -DPIC -o x86/.libs/is_fpreg.o
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c -o x86/regname.lo x86/regname.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c x86/regname.c  -fPIC -DPIC -o x86/.libs/regname.o
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c -o x86/Los-linux.lo x86/Los-linux.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../include -I../include -I../include/tdep-x86 -I. -D_GNU_SOURCE -DNDEBUG -include config.h -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fexceptions -Wall -Wsign-compare -D__EXTENSIONS__ -c x86/Los-linux.c  -fPIC -DPIC -o x86/.libs/Los-linux.o
+In file included from x86/Los-linux.c:4:
+x86/Gos-linux.c: In function '_ULx86_local_resume':
+x86/Gos-linux.c: In function '_ULx86_local_resume':
+x86/Gos-linux.c:302:22: error: passing argument 1 of '_ULx86_sigreturn' from incompatible pointer type [-Wincompatible-pointer-types]
+x86/Gos-linux.c:302:22: error: passing argument 1 of '_ULx86_sigreturn' from incompatible pointer type [-Wincompatible-pointer-types]
+  302 |       x86_sigreturn (sc);
+  302 |       x86_sigreturn (sc);
+  302 |       x86_sigreturn (sc);
+      |                      ^~
+      |                      ^~
+      |                      ^~
+      |                      |
+      |                      |
+      |                      |
+      |                      |
+      |                      struct sigcontext *
+      |                      struct sigcontext *
+      |                      struct sigcontext *
+      |                      struct sigcontext *
+In file included from x86/Gos-linux.c:26:
+In file included from x86/Gos-linux.c:26:
+In file included from x86/Gos-linux.c:26:
+In file included from x86/Gos-linux.c:26:
+In file included from x86/Gos-linux.c:26:
+x86/unwind_i.h:64:42: note: expected 'unw_cursor_t *' {aka 'struct unw_cursor *'} but argument is of type 'struct sigcontext *'
+x86/unwind_i.h:64:42: note: expected 'unw_cursor_t *' {aka 'struct unw_cursor *'} but argument is of type 'struct sigcontext *'
+x86/unwind_i.h:64:42: note: expected 'unw_cursor_t *' {aka 'struct unw_cursor *'} but argument is of type 'struct sigcontext *'
+x86/unwind_i.h:64:42: note: expected 'unw_cursor_t *' {aka 'struct unw_cursor *'} but argument is of type 'struct sigcontext *'
+x86/unwind_i.h:64:42: note: expected 'unw_cursor_t *' {aka 'struct unw_cursor *'} but argument is of type 'struct sigcontext *'
+   64 | extern void x86_sigreturn (unw_cursor_t *cursor);
+   64 | extern void x86_sigreturn (unw_cursor_t *cursor);
+   64 | extern void x86_sigreturn (unw_cursor_t *cursor);
+   64 | extern void x86_sigreturn (unw_cursor_t *cursor);
+   64 | extern void x86_sigreturn (unw_cursor_t *cursor);
+      |                            ~~~~~~~~~~~~~~^~~~~~
+      |                            ~~~~~~~~~~~~~~^~~~~~
+      |                            ~~~~~~~~~~~~~~^~~~~~
+      |                            ~~~~~~~~~~~~~~^~~~~~
+      |                            ~~~~~~~~~~~~~~^~~~~~
+make[2]: *** [Makefile:4380: x86/Los-linux.lo] Error 1
+make[2]: *** [Makefile:4380: x86/Los-linux.lo] Error 1
+make[2]: *** [Makefile:4380: x86/Los-linux.lo] Error 1
+make[2]: *** [Makefile:4380: x86/Los-linux.lo] Error 1
+make[2]: *** [Makefile:4380: x86/Los-linux.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[1]: *** [Makefile:2470: all] Error 2
+make[1]: *** [Makefile:2470: all] Error 2
+make[1]: *** [Makefile:2470: all] Error 2
+make[1]: *** [Makefile:2470: all] Error 2
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0/src'
+make: *** [Makefile:620: all-recursive] Error 1
+make: *** [Makefile:620: all-recursive] Error 1
+make: *** [Makefile:620: all-recursive] Error 1
+make: *** [Makefile:620: all-recursive] Error 1
+make: *** [Makefile:620: all-recursive] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0'
+make: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0'
+make: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0'
+make: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0'
+make: Leaving directory '/usr/src/RPM/BUILD/libunwind-1.7.0'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66305 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.56user 3.82system 0:10.70elapsed 97%CPU (0avgtext+0avgdata 21784maxresident)k
+6.56user 3.82system 0:10.70elapsed 97%CPU (0avgtext+0avgdata 21784maxresident)k
+6.56user 3.82system 0:10.70elapsed 97%CPU (0avgtext+0avgdata 21784maxresident)k
+6.56user 3.82system 0:10.70elapsed 97%CPU (0avgtext+0avgdata 21784maxresident)k
+0inputs+0outputs (0major+906373minor)pagefaults 0swaps
+0inputs+0outputs (0major+906373minor)pagefaults 0swaps
+0inputs+0outputs (0major+906373minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libunwind-1.7.0-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libunwind-1.7.0-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libunwind-1.7.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.59user 1.76system 0:14.81elapsed 15%CPU (0avgtext+0avgdata 11492maxresident)k
+0.59user 1.76system 0:14.81elapsed 15%CPU (0avgtext+0avgdata 11492maxresident)k
+0inputs+0outputs (0major+86719minor)pagefaults 0swaps

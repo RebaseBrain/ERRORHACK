@@ -1,0 +1,98 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:14 (cmake_policy):
+  Policy CMP0042 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0042 for more information.
+
+
+-- Using included inchi library.
+Problem opening /proc/meminfo
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+Problem opening /proc/meminfo
+-- Looking for stddef.h - found
+-- Check size of clock_t
+Problem opening /proc/meminfo
+-- Check size of clock_t - done
+-- Performing Test SCANDIR_NEEDS_CONST
+Problem opening /proc/meminfo
+-- Performing Test SCANDIR_NEEDS_CONST - Failed
+-- Performing Test HAVE_GCC_VISIBILITY
+Problem opening /proc/meminfo
+-- Performing Test HAVE_GCC_VISIBILITY - Success
+CMake Warning (dev) at CMakeLists.txt:299 (exec_program):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+
+  Use execute_process() instead.
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Checking available shared pointer...
+-- Performing Test HAVE_STD_SHARED_PTR
+Problem opening /proc/meminfo
+-- Performing Test HAVE_STD_SHARED_PTR - Success
+-- Performing Test HAVE_STD_TR1_SHARED_PTR
+Problem opening /proc/meminfo
+-- Performing Test HAVE_STD_TR1_SHARED_PTR - Failed
+-- Performing Test HAVE_STD_TR1_SHARED_PTR_IN_TR1_HEADER
+Problem opening /proc/meminfo
+-- Performing Test HAVE_STD_TR1_SHARED_PTR_IN_TR1_HEADER - Success
+-- Use std::shared_ptr in memory
+CMake Warning (dev) at CMakeLists.txt:358 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMake Warning (dev) at scripts/CMakeLists.txt:54 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonLibs: /usr/lib64/libpython3.12.so (found version "3.12.10")
+-- Python bindings will be compiled
+-- Python bindings will be compiled
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.24933 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.24933 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.24933 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.24933 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.32user 2.73system 0:05.87elapsed 103%CPU (0avgtext+0avgdata 69028maxresident)k
+3.32user 2.73system 0:05.87elapsed 103%CPU (0avgtext+0avgdata 69028maxresident)k
+0inputs+0outputs (0major+388001minor)pagefaults 0swaps
+0inputs+0outputs (0major+388001minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `openbabel-3.1.1-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `openbabel-3.1.1-alt4.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.44user 4.27system 0:43.96elapsed 22%CPU (0avgtext+0avgdata 144652maxresident)k
+5.44user 4.27system 0:43.96elapsed 22%CPU (0avgtext+0avgdata 144652maxresident)k
+0inputs+0outputs (0major+361955minor)pagefaults 0swaps

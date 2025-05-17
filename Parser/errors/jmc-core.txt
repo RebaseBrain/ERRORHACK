@@ -1,0 +1,119 @@
+[INFO] Compiling 39 source files to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/classes
+[INFO] /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/src/test/java/org/openjdk/jmc/common/test/mock/item/MockStacktraceType.java: Some input files use or override a deprecated API.
+[INFO] /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/src/test/java/org/openjdk/jmc/common/test/mock/item/MockStacktraceType.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.2.2:test (default-test) @ common.test ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Error: Could not find or load main class ${surefireArgLine}
+Caused by: java.lang.ClassNotFoundException: ${surefireArgLine}
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping missioncontrol.core
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] common.test ........................................ FAILURE [  0.472 s]
+[INFO] flightrecorder.test ................................ SKIPPED
+[INFO] flightrecorder.rules.test .......................... SKIPPED
+[INFO] flightrecorder.rules.jdk.test ...................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.056 s
+[INFO] Total time:  5.056 s
+[INFO] Finished at: 2025-05-16T02:11:57Z
+[INFO] Finished at: 2025-05-16T02:11:57Z
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.2:test (default-test) on project common.test: 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.2:test (default-test) on project common.test: 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.2:test (default-test) on project common.test: 
+[ERROR] 
+[ERROR] 
+[ERROR] 
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to /usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR] Process Exit Code: 1
+[ERROR] Process Exit Code: 1
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Command was /bin/sh -c cd '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test' && '/usr/lib/jvm/java-11-openjdk-11.0.27.0.6-0.x86_64/bin/java' '-Duser.language=en' '-Duser.region=nl' '-Djava.locale.providers=COMPAT' '${surefireArgLine}' '-jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire/surefirebooter-20250516021156958_3.jar' '/usr/src/RPM/BUILD/jmc7-63ec7d0ee8d9/core/tests/org.openjdk.jmc.common.test/target/surefire' '2025-05-16T02-11-56_901-jvmRun1' 'surefire-20250516021156958_1tmp' 'surefire_0-20250516021156958_2tmp'
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR] Process Exit Code: 1
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:643)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:643)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1240)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1240)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1089)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1089)
+[ERROR] 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:905)
+[ERROR] 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)
+[ERROR] 	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :common.test
+[ERROR]   mvn <args> -rf :common.test
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32206 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32206 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32206 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32206 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+38.05user 4.71system 0:06.79elapsed 629%CPU (0avgtext+0avgdata 1028684maxresident)k
+38.05user 4.71system 0:06.79elapsed 629%CPU (0avgtext+0avgdata 1028684maxresident)k
+0inputs+0outputs (0major+331593minor)pagefaults 0swaps
+0inputs+0outputs (0major+331593minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `jmc-core-7.1.1-alt1_5.1jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `jmc-core-7.1.1-alt1_5.1jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.35user 3.19system 0:22.70elapsed 33%CPU (0avgtext+0avgdata 141296maxresident)k
+4.35user 3.19system 0:22.70elapsed 33%CPU (0avgtext+0avgdata 141296maxresident)k
+36168inputs+0outputs (0major+287614minor)pagefaults 0swaps

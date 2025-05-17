@@ -1,0 +1,77 @@
++ cd /usr/src/RPM/BUILD
++ cd trojita-0.7
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC'
++ export LDFLAGS=-pie
++ LDFLAGS=-pie
++ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_VERBOSE_MAKEFILE=ON -DWITH_QTKEYCHAIN_PLUGIN=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DLIB_SUFFIX=64 -DSHARE_INSTALL_PREFIX:PATH=/usr/share
+CMake Warning:
+  No source or binary directory provided.  Both will be assumed to be the
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+Problem opening /proc/meminfo
+CMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:7 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85872 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.85872 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85872 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.50user 0.28system 0:00.75elapsed 104%CPU (0avgtext+0avgdata 23968maxresident)k
+0.50user 0.28system 0:00.75elapsed 104%CPU (0avgtext+0avgdata 23968maxresident)k
+0inputs+0outputs (0major+55039minor)pagefaults 0swaps
+0inputs+0outputs (0major+55039minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `trojita-0.7-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `trojita-0.7-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.03user 2.99system 0:25.90elapsed 27%CPU (0avgtext+0avgdata 141092maxresident)k
+4.03user 2.99system 0:25.90elapsed 27%CPU (0avgtext+0avgdata 141092maxresident)k
+41896inputs+0outputs (0major+263290minor)pagefaults 0swaps

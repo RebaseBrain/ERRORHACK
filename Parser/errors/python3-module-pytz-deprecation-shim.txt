@@ -1,0 +1,371 @@
+                                f"relative import for {name!r}")
+            for character in name:
+                if character != '.':
+                    break
+                level += 1
+>       return _bootstrap._gcd_import(name[level:], package, level)
+E       ModuleNotFoundError: No module named 'tzdata'
+
+/usr/lib64/python3.12/importlib/__init__.py:90: ModuleNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+key = 'America/Coyhaique'
+_cache = {'Africa/Abidjan': _PytzShimTimezone(zoneinfo.ZoneInfo(key='Africa/Abidjan'), 'Africa/Abidjan'), 'Africa/Accra': _Pytz...), 'Africa/Algiers'), 'Africa/Bamako': _PytzShimTimezone(zoneinfo.ZoneInfo(key='Africa/Bamako'), 'Africa/Bamako'), ...}
+
+
+    def timezone(key, _cache={}):
+    def timezone(key, _cache={}):
+        """Builds an IANA database time zone shim.
+        """Builds an IANA database time zone shim.
+    
+    
+        This is the equivalent of ``pytz.timezone``.
+        This is the equivalent of ``pytz.timezone``.
+    
+    
+        :param key:
+        :param key:
+            A valid key from the IANA time zone database.
+    
+        :raises UnknownTimeZoneError:
+            If an unknown value is passed, this will raise an exception that can be
+            caught by :exc:`pytz_deprecation_shim.UnknownTimeZoneError` or
+            ``pytz.UnknownTimeZoneError``. Like
+            :exc:`zoneinfo.ZoneInfoNotFoundError`, both of those are subclasses of
+            :exc:`KeyError`.
+        """
+        instance = _cache.get(key, None)
+        if instance is None:
+            if len(key) == 3 and key.lower() == "utc":
+                instance = _cache.setdefault(key, UTC)
+            else:
+    def load_tzdata(key):
+        from importlib import resources
+    
+        components = key.split("/")
+        package_name = ".".join(["tzdata.zoneinfo"] + components[:-1])
+        package_name = ".".join(["tzdata.zoneinfo"] + components[:-1])
+        resource_name = components[-1]
+        resource_name = components[-1]
+    
+    
+        try:
+        try:
+            return resources.files(package_name).joinpath(resource_name).open("rb")
+            return resources.files(package_name).joinpath(resource_name).open("rb")
+        except (ImportError, FileNotFoundError, UnicodeEncodeError):
+        except (ImportError, FileNotFoundError, UnicodeEncodeError):
+            # There are three types of exception that can be raised that all amount
+            # There are three types of exception that can be raised that all amount
+            # to "we cannot find this key":
+            # to "we cannot find this key":
+            #
+            #
+            # ImportError: If package_name doesn't exist (e.g. if tzdata is not
+            # ImportError: If package_name doesn't exist (e.g. if tzdata is not
+            #   installed, or if there's an error in the folder name like
+            #   installed, or if there's an error in the folder name like
+            #   Amrica/New_York)
+            #   Amrica/New_York)
+            #   Amrica/New_York)
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            #   (e.g. Europe/Krasnoy)
+            #   (e.g. Europe/Krasnoy)
+            #   (e.g. Europe/Krasnoy)
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            #   such as keys containing a surrogate character.
+            #   such as keys containing a surrogate character.
+            #   such as keys containing a surrogate character.
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+E           zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Coyhaique'
+E           zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Coyhaique'
+
+
+/usr/lib64/python3.12/zoneinfo/_common.py:24: ZoneInfoNotFoundError
+/usr/lib64/python3.12/zoneinfo/_common.py:24: ZoneInfoNotFoundError
+
+
+During handling of the above exception, another exception occurred:
+
+    @hypothesis.given(key=valid_zone_strategy)
+>   def test_localize_aware_datetime(key):
+
+tests/test_errors.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_errors.py:31: in test_localize_aware_datetime
+    zone = pds.timezone(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+    def timezone(key, _cache={}):
+        """Builds an IANA database time zone shim.
+    
+        This is the equivalent of ``pytz.timezone``.
+    
+        :param key:
+            A valid key from the IANA time zone database.
+    
+        :raises UnknownTimeZoneError:
+            If an unknown value is passed, this will raise an exception that can be
+            caught by :exc:`pytz_deprecation_shim.UnknownTimeZoneError` or
+            ``pytz.UnknownTimeZoneError``. Like
+            :exc:`zoneinfo.ZoneInfoNotFoundError`, both of those are subclasses of
+            :exc:`KeyError`.
+        """
+        instance = _cache.get(key, None)
+        if instance is None:
+            if len(key) == 3 and key.lower() == "utc":
+                instance = _cache.setdefault(key, UTC)
+            else:
+                                f"relative import for {name!r}")
+            for character in name:
+                if character != '.':
+                    break
+                level += 1
+>       return _bootstrap._gcd_import(name[level:], package, level)
+E       ModuleNotFoundError: No module named 'tzdata'
+
+/usr/lib64/python3.12/importlib/__init__.py:90: ModuleNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+key = 'America/Coyhaique'
+_cache = {'Africa/Abidjan': _PytzShimTimezone(zoneinfo.ZoneInfo(key='Africa/Abidjan'), 'Africa/Abidjan'), 'Africa/Accra': _Pytz...), 'Africa/Algiers'), 'Africa/Asmara': _PytzShimTimezone(zoneinfo.ZoneInfo(key='Africa/Asmara'), 'Africa/Asmara'), ...}
+
+
+    def timezone(key, _cache={}):
+    def timezone(key, _cache={}):
+        """Builds an IANA database time zone shim.
+        """Builds an IANA database time zone shim.
+    
+    
+        This is the equivalent of ``pytz.timezone``.
+        This is the equivalent of ``pytz.timezone``.
+    
+    
+        :param key:
+        :param key:
+            A valid key from the IANA time zone database.
+    
+        :raises UnknownTimeZoneError:
+            If an unknown value is passed, this will raise an exception that can be
+            caught by :exc:`pytz_deprecation_shim.UnknownTimeZoneError` or
+            ``pytz.UnknownTimeZoneError``. Like
+            :exc:`zoneinfo.ZoneInfoNotFoundError`, both of those are subclasses of
+            :exc:`KeyError`.
+        """
+        instance = _cache.get(key, None)
+        if instance is None:
+            if len(key) == 3 and key.lower() == "utc":
+                instance = _cache.setdefault(key, UTC)
+            else:
+    def load_tzdata(key):
+        from importlib import resources
+    
+        components = key.split("/")
+        package_name = ".".join(["tzdata.zoneinfo"] + components[:-1])
+        package_name = ".".join(["tzdata.zoneinfo"] + components[:-1])
+        resource_name = components[-1]
+        resource_name = components[-1]
+    
+    
+        try:
+        try:
+            return resources.files(package_name).joinpath(resource_name).open("rb")
+            return resources.files(package_name).joinpath(resource_name).open("rb")
+        except (ImportError, FileNotFoundError, UnicodeEncodeError):
+        except (ImportError, FileNotFoundError, UnicodeEncodeError):
+            # There are three types of exception that can be raised that all amount
+            # There are three types of exception that can be raised that all amount
+            # to "we cannot find this key":
+            # to "we cannot find this key":
+            #
+            #
+            # ImportError: If package_name doesn't exist (e.g. if tzdata is not
+            # ImportError: If package_name doesn't exist (e.g. if tzdata is not
+            #   installed, or if there's an error in the folder name like
+            #   installed, or if there's an error in the folder name like
+            #   Amrica/New_York)
+            #   Amrica/New_York)
+            #   Amrica/New_York)
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            # FileNotFoundError: If resource_name doesn't exist in the package
+            #   (e.g. Europe/Krasnoy)
+            #   (e.g. Europe/Krasnoy)
+            #   (e.g. Europe/Krasnoy)
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            # UnicodeEncodeError: If package_name or resource_name are not UTF-8,
+            #   such as keys containing a surrogate character.
+            #   such as keys containing a surrogate character.
+            #   such as keys containing a surrogate character.
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+>           raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+E           zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Coyhaique'
+E           zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key America/Coyhaique'
+
+
+/usr/lib64/python3.12/zoneinfo/_common.py:24: ZoneInfoNotFoundError
+/usr/lib64/python3.12/zoneinfo/_common.py:24: ZoneInfoNotFoundError
+
+
+During handling of the above exception, another exception occurred:
+
+    @hypothesis.given(key=valid_zone_strategy)
+>   def test_zone_attribute(key):
+
+tests/test_pytz_equivalent.py:233: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_pytz_equivalent.py:235: in test_zone_attribute
+    shim_zone = pds.timezone(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+    def timezone(key, _cache={}):
+        """Builds an IANA database time zone shim.
+    
+        This is the equivalent of ``pytz.timezone``.
+    
+        :param key:
+            A valid key from the IANA time zone database.
+    
+        :raises UnknownTimeZoneError:
+            If an unknown value is passed, this will raise an exception that can be
+            caught by :exc:`pytz_deprecation_shim.UnknownTimeZoneError` or
+            ``pytz.UnknownTimeZoneError``. Like
+            :exc:`zoneinfo.ZoneInfoNotFoundError`, both of those are subclasses of
+            :exc:`KeyError`.
+        """
+        instance = _cache.get(key, None)
+        if instance is None:
+            if len(key) == 3 and key.lower() == "utc":
+                instance = _cache.setdefault(key, UTC)
+            else:
+E                       key='America/Coyhaique',
+E                   )
+E                   )
+E                   Explanation:
+E                   Explanation:
+E                   Explanation:
+E                       These lines were always and only run by failing examples:
+E                       These lines were always and only run by failing examples:
+E                       These lines were always and only run by failing examples:
+E                           /usr/lib64/python3.12/zoneinfo/_tzpath.py:79
+E                           /usr/lib64/python3.12/zoneinfo/_tzpath.py:79
+E                           /usr/lib64/python3.12/zoneinfo/_tzpath.py:79
+E                           /usr/lib64/python3.12/zoneinfo/_tzpath.py:79
+
+
+
+
+
+.run_venv/lib64/python3/site-packages/pytz_deprecation_shim/_impl.py:41: UnknownTimeZoneError
+.run_venv/lib64/python3/site-packages/pytz_deprecation_shim/_impl.py:41: UnknownTimeZoneError
+.run_venv/lib64/python3/site-packages/pytz_deprecation_shim/_impl.py:41: UnknownTimeZoneError
+.run_venv/lib64/python3/site-packages/pytz_deprecation_shim/_impl.py:41: UnknownTimeZoneError
+.run_venv/lib64/python3/site-packages/pytz_deprecation_shim/_impl.py:41: UnknownTimeZoneError
+================================== Hypothesis ==================================
+================================== Hypothesis ==================================
+================================== Hypothesis ==================================
+================================== Hypothesis ==================================
+================================== Hypothesis ==================================
+`git apply .hypothesis/patches/2025-05-16--96c443e6.patch` to add failing examples to your code.
+`git apply .hypothesis/patches/2025-05-16--96c443e6.patch` to add failing examples to your code.
+`git apply .hypothesis/patches/2025-05-16--96c443e6.patch` to add failing examples to your code.
+`git apply .hypothesis/patches/2025-05-16--96c443e6.patch` to add failing examples to your code.
+`git apply .hypothesis/patches/2025-05-16--96c443e6.patch` to add failing examples to your code.
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_errors.py::test_localize_aware_datetime - pytz_deprecation_...
+FAILED tests/test_errors.py::test_localize_aware_datetime - pytz_deprecation_...
+FAILED tests/test_errors.py::test_localize_aware_datetime - pytz_deprecation_...
+FAILED tests/test_errors.py::test_localize_aware_datetime - pytz_deprecation_...
+FAILED tests/test_errors.py::test_localize_aware_datetime - pytz_deprecation_...
+FAILED tests/test_pytz_equivalent.py::test_zone_attribute - pytz_deprecation_...
+FAILED tests/test_pytz_equivalent.py::test_zone_attribute - pytz_deprecation_...
+FAILED tests/test_pytz_equivalent.py::test_zone_attribute - pytz_deprecation_...
+FAILED tests/test_pytz_equivalent.py::test_zone_attribute - pytz_deprecation_...
+FAILED tests/test_pytz_equivalent.py::test_zone_attribute - pytz_deprecation_...
+============= 2 failed, 414 passed, 1 xfailed, 3 xpassed in 5.47s ==============
+============= 2 failed, 414 passed, 1 xfailed, 3 xpassed in 5.47s ==============
+============= 2 failed, 414 passed, 1 xfailed, 3 xpassed in 5.47s ==============
+============= 2 failed, 414 passed, 1 xfailed, 3 xpassed in 5.47s ==============
+============= 2 failed, 414 passed, 1 xfailed, 3 xpassed in 5.47s ==============
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', 'tests']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38594 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.19user 0.95system 0:07.10elapsed 100%CPU (0avgtext+0avgdata 256968maxresident)k
+6.19user 0.95system 0:07.10elapsed 100%CPU (0avgtext+0avgdata 256968maxresident)k
+6.19user 0.95system 0:07.10elapsed 100%CPU (0avgtext+0avgdata 256968maxresident)k
+6.19user 0.95system 0:07.10elapsed 100%CPU (0avgtext+0avgdata 256968maxresident)k
+6.19user 0.95system 0:07.10elapsed 100%CPU (0avgtext+0avgdata 256968maxresident)k
+0inputs+0outputs (0major+179409minor)pagefaults 0swaps
+0inputs+0outputs (0major+179409minor)pagefaults 0swaps
+0inputs+0outputs (0major+179409minor)pagefaults 0swaps
+0inputs+0outputs (0major+179409minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-pytz-deprecation-shim-0.1.0.post0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pytz-deprecation-shim-0.1.0.post0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pytz-deprecation-shim-0.1.0.post0-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.31user 3.26system 0:23.07elapsed 32%CPU (0avgtext+0avgdata 141704maxresident)k
+4.31user 3.26system 0:23.07elapsed 32%CPU (0avgtext+0avgdata 141704maxresident)k
+0inputs+0outputs (0major+300010minor)pagefaults 0swaps

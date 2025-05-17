@@ -1,0 +1,77 @@
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.52797
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd mppenc-1.16
++ cd mppenc-1.16
++ cmake -DCMAKE_INSTALL_PREFIX:=/usr/src/tmp/mppenc-buildroot/usr
++ cmake -DCMAKE_INSTALL_PREFIX:=/usr/src/tmp/mppenc-buildroot/usr
+CMake Warning:
+CMake Warning:
+  No source or binary directory provided.  Both will be assumed to be the
+  No source or binary directory provided.  Both will be assumed to be the
+  same as the current working directory, but note that this warning will
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+  become a fatal error in future CMake releases.
+
+
+
+
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+CMake Error at CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.52797 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.52797 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.52797 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.52797 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.02user 0.04system 0:00.06elapsed 106%CPU (0avgtext+0avgdata 18720maxresident)k
+0.02user 0.04system 0:00.06elapsed 106%CPU (0avgtext+0avgdata 18720maxresident)k
+0inputs+0outputs (0major+8212minor)pagefaults 0swaps
+0inputs+0outputs (0major+8212minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `mppenc-1.16-alt0.1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `mppenc-1.16-alt0.1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.64user 2.28system 0:09.21elapsed 64%CPU (0avgtext+0avgdata 139748maxresident)k
+3.64user 2.28system 0:09.21elapsed 64%CPU (0avgtext+0avgdata 139748maxresident)k
+0inputs+0outputs (0major+223559minor)pagefaults 0swaps

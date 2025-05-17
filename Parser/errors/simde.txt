@@ -1,0 +1,182 @@
+[769/4004] Compiling C++ object test/arm/neon/dot-emul-cpp.p/meson-generated_.._dot.cpp.o
+[770/4004] Compiling C object test/arm/neon/dup_n-emul-c.p/dup_n.c.o
+[771/4004] Compiling C++ object test/arm/neon/dot_lane-emul-cpp.p/meson-generated_.._dot_lane.cpp.o
+[772/4004] Compiling C++ object test/arm/neon/dot_lane-native-cpp.p/meson-generated_.._dot_lane.cpp.o
+[773/4004] Compiling C++ object test/arm/neon/dup_n-emul-cpp.p/meson-generated_.._dup_n.cpp.o
+[773/4004] Compiling C++ object test/arm/neon/dup_n-emul-cpp.p/meson-generated_.._dup_n.cpp.o
+[774/4004] Compiling C object test/arm/neon/eor-emul-c.p/eor.c.o
+[774/4004] Compiling C object test/arm/neon/eor-emul-c.p/eor.c.o
+[775/4004] Compiling C object test/arm/neon/eor-native-c.p/eor.c.o
+[775/4004] Compiling C object test/arm/neon/eor-native-c.p/eor.c.o
+[776/4004] Compiling C++ object test/arm/neon/dup_n-native-cpp.p/meson-generated_.._dup_n.cpp.o
+[776/4004] Compiling C++ object test/arm/neon/dup_n-native-cpp.p/meson-generated_.._dup_n.cpp.o
+[777/4004] Compiling C object test/arm/neon/dup_lane-emul-c.p/dup_lane.c.o
+[777/4004] Compiling C object test/arm/neon/dup_lane-emul-c.p/dup_lane.c.o
+[778/4004] Compiling C object test/arm/neon/ext-emul-c.p/ext.c.o
+[778/4004] Compiling C object test/arm/neon/ext-emul-c.p/ext.c.o
+FAILED: test/arm/neon/ext-emul-c.p/ext.c.o 
+FAILED: test/arm/neon/ext-emul-c.p/ext.c.o 
+cc -Itest/arm/neon/ext-emul-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-c.p/ext.c.o -MF test/arm/neon/ext-emul-c.p/ext.c.o.d -o test/arm/neon/ext-emul-c.p/ext.c.o -c ../test/arm/neon/ext.c
+cc -Itest/arm/neon/ext-emul-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-c.p/ext.c.o -MF test/arm/neon/ext-emul-c.p/ext.c.o.d -o test/arm/neon/ext-emul-c.p/ext.c.o -c ../test/arm/neon/ext.c
+during GIMPLE pass: local-fnsummary
+during GIMPLE pass: local-fnsummary
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+0x8f0f1bf internal_error(char const*, ...)
+0x8f0f1bf internal_error(char const*, ...)
+	???:0
+	???:0
+	???:0
+0x8f0f294 fancy_abort(char const*, int, char const*)
+0x8f0f294 fancy_abort(char const*, int, char const*)
+0x8f0f294 fancy_abort(char const*, int, char const*)
+	???:0
+	???:0
+	???:0
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+	???:0
+	???:0
+	???:0
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+Please include the complete backtrace with any bug report.
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+See <http://bugzilla.altlinux.org> for instructions.
+See <http://bugzilla.altlinux.org> for instructions.
+[779/4004] Compiling C object test/arm/neon/dup_lane-native-c.p/dup_lane.c.o
+[779/4004] Compiling C object test/arm/neon/dup_lane-native-c.p/dup_lane.c.o
+[779/4004] Compiling C object test/arm/neon/dup_lane-native-c.p/dup_lane.c.o
+[780/4004] Compiling C object test/arm/neon/ext-native-c.p/ext.c.o
+[780/4004] Compiling C object test/arm/neon/ext-native-c.p/ext.c.o
+FAILED: test/arm/neon/ext-native-c.p/ext.c.o 
+FAILED: test/arm/neon/ext-native-c.p/ext.c.o 
+cc -Itest/arm/neon/ext-native-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -ffloat-store -MD -MQ test/arm/neon/ext-native-c.p/ext.c.o -MF test/arm/neon/ext-native-c.p/ext.c.o.d -o test/arm/neon/ext-native-c.p/ext.c.o -c ../test/arm/neon/ext.c
+cc -Itest/arm/neon/ext-native-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -ffloat-store -MD -MQ test/arm/neon/ext-native-c.p/ext.c.o -MF test/arm/neon/ext-native-c.p/ext.c.o.d -o test/arm/neon/ext-native-c.p/ext.c.o -c ../test/arm/neon/ext.c
+during GIMPLE pass: local-fnsummary
+during GIMPLE pass: local-fnsummary
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+0x8f0f1bf internal_error(char const*, ...)
+0x8f0f1bf internal_error(char const*, ...)
+	???:0
+	???:0
+0x8f0f294 fancy_abort(char const*, int, char const*)
+0x8f0f294 fancy_abort(char const*, int, char const*)
+	???:0
+	???:0
+	???:0
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+	???:0
+	???:0
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+See <http://bugzilla.altlinux.org> for instructions.
+See <http://bugzilla.altlinux.org> for instructions.
+[781/4004] Compiling C++ object test/arm/neon/eor-emul-cpp.p/meson-generated_.._eor.cpp.o
+[781/4004] Compiling C++ object test/arm/neon/eor-emul-cpp.p/meson-generated_.._eor.cpp.o
+[781/4004] Compiling C++ object test/arm/neon/eor-emul-cpp.p/meson-generated_.._eor.cpp.o
+[782/4004] Compiling C++ object test/arm/neon/dup_lane-emul-cpp.p/meson-generated_.._dup_lane.cpp.o
+[782/4004] Compiling C++ object test/arm/neon/dup_lane-emul-cpp.p/meson-generated_.._dup_lane.cpp.o
+[783/4004] Compiling C++ object test/arm/neon/eor-native-cpp.p/meson-generated_.._eor.cpp.o
+[783/4004] Compiling C++ object test/arm/neon/eor-native-cpp.p/meson-generated_.._eor.cpp.o
+[784/4004] Compiling C++ object test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o
+[784/4004] Compiling C++ object test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o
+FAILED: test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o 
+FAILED: test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o 
+c++ -Itest/arm/neon/ext-emul-cpp.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_GLIBCXX_ASSERTIONS=1 -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -MF test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o.d -o test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -c test/arm/neon/ext.cpp
+c++ -Itest/arm/neon/ext-emul-cpp.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_GLIBCXX_ASSERTIONS=1 -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -MF test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o.d -o test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -c test/arm/neon/ext.cpp
+during GIMPLE pass: local-fnsummary
+during GIMPLE pass: local-fnsummary
+In file included from test/arm/neon/ext.cpp:2235:
+In file included from test/arm/neon/ext.cpp:2235:
+../test/arm/neon/test-neon-footer.h: In function ‘simde_vext_p64’:
+../test/arm/neon/test-neon-footer.h: In function ‘simde_vext_p64’:
+../test/arm/neon/test-neon-footer.h:17:3: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+../test/arm/neon/test-neon-footer.h:17:3: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+   17 |   }
+   17 |   }
+      |   ^
+      |   ^
+0x8fcfced internal_error(char const*, ...)
+0x8fcfced internal_error(char const*, ...)
+0x8fcfced internal_error(char const*, ...)
+	???:0
+	???:0
+	???:0
+	???:0
+0x8fcfdc2 fancy_abort(char const*, int, char const*)
+0x8fcfdc2 fancy_abort(char const*, int, char const*)
+0x8fcfdc2 fancy_abort(char const*, int, char const*)
+0x8fcfdc2 fancy_abort(char const*, int, char const*)
+	???:0
+	???:0
+	???:0
+0x92f057c compute_fn_summary(cgraph_node*, bool)
+0x92f057c compute_fn_summary(cgraph_node*, bool)
+0x92f057c compute_fn_summary(cgraph_node*, bool)
+	???:0
+	???:0
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+Please include the complete backtrace with any bug report.
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+See <http://bugzilla.altlinux.org> for instructions.
+[785/4004] Compiling C++ object test/arm/neon/dup_lane-native-cpp.p/meson-generated_.._dup_lane.cpp.o
+[785/4004] Compiling C++ object test/arm/neon/dup_lane-native-cpp.p/meson-generated_.._dup_lane.cpp.o
+[785/4004] Compiling C++ object test/arm/neon/dup_lane-native-cpp.p/meson-generated_.._dup_lane.cpp.o
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+562.40user 34.78system 2:33.21elapsed 389%CPU (0avgtext+0avgdata 247192maxresident)k
+562.40user 34.78system 2:33.21elapsed 389%CPU (0avgtext+0avgdata 247192maxresident)k
+562.40user 34.78system 2:33.21elapsed 389%CPU (0avgtext+0avgdata 247192maxresident)k
+0inputs+0outputs (0major+12306000minor)pagefaults 0swaps
+0inputs+0outputs (0major+12306000minor)pagefaults 0swaps
+0inputs+0outputs (0major+12306000minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `simde-0.8.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `simde-0.8.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `simde-0.8.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.60user 2.23system 2:49.10elapsed 4%CPU (0avgtext+0avgdata 133896maxresident)k
+5.60user 2.23system 2:49.10elapsed 4%CPU (0avgtext+0avgdata 133896maxresident)k
+0inputs+0outputs (0major+199960minor)pagefaults 0swaps

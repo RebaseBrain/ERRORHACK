@@ -1,0 +1,119 @@
+      |  ^~~~~~~
+/usr/src/RPM/BUILD/regard3d-1.0.0/src/CommonIncludes.h:25:9: warning: "wxDEBUG_LEVEL" redefined
+   25 | #define wxDEBUG_LEVEL 0
+      |         ^~~~~~~~~~~~~
+In file included from /usr/include/wx-3.0/wx/defs.h:745,
+In file included from /usr/include/wx-3.0/wx/defs.h:745,
+                 from /usr/include/wx-3.0/wx/glcanvas.h:14,
+                 from /usr/include/wx-3.0/wx/glcanvas.h:14,
+                 from /usr/src/RPM/BUILD/regard3d-1.0.0/src/R3DModelOperations.cpp:21:
+                 from /usr/src/RPM/BUILD/regard3d-1.0.0/src/R3DModelOperations.cpp:21:
+/usr/include/wx-3.0/wx/debug.h:45:13: note: this is the location of the previous definition
+/usr/include/wx-3.0/wx/debug.h:45:13: note: this is the location of the previous definition
+   45 |     #define wxDEBUG_LEVEL 1
+   45 |     #define wxDEBUG_LEVEL 1
+      |             ^~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/regard3d-1.0.0/src/R3DModelOperations.cpp:44:10: fatal error: boost/geometry.hpp: No such file or directory
+/usr/src/RPM/BUILD/regard3d-1.0.0/src/R3DModelOperations.cpp:44:10: fatal error: boost/geometry.hpp: No such file or directory
+   44 | #include <boost/geometry.hpp>
+   44 | #include <boost/geometry.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/Regard3D.dir/build.make:219: CMakeFiles/Regard3D.dir/R3DModelOperations.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Regard3D.dir/build.make:219: CMakeFiles/Regard3D.dir/R3DModelOperations.cpp.o] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+[ 45%] Building CXX object CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o
+[ 45%] Building CXX object CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o
+/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOCALE_DYN_LINK -DBOOST_LOCALE_NO_LIB -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_TIMER_DYN_LINK -DBOOST_TIMER_NO_LIB -DGFLAGS_IS_A_DLL=0 -DLEMON_ONLY_TEMPLATES -DOPENMVG_USE_OPENMP -DUNICODE -DUSE_OPENMP -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D_UNICODE -D__WXGTK__ -I/usr/src/RPM/BUILD/regard3d-1.0.0/src -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/include -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/src -I/ceres/internal/miniglog -I/usr/include/suitesparse -I/include/openMVG_dependencies -I/include/openMVG_dependencies/cereal/include -I/usr/include/vl -I/usr/include/akaze -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/fast-akaze -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/liop -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/tinyply -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/sqlite -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/efanna -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/mrpt -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/hnswlib/hnswlib -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/cpuid/cpuid -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/openMVG -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/gl -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/gui -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/threads -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/utils -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/cpuid -isystem /usr/lib64/wx/include/gtk3-unicode-3.0 -isystem /usr/include/wx-3.0 -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/include/openMVG -isystem /usr/include/openMVG/third_party/lemon -isystem /usr/include/openMVG/third_party -isystem /usr/include/openMVG/third_party/stlplus3/filesystemSimplified -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread -fopenmp -DBOOST_NO_CXX11_AUTO_DECLARATIONS -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -mno-sse2 -mno-sse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -MD -MT CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o -MF CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o.d -o CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o -c /usr/src/RPM/BUILD/regard3d-1.0.0/src/gl/SharedGLContext.cpp
+/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_LOCALE_DYN_LINK -DBOOST_LOCALE_NO_LIB -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SERIALIZATION_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_TIMER_DYN_LINK -DBOOST_TIMER_NO_LIB -DGFLAGS_IS_A_DLL=0 -DLEMON_ONLY_TEMPLATES -DOPENMVG_USE_OPENMP -DUNICODE -DUSE_OPENMP -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D_UNICODE -D__WXGTK__ -I/usr/src/RPM/BUILD/regard3d-1.0.0/src -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/include -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/src -I/ceres/internal/miniglog -I/usr/include/suitesparse -I/include/openMVG_dependencies -I/include/openMVG_dependencies/cereal/include -I/usr/include/vl -I/usr/include/akaze -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/fast-akaze -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/liop -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/tinyply -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/sqlite -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/efanna -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/mrpt -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/hnswlib/hnswlib -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/cpuid/cpuid -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/openMVG -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/gl -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/gui -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/threads -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/utils -I/usr/src/RPM/BUILD/regard3d-1.0.0/src/thirdparty/cpuid -isystem /usr/lib64/wx/include/gtk3-unicode-3.0 -isystem /usr/include/wx-3.0 -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/include/openMVG -isystem /usr/include/openMVG/third_party/lemon -isystem /usr/include/openMVG/third_party -isystem /usr/include/openMVG/third_party/stlplus3/filesystemSimplified -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread -fopenmp -DBOOST_NO_CXX11_AUTO_DECLARATIONS -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -mno-sse2 -mno-sse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4a -mno-avx -mno-fma -mno-bmi2 -mno-avx2 -mno-xop -mno-fma4 -mno-avx512f -mno-avx512vl -mno-avx512pf -mno-avx512er -mno-avx512cd -mno-avx512dq -mno-avx512bw -mno-avx512ifma -mno-avx512vbmi -fopenmp -MD -MT CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o -MF CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o.d -o CMakeFiles/Regard3D.dir/gl/SharedGLContext.cpp.o -c /usr/src/RPM/BUILD/regard3d-1.0.0/src/gl/SharedGLContext.cpp
+x86_64-alt-linux-g++: warning: AVX512PF support will be removed in GCC 15
+x86_64-alt-linux-g++: warning: AVX512PF support will be removed in GCC 15
+x86_64-alt-linux-g++: warning: AVX512ER support will be removed in GCC 15
+cc1plus: warning: AVX512PF support will be removed in GCC 15
+cc1plus: warning: AVX512ER support will be removed in GCC 15
+In file included from /usr/src/RPM/BUILD/regard3d-1.0.0/src/CommonIncludes.h:14,
+    inlined from 'std::vector<Eigen::Matrix<double, 2, 1, 0, 2, 1>, std::allocator<Eigen::Matrix<double, 2, 1, 0, 2, 1> > >::vector(unsigned long, Eigen::Matrix<double, 2, 1, 0, 2, 1> const&)' at /usr/include/openMVG/numeric/eigen_alias_definition.hpp:142:1,
+    inlined from 'openMVG::geometry_aware::GuidedMatching<Eigen::Matrix<double, 3, 3, 0, 3, 3>, openMVG::homography::kernel::AsymmetricError>(Eigen::Matrix<double, 3, 3, 0, 3, 3> const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, double, double, std::vector<openMVG::matching::IndMatch, std::allocator<openMVG::matching::IndMatch> >&)void' at /usr/include/openMVG/robust_estimation/guided_matching.hpp:195:4:
+    inlined from 'openMVG::geometry_aware::GuidedMatching<Eigen::Matrix<double, 3, 3, 0, 3, 3>, openMVG::homography::kernel::AsymmetricError>(Eigen::Matrix<double, 3, 3, 0, 3, 3> const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, double, double, std::vector<openMVG::matching::IndMatch, std::allocator<openMVG::matching::IndMatch> >&)void' at /usr/include/openMVG/robust_estimation/guided_matching.hpp:195:4:
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17: warning: 'MEM[(const struct PlainObjectBase &)&D.1592851].m_storage' may be used uninitialized [-Wmaybe-uninitialized]
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:512:17: warning: 'MEM[(const struct PlainObjectBase &)&D.1592851].m_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  512 |       : Base(), m_storage(other.m_storage) { }
+  512 |       : Base(), m_storage(other.m_storage) { }
+  512 |       : Base(), m_storage(other.m_storage) { }
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openMVG/robust_estimation/guided_matching.hpp: In function 'openMVG::geometry_aware::GuidedMatching<Eigen::Matrix<double, 3, 3, 0, 3, 3>, openMVG::homography::kernel::AsymmetricError>(Eigen::Matrix<double, 3, 3, 0, 3, 3> const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, double, double, std::vector<openMVG::matching::IndMatch, std::allocator<openMVG::matching::IndMatch> >&)void':
+/usr/include/openMVG/robust_estimation/guided_matching.hpp: In function 'openMVG::geometry_aware::GuidedMatching<Eigen::Matrix<double, 3, 3, 0, 3, 3>, openMVG::homography::kernel::AsymmetricError>(Eigen::Matrix<double, 3, 3, 0, 3, 3> const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, double, double, std::vector<openMVG::matching::IndMatch, std::allocator<openMVG::matching::IndMatch> >&)void':
+/usr/include/openMVG/robust_estimation/guided_matching.hpp: In function 'openMVG::geometry_aware::GuidedMatching<Eigen::Matrix<double, 3, 3, 0, 3, 3>, openMVG::homography::kernel::AsymmetricError>(Eigen::Matrix<double, 3, 3, 0, 3, 3> const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, openMVG::cameras::IntrinsicBase const*, openMVG::features::Regions const&, double, double, std::vector<openMVG::matching::IndMatch, std::allocator<openMVG::matching::IndMatch> >&)void':
+/usr/include/openMVG/robust_estimation/guided_matching.hpp:195:4: note: '<anonymous>' declared here
+/usr/include/openMVG/robust_estimation/guided_matching.hpp:195:4: note: '<anonymous>' declared here
+/usr/include/openMVG/robust_estimation/guided_matching.hpp:195:4: note: '<anonymous>' declared here
+  195 |    rRegionsPos(rRegions.RegionCount());
+  195 |    rRegionsPos(rRegions.RegionCount());
+  195 |    rRegionsPos(rRegions.RegionCount());
+      |    ^~~~~~~~~~~
+      |    ^~~~~~~~~~~
+      |    ^~~~~~~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/regard3d-1.0.0/src'
+gmake[1]: *** [CMakeFiles/Makefile2:297: CMakeFiles/Regard3D.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:297: CMakeFiles/Regard3D.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:297: CMakeFiles/Regard3D.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+gmake: *** [Makefile:156: all] Error 2
+
+
+
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.27877 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+203.68user 21.89system 1:01.43elapsed 367%CPU (0avgtext+0avgdata 2595688maxresident)k
+203.68user 21.89system 1:01.43elapsed 367%CPU (0avgtext+0avgdata 2595688maxresident)k
+203.68user 21.89system 1:01.43elapsed 367%CPU (0avgtext+0avgdata 2595688maxresident)k
+203.68user 21.89system 1:01.43elapsed 367%CPU (0avgtext+0avgdata 2595688maxresident)k
+0inputs+0outputs (0major+4682344minor)pagefaults 0swaps
+0inputs+0outputs (0major+4682344minor)pagefaults 0swaps
+0inputs+0outputs (0major+4682344minor)pagefaults 0swaps
+0inputs+0outputs (0major+4682344minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `regard3d-1.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `regard3d-1.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `regard3d-1.0.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+16.08user 8.96system 4:39.82elapsed 8%CPU (0avgtext+0avgdata 142544maxresident)k
+16.08user 8.96system 4:39.82elapsed 8%CPU (0avgtext+0avgdata 142544maxresident)k
+41568inputs+0outputs (0major+553212minor)pagefaults 0swaps

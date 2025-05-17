@@ -1,0 +1,308 @@
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd Pegex-0.75
++ make test
+make: Entering directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Entering directory '/usr/src/RPM/BUILD/Pegex-0.75'
+Skip blib/lib/auto/share/dist/Pegex/pegex.pgx (unchanged)
+Skip blib/lib/auto/share/dist/Pegex/pegex.pgx (unchanged)
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/000-compile-modules.t ... ok
+t/000-compile-modules.t ... ok
+t/api.t ................... ok
+t/api.t ................... ok
+t/author-pod-syntax.t ..... skipped: these tests are for testing by the author
+t/author-pod-syntax.t ..... skipped: these tests are for testing by the author
+t/author-pod-syntax.t ..... skipped: these tests are for testing by the author
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+t/compiler-checks.t ....... 
+t/compiler-checks.t ....... 
+t/compiler-checks.t ....... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+All 1 subtests passed 
+All 1 subtests passed 
+All 1 subtests passed 
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+t/compiler-equivalence.t .. 
+t/compiler-equivalence.t .. 
+t/compiler-equivalence.t .. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+No subtests run 
+No subtests run 
+No subtests run 
+t/compiler-perl.t ......... ok
+t/compiler-perl.t ......... ok
+t/compiler-perl.t ......... ok
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+t/compiler.t .............. 
+t/compiler.t .............. 
+t/compiler.t .............. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+No subtests run 
+No subtests run 
+t/error.t ................. ok
+t/error.t ................. ok
+t/export-api.t ............ ok
+t/export-api.t ............ ok
+t/flatten.t ............... ok
+t/function-rule.t ......... ok
+t/grammar-api.t ........... ok
+t/look-behind.t ........... ok
+t/optimize.t .............. ok
+   try_country                    >OK\n<
+    try_term                       >OK\n<
+    [92mgot_term[0m             
+   [92mgot_country[0m          
+   try_EOL                        >\n<
+   try_EOL                        >\n<
+   [92mgot_EOL[0m              
+   [92mgot_EOL[0m              
+  [92mgot_country_line[0m     
+  [92mgot_country_line[0m     
+ [92mgot_address_section[0m  
+ [92mgot_address_section[0m  
+[92mgot_contact[0m          
+[92mgot_contact[0m          
+t/sample.t ................ ok
+t/sample.t ................ ok
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+t/tree-pegex.t ............ 
+t/tree-pegex.t ............ 
+t/tree-pegex.t ............ 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+No subtests run 
+No subtests run 
+No subtests run 
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+Uncaught Error: Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159, <INPUT> line 1.
+t/tree.t .................. 
+t/tree.t .................. 
+t/tree.t .................. 
+t/tree.t .................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Dubious, test returned 255 (wstat 65280, 0xff00)
+No subtests run 
+No subtests run 
+No subtests run 
+No subtests run 
+No subtests run 
+
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/compiler-checks.t     (Wstat: 65280 (exited 255) Tests: 1 Failed: 0)
+t/compiler-checks.t     (Wstat: 65280 (exited 255) Tests: 1 Failed: 0)
+t/compiler-checks.t     (Wstat: 65280 (exited 255) Tests: 1 Failed: 0)
+t/compiler-checks.t     (Wstat: 65280 (exited 255) Tests: 1 Failed: 0)
+t/compiler-checks.t     (Wstat: 65280 (exited 255) Tests: 1 Failed: 0)
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler-equivalence.t (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/compiler.t            (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree-pegex.t          (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+t/tree.t                (Wstat: 65280 (exited 255) Tests: 0 Failed: 0)
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+  Parse errors: No plan found in TAP output
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Files=20, Tests=63,  1 wallclock secs ( 0.04 usr  0.03 sys +  0.94 cusr  0.22 csys =  1.23 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 5/20 test programs. 0/63 subtests failed.
+Failed 5/20 test programs. 0/63 subtests failed.
+Failed 5/20 test programs. 0/63 subtests failed.
+Failed 5/20 test programs. 0/63 subtests failed.
+Failed 5/20 test programs. 0/63 subtests failed.
+Failed 5/20 test programs. 0/63 subtests failed.
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: *** [Makefile:813: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+make: Leaving directory '/usr/src/RPM/BUILD/Pegex-0.75'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33223 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.42user 0.57system 0:01.76elapsed 113%CPU (0avgtext+0avgdata 19536maxresident)k
+1.42user 0.57system 0:01.76elapsed 113%CPU (0avgtext+0avgdata 19536maxresident)k
+1.42user 0.57system 0:01.76elapsed 113%CPU (0avgtext+0avgdata 19536maxresident)k
+1.42user 0.57system 0:01.76elapsed 113%CPU (0avgtext+0avgdata 19536maxresident)k
+1.42user 0.57system 0:01.76elapsed 113%CPU (0avgtext+0avgdata 19536maxresident)k
+0inputs+0outputs (0major+133156minor)pagefaults 0swaps
+0inputs+0outputs (0major+133156minor)pagefaults 0swaps
+0inputs+0outputs (0major+133156minor)pagefaults 0swaps
+0inputs+0outputs (0major+133156minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Pegex-0.75-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Pegex-0.75-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Pegex-0.75-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.28user 2.69system 0:17.09elapsed 70%CPU (0avgtext+0avgdata 134716maxresident)k
+9.28user 2.69system 0:17.09elapsed 70%CPU (0avgtext+0avgdata 134716maxresident)k
+104inputs+0outputs (0major+236830minor)pagefaults 0swaps

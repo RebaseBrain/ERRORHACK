@@ -1,0 +1,56 @@
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMake Error at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11818 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11818 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.27user 0.27system 0:00.92elapsed 59%CPU (0avgtext+0avgdata 22916maxresident)k
+0.27user 0.27system 0:00.92elapsed 59%CPU (0avgtext+0avgdata 22916maxresident)k
+0inputs+0outputs (0major+38146minor)pagefaults 0swaps
+0inputs+0outputs (0major+38146minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ebook-tools-0.2.2-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `ebook-tools-0.2.2-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.79user 3.99system 0:44.79elapsed 21%CPU (0avgtext+0avgdata 139424maxresident)k
+5.79user 3.99system 0:44.79elapsed 21%CPU (0avgtext+0avgdata 139424maxresident)k
+144inputs+0outputs (0major+320621minor)pagefaults 0swaps

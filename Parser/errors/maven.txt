@@ -1,0 +1,77 @@
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ maven-resolver-provider ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 13 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-resolver-provider ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[23,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[31,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[43,53] cannot find symbol
+  symbol:   method mock(java.lang.Class<org.eclipse.aether.impl.RepositoryEventDispatcher>)
+  location: class org.apache.maven.repository.internal.DefaultArtifactDescriptorReaderTest
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[45,9] cannot find symbol
+[INFO] Maven SLF4J Simple Provider ........................ SKIPPED
+[INFO] Maven Embedder ..................................... SKIPPED
+[INFO] Maven Compat ....................................... SKIPPED
+[INFO] Apache Maven Distribution .......................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.648 s
+[INFO] Finished at: 2025-05-16T05:22:24Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-resolver-provider: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[22,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[22,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[23,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[31,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[43,53] cannot find symbol
+[ERROR]   symbol:   method mock(java.lang.Class<org.eclipse.aether.impl.RepositoryEventDispatcher>)
+[ERROR]   location: class org.apache.maven.repository.internal.DefaultArtifactDescriptorReaderTest
+[ERROR] /usr/src/RPM/BUILD/apache-maven-3.8.8/maven-resolver-provider/src/test/java/org/apache/maven/repository/internal/DefaultArtifactDescriptorReaderTest.java:[45,9] cannot find symbol
+[ERROR]   symbol:   class ArgumentCaptor
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :maven-resolver-provider
+[ERROR]   mvn <args> -rf :maven-resolver-provider
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33825 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33825 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Macro %dist not found
+    Macro %dist not found
+    Bad exit status from /usr/src/tmp/rpm-tmp.33825 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33825 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+50.36user 5.81system 0:10.62elapsed 528%CPU (0avgtext+0avgdata 1247316maxresident)k
+50.36user 5.81system 0:10.62elapsed 528%CPU (0avgtext+0avgdata 1247316maxresident)k
+0inputs+0outputs (0major+545183minor)pagefaults 0swaps
+0inputs+0outputs (0major+545183minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-3.8.8-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-3.8.8-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+12.06user 3.10system 0:34.40elapsed 44%CPU (0avgtext+0avgdata 142504maxresident)k
+1104inputs+0outputs (0major+301298minor)pagefaults 0swaps

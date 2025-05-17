@@ -1,0 +1,245 @@
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -> CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        start = timing.time()
+        precise_start = timing.perf_counter()
+        try:
+>           result: TResult | None = func()
+
+/usr/lib/python3/site-packages/_pytest/runner.py:341: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def unraisable_exception_runtest_hook() -> Generator[None]:
+        with catch_unraisable_exception() as cm:
+            try:
+            try:
+                yield
+                yield
+            finally:
+            finally:
+                if cm.unraisable:
+                if cm.unraisable:
+                    if cm.unraisable.err_msg is not None:
+                    if cm.unraisable.err_msg is not None:
+                        err_msg = cm.unraisable.err_msg
+                        err_msg = cm.unraisable.err_msg
+                    else:
+                    else:
+                        err_msg = "Exception ignored in"
+                        err_msg = "Exception ignored in"
+                        err_msg = "Exception ignored in"
+                    msg = f"{err_msg}: {cm.unraisable.object!r}\n\n"
+                    msg = f"{err_msg}: {cm.unraisable.object!r}\n\n"
+                    msg = f"{err_msg}: {cm.unraisable.object!r}\n\n"
+                    msg += "".join(
+                    msg += "".join(
+                    msg += "".join(
+                    msg += "".join(
+                        traceback.format_exception(
+                        traceback.format_exception(
+                        traceback.format_exception(
+                        traceback.format_exception(
+                            cm.unraisable.exc_type,
+                            cm.unraisable.exc_type,
+                            cm.unraisable.exc_type,
+                            cm.unraisable.exc_type,
+                            cm.unraisable.exc_value,
+                            cm.unraisable.exc_value,
+                            cm.unraisable.exc_value,
+                            cm.unraisable.exc_value,
+                            cm.unraisable.exc_traceback,
+                            cm.unraisable.exc_traceback,
+                            cm.unraisable.exc_traceback,
+                            cm.unraisable.exc_traceback,
+                        )
+                        )
+                        )
+                        )
+                    )
+                    )
+                    )
+                    )
+>                   warnings.warn(pytest.PytestUnraisableExceptionWarning(msg))
+>                   warnings.warn(pytest.PytestUnraisableExceptionWarning(msg))
+>                   warnings.warn(pytest.PytestUnraisableExceptionWarning(msg))
+>                   warnings.warn(pytest.PytestUnraisableExceptionWarning(msg))
+E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <socket.socket fd=-1, family=2, type=1, proto=6>
+E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <socket.socket fd=-1, family=2, type=1, proto=6>
+E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <socket.socket fd=-1, family=2, type=1, proto=6>
+E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <socket.socket fd=-1, family=2, type=1, proto=6>
+E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <socket.socket fd=-1, family=2, type=1, proto=6>
+E                   
+E                   
+E                   
+E                   
+E                   
+E                   Traceback (most recent call last):
+E                   Traceback (most recent call last):
+E                   Traceback (most recent call last):
+E                   Traceback (most recent call last):
+E                   Traceback (most recent call last):
+E                   Traceback (most recent call last):
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                     File "/usr/lib64/python3.12/unittest/mock.py", line 469, in __init__
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                       __dict__['_mock_call_args_list'] = _CallList()
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                                                          ^^^^^^^^^^^
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+E                   ResourceWarning: unclosed <socket.socket fd=13, family=2, type=1, proto=6, laddr=('127.0.0.1', 45160)>
+
+
+
+
+
+
+
+
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+/usr/lib/python3/site-packages/_pytest/unraisableexception.py:85: PytestUnraisableExceptionWarning
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_stream
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_stubs.py::TestVCRConnection::test_body_consumed_once_iterator
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+FAILED tests/unit/test_vcr.py::test_vcr_before_record_response_iterable - pyt...
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+================= 3 failed, 174 passed, 3 deselected in 1.83s ==================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-m', 'not online', 'tests/unit/']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-vcrpy-7.0.0-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81626 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.18user 0.90system 0:06.81elapsed 89%CPU (0avgtext+0avgdata 95592maxresident)k
+5.18user 0.90system 0:06.81elapsed 89%CPU (0avgtext+0avgdata 95592maxresident)k
+5.18user 0.90system 0:06.81elapsed 89%CPU (0avgtext+0avgdata 95592maxresident)k
+5.18user 0.90system 0:06.81elapsed 89%CPU (0avgtext+0avgdata 95592maxresident)k
+0inputs+0outputs (0major+186366minor)pagefaults 0swaps
+0inputs+0outputs (0major+186366minor)pagefaults 0swaps
+0inputs+0outputs (0major+186366minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-vcrpy-7.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-vcrpy-7.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-vcrpy-7.0.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.46user 2.74system 0:28.18elapsed 36%CPU (0avgtext+0avgdata 141916maxresident)k
+0inputs+0outputs (0major+317614minor)pagefaults 0swaps

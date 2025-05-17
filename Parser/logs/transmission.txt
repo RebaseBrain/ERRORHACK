@@ -1,0 +1,1592 @@
+<86>May 16 04:52:49 userdel[752993]: delete user 'rooter'
+<86>May 16 04:52:49 userdel[752993]: removed group 'rooter' owned by 'rooter'
+<86>May 16 04:52:49 userdel[752993]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 04:52:49 groupadd[753032]: group added to /etc/group: name=rooter, GID=1814
+<86>May 16 04:52:49 groupadd[753032]: group added to /etc/gshadow: name=rooter
+<86>May 16 04:52:49 groupadd[753032]: new group: name=rooter, GID=1814
+<86>May 16 04:52:49 useradd[753072]: new user: name=rooter, UID=1814, GID=1814, home=/root, shell=/bin/bash, from=none
+<86>May 16 04:52:49 userdel[753147]: delete user 'builder'
+<86>May 16 04:52:49 groupadd[753240]: group added to /etc/group: name=builder, GID=1815
+<86>May 16 04:52:49 groupadd[753240]: group added to /etc/gshadow: name=builder
+<86>May 16 04:52:49 groupadd[753240]: new group: name=builder, GID=1815
+<86>May 16 04:52:49 useradd[753326]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 04:52:55 rpmi: strace-6.14-alt1 sisyphus+338268.100.1.1 1742896997 installed
+<13>May 16 04:52:55 rpmi: rpm-macros-ubt-0.5-alt1 sisyphus+349039.100.1.1 1716535621 installed
+<13>May 16 04:52:55 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 04:52:55 rpmi: ed-1:0.2-alt10 sisyphus+346155.200.3.2 1716498175 installed
+<13>May 16 04:52:55 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:52:55 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 04:52:55 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:52:55 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:52:55 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 04:52:55 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 04:52:55 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:52:56 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:52:56 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:52:56 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:52:56 rpmi: rpm-utils-0.10.4-alt1 sisyphus+301046.100.1.1 1654119060 installed
+<13>May 16 04:52:56 rpmi: rpm-build-ubt-0.3.1-alt3 sisyphus+277013.100.1.2 1625346631 installed
+<13>May 16 04:52:56 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 04:52:56 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 04:53:01 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 04:53:01 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 04:53:01 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:01 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 04:53:01 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:01 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 04:53:01 rpmi: libxkbcommon-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 04:53:01 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:53:01 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 04:53:01 rpmi: libsigc++3-3.6.0-alt1 sisyphus+330738.200.2.1 1696431386 installed
+<13>May 16 04:53:01 rpmi: libsigc++3-devel-3.6.0-alt1 sisyphus+330738.200.2.1 1696431386 installed
+<13>May 16 04:53:01 rpmi: libsuitesparseconfig7-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:01 rpmi: qt5-base-common-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:01 rpmi: qt5-declarative-common-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:01 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 04:53:01 rpmi: libopus-1.5.2-alt1.1 sisyphus+366209.100.1.1 1734786371 installed
+<13>May 16 04:53:01 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 04:53:01 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 04:53:01 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 04:53:01 rpmi: libgudev-1:238-alt1 sisyphus+324364.100.1.1 1688646144 installed
+<13>May 16 04:53:01 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:02 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 04:53:02 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 04:53:02 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 04:53:02 rpmi: libwayland-egl-4:18.1.0-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:02 rpmi: libgraphene-1.10.8-alt1 sisyphus+296855.100.1.1 1647633383 installed
+<13>May 16 04:53:02 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760159 installed
+<13>May 16 04:53:02 rpmi: libtalloc-1:2.4.2-alt1 sisyphus+342425.200.8.1 1714749074 installed
+<13>May 16 04:53:02 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745386888 installed
+<13>May 16 04:53:02 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 04:53:02 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 04:53:02 rpmi: perl-XML-NamespaceSupport-1.12-alt1 1491296348 installed
+<13>May 16 04:53:02 rpmi: libserd-0.32.4-alt1 sisyphus+370586.200.1.1 1737371865 installed
+<13>May 16 04:53:02 rpmi: libtdb-1.4.10-alt1 sisyphus+342425.100.8.1 1714748986 installed
+<13>May 16 04:53:03 rpmi: libgsm-1.0.22-alt1 sisyphus+381615.100.1.1 1744646649 installed
+<13>May 16 04:53:03 rpmi: libSDL2-2.32.6-alt1 sisyphus+383337.100.1.1 1746466019 installed
+<13>May 16 04:53:03 rpmi: libraw1394-11-2.1.2-alt1 sisyphus+278262.100.1.1 1626081867 installed
+<13>May 16 04:53:03 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 04:53:03 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 04:53:03 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 04:53:03 rpmi: libtevent-0.16.1-alt1 sisyphus+342425.400.8.1 1714749143 installed
+<13>May 16 04:53:03 rpmi: qt5-tools-common-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:03 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 04:53:03 rpmi: libwayland-cursor-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:03 rpmi: libyuv-0.0.1874-alt1 sisyphus+326054.40.2.1 1690679392 installed
+<13>May 16 04:53:03 rpmi: libts0-1.22-alt3 sisyphus+278442.100.1.2 1626216676 installed
+<13>May 16 04:53:03 rpmi: libmtdev-1.1.6-alt1 sisyphus+278361.100.1.1 1626091644 installed
+<13>May 16 04:53:03 rpmi: vulkan-headers-1.4.313-alt1 sisyphus+383827.100.1.1 1746996478 installed
+<13>May 16 04:53:03 rpmi: libevdev-1.13.4-alt1 sisyphus+379223.100.1.1 1742909304 installed
+<13>May 16 04:53:03 rpmi: libdouble-conversion3-3.3.1-alt1 sisyphus+375894.100.1.1 1740393427 installed
+<13>May 16 04:53:03 rpmi: libqt5-core-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:03 rpmi: libqt5-xml-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:03 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 04:53:03 rpmi: vulkan-filesystem-1.4.313-alt1 sisyphus+383827.700.1.1 1746997048 installed
+<13>May 16 04:53:03 rpmi: libvulkan1-1.4.313-alt1 sisyphus+383827.700.1.1 1746997048 installed
+<13>May 16 04:53:03 rpmi: libgflags-2.2.2-alt3 sisyphus+319790.100.1.1 1683117277 installed
+<13>May 16 04:53:03 rpmi: libvpl2-2.15.0-alt1 sisyphus+382522.100.1.1 1745498256 installed
+<13>May 16 04:53:03 rpmi: libopenh264_7-2.6.0-alt2 sisyphus+379176.100.1.1 1742886681 installed
+<13>May 16 04:53:03 rpmi: libdav1d_7-1.5.1-alt1 sisyphus+375116.100.1.1 1739813289 installed
+<13>May 16 04:53:03 rpmi: libepoxy-1.5.10-alt1 sisyphus+296853.200.2.1 1647631866 installed
+<13>May 16 04:53:03 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 04:53:03 rpmi: libqt5-sql-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:03 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 04:53:03 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 04:53:03 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 04:53:03 rpmi: perl-XML-SAX-Base-1.09-alt1 1494364363 installed
+<13>May 16 04:53:03 rpmi: libsbc1-2.0-alt2 sisyphus+322708.100.1.1 1686327806 installed
+<13>May 16 04:53:03 rpmi: libzix-0.6.2-alt1 sisyphus+370586.100.1.1 1737371832 installed
+<13>May 16 04:53:03 rpmi: libsord-0.16.18-alt1 sisyphus+370586.300.1.1 1737371896 installed
+<13>May 16 04:53:03 rpmi: liblc3-1.1.2-alt1 sisyphus+372294.200.1.1 1738367989 installed
+<13>May 16 04:53:03 rpmi: libfreeaptx-0.2.2-alt1 sisyphus+376949.100.1.1 1741184395 installed
+<13>May 16 04:53:03 rpmi: libgtest-1.17.0-alt1 sisyphus+382966.100.1.1 1746085270 installed
+<13>May 16 04:53:03 rpmi: libabseil-cpp2501.0.0-20250127.1-alt1 sisyphus+382966.200.2.1 1746085838 installed
+<13>May 16 04:53:03 rpmi: libwebrtc-audio-processing-2-2.1-alt1 sisyphus+375977.100.1.1 1740466841 installed
+<13>May 16 04:53:03 rpmi: libevent2.1-2.1.12-alt1 sisyphus+324359.3500.11.1 1689364661 installed
+<13>May 16 04:53:03 rpmi: liblame-3.100-alt1 sisyphus+346342.200.2.2 1716474674 installed
+<13>May 16 04:53:03 rpmi: libfdk-aac2-2.0.3-alt0.1 sisyphus+338863.100.1.1 1706094241 installed
+<13>May 16 04:53:03 rpmi: libdvdread8-6.1.3-alt1 sisyphus+302642.100.1.1 1656163148 installed
+<13>May 16 04:53:03 rpmi: libfftw3-common-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 04:53:03 rpmi: libaom3-3.12.0-alt2 sisyphus+381948.100.1.1 1744966704 installed
+<13>May 16 04:53:03 rpmi: libimath29-3.1.12-alt1.1 sisyphus+378502.100.1.1 1742362125 installed
+<13>May 16 04:53:03 rpmi: libiex32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 04:53:03 rpmi: liborc-0.4.41-alt1 sisyphus+375168.100.1.1 1739869638 installed
+<13>May 16 04:53:03 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 04:53:03 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:03 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 04:53:03 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 04:53:03 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 04:53:03 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 04:53:03 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 04:53:03 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 04:53:03 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 04:53:03 rpmi: llvm18.1-filesystem-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:03 rpmi: libatk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 04:53:03 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 04:53:03 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 04:53:04 rpmi: clang18.1-support-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:04 rpmi: llvm18.1-polly-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:04 rpmi: llvm18.1-gold-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:06 rpmi: llvm18.1-libs-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:07 rpmi: libclang18-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 04:53:07 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 04:53:07 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 04:53:07 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 04:53:07 rpmi: libilmthread32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 04:53:07 rpmi: libfftw3-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 04:53:07 rpmi: libchromaprint1-1.5.1-alt1 sisyphus+346100.200.2.1 1716252063 installed
+<13>May 16 04:53:07 rpmi: libfftw3f-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 04:53:07 rpmi: libdvdnav-6.1.1-alt1 sisyphus+279367.100.1.1 1626478896 installed
+<13>May 16 04:53:07 rpmi: libprotobuf25-3.25.5-alt6 sisyphus+372112.176.37.1 1741277791 installed
+<13>May 16 04:53:07 rpmi: libsratom-0.6.18-alt1 sisyphus+370586.500.1.1 1737371972 installed
+<13>May 16 04:53:07 rpmi: liblilv-0.24.26-alt1 sisyphus+370586.400.1.1 1737371940 installed
+<13>May 16 04:53:07 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 04:53:07 rpmi: libqt5-concurrent-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:07 rpmi: libqt5-dbus-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:07 rpmi: libqt5-test-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:07 rpmi: libdouble-conversion-devel-3.3.1-alt1 sisyphus+375894.100.1.1 1740393427 installed
+<13>May 16 04:53:07 rpmi: tslib-1.22-alt3 sisyphus+278442.100.1.2 1626216676 installed
+<13>May 16 04:53:07 rpmi: libavif-1.3.0-alt1 sisyphus+383874.100.1.1 1747042170 installed
+<13>May 16 04:53:07 rpmi: libopenexrcore32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 04:53:07 rpmi: libopenexr32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 04:53:07 rpmi: libdc1394-22-2.2.5-alt1.1 sisyphus+311484.100.1.1 1670647146 installed
+<13>May 16 04:53:07 rpmi: libiec61883-1.2.0-alt1.qa1 sisyphus+275365.100.1.2 1624491850 installed
+<13>May 16 04:53:07 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 04:53:07 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 04:53:07 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 04:53:07 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 04:53:07 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 04:53:07 rpmi: libsrt1-1.5.4-alt2 sisyphus+376921.100.1.1 1741174321 installed
+<13>May 16 04:53:07 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 04:53:07 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 04:53:07 rpmi: libGLES-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:07 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:07 rpmi: libflac14-1.5.0-alt1 sisyphus+374510.100.1.1 1739435174 installed
+<13>May 16 04:53:07 rpmi: libtheora-2:1.1.1-alt6 sisyphus+277967.100.1.1 1625928129 installed
+<13>May 16 04:53:07 rpmi: qt5-svg-common-5.15.16-alt1 sisyphus+365342.1700.2.2 1734820101 installed
+<13>May 16 04:53:07 rpmi: libamd3-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:07 rpmi: libcamd3-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:07 rpmi: libcolamd3-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:07 rpmi: libccolamd3-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:07 rpmi: libsoundtouch-2.4.0-alt1 sisyphus+380663.100.1.1 1744004921 installed
+<13>May 16 04:53:07 rpmi: libxkbcommon-devel-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 04:53:07 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 04:53:07 groupadd[871212]: group added to /etc/group: name=messagebus, GID=999
+<86>May 16 04:53:07 groupadd[871212]: group added to /etc/gshadow: name=messagebus
+<86>May 16 04:53:07 groupadd[871212]: new group: name=messagebus, GID=999
+<86>May 16 04:53:07 useradd[871300]: new user: name=messagebus, UID=999, GID=999, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 04:53:07 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 04:53:08 rpmi: libdbus-devel-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 04:53:08 rpmi: libv4l-1.30.1-alt1 sisyphus+383276.100.1.1 1746438471 installed
+<13>May 16 04:53:08 rpmi: wayland-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:08 rpmi: libwayland-client-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 04:53:08 rpmi: rpm-macros-qt5-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:08 rpmi: xxd-4:9.1.1264-alt1 sisyphus+379906.100.1.1 1743513158 installed
+<13>May 16 04:53:08 rpmi: libudev-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:08 rpmi: publicsuffix-list-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 04:53:08 rpmi: libnatpmp1-20230423-alt1_2 sisyphus+380866.100.1.1 1744125735 installed
+<13>May 16 04:53:08 rpmi: libminiupnpc20-1:2.3.2-alt1 sisyphus+377009.100.1.1 1741199410 installed
+<13>May 16 04:53:08 rpmi: libwacom-data-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 04:53:08 rpmi: libduktape207-2.7.0-alt3 sisyphus+352341.100.1.1 1720324462 installed
+<13>May 16 04:53:08 rpmi: libb64-2.0.0.1-alt2 sisyphus+278438.100.1.1 1626100396 installed
+<13>May 16 04:53:08 rpmi: iso-codes-4.18.0-alt1 sisyphus+381485.100.1.1 1744443402 installed
+<13>May 16 04:53:08 rpmi: libwebrtc-audio-processing-1.3-alt2 sisyphus+332026.100.1.1 1697579361 installed
+<13>May 16 04:53:08 rpmi: libvo-amrwbenc-0.1.3-alt1 sisyphus+275410.100.1.2 1624504610 installed
+<13>May 16 04:53:08 rpmi: libvo-aacenc-0.1.3-alt2 sisyphus+285812.100.1.1 1632410909 installed
+<13>May 16 04:53:08 rpmi: libsrtp2-2.7.0-alt1 sisyphus+379191.100.1.1 1742893673 installed
+<13>May 16 04:53:08 rpmi: libtbb-2022.1.0-alt1.1 sisyphus+376369.27300.10.1 1746634166 installed
+<13>May 16 04:53:08 rpmi: libhdf5-310-1.14.6-alt1 sisyphus+375936.100.1.1 1740420589 installed
+<13>May 16 04:53:08 rpmi: libgdcmjpeg16_3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmjpeg12_3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmjpeg8_3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libjson-c5-0.18-alt1 sisyphus+358387.100.1.1 1727298142 installed
+<13>May 16 04:53:08 rpmi: libcharls2-2.4.2-alt2 sisyphus+371866.60.5.1 1738048415 installed
+<13>May 16 04:53:08 rpmi: libgdcmcommon3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmdsed3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmiod3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmdict3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libgdcmmsff3.0-3.0.25-alt1 sisyphus+378639.100.1.3 1742459974 installed
+<13>May 16 04:53:08 rpmi: libunwind-1.7.0-alt2 sisyphus+335269.100.1.1 1701110934 installed
+<13>May 16 04:53:08 rpmi: libglog2-0.7.1-alt1 sisyphus+350246.140.8.1 1724736246 installed
+<13>May 16 04:53:09 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388330 installed
+<13>May 16 04:53:09 rpmi: libzeromq-4.3.4-alt3 sisyphus+326735.200.2.1 1691482840 installed
+<13>May 16 04:53:09 rpmi: libwbclient-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 04:53:09 rpmi: libjansson4-2.14.1-alt1 sisyphus+379832.100.1.1 1743438033 installed
+<13>May 16 04:53:09 rpmi: librabbitmq-c4-0.15.0-alt1 sisyphus+363621.100.1.1 1732865039 installed
+<13>May 16 04:53:09 rpmi: libgme-0.6.3-alt2 sisyphus+293048.100.1.1 1641452306 installed
+<13>May 16 04:53:09 rpmi: libudfread-1.1.2-alt2 sisyphus+286325.100.1.1 1633263312 installed
+<13>May 16 04:53:09 rpmi: libsoxr-0.1.3-alt1.1 sisyphus+317908.100.1.1 1680415073 installed
+<13>May 16 04:53:09 rpmi: libxvid-1.3.7-alt1 sisyphus+292833.100.1.1 1640949610 installed
+<13>May 16 04:53:09 rpmi: libnuma-2.0.19-alt1 sisyphus+363830.100.1.1 1733131852 installed
+<13>May 16 04:53:09 rpmi: libx265-199-3.5-alt1.1 sisyphus+277560.100.1.1 1625697230 installed
+<13>May 16 04:53:09 rpmi: libx264-164-alt1.1 sisyphus+322210.100.1.1 1685494917 installed
+<13>May 16 04:53:09 rpmi: libvpx9-1.15.0-alt1 sisyphus+366496.100.1.1 1735142013 installed
+<13>May 16 04:53:09 rpmi: libtwolame-0.4.0-alt1 sisyphus+277783.100.1.1 1625798476 installed
+<13>May 16 04:53:09 rpmi: libspeex-1.2.1-alt1 sisyphus+339763.100.1.1 1707113839 installed
+<13>May 16 04:53:09 rpmi: libsnappy-1.1.7-alt1 sisyphus+276400.100.1.2 1625016393 installed
+<13>May 16 04:53:09 rpmi: libopencore-amrwb0-0.1.6-alt1 sisyphus+307923.100.1.1 1665032483 installed
+<13>May 16 04:53:09 rpmi: libopencore-amrnb0-0.1.6-alt1 sisyphus+307923.100.1.1 1665032483 installed
+<13>May 16 04:53:09 rpmi: libcodec2_1.2-1.2.0-alt1 sisyphus+340564.40.2.1 1707820763 installed
+<13>May 16 04:53:09 rpmi: libopenal1-1.22.2-alt2 sisyphus+331513.100.1.2 1697028598 installed
+<13>May 16 04:53:09 rpmi: libmodplug-0.8.9.0-alt1 sisyphus+275375.100.2.2 1624495419 installed
+<13>May 16 04:53:09 rpmi: libdv-1.0.0-alt6 sisyphus+286805.100.2.1 1633968015 installed
+<13>May 16 04:53:09 rpmi: libyajl-2.1.0-alt3 sisyphus+322972.100.1.1 1686724493 installed
+<13>May 16 04:53:09 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 04:53:09 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 04:53:09 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 04:53:09 rpmi: usbids-20240206-alt1 sisyphus+339943.100.1.1 1707270512 installed
+<13>May 16 04:53:09 rpmi: pciids-20250508-alt1 sisyphus+383607.100.1.1 1746722444 installed
+<13>May 16 04:53:09 rpmi: hwdata-0.384-alt1 sisyphus+354460.100.1.1 1722898493 installed
+<13>May 16 04:53:09 rpmi: gtk+3-themes-incompatible-3.20-alt3 1461944560 installed
+<13>May 16 04:53:09 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 04:53:09 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 04:53:09 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 04:53:09 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 04:53:09 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 04:53:09 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 04:53:09 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 04:53:09 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 04:53:09 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 04:53:09 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 04:53:09 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 04:53:09 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 04:53:09 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 04:53:09 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 04:53:09 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 04:53:09 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 04:53:09 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 04:53:09 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 04:53:09 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 04:53:09 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 04:53:09 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 04:53:09 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 04:53:09 rpmi: perl-XML-LibXML-2.0210-alt8 sisyphus+355798.100.1.1 1724340088 installed
+<13>May 16 04:53:09 rpmi: perl-XML-SAX-1.02-alt1 sisyphus+232322.100.1.1 1560758406 installed
+<13>May 16 04:53:09 rpmi: perl-XML-Simple-2.25-alt2 sisyphus+257498.100.1.1 1599324034 installed
+<13>May 16 04:53:09 rpmi: icon-naming-utils-0.8.90-alt1 sisyphus+276851.100.1.1 1625243947 installed
+<13>May 16 04:53:10 rpmi: icon-theme-adwaita-48.0-alt1 sisyphus+378197.1000.1.1 1742091975 installed
+<13>May 16 04:53:10 rpmi: perl-XML-Parser-2.47-alt1 sisyphus+337612.100.1.1 1704201438 installed
+<13>May 16 04:53:10 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 04:53:10 rpmi: libmysofa-1.3.3-alt1 sisyphus+360234.100.1.1 1729426691 installed
+<13>May 16 04:53:10 rpmi: libldac2-2.0.2.3-alt0.1 sisyphus+278007.100.1.2 1625973044 installed
+<13>May 16 04:53:10 rpmi: libsigc++2-2.12.1-alt1 sisyphus+331046.200.2.1 1696511642 installed
+<13>May 16 04:53:10 rpmi: libconfig-c++11-1.7.3-alt1 sisyphus+356893.2177.17.1 1725864292 installed
+<13>May 16 04:53:10 rpmi: libebur128-1.2.6-alt1.1 sisyphus+271676.400.1.1 1622384452 installed
+<13>May 16 04:53:10 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659208 installed
+<13>May 16 04:53:10 rpmi: libasyncns-0.8-alt2.qa1 sisyphus+275091.100.1.1 1624402241 installed
+<13>May 16 04:53:10 rpmi: sound-theme-freedesktop-0.8-alt1 sisyphus+277010.100.1.2 1625346634 installed
+<13>May 16 04:53:10 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 04:53:10 rpmi: libbluez-5.82-alt1 sisyphus+379468.400.3.1 1745087578 installed
+<13>May 16 04:53:10 rpmi: libmpg123-1:1.32.10-alt1 sisyphus+365072.100.1.1 1734226035 installed
+<13>May 16 04:53:10 rpmi: libsndfile-1.2.2-alt1 sisyphus+380661.100.1.1 1744001678 installed
+<13>May 16 04:53:10 rpmi: libinstpatch-1.1.6-alt1.1 sisyphus+279572.100.1.2 1626605094 installed
+<13>May 16 04:53:10 rpmi: libfaad2-2.11.2-alt1 sisyphus+377457.100.1.1 1741584285 installed
+<13>May 16 04:53:10 rpmi: libfaac-1.30-alt1 sisyphus+373429.100.1.1 1738880426 installed
+<13>May 16 04:53:10 rpmi: libdca0-0.0.5-alt4.qa1 sisyphus+275349.100.1.2 1624487408 installed
+<13>May 16 04:53:10 rpmi: libbs2b-3.1.0-alt1.4 sisyphus+346078.200.2.1 1716241402 installed
+<13>May 16 04:53:10 rpmi: libzxing-cpp-2.3.0-alt3 sisyphus+370655.600.2.2 1737414041 installed
+<13>May 16 04:53:10 rpmi: libsvt-jpegxs-0.9.0-alt1 sisyphus+377878.200.2.1 1741881857 installed
+<13>May 16 04:53:10 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 04:53:10 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 04:53:10 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 04:53:10 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 04:53:10 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 04:53:10 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 04:53:12 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 04:53:12 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 04:53:12 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 04:53:12 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 04:53:12 rpmi: libcamera-1:0.5.0-alt1.1 sisyphus+382966.300.2.1 1746085942 installed
+<13>May 16 04:53:12 rpmi: gobject-introspection-1.84.0-alt1 sisyphus+378180.240.2.1 1742052869 installed
+<13>May 16 04:53:12 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 04:53:13 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:53:13 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:53:13 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 04:53:14 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 04:53:14 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 04:53:14 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 04:53:14 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 04:53:14 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:53:15 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:53:15 rpmi: gtk-builder-convert-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 16 04:53:15 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 04:53:15 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 04:53:15 rpmi: python3-module-railroad-diagrams-3.0.1-alt1 sisyphus+358318.100.1.1 1727257812 installed
+<13>May 16 04:53:15 rpmi: python3-module-pyparsing-3.2.3-alt1 sisyphus+379206.100.2.1 1742978787 installed
+<13>May 16 04:53:15 rpmi: vulkan-registry-1.4.313-alt1 sisyphus+383827.100.1.1 1746996478 installed
+<13>May 16 04:53:15 rpmi: libvulkan-devel-1.4.313-alt1 sisyphus+383827.700.1.1 1746997048 installed
+<13>May 16 04:53:15 rpmi: python3-module-pyudev-0.24.3-alt1 sisyphus+347852.100.1.1 1715497013 installed
+<13>May 16 04:53:15 rpmi: python3-module-libevdev-0.11-alt1 sisyphus+300877.100.1.1 1653893962 installed
+<13>May 16 04:53:15 rpmi: libwacom-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 04:53:15 rpmi: libinput-1.28.1-alt1 sisyphus+379958.100.1.1 1743546134 installed
+<13>May 16 04:53:15 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:53:15 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 04:53:15 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069366 installed
+<13>May 16 04:53:15 rpmi: libcholmod5-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:15 rpmi: libspqr4-7.10.1-alt1 sisyphus+377064.100.1.2 1741261972 installed
+<13>May 16 04:53:15 rpmi: flexiblas-3.4.5-alt2 sisyphus+377958.100.1.1 1741954976 installed
+<13>May 16 04:53:15 rpmi: libflexiblas.3-3.4.5-alt2 sisyphus+377958.100.1.1 1741954976 installed
+<13>May 16 04:53:15 rpmi: flexiblas-netlib-3.4.5-alt2 sisyphus+377958.100.1.1 1741954976 installed
+<13>May 16 04:53:16 rpmi: libceres4-2.2.0-alt2 sisyphus+350246.370.8.1 1724736407 installed
+<13>May 16 04:53:16 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 04:53:16 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 04:53:16 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 04:53:16 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 04:53:16 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 04:53:16 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<86>May 16 04:53:16 groupadd[923160]: group added to /etc/group: name=tape, GID=998
+<86>May 16 04:53:16 groupadd[923160]: group added to /etc/gshadow: name=tape
+<86>May 16 04:53:16 groupadd[923160]: new group: name=tape, GID=998
+<86>May 16 04:53:16 groupadd[923232]: group added to /etc/group: name=dialout, GID=997
+<86>May 16 04:53:16 groupadd[923232]: group added to /etc/gshadow: name=dialout
+<86>May 16 04:53:16 groupadd[923232]: new group: name=dialout, GID=997
+<86>May 16 04:53:16 groupadd[923299]: group added to /etc/group: name=input, GID=996
+<86>May 16 04:53:16 groupadd[923299]: group added to /etc/gshadow: name=input
+<86>May 16 04:53:16 groupadd[923299]: new group: name=input, GID=996
+<86>May 16 04:53:16 groupadd[923391]: group added to /etc/group: name=video, GID=995
+<86>May 16 04:53:16 groupadd[923391]: group added to /etc/gshadow: name=video
+<86>May 16 04:53:16 groupadd[923391]: new group: name=video, GID=995
+<86>May 16 04:53:16 groupadd[923484]: group added to /etc/group: name=render, GID=994
+<86>May 16 04:53:16 groupadd[923484]: group added to /etc/gshadow: name=render
+<86>May 16 04:53:16 groupadd[923484]: new group: name=render, GID=994
+<86>May 16 04:53:16 groupadd[923577]: group added to /etc/group: name=sgx, GID=993
+<86>May 16 04:53:16 groupadd[923577]: group added to /etc/gshadow: name=sgx
+<86>May 16 04:53:16 groupadd[923577]: new group: name=sgx, GID=993
+<13>May 16 04:53:16 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:16 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 04:53:16 rpmi: dconf-profile-0.2-alt1 sisyphus+371122.100.2.1 1737999051 installed
+<13>May 16 04:53:17 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:53:17 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 04:53:17 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 04:53:17 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 04:53:17 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 04:53:17 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 04:53:17 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 04:53:17 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:53:17 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 04:53:17 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 04:53:17 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 04:53:17 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<86>May 16 04:53:17 groupadd[928263]: group added to /etc/group: name=_keytab, GID=992
+<86>May 16 04:53:17 groupadd[928263]: group added to /etc/gshadow: name=_keytab
+<86>May 16 04:53:17 groupadd[928263]: new group: name=_keytab, GID=992
+<13>May 16 04:53:17 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 04:53:17 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 04:53:17 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 04:53:17 groupadd[928796]: group added to /etc/group: name=sasl, GID=991
+<86>May 16 04:53:17 groupadd[928796]: group added to /etc/gshadow: name=sasl
+<86>May 16 04:53:17 groupadd[928796]: new group: name=sasl, GID=991
+<13>May 16 04:53:17 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 04:53:17 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:53:17 rpmi: libldb-2.9.2-alt1 sisyphus+362961.100.1.1 1732080665 installed
+<13>May 16 04:53:17 rpmi: samba-common-libs-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 04:53:17 rpmi: libsmbclient-4.20.8-alt2 sisyphus+383559.100.1.1 1746630899 installed
+<13>May 16 04:53:17 rpmi: libneon-0.32.5-alt1 sisyphus+337867.100.1.2 1705641062 installed
+<13>May 16 04:53:17 rpmi: libssh-0.11.1-alt1 sisyphus+374187.100.1.1 1739177428 installed
+<13>May 16 04:53:17 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 04:53:17 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 04:53:17 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 04:53:17 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 04:53:18 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 04:53:18 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 04:53:18 rpmi: libraptor2-2.0.16-alt1 sisyphus+337177.100.1.1 1703495659 installed
+<13>May 16 04:53:18 rpmi: liblrdf-0.6.1-alt1 sisyphus+278205.100.1.1 1626077040 installed
+<13>May 16 04:53:18 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 04:53:19 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 04:53:19 rpmi: libass9-0.17.3-alt1 sisyphus+352066.100.1.1 1720008822 installed
+<13>May 16 04:53:19 rpmi: libbluray-1.3.4-alt1 sisyphus+310888.100.1.1 1669800489 installed
+<13>May 16 04:53:19 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 04:53:19 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 04:53:19 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 04:53:19 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:53:19 rpmi: bc-1:1.07.1-alt1 sisyphus+346065.200.3.1 1716459102 installed
+<13>May 16 04:53:19 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:19 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:19 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:19 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:19 rpmi: libfdisk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 04:53:20 rpmi: systemd-utils-standalone-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:20 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 04:53:20 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 04:53:20 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 04:53:20 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 04:53:20 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 04:53:20 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 04:53:20 rpmi: libgstreamer1.0-1.26.1-alt1 sisyphus+382621.100.2.3 1745748948 installed
+<13>May 16 04:53:20 rpmi: libgio-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 04:53:20 rpmi: libgdk-pixbuf-devel-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 04:53:20 rpmi: libglibmm2.68-2.84.0-alt1 sisyphus+378180.200.1.1 1742049958 installed
+<13>May 16 04:53:20 rpmi: libglibmm2.68-devel-2.84.0-alt1 sisyphus+378180.200.1.1 1742049958 installed
+<13>May 16 04:53:20 rpmi: libgstreamer1.0-gir-1.26.1-alt1 sisyphus+382621.100.2.3 1745748948 installed
+<13>May 16 04:53:20 rpmi: gtk4-update-icon-cache-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 04:53:20 rpmi: libglibmm-2.66.8-alt1 sisyphus+379045.100.1.1 1742765736 installed
+<13>May 16 04:53:20 rpmi: libjson-glib-1.10.6-alt1 sisyphus+364645.100.1.1 1733849752 installed
+<13>May 16 04:53:20 rpmi: libgusb-0.4.9-alt1 sisyphus+345693.100.1.1 1713857461 installed
+<13>May 16 04:53:20 rpmi: libcolord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 04:53:20 rpmi: libxml++2-2.42.3-alt1 sisyphus+338062.100.1.2 1705656007 installed
+<13>May 16 04:53:20 rpmi: libffado-2.4.9-alt1 sisyphus+359940.100.1.1 1729093015 installed
+<13>May 16 04:53:20 rpmi: gstreamer1.0-1.26.1-alt1 sisyphus+382621.100.2.3 1745748948 installed
+<13>May 16 04:53:20 rpmi: libnotify-0.8.6-alt1 sisyphus+380665.100.1.1 1744008073 installed
+<13>May 16 04:53:20 rpmi: libgraphene-devel-1.10.8-alt1 sisyphus+296855.100.1.1 1647633383 installed
+<13>May 16 04:53:20 rpmi: libdconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 04:53:20 rpmi: dconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 04:53:20 rpmi: libgtk+3-schemas-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 04:53:20 rpmi: libpolkit-126-alt2 sisyphus+383823.100.1.1 1746990253 installed
+<86>May 16 04:53:20 groupadd[945620]: group added to /etc/group: name=colord, GID=990
+<86>May 16 04:53:20 groupadd[945620]: group added to /etc/gshadow: name=colord
+<86>May 16 04:53:20 groupadd[945620]: new group: name=colord, GID=990
+<86>May 16 04:53:21 useradd[945686]: new user: name=colord, UID=998, GID=990, home=/var/colord, shell=/dev/null, from=none
+<13>May 16 04:53:21 rpmi: colord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 04:53:21 rpmi: libnice-0.1.22-alt1 sisyphus+342031.100.1.1 1709629225 installed
+<13>May 16 04:53:21 rpmi: libcloudproviders-0.3.6-alt1 sisyphus+343189.100.1.1 1710944485 installed
+<13>May 16 04:53:21 rpmi: libdbus-glib-1:0.110-alt1 sisyphus+278470.100.1.2 1626224690 installed
+<13>May 16 04:53:21 rpmi: libproxy-0.5.9-alt1 sisyphus+360721.100.1.1 1729865346 installed
+<13>May 16 04:53:21 rpmi: libqt5-network-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:21 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 04:53:21 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 04:53:21 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 04:53:21 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 04:53:21 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 04:53:21 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 04:53:21 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 04:53:21 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 04:53:21 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 04:53:21 rpmi: libpulseaudio-17.0-alt2 sisyphus+339257.100.1.1 1706519226 installed
+<13>May 16 04:53:21 rpmi: libcairomm1.16-1.18.0-alt1 sisyphus+330577.100.1.1 1695981260 installed
+<13>May 16 04:53:21 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 04:53:21 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 04:53:23 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 04:53:23 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 04:53:23 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 04:53:23 rpmi: libat-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 04:53:23 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 04:53:23 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 04:53:23 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 04:53:23 rpmi: librsvg-1:2.60.0-alt1 sisyphus+378509.200.1.1 1742367009 installed
+<13>May 16 04:53:23 rpmi: libpangomm2.48-2.56.1-alt1 sisyphus+369730.100.1.1 1737023764 installed
+<13>May 16 04:53:23 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 04:53:23 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 04:53:23 rpmi: libzvbi-0.2.35-alt2 sisyphus+275416.100.1.3 1624507095 installed
+<13>May 16 04:53:23 rpmi: at-spi2-atk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 04:53:23 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 04:53:23 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 04:53:23 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 04:53:24 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 04:53:24 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 04:53:24 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 04:53:24 rpmi: libcairomm1.16-devel-1.18.0-alt1 sisyphus+330577.100.1.1 1695981260 installed
+<13>May 16 04:53:24 rpmi: libcairo-gobject-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 04:53:24 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 04:53:24 rpmi: libpango-devel-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 04:53:24 rpmi: libpangomm2.48-devel-2.56.1-alt1 sisyphus+369730.100.1.1 1737023764 installed
+<13>May 16 04:53:24 rpmi: libXtst-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 04:53:24 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 04:53:24 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 04:53:24 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:24 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:24 rpmi: libva-2.22.0-alt1 sisyphus+351641.100.2.1 1719561314 installed
+<13>May 16 04:53:24 rpmi: libEGL-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 04:53:24 rpmi: libEGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:24 rpmi: libgst-plugins1.0-1.26.1-alt1 sisyphus+382621.200.2.3 1745749075 installed
+<13>May 16 04:53:25 rpmi: libgst-plugins1.0-gir-1.26.1-alt1 sisyphus+382621.200.2.3 1745749075 installed
+<13>May 16 04:53:25 rpmi: libglvnd-devel-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 04:53:25 rpmi: libvdpau-1:1.5-alt1 sisyphus+298034.100.1.1 1649336822 installed
+<13>May 16 04:53:25 rpmi: libavutil59-2:7.1.1-alt2 sisyphus+383394.100.1.1 1746524723 installed
+<13>May 16 04:53:25 rpmi: libswresample5-2:7.1.1-alt2 sisyphus+383394.100.1.1 1746524723 installed
+<13>May 16 04:53:25 rpmi: libavcodec61-2:7.1.1-alt2 sisyphus+383394.100.1.1 1746524723 installed
+<13>May 16 04:53:25 rpmi: libavformat61-2:7.1.1-alt2 sisyphus+383394.100.1.1 1746524723 installed
+<13>May 16 04:53:25 rpmi: libswscale8-2:7.1.1-alt2 sisyphus+383394.100.1.1 1746524723 installed
+<13>May 16 04:53:25 rpmi: libXv-1.0.12-alt1 sisyphus+311188.600.1.1 1670233799 installed
+<13>May 16 04:53:25 rpmi: libzbar-0.23.93-alt1 sisyphus+350305.100.1.1 1717507821 installed
+<13>May 16 04:53:25 rpmi: dbus-tools-gui-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 04:53:25 rpmi: xprop-1.2.5-alt1 sisyphus+279025.100.1.1 1626354198 installed
+<13>May 16 04:53:25 rpmi: at-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 04:53:25 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 04:53:26 rpmi: libgtk+3-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 04:53:27 rpmi: libopencv4.11-1:4.11.0-alt2 sisyphus+376290.11060.24.2 1745386476 installed
+<13>May 16 04:53:27 rpmi: libxcbutil-icccm-0.4.1-alt2 sisyphus+278275.100.1.2 1626148616 installed
+<13>May 16 04:53:27 rpmi: libxcbutil-1:0.4.1-alt1 sisyphus+312057.100.1.1 1671526887 installed
+<13>May 16 04:53:27 rpmi: libxcbutil-image-0.4.0-alt1 sisyphus+275413.100.1.3 1624505793 installed
+<13>May 16 04:53:27 rpmi: libxcbutil-keysyms-0.4.0-alt1 sisyphus+278187.100.1.1 1626075966 installed
+<13>May 16 04:53:27 rpmi: libxcb-render-util-0.3.9-alt3 sisyphus+276916.100.1.2 1625275234 installed
+<13>May 16 04:53:27 rpmi: libxkbcommon-x11-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 04:53:27 rpmi: libqt5-eglfsdeviceintegration-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:27 rpmi: libqt5-xcbqpa-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:27 rpmi: libqt5-eglfskmssupport-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:27 rpmi: libqt5-gui-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:27 rpmi: libqt5-widgets-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:27 rpmi: libqt5-qmlmodels-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:27 rpmi: libqt5-qmlworkerscript-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:27 rpmi: libqt5-quick-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:27 rpmi: libqt5-quickshapes-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:28 rpmi: libqt5-qml-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 04:53:28 rpmi: libqt5-designer-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:28 rpmi: libqt5-designercomponents-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:28 rpmi: libqt5-help-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:28 rpmi: qt5-tools-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:28 rpmi: libqt5-opengl-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:28 rpmi: libqt5-printsupport-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:29 rpmi: qt5-base-devel-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 04:53:29 rpmi: libqt5-svg-5.15.16-alt1 sisyphus+365342.1700.2.2 1734820101 installed
+<13>May 16 04:53:29 rpmi: alsa-ucm-conf-1.2.13-alt2 sisyphus+379457.100.1.1 1743144589 installed
+<13>May 16 04:53:29 rpmi: alsa-topology-conf-1.2.5.1-alt1 sisyphus+274777.100.1.1 1624089141 installed
+<13>May 16 04:53:29 rpmi: libalsa-1:1.2.13-alt1 sisyphus+370533.200.1.1 1737298943 installed
+<13>May 16 04:53:29 rpmi: libcanberra-0.30-alt3 sisyphus+275093.100.2.3 1624562350 installed
+<13>May 16 04:53:29 rpmi: pipewire-libs-1.4.2-alt1 sisyphus+381609.100.1.1 1744642775 installed
+<13>May 16 04:53:29 rpmi: pipewire-jack-libs-1.4.2-alt1 sisyphus+381609.100.1.1 1744642775 installed
+<13>May 16 04:53:29 rpmi: libfluidsynth-2.4.6-alt1 sisyphus+383249.100.1.1 1746398183 installed
+<13>May 16 04:53:29 rpmi: libSDL-1.2.14-alt10 sisyphus+346015.200.2.1 1716212609 installed
+<13>May 16 04:53:29 rpmi: libmjpegtools2.1-2.2.1-alt2 sisyphus+332812.400.2.1 1698405785 installed
+<13>May 16 04:53:29 rpmi: gst-plugins-bad1.0-1.26.1-alt1 sisyphus+382621.400.2.3 1745749466 installed
+<13>May 16 04:53:30 rpmi: libgtk4-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 04:53:30 rpmi: libgtk4-devel-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 04:53:30 rpmi: libgtkmm4-4.18.0-alt1 sisyphus+379045.200.1.1 1742765900 installed
+<13>May 16 04:53:30 rpmi: libgtkmm4-devel-4.18.0-alt1 sisyphus+379045.200.1.1 1742765900 installed
+<13>May 16 04:53:30 rpmi: libcanberra-devel-0.30-alt3 sisyphus+275093.100.2.3 1624562350 installed
+<13>May 16 04:53:30 rpmi: qt5-svg-devel-5.15.16-alt1 sisyphus+365342.1700.2.2 1734820101 installed
+<13>May 16 04:53:31 rpmi: qt5-tools-devel-5.15.16-alt1 sisyphus+369624.100.1.3 1736942699 installed
+<13>May 16 04:53:31 rpmi: libdbus-glib-devel-1:0.110-alt1 sisyphus+278470.100.1.2 1626224690 installed
+<13>May 16 04:53:31 rpmi: libnotify-devel-0.8.6-alt1 sisyphus+380665.100.1.1 1744008073 installed
+<13>May 16 04:53:31 rpmi: libcurl-devel-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 04:53:31 rpmi: ctest-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 04:53:31 rpmi: libpsl-devel-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 04:53:31 rpmi: libevent-devel-2.1.12-alt1 sisyphus+324359.3500.11.1 1689364661 installed
+<13>May 16 04:53:31 rpmi: libb64-devel-2.0.0.1-alt2 sisyphus+278438.100.1.1 1626100396 installed
+<13>May 16 04:53:31 rpmi: libminiupnpc-devel-1:2.3.2-alt1 sisyphus+377009.100.1.1 1741199410 installed
+<13>May 16 04:53:31 rpmi: libnatpmp-devel-20230423-alt1_2 sisyphus+380866.100.1.1 1744125735 installed
+<13>May 16 04:53:31 rpmi: libdeflate-devel-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 04:53:31 rpmi: libsystemd-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 04:53:31 rpmi: libutfcpp-devel-4.0.6-alt1 sisyphus+363922.100.1.1 1733180912 installed
+<13>May 16 04:53:31 rpmi: libpcre2-devel-10.45-alt1 sisyphus+373327.100.1.1 1738785359 installed
+<13>May 16 04:53:31 rpmi: libffi-devel-1:3.4.8-alt1 sisyphus+384065.100.1.1 1747151048 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/transmission-4.0.6-alt4.nosrc.rpm (w1.gzdio)
+Installing transmission-4.0.6-alt4.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.30084
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf transmission-4.0.6
++ echo 'Source #0 (transmission-4.0.6.tar):'
+Source #0 (transmission-4.0.6.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6.tar
++ cd transmission-4.0.6
++ echo 'Source #4 (transmission-4.0.6-third-party-dht.tar):'
+Source #4 (transmission-4.0.6-third-party-dht.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-dht.tar
++ echo 'Source #5 (transmission-4.0.6-third-party-fast_float.tar):'
+Source #5 (transmission-4.0.6-third-party-fast_float.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-fast_float.tar
++ echo 'Source #6 (transmission-4.0.6-third-party-fmt.tar):'
+Source #6 (transmission-4.0.6-third-party-fmt.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-fmt.tar
++ echo 'Source #7 (transmission-4.0.6-third-party-googletest.tar):'
+Source #7 (transmission-4.0.6-third-party-googletest.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-googletest.tar
++ echo 'Source #8 (transmission-4.0.6-third-party-libutp.tar):'
+Source #8 (transmission-4.0.6-third-party-libutp.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-libutp.tar
++ echo 'Source #9 (transmission-4.0.6-third-party-utfcpp.tar):'
+Source #9 (transmission-4.0.6-third-party-utfcpp.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-utfcpp.tar
++ echo 'Source #10 (transmission-4.0.6-third-party-utfcpp-extern-ftest.tar):'
+Source #10 (transmission-4.0.6-third-party-utfcpp-extern-ftest.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-utfcpp-extern-ftest.tar
++ echo 'Source #11 (transmission-4.0.6-third-party-wide-integer.tar):'
+Source #11 (transmission-4.0.6-third-party-wide-integer.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/transmission-4.0.6-third-party-wide-integer.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #2 (transmission-alt-extra-doc-disable.patch):'
+Patch #2 (transmission-alt-extra-doc-disable.patch):
++ /usr/bin/patch -p1
+patching file CMakeLists.txt
+Hunk #1 succeeded at 809 (offset 13 lines).
++ echo 'Patch #3 (transmission-alt-fix-trsnslations-qt.patch):'
+Patch #3 (transmission-alt-fix-trsnslations-qt.patch):
++ /usr/bin/patch -p1
+patching file qt/Application.cc
+Hunk #1 succeeded at 380 (offset 1 line).
++ echo 'Patch #4 (transmission-miniupnp228.patch):'
+Patch #4 (transmission-miniupnp228.patch):
++ /usr/bin/patch -p1
+patching file libtransmission/port-forwarding-upnp.cc
+Hunk #1 succeeded at 275 (offset 14 lines).
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.30084
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd transmission-4.0.6
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -Os -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -Os -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -Os -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux -DENABLE_GTK=ON -DENABLE_QT=ON -DENABLE_CLI=ON -DUSE_SYSTEM_EVENT2=ON -DUSE_SYSTEM_MINIUPNPC=ON -DUSE_SYSTEM_NATPMP=ON -DUSE_SYSTEM_B64=ON -DUSE_SYSTEM_PSL=ON -DUSE_SYSTEM_DEFLATE=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo
+Problem opening /proc/meminfo
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+Problem opening /proc/meminfo
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libcurl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libcurl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libcurl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libcurl', not found
+-- Found CURL: /usr/lib64/libcurl.so (found suitable version "8.13.0", minimum required is "7.28.0")
+-- Found OpenSSL: /usr/lib64/libcrypto.so (found suitable version "3.3.3", minimum required is "0.9.7")
+-- Checking for modules 'gtkmm-4.0>=3.24.0;glibmm-2.68>=2.60.0;giomm-2.68>=2.26.0'
+--   Found gtkmm-4.0, version 4.18.0
+--   Found glibmm-2.68, version 2.84.0
+--   Found giomm-2.68, version 2.84.0
+Package mount was not found in the pkg-config search path.
+Perhaps you should add the directory containing `mount.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'mount', required by 'gio-2.0', not found
+Package mount was not found in the pkg-config search path.
+Perhaps you should add the directory containing `mount.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'mount', required by 'gio-2.0', not found
+Package mount was not found in the pkg-config search path.
+Perhaps you should add the directory containing `mount.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'mount', required by 'gio-2.0', not found
+Package mount was not found in the pkg-config search path.
+Perhaps you should add the directory containing `mount.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'mount', required by 'gio-2.0', not found
+-- Found DEFLATE: /usr/include (found suitable version "1.24", minimum required is "1.7")
+-- Found EVENT2: /usr/lib64/libevent.so (found suitable version "2.1.12-stable", minimum required is "2.1.0")
+-- Found NATPMP: /usr/lib64/libnatpmp.so
+-- Found MINIUPNPC: /usr/lib64/libminiupnpc.so (found version "2.3.2")
+-- Could NOT find DHT (missing: DHT_LIBRARY DHT_INCLUDE_DIR) 
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libpsl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libpsl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libpsl', not found
+Package libidn2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libidn2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libidn2', required by 'libpsl', not found
+-- Found PSL: /usr/lib64/libpsl.so (Required is at least version "0.21.1")
+-- Could NOT find UTP (missing: UTP_LIBRARY UTP_INCLUDE_DIR) 
+-- Found B64: /usr/lib64/libb64.so
+-- Looking for sys/inotify.h
+Problem opening /proc/meminfo
+-- Looking for sys/inotify.h - found
+-- Looking for inotify_init
+Problem opening /proc/meminfo
+-- Looking for inotify_init - found
+-- Looking for include files sys/types.h, sys/event.h
+Problem opening /proc/meminfo
+-- Looking for include files sys/types.h, sys/event.h - not found
+-- Looking for kqueue
+Problem opening /proc/meminfo
+-- Looking for kqueue - not found
+-- Found SYSTEMD: /usr/lib64/libsystemd.so
+-- Performing Test gnu_c_has_werror
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_werror - Success
+-- Performing Test gnu_c_has_w
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_w - Success
+-- Performing Test gnu_cxx_has_w
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_w - Success
+-- Performing Test gnu_c_has_wall
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wall - Success
+-- Performing Test gnu_cxx_has_wall
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wall - Success
+-- Performing Test gnu_c_has_wextra
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wextra - Success
+-- Performing Test gnu_cxx_has_wextra
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wextra - Success
+-- Performing Test gnu_c_has_wcast_align
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wcast_align - Success
+-- Performing Test gnu_cxx_has_wcast_align
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wcast_align - Success
+-- Performing Test gnu_c_has_wduplicated_cond
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wduplicated_cond - Success
+-- Performing Test gnu_cxx_has_wduplicated_cond
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wduplicated_cond - Success
+-- Performing Test gnu_c_has_wexit_time_destructors
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wexit_time_destructors - Failed
+-- Performing Test gnu_cxx_has_wexit_time_destructors
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wexit_time_destructors - Failed
+-- Performing Test gnu_c_has_wextra_semi
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wextra_semi - Failed
+-- Performing Test gnu_cxx_has_wextra_semi
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wextra_semi - Success
+-- Performing Test gnu_c_has_wextra_semi_stmt
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wextra_semi_stmt - Failed
+-- Performing Test gnu_cxx_has_wextra_semi_stmt
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wextra_semi_stmt - Failed
+-- Performing Test gnu_c_has_wextra_tokens
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wextra_tokens - Failed
+-- Performing Test gnu_cxx_has_wextra_tokens
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wextra_tokens - Failed
+-- Performing Test gnu_c_has_wfloat_equal
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wfloat_equal - Success
+-- Performing Test gnu_cxx_has_wfloat_equal
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wfloat_equal - Success
+-- Performing Test gnu_c_has_wgnu
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wgnu - Failed
+-- Performing Test gnu_cxx_has_wgnu
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wgnu - Failed
+-- Performing Test gnu_c_has_winit_self
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_winit_self - Success
+-- Performing Test gnu_cxx_has_winit_self
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_winit_self - Success
+-- Performing Test gnu_c_has_wint_in_bool_context
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wint_in_bool_context - Success
+-- Performing Test gnu_cxx_has_wint_in_bool_context
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wint_in_bool_context - Success
+-- Performing Test gnu_c_has_wlogical_op
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wlogical_op - Success
+-- Performing Test gnu_cxx_has_wlogical_op
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wlogical_op - Success
+-- Performing Test gnu_c_has_wmissing_format_attribute
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wmissing_format_attribute - Success
+-- Performing Test gnu_cxx_has_wmissing_format_attribute
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wmissing_format_attribute - Success
+-- Performing Test gnu_c_has_wnull_dereference
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wnull_dereference - Success
+-- Performing Test gnu_cxx_has_wnull_dereference
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wnull_dereference - Success
+-- Performing Test gnu_c_has_wpointer_arith
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wpointer_arith - Success
+-- Performing Test gnu_cxx_has_wpointer_arith
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wpointer_arith - Success
+-- Performing Test gnu_c_has_wredundant_decls
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wredundant_decls - Success
+-- Performing Test gnu_cxx_has_wredundant_decls
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wredundant_decls - Success
+-- Performing Test gnu_c_has_wredundant_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wredundant_move - Failed
+-- Performing Test gnu_cxx_has_wredundant_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wredundant_move - Success
+-- Performing Test gnu_c_has_wreorder_ctor
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wreorder_ctor - Failed
+-- Performing Test gnu_cxx_has_wreorder_ctor
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wreorder_ctor - Failed
+-- Performing Test gnu_c_has_wrestrict
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wrestrict - Success
+-- Performing Test gnu_cxx_has_wrestrict
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wrestrict - Success
+-- Performing Test gnu_c_has_wreturn_std_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wreturn_std_move - Failed
+-- Performing Test gnu_cxx_has_wreturn_std_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wreturn_std_move - Failed
+-- Performing Test gnu_c_has_wself_assign
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wself_assign - Failed
+-- Performing Test gnu_cxx_has_wself_assign
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wself_assign - Failed
+-- Performing Test gnu_c_has_wself_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wself_move - Failed
+-- Performing Test gnu_cxx_has_wself_move
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wself_move - Success
+-- Performing Test gnu_c_has_wsemicolon_before_method_body
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsemicolon_before_method_body - Failed
+-- Performing Test gnu_cxx_has_wsemicolon_before_method_body
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsemicolon_before_method_body - Failed
+-- Performing Test gnu_c_has_wsentinel
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsentinel - Failed
+-- Performing Test gnu_cxx_has_wsentinel
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsentinel - Failed
+-- Performing Test gnu_c_has_wshadow
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wshadow - Success
+-- Performing Test gnu_cxx_has_wshadow
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wshadow - Success
+-- Performing Test gnu_c_has_wsign_compare
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsign_compare - Success
+-- Performing Test gnu_cxx_has_wsign_compare
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsign_compare - Success
+-- Performing Test gnu_c_has_wsometimes_uninitialized
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsometimes_uninitialized - Failed
+-- Performing Test gnu_cxx_has_wsometimes_uninitialized
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsometimes_uninitialized - Failed
+-- Performing Test gnu_c_has_wstring_conversion
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wstring_conversion - Failed
+-- Performing Test gnu_cxx_has_wstring_conversion
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wstring_conversion - Failed
+-- Performing Test gnu_c_has_wsuggest_destructor_override
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsuggest_destructor_override - Failed
+-- Performing Test gnu_cxx_has_wsuggest_destructor_override
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsuggest_destructor_override - Failed
+-- Performing Test gnu_c_has_wsuggest_override
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wsuggest_override - Failed
+-- Performing Test gnu_cxx_has_wsuggest_override
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wsuggest_override - Success
+-- Performing Test gnu_c_has_wuninitialized
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wuninitialized - Success
+-- Performing Test gnu_cxx_has_wuninitialized
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wuninitialized - Success
+-- Performing Test gnu_c_has_wunreachable_code
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wunreachable_code - Success
+-- Performing Test gnu_cxx_has_wunreachable_code
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wunreachable_code - Success
+-- Performing Test gnu_c_has_wunused
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wunused - Success
+-- Performing Test gnu_cxx_has_wunused
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wunused - Success
+-- Performing Test gnu_c_has_wunused_const_variable
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wunused_const_variable - Success
+-- Performing Test gnu_cxx_has_wunused_const_variable
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wunused_const_variable - Success
+-- Performing Test gnu_c_has_wunused_parameter
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wunused_parameter - Success
+-- Performing Test gnu_cxx_has_wunused_parameter
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wunused_parameter - Success
+-- Performing Test gnu_c_has_wunused_result
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wunused_result - Success
+-- Performing Test gnu_cxx_has_wunused_result
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wunused_result - Success
+-- Performing Test gnu_c_has_wwrite_strings
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wwrite_strings - Success
+-- Performing Test gnu_cxx_has_wwrite_strings
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wwrite_strings - Success
+-- Performing Test gnu_c_has_wformat_security
+Problem opening /proc/meminfo
+-- Performing Test gnu_c_has_wformat_security - Success
+-- Performing Test gnu_cxx_has_wformat_security
+Problem opening /proc/meminfo
+-- Performing Test gnu_cxx_has_wformat_security - Success
+-- Performing Test NO_LFS_MACROS_REQUIRED
+Problem opening /proc/meminfo
+-- Performing Test NO_LFS_MACROS_REQUIRED - Success
+-- Looking for sqrt in m
+Problem opening /proc/meminfo
+-- Looking for sqrt in m - found
+-- Looking for quotacursor_skipidtype in quota
+Problem opening /proc/meminfo
+-- Looking for quotacursor_skipidtype in quota - not found
+-- Looking for socket in c
+Problem opening /proc/meminfo
+-- Looking for socket in c - found
+-- Looking for gethostbyname in c
+Problem opening /proc/meminfo
+-- Looking for gethostbyname in c - found
+-- Looking for libintl_gettext in intl
+Problem opening /proc/meminfo
+-- Looking for libintl_gettext in intl - not found
+-- Looking for SO_REUSEPORT
+Problem opening /proc/meminfo
+-- Looking for SO_REUSEPORT - found
+-- Looking for sys/statvfs.h
+Problem opening /proc/meminfo
+-- Looking for sys/statvfs.h - found
+-- Looking for xfs/xfs.h
+Problem opening /proc/meminfo
+-- Looking for xfs/xfs.h - not found
+-- Looking for xlocale.h
+Problem opening /proc/meminfo
+-- Looking for xlocale.h - not found
+-- Looking for libintl.h
+Problem opening /proc/meminfo
+-- Looking for libintl.h - found
+-- Looking for copyfile
+Problem opening /proc/meminfo
+-- Looking for copyfile - not found
+-- Looking for copy_file_range
+Problem opening /proc/meminfo
+-- Looking for copy_file_range - found
+-- Looking for fallocate64
+Problem opening /proc/meminfo
+-- Looking for fallocate64 - found
+-- Looking for flock
+Problem opening /proc/meminfo
+-- Looking for flock - found
+-- Looking for getmntent
+Problem opening /proc/meminfo
+-- Looking for getmntent - found
+-- Looking for htonll
+Problem opening /proc/meminfo
+-- Looking for htonll - not found
+-- Looking for mkdtemp
+Problem opening /proc/meminfo
+-- Looking for mkdtemp - found
+-- Looking for ntohll
+Problem opening /proc/meminfo
+-- Looking for ntohll - not found
+-- Looking for posix_fadvise
+Problem opening /proc/meminfo
+-- Looking for posix_fadvise - found
+-- Looking for posix_fallocate
+Problem opening /proc/meminfo
+-- Looking for posix_fallocate - found
+-- Looking for pread
+Problem opening /proc/meminfo
+-- Looking for pread - found
+-- Looking for pwrite
+Problem opening /proc/meminfo
+-- Looking for pwrite - found
+-- Looking for sendfile64
+Problem opening /proc/meminfo
+-- Looking for sendfile64 - found
+-- Looking for statvfs
+Problem opening /proc/meminfo
+-- Looking for statvfs - found
+-- Looking for gettext
+Problem opening /proc/meminfo
+-- Looking for gettext - found
+-- Looking for ngettext
+Problem opening /proc/meminfo
+-- Looking for ngettext - found
+-- Found Gettext: /usr/bin/msgmerge (found suitable version "0.21", minimum required is "0.19.7")
+-- Looking for sys/signalfd.h
+Problem opening /proc/meminfo
+-- Looking for sys/signalfd.h - found
+-- Looking for daemon
+Problem opening /proc/meminfo
+-- Looking for daemon - found
+-- Looking for syslog
+Problem opening /proc/meminfo
+-- Looking for syslog - found
+-- Configuring done (14.7s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_FLAGS
+    INCLUDE_INSTALL_DIR
+    LIB_DESTINATION
+    LIB_INSTALL_DIR
+    LIB_SUFFIX
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+
+
+-- Build files have been written to: /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux
++ cmake --build x86_64-alt-linux --verbose --parallel 16
+Change Dir: '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16
+gmake: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/transmission-4.0.6 -B/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/CMakeFiles /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux//CMakeFiles/progress.marks
+gmake: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+/usr/bin/gmake  -f CMakeFiles/dht.dir/build.make CMakeFiles/dht.dir/depend
+/usr/bin/gmake  -f third-party/jsonsl/CMakeFiles/jsonsl.dir/build.make third-party/jsonsl/CMakeFiles/jsonsl.dir/depend
+/usr/bin/gmake  -f third-party/wildmat/CMakeFiles/wildmat.dir/build.make third-party/wildmat/CMakeFiles/wildmat.dir/depend
+/usr/bin/gmake  -f third-party/libutp.bld/CMakeFiles/libutp.dir/build.make third-party/libutp.bld/CMakeFiles/libutp.dir/depend
+/usr/bin/gmake  -f tests/gtest/CMakeFiles/gtestall.dir/build.make tests/gtest/CMakeFiles/gtestall.dir/depend
+/usr/bin/gmake  -f po/CMakeFiles/transmission-gtk-po.dir/build.make po/CMakeFiles/transmission-gtk-po.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/third-party/jsonsl /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/jsonsl /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/jsonsl/CMakeFiles/jsonsl.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/CMakeFiles/dht.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/gmake  -f third-party/jsonsl/CMakeFiles/jsonsl.dir/build.make third-party/jsonsl/CMakeFiles/jsonsl.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/tests/gtest /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest/CMakeFiles/gtestall.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/dht.dir/build.make CMakeFiles/dht.dir/build
+/usr/bin/gmake  -f tests/gtest/CMakeFiles/gtestall.dir/build.make tests/gtest/CMakeFiles/gtestall.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/po /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/CMakeFiles/transmission-gtk-po.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/gmake  -f po/CMakeFiles/transmission-gtk-po.dir/build.make po/CMakeFiles/transmission-gtk-po.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/third-party/wildmat /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/wildmat /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/wildmat/CMakeFiles/wildmat.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/transmission-4.0.6 /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld/CMakeFiles/libutp.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+/usr/bin/gmake  -f third-party/wildmat/CMakeFiles/wildmat.dir/build.make third-party/wildmat/CMakeFiles/wildmat.dir/build
+/usr/bin/gmake  -f third-party/libutp.bld/CMakeFiles/libutp.dir/build.make third-party/libutp.bld/CMakeFiles/libutp.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Generating transmission-gtk-az.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-az.mo az.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Generating transmission-gtk-ar.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ar.mo ar.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Generating transmission-gtk-ast.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ast.mo ast.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Generating transmission-gtk-be.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-be.mo be.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Creating directories for 'dht'
+/usr/bin/cmake -Dcfgdir= -P /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/tmp/dht-mkdirs.cmake
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-stamp/dht-mkdir
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Generating transmission-gtk-bg.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-bg.mo bg.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Generating transmission-gtk-an.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-an.mo an.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Building C object third-party/wildmat/CMakeFiles/wildmat.dir/wildmat.c.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/wildmat && /usr/bin/cc  -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/wildmat -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu11 -MD -MT third-party/wildmat/CMakeFiles/wildmat.dir/wildmat.c.o -MF CMakeFiles/wildmat.dir/wildmat.c.o.d -o CMakeFiles/wildmat.dir/wildmat.c.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/wildmat/wildmat.c
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  4%] Generating transmission-gtk-br.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-br.mo br.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  6%] Generating transmission-gtk-bn.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-bn.mo bn.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  5%] No download step for 'dht'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-stamp/dht-download
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  6%] Generating transmission-gtk-bs.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-bs.mo bs.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_hash.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_hash.cpp.o -MF CMakeFiles/libutp.dir/utp_hash.cpp.o.d -o CMakeFiles/libutp.dir/utp_hash.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_hash.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  7%] Generating transmission-gtk-ca@valencia.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ca@valencia.mo ca@valencia.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  8%] Generating transmission-gtk-ca.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ca.mo ca.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  7%] Linking C static library libwildmat.a
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/wildmat && /usr/bin/cmake -P CMakeFiles/wildmat.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/wildmat && /usr/bin/cmake -E cmake_link_script CMakeFiles/wildmat.dir/link.txt --verbose=1
+/usr/bin/ar qc libwildmat.a CMakeFiles/wildmat.dir/wildmat.c.o
+/usr/bin/ranlib libwildmat.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  9%] No update step for 'dht'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-stamp/dht-update
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Generating transmission-gtk-ckb.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ckb.mo ckb.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Generating transmission-gtk-cy.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-cy.mo cy.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  8%] Generating transmission-gtk-ceb.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ceb.mo ceb.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Built target wildmat
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Generating transmission-gtk-cs.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-cs.mo cs.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  4%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_packedsockaddr.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_packedsockaddr.cpp.o -MF CMakeFiles/libutp.dir/utp_packedsockaddr.cpp.o.d -o CMakeFiles/libutp.dir/utp_packedsockaddr.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_packedsockaddr.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  4%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_utils.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_utils.cpp.o -MF CMakeFiles/libutp.dir/utp_utils.cpp.o.d -o CMakeFiles/libutp.dir/utp_utils.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_utils.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Generating transmission-gtk-da.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-da.mo da.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] Generating transmission-gtk-de.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-de.mo de.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 11%] Generating transmission-gtk-en_AU.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-en_AU.mo en_AU.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 10%] No patch step for 'dht'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-stamp/dht-patch
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 11%] Generating transmission-gtk-en_CA.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-en_CA.mo en_CA.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 11%] Generating transmission-gtk-el.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-el.mo el.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 11%] Generating transmission-gtk-en_GB.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-en_GB.mo en_GB.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 12%] Generating transmission-gtk-eo.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-eo.mo eo.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 12%] Generating transmission-gtk-et.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-et.mo et.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 12%] Generating transmission-gtk-es.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-es.mo es.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 13%] Generating transmission-gtk-eu.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-eu.mo eu.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 13%] Generating transmission-gtk-fi.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fi.mo fi.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 13%] Performing configure step for 'dht'
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-build && /usr/bin/cmake -Wno-dev --no-warn-unused-cli -DCMAKE_TOOLCHAIN_FILE:PATH= -DCMAKE_USER_MAKE_RULES_OVERRIDE= -DCMAKE_C_COMPILER=/usr/bin/cc "-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -Os -flto=auto" -DCMAKE_CXX_COMPILER=/usr/bin/c++ "-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -Os -flto=auto" -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DCMAKE_INSTALL_PREFIX:PATH=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/pfx -DCMAKE_INSTALL_LIBDIR:STRING=lib "-GUnix Makefiles" -S /usr/src/RPM/BUILD/transmission-4.0.6/third-party/dht -B /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/dht.bld/src/dht-build
+Not searching for unused variables given on the command line.
+Re-run cmake no build system arguments
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+-- Configuring incomplete, errors occurred!
+gmake[2]: *** [CMakeFiles/dht.dir/build.make:92: third-party/dht.bld/src/dht-stamp/dht-configure] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/dht.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 13%] Generating transmission-gtk-fa.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fa.mo fa.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 13%] Generating transmission-gtk-fil.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fil.mo fil.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Building C object third-party/jsonsl/CMakeFiles/jsonsl.dir/jsonsl.c.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/jsonsl && /usr/bin/cc  -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/jsonsl -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu11 -MD -MT third-party/jsonsl/CMakeFiles/jsonsl.dir/jsonsl.c.o -MF CMakeFiles/jsonsl.dir/jsonsl.c.o.d -o CMakeFiles/jsonsl.dir/jsonsl.c.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/jsonsl/jsonsl.c
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 14%] Generating transmission-gtk-fo.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fo.mo fo.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 14%] Generating transmission-gtk-fr_CA.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fr_CA.mo fr_CA.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 14%] Generating transmission-gtk-ga.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ga.mo ga.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 14%] Generating transmission-gtk-fr.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-fr.mo fr.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Generating transmission-gtk-gv.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-gv.mo gv.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Generating transmission-gtk-gl.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-gl.mo gl.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Generating transmission-gtk-he.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-he.mo he.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 16%] Generating transmission-gtk-hi.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-hi.mo hi.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Generating transmission-gtk-hr.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-hr.mo hr.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Generating transmission-gtk-hu.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-hu.mo hu.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 16%] Generating transmission-gtk-hy.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-hy.mo hy.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 17%] Generating transmission-gtk-id.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-id.mo id.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 17%] Generating transmission-gtk-is.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-is.mo is.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 17%] Generating transmission-gtk-ia.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ia.mo ia.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 17%] Generating transmission-gtk-jbo.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-jbo.mo jbo.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 18%] Generating transmission-gtk-ja.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ja.mo ja.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 17%] Generating transmission-gtk-it.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-it.mo it.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 18%] Generating transmission-gtk-ka.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ka.mo ka.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 15%] Linking C static library libjsonsl.a
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/jsonsl && /usr/bin/cmake -P CMakeFiles/jsonsl.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/jsonsl && /usr/bin/cmake -E cmake_link_script CMakeFiles/jsonsl.dir/link.txt --verbose=1
+/usr/bin/ar qc libjsonsl.a CMakeFiles/jsonsl.dir/jsonsl.c.o
+/usr/bin/ranlib libjsonsl.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 19%] Generating transmission-gtk-kk.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-kk.mo kk.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 19%] Generating transmission-gtk-ko.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ko.mo ko.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 19%] Generating transmission-gtk-ku.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ku.mo ku.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 19%] Generating transmission-gtk-ky.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ky.mo ky.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 21%] Built target jsonsl
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 20%] Generating transmission-gtk-li.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-li.mo li.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 20%] Generating transmission-gtk-lv.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-lv.mo lv.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 20%] Generating transmission-gtk-lt.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-lt.mo lt.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 21%] Generating transmission-gtk-ml.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ml.mo ml.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 21%] Generating transmission-gtk-mk.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-mk.mo mk.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-mt.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-mt.mo mt.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-nb.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-nb.mo nb.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-nl.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-nl.mo nl.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-ms.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ms.mo ms.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-mr.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-mr.mo mr.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 22%] Generating transmission-gtk-nn.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-nn.mo nn.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-oc.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-oc.mo oc.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-pt.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-pt.mo pt.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-pl.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-pl.mo pl.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-pt_BR.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-pt_BR.mo pt_BR.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-ro.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ro.mo ro.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 24%] Generating transmission-gtk-pt_PT.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-pt_PT.mo pt_PT.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 23%] Generating transmission-gtk-ru.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ru.mo ru.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 24%] Generating transmission-gtk-sl.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-sl.mo sl.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 24%] Generating transmission-gtk-sk.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-sk.mo sk.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 25%] Generating transmission-gtk-si.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-si.mo si.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 24%] Generating transmission-gtk-sq.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-sq.mo sq.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 26%] Generating transmission-gtk-sv.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-sv.mo sv.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 26%] Generating transmission-gtk-sr.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-sr.mo sr.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 26%] Generating transmission-gtk-ta.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ta.mo ta.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 27%] Generating transmission-gtk-th.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-th.mo th.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 26%] Generating transmission-gtk-te.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-te.mo te.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 27%] Generating transmission-gtk-ug.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ug.mo ug.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 27%] Generating transmission-gtk-tr.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-tr.mo tr.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 28%] Generating transmission-gtk-ur.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-ur.mo ur.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 27%] Generating transmission-gtk-uz.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-uz.mo uz.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 28%] Generating transmission-gtk-vi.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-vi.mo vi.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Generating transmission-gtk-zh_CN.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-zh_CN.mo zh_CN.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Generating transmission-gtk-zh_TW.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-zh_TW.mo zh_TW.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Generating transmission-gtk-zh_HK.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-zh_HK.mo zh_HK.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 28%] Generating transmission-gtk-uk.mo
+cd /usr/src/RPM/BUILD/transmission-4.0.6/po && /usr/bin/msgfmt --output-file=/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/po/transmission-gtk-uk.mo uk.po
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Built target transmission-gtk-po
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_callbacks.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_callbacks.cpp.o -MF CMakeFiles/libutp.dir/utp_callbacks.cpp.o.d -o CMakeFiles/libutp.dir/utp_callbacks.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_callbacks.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  2%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_api.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_api.cpp.o -MF CMakeFiles/libutp.dir/utp_api.cpp.o.d -o CMakeFiles/libutp.dir/utp_api.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_api.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  3%] Building CXX object third-party/libutp.bld/CMakeFiles/libutp.dir/utp_internal.cpp.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/c++ -DPOSIX -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include/libutp -I/usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -MD -MT third-party/libutp.bld/CMakeFiles/libutp.dir/utp_internal.cpp.o -MF CMakeFiles/libutp.dir/utp_internal.cpp.o.d -o CMakeFiles/libutp.dir/utp_internal.cpp.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/libutp/utp_internal.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Linking CXX static library libutp.a
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/cmake -P CMakeFiles/libutp.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/third-party/libutp.bld && /usr/bin/cmake -E cmake_link_script CMakeFiles/libutp.dir/link.txt --verbose=1
+/usr/bin/ar qc libutp.a CMakeFiles/libutp.dir/utp_api.cpp.o CMakeFiles/libutp.dir/utp_callbacks.cpp.o CMakeFiles/libutp.dir/utp_hash.cpp.o CMakeFiles/libutp.dir/utp_internal.cpp.o CMakeFiles/libutp.dir/utp_packedsockaddr.cpp.o CMakeFiles/libutp.dir/utp_utils.cpp.o
+/usr/bin/ranlib libutp.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Built target libutp
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Building CXX object tests/gtest/CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest_main.cc.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest && /usr/bin/c++  -isystem /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest -isystem /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -W -Wall -Wextra -Wcast-align -Wduplicated-cond -Wextra-semi -Wfloat-equal -Winit-self -Wint-in-bool-context -Wlogical-op -Wmissing-format-attribute -Wnull-dereference -Wpointer-arith -Wredundant-decls -Wredundant-move -Wrestrict -Wself-move -Wshadow -Wsign-compare -Wsuggest-override -Wuninitialized -Wunreachable-code -Wunused -Wunused-const-variable -Wunused-parameter -Wunused-result -Wwrite-strings -Wformat-security -MD -MT tests/gtest/CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest_main.cc.o -MF CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest_main.cc.o.d -o CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest_main.cc.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest/src/gtest_main.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[  1%] Building CXX object tests/gtest/CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest-all.cc.o
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest && /usr/bin/c++  -isystem /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest -isystem /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest/include -pipe -frecord-gcc-switches -Wall -g -Os -flto=auto -O2 -g -DNDEBUG -std=gnu++17 -W -Wall -Wextra -Wcast-align -Wduplicated-cond -Wextra-semi -Wfloat-equal -Winit-self -Wint-in-bool-context -Wlogical-op -Wmissing-format-attribute -Wnull-dereference -Wpointer-arith -Wredundant-decls -Wredundant-move -Wrestrict -Wself-move -Wshadow -Wsign-compare -Wsuggest-override -Wuninitialized -Wunreachable-code -Wunused -Wunused-const-variable -Wunused-parameter -Wunused-result -Wwrite-strings -Wformat-security -MD -MT tests/gtest/CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest-all.cc.o -MF CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest-all.cc.o.d -o CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest-all.cc.o -c /usr/src/RPM/BUILD/transmission-4.0.6/third-party/googletest/googletest/src/gtest-all.cc
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Linking CXX static library libgtestall.a
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest && /usr/bin/cmake -P CMakeFiles/gtestall.dir/cmake_clean_target.cmake
+cd /usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux/tests/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtestall.dir/link.txt --verbose=1
+/usr/bin/ar qc libgtestall.a "CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest-all.cc.o" "CMakeFiles/gtestall.dir/__/__/third-party/googletest/googletest/src/gtest_main.cc.o"
+/usr/bin/ranlib libgtestall.a
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake[1]: Entering directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+[ 29%] Built target gtestall
+gmake[1]: Leaving directory '/usr/src/RPM/BUILD/transmission-4.0.6/x86_64-alt-linux'
+gmake: *** [Makefile:166: all] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.30084 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.30084 (%build)
+Command exited with non-zero status 1
+14.31user 9.48system 0:19.53elapsed 121%CPU (0avgtext+0avgdata 349904maxresident)k
+0inputs+0outputs (0major+1446367minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `transmission-4.0.6-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+9.56user 5.79system 1:13.87elapsed 20%CPU (0avgtext+0avgdata 142140maxresident)k
+88inputs+0outputs (0major+414337minor)pagefaults 0swaps

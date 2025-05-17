@@ -1,0 +1,502 @@
+<86>May 16 01:42:38 userdel[453640]: delete user 'rooter'
+<86>May 16 01:42:38 userdel[453640]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:42:38 userdel[453640]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:42:38 groupadd[453671]: group added to /etc/group: name=rooter, GID=1853
+<86>May 16 01:42:38 groupadd[453671]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:42:38 groupadd[453671]: new group: name=rooter, GID=1853
+<86>May 16 01:42:38 useradd[453698]: new user: name=rooter, UID=1853, GID=1853, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:42:38 userdel[453729]: delete user 'builder'
+<86>May 16 01:42:38 userdel[453729]: removed group 'builder' owned by 'builder'
+<86>May 16 01:42:38 userdel[453729]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:42:38 groupadd[453757]: group added to /etc/group: name=builder, GID=1854
+<86>May 16 01:42:38 groupadd[453757]: group added to /etc/gshadow: name=builder
+<86>May 16 01:42:38 groupadd[453757]: new group: name=builder, GID=1854
+<86>May 16 01:42:38 useradd[453779]: new user: name=builder, UID=1854, GID=1854, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:42:41 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 01:42:41 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:42:42 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:42:42 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/libspf2-1.2.11-alt1.git.4915c30.nosrc.rpm (w1.gzdio)
+Installing libspf2-1.2.11-alt1.git.4915c30.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.5492
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf libspf2-1.2.11
++ echo 'Source #0 (libspf2-1.2.11.tar):'
+Source #0 (libspf2-1.2.11.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/libspf2-1.2.11.tar
++ cd libspf2-1.2.11
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (libspf2-alt-disable-static-binaries.patch):'
+Patch #1 (libspf2-alt-disable-static-binaries.patch):
++ /usr/bin/patch -p1
+patching file src/spf_example/Makefile.am
+patching file src/spfd/Makefile.am
+patching file src/spfquery/Makefile.am
+patching file src/spftest/Makefile.am
++ echo 'Patch #2 (libspf2-alt-glibc-compat.patch):'
+Patch #2 (libspf2-alt-glibc-compat.patch):
++ /usr/bin/patch -p1
+patching file configure.ac
+patching file src/libreplace/Makefile.am
+patching file src/libreplace/arpa_nameser.h
++ echo 'Patch #3 (libspf2-alt-print-format.patch):'
+Patch #3 (libspf2-alt-print-format.patch):
++ /usr/bin/patch -p1
+patching file src/libspf2/spf_compile.c
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.5492
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libspf2-1.2.11
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize-default: linking file 'config/config.guess'
+libtoolize-default: linking file 'config/config.sub'
+libtoolize-default: linking file 'config/install-sh'
+libtoolize-default: linking file 'config/ltmain.sh'
+libtoolize-default: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize-default: linking file 'm4/libtool.m4'
+libtoolize-default: linking file 'm4/ltoptions.m4'
+libtoolize-default: linking file 'm4/ltsugar.m4'
+libtoolize-default: linking file 'm4/ltversion.m4'
+libtoolize-default: linking file 'm4/lt~obsolete.m4'
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:9: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.ac:9: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:745: AM_CONFIG_HEADER is expanded from...
+configure.ac:9: the top level
+configure.ac:42: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:42: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:42: the top level
+configure.ac:55: warning: The macro `ac_cv_prog_gcc' is obsolete.
+configure.ac:55: You should run autoupdate.
+./lib/autoconf/c.m4:467: ac_cv_prog_gcc is expanded from...
+configure.ac:55: the top level
+configure.ac:71: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:71: You should run autoupdate.
+m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:71: the top level
+configure.ac:87: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:87: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:87: the top level
+configure.ac:89: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.ac:89: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.ac:89: the top level
+configure.ac:116: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:116: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:1553: AC_ARG_WITH is expanded from...
+configure.ac:116: the top level
+configure.ac:193: warning: The macro `AC_TYPE_SIGNAL' is obsolete.
+configure.ac:193: You should run autoupdate.
+./lib/autoconf/types.m4:776: AC_TYPE_SIGNAL is expanded from...
+configure.ac:193: the top level
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:54: installing 'config/compile'
+configure.ac:7: installing 'config/missing'
+src/libreplace/Makefile.am: installing 'config/depcomp'
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --disable-static
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+./configure: line 3587: AX_WITH_PERL: command not found
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-alt-linux-gcc... none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-file... no
+checking for file... file
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/time.h... yes
+checking for vfork.h... no
+checking for sys/select.h... yes
+checking for sys/socket.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether ln -s works... yes
+checking if ld accepts --rpath... yes
+checking for egrep... (cached) /usr/bin/grep -E
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking size of int... 4
+checking for limits.h... yes
+checking for sys/param.h... yes
+checking for syslog.h... yes
+checking for sys/time.h... (cached) yes
+checking for errno.h... yes
+checking for sys/types.h... (cached) yes
+checking for fcntl.h... yes
+checking for malloc.h... yes
+checking for nmemory.h... no
+checking for stddef.h... yes
+checking for inttypes.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdarg.h... yes
+checking for pthread.h... yes
+checking for pwd.h... yes
+checking for grp.h... yes
+checking for libintl.h... yes
+checking for getopt.h... yes
+checking for netdb.h... yes
+checking for netinet/in.h... yes
+checking for sys/socket.h... (cached) yes
+checking for arpa/inet.h... yes
+checking for arpa/nameser.h... yes
+checking for resolv.h... yes
+checking for pthread.h... (cached) yes
+checking for res_query in -lresolv (with resolv.h if present)... yes
+checking for inet_pton in -lnsl... no
+checking for socket in -lsocket... no
+checking for gettext in -lintl... no
+checking for pthread_create in -lpthread... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking for working volatile... yes
+checking whether byte ordering is bigendian... no
+checking for inline... (cached) inline
+checking whether char is unsigned... no
+checking for u_char... yes
+checking for u_int8_t... yes
+checking for u_int16_t... yes
+checking for u_int32_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for ns_type... yes
+checking for struct in6_addr... yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working memcmp... yes
+checking for GNU libc compatible realloc... yes
+checking whether setpgrp requires zero arguments... yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking return type of signal handlers... void
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking whether res_ninit is declared... yes
+checking whether res_ndestroy is declared... no
+checking whether ns_t_spf is declared... yes
+checking whether ns_t_invalid is declared... yes
+checking for ftruncate... yes
+checking for gethostname... yes
+checking for memmove... yes
+checking for memset... yes
+checking for socket... yes
+checking for strchr... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strspn... yes
+checking for strtoul... yes
+checking for gethostbyname... yes
+checking for inet_ntoa... yes
+checking for select... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for getopt_long_only... yes
+checking for strncasecmp... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Doxyfile
+config.status: creating src/Makefile
+config.status: creating src/include/Makefile
+config.status: creating src/libreplace/Makefile
+config.status: creating src/libspf2/Makefile
+config.status: creating src/spfquery/Makefile
+config.status: creating src/spftest/Makefile
+config.status: creating src/spfd/Makefile
+config.status: creating src/spf_example/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext
++ subst 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' libtool
++ subst 's|^runpath_var=LD_RUN_PATH|runpath_var=DIE_RPATH_DIE|g' libtool
++ make -j16
+make  all-recursive
+Making all in src
+Making all in include
+make[4]: Nothing to be done for 'all-am'.
+Making all in libreplace
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libreplace'
+/bin/sh ../../libtool  --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall   -o libreplace.la    -lpthread -lresolv 
+libtool: link: ar cr .libs/libreplace.a 
+libtool: link: ranlib .libs/libreplace.a
+libtool: link: ( cd ".libs" && rm -f "libreplace.la" && ln -s "../libreplace.la" "libreplace.la" )
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libreplace'
+Making all in libspf2
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_windns.lo spf_dns_windns.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_windns.c  -fPIC -DPIC -o .libs/spf_dns_windns.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_log_default.lo spf_log_default.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_log_default.c  -fPIC -DPIC -o .libs/spf_log_default.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_test.lo spf_dns_test.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_test.c  -fPIC -DPIC -o .libs/spf_dns_test.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_get_exp.lo spf_get_exp.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_get_exp.c  -fPIC -DPIC -o .libs/spf_get_exp.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_get_spf.lo spf_get_spf.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_get_spf.c  -fPIC -DPIC -o .libs/spf_get_spf.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_expand.lo spf_expand.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_expand.c  -fPIC -DPIC -o .libs/spf_expand.o
+spf_expand.c: In function 'SPF_record_expand_data':
+spf_expand.c:90:26: warning: variable 'p_err' set but not used [-Wunused-but-set-variable]
+   90 |         const char      *p_err; // XXX Check this value, when returned.
+      |                          ^~~~~
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns.lo spf_dns.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns.c  -fPIC -DPIC -o .libs/spf_dns.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_cache.lo spf_dns_cache.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_cache.c  -fPIC -DPIC -o .libs/spf_dns_cache.o
+spf_dns_cache.c: In function 'SPF_dns_cache_rr_fixup':
+spf_dns_cache.c:345:25: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+  344 |     if ( cached_rr->ttl < spfhook->txt_ttl
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  345 |                         && cached_rr->rr_type == ns_t_txt || cached_rr->rr_type == ns_t_spf )
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_resolv.lo spf_dns_resolv.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_resolv.c  -fPIC -DPIC -o .libs/spf_dns_resolv.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_log.lo spf_log.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_log.c  -fPIC -DPIC -o .libs/spf_log.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_null.lo spf_dns_null.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_null.c  -fPIC -DPIC -o .libs/spf_dns_null.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_zone.lo spf_dns_zone.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_zone.c  -fPIC -DPIC -o .libs/spf_dns_zone.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_id2str.lo spf_id2str.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_id2str.c  -fPIC -DPIC -o .libs/spf_id2str.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_dns_rr.lo spf_dns_rr.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_dns_rr.c  -fPIC -DPIC -o .libs/spf_dns_rr.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_interpret.lo spf_interpret.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_interpret.c  -fPIC -DPIC -o .libs/spf_interpret.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_compile.lo spf_compile.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_compile.c  -fPIC -DPIC -o .libs/spf_compile.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_log_stdio.lo spf_log_stdio.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_log_stdio.c  -fPIC -DPIC -o .libs/spf_log_stdio.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_win32.lo spf_win32.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_win32.c  -fPIC -DPIC -o .libs/spf_win32.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_print.lo spf_print.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_print.c  -fPIC -DPIC -o .libs/spf_print.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_log_syslog.lo spf_log_syslog.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_log_syslog.c  -fPIC -DPIC -o .libs/spf_log_syslog.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_strerror.lo spf_strerror.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_strerror.c  -fPIC -DPIC -o .libs/spf_strerror.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_utils.lo spf_utils.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_utils.c  -fPIC -DPIC -o .libs/spf_utils.o
+spf_utils.c: In function 'SPF_recalloc':
+spf_utils.c:207:9: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  207 |         memset(*bufp, '\0', *buflenp);
+      |         ^~~~~~
+spf_utils.c:32:1: note: include '<string.h>' or provide a declaration of 'memset'
+   31 | #include "spf_internal.h"
+  +++ |+#include <string.h>
+   32 | 
+spf_utils.c:207:9: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  207 |         memset(*bufp, '\0', *buflenp);
+      |         ^~~~~~
+spf_utils.c:207:9: note: include '<string.h>' or provide a declaration of 'memset'
+make[4]: *** [Makefile:558: spf_utils.lo] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: *** Waiting for unfinished jobs....
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_record.lo spf_record.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_record.c  -fPIC -DPIC -o .libs/spf_record.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_request.lo spf_request.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_request.c  -fPIC -DPIC -o .libs/spf_request.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_response.lo spf_response.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_response.c  -fPIC -DPIC -o .libs/spf_response.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+/bin/sh ../../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c -o spf_server.lo spf_server.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -D_FILE_OFFSET_BITS=64 -Wall -c spf_server.c  -fPIC -DPIC -o .libs/spf_server.o
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libspf2-1.2.11/src/libspf2'
+make[3]: *** [Makefile:573: all-recursive] Error 1
+make[2]: *** [Makefile:357: all-recursive] Error 1
+make[1]: *** [Makefile:413: all-recursive] Error 1
+make: *** [Makefile:343: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5492 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.5492 (%build)
+Command exited with non-zero status 1
+7.01user 4.99system 0:09.79elapsed 122%CPU (0avgtext+0avgdata 26940maxresident)k
+0inputs+0outputs (0major+1229243minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libspf2-1.2.11-alt1.git.4915c30.src.rpm' failed.
+Command exited with non-zero status 1
+3.51user 2.41system 0:18.63elapsed 31%CPU (0avgtext+0avgdata 141152maxresident)k
+0inputs+0outputs (0major+203352minor)pagefaults 0swaps

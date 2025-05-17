@@ -1,0 +1,117 @@
+<86>May 10 07:11:54 userdel[2483350]: delete user 'rooter'
+<86>May 10 07:11:54 userdel[2483350]: removed group 'rooter' owned by 'rooter'
+<86>May 10 07:11:54 userdel[2483350]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 07:11:54 groupadd[2483411]: group added to /etc/group: name=rooter, GID=1811
+<86>May 10 07:11:54 groupadd[2483411]: group added to /etc/gshadow: name=rooter
+<86>May 10 07:11:54 groupadd[2483411]: new group: name=rooter, GID=1811
+<86>May 10 07:11:54 useradd[2483443]: new user: name=rooter, UID=1811, GID=1811, home=/root, shell=/bin/bash, from=none
+<86>May 10 07:11:54 userdel[2483513]: delete user 'builder'
+<86>May 10 07:11:54 groupadd[2483588]: group added to /etc/group: name=builder, GID=1812
+<86>May 10 07:11:54 groupadd[2483588]: group added to /etc/gshadow: name=builder
+<86>May 10 07:11:54 groupadd[2483588]: new group: name=builder, GID=1812
+<86>May 10 07:11:54 useradd[2483632]: new user: name=builder, UID=1812, GID=1812, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/sfnt2woff-zopfli-1.3.1-alt1.src.rpm: bad symbols in the license tag: //
+<13>May 10 07:12:00 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/sfnt2woff-zopfli-1.3.1-alt1.nosrc.rpm (w1.gzdio)
+Installing sfnt2woff-zopfli-1.3.1-alt1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.80045
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf sfnt2woff-zopfli-1.3.1
++ echo 'Source #0 (sfnt2woff-zopfli-1.3.1.tar):'
+Source #0 (sfnt2woff-zopfli-1.3.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/sfnt2woff-zopfli-1.3.1.tar
++ cd sfnt2woff-zopfli-1.3.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80045
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd sfnt2woff-zopfli-1.3.1
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+cc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Izopfli  \
+	woff.c woff2sfnt.c -o woff2sfnt-zopfli \
+	 zopfli/blocksplitter.c zopfli/cache.c zopfli/deflate.c zopfli/gzip_container.c zopfli/hash.c zopfli/katajainen.c zopfli/lz77.c zopfli/squeeze.c zopfli/tree.c zopfli/util.c zopfli/zlib_container.c zopfli/zopfli_lib.c -lz -lm
+woff.c: In function 'woffEncode':
+woff.c:291:113: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) (sfntData + sourceOffset), sourceLen, &dest, &destLen);
+      |                                                                                                                 ^~~~~~~~
+      |                                                                                                                 |
+      |                                                                                                                 uLong * {aka long unsigned int *}
+In file included from woff.c:45:
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+  138 |   uint32_t tableBase;
+      |            ^~~~~~~~~
+woff.c: In function 'rebuildWoff':
+woff.c:412:13: warning: unused variable 'tableData' [-Wunused-variable]
+  412 |   uint8_t * tableData = NULL;
+      |             ^~~~~~~~~
+woff.c: In function 'woffSetMetadata':
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  |
+      |                                                                                                  uLong * {aka long unsigned int *}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+make: *** [Makefile:33: woff2sfnt-zopfli] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+cc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Izopfli  \
+	woff.c sfnt2woff.c -o sfnt2woff-zopfli \
+	 zopfli/blocksplitter.c zopfli/cache.c zopfli/deflate.c zopfli/gzip_container.c zopfli/hash.c zopfli/katajainen.c zopfli/lz77.c zopfli/squeeze.c zopfli/tree.c zopfli/util.c zopfli/zlib_container.c zopfli/zopfli_lib.c -lz -lm
+woff.c: In function 'woffEncode':
+woff.c:291:113: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  291 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) (sfntData + sourceOffset), sourceLen, &dest, &destLen);
+      |                                                                                                                 ^~~~~~~~
+      |                                                                                                                 |
+      |                                                                                                                 uLong * {aka long unsigned int *}
+In file included from woff.c:45:
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+woff.c:138:12: warning: unused variable 'tableBase' [-Wunused-variable]
+  138 |   uint32_t tableBase;
+      |            ^~~~~~~~~
+woff.c: In function 'rebuildWoff':
+woff.c:412:13: warning: unused variable 'tableData' [-Wunused-variable]
+  412 |   uint8_t * tableData = NULL;
+      |             ^~~~~~~~~
+woff.c: In function 'woffSetMetadata':
+woff.c:551:98: error: passing argument 6 of 'ZopfliCompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  551 |     ZopfliCompress(&options, ZOPFLI_FORMAT_ZLIB, (const uint8_t *) metaData, metaLen, &compData, &compLen);
+      |                                                                                                  ^~~~~~~~
+      |                                                                                                  |
+      |                                                                                                  uLong * {aka long unsigned int *}
+zopfli/zopfli.h:91:50: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uLong *' {aka 'long unsigned int *'}
+   91 |                     unsigned char** out, size_t* outsize);
+      |                                          ~~~~~~~~^~~~~~~
+make: *** [Makefile:28: sfnt2woff-zopfli] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/sfnt2woff-zopfli-1.3.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80045 (%build)
+Command exited with non-zero status 1
+1.31user 0.45system 0:01.86elapsed 95%CPU (0avgtext+0avgdata 21764maxresident)k
+0inputs+0outputs (0major+73216minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `sfnt2woff-zopfli-1.3.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+5.73user 4.92system 0:20.07elapsed 53%CPU (0avgtext+0avgdata 134140maxresident)k
+264inputs+0outputs (0major+181703minor)pagefaults 0swaps

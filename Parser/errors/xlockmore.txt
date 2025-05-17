@@ -1,0 +1,182 @@
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread util.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread automata.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread msgmerge.c
+msgmerge.c: In function 'msgmerge':
+msgmerge.c:25:9: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   25 |   tmp = malloc(buflen);
+   25 |   tmp = malloc(buflen);
+      |         ^~~~~~
+      |         ^~~~~~
+msgmerge.c:4:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+msgmerge.c:4:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    3 | #include "msgmerge.h"
+    3 | #include "msgmerge.h"
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+    4 | 
+    4 | 
+msgmerge.c:25:9: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+msgmerge.c:25:9: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+msgmerge.c:25:9: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   25 |   tmp = malloc(buflen);
+   25 |   tmp = malloc(buflen);
+   25 |   tmp = malloc(buflen);
+      |         ^~~~~~
+      |         ^~~~~~
+      |         ^~~~~~
+msgmerge.c:25:9: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+msgmerge.c:25:9: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+msgmerge.c:25:9: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+msgmerge.c:71:3: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+msgmerge.c:71:3: error: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+   71 |   free(tmp);
+   71 |   free(tmp);
+      |   ^~~~
+      |   ^~~~
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+msgmerge.c:71:3: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+msgmerge.c:71:3: warning: incompatible implicit declaration of built-in function 'free' [-Wbuiltin-declaration-mismatch]
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+msgmerge.c:71:3: note: include '<stdlib.h>' or provide a declaration of 'free'
+make[1]: *** [Makefile:132: msgmerge.o] Error 1
+make[1]: *** [Makefile:132: msgmerge.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread aligned_malloc.c
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread aligned_malloc.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread logout.c
+logout.c: In function 'logoutUser':
+logout.c:403:32: warning: ignoring return value of 'system' declared with attribute 'warn_unused_result' [-Wunused-result]
+  403 |                         (void) system(logoutCmd);
+xlock.c:2444:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2444 |         (void) nice(0);
+      |                ^~~~~~~
+xlock.c:2909:16: warning: ignoring return value of 'nice' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 2909 |         (void) nice(nicelevel);
+      |                ^~~~~~~~~~~~~~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread vtlock_proc.c
+vtlock_proc.c: In function 'find_x_proc':
+vtlock_proc.c: In function 'find_x_proc':
+vtlock_proc.c:191:64: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+vtlock_proc.c:191:64: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+  191 |     if ((names = scan_dir(PROCDIR, &namelist, proc_dir_select, alphasort)) == -1 )
+  191 |     if ((names = scan_dir(PROCDIR, &namelist, proc_dir_select, alphasort)) == -1 )
+      |                                                                ^~~~~~~~~
+      |                                                                ^~~~~~~~~
+      |                                                                |
+      |                                                                |
+      |                                                                int (*)(const struct dirent **, const struct dirent **)
+      |                                                                int (*)(const struct dirent **, const struct dirent **)
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+   82 |                      int         (*compare) (const void *, const void *));
+   82 |                      int         (*compare) (const void *, const void *));
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vtlock_proc.c: In function 'scan_x_fds':
+vtlock_proc.c: In function 'scan_x_fds':
+vtlock_proc.c: In function 'scan_x_fds':
+vtlock_proc.c:304:43: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+vtlock_proc.c:304:43: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+vtlock_proc.c:304:43: error: passing argument 4 of 'scan_dir' from incompatible pointer type [-Wincompatible-pointer-types]
+  304 |     if (scan_dir(xfddir, &namelist, NULL, alphasort) == -1) {
+  304 |     if (scan_dir(xfddir, &namelist, NULL, alphasort) == -1) {
+  304 |     if (scan_dir(xfddir, &namelist, NULL, alphasort) == -1) {
+      |                                           ^~~~~~~~~
+      |                                           ^~~~~~~~~
+      |                                           |
+      |                                           |
+      |                                           |
+      |                                           int (*)(const struct dirent **, const struct dirent **)
+      |                                           int (*)(const struct dirent **, const struct dirent **)
+      |                                           int (*)(const struct dirent **, const struct dirent **)
+      |                                           int (*)(const struct dirent **, const struct dirent **)
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+vtlock_proc.c:82:36: note: expected 'int (*)(const void *, const void *)' but argument is of type 'int (*)(const struct dirent **, const struct dirent **)'
+   82 |                      int         (*compare) (const void *, const void *));
+   82 |                      int         (*compare) (const void *, const void *));
+   82 |                      int         (*compare) (const void *, const void *));
+   82 |                      int         (*compare) (const void *, const void *));
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                      ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:132: vtlock_proc.o] Error 1
+make[1]: *** [Makefile:132: vtlock_proc.o] Error 1
+make[1]: *** [Makefile:132: vtlock_proc.o] Error 1
+make[1]: *** [Makefile:132: vtlock_proc.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Entering directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread erase.c
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread erase.c
+x86_64-alt-linux-gcc -Wnested-externs -Wno-format -c  -DHAVE_CONFIG_H -DDEF_FILESEARCHPATH=\"/etc/X11/app-defaults/%N%C%S:/etc/X11/app-defaults/%N%S\"   -I. -I.. -I..  -I/usr/include -I/usr/include -I/usr/include -I/usr/include/freetype2 -I/usr/include -I/usr/include -I/usr/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -pthread erase.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/xlockmore-5.69/xlock'
+make: *** [Makefile:12: all] Error 2
+make: *** [Makefile:12: all] Error 2
+make: *** [Makefile:12: all] Error 2
+make: *** [Makefile:12: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+    line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+    line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+    line 24: Deprecated PreReq converted to Requires(pre,postun): PreReq: /etc/tcb
+    Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.36946 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.47user 2.89system 0:04.31elapsed 170%CPU (0avgtext+0avgdata 39972maxresident)k
+4.47user 2.89system 0:04.31elapsed 170%CPU (0avgtext+0avgdata 39972maxresident)k
+4.47user 2.89system 0:04.31elapsed 170%CPU (0avgtext+0avgdata 39972maxresident)k
+0inputs+0outputs (0major+494292minor)pagefaults 0swaps
+0inputs+0outputs (0major+494292minor)pagefaults 0swaps
+0inputs+0outputs (0major+494292minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `xlockmore-5.69-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `xlockmore-5.69-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `xlockmore-5.69-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.18user 2.95system 0:22.25elapsed 32%CPU (0avgtext+0avgdata 143140maxresident)k
+6640inputs+0outputs (0major+234460minor)pagefaults 0swaps

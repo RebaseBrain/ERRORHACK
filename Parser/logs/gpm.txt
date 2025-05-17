@@ -1,0 +1,410 @@
+<86>May 16 02:49:18 userdel[3288291]: delete user 'rooter'
+<86>May 16 02:49:18 userdel[3288291]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:49:18 userdel[3288291]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:49:18 groupadd[3288346]: group added to /etc/group: name=rooter, GID=1871
+<86>May 16 02:49:18 groupadd[3288346]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:49:18 groupadd[3288346]: new group: name=rooter, GID=1871
+<86>May 16 02:49:18 useradd[3288393]: new user: name=rooter, UID=1871, GID=1871, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:49:18 userdel[3288440]: delete user 'builder'
+<86>May 16 02:49:18 userdel[3288440]: removed group 'builder' owned by 'builder'
+<86>May 16 02:49:18 userdel[3288440]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:49:18 groupadd[3288493]: group added to /etc/group: name=builder, GID=1872
+<86>May 16 02:49:18 groupadd[3288493]: group added to /etc/gshadow: name=builder
+<86>May 16 02:49:18 groupadd[3288493]: new group: name=builder, GID=1872
+<86>May 16 02:49:18 useradd[3288606]: new user: name=builder, UID=1872, GID=1872, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 02:49:22 rpmi: perl-Unicode-Normalize-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 02:49:22 rpmi: perl-unicore-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 02:49:22 rpmi: rpm-macros-info-install-7.1-alt1 sisyphus+338907.200.3.1 1706718831 installed
+<13>May 16 02:49:22 rpmi: perl-Unicode-EastAsianWidth-12.0-alt1 sisyphus+237401.100.1.1 1568197363 installed
+<13>May 16 02:49:22 rpmi: perl-Text-Unidecode-1.30-alt1 1480505027 installed
+<13>May 16 02:49:22 rpmi: perl-Pod-Escapes-1.07-alt1 1418767892 installed
+<13>May 16 02:49:22 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 02:49:22 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 02:49:22 rpmi: perl-libintl-1.35-alt1 sisyphus+380233.100.1.2 1743734796 installed
+<13>May 16 02:49:22 rpmi: perl-Pod-Simple-3.45-alt1 sisyphus+321554.100.1.1 1684663135 installed
+<13>May 16 02:49:23 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:49:23 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:49:23 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 02:49:23 rpmi: makeinfo-7.1-alt1 sisyphus+338907.200.3.1 1706718831 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/gpm-1.20.1-alt19.nosrc.rpm (w1.gzdio)
+Installing gpm-1.20.1-alt19.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.40314
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf gpm-1.20.1
++ echo 'Source #0 (gpm-1.20.1.tar):'
+Source #0 (gpm-1.20.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/gpm-1.20.1.tar
++ cd gpm-1.20.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (gpm-1.20.1-alt-texinfo.patch):'
+Patch #1 (gpm-1.20.1-alt-texinfo.patch):
++ /usr/bin/patch -p1
+patching file doc/doc.gpm.in
++ echo 'Patch #2 (gpm-1.20.1-owl-gpm-root.patch):'
+Patch #2 (gpm-1.20.1-owl-gpm-root.patch):
++ /usr/bin/patch -p1
+patching file conf/gpm-root.conf
+patching file doc/doc.gpm.in
+patching file src/closeall.c
+patching file src/lib/closeall.c
+patching file src/Makefile.in
+patching file src/prog/gpm-root.y
+patching file src/special.c
++ echo 'Patch #3 (gpm-1.20.1-owl-liblow.patch):'
+Patch #3 (gpm-1.20.1-owl-liblow.patch):
++ /usr/bin/patch -p1
+patching file src/lib/liblow.c
++ echo 'Patch #4 (gpm-1.20.1-owl-warnings.patch):'
+Patch #4 (gpm-1.20.1-owl-warnings.patch):
++ /usr/bin/patch -p1
+patching file src/gpm.c
+patching file src/lib/libcurses.c
+patching file src/lib/liblow.c
++ echo 'Patch #5 (gpm-1.20.1-alt-daemonize.patch):'
+Patch #5 (gpm-1.20.1-alt-daemonize.patch):
++ /usr/bin/patch -p1
+patching file src/prog/gpm-root.y
+patching file src/startup.c
++ echo 'Patch #6 (gpm-1.20.1-alt-get_console.patch):'
+Patch #6 (gpm-1.20.1-alt-get_console.patch):
++ /usr/bin/patch -p1
+patching file src/tools.c
++ echo 'Patch #7 (gpm-1.20.1-alt-syslog.patch):'
+Patch #7 (gpm-1.20.1-alt-syslog.patch):
++ /usr/bin/patch -p1
+patching file src/report.c
++ echo 'Patch #8 (gpm-1.20.1-alt-nodebug.patch):'
+Patch #8 (gpm-1.20.1-alt-nodebug.patch):
++ /usr/bin/patch -p1
+patching file src/lib/report-lib.c
++ echo 'Patch #9 (gpm-1.20.1-alt-log.patch):'
+Patch #9 (gpm-1.20.1-alt-log.patch):
++ /usr/bin/patch -p1
+patching file src/gpm.c
+Hunk #1 succeeded at 679 (offset -23 lines).
+Hunk #2 succeeded at 820 (offset -23 lines).
+patching file src/headers/message.h
++ echo 'Patch #10 (gpm-1.20.1-alt-progname.patch):'
+Patch #10 (gpm-1.20.1-alt-progname.patch):
++ /usr/bin/patch -p1
+patching file src/prog/gpm-root.y
+patching file src/prog/mev.c
+patching file src/prog/mouse-test.c
+patching file src/startup.c
++ echo 'Patch #11 (gpm-1.20.1-alt-pam_console_apply.patch):'
+Patch #11 (gpm-1.20.1-alt-pam_console_apply.patch):
++ /usr/bin/patch -p1
+patching file src/gpm.c
++ echo 'Patch #12 (gpm-1.20.1-alt-rh-shlib.patch):'
+Patch #12 (gpm-1.20.1-alt-rh-shlib.patch):
++ /usr/bin/patch -p1
+patching file configure.in
+patching file src/lib/libcurses.c
+Hunk #1 succeeded at 41 (offset 1 line).
+patching file src/Makefile.in
++ echo 'Patch #13 (gpm-1.20.1-deb-alt-xterm_mouse_support.patch):'
+Patch #13 (gpm-1.20.1-deb-alt-xterm_mouse_support.patch):
++ /usr/bin/patch -p1
+patching file configure.in
+patching file src/lib/liblow.c
++ echo 'Patch #14 (gpm-1.20.1-mdk-alt-consolename.patch):'
+Patch #14 (gpm-1.20.1-mdk-alt-consolename.patch):
++ /usr/bin/patch -p1
+patching file src/lib/liblow.c
+Hunk #2 succeeded at 272 (offset 5 lines).
++ echo 'Patch #15 (gpm-1.20.1-alt-netmouse.patch):'
+Patch #15 (gpm-1.20.1-alt-netmouse.patch):
++ /usr/bin/patch -p1
+patching file src/mice.c
++ echo 'Patch #16 (gpm-1.20.1-deb-stack-fix.patch):'
+Patch #16 (gpm-1.20.1-deb-stack-fix.patch):
++ /usr/bin/patch -p1
+patching file src/lib/liblow.c
++ echo 'Patch #17 (gpm-1.20.1-alt-gpm_open-shutup.patch):'
+Patch #17 (gpm-1.20.1-alt-gpm_open-shutup.patch):
++ /usr/bin/patch -p1
+patching file src/lib/liblow.c
++ echo 'Patch #18 (gpm-1.20.1-alt-libm.patch):'
+Patch #18 (gpm-1.20.1-alt-libm.patch):
++ /usr/bin/patch -p1
+patching file configure.in
++ echo 'Patch #19 (gpm-1.20.1-alt-AC_GNU_SOURCE.patch):'
+Patch #19 (gpm-1.20.1-alt-AC_GNU_SOURCE.patch):
++ /usr/bin/patch -p1
+patching file configure.in
++ echo 'Patch #20 (gpm-1.20.1-alt-mice.patch):'
+Patch #20 (gpm-1.20.1-alt-mice.patch):
++ /usr/bin/patch -p1
+patching file src/mice.c
+Hunk #1 succeeded at 889 (offset 2 lines).
+Hunk #2 succeeded at 2116 (offset 2 lines).
++ echo 'Patch #21 (0001-Un-nest-wacom-helpers-in-src-mice.c-for-Clang-compat.patch):'
+Patch #21 (0001-Un-nest-wacom-helpers-in-src-mice.c-for-Clang-compat.patch):
++ /usr/bin/patch -p1
+patching file src/mice.c
+Hunk #1 succeeded at 1652 (offset -96 lines).
+Hunk #2 succeeded at 1661 (offset -96 lines).
+Hunk #3 succeeded at 1741 (offset -96 lines).
+Hunk #4 succeeded at 1768 (offset -96 lines).
++ echo 'Patch #22 (0002-Un-nest-summa-helpers-in-src-mice.c-for-Clang-compat.patch):'
+Patch #22 (0002-Un-nest-summa-helpers-in-src-mice.c-for-Clang-compat.patch):
++ /usr/bin/patch -p1
+patching file src/mice.c
+Hunk #1 succeeded at 1956 (offset -96 lines).
+Hunk #2 succeeded at 1995 (offset -96 lines).
+Hunk #3 succeeded at 2004 (offset -96 lines).
+Hunk #4 succeeded at 2012 (offset -96 lines).
+Hunk #5 succeeded at 2030 (offset -96 lines).
++ echo 'Patch #23 (gpm-1.20.1-alt-sigemptyset.patch):'
+Patch #23 (gpm-1.20.1-alt-sigemptyset.patch):
++ /usr/bin/patch -p2
+patching file src/prog/gpm-root.y
+Hunk #1 succeeded at 1229 (offset 34 lines).
++ find -type f -name '*.orig' -delete
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.40314
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd gpm-1.20.1
++ find -type f -name '*.y'
++ read f
++ rm -fv ./src/prog/gpm-root.c
++ read f
++ export ac_cv_path_emacs=no
++ ac_cv_path_emacs=no
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.in: not using Gettext
+autoreconf-default: configure.in: not using aclocal
+autoreconf-default: configure.in: tracing
+autoreconf-default: configure.in: not using Libtool
+autoreconf-default: configure.in: not using Intltool
+autoreconf-default: configure.in: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.in:8: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.in:8: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.in:8: the top level
+configure.in:31: warning: The macro `AC_GNU_SOURCE' is obsolete.
+configure.in:31: You should run autoupdate.
+./lib/autoconf/specific.m4:298: AC_GNU_SOURCE is expanded from...
+configure.in:31: the top level
+configure.in:80: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:80: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+aclocal.m4:28: ITZ_CHECK_TYPE is expanded from...
+configure.in:80: the top level
+configure.in:85: warning: The macro `ac_cv_prog_gcc' is obsolete.
+configure.in:85: You should run autoupdate.
+./lib/autoconf/c.m4:467: ac_cv_prog_gcc is expanded from...
+aclocal.m4:2: ITZ_SYS_ELF is expanded from...
+configure.in:85: the top level
+configure.in:86: warning: The macro `ac_cv_prog_gcc' is obsolete.
+configure.in:86: You should run autoupdate.
+./lib/autoconf/c.m4:467: ac_cv_prog_gcc is expanded from...
+configure.in:86: the top level
+configure.in:130: warning: AC_OUTPUT should be used without arguments.
+configure.in:130: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoheader-2.71: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoheader-2.71: warning: WARNING: Using auxiliary files such as 'acconfig.h', 'config.h.bot'
+autoheader-2.71: WARNING: and 'config.h.top', to define templates for 'config.h.in'
+autoheader-2.71: WARNING: is deprecated and discouraged.
+autoheader-2.71: 
+autoheader-2.71: WARNING: Using the third argument of 'AC_DEFINE_UNQUOTED' and
+autoheader-2.71: WARNING: 'AC_DEFINE' allows one to define a template without
+autoheader-2.71: WARNING: 'acconfig.h':
+autoheader-2.71: 
+autoheader-2.71: WARNING:   AC_DEFINE([NEED_FUNC_MAIN], 1,
+autoheader-2.71: 		[Define if a function 'main' is needed.])
+autoheader-2.71: 
+autoheader-2.71: WARNING: More sophisticated templates can also be produced, see the
+autoheader-2.71: WARNING: documentation.
+autoreconf-default: configure.in: not using Automake
+autoreconf-default: linking ./install-sh to /usr/share/autoconf-2.71/build-aux/install-sh
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for bison... bison -y
+checking whether ln -s works... yes
+checking for dvips... no
+checking for texi2html... no
+checking for tex... no
+checking for texindex... no
+checking for makeinfo... /usr/bin/makeinfo
+checking for diff... /usr/bin/diff
+checking for sed... /usr/bin/sed
+checking for emacs... (cached) no
+checking for syslog.h... yes
+checking for linux/input.h... yes
+checking for linux/joystick.h... yes
+checking for ncurses.h... yes
+checking for ncurses/curses.h... yes
+checking for curses.h... yes
+checking for term.h... yes
+checking for sys/sysmacros.h... yes
+checking for linux/major.h... yes
+checking for linux/tty.h... yes
+checking for __u32... yes
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether system is ELF... yes
+checking for vsyslog... yes
+checking for syslog... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for ceilf in -lm... yes
+checking for tputs in -ltinfo... yes
+configure: creating ./config.status
+config.status: creating Makefile.include
+config.status: WARNING:  'Makefile.include.in' seems to ignore the --datarootdir setting
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating contrib/Makefile
+config.status: creating doc/doc.gpm
+config.status: creating src/headers/config.h
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ make
+make: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+touch src/.depend # to prevent unecessary warnings
+make -C src dep
+make[1]: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+bison -y  /usr/src/RPM/BUILD/gpm-1.20.1/src/prog/gpm-root.y && mv y.tab.c prog/gpm-root.c
+# make links in srcdir
+make[1]: [Makefile:79: .depend] Error 1 (ignored)
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+# make links in srcdir
+make[1]: [Makefile:79: dep] Error 1 (ignored)
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+x86_64-alt-linux-gcc -I. -I /usr/src/RPM/BUILD/gpm-1.20.1/src -M -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  $DEPS | \
+/usr/bin/sed 's/\(\)\.o\([ :]*\)/\1.o \1.lo\2/g'  >> .depend ; done
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+x86_64-alt-linux-gcc -I/usr/src/RPM/BUILD/gpm-1.20.1/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -c -o gpm.o gpm.c
+gpm.c: In function 'getMouseData':
+gpm.c:358:16: warning: pointer targets in initialization of 'char *' from 'unsigned char *' differ in signedness [-Wpointer-sign]
+  358 |    char *edata=data+type->packetlen;
+      |                ^~~~
+gpm.c:377:17: warning: pointer targets in returning 'unsigned char *' from a function with return type 'char *' differ in signedness [-Wpointer-sign]
+  377 |          return data;
+      |                 ^~~~
+gpm.c:408:11: warning: pointer targets in returning 'unsigned char *' from a function with return type 'char *' differ in signedness [-Wpointer-sign]
+  408 |    return data;
+      |           ^~~~
+gpm.c: In function 'processMouse':
+gpm.c:460:42: warning: pointer targets in passing argument 2 of 'which_mouse->m_type->fun' differ in signedness [-Wpointer-sign]
+  460 |             || ((*(m_type->fun))(&nEvent,data)==-1) ) {
+      |                                          ^~~~
+      |                                          |
+      |                                          char *
+gpm.c:460:42: note: expected 'unsigned char *' but argument is of type 'char *'
+gpm.c: In function 'processConn':
+gpm.c:789:51: error: passing argument 3 of 'accept' from incompatible pointer type [-Wincompatible-pointer-types]
+  789 |    if ((newfd=accept(fd,(struct sockaddr *)&addr, &len))<0) {
+      |                                                   ^~~~
+      |                                                   |
+      |                                                   size_t * {aka long unsigned int *}
+In file included from gpm.c:37:
+/usr/include/sys/socket.h:307:42: note: expected 'socklen_t * restrict' {aka 'unsigned int * restrict'} but argument is of type 'size_t *' {aka 'long unsigned int *'}
+  307 |                    socklen_t *__restrict __addr_len);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+gpm.c: In function 'getMouseData':
+gpm.c:371:7: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  371 |       write(fifofd, data, howmany);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpm.c:394:13: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  394 |             write(fifofd, edata-i, j);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+gpm.c: In function 'do_client':
+gpm.c:341:4: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  341 |    write(fd,event, sizeof(Gpm_Event));
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpm.c: In function 'processRequest':
+gpm.c:755:10: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  755 |          write(ci->fd,&event,sizeof(Gpm_Event));
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:56: gpm.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1/src'
+make: *** [Makefile:62: do-all] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/gpm-1.20.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.40314 (%build)
+Command exited with non-zero status 1
+1.82user 1.56system 0:03.14elapsed 107%CPU (0avgtext+0avgdata 23820maxresident)k
+0inputs+0outputs (0major+304777minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `gpm-1.20.1-alt19.src.rpm' failed.
+Command exited with non-zero status 1
+4.09user 2.66system 0:12.56elapsed 53%CPU (0avgtext+0avgdata 140856maxresident)k
+0inputs+0outputs (0major+192396minor)pagefaults 0swaps

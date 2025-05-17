@@ -1,0 +1,56 @@
++ /bin/tar -xf /usr/src/RPM/SOURCES/ghostty-1.1.3-vendor.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ cp -r ./vendor zig-cache
++ exit 0
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.67099
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.67099
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd ghostty-1.1.3
++ cd ghostty-1.1.3
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseFast --system /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache/p --cache-dir /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache --global-cache-dir /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseFast --system /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache/p --cache-dir /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache --global-cache-dir /usr/src/RPM/BUILD/ghostty-1.1.3/zig-cache
+/usr/src/RPM/BUILD/ghostty-1.1.3/build.zig.zon:2:13: error: expected enum literal
+/usr/src/RPM/BUILD/ghostty-1.1.3/build.zig.zon:2:13: error: expected enum literal
+    .name = "ghostty",
+    .name = "ghostty",
+    .name = "ghostty",
+            ^~~~~~~~~
+            ^~~~~~~~~
+            ^~~~~~~~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.67099 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.48user 1.26system 0:06.69elapsed 100%CPU (0avgtext+0avgdata 71112maxresident)k
+5.48user 1.26system 0:06.69elapsed 100%CPU (0avgtext+0avgdata 71112maxresident)k
+5.48user 1.26system 0:06.69elapsed 100%CPU (0avgtext+0avgdata 71112maxresident)k
+0inputs+0outputs (0major+16644minor)pagefaults 0swaps
+0inputs+0outputs (0major+16644minor)pagefaults 0swaps
+0inputs+0outputs (0major+16644minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ghostty-1.1.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `ghostty-1.1.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.06user 4.43system 0:47.85elapsed 21%CPU (0avgtext+0avgdata 142520maxresident)k
+6.06user 4.43system 0:47.85elapsed 21%CPU (0avgtext+0avgdata 142520maxresident)k
+1176inputs+0outputs (0major+427057minor)pagefaults 0swaps

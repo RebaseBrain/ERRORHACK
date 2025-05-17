@@ -1,0 +1,140 @@
+Making all in data
+make[2]: Nothing to be done for 'all'.
+Making all in src
+Making all in SDL
+Making all in SDL
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_joy.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_joy.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_main.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_main.c
+i_main.c: In function 'main':
+i_main.c: In function 'main':
+i_main.c:359:10: error: assignment to 'const char * const*' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+i_main.c:359:10: error: assignment to 'const char * const*' from incompatible pointer type 'char **' [-Wincompatible-pointer-types]
+  359 |   myargv = argv;
+  359 |   myargv = argv;
+      |          ^
+      |          ^
+make[3]: *** [Makefile:246: i_main.o] Error 1
+make[3]: *** [Makefile:246: i_main.o] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_sshot.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_sshot.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_network.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_network.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Entering directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fcommon -Wall -Wno-unused -Wno-switch -Wextra -Wno-missing-field-initializers -Winline -Wwrite-strings -Wundef -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeclaration-after-statement -ffast-math -O2 -fomit-frame-pointer -I../../src -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -c i_system.c
+  453 | static void I_ClosestResolution (int *width, int *height, int flags)
+      |                                              ~~~~~^~~~~~
+      |                                              ~~~~~^~~~~~
+i_video.c: In function 'I_SkipFrame':
+i_video.c: In function 'I_SkipFrame':
+i_video.c: In function 'I_SkipFrame':
+i_video.c:281:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+i_video.c:281:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+i_video.c:281:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+i_video.c:281:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  281 |     if (!paused)
+  281 |     if (!paused)
+  281 |     if (!paused)
+  281 |     if (!paused)
+      |        ^
+      |        ^
+      |        ^
+      |        ^
+i_video.c:283:3: note: here
+i_video.c:283:3: note: here
+i_video.c:283:3: note: here
+i_video.c:283:3: note: here
+  283 |   default:
+  283 |   default:
+  283 |   default:
+  283 |   default:
+      |   ^~~~~~~
+      |   ^~~~~~~
+      |   ^~~~~~~
+      |   ^~~~~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/prboom-2.5.0/src/SDL'
+make[2]: *** [Makefile:460: all-recursive] Error 1
+make[2]: *** [Makefile:460: all-recursive] Error 1
+make[2]: *** [Makefile:460: all-recursive] Error 1
+make[2]: *** [Makefile:460: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make[1]: *** [Makefile:285: all-recursive] Error 1
+make: *** [Makefile:205: all] Error 2
+make: *** [Makefile:205: all] Error 2
+make: *** [Makefile:205: all] Error 2
+make: *** [Makefile:205: all] Error 2
+make: *** [Makefile:205: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.74152 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+1.73user 2.57system 0:04.54elapsed 94%CPU (0avgtext+0avgdata 35168maxresident)k
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+0inputs+0outputs (0major+475329minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `prboom-2.5.0-alt0.3.2.src.rpm' failed.
+hsh-rebuild: rebuild of `prboom-2.5.0-alt0.3.2.src.rpm' failed.
+hsh-rebuild: rebuild of `prboom-2.5.0-alt0.3.2.src.rpm' failed.
+hsh-rebuild: rebuild of `prboom-2.5.0-alt0.3.2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.04user 3.07system 0:18.41elapsed 38%CPU (0avgtext+0avgdata 142000maxresident)k
+4.04user 3.07system 0:18.41elapsed 38%CPU (0avgtext+0avgdata 142000maxresident)k
+1936inputs+0outputs (0major+210901minor)pagefaults 0swaps

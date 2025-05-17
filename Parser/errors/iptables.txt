@@ -1,0 +1,518 @@
+<86>May 16 04:53:13 groupadd[615516]: group added to /etc/gshadow: name=iputils
+<86>May 16 04:53:13 groupadd[615516]: new group: name=iputils, GID=989
+<86>May 16 04:53:13 useradd[615522]: new user: name=iputils, UID=999, GID=989, home=/dev/null, shell=/dev/null, from=none
+<86>May 16 04:53:13 groupadd[615531]: group added to /etc/group: name=netadmin, GID=988
+<86>May 16 04:53:13 groupadd[615531]: group added to /etc/gshadow: name=netadmin
+<86>May 16 04:53:13 groupadd[615531]: new group: name=netadmin, GID=988
+<13>May 16 04:53:13 rpmi: iputils-20240905-alt1 sisyphus+359483.100.1.1 1728585656 installed
+sysctl: permission denied on key "net.ipv4.ping_group_range"
+<13>May 16 04:53:13 rpmi: libpcap-devel-2:1.10.5-alt1 sisyphus+373333.200.2.1 1738835147 installed
+<13>May 16 04:53:13 rpmi: nftables-1:1.1.3-alt1 sisyphus+382309.100.1.1 1745324431 installed
+error reading information on service nftables: No such file or directory
+<13>May 16 04:53:13 rpmi: libnetfilter_conntrack-devel-1:1.1.0-alt1 sisyphus+359184.100.1.1 1728317127 installed
+<13>May 16 04:53:13 rpmi: libnftnl-devel-1.2.9-alt1 sisyphus+381643.100.1.1 1744696098 installed
+<13>May 16 04:53:13 rpmi: libmnl-devel-1.0.5-alt1 sisyphus+297929.100.1.1 1649216348 installed
+<13>May 16 04:53:13 rpmi: flex-2.6.4.0.88.9801-alt2 sisyphus+346193.200.3.2 1716466857 installed
+<13>May 16 04:53:13 rpmi: ebtables-2.0.11-alt3 sisyphus+344189.100.1.1 1712048586 installed
+Creating regular file /tmp/vm-ext4.img
+find: '/usr/src/in': Permission denied
+find: '/.out': Permission denied
+find: '/.host': Permission denied
+vm-ext4.img: clean, 24059/165984 files, 249078/663936 blocks
+make  check-am
+make[2]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[2]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1/iptables'
+make[1]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make  check-TESTS
+make  check-TESTS
+make[2]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Entering directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+PASS: xlate-test.py
+PASS: xlate-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables/tests/shell/run-tests.sh
+FAIL: iptables/tests/shell/run-tests.sh
+FAIL: iptables/tests/shell/run-tests.sh
+=======================================
+=======================================
+=======================================
+=======================================
+   iptables 1.8.10: ./test-suite.log
+   iptables 1.8.10: ./test-suite.log
+   iptables 1.8.10: ./test-suite.log
+   iptables 1.8.10: ./test-suite.log
+=======================================
+=======================================
+=======================================
+=======================================
+
+
+
+
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+
+
+
+
+
+
+
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+.. contents:: :depth: 2
+
+
+
+
+
+
+
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+FAIL: iptables-test.py
+======================
+======================
+======================
+======================
+======================
+======================
+======================
+
+
+
+
+
+
+
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -t filter -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/libxt_recent.t: ERROR: line 7 (should fail: iptables -A INPUT -m recent --rcheck --hitcount 999 --name foo --mask 255.255.255.255 --rsource)
+extensions/iptables.t: OK
+extensions/iptables.t: OK
+extensions/iptables.t: OK
+extensions/iptables.t: OK
+extensions/iptables.t: OK
+extensions/libip6t_DNAT.t: OK
+extensions/libip6t_DNAT.t: OK
+extensions/libip6t_DNAT.t: OK
+extensions/libip6t_DNAT.t: OK
+extensions/libip6t_DNAT.t: OK
+extensions/libip6t_DNPT.t: OK
+extensions/libip6t_DNPT.t: OK
+extensions/libip6t_DNPT.t: OK
+extensions/libip6t_DNPT.t: OK
+extensions/libip6t_DNPT.t: OK
+extensions/libip6t_HL.t: OK
+extensions/libip6t_HL.t: OK
+extensions/libip6t_HL.t: OK
+extensions/libip6t_HL.t: OK
+extensions/libip6t_HL.t: OK
+extensions/libip6t_LOG.t: OK
+extensions/libip6t_LOG.t: OK
+extensions/libip6t_LOG.t: OK
+extensions/libip6t_LOG.t: OK
+extensions/libip6t_MASQUERADE.t: OK
+extensions/libip6t_MASQUERADE.t: OK
+extensions/libip6t_MASQUERADE.t: OK
+extensions/libip6t_MASQUERADE.t: OK
+extensions/libip6t_NETMAP.t: OK
+extensions/libip6t_NETMAP.t: OK
+extensions/libip6t_NETMAP.t: OK
+extensions/libip6t_NETMAP.t: OK
+extensions/libip6t_REJECT.t: OK
+extensions/libip6t_REJECT.t: OK
+extensions/libip6t_REJECT.t: OK
+extensions/libip6t_SNAT.t: OK
+extensions/libip6t_SNAT.t: OK
+extensions/libip6t_SNPT.t: OK
+extensions/libxt_statistic.t: OK
+extensions/libxt_string.t: OK
+extensions/libxt_tcp.t: OK
+extensions/libxt_tcp.t: OK
+extensions/libxt_tcpmss.t: OK
+extensions/libxt_tcpmss.t: OK
+extensions/libxt_time.t: OK
+extensions/libxt_time.t: OK
+extensions/libxt_tos.t: OK
+extensions/libxt_tos.t: OK
+extensions/libxt_u32.t: OK
+extensions/libxt_u32.t: OK
+extensions/libxt_udp.t: OK
+extensions/libxt_udp.t: OK
+nft: 128 test files, 1058 unit tests, 1057 passed
+nft: 128 test files, 1058 unit tests, 1057 passed
+total: 128 test files, 1939 unit tests, 1937 passed
+total: 128 test files, 1939 unit tests, 1937 passed
+FAIL iptables-test.py (exit status: 254)
+FAIL iptables-test.py (exit status: 254)
+
+
+FAIL: iptables/tests/shell/run-tests.sh
+FAIL: iptables/tests/shell/run-tests.sh
+=======================================
+=======================================
+
+
+
+
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0003-arptables-verbose-output_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0003-arptables-verbose-output_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0003-arptables-verbose-output_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/chain/0001duplicate_1
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+I: legacy results: [OK] 63 [FAILED] 0 [TOTAL] 63
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0001-arptables-save-restore_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0002-arptables-restore-defaults_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/arptables/0003-arptables-verbose-output_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/arptables/0003-arptables-verbose-output_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/chain/0001duplicate_1
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/chain/0001duplicate_1
+I: [EXECUTING]   ././iptables/tests/shell/testcases/chain/0002newchain_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/chain/0002newchain_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0002invflags_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0003delete-with-comment_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0003delete-with-comment_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0006-policy-override_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0007-mid-restore-flush_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0008-basechain-policy_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0
+[1A[KW: [FAILED]      ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0: expected 0 but got 1
+[1A[KW: [FAILED]      ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0: expected 0 but got 1
+[1A[KW: [FAILED]      ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0: expected 0 but got 1
+[1A[KW: [FAILED]      ././iptables/tests/shell/testcases/nft-only/0009-needless-bitwise_0: expected 0 but got 1
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+I: [EXECUTING]   ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+[1A[KI: [OK]          ././iptables/tests/shell/testcases/nft-only/0010-native-delinearize_0
+I: nft results: [OK] 62 [FAILED] 1 [TOTAL] 63
+I: nft results: [OK] 62 [FAILED] 1 [TOTAL] 63
+I: nft results: [OK] 62 [FAILED] 1 [TOTAL] 63
+I: nft results: [OK] 62 [FAILED] 1 [TOTAL] 63
+I: combined results: [OK] 125 [FAILED] 1 [TOTAL] 126
+I: combined results: [OK] 125 [FAILED] 1 [TOTAL] 126
+I: combined results: [OK] 125 [FAILED] 1 [TOTAL] 126
+I: combined results: [OK] 125 [FAILED] 1 [TOTAL] 126
+I: combined results: [OK] 125 [FAILED] 1 [TOTAL] 126
+FAIL iptables/tests/shell/run-tests.sh (exit status: 255)
+FAIL iptables/tests/shell/run-tests.sh (exit status: 255)
+FAIL iptables/tests/shell/run-tests.sh (exit status: 255)
+FAIL iptables/tests/shell/run-tests.sh (exit status: 255)
+FAIL iptables/tests/shell/run-tests.sh (exit status: 255)
+
+
+
+
+
+
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+Testsuite summary for iptables 1.8.10
+Testsuite summary for iptables 1.8.10
+Testsuite summary for iptables 1.8.10
+Testsuite summary for iptables 1.8.10
+Testsuite summary for iptables 1.8.10
+Testsuite summary for iptables 1.8.10
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# TOTAL: 3
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# PASS:  1
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# SKIP:  0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# XFAIL: 0
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# FAIL:  2
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# XPASS: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+# ERROR: 0
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+See ./test-suite.log
+See ./test-suite.log
+See ./test-suite.log
+See ./test-suite.log
+See ./test-suite.log
+See ./test-suite.log
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+============================================================================
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: *** [Makefile:800: test-suite.log] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: *** [Makefile:908: check-TESTS] Error 2
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: *** [Makefile:1157: check-am] Error 2
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make: *** [Makefile:685: check-recursive] Error 1
+make: *** [Makefile:685: check-recursive] Error 1
+make: *** [Makefile:685: check-recursive] Error 1
+make: *** [Makefile:685: check-recursive] Error 1
+make: *** [Makefile:685: check-recursive] Error 1
+make: *** [Makefile:685: check-recursive] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+make: Leaving directory '/usr/src/RPM/BUILD/iptables-1.8.10-alt1'
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+112.44user 186.78system 2:56.51elapsed 169%CPU (0avgtext+0avgdata 4193148maxresident)k
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+0inputs+0outputs (0major+15968minor)pagefaults 0swaps
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33449 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+147.87user 205.41system 3:19.92elapsed 176%CPU (0avgtext+0avgdata 4193148maxresident)k
+147.87user 205.41system 3:19.92elapsed 176%CPU (0avgtext+0avgdata 4193148maxresident)k
+147.87user 205.41system 3:19.92elapsed 176%CPU (0avgtext+0avgdata 4193148maxresident)k
+0inputs+0outputs (0major+4040930minor)pagefaults 0swaps
+0inputs+0outputs (0major+4040930minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `iptables-1.8.10-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `iptables-1.8.10-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.00user 2.71system 3:49.84elapsed 3%CPU (0avgtext+0avgdata 141884maxresident)k
+6.00user 2.71system 3:49.84elapsed 3%CPU (0avgtext+0avgdata 141884maxresident)k
+1528inputs+0outputs (0major+253554minor)pagefaults 0swaps

@@ -1,0 +1,77 @@
+Creating new 'Build' script for 'RPM2' version '1.4'
++ /usr/bin/perl -e '$req=require"./_build/prereqs";' -e 'while (my ($k, $v) = each %{$$req{requires}})	{ print "perl($k)>=$v\n" }' -e 'while (my ($k, $v) = each %{$$req{recommends}})	{ print "perl($k)>=$v\n" }'
++ tee .perl.req
+perl(File::Basename)>=0
+perl(File::Spec)>=0
++ : running Build script
++ /usr/bin/perl Build
+Building RPM2
+gcc -I/usr/lib64/perl5/CORE -DVERSION="1.4" -DXS_VERSION="1.4" -fPIC -DRPM2_API=4013 -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o lib/RPM2.o lib/RPM2.c
+gcc -I/usr/lib64/perl5/CORE -DVERSION="1.4" -DXS_VERSION="1.4" -fPIC -DRPM2_API=4013 -c -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o lib/RPM2.o lib/RPM2.c
+lib/RPM2.c: In function 'XS_RPM2_rpmvercmp':
+lib/RPM2.c: In function 'XS_RPM2_rpmvercmp':
+lib/RPM2.c: In function 'XS_RPM2_rpmvercmp':
+lib/RPM2.c:397:18: error: implicit declaration of function 'rpmvercmp'; did you mean 'timercmp'? [-Wimplicit-function-declaration]
+lib/RPM2.c:397:18: error: implicit declaration of function 'rpmvercmp'; did you mean 'timercmp'? [-Wimplicit-function-declaration]
+lib/RPM2.c:397:18: error: implicit declaration of function 'rpmvercmp'; did you mean 'timercmp'? [-Wimplicit-function-declaration]
+  397 |         RETVAL = rpmvercmp(one, two);
+  397 |         RETVAL = rpmvercmp(one, two);
+  397 |         RETVAL = rpmvercmp(one, two);
+      |                  ^~~~~~~~~
+      |                  ^~~~~~~~~
+      |                  ^~~~~~~~~
+      |                  timercmp
+      |                  timercmp
+      |                  timercmp
+lib/RPM2.c: In function 'XS_RPM2__C__PackageIterator__iterator_next':
+lib/RPM2.c: In function 'XS_RPM2__C__PackageIterator__iterator_next':
+lib/RPM2.c: In function 'XS_RPM2__C__PackageIterator__iterator_next':
+lib/RPM2.c:674:17: warning: variable 'RETVAL' set but not used [-Wunused-but-set-variable]
+lib/RPM2.c:674:17: warning: variable 'RETVAL' set but not used [-Wunused-but-set-variable]
+lib/RPM2.c:674:17: warning: variable 'RETVAL' set but not used [-Wunused-but-set-variable]
+  674 |         Header  RETVAL;
+  674 |         Header  RETVAL;
+  674 |         Header  RETVAL;
+      |                 ^~~~~~
+      |                 ^~~~~~
+      |                 ^~~~~~
+      |                 ^~~~~~
+error building lib/RPM2.o from 'lib/RPM2.c' at /usr/share/perl5/ExtUtils/CBuilder/Base.pm line 186.
+error building lib/RPM2.o from 'lib/RPM2.c' at /usr/share/perl5/ExtUtils/CBuilder/Base.pm line 186.
+error building lib/RPM2.o from 'lib/RPM2.c' at /usr/share/perl5/ExtUtils/CBuilder/Base.pm line 186.
+error building lib/RPM2.o from 'lib/RPM2.c' at /usr/share/perl5/ExtUtils/CBuilder/Base.pm line 186.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.12735 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.28user 0.41system 0:02.67elapsed 100%CPU (0avgtext+0avgdata 79820maxresident)k
+2.28user 0.41system 0:02.67elapsed 100%CPU (0avgtext+0avgdata 79820maxresident)k
+2.28user 0.41system 0:02.67elapsed 100%CPU (0avgtext+0avgdata 79820maxresident)k
+0inputs+0outputs (0major+45565minor)pagefaults 0swaps
+0inputs+0outputs (0major+45565minor)pagefaults 0swaps
+0inputs+0outputs (0major+45565minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-RPM2-1.4-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-RPM2-1.4-alt1.1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-RPM2-1.4-alt1.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+12.56user 4.46system 0:25.29elapsed 67%CPU (0avgtext+0avgdata 142476maxresident)k
+12.56user 4.46system 0:25.29elapsed 67%CPU (0avgtext+0avgdata 142476maxresident)k
+5744inputs+0outputs (0major+195067minor)pagefaults 0swaps

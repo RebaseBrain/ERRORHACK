@@ -1,0 +1,56 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+Problem opening /proc/meminfo
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.3.1")
+-- Found SDL2_gfx: /usr/lib64/libSDL2_gfx.so (found version "1.0.4")
+CMake Error at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:227 (message):
+  Could NOT find webp (missing: webp_LIBRARY webp_INCLUDE_PATH
+  webpdemux_LIBRARY webpdemux_INCLUDE_PATH)
+  webpdemux_LIBRARY webpdemux_INCLUDE_PATH)
+Call Stack (most recent call first):
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:591 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:591 (_FPHSA_FAILURE_MESSAGE)
+  /usr/lib64/cmake/SDL2_image/Findwebp.cmake:31 (find_package_handle_standard_args)
+  /usr/lib64/cmake/SDL2_image/Findwebp.cmake:31 (find_package_handle_standard_args)
+  /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)
+  /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)
+  /usr/lib64/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)
+  /usr/lib64/cmake/SDL2_image/sdl2_image-config.cmake:57 (find_dependency)
+  CMakeLists.txt:32 (find_package)
+  CMakeLists.txt:32 (find_package)
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83049 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83049 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.83049 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.83049 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.41user 0.69system 0:02.90elapsed 106%CPU (0avgtext+0avgdata 24136maxresident)k
+2.41user 0.69system 0:02.90elapsed 106%CPU (0avgtext+0avgdata 24136maxresident)k
+0inputs+0outputs (0major+66608minor)pagefaults 0swaps
+0inputs+0outputs (0major+66608minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lincity-ng-2.12.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `lincity-ng-2.12.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.07user 3.27system 0:22.31elapsed 41%CPU (0avgtext+0avgdata 140856maxresident)k
+6.07user 3.27system 0:22.31elapsed 41%CPU (0avgtext+0avgdata 140856maxresident)k
+2432inputs+0outputs (0major+295839minor)pagefaults 0swaps

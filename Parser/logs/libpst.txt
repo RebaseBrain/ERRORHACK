@@ -1,0 +1,1204 @@
+<86>May 10 09:05:17 userdel[361655]: delete user 'rooter'
+<86>May 10 09:05:17 userdel[361655]: removed group 'rooter' owned by 'rooter'
+<86>May 10 09:05:17 userdel[361655]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 09:05:18 groupadd[361674]: group added to /etc/group: name=rooter, GID=1871
+<86>May 10 09:05:18 groupadd[361674]: group added to /etc/gshadow: name=rooter
+<86>May 10 09:05:18 groupadd[361674]: new group: name=rooter, GID=1871
+<86>May 10 09:05:18 useradd[361694]: new user: name=rooter, UID=1871, GID=1871, home=/root, shell=/bin/bash, from=none
+<86>May 10 09:05:18 userdel[361711]: delete user 'builder'
+<86>May 10 09:05:18 userdel[361711]: removed group 'builder' owned by 'builder'
+<86>May 10 09:05:18 userdel[361711]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 09:05:18 groupadd[361729]: group added to /etc/group: name=builder, GID=1872
+<86>May 10 09:05:18 groupadd[361729]: group added to /etc/gshadow: name=builder
+<86>May 10 09:05:18 groupadd[361729]: new group: name=builder, GID=1872
+<86>May 10 09:05:18 useradd[361746]: new user: name=builder, UID=1872, GID=1872, home=/usr/src, shell=/bin/bash, from=none
+<13>May 10 09:05:22 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432033 installed
+<13>May 10 09:05:22 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 09:05:22 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 09:05:22 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 09:05:22 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962878 installed
+<13>May 10 09:05:22 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 09:05:22 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 09:05:22 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 09:05:22 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 09:05:22 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 09:05:22 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 09:05:22 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 09:05:22 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 09:05:22 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 09:05:23 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 09:05:23 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 09:05:23 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 10 09:05:23 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 09:05:23 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 10 09:05:23 rpmi: rpm-build-licenses-3.0.0-alt1 sisyphus+241804.100.1.1 1574868053 installed
+<13>May 10 09:05:26 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449053 installed
+<13>May 10 09:05:26 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781690 installed
+<13>May 10 09:05:26 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333695 installed
+<13>May 10 09:05:26 rpmi: libboost_system1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 10 09:05:26 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:26 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:26 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745386702 installed
+<13>May 10 09:05:26 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 10 09:05:26 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760153 installed
+<13>May 10 09:05:26 rpmi: libatk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927620 installed
+<13>May 10 09:05:26 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424894 installed
+<13>May 10 09:05:26 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745384016 installed
+<13>May 10 09:05:26 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659248 installed
+<13>May 10 09:05:26 rpmi: libpaper2-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276734 installed
+<13>May 10 09:05:26 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745385930 installed
+<13>May 10 09:05:26 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577559 installed
+<13>May 10 09:05:26 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333693 installed
+<13>May 10 09:05:26 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 09:05:26 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 09:05:26 rpmi: libdeflate-1.23-alt1 sisyphus+366443.100.2.1 1735140378 installed
+<13>May 10 09:05:26 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358946 installed
+<13>May 10 09:05:26 rpmi: libopenexrcore32-3.3.1-alt1 sisyphus+376389.140.5.2 1740870061 installed
+<13>May 10 09:05:26 rpmi: libbrotlienc-1.1.0-alt1 sisyphus+328501.100.1.1 1693598420 installed
+<13>May 10 09:05:26 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526918 installed
+<13>May 10 09:05:26 rpmi: paper-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276734 installed
+<13>May 10 09:05:26 rpmi: libraw-0.21.4-alt1 sisyphus+381532.100.1.1 1744570706 installed
+<13>May 10 09:05:26 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424894 installed
+<13>May 10 09:05:26 rpmi: libquadmath14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:26 rpmi: libquadmath-devel-14-alt1 sisyphus+360995.300.1.1 1730139881 installed
+<13>May 10 09:05:26 rpmi: libboost_charconv1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:26 rpmi: libboost_atomic1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_contract1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_filesystem1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_process1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_chrono1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_timer1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_thread1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: libboost_type_erasure1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:26 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 10 09:05:26 rpmi: libflif-0.4-alt1 sisyphus+343861.100.1.1 1711656719 installed
+<13>May 10 09:05:26 rpmi: sgml-common-0.6.3-alt15 sisyphus+276099.100.1.1 1624817971 installed
+<13>May 10 09:05:26 rpmi: docbook-dtds-4.5-alt1 sisyphus+276837.100.1.1 1625242123 installed
+<13>May 10 09:05:27 rpmi: docbook-style-xsl-1.79.1-alt4 sisyphus+232871.100.1.1 1561238010 installed
+<13>May 10 09:05:27 rpmi: python3-module-wheel-0.45.1-alt2 sisyphus+376369.34000.10.1 1746635900 installed
+<13>May 10 09:05:27 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 10 09:05:27 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 10 09:05:27 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 10 09:05:27 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 10 09:05:27 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 10 09:05:27 rpmi: python3-module-jaraco.collections-5.1.0-alt1.1 sisyphus+376369.6100.10.1 1746628417 installed
+<13>May 10 09:05:27 rpmi: python3-module-pkg_resources-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 09:05:27 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751808 installed
+<13>May 10 09:05:27 rpmi: xsltproc-1.1.39-alt1 sisyphus+349406.100.1.1 1716751808 installed
+<13>May 10 09:05:27 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 09:05:27 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 09:05:27 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 09:05:27 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486782 installed
+<13>May 10 09:05:28 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 09:05:28 rpmi: libgtk+2-locales-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 10 09:05:28 rpmi: libxml2-devel-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333695 installed
+<13>May 10 09:05:28 rpmi: libboost_python3-1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:28 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388462 installed
+<13>May 10 09:05:28 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069374 installed
+<13>May 10 09:05:28 rpmi: python3-module-numpy-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965123 installed
+<13>May 10 09:05:28 rpmi: libboost_numpy3-1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:28 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577529 installed
+<13>May 10 09:05:28 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572108 installed
+<13>May 10 09:05:28 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 10 09:05:28 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440792 installed
+<13>May 10 09:05:28 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 10 09:05:29 rpmi: libspirv-tools0-1:2024.4-alt0.2.rc2 sisyphus+373499.200.3.3 1738959952 installed
+<13>May 10 09:05:29 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275350 installed
+<13>May 10 09:05:29 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275350 installed
+<13>May 10 09:05:29 rpmi: libedit3-3.1.20230828-alt1 sisyphus+330914.200.3.1 1696922745 installed
+<13>May 10 09:05:29 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275350 installed
+<13>May 10 09:05:31 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275350 installed
+<13>May 10 09:05:31 rpmi: icon-theme-hicolor-0.18-alt1 sisyphus+349610.100.1.1 1716831669 installed
+<13>May 10 09:05:31 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 10 09:05:31 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:32 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 09:05:32 rpmi: boost-python-headers-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_context1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_fiber1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_stacktrace1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_nowide1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_url1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_test1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_serialization1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_random1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_iostreams1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_json1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_regex1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_graph1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_date_time1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:32 rpmi: libboost_container1.86.0-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:34 rpmi: boost-devel-headers-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170417 installed
+<13>May 10 09:05:34 rpmi: boost-devel-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:34 rpmi: libImageMagick7-common-7.1.1.45-alt1 sisyphus+376290.440.24.2 1745360361 installed
+<13>May 10 09:05:34 rpmi: libzip5-1.10.1-alt1 sisyphus+340170.100.1.1 1707475903 installed
+<13>May 10 09:05:34 rpmi: libwmflite-0.2.13-alt1 sisyphus+380613.100.1.1 1743880105 installed
+<13>May 10 09:05:34 rpmi: liblqr-0.4.3-alt1 sisyphus+356629.200.1.1 1725279244 installed
+<13>May 10 09:05:34 rpmi: highway-libs-1.2.0-alt1 sisyphus+350172.100.1.1 1717269905 installed
+<13>May 10 09:05:34 rpmi: libjbig2.1-2.1-alt2 sisyphus+326386.40.6.1 1691148232 installed
+<13>May 10 09:05:34 rpmi: libfftw3-common-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 10 09:05:34 rpmi: libfftw3-3.3.10-alt2 sisyphus+363193.200.2.1 1732292726 installed
+<13>May 10 09:05:34 rpmi: djvu-common-3.5.28-alt3 sisyphus+376290.2600.24.2 1745368454 installed
+<13>May 10 09:05:34 rpmi: libdjvu-3.5.28-alt3 sisyphus+376290.2600.24.2 1745367034 installed
+<13>May 10 09:05:34 rpmi: libdav1d_7-1.5.1-alt1 sisyphus+375116.100.1.1 1739813289 installed
+<13>May 10 09:05:34 rpmi: libgts-0.7.6-alt2.drc20130205.1 sisyphus+346279.200.2.1 1716435911 installed
+<13>May 10 09:05:34 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684806164 installed
+<13>May 10 09:05:34 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819639 installed
+<13>May 10 09:05:34 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 10 09:05:34 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729916 installed
+<86>May 10 09:05:34 groupadd[403285]: group added to /etc/group: name=_keytab, GID=999
+<86>May 10 09:05:34 groupadd[403285]: group added to /etc/gshadow: name=_keytab
+<86>May 10 09:05:34 groupadd[403285]: new group: name=_keytab, GID=999
+<13>May 10 09:05:34 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735219 installed
+<13>May 10 09:05:34 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543124 installed
+<13>May 10 09:05:34 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749232 installed
+<13>May 10 09:05:34 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385851 installed
+<13>May 10 09:05:34 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111109 installed
+<13>May 10 09:05:34 rpmi: libnuma-2.0.19-alt1 sisyphus+363830.100.1.1 1733131853 installed
+<13>May 10 09:05:34 rpmi: libx265-199-3.5-alt1.1 sisyphus+277560.100.1.1 1625696944 installed
+<13>May 10 09:05:34 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 10 09:05:34 rpmi: libde265-1.0.15-alt1 sisyphus+337190.100.1.1 1703502097 installed
+<13>May 10 09:05:34 rpmi: libaom3-3.12.0-alt2 sisyphus+381948.100.1.1 1744966963 installed
+<13>May 10 09:05:34 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336967 installed
+<13>May 10 09:05:34 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 10 09:05:34 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550035 installed
+<13>May 10 09:05:34 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787317 installed
+<13>May 10 09:05:34 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 10 09:05:34 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 09:05:34 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 10 09:05:34 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745382858 installed
+<13>May 10 09:05:34 rpmi: libheif-1.19.6-alt1 sisyphus+376678.100.1.1 1740986859 installed
+<13>May 10 09:05:34 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 09:05:34 rpmi: libgio-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722283 installed
+<13>May 10 09:05:35 rpmi: libjxl0.11-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740872047 installed
+<13>May 10 09:05:35 rpmi: libjxl-pixbuf-loader-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740872047 installed
+<13>May 10 09:05:35 rpmi: gtk4-update-icon-cache-4.18.5-alt1 sisyphus+383208.100.1.1 1746338263 installed
+<13>May 10 09:05:35 rpmi: libgsf-1.14.53-alt1 sisyphus+358769.100.1.1 1727789134 installed
+<13>May 10 09:05:35 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467591 installed
+<13>May 10 09:05:35 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605157 installed
+<13>May 10 09:05:35 rpmi: libharfbuzz-11.2.0-alt1 sisyphus+382811.100.1.1 1745919820 installed
+<13>May 10 09:05:35 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221065 installed
+<13>May 10 09:05:35 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370050 installed
+<13>May 10 09:05:35 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370050 installed
+Updating fonts cache: <29>May 10 09:05:36 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 10 09:05:36 rpmi: fonts-ttf-dejavu-2.37-alt2 sisyphus+243548.100.1.1 1577296175 installed
+<13>May 10 09:05:37 rpmi: libgs-10.04.0-alt1 sisyphus+376290.4600.24.2 1745377593 installed
+<13>May 10 09:05:37 rpmi: libraqm-0.10.2-alt1 sisyphus+378370.100.1.1 1742284722 installed
+<13>May 10 09:05:37 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 10 09:05:37 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441073 installed
+<13>May 10 09:05:37 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577440 installed
+<13>May 10 09:05:37 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342009 installed
+<13>May 10 09:05:37 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571643 installed
+<13>May 10 09:05:37 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441114 installed
+<13>May 10 09:05:37 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 10 09:05:37 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589817 installed
+<13>May 10 09:05:37 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023235 installed
+<13>May 10 09:05:37 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485401 installed
+<13>May 10 09:05:37 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168534 installed
+<13>May 10 09:05:37 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124180 installed
+<13>May 10 09:05:37 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023316 installed
+<13>May 10 09:05:37 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400258 installed
+<13>May 10 09:05:37 rpmi: libgd3-2.3.3-alt4 sisyphus+376290.4300.24.2 1745376756 installed
+<13>May 10 09:05:37 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441186 installed
+<13>May 10 09:05:38 rpmi: libGLX-mesa-4:25.0.5-alt1 sisyphus+382954.100.1.1 1746040450 installed
+<13>May 10 09:05:38 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424894 installed
+<13>May 10 09:05:38 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424894 installed
+<13>May 10 09:05:38 rpmi: libGLU-4:9.0.1-alt1 sisyphus+278350.100.1.2 1626174378 installed
+<13>May 10 09:05:38 rpmi: libfreeglut-3.6.0-alt1 sisyphus+351159.100.1.1 1718777664 installed
+<13>May 10 09:05:38 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441036 installed
+<13>May 10 09:05:38 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589817 installed
+<13>May 10 09:05:38 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023273 installed
+<13>May 10 09:05:38 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149549 installed
+<13>May 10 09:05:38 rpmi: librsvg-1:2.60.0-alt1 sisyphus+378509.200.1.1 1742367040 installed
+<13>May 10 09:05:38 rpmi: liblasi-1.1.3-alt3 sisyphus+286812.100.2.1 1633968134 installed
+<13>May 10 09:05:38 rpmi: libgraphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953986 installed
+<13>May 10 09:05:38 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213209 installed
+<13>May 10 09:05:38 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233684 installed
+<13>May 10 09:05:38 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233713 installed
+<13>May 10 09:05:38 rpmi: libgtk+2-2.24.33-alt2 sisyphus+361465.100.1.1 1730475132 installed
+<13>May 10 09:05:38 rpmi: libgtkglext-1.2.0-alt5 sisyphus+346276.200.2.1 1716434451 installed
+<13>May 10 09:05:38 rpmi: libglade-2.6.4-alt6 sisyphus+361686.300.1.1 1730737743 installed
+<13>May 10 09:05:38 rpmi: libiex32-3.3.1-alt1 sisyphus+376389.140.5.2 1740870061 installed
+<13>May 10 09:05:38 rpmi: libilmthread32-3.3.1-alt1 sisyphus+376389.140.5.2 1740870061 installed
+<13>May 10 09:05:38 rpmi: libimath29-3.1.12-alt1.1 sisyphus+378502.100.1.1 1742362134 installed
+<13>May 10 09:05:38 rpmi: libopenexr32-3.3.1-alt1 sisyphus+376389.140.5.2 1740870061 installed
+<13>May 10 09:05:38 rpmi: libImageMagick7.10-7.1.1.45-alt1 sisyphus+376290.440.24.2 1745360361 installed
+<13>May 10 09:05:38 rpmi: ImageMagick-tools-7.1.1.45-alt1 sisyphus+376290.440.24.2 1745360361 installed
+<13>May 10 09:05:38 rpmi: graphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953986 installed
+<13>May 10 09:05:39 rpmi: libgd3-devel-2.3.3-alt4 sisyphus+376290.4300.24.2 1745376756 installed
+<13>May 10 09:05:39 rpmi: doxygen-1:1.13.2-alt1 sisyphus+368555.100.1.1 1736508277 installed
+<13>May 10 09:05:39 rpmi: libgsf-devel-1.14.53-alt1 sisyphus+358769.100.1.1 1727789134 installed
+<13>May 10 09:05:39 rpmi: boost-python3-devel-1:1.86.0-alt2 sisyphus+375553.1040.4.1 1740170900 installed
+<13>May 10 09:05:39 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139881 installed
+<13>May 10 09:05:39 rpmi: python3-module-setuptools-1:76.0.0-alt1 sisyphus+376369.200.10.1 1746626832 installed
+<13>May 10 09:05:39 rpmi: xmlto-0.0.29-alt1 sisyphus+374988.100.1.1 1739725022 installed
+<13>May 10 09:05:39 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/libpst-0.6.76-alt4.1.nosrc.rpm (w1.gzdio)
+Installing libpst-0.6.76-alt4.1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.56265
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf libpst-0.6.76
++ echo 'Source #0 (libpst-0.6.76.tar):'
+Source #0 (libpst-0.6.76.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/libpst-0.6.76.tar
++ cd libpst-0.6.76
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (libpst-0.6.76-alt-known-fields.patch):'
+Patch #1 (libpst-0.6.76-alt-known-fields.patch):
++ /usr/bin/patch -p1
+patching file src/readpst.c
+Hunk #1 succeeded at 1289 (offset 56 lines).
+Hunk #2 succeeded at 1301 (offset 56 lines).
++ echo 'Patch #2 (libpst-0.6.76-python3.12.patch):'
+Patch #2 (libpst-0.6.76-python3.12.patch):
++ /usr/bin/patch -p2
+patching file m4/ax_python.m4
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.56265
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libpst-0.6.76
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: running: autopoint --force
+Creating directory intl
+Copying file intl/ChangeLog
+Copying file intl/Makefile.in
+Copying file intl/VERSION
+Copying file intl/bindtextdom.c
+Copying file intl/config.charset
+Copying file intl/dcgettext.c
+Copying file intl/dcigettext.c
+Copying file intl/dcngettext.c
+Copying file intl/dgettext.c
+Copying file intl/dngettext.c
+Copying file intl/eval-plural.h
+Copying file intl/explodename.c
+Copying file intl/export.h
+Copying file intl/finddomain.c
+Copying file intl/gettext.c
+Copying file intl/gettextP.h
+Copying file intl/gmo.h
+Copying file intl/hash-string.c
+Copying file intl/hash-string.h
+Copying file intl/intl-compat.c
+Copying file intl/intl-exports.c
+Copying file intl/l10nflist.c
+Copying file intl/langprefs.c
+Copying file intl/libgnuintl.h.in
+Copying file intl/libintl.rc
+Copying file intl/loadinfo.h
+Copying file intl/loadmsgcat.c
+Copying file intl/localcharset.c
+Copying file intl/localcharset.h
+Copying file intl/locale.alias
+Copying file intl/localealias.c
+Copying file intl/localename.c
+Copying file intl/lock.c
+Copying file intl/lock.h
+Copying file intl/log.c
+Copying file intl/ngettext.c
+Copying file intl/os2compat.c
+Copying file intl/os2compat.h
+Copying file intl/osdep.c
+Copying file intl/plural-exp.c
+Copying file intl/plural-exp.h
+Copying file intl/plural.c
+Copying file intl/plural.y
+Copying file intl/printf-args.c
+Copying file intl/printf-args.h
+Copying file intl/printf-parse.c
+Copying file intl/printf-parse.h
+Copying file intl/printf.c
+Copying file intl/ref-add.sin
+Copying file intl/ref-del.sin
+Copying file intl/relocatable.c
+Copying file intl/relocatable.h
+Copying file intl/textdomain.c
+Copying file intl/tsearch.c
+Copying file intl/tsearch.h
+Copying file intl/vasnprintf.c
+Copying file intl/vasnprintf.h
+Copying file intl/vasnwprintf.h
+Copying file intl/version.c
+Copying file intl/wprintf-parse.h
+Copying file intl/xsize.h
+Copying file m4/intldir.m4
+Creating directory po
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in '.'.
+libtoolize-default: linking file './config.guess'
+libtoolize-default: linking file './config.sub'
+libtoolize-default: linking file './install-sh'
+libtoolize-default: linking file './ltmain.sh'
+libtoolize-default: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize-default: linking file 'm4/libtool.m4'
+libtoolize-default: linking file 'm4/ltoptions.m4'
+libtoolize-default: linking file 'm4/ltsugar.m4'
+libtoolize-default: linking file 'm4/ltversion.m4'
+libtoolize-default: linking file 'm4/lt~obsolete.m4'
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:4: warning: The macro `AC_CONFIG_HEADER' is obsolete.
+configure.ac:4: You should run autoupdate.
+./lib/autoconf/status.m4:719: AC_CONFIG_HEADER is expanded from...
+configure.ac:4: the top level
+configure.ac:116: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:116: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:116: the top level
+configure.ac:162: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:162: You should run autoupdate.
+m4/libtool.m4:100: AC_PROG_LIBTOOL is expanded from...
+configure.ac:162: the top level
+configure.ac:177: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:177: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:177: the top level
+configure.ac:210: warning: AM_PROG_MKDIR_P: this macro is deprecated, and will soon be removed.
+configure.ac:210: You should use the Autoconf-provided 'AC_PROG_MKDIR_P' macro instead,
+configure.ac:210: and use '$(MKDIR_P)' instead of '$(mkdir_p)'in your Makefile.am files.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:1020: AM_PROG_MKDIR_P is expanded from...
+m4/po.m4:23: AM_PO_SUBDIRS is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/visibility.m4:23: gl_VISIBILITY is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/stdint_h.m4:12: gl_AC_HEADER_STDINT_H is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intdiv0.m4:9: gt_INTDIV0 is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/inttypes_h.m4:12: gl_AC_HEADER_INTTYPES_H is expanded from...
+m4/uintmax_t.m4:14: gl_AC_TYPE_UINTMAX_T is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/inttypes-pri.m4:14: gt_INTTYPES_PRI is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+m4/lock.m4:29: gl_LOCK_EARLY_BODY is expanded from...
+m4/lock.m4:22: gl_LOCK_EARLY is expanded from...
+m4/lock.m4:253: gl_LOCK is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+m4/lock.m4:82: gl_LOCK_BODY is expanded from...
+m4/lock.m4:253: gl_LOCK is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+m4/lock.m4:82: gl_LOCK_BODY is expanded from...
+m4/lock.m4:253: gl_LOCK is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intl.m4:270: gt_CHECK_DECL is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/iconv.m4:20: AM_ICONV_LINK is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/iconv.m4:20: AM_ICONV_LINK is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intl.m4:186: gt_INTL_SUBDIR_CORE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/wchar_t.m4:11: gt_TYPE_WCHAR_T is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/wint_t.m4:11: gt_TYPE_WINT_T is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intmax.m4:11: gt_TYPE_INTMAX_T is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/printf-posix.m4:11: gt_PRINTF_POSIX is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/size_max.m4:9: gl_SIZE_MAX is expanded from...
+m4/xsize.m4:7: gl_XSIZE is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intlmacosx.m4:18: gt_INTL_MACOSX is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intl.m4:270: gt_CHECK_DECL is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/codeset.m4:9: AM_LANGINFO_CODESET is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/lcmessage.m4:21: gt_LC_MESSAGES is expanded from...
+m4/intl.m4:25: AM_INTL_SUBDIR is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/intlmacosx.m4:18: gt_INTL_MACOSX is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:210: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:210: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/gettext.m4:57: AM_GNU_GETTEXT is expanded from...
+configure.ac:210: the top level
+configure.ac:212: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:212: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/iconv.m4:20: AM_ICONV_LINK is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+configure.ac:212: the top level
+configure.ac:212: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:212: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/iconv.m4:20: AM_ICONV_LINK is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+configure.ac:212: the top level
+configure.ac:212: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:212: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+m4/iconv.m4:154: AM_ICONV is expanded from...
+configure.ac:212: the top level
+configure.ac:234: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:234: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:234: the top level
+configure.ac:260: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:260: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:260: the top level
+configure.ac:291: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:291: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:291: the top level
+configure.ac:318: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:318: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:318: the top level
+configure.ac:361: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.ac:361: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.ac:361: the top level
+configure.ac:384: warning: AC_OUTPUT should be used without arguments.
+configure.ac:384: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:210: warning: The 'AM_PROG_MKDIR_P' macro is deprecated, and its use is discouraged.
+configure.ac:210: You should use the Autoconf-provided 'AC_PROG_MKDIR_P' macro instead,
+configure.ac:210: and use '$(MKDIR_P)' instead of '$(mkdir_p)'in your Makefile.am files.
+configure.ac:8: installing './compile'
+configure.ac:6: installing './missing'
+Makefile.am:8: warning: wildcard xml/M*: non-POSIX variable name
+Makefile.am:8: (probably a GNU make extension)
+Makefile.am:8: warning: wildcard xml/h*: non-POSIX variable name
+Makefile.am:8: (probably a GNU make extension)
+Makefile.am:8: warning: wildcard xml/lib*: non-POSIX variable name
+Makefile.am:8: (probably a GNU make extension)
+Makefile.am:3: warning: AM_GNU_GETTEXT used but 'po' not in SUBDIRS
+Makefile.am:3: warning: AM_GNU_GETTEXT used but 'intl' not in SUBDIRS
+html/Makefile.am:3: warning: wildcard *.html: non-POSIX variable name
+html/Makefile.am:3: (probably a GNU make extension)
+html/Makefile.am:4: warning: wildcard devel/*: non-POSIX variable name
+html/Makefile.am:4: (probably a GNU make extension)
+python/Makefile.am:16: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+python/Makefile.am: installing './depcomp'
+src/Makefile.am:91: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+xml/Makefile.am:1: warning: wildcard *.pdf: non-POSIX variable name
+xml/Makefile.am:1: (probably a GNU make extension)
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=' -march=i586 -mtune=generic'
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=i586-alt-linux --host=i586-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --enable-libpst-shared --disable-static --with-boost-python=boost_python312
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... i586-alt-linux-gnu
+checking host system type... i586-alt-linux-gnu
+checking whether make supports the include directive... yes (GNU style)
+checking for i586-alt-linux-gcc... i586-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether i586-alt-linux-gcc accepts -g... yes
+checking for i586-alt-linux-gcc option to enable C11 features... none needed
+checking whether i586-alt-linux-gcc understands -c and -o together... yes
+checking dependency style of i586-alt-linux-gcc... none
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for vfork.h... no
+checking for sys/time.h... yes
+checking for sys/param.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Solaris... no
+checking for Win32... no
+checking for Win32 platform in general... no
+checking whether we are enabling dii utility... yes
+checking for convert... /usr/bin/convert
+checking for gd.h... yes
+checking for i586-alt-linux-g++... i586-alt-linux-g++
+checking whether the compiler supports GNU C++... yes
+checking whether i586-alt-linux-g++ accepts -g... yes
+checking for i586-alt-linux-g++ option to enable C++11 features... none needed
+checking dependency style of i586-alt-linux-g++... none
+checking for i586-alt-linux-gcc... (cached) i586-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether i586-alt-linux-gcc accepts -g... (cached) yes
+checking for i586-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking whether i586-alt-linux-gcc understands -c and -o together... (cached) yes
+checking dependency style of i586-alt-linux-gcc... (cached) none
+checking how to run the C preprocessor... i586-alt-linux-gcc -E
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by i586-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert i586-alt-linux-gnu file names to i586-alt-linux-gnu format... func_convert_file_noop
+checking how to convert i586-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for i586-alt-linux-file... no
+checking for file... file
+checking for i586-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for i586-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for i586-alt-linux-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for i586-alt-linux-strip... no
+checking for strip... strip
+checking for i586-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from i586-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for i586-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if i586-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for i586-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if i586-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if i586-alt-linux-gcc static flag -static works... no
+checking if i586-alt-linux-gcc supports -c -o file.o... yes
+checking if i586-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the i586-alt-linux-gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... i586-alt-linux-g++ -E
+checking for ld used by i586-alt-linux-g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the i586-alt-linux-g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for i586-alt-linux-g++ option to produce PIC... -fPIC -DPIC
+checking if i586-alt-linux-g++ PIC flag -fPIC -DPIC works... yes
+checking if i586-alt-linux-g++ static flag -static works... no
+checking if i586-alt-linux-g++ supports -c -o file.o... yes
+checking if i586-alt-linux-g++ supports -c -o file.o... (cached) yes
+checking whether the i586-alt-linux-g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether make sets $(MAKE)... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking size of off_t... 8
+checking for unistd.h... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for egrep... (cached) /usr/bin/grep -E
+checking for ctype.h... yes
+checking for dirent.h... yes
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking for limits.h... yes
+checking for regex.h... yes
+checking for semaphore.h... yes
+checking for signal.h... yes
+checking for stdarg.h... yes
+checking for stdint.h... (cached) yes
+checking for stdio.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for sys/shm.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking for wchar.h... (cached) yes
+checking for library containing sem_init... none required
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for off_t... yes
+checking for size_t... yes
+checking for pid_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for fork... yes
+checking for vfork... yes
+checking for alarm... yes
+checking for vprintf... yes
+checking for getpagesize... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking whether lstat accepts an empty string... no
+checking whether lstat correctly handles trailing slash... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working mktime... yes
+checking for GNU libc compatible realloc... yes
+checking for strftime... yes
+checking for chdir... yes
+checking for getcwd... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for regcomp... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strpbrk... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for get_current_dir_name... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking whether we are using the GNU C Library 2 or newer... yes
+checking for i586-alt-linux-ranlib... ranlib
+checking for simple visibility declarations... yes
+checking for stdint.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working mmap... yes
+checking whether integer division by zero raises SIGFPE... no
+checking for inttypes.h... yes
+checking for unsigned long long int... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether imported symbols can be declared weak... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking for pthread_rwlock_t... yes
+checking for multithread API to use... posix
+checking for argz.h... yes
+checking for inttypes.h... (cached) yes
+checking for limits.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getcwd... (cached) yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for stpcpy... yes
+checking for strcasecmp... (cached) yes
+checking for strdup... (cached) yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for argz_count... yes
+checking for argz_stringify... yes
+checking for argz_next... yes
+checking for __fsetlocking... yes
+checking whether feof_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for NL_LOCALE_NAME macro... yes
+checking for bison... bison
+checking version of bison... 3.8.2, ok
+checking for long long int... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for intmax_t... yes
+checking whether printf() supports POSIX/XSI format strings... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for stdint.h... (cached) yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for ptrdiff_t... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for asprintf... yes
+checking for fwprintf... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for snprintf... yes
+checking for wcslen... yes
+checking whether _snprintf is declared... no
+checking whether _snwprintf is declared... no
+checking whether getc_unlocked is declared... yes
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... (cached) no
+checking for CFLocaleCopyCurrent... (cached) no
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for iconv... (cached) yes
+checking for working iconv... (cached) yes
+checking for iconv declaration... (cached) 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for regexec... yes
+checking whether we are forcing debug dump file creation... no
+checking whether we are building libpst shared object... yes
+checking whether to link command line tools with libpst statically... no
+checking whether to build the libpst python interface... yes
+checking for python build information... 
+checking for python3.12... python3.12
+checking for main in -lpython3.12... yes
+  results of the Python check:
+    Binary:      python3.12
+    Library:     python3.12
+    Include Dir: /usr/include/python3.12
+checking for python3.12... /usr/bin/python3.12
+checking for a version of Python >= '2.1.0'... yes
+checking for a version of Python 3.12... yes
+checking for the distutils Python package... yes
+checking for Python include path... -I/usr/include/python3.12
+checking for Python library path... -L/usr/lib -lpython3.12
+checking for Python site-packages path... /usr/lib/python3/site-packages
+checking python extra libraries... -ldl -lm
+checking python extra linking flags... -Xlinker -export-dynamic
+checking consistency of all components of python development environment... yes
+checking for boostlib >=  (102000)... yes
+checking whether the Boost::Python library is available... yes
+checking whether boost_python312 is the correct library... yes
+checking whether to link with gprof profiling... no
+checking for i586-alt-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libgsf-1... yes
+checking for zlib... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating html/Makefile
+config.status: creating libpst.pc
+config.status: creating libpst.spec
+config.status: creating man/Makefile
+config.status: creating src/Makefile
+config.status: creating src/pst2dii.cpp
+config.status: creating python/Makefile
+config.status: creating xml/Makefile
+config.status: creating xml/libpst
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
++ make -j16
+make  all-recursive
+Making all in src
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o dumpblocks.o dumpblocks.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o getidblock.o getidblock.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o lspst.o lspst.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o debug.lo debug.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c debug.c  -fPIC -DPIC -o .libs/debug.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o libstrfunc.lo libstrfunc.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c libstrfunc.c  -fPIC -DPIC -o .libs/libstrfunc.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o timeconv.lo timeconv.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c timeconv.c  -fPIC -DPIC -o .libs/timeconv.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o lzfu.lo lzfu.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c lzfu.c  -fPIC -DPIC -o .libs/lzfu.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o vbuf.lo vbuf.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c vbuf.c  -fPIC -DPIC -o .libs/vbuf.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..   -I/usr/include/libgsf-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o readpst-readpst.o `test -f 'readpst.c' || echo './'`readpst.c
+readpst.c: In function 'rfc2231_string':
+readpst.c:1204:22: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+ 1204 |             snprintf(z, 3, "%2x", *y);
+      |                      ^
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from common.h:6,
+                 from libpst.h:13,
+                 from define.h:15,
+                 from readpst.c:8:
+/usr/include/bits/stdio2.h:65:1: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   65 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o libpst.lo libpst.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./.. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c libpst.c  -fPIC -DPIC -o .libs/libpst.o
+libpst.c: In function 'pst_read_block_size':
+libpst.c:3832:36: error: passing argument 2 of 'uncompress' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3832 |     if (uncompress((Bytef *) *buf, &result_size, (Bytef *) zbuf, size) != Z_OK || result_size != inflated_size) {
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    size_t * {aka unsigned int *}
+In file included from libpst.c:9:
+/usr/include/zlib.h:1270:55: note: expected 'uLongf *' {aka 'long unsigned int *'} but argument is of type 'size_t *' {aka 'unsigned int *'}
+ 1270 | ZEXTERN int ZEXPORT uncompress(Bytef *dest,   uLongf *destLen,
+      |                                               ~~~~~~~~^~~~~~~
+libpst.c: In function 'pst_rfc2231':
+libpst.c:4481:22: warning: pointer targets in passing argument 1 of 'snprintf' differ in signedness [-Wpointer-sign]
+ 4481 |             snprintf(z, 3, "%2x", *y);
+      |                      ^
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from common.h:6,
+                 from libpst.h:13,
+                 from define.h:15,
+                 from libpst.c:8:
+/usr/include/bits/stdio2.h:65:1: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   65 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+make[2]: *** [Makefile:793: libpst.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o nick2ldif.o nick2ldif.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o deltasearch.o deltasearch.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..   -I/usr/include/libgsf-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o readpst-msg.o `test -f 'msg.cpp' || echo './'`msg.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2ldif.o pst2ldif.cpp
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+i586-alt-linux-g++ -DHAVE_CONFIG_H -I. -I.. -I./..     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -c -o pst2dii.o pst2dii.cpp
+pst2dii.cpp: In function 'void close_pdf()':
+pst2dii.cpp:385:17: warning: ignoring return value of 'int system(const char*)' declared with attribute 'warn_unused_result' [-Wunused-result]
+  385 |     (void)system(conversion.c_str());
+      |           ~~~~~~^~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libpst-0.6.76/src'
+make[1]: *** [Makefile:576: all-recursive] Error 1
+make: *** [Makefile:462: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56265 (%build)
+Command exited with non-zero status 1
+15.54user 7.76system 0:20.00elapsed 116%CPU (0avgtext+0avgdata 62736maxresident)k
+0inputs+0outputs (0major+2006240minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libpst-0.6.76-alt4.1.src.rpm' failed.
+Command exited with non-zero status 1
+5.77user 4.82system 0:51.58elapsed 20%CPU (0avgtext+0avgdata 132500maxresident)k
+880inputs+0outputs (0major+329551minor)pagefaults 0swaps

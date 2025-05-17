@@ -1,0 +1,119 @@
++ cd rpmhdrcache-0.3.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.62052
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd rpmhdrcache-0.3.2
++ gcc -shared -fPIC -D_GNU_SOURCE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o libqacache.so.0 -Wl,-soname,libqacache.so.0 cache.c -ldb -lcrypto -lsnappy -Wl,-z,defs
+cache.c: In function 'cache_get':
+cache.c: In function 'cache_get':
+cache.c:388:45: error: passing argument 1 of 'snappy_uncompressed_length' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:388:45: error: passing argument 1 of 'snappy_uncompressed_length' from incompatible pointer type [-Wincompatible-pointer-types]
+  388 |         if (snappy_uncompressed_length(vent + 1, csize, &usize)) {
+  388 |         if (snappy_uncompressed_length(vent + 1, csize, &usize)) {
+      |                                        ~~~~~^~~
+      |                                        ~~~~~^~~
+      |                                             |
+      |                                             |
+      |                                             struct cache_ent *
+      |                                             struct cache_ent *
+In file included from cache.c:262:
+In file included from cache.c:262:
+/usr/include/snappy-c.h:120:54: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+/usr/include/snappy-c.h:120:54: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+  120 | snappy_status snappy_uncompressed_length(const char* compressed,
+  120 | snappy_status snappy_uncompressed_length(const char* compressed,
+  120 | snappy_status snappy_uncompressed_length(const char* compressed,
+      |                                          ~~~~~~~~~~~~^~~~~~~~~~
+      |                                          ~~~~~~~~~~~~^~~~~~~~~~
+      |                                          ~~~~~~~~~~~~^~~~~~~~~~
+cache.c:397:40: error: passing argument 1 of 'snappy_uncompress' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:397:40: error: passing argument 1 of 'snappy_uncompress' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:397:40: error: passing argument 1 of 'snappy_uncompress' from incompatible pointer type [-Wincompatible-pointer-types]
+  397 |             if (snappy_uncompress(vent + 1, csize, *valp, &usize)) {
+  397 |             if (snappy_uncompress(vent + 1, csize, *valp, &usize)) {
+  397 |             if (snappy_uncompress(vent + 1, csize, *valp, &usize)) {
+      |                                   ~~~~~^~~
+      |                                   ~~~~~^~~
+      |                                        |
+      |                                        |
+      |                                        struct cache_ent *
+      |                                        struct cache_ent *
+/usr/include/snappy-c.h:103:45: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+/usr/include/snappy-c.h:103:45: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+  103 | snappy_status snappy_uncompress(const char* compressed,
+  103 | snappy_status snappy_uncompress(const char* compressed,
+      |                                 ~~~~~~~~~~~~^~~~~~~~~~
+      |                                 ~~~~~~~~~~~~^~~~~~~~~~
+      |                                 ~~~~~~~~~~~~^~~~~~~~~~
+cache.c:406:56: error: passing argument 1 of 'snappy_validate_compressed_buffer' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:406:56: error: passing argument 1 of 'snappy_validate_compressed_buffer' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:406:56: error: passing argument 1 of 'snappy_validate_compressed_buffer' from incompatible pointer type [-Wincompatible-pointer-types]
+  406 |             if (snappy_validate_compressed_buffer(vent + 1, csize)) {
+  406 |             if (snappy_validate_compressed_buffer(vent + 1, csize)) {
+  406 |             if (snappy_validate_compressed_buffer(vent + 1, csize)) {
+      |                                                   ~~~~~^~~
+      |                                                   ~~~~~^~~
+      |                                                   ~~~~~^~~
+      |                                                        |
+      |                                                        |
+      |                                                        struct cache_ent *
+      |                                                        struct cache_ent *
+/usr/include/snappy-c.h:131:61: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+/usr/include/snappy-c.h:131:61: note: expected 'const char *' but argument is of type 'struct cache_ent *'
+  131 | snappy_status snappy_validate_compressed_buffer(const char* compressed,
+  131 | snappy_status snappy_validate_compressed_buffer(const char* compressed,
+      |                                                 ~~~~~~~~~~~~^~~~~~~~~~
+      |                                                 ~~~~~~~~~~~~^~~~~~~~~~
+      |                                                 ~~~~~~~~~~~~^~~~~~~~~~
+cache.c: In function 'cache_put':
+cache.c: In function 'cache_put':
+cache.c: In function 'cache_put':
+cache.c:458:44: error: passing argument 3 of 'snappy_compress' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:458:44: error: passing argument 3 of 'snappy_compress' from incompatible pointer type [-Wincompatible-pointer-types]
+cache.c:458:44: error: passing argument 3 of 'snappy_compress' from incompatible pointer type [-Wincompatible-pointer-types]
+  458 |     if (snappy_compress(val, valsize, vent + 1, &csize)) {
+  458 |     if (snappy_compress(val, valsize, vent + 1, &csize)) {
+  458 |     if (snappy_compress(val, valsize, vent + 1, &csize)) {
+      |                                       ~~~~~^~~
+      |                                       ~~~~~^~~
+      |                                            |
+      |                                            |
+      |                                            struct cache_ent *
+      |                                            struct cache_ent *
+/usr/include/snappy-c.h:73:37: note: expected 'char *' but argument is of type 'struct cache_ent *'
+/usr/include/snappy-c.h:73:37: note: expected 'char *' but argument is of type 'struct cache_ent *'
+   73 |                               char* compressed,
+   73 |                               char* compressed,
+   73 |                               char* compressed,
+      |                               ~~~~~~^~~~~~~~~~
+      |                               ~~~~~~^~~~~~~~~~
+      |                               ~~~~~~^~~~~~~~~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62052 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62052 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62052 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.62052 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.62052 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.07user 0.06system 0:00.17elapsed 82%CPU (0avgtext+0avgdata 22864maxresident)k
+0.07user 0.06system 0:00.17elapsed 82%CPU (0avgtext+0avgdata 22864maxresident)k
+0inputs+0outputs (0major+8058minor)pagefaults 0swaps
+0inputs+0outputs (0major+8058minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `rpmhdrcache-0.3.2-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `rpmhdrcache-0.3.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.84user 3.12system 0:12.64elapsed 70%CPU (0avgtext+0avgdata 138564maxresident)k
+5.84user 3.12system 0:12.64elapsed 70%CPU (0avgtext+0avgdata 138564maxresident)k
+488inputs+0outputs (0major+197963minor)pagefaults 0swaps

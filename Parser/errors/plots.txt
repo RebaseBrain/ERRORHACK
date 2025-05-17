@@ -1,0 +1,54 @@
+'./usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/share/locale/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/share/locale/__pycache__/__init__.cpython-312.pyc'
+'./usr/share/locale/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/share/locale/__pycache__/__init__.cpython-312.opt-1.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.90543
+Check is turned off by --disable check
+Processing files: plots-0.8.5-alt1
+error: No such file or directory: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/Plots-0.8.5.dist-info
+Executing(%doc): /bin/sh -e /usr/src/tmp/rpm-tmp.90543
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd plots-0.8.5
++ DOCDIR=/usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ export DOCDIR
++ export DOCDIR
++ rm -rf /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ rm -rf /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ /bin/mkdir -p /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ /bin/mkdir -p /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ cp -prL README.md /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ cp -prL README.md /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R go-w /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R go-w /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R a+rX /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R a+rX /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ exit 0
++ exit 0
+
+
+
+
+RPM build errors:
+RPM build errors:
+    No such file or directory: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/Plots-0.8.5.dist-info
+    No such file or directory: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/Plots-0.8.5.dist-info
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.98user 0.66system 0:01.53elapsed 106%CPU (0avgtext+0avgdata 30912maxresident)k
+0.98user 0.66system 0:01.53elapsed 106%CPU (0avgtext+0avgdata 30912maxresident)k
+0inputs+0outputs (0major+125614minor)pagefaults 0swaps
+0inputs+0outputs (0major+125614minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `plots-0.8.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `plots-0.8.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.32user 3.81system 0:18.87elapsed 53%CPU (0avgtext+0avgdata 140608maxresident)k
+6.32user 3.81system 0:18.87elapsed 53%CPU (0avgtext+0avgdata 140608maxresident)k
+9488inputs+0outputs (0major+338124minor)pagefaults 0swaps
+9488inputs+0outputs (0major+338124minor)pagefaults 0swaps
+

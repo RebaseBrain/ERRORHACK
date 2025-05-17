@@ -1,0 +1,104 @@
+<86>May 16 01:02:56 userdel[82046]: delete user 'rooter'
+<86>May 16 01:02:56 userdel[82046]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:02:56 userdel[82046]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:02:56 groupadd[82056]: group added to /etc/group: name=rooter, GID=1841
+<86>May 16 01:02:56 groupadd[82056]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:02:56 groupadd[82056]: new group: name=rooter, GID=1841
+<86>May 16 01:02:56 useradd[82068]: new user: name=rooter, UID=1841, GID=1841, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:02:57 userdel[82088]: delete user 'builder'
+<86>May 16 01:02:57 userdel[82088]: removed group 'builder' owned by 'builder'
+<86>May 16 01:02:57 userdel[82088]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:02:57 groupadd[82110]: group added to /etc/group: name=builder, GID=1842
+<86>May 16 01:02:57 groupadd[82110]: group added to /etc/gshadow: name=builder
+<86>May 16 01:02:57 groupadd[82110]: new group: name=builder, GID=1842
+<86>May 16 01:02:57 useradd[82127]: new user: name=builder, UID=1842, GID=1842, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:03:00 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:03:00 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:03:01 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:03:01 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:03:01 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 01:03:01 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:03:01 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:03:01 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:03:01 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 01:03:01 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:03:01 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:03:01 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:03:01 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:03:01 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:03:01 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 01:03:01 rpmi: libogg-devel-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 01:03:01 rpmi: libkate-0.4.3-alt1 sisyphus+377799.200.2.1 1741844906 installed
+<13>May 16 01:03:01 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 01:03:01 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 01:03:01 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 01:03:01 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 01:03:01 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:03:01 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:03:01 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:03:01 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:03:01 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:03:01 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 01:03:02 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 01:03:02 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:03:02 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:03:02 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:03:02 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:03:02 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:03:02 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:03:02 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:03:02 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:03:02 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:03:02 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:03:03 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:03:03 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:03:03 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:03:03 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:03:03 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:03:03 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 01:03:03 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 01:03:04 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:03:04 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:03:04 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:03:04 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 01:03:04 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:03:04 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:03:04 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:03:04 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:03:04 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:03:04 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:03:04 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:03:04 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:03:04 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:03:04 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:03:04 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:03:04 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:03:04 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:03:04 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:03:04 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:03:05 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:03:05 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:03:05 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:03:05 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:03:05 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:03:05 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:03:05 rpmi: libpango-devel-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 01:03:05 rpmi: libkate-devel-0.4.3-alt1 sisyphus+377799.200.2.1 1741844906 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/libtiger-0.3.4-alt1.qa2.nosrc.rpm (w1.gzdio)
+Reading Package Lists...
+Building Dependency Tree...
+libkate-devel is already the newest version.
+libpango-devel is already the newest version.
+Package automake_1.11 has no available version, but exists in the database.
+This typically means that the package was mentioned in a dependency and
+never uploaded, has been obsoleted or is not available with the contents
+of sources.list
+E: Package automake_1.11 has no installation candidate
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.53user 2.50system 0:13.21elapsed 45%CPU (0avgtext+0avgdata 139816maxresident)k
+128inputs+0outputs (0major+202183minor)pagefaults 0swaps

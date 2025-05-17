@@ -1,0 +1,89 @@
+<86>May 16 01:13:07 useradd[1928152]: new user: name=rooter, UID=1814, GID=1814, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:13:07 userdel[1928175]: delete user 'builder'
+<86>May 16 01:13:07 userdel[1928175]: delete user 'builder'
+<86>May 16 01:13:07 userdel[1928175]: removed group 'builder' owned by 'builder'
+<86>May 16 01:13:07 userdel[1928175]: removed group 'builder' owned by 'builder'
+<86>May 16 01:13:07 userdel[1928175]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:13:07 userdel[1928175]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:13:07 groupadd[1928191]: group added to /etc/group: name=builder, GID=1815
+<86>May 16 01:13:07 groupadd[1928191]: group added to /etc/group: name=builder, GID=1815
+<86>May 16 01:13:07 groupadd[1928191]: group added to /etc/gshadow: name=builder
+<86>May 16 01:13:07 groupadd[1928191]: group added to /etc/gshadow: name=builder
+<86>May 16 01:13:07 groupadd[1928191]: new group: name=builder, GID=1815
+<86>May 16 01:13:07 groupadd[1928191]: new group: name=builder, GID=1815
+<86>May 16 01:13:07 useradd[1928201]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+<86>May 16 01:13:07 useradd[1928201]: new user: name=builder, UID=1815, GID=1815, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/java3d-1.5.2-alt6_15jpp8.src.rpm: bad symbols in the license tag: ,
+/usr/src/in/srpm/java3d-1.5.2-alt6_15jpp8.src.rpm: bad symbols in the license tag: ,
+<13>May 16 01:13:10 rpmi: rpm-macros-java-1:6.0.0-alt3 sisyphus+378353.100.1.1 1742277151 installed
+<13>May 16 01:13:10 rpmi: rpm-macros-java-1:6.0.0-alt3 sisyphus+378353.100.1.1 1742277151 installed
+sh: line 1: /usr/share/java-utils/java-functions: No such file or directory
+sh: line 1: /usr/share/java-utils/java-functions: No such file or directory
+sh: line 1: /usr/share/java-utils/java-functions: No such file or directory
+sh: line 1: /usr/share/java-utils/java-functions: No such file or directory
+Reading Package Lists...
+Reading Package Lists...
+Building Dependency Tree...
+Building Dependency Tree...
+MI2a: marked for install (shallow): gcc-c++
+MI2a: marked for install (shallow): gcc-c++
+MI2a:  satisfying Depends: gcc14-c++  (NULL)
+MI2a:  satisfying Depends: gcc14-c++  (NULL)
+MI2a:   maybe install (a direct target): gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131018
+MI2a:   maybe install (a direct target): gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131018
+MI2a:  target SELECTED: gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131018
+MI2a:  target SELECTED: gcc14-c++ 14.2.1-alt1:sisyphus+360995.100.1.1@1730131018
+MI2a:  requesting to install gcc14-c++ (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:  requesting to install gcc14-c++ (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:    marked for install (shallow): gcc14-c++
+MI2a:    marked for install (shallow): gcc14-c++
+MI2a:     satisfying Depends: libstdc++14-devel = 14.2.1-alt1:sisyphus+360995.100.1.1
+MI2a:     satisfying Depends: libstdc++14-devel = 14.2.1-alt1:sisyphus+360995.100.1.1
+MI2a:      maybe install (a direct target): libstdc++14-devel 14.2.1-alt1:sisyphus+360995.100.1.1@1730131018
+MI2a:    marked for install (shallow): junit
+MI2a:     satisfying Depends: mvn(org.hamcrest:hamcrest-core)  (NULL)
+MI2a:     satisfying Depends: mvn(org.hamcrest:hamcrest-core)  (NULL)
+MI2a:      maybe install (a providing target): hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:      maybe install (a providing target): hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:      maybe install (a providing target): hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:     target SELECTED: hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:     target SELECTED: hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:     target SELECTED: hamcrest 0:2.2-alt1_5jpp11:sisyphus+301728.200.1.1@1654860789
+MI2a:     requesting to install hamcrest (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:     requesting to install hamcrest (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:     requesting to install hamcrest (unspec'd ver; inspect with Debug::pkgMark-shallow)
+MI2a:       marked for install (shallow): hamcrest
+MI2a:       marked for install (shallow): hamcrest
+MI2a:       marked for install (shallow): hamcrest
+rpm-macros-java is already the newest version.
+rpm-macros-java is already the newest version.
+rpm-macros-java is already the newest version.
+Selecting filesystem for '/proc'
+Selecting filesystem for '/proc'
+Selecting filesystem for '/proc'
+filesystem is already the newest version.
+filesystem is already the newest version.
+filesystem is already the newest version.
+glibc-devel is already the newest version.
+glibc-devel is already the newest version.
+glibc-devel is already the newest version.
+E: Couldn't find package jogl
+E: Couldn't find package jogl
+E: Couldn't find package jogl
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+hsh-install: Failed to generate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.27user 2.18system 0:07.60elapsed 71%CPU (0avgtext+0avgdata 142836maxresident)k
+3.27user 2.18system 0:07.60elapsed 71%CPU (0avgtext+0avgdata 142836maxresident)k
+3.27user 2.18system 0:07.60elapsed 71%CPU (0avgtext+0avgdata 142836maxresident)k
+0inputs+0outputs (0major+151971minor)pagefaults 0swaps
+0inputs+0outputs (0major+151971minor)pagefaults 0swaps
+0inputs+0outputs (0major+151971minor)pagefaults 0swaps
+
+

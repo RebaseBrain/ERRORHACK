@@ -1,0 +1,308 @@
+Compiling the SGML translator tools (in sgmls-1.1/)...
+make: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69'
+( cd sgmls-1.1 ; \
+  make CFLAGS="    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto" LDFLAGS=" " sgmlsasp )
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o strerror.o strerror.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o sgmls.o sgmls.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o sgmls.o sgmls.c
+In file included from sgmls.c:7:
+In file included from sgmls.c:7:
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+      |              ^~~~~~
+      |              ^~~~~~
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+make[1]: *** [<builtin>: sgmls.o] Error 1
+make[1]: *** [<builtin>: sgmls.o] Error 1
+make[1]: *** [<builtin>: sgmls.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o getopt.o getopt.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o getopt.o getopt.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o getopt.o getopt.c
+In file included from getopt.c:12:
+In file included from getopt.c:12:
+In file included from getopt.c:12:
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+getopt.c: In function 'getopt':
+getopt.c: In function 'getopt':
+getopt.c: In function 'getopt':
+getopt.c: In function 'getopt':
+getopt.c:30:8: error: argument 'argv' doesn't match prototype
+getopt.c:30:8: error: argument 'argv' doesn't match prototype
+getopt.c:30:8: error: argument 'argv' doesn't match prototype
+getopt.c:30:8: error: argument 'argv' doesn't match prototype
+   30 | char **argv;
+   30 | char **argv;
+   30 | char **argv;
+   30 | char **argv;
+      |        ^~~~
+      |        ^~~~
+      |        ^~~~
+      |        ^~~~
+      |        ^~~~
+In file included from /usr/include/bits/getopt_posix.h:27,
+In file included from /usr/include/bits/getopt_posix.h:27,
+In file included from /usr/include/bits/getopt_posix.h:27,
+In file included from /usr/include/bits/getopt_posix.h:27,
+                 from /usr/include/unistd.h:903,
+                 from /usr/include/unistd.h:903,
+                 from /usr/include/unistd.h:903,
+                 from /usr/include/unistd.h:903,
+                 from std.h:65:
+                 from std.h:65:
+                 from std.h:65:
+                 from std.h:65:
+                 from std.h:65:
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+getopt.c:31:7: error: argument 'opts' doesn't match prototype
+getopt.c:31:7: error: argument 'opts' doesn't match prototype
+getopt.c:31:7: error: argument 'opts' doesn't match prototype
+getopt.c:31:7: error: argument 'opts' doesn't match prototype
+getopt.c:31:7: error: argument 'opts' doesn't match prototype
+   31 | char *opts;
+   31 | char *opts;
+   31 | char *opts;
+   31 | char *opts;
+   31 | char *opts;
+      |       ^~~~
+      |       ^~~~
+      |       ^~~~
+      |       ^~~~
+      |       ^~~~
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+/usr/include/bits/getopt_core.h:91:12: error: prototype declaration
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+   91 | extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+make[1]: *** [<builtin>: getopt.o] Error 1
+make[1]: *** [<builtin>: getopt.o] Error 1
+make[1]: *** [<builtin>: getopt.o] Error 1
+make[1]: *** [<builtin>: getopt.o] Error 1
+make[1]: *** [<builtin>: getopt.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o replace.o replace.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o replace.o replace.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o replace.o replace.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o replace.o replace.c
+In file included from sgmlsasp.h:4,
+In file included from sgmlsasp.h:4,
+In file included from sgmlsasp.h:4,
+In file included from sgmlsasp.h:4,
+                 from replace.c:6:
+                 from replace.c:6:
+                 from replace.c:6:
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+      |                  ^~~~~~
+      |                  ^~~~~~
+replace.c: In function 'get_token':
+replace.c: In function 'get_token':
+replace.c: In function 'get_token':
+replace.c:277:1: warning: control reaches end of non-void function [-Wreturn-type]
+replace.c:277:1: warning: control reaches end of non-void function [-Wreturn-type]
+replace.c:277:1: warning: control reaches end of non-void function [-Wreturn-type]
+  277 | }
+  277 | }
+  277 | }
+      | ^
+      | ^
+      | ^
+make[1]: *** [<builtin>: replace.o] Error 1
+make[1]: *** [<builtin>: replace.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Entering directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o sgmlsasp.o sgmlsasp.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o sgmlsasp.o sgmlsasp.c
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -c -o sgmlsasp.o sgmlsasp.c
+In file included from sgmlsasp.h:4,
+In file included from sgmlsasp.h:4,
+In file included from sgmlsasp.h:4,
+                 from sgmlsasp.c:6:
+                 from sgmlsasp.c:6:
+                 from sgmlsasp.c:6:
+                 from sgmlsasp.c:6:
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+std.h:95:14: error: conflicting types for 'fpos_t'; have 'long int'
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+   95 | typedef long fpos_t;
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+In file included from std.h:8:
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+/usr/include/stdio.h:85:18: note: previous declaration of 'fpos_t' with type 'fpos_t'
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+   85 | typedef __fpos_t fpos_t;
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+      |                  ^~~~~~
+make[1]: *** [<builtin>: sgmlsasp.o] Error 1
+make[1]: *** [<builtin>: sgmlsasp.o] Error 1
+make[1]: *** [<builtin>: sgmlsasp.o] Error 1
+make[1]: *** [<builtin>: sgmlsasp.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/linuxdoc-tools-0.9.69/sgmls-1.1'
+make: *** [Makefile:57: all] Error 2
+make: *** [Makefile:57: all] Error 2
+make: *** [Makefile:57: all] Error 2
+make: *** [Makefile:57: all] Error 2
+make: *** [Makefile:57: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.26221 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.95user 1.01system 0:02.04elapsed 96%CPU (0avgtext+0avgdata 31536maxresident)k
+0.95user 1.01system 0:02.04elapsed 96%CPU (0avgtext+0avgdata 31536maxresident)k
+0.95user 1.01system 0:02.04elapsed 96%CPU (0avgtext+0avgdata 31536maxresident)k
+0.95user 1.01system 0:02.04elapsed 96%CPU (0avgtext+0avgdata 31536maxresident)k
+0inputs+0outputs (0major+145961minor)pagefaults 0swaps
+0inputs+0outputs (0major+145961minor)pagefaults 0swaps
+0inputs+0outputs (0major+145961minor)pagefaults 0swaps
+0inputs+0outputs (0major+145961minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `linuxdoc-tools-0.9.69-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `linuxdoc-tools-0.9.69-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `linuxdoc-tools-0.9.69-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+12.13user 7.62system 3:15.72elapsed 10%CPU (0avgtext+0avgdata 141772maxresident)k
+12.13user 7.62system 3:15.72elapsed 10%CPU (0avgtext+0avgdata 141772maxresident)k
+0inputs+0outputs (0major+313019minor)pagefaults 0swaps

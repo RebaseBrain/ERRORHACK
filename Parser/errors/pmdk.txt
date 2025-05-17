@@ -1,0 +1,140 @@
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/librpmem'
+make -C librpmem DEBUG=1
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/librpmem'
+NOTE: Skipping librpmem because libfabric (version >= 1.4.2) is missing -- see src/librpmem/README for details
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/librpmem'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/librpmem'
+mkdir -p ../debug/librpmem
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/librpmem'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/deps/miniasync'
+cd ./build && cmake .. -DCMAKE_BUILD_TYPE=Release
+CMake Error at CMakeLists.txt:6 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+make[3]: *** [Makefile:18: configure] Error 1
+make[3]: *** [Makefile:18: configure] Error 1
+make[3]: *** [Makefile:18: configure] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/deps/miniasync'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/deps/miniasync'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/deps/miniasync'
+make[2]: *** [Makefile:12: all] Error 2
+make[2]: *** [Makefile:12: all] Error 2
+make[2]: *** [Makefile:12: all] Error 2
+make[1]: *** [Makefile:149: deps] Error 2
+make[1]: *** [Makefile:149: deps] Error 2
+make[1]: *** [Makefile:149: deps] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+cc -MD -c -o ../nondebug/core/alloc.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  alloc.c
+cc -MD -c -o ../nondebug/core/alloc.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  alloc.c
+cc -MD -c -o ../nondebug/core/alloc.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  alloc.c
+../../src/../utils/check-os.sh ../../src/../utils/os-banned  ../nondebug/core/alloc.o  alloc.c
+../../src/../utils/check-os.sh ../../src/../utils/os-banned  ../nondebug/core/alloc.o  alloc.c
+../../src/../utils/check-os.sh ../../src/../utils/os-banned  ../nondebug/core/alloc.o  alloc.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+cc -MD -c -o ../nondebug/core/fs_posix.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  fs_posix.c
+cc -MD -c -o ../nondebug/core/fs_posix.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  fs_posix.c
+cc -MD -c -o ../nondebug/core/fs_posix.o -pipe -frecord-gcc-switches -Wall -g -O2  -std=gnu99 -fno-common -pthread -DSRCVERSION=\"1.12.1\" -fno-lto -DSDS_ENABLED -DNDCTL_ENABLED=1   -I../include -I../common/ -I../core/  -fPIC  fs_posix.c
+../../src/../utils/check-os.sh ../../src/../utils/os-banned  ../nondebug/core/fs_posix.o  fs_posix.c
+../../src/../utils/check-os.sh ../../src/../utils/os-banned  ../nondebug/core/fs_posix.o  fs_posix.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/core'
+ln -sf libpmem2.so.1 ../debug/libpmem2/../libpmem2.so
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+objcopy --localize-hidden `sed -n 's/^	*\([a-zA-Z0-9_]*\);$/-G \1/p' libpmem2.link` ../debug/libpmem2/libpmem2_unscoped.o ../debug/libpmem2/libpmem2_all.o
+objcopy --localize-hidden `sed -n 's/^	*\([a-zA-Z0-9_]*\);$/-G \1/p' libpmem2.link` ../debug/libpmem2/libpmem2_unscoped.o ../debug/libpmem2/libpmem2_all.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+ar rv ../debug/libpmem2/../libpmem2.a ../debug/libpmem2/libpmem2_all.o
+ar rv ../debug/libpmem2/../libpmem2.a ../debug/libpmem2/libpmem2_all.o
+ar: creating ../debug/libpmem2/../libpmem2.a
+ar: creating ../debug/libpmem2/../libpmem2.a
+a - ../debug/libpmem2/libpmem2_all.o
+a - ../debug/libpmem2/libpmem2_all.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pmdk-1.12.1/src/libpmem2'
+make: *** [Makefile:58: all] Error 2
+make: *** [Makefile:58: all] Error 2
+make: *** [Makefile:58: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.31120 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+86.69user 29.25system 0:11.94elapsed 970%CPU (0avgtext+0avgdata 188756maxresident)k
+86.69user 29.25system 0:11.94elapsed 970%CPU (0avgtext+0avgdata 188756maxresident)k
+86.69user 29.25system 0:11.94elapsed 970%CPU (0avgtext+0avgdata 188756maxresident)k
+0inputs+0outputs (0major+5406814minor)pagefaults 0swaps
+0inputs+0outputs (0major+5406814minor)pagefaults 0swaps
+0inputs+0outputs (0major+5406814minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pmdk-1.12.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `pmdk-1.12.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `pmdk-1.12.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.80user 6.53system 1:15.76elapsed 20%CPU (0avgtext+0avgdata 141912maxresident)k
+8.80user 6.53system 1:15.76elapsed 20%CPU (0avgtext+0avgdata 141912maxresident)k
+58544inputs+0outputs (0major+312395minor)pagefaults 0swaps

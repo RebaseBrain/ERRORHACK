@@ -1,0 +1,825 @@
+<86>May 16 01:20:42 userdel[3100699]: delete user 'rooter'
+<86>May 16 01:20:42 userdel[3100699]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:20:42 userdel[3100699]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:20:42 groupadd[3100750]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 01:20:42 groupadd[3100750]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:20:42 groupadd[3100750]: new group: name=rooter, GID=1823
+<86>May 16 01:20:42 useradd[3100783]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:20:42 userdel[3100840]: delete user 'builder'
+<86>May 16 01:20:42 userdel[3100840]: removed group 'builder' owned by 'builder'
+<86>May 16 01:20:42 userdel[3100840]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:20:42 groupadd[3100892]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 01:20:42 groupadd[3100892]: group added to /etc/gshadow: name=builder
+<86>May 16 01:20:42 groupadd[3100892]: new group: name=builder, GID=1824
+<86>May 16 01:20:42 useradd[3100952]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:20:46 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:20:46 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:20:46 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:20:46 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:20:46 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:20:46 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:20:46 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:20:46 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:20:46 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:20:46 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:20:46 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:20:46 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:20:46 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:20:46 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:20:46 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:20:46 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:20:46 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 01:20:46 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+<13>May 16 01:20:46 rpmi: rpm-macros-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 01:20:46 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:20:46 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:20:46 rpmi: rpm-build-pyproject-0.0.9-alt1 sisyphus+362541.300.2.1 1731671840 installed
+<13>May 16 01:20:49 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 01:20:49 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 01:20:49 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 01:20:49 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 16 01:20:49 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 01:20:49 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 01:20:49 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 01:20:49 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 16 01:20:49 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 01:20:49 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 01:20:49 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:20:49 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:20:49 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:20:49 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:20:49 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:20:50 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:20:50 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:20:50 rpmi: python3-module-pytest-8.3.5-alt2 sisyphus+383865.100.1.1 1747039699 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-django-environ-0.10.0-alt1.nosrc.rpm (w1.gzdio)
+Installing python3-module-django-environ-0.10.0-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.96821
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf python3-module-django-environ-0.10.0
++ echo 'Source #0 (python3-module-django-environ-0.10.0.tar):'
+Source #0 (python3-module-django-environ-0.10.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/python3-module-django-environ-0.10.0.tar
++ cd python3-module-django-environ-0.10.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep518
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep518 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show pep517
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync pep517 --verify --verify-exclude 'wheel$'
+INFO     : pyproject.toml was not found, using defaults
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json show metadata
++ /usr/bin/python3 -m pyproject_installer deps --depsconfig /usr/src/RPM/SOURCES/pyproject_deps.json sync metadata --verify
+INFO     : Building metadata
+INFO     : Building metadata with prepare_metadata_for_build_wheel
+INFO     : Source tree: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0
+INFO     : Output dir: /usr/src/tmp/tmpiea92zhw
+INFO     : pyproject.toml was not found, using defaults
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.79066
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-django-environ-0.10.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib64/python3/site-packages/setuptools/dist.py:761: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO     : root : running bdist_wheel
+/usr/lib64/python3/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+!!
+
+        ********************************************************************************
+        With Python 2.7 end-of-life, support for building universal wheels
+        (i.e., wheels that support both Python 2 and Python 3)
+        is being obviated.
+        Please discontinue using this option, or if you still need it,
+        file an issue with pypa/setuptools describing your use case.
+
+        By 2025-Aug-30, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+        ********************************************************************************
+
+!!
+  self.finalize_options()
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/environ
+INFO     : root : copying environ/fileaware_mapping.py -> build/lib/environ
+INFO     : root : copying environ/environ.py -> build/lib/environ
+INFO     : root : copying environ/compat.py -> build/lib/environ
+INFO     : root : copying environ/__init__.py -> build/lib/environ
+INFO     : root : running egg_info
+INFO     : root : writing django_environ.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to django_environ.egg-info/dependency_links.txt
+INFO     : root : writing requirements to django_environ.egg-info/requires.txt
+INFO     : root : writing top-level names to django_environ.egg-info/top_level.txt
+INFO     : root : reading manifest file 'django_environ.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+WARNING  : root : warning: no files found matching '*.png' under directory 'docs'
+WARNING  : root : warning: no files found matching '*.svg' under directory 'docs'
+WARNING  : root : no previously-included directories found matching 'docs/_build'
+INFO     : root : adding license file 'LICENSE.txt'
+INFO     : root : adding license file 'AUTHORS.rst'
+INFO     : root : writing manifest file 'django_environ.egg-info/SOURCES.txt'
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/environ
+INFO     : root : copying build/lib/environ/__init__.py -> build/bdist.linux-x86_64/wheel/./environ
+INFO     : root : copying build/lib/environ/compat.py -> build/bdist.linux-x86_64/wheel/./environ
+INFO     : root : copying build/lib/environ/environ.py -> build/bdist.linux-x86_64/wheel/./environ
+INFO     : root : copying build/lib/environ/fileaware_mapping.py -> build/bdist.linux-x86_64/wheel/./environ
+INFO     : root : running install_egg_info
+INFO     : root : Copying django_environ.egg-info to build/bdist.linux-x86_64/wheel/./django_environ-0.10.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/django_environ-0.10.0.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist/.tmp-_r2tuc65/django_environ-0.10.0-py2.py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/licenses/AUTHORS.rst'
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/licenses/LICENSE.txt'
+INFO     : wheel : adding 'environ/__init__.py'
+INFO     : wheel : adding 'environ/compat.py'
+INFO     : wheel : adding 'environ/environ.py'
+INFO     : wheel : adding 'environ/fileaware_mapping.py'
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/METADATA'
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/WHEEL'
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/top_level.txt'
+INFO     : wheel : adding 'django_environ-0.10.0.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: django_environ-0.10.0-py2.py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.79066
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-django-environ-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-django-environ-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd python3-module-django-environ-0.10.0
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-django-environ-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: django_environ-0.10.0-py2.py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-django-environ-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_environ-0.10.0.dist-info/licenses/AUTHORS.rst
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_environ-0.10.0.dist-info/licenses/LICENSE.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_environ-0.10.0.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_environ-0.10.0.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_environ-0.10.0.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-django-environ-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-django-environ-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-django-environ-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-django-environ-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-django-environ-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-django-environ-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-django-environ-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-django-environ-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/__init__.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/compat.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/environ.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/fileaware_mapping.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-django-environ-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/__init__.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/compat.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/environ.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/fileaware_mapping.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-django-environ-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/__init__.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/compat.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/environ.py
+compile /usr/src/tmp/python3-module-django-environ-buildroot/usr/lib/python3/site-packages/environ/fileaware_mapping.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/environ/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/environ/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/environ/__pycache__/compat.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/environ/__pycache__/compat.cpython-312.pyc'
+'./usr/lib/python3/site-packages/environ/__pycache__/environ.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/environ/__pycache__/environ.cpython-312.pyc'
+'./usr/lib/python3/site-packages/environ/__pycache__/fileaware_mapping.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/environ/__pycache__/fileaware_mapping.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.79066
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd python3-module-django-environ-0.10.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ /usr/bin/python3 -m pyproject_installer run -- python3 -m pytest -vra tests
+INFO     : Creating venv
+INFO     : Installing console scripts
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist/django_environ-0.10.0-py2.py3-none-any.whl
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/dist/django_environ-0.10.0-py2.py3-none-any.whl']
+INFO     : Running command: ['python3', '-m', 'pytest', '-vra', 'tests']
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0 -- /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/.run_venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0
+configfile: tox.ini
+collecting ... collected 350 items
+
+tests/test_cache.py::test_base_options_parsing PASSED                    [  0%]
+tests/test_cache.py::test_cache_parsing[dbcache] PASSED                  [  0%]
+tests/test_cache.py::test_cache_parsing[filecache] PASSED                [  0%]
+tests/test_cache.py::test_cache_parsing[filecache_win] PASSED            [  1%]
+tests/test_cache.py::test_cache_parsing[locmemcache_empty] PASSED        [  1%]
+tests/test_cache.py::test_cache_parsing[locmemcache] PASSED              [  1%]
+tests/test_cache.py::test_cache_parsing[dummycache] PASSED               [  2%]
+tests/test_cache.py::test_cache_parsing[rediss] PASSED                   [  2%]
+tests/test_cache.py::test_cache_parsing[redis_with_password] PASSED      [  2%]
+tests/test_cache.py::test_cache_parsing[redis_multiple] PASSED           [  2%]
+tests/test_cache.py::test_cache_parsing[redis_socket] PASSED             [  3%]
+tests/test_cache.py::test_cache_parsing[memcached_socket] PASSED         [  3%]
+tests/test_cache.py::test_cache_parsing[memcached_multiple] PASSED       [  3%]
+tests/test_cache.py::test_cache_parsing[memcached] PASSED                [  4%]
+tests/test_cache.py::test_cache_parsing[pylibmccache] PASSED             [  4%]
+tests/test_cache.py::test_cache_parsing[pylibmccache_trailing_slash] PASSED [  4%]
+tests/test_cache.py::test_pymemcache_compat[True-django_version0] PASSED [  4%]
+tests/test_cache.py::test_pymemcache_compat[True-django_version1] PASSED [  5%]
+tests/test_cache.py::test_pymemcache_compat[True-None] PASSED            [  5%]
+tests/test_cache.py::test_pymemcache_compat[False-django_version0] PASSED [  5%]
+tests/test_cache.py::test_pymemcache_compat[False-django_version1] PASSED [  6%]
+tests/test_cache.py::test_pymemcache_compat[False-None] PASSED           [  6%]
+tests/test_cache.py::test_rediscache_compat[True-django_version0] PASSED [  6%]
+tests/test_cache.py::test_rediscache_compat[True-django_version1] PASSED [  6%]
+tests/test_cache.py::test_rediscache_compat[True-None] PASSED            [  7%]
+tests/test_cache.py::test_rediscache_compat[False-django_version0] PASSED [  7%]
+tests/test_cache.py::test_rediscache_compat[False-django_version1] PASSED [  7%]
+tests/test_cache.py::test_rediscache_compat[False-None] PASSED           [  8%]
+tests/test_cache.py::test_redis_parsing PASSED                           [  8%]
+tests/test_cache.py::test_redis_socket_url PASSED                        [  8%]
+tests/test_cache.py::test_options_parsing PASSED                         [  8%]
+tests/test_cache.py::test_custom_backend PASSED                          [  9%]
+tests/test_cache.py::test_unknown_backend PASSED                         [  9%]
+tests/test_cache.py::test_empty_url_is_mapped_to_empty_config PASSED     [  9%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[!] PASSED  [ 10%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[$] PASSED  [ 10%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[&] PASSED  [ 10%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims['] PASSED  [ 10%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[(] PASSED  [ 11%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[)] PASSED  [ 11%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[*] PASSED  [ 11%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[+] PASSED  [ 12%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[;] PASSED  [ 12%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[=] PASSED  [ 12%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[-] PASSED  [ 12%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[.] PASSED  [ 13%]
+tests/test_cache.py::test_cache_url_password_using_sub_delims[-v1.2] PASSED [ 13%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%3A] PASSED [ 13%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%2F] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%3F] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%23] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%5B] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%5D] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%40] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%2C] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_env_using_default PASSED             [ 16%]
+tests/test_db.py::test_db_parsing[postgres] PASSED                       [ 16%]
+tests/test_db.py::test_db_parsing[postgres_unix_domain] PASSED           [ 16%]
+tests/test_db.py::test_db_parsing[postgis] PASSED                        [ 16%]
+tests/test_db.py::test_db_parsing[postgres_cluster] FAILED               [ 17%]
+tests/test_db.py::test_db_parsing[postgres_no_ports] PASSED              [ 17%]
+tests/test_db.py::test_db_parsing[mysqlgis] PASSED                       [ 17%]
+tests/test_db.py::test_db_parsing[cleardb] PASSED                        [ 18%]
+tests/test_db.py::test_db_parsing[mysql_no_password] PASSED              [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_empty] PASSED                   [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_file] PASSED                    [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_memory] PASSED                  [ 19%]
+tests/test_db.py::test_db_parsing[ldap] PASSED                           [ 19%]
+tests/test_db.py::test_db_parsing[mssql] PASSED                          [ 19%]
+tests/test_db.py::test_db_parsing[mssql_port] PASSED                     [ 20%]
+tests/test_db.py::test_postgres_complex_db_name_parsing PASSED           [ 20%]
+tests/test_db.py::test_postgres_like_scheme_parsing[postgres] PASSED     [ 20%]
+tests/test_db.py::test_postgres_like_scheme_parsing[postgresql] PASSED   [ 20%]
+tests/test_db.py::test_postgres_like_scheme_parsing[psql] PASSED         [ 21%]
+tests/test_db.py::test_postgres_like_scheme_parsing[pgsql] PASSED        [ 21%]
+tests/test_db.py::test_postgres_like_scheme_parsing[postgis] PASSED      [ 21%]
+tests/test_db.py::test_memory_sqlite_url_warns_about_netloc PASSED       [ 22%]
+tests/test_db.py::test_database_options_parsing PASSED                   [ 22%]
+tests/test_email.py::test_smtp_parsing PASSED                            [ 22%]
+tests/test_env.py::TestEnv::test_not_present_with_default PASSED         [ 22%]
+tests/test_env.py::TestEnv::test_not_present_without_default PASSED      [ 23%]
+tests/test_env.py::TestEnv::test_contains PASSED                         [ 23%]
+tests/test_env.py::TestEnv::test_str[STR_VAR-bar-False] PASSED           [ 23%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_STR_VAR-foo\\nbar-False] PASSED [ 24%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_STR_VAR-foo\nbar-True] PASSED [ 24%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\\r\\n---END----False] PASSED [ 24%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\n---END----True] PASSED [ 24%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\\n---END----False] PASSED [ 25%]
+tests/test_env.py::TestEnv::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\n---END----True] PASSED [ 25%]
+tests/test_env.py::TestEnv::test_bytes[STR_VAR-bar-default0] PASSED      [ 25%]
+tests/test_env.py::TestEnv::test_bytes[NON_EXISTENT_BYTES_VAR-some-default-some-default] PASSED [ 26%]
+tests/test_env.py::TestEnv::test_bytes[NON_EXISTENT_STR_VAR-some-default-some-default] PASSED [ 26%]
+tests/test_env.py::TestEnv::test_int PASSED                              [ 26%]
+tests/test_env.py::TestEnv::test_int_with_none_default PASSED            [ 26%]
+tests/test_env.py::TestEnv::test_float[33.3-FLOAT_VAR] PASSED            [ 27%]
+tests/test_env.py::TestEnv::test_float[33.3-FLOAT_COMMA_VAR] PASSED      [ 27%]
+tests/test_env.py::TestEnv::test_float[123420333.3-FLOAT_STRANGE_VAR1] PASSED [ 27%]
+tests/test_env.py::TestEnv::test_float[123420333.3-FLOAT_STRANGE_VAR2] PASSED [ 28%]
+tests/test_env.py::TestEnv::test_float[-1.0-FLOAT_NEGATIVE_VAR] PASSED   [ 28%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_LIKE_INT] PASSED [ 28%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_LIKE_BOOL] PASSED [ 28%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_INT] PASSED    [ 29%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_BOOL] PASSED   [ 29%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_1] PASSED [ 29%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_2] PASSED [ 30%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_3] PASSED [ 30%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_4] PASSED [ 30%]
+tests/test_env.py::TestEnv::test_bool_true[True-BOOL_TRUE_STRING_5] PASSED [ 30%]
+tests/test_env.py::TestEnv::test_bool_true[False-BOOL_FALSE_STRING_LIKE_INT] PASSED [ 31%]
+tests/test_env.py::TestEnv::test_bool_true[False-BOOL_FALSE_INT] PASSED  [ 31%]
+tests/test_env.py::TestEnv::test_bool_true[False-BOOL_FALSE_STRING_LIKE_BOOL] PASSED [ 31%]
+tests/test_env.py::TestEnv::test_bool_true[False-BOOL_FALSE_BOOL] PASSED [ 32%]
+tests/test_env.py::TestEnv::test_proxied_value PASSED                    [ 32%]
+tests/test_env.py::TestEnv::test_escaped_dollar_sign PASSED              [ 32%]
+tests/test_env.py::TestEnv::test_escaped_dollar_sign_disabled PASSED     [ 32%]
+tests/test_env.py::TestEnv::test_int_list PASSED                         [ 33%]
+tests/test_env.py::TestEnv::test_int_list_cast_tuple PASSED              [ 33%]
+tests/test_env.py::TestEnv::test_int_tuple PASSED                        [ 33%]
+tests/test_env.py::TestEnv::test_mix_tuple_issue_387 PASSED              [ 34%]
+tests/test_env.py::TestEnv::test_str_list_with_spaces PASSED             [ 34%]
+tests/test_env.py::TestEnv::test_empty_list PASSED                       [ 34%]
+tests/test_env.py::TestEnv::test_dict_value PASSED                       [ 34%]
+tests/test_env.py::TestEnv::test_complex_dict_value PASSED               [ 35%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict] PASSED               [ 35%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_int] PASSED           [ 35%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_float] PASSED         [ 36%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_str_list] PASSED      [ 36%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_int_list] PASSED      [ 36%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_int_cast] PASSED      [ 36%]
+tests/test_env.py::TestEnv::test_dict_parsing[dict_str_cast] PASSED      [ 37%]
+tests/test_env.py::TestEnv::test_url_value PASSED                        [ 37%]
+tests/test_env.py::TestEnv::test_url_empty_string_default_value PASSED   [ 37%]
+tests/test_env.py::TestEnv::test_url_encoded_parts PASSED                [ 38%]
+tests/test_env.py::TestEnv::test_db_url_value[postgres] PASSED           [ 38%]
+tests/test_env.py::TestEnv::test_db_url_value[mysql] PASSED              [ 38%]
+tests/test_env.py::TestEnv::test_db_url_value[mysql_gis] PASSED          [ 38%]
+tests/test_env.py::TestEnv::test_db_url_value[oracle_tns] PASSED         [ 39%]
+tests/test_env.py::TestEnv::test_db_url_value[oracle] PASSED             [ 39%]
+tests/test_env.py::TestEnv::test_db_url_value[redshift] PASSED           [ 39%]
+tests/test_env.py::TestEnv::test_db_url_value[sqlite] PASSED             [ 40%]
+tests/test_env.py::TestEnv::test_db_url_value[custom] PASSED             [ 40%]
+tests/test_env.py::TestEnv::test_db_url_value[cloudsql] PASSED           [ 40%]
+tests/test_env.py::TestEnv::test_cache_url_value[memcached] PASSED       [ 40%]
+tests/test_env.py::TestEnv::test_cache_url_value[redis] PASSED           [ 41%]
+tests/test_env.py::TestEnv::test_email_url_value PASSED                  [ 41%]
+tests/test_env.py::TestEnv::test_json_value PASSED                       [ 41%]
+tests/test_env.py::TestEnv::test_path PASSED                             [ 42%]
+tests/test_env.py::TestEnv::test_smart_cast PASSED                       [ 42%]
+tests/test_env.py::TestEnv::test_exported PASSED                         [ 42%]
+tests/test_env.py::TestEnv::test_prefix PASSED                           [ 42%]
+tests/test_env.py::TestFileEnv::test_not_present_with_default PASSED     [ 43%]
+tests/test_env.py::TestFileEnv::test_not_present_without_default PASSED  [ 43%]
+tests/test_env.py::TestFileEnv::test_contains PASSED                     [ 43%]
+tests/test_env.py::TestFileEnv::test_str[STR_VAR-bar-False] PASSED       [ 44%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_STR_VAR-foo\\nbar-False] PASSED [ 44%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_STR_VAR-foo\nbar-True] PASSED [ 44%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\\r\\n---END----False] PASSED [ 44%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\n---END----True] PASSED [ 45%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\\n---END----False] PASSED [ 45%]
+tests/test_env.py::TestFileEnv::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\n---END----True] PASSED [ 45%]
+tests/test_env.py::TestFileEnv::test_bytes[STR_VAR-bar-default0] PASSED  [ 46%]
+tests/test_env.py::TestFileEnv::test_bytes[NON_EXISTENT_BYTES_VAR-some-default-some-default] PASSED [ 46%]
+tests/test_env.py::TestFileEnv::test_bytes[NON_EXISTENT_STR_VAR-some-default-some-default] PASSED [ 46%]
+tests/test_env.py::TestFileEnv::test_int PASSED                          [ 46%]
+tests/test_env.py::TestFileEnv::test_int_with_none_default PASSED        [ 47%]
+tests/test_env.py::TestFileEnv::test_float[33.3-FLOAT_VAR] PASSED        [ 47%]
+tests/test_env.py::TestFileEnv::test_float[33.3-FLOAT_COMMA_VAR] PASSED  [ 47%]
+tests/test_env.py::TestFileEnv::test_float[123420333.3-FLOAT_STRANGE_VAR1] PASSED [ 48%]
+tests/test_env.py::TestFileEnv::test_float[123420333.3-FLOAT_STRANGE_VAR2] PASSED [ 48%]
+tests/test_env.py::TestFileEnv::test_float[-1.0-FLOAT_NEGATIVE_VAR] PASSED [ 48%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_LIKE_INT] PASSED [ 48%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_LIKE_BOOL] PASSED [ 49%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_INT] PASSED [ 49%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_BOOL] PASSED [ 49%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_1] PASSED [ 50%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_2] PASSED [ 50%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_3] PASSED [ 50%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_4] PASSED [ 50%]
+tests/test_env.py::TestFileEnv::test_bool_true[True-BOOL_TRUE_STRING_5] PASSED [ 51%]
+tests/test_env.py::TestFileEnv::test_bool_true[False-BOOL_FALSE_STRING_LIKE_INT] PASSED [ 51%]
+tests/test_env.py::TestFileEnv::test_bool_true[False-BOOL_FALSE_INT] PASSED [ 51%]
+tests/test_env.py::TestFileEnv::test_bool_true[False-BOOL_FALSE_STRING_LIKE_BOOL] PASSED [ 52%]
+tests/test_env.py::TestFileEnv::test_bool_true[False-BOOL_FALSE_BOOL] PASSED [ 52%]
+tests/test_env.py::TestFileEnv::test_proxied_value PASSED                [ 52%]
+tests/test_env.py::TestFileEnv::test_escaped_dollar_sign PASSED          [ 52%]
+tests/test_env.py::TestFileEnv::test_escaped_dollar_sign_disabled PASSED [ 53%]
+tests/test_env.py::TestFileEnv::test_int_list PASSED                     [ 53%]
+tests/test_env.py::TestFileEnv::test_int_list_cast_tuple PASSED          [ 53%]
+tests/test_env.py::TestFileEnv::test_int_tuple PASSED                    [ 54%]
+tests/test_env.py::TestFileEnv::test_mix_tuple_issue_387 PASSED          [ 54%]
+tests/test_env.py::TestFileEnv::test_str_list_with_spaces PASSED         [ 54%]
+tests/test_env.py::TestFileEnv::test_empty_list PASSED                   [ 54%]
+tests/test_env.py::TestFileEnv::test_dict_value PASSED                   [ 55%]
+tests/test_env.py::TestFileEnv::test_complex_dict_value PASSED           [ 55%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict] PASSED           [ 55%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_int] PASSED       [ 56%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_float] PASSED     [ 56%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_str_list] PASSED  [ 56%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_int_list] PASSED  [ 56%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_int_cast] PASSED  [ 57%]
+tests/test_env.py::TestFileEnv::test_dict_parsing[dict_str_cast] PASSED  [ 57%]
+tests/test_env.py::TestFileEnv::test_url_value PASSED                    [ 57%]
+tests/test_env.py::TestFileEnv::test_url_empty_string_default_value PASSED [ 58%]
+tests/test_env.py::TestFileEnv::test_url_encoded_parts PASSED            [ 58%]
+tests/test_env.py::TestFileEnv::test_db_url_value[postgres] PASSED       [ 58%]
+tests/test_env.py::TestFileEnv::test_db_url_value[mysql] PASSED          [ 58%]
+tests/test_env.py::TestFileEnv::test_db_url_value[mysql_gis] PASSED      [ 59%]
+tests/test_env.py::TestFileEnv::test_db_url_value[oracle_tns] PASSED     [ 59%]
+tests/test_env.py::TestFileEnv::test_db_url_value[oracle] PASSED         [ 59%]
+tests/test_env.py::TestFileEnv::test_db_url_value[redshift] PASSED       [ 60%]
+tests/test_env.py::TestFileEnv::test_db_url_value[sqlite] PASSED         [ 60%]
+tests/test_env.py::TestFileEnv::test_db_url_value[custom] PASSED         [ 60%]
+tests/test_env.py::TestFileEnv::test_db_url_value[cloudsql] PASSED       [ 60%]
+tests/test_env.py::TestFileEnv::test_cache_url_value[memcached] PASSED   [ 61%]
+tests/test_env.py::TestFileEnv::test_cache_url_value[redis] PASSED       [ 61%]
+tests/test_env.py::TestFileEnv::test_email_url_value PASSED              [ 61%]
+tests/test_env.py::TestFileEnv::test_json_value PASSED                   [ 62%]
+tests/test_env.py::TestFileEnv::test_path PASSED                         [ 62%]
+tests/test_env.py::TestFileEnv::test_smart_cast PASSED                   [ 62%]
+tests/test_env.py::TestFileEnv::test_exported PASSED                     [ 62%]
+tests/test_env.py::TestFileEnv::test_prefix PASSED                       [ 63%]
+tests/test_env.py::TestFileEnv::test_read_env_path_like PASSED           [ 63%]
+tests/test_env.py::TestFileEnv::test_existing_overwrite[True] PASSED     [ 63%]
+tests/test_env.py::TestFileEnv::test_existing_overwrite[False] PASSED    [ 64%]
+tests/test_env.py::TestSubClass::test_not_present_with_default PASSED    [ 64%]
+tests/test_env.py::TestSubClass::test_not_present_without_default PASSED [ 64%]
+tests/test_env.py::TestSubClass::test_contains PASSED                    [ 64%]
+tests/test_env.py::TestSubClass::test_str[STR_VAR-bar-False] PASSED      [ 65%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_STR_VAR-foo\\nbar-False] PASSED [ 65%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_STR_VAR-foo\nbar-True] PASSED [ 65%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\\r\\n---END----False] PASSED [ 66%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_QUOTED_STR_VAR----BEGIN---\n---END----True] PASSED [ 66%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\\n---END----False] PASSED [ 66%]
+tests/test_env.py::TestSubClass::test_str[MULTILINE_ESCAPED_STR_VAR----BEGIN---\\\n---END----True] PASSED [ 66%]
+tests/test_env.py::TestSubClass::test_bytes[STR_VAR-bar-default0] PASSED [ 67%]
+tests/test_env.py::TestSubClass::test_bytes[NON_EXISTENT_BYTES_VAR-some-default-some-default] PASSED [ 67%]
+tests/test_env.py::TestSubClass::test_bytes[NON_EXISTENT_STR_VAR-some-default-some-default] PASSED [ 67%]
+tests/test_env.py::TestSubClass::test_int PASSED                         [ 68%]
+tests/test_env.py::TestSubClass::test_int_with_none_default PASSED       [ 68%]
+tests/test_env.py::TestSubClass::test_float[33.3-FLOAT_VAR] PASSED       [ 68%]
+tests/test_env.py::TestSubClass::test_float[33.3-FLOAT_COMMA_VAR] PASSED [ 68%]
+tests/test_env.py::TestSubClass::test_float[123420333.3-FLOAT_STRANGE_VAR1] PASSED [ 69%]
+tests/test_env.py::TestSubClass::test_float[123420333.3-FLOAT_STRANGE_VAR2] PASSED [ 69%]
+tests/test_env.py::TestSubClass::test_float[-1.0-FLOAT_NEGATIVE_VAR] PASSED [ 69%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_LIKE_INT] PASSED [ 70%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_LIKE_BOOL] PASSED [ 70%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_INT] PASSED [ 70%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_BOOL] PASSED [ 70%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_1] PASSED [ 71%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_2] PASSED [ 71%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_3] PASSED [ 71%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_4] PASSED [ 72%]
+tests/test_env.py::TestSubClass::test_bool_true[True-BOOL_TRUE_STRING_5] PASSED [ 72%]
+tests/test_env.py::TestSubClass::test_bool_true[False-BOOL_FALSE_STRING_LIKE_INT] PASSED [ 72%]
+tests/test_env.py::TestSubClass::test_bool_true[False-BOOL_FALSE_INT] PASSED [ 72%]
+tests/test_env.py::TestSubClass::test_bool_true[False-BOOL_FALSE_STRING_LIKE_BOOL] PASSED [ 73%]
+tests/test_env.py::TestSubClass::test_bool_true[False-BOOL_FALSE_BOOL] PASSED [ 73%]
+tests/test_env.py::TestSubClass::test_proxied_value PASSED               [ 73%]
+tests/test_env.py::TestSubClass::test_escaped_dollar_sign PASSED         [ 74%]
+tests/test_env.py::TestSubClass::test_escaped_dollar_sign_disabled PASSED [ 74%]
+tests/test_env.py::TestSubClass::test_int_list PASSED                    [ 74%]
+tests/test_env.py::TestSubClass::test_int_list_cast_tuple PASSED         [ 74%]
+tests/test_env.py::TestSubClass::test_int_tuple PASSED                   [ 75%]
+tests/test_env.py::TestSubClass::test_mix_tuple_issue_387 PASSED         [ 75%]
+tests/test_env.py::TestSubClass::test_str_list_with_spaces PASSED        [ 75%]
+tests/test_env.py::TestSubClass::test_empty_list PASSED                  [ 76%]
+tests/test_env.py::TestSubClass::test_dict_value PASSED                  [ 76%]
+tests/test_env.py::TestSubClass::test_complex_dict_value PASSED          [ 76%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict] PASSED          [ 76%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_int] PASSED      [ 77%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_float] PASSED    [ 77%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_str_list] PASSED [ 77%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_int_list] PASSED [ 78%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_int_cast] PASSED [ 78%]
+tests/test_env.py::TestSubClass::test_dict_parsing[dict_str_cast] PASSED [ 78%]
+tests/test_env.py::TestSubClass::test_url_value PASSED                   [ 78%]
+tests/test_env.py::TestSubClass::test_url_empty_string_default_value PASSED [ 79%]
+tests/test_env.py::TestSubClass::test_url_encoded_parts PASSED           [ 79%]
+tests/test_env.py::TestSubClass::test_db_url_value[postgres] PASSED      [ 79%]
+tests/test_env.py::TestSubClass::test_db_url_value[mysql] PASSED         [ 80%]
+tests/test_env.py::TestSubClass::test_db_url_value[mysql_gis] PASSED     [ 80%]
+tests/test_env.py::TestSubClass::test_db_url_value[oracle_tns] PASSED    [ 80%]
+tests/test_env.py::TestSubClass::test_db_url_value[oracle] PASSED        [ 80%]
+tests/test_env.py::TestSubClass::test_db_url_value[redshift] PASSED      [ 81%]
+tests/test_env.py::TestSubClass::test_db_url_value[sqlite] PASSED        [ 81%]
+tests/test_env.py::TestSubClass::test_db_url_value[custom] PASSED        [ 81%]
+tests/test_env.py::TestSubClass::test_db_url_value[cloudsql] PASSED      [ 82%]
+tests/test_env.py::TestSubClass::test_cache_url_value[memcached] PASSED  [ 82%]
+tests/test_env.py::TestSubClass::test_cache_url_value[redis] PASSED      [ 82%]
+tests/test_env.py::TestSubClass::test_email_url_value PASSED             [ 82%]
+tests/test_env.py::TestSubClass::test_json_value PASSED                  [ 83%]
+tests/test_env.py::TestSubClass::test_path PASSED                        [ 83%]
+tests/test_env.py::TestSubClass::test_smart_cast PASSED                  [ 83%]
+tests/test_env.py::TestSubClass::test_exported PASSED                    [ 84%]
+tests/test_env.py::TestSubClass::test_prefix PASSED                      [ 84%]
+tests/test_env.py::TestSubClass::test_singleton_environ PASSED           [ 84%]
+tests/test_fileaware.py::test_mapping PASSED                             [ 84%]
+tests/test_fileaware.py::test_precidence PASSED                          [ 85%]
+tests/test_fileaware.py::test_missing_file_raises_exception PASSED       [ 85%]
+tests/test_fileaware.py::test_iter PASSED                                [ 85%]
+tests/test_fileaware.py::test_len PASSED                                 [ 86%]
+tests/test_fileaware.py::test_cache PASSED                               [ 86%]
+tests/test_fileaware.py::test_no_cache PASSED                            [ 86%]
+tests/test_fileaware.py::test_setdefault PASSED                          [ 86%]
+tests/test_fileaware.py::TestDelItem::test_del_key PASSED                [ 87%]
+tests/test_fileaware.py::TestDelItem::test_del_key_with_file_key PASSED  [ 87%]
+tests/test_fileaware.py::TestDelItem::test_del_shadowed_key_with_file_key PASSED [ 87%]
+tests/test_fileaware.py::TestDelItem::test_del_file_key PASSED           [ 88%]
+tests/test_fileaware.py::TestDelItem::test_del_file_key_clears_cache PASSED [ 88%]
+tests/test_fileaware.py::TestSetItem::test_set_key PASSED                [ 88%]
+tests/test_fileaware.py::TestSetItem::test_cant_override_key_with_file_key PASSED [ 88%]
+tests/test_fileaware.py::TestSetItem::test_set_file_key PASSED           [ 89%]
+tests/test_fileaware.py::TestSetItem::test_change_file_key_clears_cache PASSED [ 89%]
+tests/test_path.py::test_str PASSED                                      [ 89%]
+tests/test_path.py::test_path_class PASSED                               [ 90%]
+tests/test_path.py::test_repr PASSED                                     [ 90%]
+tests/test_path.py::test_comparison PASSED                               [ 90%]
+tests/test_path.py::test_sum PASSED                                      [ 90%]
+tests/test_path.py::test_subtraction PASSED                              [ 91%]
+tests/test_path.py::test_subtraction_not_int PASSED                      [ 91%]
+tests/test_path.py::test_required_path PASSED                            [ 91%]
+tests/test_path.py::test_complex_manipulation PASSED                     [ 92%]
+tests/test_schema.py::test_schema PASSED                                 [ 92%]
+tests/test_search.py::test_solr_parsing PASSED                           [ 92%]
+tests/test_search.py::test_solr_multicore_parsing PASSED                 [ 92%]
+tests/test_search.py::test_elasticsearch_parsing[elasticsearch] PASSED   [ 93%]
+tests/test_search.py::test_elasticsearch_parsing[elasticsearch2] PASSED  [ 93%]
+tests/test_search.py::test_elasticsearch_parsing[elasticsearch5] PASSED  [ 93%]
+tests/test_search.py::test_elasticsearch_parsing[elasticsearch7] PASSED  [ 94%]
+tests/test_search.py::test_whoosh_parsing[file] PASSED                   [ 94%]
+tests/test_search.py::test_whoosh_parsing[ram] PASSED                    [ 94%]
+tests/test_search.py::test_xapian_parsing[myflags] PASSED                [ 94%]
+tests/test_search.py::test_simple_parsing PASSED                         [ 95%]
+tests/test_search.py::test_common_args_parsing[solr://127.0.0.1:8983/solr] PASSED [ 95%]
+tests/test_search.py::test_common_args_parsing[elasticsearch://127.0.0.1:9200/index] PASSED [ 95%]
+tests/test_search.py::test_common_args_parsing[whoosh:///home/search/whoosh_index] PASSED [ 96%]
+tests/test_search.py::test_common_args_parsing[xapian:///home/search/xapian_index] PASSED [ 96%]
+tests/test_search.py::test_common_args_parsing[simple:///] PASSED        [ 96%]
+tests/test_utils.py::test_cast[anything-] PASSED                         [ 96%]
+tests/test_utils.py::test_cast[anything*] PASSED                         [ 97%]
+tests/test_utils.py::test_cast[*anything] PASSED                         [ 97%]
+tests/test_utils.py::test_cast[anything.] PASSED                         [ 97%]
+tests/test_utils.py::test_cast[anything.1] PASSED                        [ 98%]
+tests/test_utils.py::test_cast[(anything] PASSED                         [ 98%]
+tests/test_utils.py::test_cast[anything-v1.2] PASSED                     [ 98%]
+tests/test_utils.py::test_cast[anything-1.2] PASSED                      [ 98%]
+tests/test_utils.py::test_cast[anything=] PASSED                         [ 99%]
+tests/test_utils.py::test_cast_urlstr[Le-%7BFsIaYnaQw%7Da2B%2F%5BV8bS+-Le-{FsIaYnaQw}a2B/[V8bS+] PASSED [ 99%]
+tests/test_utils.py::test_cast_urlstr[my_test-string+-my_test-string+] PASSED [ 99%]
+tests/test_utils.py::test_cast_urlstr[my%20test%20string+-my test string+] PASSED [100%]
+
+=================================== FAILURES ===================================
+______________________ test_db_parsing[postgres_cluster] _______________________
+
+url = 'postgres://username:p@ss:12,wor:34d@host1:111,22.55.44.88:222,[2001:db8::1234]:333/db'
+engine = 'django.db.backends.postgresql', name = 'db'
+host = 'host1,22.55.44.88,[2001:db8::1234]', user = 'username'
+passwd = 'p@ss:12,wor:34d', port = '111,222,333'
+
+    @pytest.mark.parametrize(
+        'url,engine,name,host,user,passwd,port',
+        [
+            # postgres://user:password@host:port/dbname
+            ('postgres://enigma:secret@example.com:5431/dbname',
+             DJANGO_POSTGRES,
+             'dbname',
+             'example.com',
+             'enigma',
+             'secret',
+             5431),
+            # postgres://path/dbname
+            ('postgres:////var/run/postgresql/dbname',
+             DJANGO_POSTGRES,
+             'dbname',
+             '/var/run/postgresql',
+             '',
+             '',
+             ''),
+            # postgis://user:password@host:port/dbname
+            ('postgis://enigma:secret@example.com:5431/dbname',
+             'django.contrib.gis.db.backends.postgis',
+             'dbname',
+             'example.com',
+             'enigma',
+             'secret',
+             5431),
+            # postgres://user:password@host:port,host:port,host:port/dbname
+            ('postgres://username:p@ss:12,wor:34d@host1:111,22.55.44.88:222,[2001:db8::1234]:333/db',
+             DJANGO_POSTGRES,
+             'db',
+             'host1,22.55.44.88,[2001:db8::1234]',
+             'username',
+             'p@ss:12,wor:34d',
+             '111,222,333'
+             ),
+            # postgres://host,host,host/dbname
+            ('postgres://node1,node2,node3/db',
+             DJANGO_POSTGRES,
+             'db',
+             'node1,node2,node3',
+             '',
+             '',
+             ''
+             ),
+            # mysqlgis://user:password@host:port/dbname
+            ('mysqlgis://enigma:secret@example.com:5431/dbname',
+             'django.contrib.gis.db.backends.mysql',
+             'dbname',
+             'example.com',
+             'enigma',
+             'secret',
+             5431),
+            # mysql://user:password@host/dbname?options
+            ('mysql://enigma:secret@reconnect.com/dbname?reconnect=true',
+             'django.db.backends.mysql',
+             'dbname',
+             'reconnect.com',
+             'enigma',
+             'secret',
+             ''),
+            # mysql://user@host/dbname
+            ('mysql://enigma@localhost/dbname',
+             'django.db.backends.mysql',
+             'dbname',
+             'localhost',
+             'enigma',
+             '',
+             ''),
+            # sqlite://
+            ('sqlite://',
+             'django.db.backends.sqlite3',
+             ':memory:',
+             '',
+             '',
+             '',
+             ''),
+            # sqlite:////absolute/path/to/db/file
+            ('sqlite:////full/path/to/your/file.sqlite',
+             'django.db.backends.sqlite3',
+             '/full/path/to/your/file.sqlite',
+             '',
+             '',
+             '',
+             ''),
+            # sqlite://:memory:
+            ('sqlite://:memory:',
+             'django.db.backends.sqlite3',
+             ':memory:',
+             '',
+             '',
+             '',
+             ''),
+            # ldap://user:password@host
+            ('ldap://cn=admin,dc=nodomain,dc=org:secret@example.com',
+             'ldapdb.backends.ldap',
+             'ldap://example.com',
+             'example.com',
+             'cn=admin,dc=nodomain,dc=org',
+             'secret',
+             ''),
+            # mysql://user:password@host/dbname
+            ('mssql://enigma:secret@example.com/dbname'
+             '?driver=ODBC Driver 13 for SQL Server',
+             'sql_server.pyodbc',
+             'dbname',
+             'example.com',
+             'enigma',
+             'secret',
+             ''),
+            # mysql://user:password@host:port/dbname
+            ('mssql://enigma:secret@amazonaws.com\\insnsnss:12345/dbname'
+             '?driver=ODBC Driver 13 for SQL Server',
+             'sql_server.pyodbc',
+             'dbname',
+             'amazonaws.com\\insnsnss',
+             'enigma',
+             'secret',
+             12345),
+        ],
+        ids=[
+            'postgres',
+            'postgres_unix_domain',
+            'postgis',
+            'postgres_cluster',
+            'postgres_no_ports',
+            'mysqlgis',
+            'cleardb',
+            'mysql_no_password',
+            'sqlite_empty',
+            'sqlite_file',
+            'sqlite_memory',
+            'ldap',
+            'mssql',
+            'mssql_port',
+        ],
+    )
+    def test_db_parsing(url, engine, name, host, user, passwd, port):
+>       config = Env.db_url_config(url)
+
+tests/test_db.py:155: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+environ/environ.py:512: in db_url_config
+    url = urlparse(url)
+/usr/lib64/python3.12/urllib/parse.py:395: in urlparse
+    splitresult = urlsplit(url, scheme, allow_fragments)
+/usr/lib64/python3.12/urllib/parse.py:516: in urlsplit
+    _check_bracketed_netloc(netloc)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+netloc = 'username:p@ss:12,wor:34d@host1:111,22.55.44.88:222,[2001:db8::1234]:333'
+
+    def _check_bracketed_netloc(netloc):
+        # Note that this function must mirror the splitting
+        # done in NetlocResultMixins._hostinfo().
+        hostname_and_port = netloc.rpartition('@')[2]
+        before_bracket, have_open_br, bracketed = hostname_and_port.partition('[')
+        if have_open_br:
+            # No data is allowed before a bracket.
+            if before_bracket:
+>               raise ValueError("Invalid IPv6 URL")
+E               ValueError: Invalid IPv6 URL
+
+/usr/lib64/python3.12/urllib/parse.py:447: ValueError
+=============================== warnings summary ===============================
+environ/compat.py:14
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:14: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if find_loader('simplejson'):
+
+environ/compat.py:19
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:19: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if find_loader('django'):
+
+environ/compat.py:36
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:36: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if find_loader('redis_cache'):
+
+environ/compat.py:52
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:52: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if old_django or not find_loader('pymemcache'):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_db.py::test_db_parsing[postgres_cluster] - ValueError: Invalid IPv6 URL
+================== 1 failed, 349 passed, 4 warnings in 0.42s ===================
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+Command exited with non-zero status 1
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+0inputs+0outputs (0major+146542minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-django-environ-0.10.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.37user 3.26system 0:15.96elapsed 47%CPU (0avgtext+0avgdata 141120maxresident)k
+0inputs+0outputs (0major+281906minor)pagefaults 0swaps

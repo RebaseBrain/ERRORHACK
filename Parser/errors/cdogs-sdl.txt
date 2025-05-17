@@ -1,0 +1,56 @@
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/src/cdogs/yajl/api/yajl_common.h /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/x86_64-alt-linux/src/cdogs/yajl/..//include/yajl  2>&1
+CMake Warning (dev) at src/cdogs/yajl/CMakeLists.txt:73 (exec_program):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Use execute_process() instead.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+running /usr/bin/cmake -E copy_if_different /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/src/cdogs/yajl/api/yajl_tree.h /usr/src/RPM/BUILD/cdogs-sdl-2.0.0/x86_64-alt-linux/src/cdogs/yajl/..//include/yajl  2>&1
+CMake Error at src/tests/cbehave/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.65170 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.65170 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.65170 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.65170 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.31user 0.46system 0:02.63elapsed 105%CPU (0avgtext+0avgdata 22948maxresident)k
+2.31user 0.46system 0:02.63elapsed 105%CPU (0avgtext+0avgdata 22948maxresident)k
+0inputs+0outputs (0major+43341minor)pagefaults 0swaps
+0inputs+0outputs (0major+43341minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `cdogs-sdl-2.0.0-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `cdogs-sdl-2.0.0-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.27user 3.79system 0:25.40elapsed 35%CPU (0avgtext+0avgdata 141448maxresident)k
+5.27user 3.79system 0:25.40elapsed 35%CPU (0avgtext+0avgdata 141448maxresident)k
+8384inputs+0outputs (0major+358270minor)pagefaults 0swaps

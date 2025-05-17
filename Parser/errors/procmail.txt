@@ -1,0 +1,119 @@
+ /dev/null "make" o \
+ "gcc" "-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused  " "-pie -Wl,-z,relro,-z,now  " "procmail lockfile formail mailstat" \
+ "procmail formail lockfile" \
+ "procmailrc procmailsc procmailex" "src man" \
+ "/usr/bin" \
+ "strip"
+ "strip"
+Whoeaaa!  There's something fishy going on here.
+Whoeaaa!  There's something fishy going on here.
+You have a look and see if you detect anything uncanny:
+You have a look and see if you detect anything uncanny:
+*******************************************************
+*******************************************************
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+    1 | main()
+    1 | main()
+      | ^~~~
+      | ^~~~
+      | ^~~~
+::::
+::::
+::::
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+    1 | main()
+    1 | main()
+      | ^~~~
+      | ^~~~
+      | ^~~~
+      | ^~~~
+::::
+::::
+::::
+::::
+::::
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fpie -fno-strict-aliasing -Wno-comment -Wno-parentheses -Wno-unused _autotst.c -o _autotst -pie -Wl,-z,relro,-z,now
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+_autotst.c:1:1: error: return type defaults to 'int' [-Wimplicit-int]
+    1 | main()
+    1 | main()
+    1 | main()
+    1 | main()
+      | ^~~~
+      | ^~~~
+      | ^~~~
+      | ^~~~
+::::
+::::
+::::
+::::
+*******************************************************
+*******************************************************
+*******************************************************
+*******************************************************
+I suggest you take a look at the definition of CFLAGS* and CC
+I suggest you take a look at the definition of CFLAGS* and CC
+I suggest you take a look at the definition of CFLAGS* and CC
+I suggest you take a look at the definition of CFLAGS* and CC
+in the Makefile before you try make again.
+in the Makefile before you try make again.
+in the Makefile before you try make again.
+in the Makefile before you try make again.
+make: *** [Makefile:128: init] Error 1
+make: *** [Makefile:128: init] Error 1
+make: *** [Makefile:128: init] Error 1
+make: *** [Makefile:128: init] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.39308 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.04user 0.11system 0:00.14elapsed 108%CPU (0avgtext+0avgdata 19464maxresident)k
+0.04user 0.11system 0:00.14elapsed 108%CPU (0avgtext+0avgdata 19464maxresident)k
+0.04user 0.11system 0:00.14elapsed 108%CPU (0avgtext+0avgdata 19464maxresident)k
+0inputs+0outputs (0major+21523minor)pagefaults 0swaps
+0inputs+0outputs (0major+21523minor)pagefaults 0swaps
+0inputs+0outputs (0major+21523minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `procmail-3.22-alt11.src.rpm' failed.
+hsh-rebuild: rebuild of `procmail-3.22-alt11.src.rpm' failed.
+hsh-rebuild: rebuild of `procmail-3.22-alt11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.35user 2.59system 0:08.11elapsed 73%CPU (0avgtext+0avgdata 141852maxresident)k
+3.35user 2.59system 0:08.11elapsed 73%CPU (0avgtext+0avgdata 141852maxresident)k
+0inputs+0outputs (0major+186575minor)pagefaults 0swaps

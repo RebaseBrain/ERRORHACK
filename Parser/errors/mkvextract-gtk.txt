@@ -1,0 +1,77 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at yamka/CMakeLists.txt:3 (cmake_minimum_required):
+CMake Error at yamka/CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+CMake Error in CMakeLists.txt:
+CMake Error in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+  No cmake_minimum_required command is present.  A line of code such as
+
+
+    cmake_minimum_required(VERSION 4.0)
+    cmake_minimum_required(VERSION 4.0)
+
+
+  should be added at the top of the file.  The version specified may be lower
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+  information run "cmake --help-policy CMP0000".
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36703 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36703 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.36703 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.36703 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.28user 0.32system 0:00.59elapsed 102%CPU (0avgtext+0avgdata 22892maxresident)k
+0.28user 0.32system 0:00.59elapsed 102%CPU (0avgtext+0avgdata 22892maxresident)k
+0inputs+0outputs (0major+68070minor)pagefaults 0swaps
+0inputs+0outputs (0major+68070minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `mkvextract-gtk-0.9.3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `mkvextract-gtk-0.9.3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.36user 3.34system 0:27.52elapsed 28%CPU (0avgtext+0avgdata 141292maxresident)k
+4.36user 3.34system 0:27.52elapsed 28%CPU (0avgtext+0avgdata 141292maxresident)k
+54744inputs+0outputs (0major+284009minor)pagefaults 0swaps

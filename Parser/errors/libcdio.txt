@@ -1,0 +1,182 @@
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c ds.c  -fPIC -DPIC -o .libs/ds.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o cdio.lo cdio.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c cdio.c  -fPIC -DPIC -o .libs/cdio.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o _cdio_stdio.lo _cdio_stdio.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c _cdio_stdio.c  -fPIC -DPIC -o .libs/_cdio_stdio.o
+_cdio_stdio.c: In function '_stdio_seek':
+_cdio_stdio.c:53:20: error: implicit declaration of function 'fseeko64'; did you mean 'fseeko'? [-Wimplicit-function-declaration]
+   53 | #define CDIO_FSEEK fseeko64
+      |                    ^~~~~~~~
+      |                    ^~~~~~~~
+_cdio_stdio.c:175:13: note: in expansion of macro 'CDIO_FSEEK'
+_cdio_stdio.c:175:13: note: in expansion of macro 'CDIO_FSEEK'
+  175 |   if ( (ret=CDIO_FSEEK (ud->fd, i_offset, whence)) ) {
+  175 |   if ( (ret=CDIO_FSEEK (ud->fd, i_offset, whence)) ) {
+      |             ^~~~~~~~~~
+      |             ^~~~~~~~~~
+_cdio_stdio.c:53:20: warning: nested extern declaration of 'fseeko64' [-Wnested-externs]
+_cdio_stdio.c:53:20: warning: nested extern declaration of 'fseeko64' [-Wnested-externs]
+   53 | #define CDIO_FSEEK fseeko64
+   53 | #define CDIO_FSEEK fseeko64
+      |                    ^~~~~~~~
+      |                    ^~~~~~~~
+_cdio_stdio.c:175:13: note: in expansion of macro 'CDIO_FSEEK'
+_cdio_stdio.c:175:13: note: in expansion of macro 'CDIO_FSEEK'
+  175 |   if ( (ret=CDIO_FSEEK (ud->fd, i_offset, whence)) ) {
+  175 |   if ( (ret=CDIO_FSEEK (ud->fd, i_offset, whence)) ) {
+      |             ^~~~~~~~~~
+make[3]: *** [Makefile:778: _cdio_stdio.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o _cdio_generic.lo _cdio_generic.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c _cdio_generic.c  -fPIC -DPIC -o .libs/_cdio_generic.o
+_cdio_generic.c:73:1: warning: conflicting types for 'cdio_generic_unimplemented_eject_media' due to enum/integer mismatch; have 'int(void *)' [-Wenum-int-mismatch]
+   73 | cdio_generic_unimplemented_eject_media (void *p_user_data) {
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from cdio_private.h:84,
+                 from _cdio_generic.c:50:
+generic.h:112:24: note: previous declaration of 'cdio_generic_unimplemented_set_speed' with type 'driver_return_code_t(void *, int)'
+  112 |   driver_return_code_t cdio_generic_unimplemented_set_speed (void *p_user_data,
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+_cdio_generic.c:157:1: warning: conflicting types for 'cdio_generic_read_form1_sector' due to enum/integer mismatch; have 'driver_return_code_t(void *, void *, lsn_t)' {aka 'driver_return_code_t(void *, void *, int)'} [-Wenum-int-mismatch]
+  157 | cdio_generic_read_form1_sector (void * user_data, void *data, lsn_t lsn)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic.h:143:7: note: previous declaration of 'cdio_generic_read_form1_sector' with type 'int(void *, void *, lsn_t)' {aka 'int(void *, void *, int)'}
+  143 |   int cdio_generic_read_form1_sector (void * user_data, void *data,
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+_cdio_generic.c: In function 'cdio_generic_lseek':
+_cdio_generic.c:63:20: error: implicit declaration of function 'lseek64'; did you mean 'lseek'? [-Wimplicit-function-declaration]
+   63 | #define CDIO_LSEEK lseek64
+      |                    ^~~~~~~
+      |                    ^~~~~~~
+_cdio_generic.c:173:10: note: in expansion of macro 'CDIO_LSEEK'
+_cdio_generic.c:173:10: note: in expansion of macro 'CDIO_LSEEK'
+  173 |   return CDIO_LSEEK(p_env->fd, offset, whence);
+  173 |   return CDIO_LSEEK(p_env->fd, offset, whence);
+      |          ^~~~~~~~~~
+      |          ^~~~~~~~~~
+_cdio_generic.c:63:20: warning: nested extern declaration of 'lseek64' [-Wnested-externs]
+_cdio_generic.c:63:20: warning: nested extern declaration of 'lseek64' [-Wnested-externs]
+   63 | #define CDIO_LSEEK lseek64
+   63 | #define CDIO_LSEEK lseek64
+      |                    ^~~~~~~
+      |                    ^~~~~~~
+_cdio_generic.c:173:10: note: in expansion of macro 'CDIO_LSEEK'
+_cdio_generic.c:173:10: note: in expansion of macro 'CDIO_LSEEK'
+  173 |   return CDIO_LSEEK(p_env->fd, offset, whence);
+  173 |   return CDIO_LSEEK(p_env->fd, offset, whence);
+      |          ^~~~~~~~~~
+make[3]: *** [Makefile:778: _cdio_generic.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o memory.lo memory.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c memory.c  -fPIC -DPIC -o .libs/memory.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o image_common.lo image_common.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c image_common.c  -fPIC -DPIC -o .libs/image_common.o
+image_common.c:46:1: warning: conflicting types for '_eject_media_image' due to enum/integer mismatch; have 'driver_return_code_t(void *)' [-Wenum-int-mismatch]
+   46 | _eject_media_image(void *p_user_data)
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c sector.c  -fPIC -DPIC -o .libs/sector.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o solaris.lo solaris.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o solaris.lo solaris.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o solaris.lo solaris.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o solaris.lo solaris.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c solaris.c  -fPIC -DPIC -o .libs/solaris.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c solaris.c  -fPIC -DPIC -o .libs/solaris.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c solaris.c  -fPIC -DPIC -o .libs/solaris.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c solaris.c  -fPIC -DPIC -o .libs/solaris.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o read.lo read.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o read.lo read.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o read.lo read.c
+/bin/sh ../../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../..  -I../../lib/driver -I../../include -I../../include/   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic  -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c -o read.lo read.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c read.c  -fPIC -DPIC -o .libs/read.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c read.c  -fPIC -DPIC -o .libs/read.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c read.c  -fPIC -DPIC -o .libs/read.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../.. -I../../lib/driver -I../../include -I../../include/ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wbad-function-cast -Wcast-align -Wchar-subscripts -Wdeclaration-after-statement -Wdisabled-optimization -Wendif-labels -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-sign-compare -Wpointer-arith -Wshadow -Wstrict-prototypes -Wundef -Wunused -Wwrite-strings -c read.c  -fPIC -DPIC -o .libs/read.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libcdio-2.1.0/lib/driver'
+make[2]: *** [Makefile:424: all-recursive] Error 1
+make[2]: *** [Makefile:424: all-recursive] Error 1
+make[2]: *** [Makefile:424: all-recursive] Error 1
+make[2]: *** [Makefile:424: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make[1]: *** [Makefile:580: all-recursive] Error 1
+make: *** [Makefile:477: all] Error 2
+make: *** [Makefile:477: all] Error 2
+make: *** [Makefile:477: all] Error 2
+make: *** [Makefile:477: all] Error 2
+make: *** [Makefile:477: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.62227 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.23user 5.77system 0:13.87elapsed 115%CPU (0avgtext+0avgdata 24832maxresident)k
+10.23user 5.77system 0:13.87elapsed 115%CPU (0avgtext+0avgdata 24832maxresident)k
+10.23user 5.77system 0:13.87elapsed 115%CPU (0avgtext+0avgdata 24832maxresident)k
+10.23user 5.77system 0:13.87elapsed 115%CPU (0avgtext+0avgdata 24832maxresident)k
+10.23user 5.77system 0:13.87elapsed 115%CPU (0avgtext+0avgdata 24832maxresident)k
+0inputs+0outputs (0major+1428280minor)pagefaults 0swaps
+0inputs+0outputs (0major+1428280minor)pagefaults 0swaps
+0inputs+0outputs (0major+1428280minor)pagefaults 0swaps
+0inputs+0outputs (0major+1428280minor)pagefaults 0swaps
+0inputs+0outputs (0major+1428280minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libcdio-2.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libcdio-2.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libcdio-2.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libcdio-2.1.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.51user 2.51system 0:23.69elapsed 25%CPU (0avgtext+0avgdata 130416maxresident)k
+3.51user 2.51system 0:23.69elapsed 25%CPU (0avgtext+0avgdata 130416maxresident)k
+112inputs+0outputs (0major+206440minor)pagefaults 0swaps

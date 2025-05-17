@@ -1,0 +1,98 @@
+py3: installing console scripts
+py3: generating console scripts of system packages
+py3: generating console scripts of user packages
+.pkg_external: find interpreter for spec PythonSpec(path=/usr/bin/python3)
+.pkg_external: proposed PythonInfo(spec=CPython3.12.10.final.0-64, exe=/usr/bin/python3, platform=linux, version='3.12.10 (main, Apr 16 2025, 11:02:44) [GCC 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)]', encoding_fs_io=utf-8-utf-8)
+.pkg_external: create virtual environment via CPython3Posix(dest=/usr/src/RPM/BUILD/python3-module-sphinxcontrib-websupport-2.0.0/.tox/.pkg_external, clear=False, no_vcs_ignore=False, global=True)
+.pkg_external: add seed packages via FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/usr/src/.local/share/virtualenv)
+.pkg_external: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+py3: install_package_deps> python -I -m pip install 'Sphinx>=5' jinja2 sphinxcontrib-serializinghtml
+[31mERROR: Could not find a version that satisfies the requirement sphinxcontrib-jsmath>=1.0.1 (from sphinx) (from versions: none)
+[31mERROR: Could not find a version that satisfies the requirement sphinxcontrib-jsmath>=1.0.1 (from sphinx) (from versions: none)
+ERROR: No matching distribution found for sphinxcontrib-jsmath>=1.0.1
+ERROR: No matching distribution found for sphinxcontrib-jsmath>=1.0.1
+ERROR: No matching distribution found for sphinxcontrib-jsmath>=1.0.1
+Requirement already satisfied: Sphinx>=5 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: Sphinx>=5 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: Sphinx>=5 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: Sphinx>=5 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: jinja2 in /usr/lib/python3/site-packages (3.1.6)
+Requirement already satisfied: jinja2 in /usr/lib/python3/site-packages (3.1.6)
+Requirement already satisfied: jinja2 in /usr/lib/python3/site-packages (3.1.6)
+Requirement already satisfied: jinja2 in /usr/lib/python3/site-packages (3.1.6)
+Requirement already satisfied: sphinxcontrib-serializinghtml in /usr/lib/python3/site-packages (2.0.0)
+Requirement already satisfied: sphinxcontrib-serializinghtml in /usr/lib/python3/site-packages (2.0.0)
+Requirement already satisfied: sphinxcontrib-serializinghtml in /usr/lib/python3/site-packages (2.0.0)
+Requirement already satisfied: sphinxcontrib-serializinghtml in /usr/lib/python3/site-packages (2.0.0)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.0.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.1.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.1.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.1.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from Sphinx>=5) (2.1.0)
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+py3: exit 1 (0.65 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-websupport-2.0.0> python -I -m pip install 'Sphinx>=5' jinja2 sphinxcontrib-serializinghtml pid=3882199
+py3: exit 1 (0.65 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-websupport-2.0.0> python -I -m pip install 'Sphinx>=5' jinja2 sphinxcontrib-serializinghtml pid=3882199
+py3: exit 1 (0.65 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-websupport-2.0.0> python -I -m pip install 'Sphinx>=5' jinja2 sphinxcontrib-serializinghtml pid=3882199
+py3: exit 1 (0.65 seconds) /usr/src/RPM/BUILD/python3-module-sphinxcontrib-websupport-2.0.0> python -I -m pip install 'Sphinx>=5' jinja2 sphinxcontrib-serializinghtml pid=3882199
+[39m  py3: FAIL code 1 (0.85 seconds)
+[39m  py3: FAIL code 1 (0.85 seconds)
+[39m  py3: FAIL code 1 (0.85 seconds)
+[39m  py3: FAIL code 1 (0.85 seconds)
+[39m  py3: FAIL code 1 (0.85 seconds)
+  evaluation failed :( (0.93 seconds)
+  evaluation failed :( (0.93 seconds)
+  evaluation failed :( (0.93 seconds)
+  evaluation failed :( (0.93 seconds)
+  evaluation failed :( (0.93 seconds)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.81038 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.47user 0.67system 0:02.09elapsed 102%CPU (0avgtext+0avgdata 43376maxresident)k
+1.47user 0.67system 0:02.09elapsed 102%CPU (0avgtext+0avgdata 43376maxresident)k
+1.47user 0.67system 0:02.09elapsed 102%CPU (0avgtext+0avgdata 43376maxresident)k
+1.47user 0.67system 0:02.09elapsed 102%CPU (0avgtext+0avgdata 43376maxresident)k
+0inputs+0outputs (0major+113384minor)pagefaults 0swaps
+0inputs+0outputs (0major+113384minor)pagefaults 0swaps
+0inputs+0outputs (0major+113384minor)pagefaults 0swaps
+0inputs+0outputs (0major+113384minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-websupport-2.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-websupport-2.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-websupport-2.0.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-sphinxcontrib-websupport-2.0.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.54user 3.55system 0:16.23elapsed 49%CPU (0avgtext+0avgdata 140644maxresident)k
+4.54user 3.55system 0:16.23elapsed 49%CPU (0avgtext+0avgdata 140644maxresident)k
+0inputs+0outputs (0major+334431minor)pagefaults 0swaps

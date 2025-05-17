@@ -1,0 +1,560 @@
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/build-tools/standards'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/build-tools'
+make[1]: Entering directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab'
+set -e ; \
+set -e ; \
+for dir in machine os arrays bitsets bugs char fmt hash mem sort splay obqueues obtables vu qlinks rx uni oblists cmd fs vu-network rx-posix dynid handles identifiers obmarkers libboot properties buffers edstrings unidata-scaffolding graphs unidata unicode libboot2 edit strings xml-scaffolding xml rx-xml libhackerlab tests; do \
+for dir in machine os arrays bitsets bugs char fmt hash mem sort splay obqueues obtables vu qlinks rx uni oblists cmd fs vu-network rx-posix dynid handles identifiers obmarkers libboot properties buffers edstrings unidata-scaffolding graphs unidata unicode libboot2 edit strings xml-scaffolding xml rx-xml libhackerlab tests; do \
+	make -C $dir all ; \
+	make -C $dir all ; \
+done
+done
+make[2]: Entering directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/machine'
+make[2]: Entering directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/machine'
+/bin/sh /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/machine/endian.sh cc
+/bin/sh /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/machine/endian.sh cc
+endian-test.c:2:1: error: return type defaults to 'int' [-Wimplicit-int]
+endian-test.c:2:1: error: return type defaults to 'int' [-Wimplicit-int]
+    2 | main()
+    2 | main()
+      | ^~~~
+      | ^~~~
+endian-test.c: In function 'main':
+endian-test.c: In function 'main':
+endian-test.c:6:3: error: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+endian-test.c:6:3: error: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+endian-test.c:6:3: error: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+    6 |   exit (*(unsigned char *)&x);
+    6 |   exit (*(unsigned char *)&x);
+    6 |   exit (*(unsigned char *)&x);
+      |   ^~~~
+      |   ^~~~
+      |   ^~~~
+endian-test.c:1:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+endian-test.c:1:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+endian-test.c:1:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+    1 | 
+    1 | 
+    1 | 
+endian-test.c:6:3: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+endian-test.c:6:3: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+endian-test.c:6:3: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+    6 |   exit (*(unsigned char *)&x);
+    6 |   exit (*(unsigned char *)&x);
+      |   ^~~~
+      |   ^~~~
+endian-test.c:6:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+endian-test.c:6:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/machine/endian.sh: line 40: ./endian-test: No such file or directory
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/machine/endian.sh: line 40: ./endian-test: No such file or directory
+test ! -e gen-alignment || rm gen-alignment
+test ! -e gen-alignment.c || rm gen-alignment.c
+cp /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/machine/gen-alignment.to-c gen-alignment.c
+cc -o gen-alignment gen-alignment.c
+./gen-alignment > alignment.h
+echo  | sed -f /usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/column.sed > Objects
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/machine'
+make[2]: Entering directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/os'
+cp /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/os/exit-status.gen  ,es.c
+cc -o ,es -g ,es.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o safe-vu-utils-vfdbuf.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/safe-vu-utils-vfdbuf.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o safe-vu-utils.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/safe-vu-utils.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o safe.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/safe.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o url-fd.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/url-fd.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o vfdbuf.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vfdbuf.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o vu-bad-arg.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-bad-arg.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o vu-dash.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-dash.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o vu-help.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-help.c
+cc -I/usr/src/RPM/BUILD/tla-1.3.5/src/build/config-include -I/usr/src/RPM/BUILD/tla-1.3.5/src/build -I/usr/src/RPM/BUILD/tla-1.3.5/src -g    -c -o vu-pathcompress.o /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c
+In file included from /usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:8:
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, int,  void *)' from incompatible pointer type 'int (*)(int *, char *, int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, int,  void *)' from incompatible pointer type 'int (*)(int *, char *, int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, int,  int,  void *)' from incompatible pointer type 'int (*)(int *, char *, int,  int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, struct stat *, void *)' from incompatible pointer type 'int (*)(int *, char *, struct stat *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, int,  void *)' from incompatible pointer type 'int (*)(int *, char *, int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, int,  int,  void *)' from incompatible pointer type 'int (*)(int *, char *, int,  int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, DIR **, const char *, void *)' from incompatible pointer type 'int (*)(int *, DIR **, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, char *, int,  void *)' from incompatible pointer type 'int (*)(int *, char *, char *, int,  void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, struct stat *, void *)' from incompatible pointer type 'int (*)(int *, char *, struct stat *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, off_t,  void *)' {aka 'int (*)(int *, const char *, long int,  void *)'} from incompatible pointer type 'int (*)(int *, char *, off_t,  void *)' {aka 'int (*)(int *, char *, long int,  void *)'} [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, void *)' from incompatible pointer type 'int (*)(int *, char *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'int (*)(int *, const char *, struct utimbuf *, void *)' from incompatible pointer type 'int (*)(int *, char *, struct utimbuf *, void *)' [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:45: error: initialization of 'ssize_t (*)(int *, int,  const char *, size_t,  void *)' {aka 'long int (*)(int *, int,  const char *, long unsigned int,  void *)'} from incompatible pointer type 'ssize_t (*)(int *, int,  char *, size_t,  void *)' {aka 'long int (*)(int *, int,  char *, long unsigned int,  void *)'} [-Wincompatible-pointer-types]
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |                                             ^~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:186:81: note: in definition of macro 'VU_FS_NAME_INITIALIZER'
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+  186 | #define VU_FS_NAME_INITIALIZER(name, prefix, middle, suffix, ret, proto)        prefix##name,
+      |                                                                                 ^~~~~~
+      |                                                                                 ^~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu.h:187:81: note: in expansion of macro 'VU_MAP_FS_NAMES'
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+  187 | #define VU_FS_DISCIPLINE_INITIALIZERS(PREFIX)                                   VU_MAP_FS_NAMES (_INITIALIZER, PREFIX, , , )
+      |                                                                                 ^~~~~~~~~~~~~~~
+      |                                                                                 ^~~~~~~~~~~~~~~
+      |                                                                                 ^~~~~~~~~~~~~~~
+      |                                                                                 ^~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+/usr/src/RPM/BUILD/tla-1.3.5/src/hackerlab/vu/vu-pathcompress.c:639:14: note: in expansion of macro 'VU_FS_DISCIPLINE_INITIALIZERS'
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+  639 |          = { VU_FS_DISCIPLINE_INITIALIZERS (pathcompress_) };
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [<builtin>: vu-pathcompress.o] Error 1
+make[2]: *** [<builtin>: vu-pathcompress.o] Error 1
+make[2]: *** [<builtin>: vu-pathcompress.o] Error 1
+make[2]: *** [<builtin>: vu-pathcompress.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/vu'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/vu'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/vu'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab/vu'
+make[1]: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/dirs.mk:28: all] Error 2
+make[1]: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/dirs.mk:28: all] Error 2
+make[1]: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/dirs.mk:28: all] Error 2
+make[1]: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/dirs.mk:28: all] Error 2
+make[1]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build/hackerlab'
+make: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/top-level.mk:50: all] Error 2
+make: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/top-level.mk:50: all] Error 2
+make: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/top-level.mk:50: all] Error 2
+make: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/top-level.mk:50: all] Error 2
+make: *** [/usr/src/RPM/BUILD/tla-1.3.5/src/build-tools/Makefiles/top-level.mk:50: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build'
+make: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build'
+make: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build'
+make: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build'
+make: Leaving directory '/usr/src/RPM/BUILD/tla-1.3.5/src/build'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.15395 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.30user 3.20system 0:04.88elapsed 112%CPU (0avgtext+0avgdata 31508maxresident)k
+2.30user 3.20system 0:04.88elapsed 112%CPU (0avgtext+0avgdata 31508maxresident)k
+2.30user 3.20system 0:04.88elapsed 112%CPU (0avgtext+0avgdata 31508maxresident)k
+2.30user 3.20system 0:04.88elapsed 112%CPU (0avgtext+0avgdata 31508maxresident)k
+0inputs+0outputs (0major+471825minor)pagefaults 0swaps
+0inputs+0outputs (0major+471825minor)pagefaults 0swaps
+0inputs+0outputs (0major+471825minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tla-1.3.5-alt1.1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `tla-1.3.5-alt1.1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `tla-1.3.5-alt1.1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.25user 2.46system 0:13.32elapsed 42%CPU (0avgtext+0avgdata 141736maxresident)k
+3.25user 2.46system 0:13.32elapsed 42%CPU (0avgtext+0avgdata 141736maxresident)k
+328inputs+0outputs (0major+198921minor)pagefaults 0swaps

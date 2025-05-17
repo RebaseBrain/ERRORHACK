@@ -1,0 +1,287 @@
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ NO_INTERNET=YES
++ /usr/bin/python3 -m pyproject_installer run -- python3 -m unittest
++ /usr/bin/python3 -m pyproject_installer run -- python3 -m unittest
+INFO     : Creating venv
+INFO     : Creating venv
+INFO     : Creating venv
+INFO     : Installing console scripts
+INFO     : Installing console scripts
+INFO     : Installing console scripts
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl
+INFO     : Installing package: /usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl']
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl']
+INFO     : Running command: ['/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/python3-module-websockets-14.1/dist/websockets-14.1-cp312-cp312-linux_x86_64.whl']
+INFO     : Running command: ['python3', '-m', 'unittest']
+INFO     : Running command: ['python3', '-m', 'unittest']
+INFO     : Running command: ['python3', '-m', 'unittest']
+.........................................................................................................................................................................................................s....s.s...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................ss.......s..................................................................................................................................s.......................................................................................................................................s...........................................................................................................................s........................s.............................................E...............sss.......................s.............................................EF............................................................................................................................................................................................................................s.................................................................................................................................................................................................................................................................................................................................................................................
+.........................................................................................................................................................................................................s....s.s...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................ss.......s..................................................................................................................................s.......................................................................................................................................s...........................................................................................................................s........................s.............................................E...............sss.......................s.............................................EF............................................................................................................................................................................................................................s.................................................................................................................................................................................................................................................................................................................................................................................
+.........................................................................................................................................................................................................s....s.s...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................ss.......s..................................................................................................................................s.......................................................................................................................................s...........................................................................................................................s........................s.............................................E...............sss.......................s.............................................EF............................................................................................................................................................................................................................s.................................................................................................................................................................................................................................................................................................................................................................................
+======================================================================
+======================================================================
+======================================================================
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ClientConnectionTests.test_writing_in_recv_events_fails)
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ClientConnectionTests.test_writing_in_recv_events_fails)
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ClientConnectionTests.test_writing_in_recv_events_fails)
+Error when responding to incoming frames is correctly reported.
+Error when responding to incoming frames is correctly reported.
+Error when responding to incoming frames is correctly reported.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+    self.remote_connection.ping()
+    self.remote_connection.ping()
+    self.remote_connection.ping()
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+    with self.send_context():
+    with self.send_context():
+    with self.send_context():
+    with self.send_context():
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+
+
+
+======================================================================
+======================================================================
+======================================================================
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_recv_events_fails)
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_recv_events_fails)
+ERROR: test_writing_in_recv_events_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_recv_events_fails)
+Error when responding to incoming frames is correctly reported.
+Error when responding to incoming frames is correctly reported.
+Error when responding to incoming frames is correctly reported.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 850, in test_writing_in_recv_events_fails
+    self.remote_connection.ping()
+    self.remote_connection.ping()
+    self.remote_connection.ping()
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 583, in ping
+    with self.send_context():
+    with self.send_context():
+    with self.send_context():
+    with self.send_context():
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+  File "/usr/lib64/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/.run_venv/lib64/python3/site-packages/websockets/sync/connection.py", line 875, in send_context
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+    raise self.protocol.close_exc from original_exc
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+
+
+
+
+======================================================================
+======================================================================
+======================================================================
+======================================================================
+FAIL: test_writing_in_send_context_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_send_context_fails)
+FAIL: test_writing_in_send_context_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_send_context_fails)
+FAIL: test_writing_in_send_context_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_send_context_fails)
+FAIL: test_writing_in_send_context_fails (tests.sync.test_connection.ServerConnectionTests.test_writing_in_send_context_fails)
+Error when sending outgoing frame is correctly reported.
+Error when sending outgoing frame is correctly reported.
+Error when sending outgoing frame is correctly reported.
+Error when sending outgoing frame is correctly reported.
+Error when sending outgoing frame is correctly reported.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+  File "/usr/src/RPM/BUILD/python3-module-websockets-14.1/tests/sync/test_connection.py", line 865, in test_writing_in_send_context_fails
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+    self.assertIsInstance(raised.exception.__cause__, BrokenPipeError)
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+AssertionError: None is not an instance of <class 'BrokenPipeError'>
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+Ran 1819 tests in 67.911s
+
+
+
+
+
+
+
+FAILED (failures=1, errors=2, skipped=15)
+FAILED (failures=1, errors=2, skipped=15)
+FAILED (failures=1, errors=2, skipped=15)
+FAILED (failures=1, errors=2, skipped=15)
+FAILED (failures=1, errors=2, skipped=15)
+FAILED (failures=1, errors=2, skipped=15)
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'unittest']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69198 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.28user 1.64system 1:10.54elapsed 9%CPU (0avgtext+0avgdata 52164maxresident)k
+5.28user 1.64system 1:10.54elapsed 9%CPU (0avgtext+0avgdata 52164maxresident)k
+5.28user 1.64system 1:10.54elapsed 9%CPU (0avgtext+0avgdata 52164maxresident)k
+5.28user 1.64system 1:10.54elapsed 9%CPU (0avgtext+0avgdata 52164maxresident)k
+0inputs+0outputs (0major+149172minor)pagefaults 0swaps
+0inputs+0outputs (0major+149172minor)pagefaults 0swaps
+0inputs+0outputs (0major+149172minor)pagefaults 0swaps
+0inputs+0outputs (0major+149172minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-websockets-14.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-websockets-14.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-websockets-14.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.45user 2.27system 1:24.34elapsed 10%CPU (0avgtext+0avgdata 142056maxresident)k
+6.45user 2.27system 1:24.34elapsed 10%CPU (0avgtext+0avgdata 142056maxresident)k
+0inputs+0outputs (0major+251788minor)pagefaults 0swaps

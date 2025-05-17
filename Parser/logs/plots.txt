@@ -1,0 +1,753 @@
+<86>May 16 01:36:01 userdel[2251761]: delete user 'rooter'
+<86>May 16 01:36:01 userdel[2251761]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:36:01 userdel[2251761]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:36:01 groupadd[2251800]: group added to /etc/group: name=rooter, GID=1850
+<86>May 16 01:36:01 groupadd[2251800]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:36:01 groupadd[2251800]: new group: name=rooter, GID=1850
+<86>May 16 01:36:01 useradd[2251818]: new user: name=rooter, UID=1850, GID=1850, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:36:01 userdel[2251859]: delete user 'builder'
+<86>May 16 01:36:01 userdel[2251859]: removed group 'builder' owned by 'builder'
+<86>May 16 01:36:01 userdel[2251859]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:36:01 groupadd[2251887]: group added to /etc/group: name=builder, GID=1851
+<86>May 16 01:36:01 groupadd[2251887]: group added to /etc/gshadow: name=builder
+<86>May 16 01:36:01 groupadd[2251887]: new group: name=builder, GID=1851
+<86>May 16 01:36:01 useradd[2251912]: new user: name=builder, UID=1851, GID=1851, home=/usr/src, shell=/bin/bash, from=none
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+warning: user aris does not exist - using root
+warning: group aris does not exist - using root
+<13>May 16 01:36:04 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:36:04 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:36:04 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:36:04 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:36:04 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:36:04 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:36:04 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:36:04 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:36:04 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:36:04 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:36:04 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:36:04 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:36:04 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:36:04 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:36:04 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:36:05 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:36:05 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:36:05 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 01:36:05 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:36:05 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:36:05 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 01:36:08 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 01:36:08 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 01:36:08 rpmi: python3-module-six-1.17.0-alt1.1 sisyphus+373470.100.1.1 1738920023 installed
+<13>May 16 01:36:08 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 01:36:08 rpmi: libopenblas-0.3.29-alt2 sisyphus+373279.100.1.1 1738760159 installed
+<13>May 16 01:36:08 rpmi: xsltproc-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 01:36:08 rpmi: python3-module-genshi-0.7.9-alt2.1 sisyphus+376369.5100.10.1 1746628134 installed
+<13>May 16 01:36:08 rpmi: yelp-xsl-42.1-alt1 sisyphus+307148.100.1.1 1663736194 installed
+<13>May 16 01:36:08 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 01:36:08 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 01:36:08 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 01:36:08 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 01:36:08 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 01:36:08 rpmi: python3-module-webencodings-0.5.1-alt3 sisyphus+359244.100.1.1 1728381102 installed
+<13>May 16 01:36:08 rpmi: python3-module-cssselect-1.3.0-alt1 sisyphus+377617.100.1.1 1741681780 installed
+<13>May 16 01:36:08 rpmi: python3-module-html5lib-1:1.1-alt1 sisyphus+278096.120.5.1 1626086978 installed
+<13>May 16 01:36:08 rpmi: python3-module-lxml-5.4.0-alt1 sisyphus+382313.100.1.1 1745325124 installed
+<13>May 16 01:36:08 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 01:36:08 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 01:36:08 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:36:08 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:36:08 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:36:08 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:36:09 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:36:09 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:36:09 rpmi: libxblas-1.0.248-alt2 sisyphus+285045.40.2.1 1631388330 installed
+<13>May 16 01:36:09 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:36:09 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:36:09 rpmi: libquadmath0-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:36:09 rpmi: libgfortran5-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:36:10 rpmi: liblapack-1:3.8.0-alt8 sisyphus+379383.100.1.1 1743069366 installed
+<13>May 16 01:36:10 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:36:10 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:36:10 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:36:10 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:36:10 rpmi: python3-module-libxml2-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:36:10 rpmi: itstool-2.0.7-alt2 sisyphus+338692.100.1.1 1705978818 installed
+<13>May 16 01:36:10 rpmi: yelp-tools-42.1-alt1 sisyphus+309336.200.2.1 1668121836 installed
+<13>May 16 01:36:10 rpmi: python3-module-freetype-2.5.1-alt2.1 sisyphus+374150.100.1.1 1739123568 installed
+<13>May 16 01:36:10 rpmi: python3-module-numpy-1:1.26.5-alt1 sisyphus+352832.100.1.1 1720965091 installed
+<13>May 16 01:36:10 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:36:10 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 01:36:10 rpmi: python3-module-lark-1.2.2-alt1 sisyphus+358322.100.1.1 1727258177 installed
+<13>May 16 01:36:10 rpmi: python3-module-PyGLM-2.7.3-alt1 sisyphus+359642.200.1.1 1728766166 installed
+<13>May 16 01:36:11 rpmi: python3-module-OpenGL-3.1.9-alt2.1 sisyphus+376369.34300.10.2 1746655744 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/plots-0.8.5-alt1.nosrc.rpm (w1.gzdio)
+<13>May 16 01:36:14 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+Installing plots-0.8.5-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.92928
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf plots-0.8.5
++ echo 'Source #0 (plots-0.8.5.tar):'
+Source #0 (plots-0.8.5.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/plots-0.8.5.tar
++ cd plots-0.8.5
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.90781
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd plots-0.8.5
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/plots-0.8.5
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/plots-0.8.5/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+INFO     : pyproject_installer.lib.build_backend : pyproject.toml was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/plots-0.8.5/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/plots
+INFO     : root : copying plots/utils.py -> build/lib/plots
+INFO     : root : copying plots/text.py -> build/lib/plots
+INFO     : root : copying plots/rowcommands.py -> build/lib/plots
+INFO     : root : copying plots/preferences.py -> build/lib/plots
+INFO     : root : copying plots/plots.py -> build/lib/plots
+INFO     : root : copying plots/parser.py -> build/lib/plots
+INFO     : root : copying plots/i18n.py -> build/lib/plots
+INFO     : root : copying plots/graph.py -> build/lib/plots
+INFO     : root : copying plots/formularow.py -> build/lib/plots
+INFO     : root : copying plots/formula.py -> build/lib/plots
+INFO     : root : copying plots/data.py -> build/lib/plots
+INFO     : root : copying plots/cursor.py -> build/lib/plots
+INFO     : root : copying plots/colorpicker.py -> build/lib/plots
+INFO     : root : copying plots/__main__.py -> build/lib/plots
+INFO     : root : copying plots/__init__.py -> build/lib/plots
+INFO     : root : creating build/lib/plots/ui
+INFO     : root : copying plots/ui/__init__.py -> build/lib/plots/ui
+INFO     : root : creating build/lib/plots/shaders
+INFO     : root : copying plots/shaders/__init__.py -> build/lib/plots/shaders
+INFO     : root : creating build/lib/plots/res
+INFO     : root : copying plots/res/__init__.py -> build/lib/plots/res
+INFO     : root : creating build/lib/plots/locale
+INFO     : root : copying plots/locale/__init__.py -> build/lib/plots/locale
+INFO     : root : creating build/lib/plots/elements
+INFO     : root : copying plots/elements/supersubscript.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/sum.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/radical.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/paren.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/index.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/frac.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/floor.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/elements.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/element.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/ceil.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/atom.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/abstractwrapped.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/abstractelement.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/abs.py -> build/lib/plots/elements
+INFO     : root : copying plots/elements/__init__.py -> build/lib/plots/elements
+INFO     : root : copying plots/shaders/x_formula_calculation.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/vertex.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/theta_formula_calculation.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/text_vert.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/text_frag.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/r_formula_calculation.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/implicit_formula_calculation.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/fragment.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/shaders/formula_calculation.glsl -> build/lib/plots/shaders
+INFO     : root : copying plots/ui/shortcuts.ui -> build/lib/plots/ui
+INFO     : root : copying plots/ui/preferences.ui -> build/lib/plots/ui
+INFO     : root : copying plots/ui/plots.ui -> build/lib/plots/ui
+INFO     : root : copying plots/ui/formula_box.ui -> build/lib/plots/ui
+INFO     : root : copying plots/ui/about.ui -> build/lib/plots/ui
+INFO     : root : copying plots/res/com.github.alexhuntley.Plotter.svg -> build/lib/plots/res
+INFO     : root : copying plots/res/DejaVuSans.ttf -> build/lib/plots/res
+INFO     : root : creating build/lib/plots/locale/zh_Hant/LC_MESSAGES
+INFO     : root : copying plots/locale/zh_Hant/LC_MESSAGES/plots.mo -> build/lib/plots/locale/zh_Hant/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/zh_Hans/LC_MESSAGES
+INFO     : root : copying plots/locale/zh_Hans/LC_MESSAGES/plots.mo -> build/lib/plots/locale/zh_Hans/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/uk/LC_MESSAGES
+INFO     : root : copying plots/locale/uk/LC_MESSAGES/plots.mo -> build/lib/plots/locale/uk/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/tr/LC_MESSAGES
+INFO     : root : copying plots/locale/tr/LC_MESSAGES/plots.mo -> build/lib/plots/locale/tr/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/sv/LC_MESSAGES
+INFO     : root : copying plots/locale/sv/LC_MESSAGES/plots.mo -> build/lib/plots/locale/sv/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/pt_BR/LC_MESSAGES
+INFO     : root : copying plots/locale/pt_BR/LC_MESSAGES/plots.mo -> build/lib/plots/locale/pt_BR/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/nl/LC_MESSAGES
+INFO     : root : copying plots/locale/nl/LC_MESSAGES/plots.mo -> build/lib/plots/locale/nl/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/nb_NO/LC_MESSAGES
+INFO     : root : copying plots/locale/nb_NO/LC_MESSAGES/plots.mo -> build/lib/plots/locale/nb_NO/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/lt/LC_MESSAGES
+INFO     : root : copying plots/locale/lt/LC_MESSAGES/plots.mo -> build/lib/plots/locale/lt/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/ko/LC_MESSAGES
+INFO     : root : copying plots/locale/ko/LC_MESSAGES/plots.mo -> build/lib/plots/locale/ko/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/it/LC_MESSAGES
+INFO     : root : copying plots/locale/it/LC_MESSAGES/plots.mo -> build/lib/plots/locale/it/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/hu/LC_MESSAGES
+INFO     : root : copying plots/locale/hu/LC_MESSAGES/plots.mo -> build/lib/plots/locale/hu/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/hr/LC_MESSAGES
+INFO     : root : copying plots/locale/hr/LC_MESSAGES/plots.mo -> build/lib/plots/locale/hr/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/he/LC_MESSAGES
+INFO     : root : copying plots/locale/he/LC_MESSAGES/plots.mo -> build/lib/plots/locale/he/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/fr_FR/LC_MESSAGES
+INFO     : root : copying plots/locale/fr_FR/LC_MESSAGES/plots.mo -> build/lib/plots/locale/fr_FR/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/fi/LC_MESSAGES
+INFO     : root : copying plots/locale/fi/LC_MESSAGES/plots.mo -> build/lib/plots/locale/fi/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/fa/LC_MESSAGES
+INFO     : root : copying plots/locale/fa/LC_MESSAGES/plots.mo -> build/lib/plots/locale/fa/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/es/LC_MESSAGES
+INFO     : root : copying plots/locale/es/LC_MESSAGES/plots.mo -> build/lib/plots/locale/es/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/de/LC_MESSAGES
+INFO     : root : copying plots/locale/de/LC_MESSAGES/plots.mo -> build/lib/plots/locale/de/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/cs/LC_MESSAGES
+INFO     : root : copying plots/locale/cs/LC_MESSAGES/plots.mo -> build/lib/plots/locale/cs/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/bn/LC_MESSAGES
+INFO     : root : copying plots/locale/bn/LC_MESSAGES/plots.mo -> build/lib/plots/locale/bn/LC_MESSAGES
+INFO     : root : creating build/lib/plots/locale/ar/LC_MESSAGES
+INFO     : root : copying plots/locale/ar/LC_MESSAGES/plots.mo -> build/lib/plots/locale/ar/LC_MESSAGES
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/elements
+INFO     : root : copying build/lib/plots/elements/__init__.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/abs.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/abstractelement.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/abstractwrapped.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/atom.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/ceil.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/element.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/elements.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/floor.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/frac.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/index.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/paren.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/radical.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/sum.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : copying build/lib/plots/elements/supersubscript.py -> build/bdist.linux-x86_64/wheel/./plots/elements
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/ar
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/ar/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/ar/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/ar/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/bn
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/bn/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/bn/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/bn/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/cs
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/cs/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/cs/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/cs/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/de
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/de/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/de/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/de/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/es
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/es/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/es/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/es/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fa
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fa/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/fa/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/fa/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fi
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fi/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/fi/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/fi/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fr_FR
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/fr_FR/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/fr_FR/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/fr_FR/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/he
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/he/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/he/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/he/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/hr
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/hr/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/hr/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/hr/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/hu
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/hu/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/hu/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/hu/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/it
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/it/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/it/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/it/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/ko
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/ko/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/ko/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/ko/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/lt
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/lt/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/lt/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/lt/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/nb_NO
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/nb_NO/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/nb_NO/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/nb_NO/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/nl
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/nl/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/nl/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/nl/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/pt_BR
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/pt_BR/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/pt_BR/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/pt_BR/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/sv
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/sv/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/sv/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/sv/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/tr
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/tr/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/tr/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/tr/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/uk
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/uk/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/uk/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/uk/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/zh_Hans
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/zh_Hans/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/zh_Hans/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/zh_Hans/LC_MESSAGES
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/zh_Hant
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/locale/zh_Hant/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/zh_Hant/LC_MESSAGES/plots.mo -> build/bdist.linux-x86_64/wheel/./plots/locale/zh_Hant/LC_MESSAGES
+INFO     : root : copying build/lib/plots/locale/__init__.py -> build/bdist.linux-x86_64/wheel/./plots/locale
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/res
+INFO     : root : copying build/lib/plots/res/DejaVuSans.ttf -> build/bdist.linux-x86_64/wheel/./plots/res
+INFO     : root : copying build/lib/plots/res/com.github.alexhuntley.Plotter.svg -> build/bdist.linux-x86_64/wheel/./plots/res
+INFO     : root : copying build/lib/plots/res/__init__.py -> build/bdist.linux-x86_64/wheel/./plots/res
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/shaders
+INFO     : root : copying build/lib/plots/shaders/formula_calculation.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/fragment.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/implicit_formula_calculation.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/r_formula_calculation.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/text_frag.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/text_vert.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/theta_formula_calculation.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/vertex.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/x_formula_calculation.glsl -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : copying build/lib/plots/shaders/__init__.py -> build/bdist.linux-x86_64/wheel/./plots/shaders
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots/ui
+INFO     : root : copying build/lib/plots/ui/about.ui -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/ui/formula_box.ui -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/ui/plots.ui -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/ui/preferences.ui -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/ui/shortcuts.ui -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/ui/__init__.py -> build/bdist.linux-x86_64/wheel/./plots/ui
+INFO     : root : copying build/lib/plots/__init__.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/__main__.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/colorpicker.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/cursor.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/data.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/formula.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/formularow.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/graph.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/i18n.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/parser.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/plots.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/preferences.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/rowcommands.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/text.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : copying build/lib/plots/utils.py -> build/bdist.linux-x86_64/wheel/./plots
+INFO     : root : running install_egg_info
+INFO     : root : running egg_info
+INFO     : root : creating Plots.egg-info
+INFO     : root : writing Plots.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to Plots.egg-info/dependency_links.txt
+INFO     : root : writing entry points to Plots.egg-info/entry_points.txt
+INFO     : root : writing requirements to Plots.egg-info/requires.txt
+INFO     : root : writing top-level names to Plots.egg-info/top_level.txt
+INFO     : root : writing manifest file 'Plots.egg-info/SOURCES.txt'
+INFO     : root : reading manifest file 'Plots.egg-info/SOURCES.txt'
+INFO     : root : adding license file 'COPYING'
+INFO     : root : writing manifest file 'Plots.egg-info/SOURCES.txt'
+INFO     : root : Copying Plots.egg-info to build/bdist.linux-x86_64/wheel/./Plots-0.8.5-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/plots-0.8.5.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/plots-0.8.5/dist/.tmp-l0fygh6u/plots-0.8.5-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'plots/__init__.py'
+INFO     : wheel : adding 'plots/__main__.py'
+INFO     : wheel : adding 'plots/colorpicker.py'
+INFO     : wheel : adding 'plots/cursor.py'
+INFO     : wheel : adding 'plots/data.py'
+INFO     : wheel : adding 'plots/formula.py'
+INFO     : wheel : adding 'plots/formularow.py'
+INFO     : wheel : adding 'plots/graph.py'
+INFO     : wheel : adding 'plots/i18n.py'
+INFO     : wheel : adding 'plots/parser.py'
+INFO     : wheel : adding 'plots/plots.py'
+INFO     : wheel : adding 'plots/preferences.py'
+INFO     : wheel : adding 'plots/rowcommands.py'
+INFO     : wheel : adding 'plots/text.py'
+INFO     : wheel : adding 'plots/utils.py'
+INFO     : wheel : adding 'plots/elements/__init__.py'
+INFO     : wheel : adding 'plots/elements/abs.py'
+INFO     : wheel : adding 'plots/elements/abstractelement.py'
+INFO     : wheel : adding 'plots/elements/abstractwrapped.py'
+INFO     : wheel : adding 'plots/elements/atom.py'
+INFO     : wheel : adding 'plots/elements/ceil.py'
+INFO     : wheel : adding 'plots/elements/element.py'
+INFO     : wheel : adding 'plots/elements/elements.py'
+INFO     : wheel : adding 'plots/elements/floor.py'
+INFO     : wheel : adding 'plots/elements/frac.py'
+INFO     : wheel : adding 'plots/elements/index.py'
+INFO     : wheel : adding 'plots/elements/paren.py'
+INFO     : wheel : adding 'plots/elements/radical.py'
+INFO     : wheel : adding 'plots/elements/sum.py'
+INFO     : wheel : adding 'plots/elements/supersubscript.py'
+INFO     : wheel : adding 'plots/locale/__init__.py'
+INFO     : wheel : adding 'plots/locale/ar/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/bn/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/cs/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/de/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/es/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/fa/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/fi/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/fr_FR/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/he/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/hr/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/hu/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/it/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/ko/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/lt/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/nb_NO/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/nl/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/pt_BR/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/sv/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/tr/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/uk/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/zh_Hans/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/locale/zh_Hant/LC_MESSAGES/plots.mo'
+INFO     : wheel : adding 'plots/res/DejaVuSans.ttf'
+INFO     : wheel : adding 'plots/res/__init__.py'
+INFO     : wheel : adding 'plots/res/com.github.alexhuntley.Plotter.svg'
+INFO     : wheel : adding 'plots/shaders/__init__.py'
+INFO     : wheel : adding 'plots/shaders/formula_calculation.glsl'
+INFO     : wheel : adding 'plots/shaders/fragment.glsl'
+INFO     : wheel : adding 'plots/shaders/implicit_formula_calculation.glsl'
+INFO     : wheel : adding 'plots/shaders/r_formula_calculation.glsl'
+INFO     : wheel : adding 'plots/shaders/text_frag.glsl'
+INFO     : wheel : adding 'plots/shaders/text_vert.glsl'
+INFO     : wheel : adding 'plots/shaders/theta_formula_calculation.glsl'
+INFO     : wheel : adding 'plots/shaders/vertex.glsl'
+INFO     : wheel : adding 'plots/shaders/x_formula_calculation.glsl'
+INFO     : wheel : adding 'plots/ui/__init__.py'
+INFO     : wheel : adding 'plots/ui/about.ui'
+INFO     : wheel : adding 'plots/ui/formula_box.ui'
+INFO     : wheel : adding 'plots/ui/plots.ui'
+INFO     : wheel : adding 'plots/ui/preferences.ui'
+INFO     : wheel : adding 'plots/ui/shortcuts.ui'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/licenses/COPYING'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/METADATA'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/WHEEL'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/entry_points.txt'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/top_level.txt'
+INFO     : wheel : adding 'plots-0.8.5.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: plots-0.8.5-py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.90781
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/plots-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/plots-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd plots-0.8.5
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/plots-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/plots-0.8.5/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: plots-0.8.5-py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/plots-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: plots-0.8.5.dist-info/licenses/COPYING
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: plots-0.8.5.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: plots-0.8.5.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: plots-0.8.5.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Generating entrypoints scripts
+DEBUG    : pyproject_installer.lib.scripts : Installing console script: plots
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ mkdir -p /usr/src/tmp/plots-buildroot//usr/share/applications /usr/src/tmp/plots-buildroot//usr/share/help /usr/src/tmp/plots-buildroot//usr/share/metainfo /usr/src/tmp/plots-buildroot//usr/share/locale
++ cp res/com.github.alexhuntley.Plots.desktop /usr/src/tmp/plots-buildroot//usr/share/applications/
++ cp res/com.github.alexhuntley.Plots.metainfo.xml /usr/src/tmp/plots-buildroot//usr/share/metainfo
++ pushd help
+~/RPM/BUILD/plots-0.8.5/help ~/RPM/BUILD/plots-0.8.5
+++ ls
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/C/plots
++ cp C/basic-functions.page C/exponential-functions.page C/hyperbolic-functions.page C/implicit-formulae.page C/index.page C/legal.xml C/misc-functions.page C/r-formulae.page C/sum-functions.page C/symbols.page C/theta-formulae.page C/trig-functions.page C/variables.page C/x-formulae.page C/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/C/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/bn/plots
++ cp bn/symbols.page bn/theta-formulae.page bn/trig-functions.page bn/variables.page /usr/src/tmp/plots-buildroot/usr/share/help/bn/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/cs/plots
++ cp cs/basic-functions.page cs/exponential-functions.page cs/hyperbolic-functions.page cs/implicit-formulae.page cs/index.page cs/misc-functions.page cs/r-formulae.page cs/sum-functions.page cs/symbols.page cs/theta-formulae.page cs/trig-functions.page cs/variables.page cs/x-formulae.page cs/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/cs/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/de/plots
++ cp de/basic-functions.page de/index.page /usr/src/tmp/plots-buildroot/usr/share/help/de/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/es/plots
++ cp es/basic-functions.page es/exponential-functions.page es/hyperbolic-functions.page es/implicit-formulae.page es/index.page es/misc-functions.page es/r-formulae.page es/sum-functions.page es/symbols.page es/theta-formulae.page es/trig-functions.page es/variables.page es/x-formulae.page es/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/es/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/fa/plots
++ cp fa/basic-functions.page fa/exponential-functions.page fa/hyperbolic-functions.page fa/implicit-formulae.page fa/index.page fa/misc-functions.page fa/r-formulae.page fa/sum-functions.page fa/symbols.page fa/theta-formulae.page fa/trig-functions.page fa/variables.page fa/x-formulae.page fa/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/fa/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/fr/plots
++ cp fr/basic-functions.page fr/exponential-functions.page fr/hyperbolic-functions.page fr/implicit-formulae.page fr/index.page fr/legal.xml fr/misc-functions.page fr/r-formulae.page fr/sum-functions.page fr/symbols.page fr/theta-formulae.page fr/trig-functions.page fr/variables.page fr/x-formulae.page fr/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/fr/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/hr/plots
++ cp hr/basic-functions.page hr/exponential-functions.page hr/hyperbolic-functions.page hr/implicit-formulae.page hr/index.page hr/misc-functions.page hr/r-formulae.page hr/sum-functions.page hr/symbols.page hr/theta-formulae.page hr/trig-functions.page hr/variables.page hr/x-formulae.page hr/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/hr/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/hu/plots
++ cp hu/basic-functions.page hu/exponential-functions.page hu/hyperbolic-functions.page hu/implicit-formulae.page hu/index.page hu/misc-functions.page hu/r-formulae.page hu/sum-functions.page hu/symbols.page hu/theta-formulae.page hu/trig-functions.page hu/variables.page hu/x-formulae.page hu/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/hu/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/it/plots
++ cp it/basic-functions.page it/exponential-functions.page it/hyperbolic-functions.page it/implicit-formulae.page it/index.page it/misc-functions.page it/r-formulae.page it/sum-functions.page it/symbols.page it/theta-formulae.page it/trig-functions.page it/variables.page it/x-formulae.page it/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/it/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/lt/plots
++ cp lt/basic-functions.page lt/exponential-functions.page lt/hyperbolic-functions.page lt/implicit-formulae.page lt/index.page lt/misc-functions.page lt/r-formulae.page lt/sum-functions.page lt/symbols.page lt/theta-formulae.page lt/trig-functions.page lt/variables.page lt/x-formulae.page lt/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/lt/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/nb_NO/plots
++ cp nb_NO/index.page nb_NO/misc-functions.page nb_NO/symbols.page /usr/src/tmp/plots-buildroot/usr/share/help/nb_NO/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/nl/plots
++ cp nl/basic-functions.page nl/exponential-functions.page nl/hyperbolic-functions.page nl/implicit-formulae.page nl/index.page nl/misc-functions.page nl/r-formulae.page nl/sum-functions.page nl/symbols.page nl/theta-formulae.page nl/trig-functions.page nl/variables.page nl/x-formulae.page nl/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/nl/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/pt_BR/plots
++ cp pt_BR/basic-functions.page pt_BR/exponential-functions.page pt_BR/hyperbolic-functions.page pt_BR/implicit-formulae.page pt_BR/index.page pt_BR/misc-functions.page pt_BR/r-formulae.page pt_BR/sum-functions.page pt_BR/symbols.page pt_BR/theta-formulae.page pt_BR/trig-functions.page pt_BR/variables.page pt_BR/x-formulae.page pt_BR/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/pt_BR/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/tr/plots
++ cp tr/implicit-formulae.page tr/x-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/tr/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/uk/plots
++ cp uk/basic-functions.page uk/exponential-functions.page uk/hyperbolic-functions.page uk/implicit-formulae.page uk/index.page uk/misc-functions.page uk/r-formulae.page uk/sum-functions.page uk/symbols.page uk/theta-formulae.page uk/trig-functions.page uk/variables.page uk/x-formulae.page uk/y-formulae.page /usr/src/tmp/plots-buildroot/usr/share/help/uk/plots/
++ for dir in $(ls)
++ mkdir -p /usr/src/tmp/plots-buildroot/usr/share/help/zh_Hans/plots
++ cp zh_Hans/basic-functions.page zh_Hans/index.page /usr/src/tmp/plots-buildroot/usr/share/help/zh_Hans/plots/
++ popd
+~/RPM/BUILD/plots-0.8.5
++ mv /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/locale -t /usr/src/tmp/plots-buildroot//usr/share/
++ ln -s ../../../../share/locale /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/locale
++ ln -sf ../../../../../share/fonts/ttf/dejavu/DejaVuSans.ttf /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/res/DejaVuSans.ttf
++ /usr/lib/rpm/find-lang --with-gnome plots
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/plots-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/plots-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+/usr/share/applications/com.github.alexhuntley.Plots.desktop: performed minor cleanup:
+31c31
+< Categories=GNOME;GTK;Science;Math;Education
+---
+> Categories=GNOME;GTK;Science;Math;Education;
+Checking contents of files in /usr/src/tmp/plots-buildroot/ (default)
+Compressing files in /usr/src/tmp/plots-buildroot (auto)
+Adjusting library links in /usr/src/tmp/plots-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/plots-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/plots-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/plots-buildroot using /usr/bin/python3
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abs.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractelement.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractwrapped.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/atom.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/ceil.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/element.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/elements.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/floor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/frac.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/index.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/paren.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/radical.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/sum.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/supersubscript.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/locale/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/res/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/shaders/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/ui/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__main__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/colorpicker.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/cursor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/data.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formula.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formularow.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/graph.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/i18n.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/parser.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/plots.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/preferences.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/rowcommands.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/text.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/utils.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/plots-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abs.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractelement.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractwrapped.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/atom.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/ceil.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/element.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/elements.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/floor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/frac.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/index.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/paren.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/radical.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/sum.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/supersubscript.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/locale/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/res/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/shaders/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/ui/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__main__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/colorpicker.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/cursor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/data.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formula.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formularow.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/graph.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/i18n.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/parser.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/plots.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/preferences.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/rowcommands.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/text.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/utils.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/plots-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abs.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractelement.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/abstractwrapped.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/atom.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/ceil.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/element.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/elements.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/floor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/frac.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/index.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/paren.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/radical.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/sum.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/elements/supersubscript.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/locale/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/res/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/shaders/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/ui/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__init__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/__main__.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/colorpicker.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/cursor.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/data.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formula.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/formularow.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/graph.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/i18n.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/parser.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/plots.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/preferences.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/rowcommands.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/text.py
+compile /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/plots/utils.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/plots/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/__main__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/__main__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/__main__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/__main__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/colorpicker.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/colorpicker.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/colorpicker.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/colorpicker.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/cursor.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/cursor.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/cursor.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/cursor.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/data.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/data.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/data.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/data.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/formula.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/formula.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/formula.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/formula.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/formularow.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/formularow.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/formularow.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/formularow.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/graph.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/graph.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/graph.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/graph.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/i18n.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/i18n.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/i18n.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/i18n.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/parser.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/parser.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/parser.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/parser.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/plots.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/plots.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/plots.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/plots.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/preferences.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/preferences.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/preferences.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/preferences.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/rowcommands.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/rowcommands.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/rowcommands.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/rowcommands.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/text.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/text.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/text.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/text.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/__pycache__/utils.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/__pycache__/utils.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/abs.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/abs.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/abs.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/abs.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/abstractelement.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/abstractelement.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/abstractwrapped.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/abstractwrapped.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/atom.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/atom.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/atom.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/atom.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/ceil.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/ceil.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/ceil.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/ceil.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/element.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/element.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/elements.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/elements.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/floor.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/floor.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/floor.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/floor.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/frac.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/frac.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/frac.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/frac.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/index.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/index.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/index.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/index.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/paren.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/paren.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/paren.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/paren.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/radical.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/radical.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/radical.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/radical.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/sum.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/sum.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/sum.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/sum.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/supersubscript.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/supersubscript.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/elements/__pycache__/supersubscript.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/elements/__pycache__/supersubscript.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/res/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/shaders/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/plots/ui/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/share/locale/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/share/locale/__pycache__/__init__.cpython-312.pyc'
+'./usr/share/locale/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/share/locale/__pycache__/__init__.cpython-312.opt-1.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.90543
+Check is turned off by --disable check
+Processing files: plots-0.8.5-alt1
+error: No such file or directory: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/Plots-0.8.5.dist-info
+Executing(%doc): /bin/sh -e /usr/src/tmp/rpm-tmp.90543
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd plots-0.8.5
++ DOCDIR=/usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ export DOCDIR
++ rm -rf /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ /bin/mkdir -p /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ cp -prL README.md /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R go-w /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ chmod -R a+rX /usr/src/tmp/plots-buildroot/usr/share/doc/plots-0.8.5
++ exit 0
+
+
+RPM build errors:
+    No such file or directory: /usr/src/tmp/plots-buildroot/usr/lib/python3/site-packages/Plots-0.8.5.dist-info
+Command exited with non-zero status 1
+0.98user 0.66system 0:01.53elapsed 106%CPU (0avgtext+0avgdata 30912maxresident)k
+0inputs+0outputs (0major+125614minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `plots-0.8.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+6.32user 3.81system 0:18.87elapsed 53%CPU (0avgtext+0avgdata 140608maxresident)k
+9488inputs+0outputs (0major+338124minor)pagefaults 0swaps

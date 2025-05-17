@@ -1,0 +1,56 @@
+Problem opening /proc/meminfo
+CMake Deprecation Warning at CMakeLists.txt:25 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at CMakeLists.txt:42 (cmake_policy):
+  Policy CMP0054 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.1.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0054 for more information.
+
+
+-- The C compiler identification is GNU 14.2.1
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+Problem opening /proc/meminfo
+-- Check the value of the 22nd bit of a 32-bit quiet-NaN
+-- Check the value of the 22nd bit of a 32-bit quiet-NaN - 1
+Problem opening /proc/meminfo
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.3.1")
+-- Found PNG: /usr/lib64/libpng.so (found version "1.6.42")
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94994 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.94994 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.94994 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.94994 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.17user 1.28system 0:02.35elapsed 103%CPU (0avgtext+0avgdata 24036maxresident)k
+1.17user 1.28system 0:02.35elapsed 103%CPU (0avgtext+0avgdata 24036maxresident)k
+0inputs+0outputs (0major+246958minor)pagefaults 0swaps
+0inputs+0outputs (0major+246958minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `teem-1.12.0-alt1.20150414.r6245.src.rpm' failed.
+hsh-rebuild: rebuild of `teem-1.12.0-alt1.20150414.r6245.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.82user 2.72system 0:13.66elapsed 47%CPU (0avgtext+0avgdata 141784maxresident)k
+3.82user 2.72system 0:13.66elapsed 47%CPU (0avgtext+0avgdata 141784maxresident)k
+5296inputs+0outputs (0major+214854minor)pagefaults 0swaps

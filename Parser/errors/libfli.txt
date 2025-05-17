@@ -1,0 +1,56 @@
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC '
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC '
++ export FCFLAGS
++ LDFLAGS=-Wl,-z,relro
++ export LDFLAGS
++ /usr/bin/cmake -S . -B x86_64-alt-linux -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18350 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.18350 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.18350 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.18350 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.01user 0.05system 0:00.07elapsed 107%CPU (0avgtext+0avgdata 18784maxresident)k
+0.01user 0.05system 0:00.07elapsed 107%CPU (0avgtext+0avgdata 18784maxresident)k
+0inputs+0outputs (0major+8030minor)pagefaults 0swaps
+0inputs+0outputs (0major+8030minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libfli-1.9.0-alt1_2.src.rpm' failed.
+hsh-rebuild: rebuild of `libfli-1.9.0-alt1_2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.50user 3.14system 0:13.55elapsed 56%CPU (0avgtext+0avgdata 141516maxresident)k
+4.50user 3.14system 0:13.55elapsed 56%CPU (0avgtext+0avgdata 141516maxresident)k
+3944inputs+0outputs (0major+280715minor)pagefaults 0swaps

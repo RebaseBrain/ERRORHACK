@@ -1,0 +1,56 @@
++ /bin/chmod -c -Rf u+rwX,go-w .
++ cp -fR examples tests ../
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.68663
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd oscpack-1.1.0
++ cmake -DLIB_SUFFIX=64 -DCMAKE_INSTALL_PREFIX:PATH=/usr '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' -DCMAKE_STRIP:FILEPATH=/bin/echo .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68663 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68663 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.68663 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.68663 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.01user 0.05system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 18732maxresident)k
+0.01user 0.05system 0:00.06elapsed 103%CPU (0avgtext+0avgdata 18732maxresident)k
+0inputs+0outputs (0major+7773minor)pagefaults 0swaps
+0inputs+0outputs (0major+7773minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `oscpack-1.1.0-alt1.svn20140913.src.rpm' failed.
+hsh-rebuild: rebuild of `oscpack-1.1.0-alt1.svn20140913.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.55user 3.16system 0:11.89elapsed 56%CPU (0avgtext+0avgdata 141124maxresident)k
+3.55user 3.16system 0:11.89elapsed 56%CPU (0avgtext+0avgdata 141124maxresident)k
+0inputs+0outputs (0major+224457minor)pagefaults 0swaps

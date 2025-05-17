@@ -1,0 +1,2002 @@
+<86>May 16 05:28:23 userdel[2403398]: delete user 'rooter'
+<86>May 16 05:28:23 userdel[2403398]: removed group 'rooter' owned by 'rooter'
+<86>May 16 05:28:23 userdel[2403398]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 05:28:23 groupadd[2403419]: group added to /etc/group: name=rooter, GID=1790
+<86>May 16 05:28:23 groupadd[2403419]: group added to /etc/gshadow: name=rooter
+<86>May 16 05:28:23 groupadd[2403419]: new group: name=rooter, GID=1790
+<86>May 16 05:28:23 useradd[2403426]: new user: name=rooter, UID=1790, GID=1790, home=/root, shell=/bin/bash, from=none
+<86>May 16 05:28:23 userdel[2403436]: delete user 'builder'
+<86>May 16 05:28:23 userdel[2403436]: removed group 'builder' owned by 'builder'
+<86>May 16 05:28:23 userdel[2403436]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 05:28:23 groupadd[2403443]: group added to /etc/group: name=builder, GID=1791
+<86>May 16 05:28:23 groupadd[2403443]: group added to /etc/gshadow: name=builder
+<86>May 16 05:28:23 groupadd[2403443]: new group: name=builder, GID=1791
+<86>May 16 05:28:23 useradd[2403449]: new user: name=builder, UID=1791, GID=1791, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/a2ps-4.14-alt4.src.rpm: The use of such a license name is ambiguous: GPL
+warning: line 57: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 102: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 116: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+<13>May 16 05:28:28 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 05:28:29 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 05:28:29 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 05:28:29 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 05:28:29 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 05:28:29 rpmi: perl-Unicode-Normalize-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 05:28:29 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 05:28:29 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 05:28:29 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 05:28:29 rpmi: less-633-alt1 sisyphus+328181.300.2.1 1693321749 installed
+<13>May 16 05:28:29 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 05:28:29 rpmi: libpaper2-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276732 installed
+<13>May 16 05:28:29 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745386888 installed
+<13>May 16 05:28:29 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 05:28:29 rpmi: libtcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 05:28:29 rpmi: libnspr-1:4.35-alt1 sisyphus+308164.100.1.1 1665397040 installed
+<13>May 16 05:28:29 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 05:28:29 rpmi: libassuan-2.5.6-alt1 sisyphus+327218.300.1.1 1692093921 installed
+<13>May 16 05:28:29 rpmi: perl-IO-Stringy-2.113-alt1 sisyphus+289915.300.2.1 1637124493 installed
+<13>May 16 05:28:29 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 05:28:29 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 05:28:29 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 05:28:29 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 05:28:29 rpmi: perl-Tie-RefHash-1.41-alt1 sisyphus+380330.100.1.2 1743763271 installed
+<13>May 16 05:28:29 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 05:28:29 rpmi: libxxhash-0.8.2-alt1 sisyphus+336514.200.7.1 1702672118 installed
+<13>May 16 05:28:29 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 05:28:29 rpmi: libjbig2.1-2.1-alt2 sisyphus+326386.40.6.1 1691148231 installed
+<13>May 16 05:28:29 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659208 installed
+<13>May 16 05:28:29 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:28:29 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 05:28:29 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 05:28:29 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 05:28:29 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 05:28:29 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:28:29 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:28:29 rpmi: libbrotlienc-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 05:28:29 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 05:28:29 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 05:28:29 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 05:28:29 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 05:28:29 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 05:28:29 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 05:28:29 rpmi: libopenexrcore32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 05:28:29 rpmi: libraqm-0.10.2-alt1 sisyphus+378370.100.1.1 1742284731 installed
+<13>May 16 05:28:29 rpmi: libwoff2-1.0.2-alt3 sisyphus+302729.100.1.1 1656351540 installed
+<13>May 16 05:28:29 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 05:28:29 rpmi: perl-autodie-2.37-alt1 sisyphus+337625.100.1.1 1704230186 installed
+<13>May 16 05:28:29 rpmi: perl-OLE-Storage_Lite-0.22-alt1 sisyphus+315433.100.1.1 1676717427 installed
+<13>May 16 05:28:29 rpmi: tcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 05:28:29 rpmi: libraw-0.21.4-alt1 sisyphus+381532.100.1.1 1744570705 installed
+<13>May 16 05:28:29 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 05:28:29 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 05:28:29 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 05:28:29 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 05:28:29 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 05:28:29 rpmi: perl-unicore-1:5.38.2-alt0.2 sisyphus+344512.40.2.1 1712358015 installed
+<13>May 16 05:28:29 rpmi: perl-Net-IDN-Encode-2.500-alt2 sisyphus+335067.2600.1.1 1700901862 installed
+<13>May 16 05:28:29 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 05:28:29 rpmi: libflif-0.4-alt1 sisyphus+343861.100.1.1 1711656717 installed
+<13>May 16 05:28:29 rpmi: libjasper7-4.2.4-alt1 sisyphus+363913.100.2.1 1733524837 installed
+<13>May 16 05:28:29 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 05:28:29 rpmi: libkpathsea6-2022-alt0_12 sisyphus+382855.100.1.1 1745948215 installed
+<13>May 16 05:28:29 rpmi: libptexenc1-2022-alt0_12 sisyphus+382855.100.1.1 1745948215 installed
+<13>May 16 05:28:29 rpmi: libsynctex2-2022-alt0_12 sisyphus+382855.100.1.1 1745948215 installed
+<13>May 16 05:28:29 rpmi: libtexlua5-2022-alt0_12 sisyphus+382855.100.1.1 1745948215 installed
+<13>May 16 05:28:29 rpmi: zziplib-0.13.79-alt1 sisyphus+383262.100.2.1 1746593381 installed
+<13>May 16 05:28:29 rpmi: libpotrace-1.16-alt2 sisyphus+328401.100.1.1 1693483624 installed
+<13>May 16 05:28:30 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 05:28:30 rpmi: tex-common-0.2-alt4 sisyphus+276869.100.1.1 1625246366 installed
+<13>May 16 05:28:30 rpmi: t1utils-1.42-alt1 sisyphus+278458.100.1.1 1626102085 installed
+<13>May 16 05:28:30 rpmi: ttf2pt1-3.4.4-alt1.qa1 sisyphus+275192.100.2.1 1624905844 installed
+<13>May 16 05:28:30 rpmi: libqqwing-1.3.4-alt2 sisyphus+275255.100.2.1 1624562960 installed
+<13>May 16 05:28:30 rpmi: qqwing-1.3.4-alt2 sisyphus+275255.100.2.1 1624562960 installed
+<13>May 16 05:28:30 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 05:28:30 rpmi: libnpth-1.6.0.20.g7e45b50-alt3 sisyphus+278566.100.1.1 1626114690 installed
+<13>May 16 05:28:30 rpmi: libksba-1.6.4-alt1 sisyphus+327218.400.1.1 1692093956 installed
+<13>May 16 05:28:30 rpmi: gpgme-common-1.24.1-alt1 sisyphus+365199.100.1.1 1734364569 installed
+<13>May 16 05:28:30 rpmi: libfmt11-1:11.2.0-alt1 sisyphus+383210.100.1.1 1746341681 installed
+<13>May 16 05:28:30 rpmi: libaltcsp-0.2-alt2 sisyphus+377501.400.4.1 1741623280 installed
+<13>May 16 05:28:30 rpmi: poppler-data-0.4.12-alt1 sisyphus+322151.100.1.1 1685438511 installed
+<13>May 16 05:28:30 rpmi: perl-Text-Unidecode-1.30-alt1 1480505027 installed
+<13>May 16 05:28:30 rpmi: perl-Unicode-Map-0.112-alt8 sisyphus+335067.5100.2.2 1701151359 installed
+<13>May 16 05:28:30 rpmi: perl-Digest-Perl-MD5-1.9-alt1 1394057208 installed
+<13>May 16 05:28:30 rpmi: perl-Crypt-RC4-2.02-alt1 1319549646 installed
+<13>May 16 05:28:30 rpmi: perl-Math-Complex-1.59-alt1 1334229876 installed
+<13>May 16 05:28:30 rpmi: perl-Locale-Maketext-Simple-0.21-alt3 1321333616 installed
+<13>May 16 05:28:30 rpmi: perl-IPC-System-Simple-1.30-alt1 sisyphus+248544.100.1.1 1585154078 installed
+<13>May 16 05:28:30 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 05:28:30 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 05:28:30 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 05:28:30 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 05:28:30 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 05:28:30 rpmi: perl-File-Which-1.27-alt1 sisyphus+271986.100.1.1 1621196035 installed
+<13>May 16 05:28:30 rpmi: perl-File-Copy-Recursive-0.45-alt1 sisyphus+235291.100.1.1 1564606222 installed
+<13>May 16 05:28:30 rpmi: perl-Digest-SHA1-2.13-alt5.2 sisyphus+335067.4700.2.2 1701151286 installed
+<13>May 16 05:28:30 rpmi: perl-TimeDate-2.33-alt1 sisyphus+252901.100.1.1 1591387378 installed
+<13>May 16 05:28:30 rpmi: perl-Term-Cap-1.18-alt1 sisyphus+315126.100.1.1 1676227129 installed
+<13>May 16 05:28:30 rpmi: perl-Pod-Escapes-1.07-alt1 1418767892 installed
+<13>May 16 05:28:30 rpmi: perl-IO-String-1.08-alt2 1321677915 installed
+<13>May 16 05:28:30 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 05:28:30 rpmi: libpipeline-1.5.8-alt1 sisyphus+378581.40.3.1 1742477178 installed
+<13>May 16 05:28:30 rpmi: groff-base-1.22.3-alt2 sisyphus+346264.200.2.1 1716421475 installed
+<13>May 16 05:28:30 rpmi: man-db-2.13.0-alt1 sisyphus+378581.200.3.1 1742477355 installed
+<13>May 16 05:28:30 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 05:28:30 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 05:28:30 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 05:28:30 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 05:28:30 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 05:28:30 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 05:28:30 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 05:28:30 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667412981 installed
+<13>May 16 05:28:30 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 05:28:30 rpmi: hd2u-1.0.3-alt2 sisyphus+346290.200.2.1 1716440180 installed
+<13>May 16 05:28:30 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 05:28:30 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 05:28:30 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 05:28:30 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 05:28:30 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 05:28:30 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 05:28:30 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 05:28:30 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 05:28:30 rpmi: perl-IO-Zlib-1.15-alt1 sisyphus+343119.100.1.3 1710884191 installed
+<13>May 16 05:28:30 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 05:28:30 rpmi: perl-Pod-Simple-3.45-alt1 sisyphus+321554.100.1.1 1684663135 installed
+<13>May 16 05:28:30 rpmi: perl-Pod-Usage-2.05-alt1 sisyphus+380280.100.1.2 1743749666 installed
+<13>May 16 05:28:30 rpmi: perl-podlators-6.0.2-alt1 sisyphus+380278.100.1.2 1743747710 installed
+<13>May 16 05:28:30 rpmi: perl-Archive-Tar-3.04-alt1 sisyphus+380140.100.1.1 1743708681 installed
+<13>May 16 05:28:30 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 05:28:30 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 05:28:30 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 05:28:30 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 05:28:30 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 05:28:30 rpmi: perl-HTML-Tree-5.07-alt1 sisyphus+277105.100.1.1 1625402682 installed
+<13>May 16 05:28:30 rpmi: perl-HTML-Formatter-2.16-alt2 sisyphus+306600.100.1.1 1663005434 installed
+<13>May 16 05:28:30 rpmi: perl-XML-Parser-2.47-alt1 sisyphus+337612.100.1.1 1704201438 installed
+<13>May 16 05:28:30 rpmi: perl-XML-XPath-1.48-alt1 sisyphus+305097.100.1.2 1660226797 installed
+<13>May 16 05:28:30 rpmi: perl-HTML-Form-6.12-alt1 sisyphus+380219.100.1.2 1743731061 installed
+<13>May 16 05:28:30 rpmi: perl-HTTP-Cookies-6.11-alt1 sisyphus+336115.100.1.1 1702044494 installed
+<13>May 16 05:28:30 rpmi: perl-WWW-Mechanize-2.19-alt1 sisyphus+380337.100.1.3 1743767029 installed
+<13>May 16 05:28:30 rpmi: perl-Text-CSV_XS-1.60-alt1 sisyphus+380325.100.1.2 1743760537 installed
+<13>May 16 05:28:30 rpmi: perl-Spreadsheet-ParseExcel-1:0.66-alt1 sisyphus+337637.100.1.1 1704230912 installed
+<13>May 16 05:28:30 rpmi: libteckit-2.5.1-alt2.1 sisyphus+275250.100.2.1 1624906328 installed
+<13>May 16 05:28:30 rpmi: libteckit-utils-2.5.1-alt2.1 sisyphus+275250.100.2.1 1624906328 installed
+<13>May 16 05:28:30 rpmi: perl-IPC-Run3-0.049-alt1 sisyphus+343743.100.2.1 1711555032 installed
+<13>May 16 05:28:30 rpmi: psutils-2:2.10-alt2 sisyphus+336930.2400.2.1 1703147004 installed
+<13>May 16 05:28:30 rpmi: rgb-1.0.6-alt3 sisyphus+275450.100.1.2 1624513780 installed
+<13>May 16 05:28:30 rpmi: libnetpbm11-10.85.04-alt2 sisyphus+376290.13500.24.2 1745388689 installed
+<13>May 16 05:28:30 rpmi: sharutils-4.15.2-alt1 sisyphus+279143.100.1.1 1626390688 installed
+<13>May 16 05:28:30 rpmi: ncompress-4.2.4.4-alt1 sisyphus+277043.100.1.1 1625348080 installed
+<13>May 16 05:28:30 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 05:28:30 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 05:28:31 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 05:28:32 rpmi: fonts-type1-urw-3:1.0.7pre44-alt3 sisyphus+224082.100.2.1 1552406640 installed
+<13>May 16 05:28:32 rpmi: ed-1:0.2-alt10 sisyphus+346155.200.3.2 1716498175 installed
+<13>May 16 05:28:32 rpmi: diffstat-1.64-alt1 sisyphus+346132.200.3.2 1716466240 installed
+<13>May 16 05:28:32 rpmi: libdialog-1.3.20240619-alt1 sisyphus+352056.100.1.1 1720005563 installed
+<13>May 16 05:28:32 rpmi: dialog-1.3.20240619-alt1 sisyphus+352056.100.1.1 1720005563 installed
+<13>May 16 05:28:32 rpmi: libImageMagick7-common-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 05:28:32 rpmi: libwmflite-0.2.13-alt1 sisyphus+380613.100.1.1 1743880102 installed
+<13>May 16 05:28:32 rpmi: liblqr-0.4.3-alt1 sisyphus+356629.200.1.1 1725279244 installed
+<13>May 16 05:28:32 rpmi: highway-libs-1.2.0-alt1 sisyphus+350172.100.1.1 1717270054 installed
+<13>May 16 05:28:32 rpmi: libfftw3-common-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 05:28:32 rpmi: libfftw3-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 05:28:32 rpmi: djvu-common-3.5.28-alt3 sisyphus+376290.2600.24.2 1745368454 installed
+<13>May 16 05:28:32 rpmi: libdjvu-3.5.28-alt3 sisyphus+376290.2600.24.2 1745368454 installed
+<13>May 16 05:28:32 rpmi: libdav1d_7-1.5.1-alt1 sisyphus+375116.100.1.1 1739813289 installed
+<13>May 16 05:28:32 rpmi: libgts-0.7.6-alt2.drc20130205.1 sisyphus+346279.200.2.1 1716435910 installed
+<13>May 16 05:28:32 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 05:28:32 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 05:28:32 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 05:28:32 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 05:28:32 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:28:32 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 05:28:32 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 05:28:32 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 05:28:32 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 05:28:32 rpmi: foomatic-db-engine-4.0.12-alt1 sisyphus+278189.100.1.1 1626076171 installed
+<13>May 16 05:28:32 rpmi: libnss-3.111-alt1 sisyphus+383903.100.1.1 1747058327 installed
+<13>May 16 05:28:32 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 05:28:32 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 05:28:32 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 05:28:32 groupadd[2410400]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 05:28:32 groupadd[2410400]: group added to /etc/gshadow: name=_keytab
+<86>May 16 05:28:32 groupadd[2410400]: new group: name=_keytab, GID=999
+<13>May 16 05:28:32 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 05:28:32 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 05:28:32 groupadd[2410456]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 05:28:32 groupadd[2410456]: group added to /etc/gshadow: name=sasl
+<86>May 16 05:28:32 groupadd[2410456]: new group: name=sasl, GID=998
+<13>May 16 05:28:32 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 05:28:32 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<86>May 16 05:28:32 groupadd[2410497]: group added to /etc/group: name=_gnupg, GID=997
+<86>May 16 05:28:32 groupadd[2410497]: group added to /etc/gshadow: name=_gnupg
+<86>May 16 05:28:32 groupadd[2410497]: new group: name=_gnupg, GID=997
+<13>May 16 05:28:32 rpmi: gnupg2-2.4.3-alt1 sisyphus+346255.200.2.1 1716418264 installed
+<13>May 16 05:28:32 rpmi: libgpgme11-1.24.1-alt1 sisyphus+365199.100.1.1 1734364569 installed
+<13>May 16 05:28:32 rpmi: libgpgmepp6-1.24.1-alt1 sisyphus+365199.100.1.1 1734364569 installed
+<13>May 16 05:28:32 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:28:33 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:28:33 rpmi: perl-Net-SSLeay-1.94-alt1 sisyphus+340982.100.1.1 1708280650 installed
+<13>May 16 05:28:33 rpmi: perl-IO-Socket-SSL-2.089-alt1 sisyphus+380228.100.1.2 1743734794 installed
+<13>May 16 05:28:33 rpmi: perl-Net-HTTPS-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 05:28:33 rpmi: perl-LWP-Protocol-https-6.14-alt1 sisyphus+343123.100.1.3 1710885316 installed
+<13>May 16 05:28:33 rpmi: libzip5-1.10.1-alt1 sisyphus+340170.100.1.1 1707475902 installed
+<13>May 16 05:28:33 rpmi: openssh-common-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<86>May 16 05:28:33 groupadd[2412017]: group added to /etc/group: name=sshagent, GID=996
+<86>May 16 05:28:33 groupadd[2412017]: group added to /etc/gshadow: name=sshagent
+<86>May 16 05:28:33 groupadd[2412017]: new group: name=sshagent, GID=996
+<13>May 16 05:28:33 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 05:28:33 rpmi: rsync-3.2.7-alt3 sisyphus+372266.100.1.1 1738342240 installed
+<13>May 16 05:28:33 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 05:28:33 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 05:28:33 rpmi: git-core-2.42.4-alt1 sisyphus+369547.100.1.1 1736878350 installed
+<13>May 16 05:28:34 rpmi: libpoppler146-25.02.0-alt3 sisyphus+376290.14640.24.2 1745389909 installed
+<13>May 16 05:28:34 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:28:34 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 05:28:34 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 05:28:34 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 05:28:34 rpmi: libgs-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:35 rpmi: ghostscript-common-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:35 rpmi: ghostscript-classic-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:36 rpmi: ghostscript-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:36 rpmi: libnuma-2.0.19-alt1 sisyphus+363830.100.1.1 1733131852 installed
+<13>May 16 05:28:36 rpmi: libx265-199-3.5-alt1.1 sisyphus+277560.100.1.1 1625697230 installed
+<13>May 16 05:28:36 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 05:28:36 rpmi: libde265-1.0.15-alt1 sisyphus+337190.100.1.1 1703502096 installed
+<13>May 16 05:28:36 rpmi: libaom3-3.12.0-alt2 sisyphus+381948.100.1.1 1744966704 installed
+<13>May 16 05:28:36 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 05:28:36 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 05:28:36 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 05:28:36 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 05:28:36 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 05:28:36 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 05:28:36 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 05:28:36 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 05:28:36 rpmi: libheif-1.19.8-alt1 sisyphus+384099.100.1.1 1747213304 installed
+<13>May 16 05:28:36 rpmi: libjxl0.11-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740871628 installed
+<13>May 16 05:28:36 rpmi: libjxl-pixbuf-loader-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740871628 installed
+<13>May 16 05:28:36 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:28:36 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 05:28:36 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 05:28:36 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 05:28:36 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:28:36 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 05:28:36 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 05:28:36 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 05:28:36 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 05:28:36 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 05:28:36 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 05:28:36 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 05:28:36 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 05:28:36 rpmi: libgd3-2.3.3-alt4 sisyphus+376290.4300.24.2 1745377382 installed
+<13>May 16 05:28:36 rpmi: ghostscript-module-X-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:36 rpmi: libXaw-1.0.16-alt1 sisyphus+343583.400.1.1 1711440833 installed
+<13>May 16 05:28:36 rpmi: liblasi-1.1.3-alt3 sisyphus+286812.100.2.1 1633968131 installed
+<13>May 16 05:28:36 rpmi: perl-Tk-804.036-alt1 sisyphus+335067.4600.2.2 1701151239 installed
+<13>May 16 05:28:36 rpmi: libtk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 05:28:36 rpmi: tk-8.6.13-alt1 sisyphus+310696.200.1.1 1669548530 installed
+<13>May 16 05:28:36 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 05:28:36 rpmi: librsvg-1:2.60.0-alt1 sisyphus+378509.200.1.1 1742367009 installed
+<13>May 16 05:28:36 rpmi: libgraphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953966 installed
+<13>May 16 05:28:36 rpmi: poppler-25.02.0-alt3 sisyphus+376290.14640.24.2 1745389909 installed
+<13>May 16 05:28:37 rpmi: texlive-2022-alt0_12 sisyphus+382855.100.1.1 1745948215 installed
+<13>May 16 05:28:47 rpmi: texlive-collection-basic-2022-alt0_13 sisyphus+366429.100.1.1 1735056294 installed
+<13>May 16 05:28:47 rpmi: libXaw3d-1.6.6-alt1 sisyphus+361585.100.1.1 1730552106 installed
+<13>May 16 05:28:47 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 05:28:47 rpmi: netpbm-10.85.04-alt2 sisyphus+376290.13500.24.2 1745388689 installed
+<13>May 16 05:28:48 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 05:28:48 rpmi: libiex32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 05:28:48 rpmi: libilmthread32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 05:28:48 rpmi: libimath29-3.1.12-alt1.1 sisyphus+378502.100.1.1 1742362125 installed
+<13>May 16 05:28:48 rpmi: libopenexr32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 05:28:48 rpmi: libImageMagick7.10-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 05:28:48 rpmi: ImageMagick-tools-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 05:28:48 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 05:28:48 rpmi: ghostscript-utils-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 05:28:48 rpmi: gv-1:3.7.4-alt2.1 sisyphus+346282.200.2.1 1716437345 installed
+<13>May 16 05:28:48 rpmi: libpaper-devel-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276732 installed
+<13>May 16 05:28:48 rpmi: xorg-cf-files-1.0.7-alt3 sisyphus+299066.100.1.1 1650986799 installed
+<13>May 16 05:28:48 rpmi: imake-1.0.8-alt2 sisyphus+380418.100.1.1 1743780388 installed
+<13>May 16 05:28:48 rpmi: gperf-3.2.0.1.d89c-alt1 sisyphus+336930.1300.1.1 1703105830 installed
+<13>May 16 05:28:48 rpmi: flex-2.6.4.0.88.9801-alt2 sisyphus+346193.200.3.2 1716466857 installed
+<13>May 16 05:28:48 rpmi: chrpath-0.16-alt1 sisyphus+346101.200.3.1 1716459476 installed
+warning: line 57: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 102: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 116: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/a2ps-4.14-alt4.nosrc.rpm (w1.gzdio)
+warning: line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+warning: line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+Installing a2ps-4.14-alt4.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.13999
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf a2ps-4.14
++ echo 'Source #0 (a2ps-4.14.tar):'
+Source #0 (a2ps-4.14.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/a2ps-4.14.tar
++ cd a2ps-4.14
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (a2ps-2.13-pld-info.patch):'
+Patch #1 (a2ps-2.13-pld-info.patch):
++ /usr/bin/patch -p1
+patching file doc/a2ps.texi
+Hunk #1 succeeded at 56 (offset -3 lines).
+patching file ogonkify/doc/ogonkify.texi
++ echo 'Patch #2 (a2ps-2.13-pld-security.patch):'
+Patch #2 (a2ps-2.13-pld-security.patch):
++ /usr/bin/patch -p1
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file lib/routines.c
+(Stripping trailing CRs from patch; use --binary to disable.)
+patching file lib/routines.h
++ echo 'Patch #3 (a2ps-2.13-pld-etc.patch):'
+Patch #3 (a2ps-2.13-pld-etc.patch):
++ /usr/bin/patch -p1
+patching file etc/Makefile.in
+Hunk #1 succeeded at 482 (offset 185 lines).
+patching file etc/a2ps_cfg.in
++ echo 'Patch #4 (a2ps-2.13-pld-flex.patch):'
+Patch #4 (a2ps-2.13-pld-flex.patch):
++ /usr/bin/patch -p1
+patching file lib/Makefile.in
+Hunk #1 succeeded at 198 (offset 98 lines).
+patching file lib/fonts.l
+patching file src/Makefile.in
+Hunk #1 succeeded at 174 (offset 74 lines).
+patching file Makefile.in
+Hunk #1 succeeded at 161 (offset 61 lines).
++ echo 'Patch #5 (a2ps-2.13-pld-glibcpaper.patch):'
+Patch #5 (a2ps-2.13-pld-glibcpaper.patch):
++ /usr/bin/patch -p1
+patching file lib/jobs.c
+Hunk #1 succeeded at 139 (offset 1 line).
+patching file lib/options.c
+Hunk #3 succeeded at 542 (offset -6 lines).
+patching file src/main.c
+Hunk #1 succeeded at 950 (offset 5 lines).
++ echo 'Patch #6 (a2ps-2.13-pld-autoenc.patch):'
+Patch #6 (a2ps-2.13-pld-autoenc.patch):
++ /usr/bin/patch -p1
+patching file src/main.c
+Hunk #1 succeeded at 32 (offset 1 line).
+Hunk #2 succeeded at 931 (offset 4 lines).
+Hunk #3 succeeded at 955 (offset 5 lines).
+Hunk #4 succeeded at 1024 (offset 5 lines).
++ echo 'Patch #7 (a2ps-2.13-pld-i18n.patch):'
+Patch #7 (a2ps-2.13-pld-i18n.patch):
++ /usr/bin/patch -p1
+patching file lib/jobs.c
+Hunk #1 succeeded at 140 (offset 1 line).
+patching file lib/output.c
++ echo 'Patch #8 (a2ps-2.13-pld-ogonkify-xfig-fix.patch):'
+Patch #8 (a2ps-2.13-pld-ogonkify-xfig-fix.patch):
++ /usr/bin/patch -p0
+patching file ogonkify/ogonkify.in.in
++ echo 'Patch #10 (a2ps-4.13-includes.patch):'
+Patch #10 (a2ps-4.13-includes.patch):
++ /usr/bin/patch -p1
+patching file lib/path-concat.c
+patching file lib/quotearg.c
++ echo 'Patch #12 (a2ps-4.13-64bit-fixes.patch):'
+Patch #12 (a2ps-4.13-64bit-fixes.patch):
++ /usr/bin/patch -p1
+patching file src/main.c
+Hunk #1 succeeded at 31 (offset 1 line).
+Hunk #2 succeeded at 107 (offset 2 lines).
++ echo 'Patch #13 (a2ps-4.13-alt-liba2ps_with_lm.patch):'
+Patch #13 (a2ps-4.13-alt-liba2ps_with_lm.patch):
++ /usr/bin/patch -p1
+patching file lib/Makefile.in
+Hunk #1 succeeded at 322 (offset 174 lines).
++ echo 'Patch #14 (a2ps-alt-koi8.edf.patch):'
+Patch #14 (a2ps-alt-koi8.edf.patch):
++ /usr/bin/patch -p0
+patching file encoding/koi8.edf
++ echo 'Patch #15 (a2ps-4.14-gentoo-CVE-2014-0466.patch):'
+Patch #15 (a2ps-4.14-gentoo-CVE-2014-0466.patch):
++ /usr/bin/patch -p1
+patching file contrib/fixps.in
+patching file contrib/fixps.m4
++ echo 'Patch #16 (a2ps-4.14-debian-fix-bad-free.patch):'
+Patch #16 (a2ps-4.14-debian-fix-bad-free.patch):
++ /usr/bin/patch -p1
+patching file lib/encoding.c
+Hunk #1 succeeded at 494 (offset -44 lines).
++ echo 'Patch #17 (a2ps-4.14-debian-fix-format-security.patch):'
+Patch #17 (a2ps-4.14-debian-fix-format-security.patch):
++ /usr/bin/patch -p1
+patching file lib/psgen.c
+patching file lib/output.c
+patching file lib/parseppd.y
+patching file src/parsessh.y
+patching file lib/parseppd.c
+patching file src/parsessh.c
++ echo 'Patch #18 (a2ps-glibc-2.38-fix.patch):'
+Patch #18 (a2ps-glibc-2.38-fix.patch):
++ /usr/bin/patch -p1
+patching file configure.in
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.13999
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd a2ps-4.14
++ export lt_cv_prog_cc_static_works=no
++ lt_cv_prog_cc_static_works=no
++ lispdir=/etc/emacs/site-start.d
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_prog_cc_static_works=no
++ lt_cv_prog_cc_static_works=no
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ echo 'rpm-build: warning: ./configure script does not support --runstatedir'
+rpm-build: warning: ./configure script does not support --runstatedir
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --disable-rpath --enable-shared --sysconfdir=/etc/a2ps --disable-static
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gawk... (cached) gawk
+checking for gm4... no
+checking for gnum4... no
+checking for m4... /usr/bin/m4
+checking whether m4 supports frozen files... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for perl... /usr/bin/perl
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for strerror in -lcposix... no
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... (cached) none needed
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking for function prototypes... yes
+checking for bison... bison -y
+checking how to suppress newlines using echo... option
+checking for gperf... /usr/bin/gperf
+checking for gperf - version >= 2.7... no
+checking for flex... flex
+checking for flex... (cached) flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognize dependent libraries... (cached) pass_all
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for x86_64-alt-linux-g++... no
+checking for x86_64-alt-linux-c++... no
+checking for x86_64-alt-linux-gpp... no
+checking for x86_64-alt-linux-aCC... no
+checking for x86_64-alt-linux-CC... no
+checking for x86_64-alt-linux-cxx... no
+checking for x86_64-alt-linux-cc++... no
+checking for x86_64-alt-linux-cl.exe... no
+checking for x86_64-alt-linux-FCC... no
+checking for x86_64-alt-linux-KCC... no
+checking for x86_64-alt-linux-RCC... no
+checking for x86_64-alt-linux-xlC_r... no
+checking for x86_64-alt-linux-xlC... no
+checking for g++... no
+checking for c++... no
+checking for gpp... no
+checking for aCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for cl.exe... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking whether we are using the GNU C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking for x86_64-alt-linux-g77... no
+checking for x86_64-alt-linux-xlf... no
+checking for x86_64-alt-linux-f77... no
+checking for x86_64-alt-linux-frt... no
+checking for x86_64-alt-linux-pgf77... no
+checking for x86_64-alt-linux-cf77... no
+checking for x86_64-alt-linux-fort77... no
+checking for x86_64-alt-linux-fl32... no
+checking for x86_64-alt-linux-af77... no
+checking for x86_64-alt-linux-xlf90... no
+checking for x86_64-alt-linux-f90... no
+checking for x86_64-alt-linux-pgf90... no
+checking for x86_64-alt-linux-pghpf... no
+checking for x86_64-alt-linux-epcf90... no
+checking for x86_64-alt-linux-gfortran... no
+checking for x86_64-alt-linux-g95... no
+checking for x86_64-alt-linux-xlf95... no
+checking for x86_64-alt-linux-f95... no
+checking for x86_64-alt-linux-fort... no
+checking for x86_64-alt-linux-ifort... no
+checking for x86_64-alt-linux-ifc... no
+checking for x86_64-alt-linux-efc... no
+checking for x86_64-alt-linux-pgf95... no
+checking for x86_64-alt-linux-lf95... no
+checking for x86_64-alt-linux-ftn... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking for ANSI C header files... (cached) yes
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking stdbool.h usability... yes
+checking stdbool.h presence... yes
+checking for stdbool.h... yes
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for uchar... no
+checking for size_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct passwd.pw_gecos... yes
+checking for inttypes.h... yes
+checking for unsigned long long... yes
+checking for stdlib.h... (cached) yes
+checking for strtoumax... yes
+checking for stdint.h... yes
+checking whether sys_siglist is declared... no
+checking for sys_siglist... no
+checking for library containing getpwuid... none required
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strtoul... yes
+checking for memcpy... yes
+checking for memset... yes
+checking for gethostname... yes
+checking for getuid... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for rename... yes
+checking whether rename works... no
+checking for link... yes
+checking for uname... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strerror_r... yes
+checking for getcwd... yes
+checking for bcopy... yes
+checking for bzero... yes
+checking for tempnam... yes
+checking for strsignal... yes
+checking for psignal... yes
+checking for setlocale... yes
+checking for systempapername in -lpaper... yes
+checking paper.h usability... yes
+checking paper.h presence... yes
+checking for paper.h... yes
+checking for atexit... yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for strftime... yes
+checking for struct tm.tm_zone... yes
+checking for tzset... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for working mktime... no
+checking whether closedir returns void... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for obstacks... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for error_at_line... yes
+checking for working malloc... no
+checking for working realloc... no
+checking for isascii... yes
+checking for iswprint... yes
+checking for mbsinit... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for limits.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for ANSI C header files... (cached) yes
+checking whether backslash-a works in strings... yes
+checking for mbstate_t... yes
+checking for function prototypes... yes
+checking for working POSIX fnmatch... yes
+checking POSIX termios... yes
+checking whether use of TIOCGWINSZ requires sys/ioctl.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for limits.h... (cached) yes
+checking whether fputs is declared... yes
+checking whether strlen is declared... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... egrep: warning: egrep is obsolescent; using grep -E
+yes
+checking for shared library run path origin... egrep: warning: egrep is obsolescent; using grep -E
+done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking for emacs... no
+checking for xemacs... no
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+checking whether paths should be hardcoded... no
+checking for PostScript fonts path... :/usr/local/ghostscript/fonts:/usr/local/share/ghostscript/fonts
+checking for file... /usr/bin/file
+checking for the option for file to follow the links...  -L
+checking for lp... no
+checking for lpr... lpr
+checking for printer queue selection... lpr -P PRINTER
+checking for gv... yes
+checking for ghostview... yes
+checking for gzip... yes
+checking for bzip... yes
+checking for bzip2... yes
+checking for dvips... yes
+checking for convert... yes
+checking for netscape... no
+checking for html2ps... no
+checking for acroread... no
+checking for pdf2ps... yes
+checking for distill... no
+checking for ps2pdf... yes
+checking for psselect... yes
+checking for psnup... yes
+configure: WARNING: ===========================================================
+configure: WARNING: a2ps works much better with the psutils.  Available at
+configure: WARNING:   http://www.dcs.ed.ac.uk/home/ajcd/psutils/
+configure: WARNING: You *really* should install them *before* installing a2ps.
+configure: WARNING: ===========================================================
+checking for grog... yes
+checking for makeinfo... no
+checking for tex... yes
+checking for latex... yes
+configure: creating ./config.status
+config.status: creating contrib/card
+config.status: creating contrib/fixps
+config.status: creating contrib/pdiff
+config.status: creating contrib/psmandup
+config.status: creating contrib/psset
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating man/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/defs
+config.status: creating lib/Makefile
+config.status: creating auxdir/Makefile
+config.status: creating m4/Makefile
+config.status: creating etc/Makefile
+config.status: creating etc/a2ps_cfg
+config.status: creating etc/a2ps-site.cfg
+config.status: creating po/Makefile.in
+config.status: WARNING:  po/Makefile.in.in seems to ignore the --datarootdir setting
+config.status: creating sheets/Makefile
+config.status: creating encoding/Makefile
+config.status: creating ps/Makefile
+config.status: creating afm/Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/sample/Makefile
+config.status: creating contrib/emacs/Makefile
+config.status: creating fonts/Makefile
+config.status: creating ppd/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+=== configuring in ogonkify (/usr/src/RPM/BUILD/a2ps-4.14/ogonkify)
+configure: running /bin/sh ./configure '--prefix=/usr'  '--build=x86_64-alt-linux' '--host=x86_64-alt-linux' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--sysconfdir=/etc' '--datadir=/usr/share' '--includedir=/usr/include' '--libdir=/usr/lib64' '--libexecdir=/usr/lib' '--localstatedir=/var/lib' '--sharedstatedir=/var/lib' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--disable-dependency-tracking' '--disable-silent-rules' '--without-included-gettext' '--disable-rpath' '--enable-shared' '--sysconfdir=/etc/a2ps' '--disable-static' 'build_alias=x86_64-alt-linux' 'host_alias=x86_64-alt-linux' 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for perl... /usr/bin/perl
+checking for style of include used by make... GNU
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to accept ISO C89... none needed
+checking dependency style of x86_64-alt-linux-gcc... none
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for X... libraries /usr/lib64, headers 
+checking for IBM font files... no
+configure: creating ./config.status
+config.status: creating composeglyphs
+config.status: creating Makefile
+config.status: creating ogonkify.in
+config.status: creating doc/Makefile
+config.status: creating m4/Makefile
+config.status: executing depfiles commands
+*****************************************************************
+* a2ps thinks it should be configured the following way:
+* - you print on `libpaper' paper
+*   (`libpaper' means a2ps asks the medium to libpaper.  See man paperconf.)
+* - your charset is `latin1'
+* - to send a JOB to the default printer, run `lpr job'
+* - to send a JOB to the printer PRINTER, run `lpr -P PRINTER job'
+* - to ask `file(1)' to follow the links, run `/usr/bin/file -L'
+*   (`file(1)' is used to guess the type of the files to print.)
+*
+* If a2ps is wrong somewhere, fix the `System Dependent parameters'
+* in `etc/a2ps-site.cfg'.  See the README file.
+*****************************************************************
++ make
+make: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14'
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run aclocal-1.9 -I m4
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: aclocal-1.9: command not found
+WARNING: `aclocal-1.9' is missing on your system.  You should only need it if
+         you modified `acinclude.m4' or `configure.in'.  You might want
+         to install the `Automake' and `Perl' packages.  Grab them from
+         any GNU archive site.
+ cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run automake-1.9 --gnu 
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: automake-1.9: command not found
+WARNING: `automake-1.9' is missing on your system.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.in'.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run autoconf
+configure.in:13: warning: The macro `AC_FOREACH' is obsolete.
+configure.in:13: You should run autoupdate.
+./lib/autoconf/general.m4:191: AC_FOREACH is expanded from...
+aclocal.m4:7332: _AM_SET_OPTIONS is expanded from...
+aclocal.m4:6984: AM_INIT_AUTOMAKE is expanded from...
+configure.in:13: the top level
+configure.in:15: warning: The macro `AM_CONFIG_HEADER' is obsolete.
+configure.in:15: You should run autoupdate.
+aclocal.m4:6957: AM_CONFIG_HEADER is expanded from...
+configure.in:15: the top level
+configure.in:41: warning: The macro `AC_AIX' is obsolete.
+configure.in:41: You should run autoupdate.
+./lib/autoconf/specific.m4:526: AC_AIX is expanded from...
+configure.in:41: the top level
+configure.in:42: warning: The macro `AC_MINIX' is obsolete.
+configure.in:42: You should run autoupdate.
+./lib/autoconf/specific.m4:531: AC_MINIX is expanded from...
+configure.in:42: the top level
+configure.in:45: warning: The macro `AM_PROG_CC_STDC' is obsolete.
+configure.in:45: You should run autoupdate.
+aclocal.m4:6679: AM_PROG_CC_STDC is expanded from...
+configure.in:45: the top level
+configure.in:45: warning: AM_PROG_CC_STDC:
+configure.in:45: 	your code should no longer depend upon `am_cv_prog_cc_stdc', but upon
+configure.in:45: 	`ac_cv_prog_cc_stdc'.  Remove this warning and the assignment when
+configure.in:45: 	you adjust the code.  You can also remove the above call to
+configure.in:45: 	AC_PROG_CC if you already called it elsewhere.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:6679: AM_PROG_CC_STDC is expanded from...
+configure.in:45: the top level
+configure.in:46: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.in:46: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+m4/protos.m4:8: AM_C_PROTOTYPES is expanded from...
+configure.in:46: the top level
+configure.in:49: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.in:49: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+m4/gperf-check.m4:8: AC_PROG_GPERF is expanded from...
+configure.in:49: the top level
+configure.in:53: warning: AC_PROG_LEX without either yywrap or noyywrap is obsolete
+./lib/autoconf/programs.m4:716: _AC_PROG_LEX is expanded from...
+./lib/autoconf/programs.m4:709: AC_PROG_LEX is expanded from...
+m4/lex.m4:6: AM_PROG_LEX is expanded from...
+configure.in:53: the top level
+configure.in:53: warning: The macro `AC_DECL_YYTEXT' is obsolete.
+configure.in:53: You should run autoupdate.
+./lib/autoconf/programs.m4:878: AC_DECL_YYTEXT is expanded from...
+m4/lex.m4:6: AM_PROG_LEX is expanded from...
+configure.in:53: the top level
+configure.in:53: warning: AC_PROG_LEX without either yywrap or noyywrap is obsolete
+./lib/autoconf/programs.m4:716: _AC_PROG_LEX is expanded from...
+./lib/autoconf/programs.m4:709: AC_PROG_LEX is expanded from...
+./lib/autoconf/programs.m4:878: AC_DECL_YYTEXT is expanded from...
+m4/lex.m4:6: AM_PROG_LEX is expanded from...
+configure.in:53: the top level
+configure.in:61: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:61: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+aclocal.m4:1966: AC_ENABLE_SHARED is expanded from...
+aclocal.m4:1995: AC_DISABLE_SHARED is expanded from...
+configure.in:61: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+aclocal.m4:2005: AC_ENABLE_STATIC is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+aclocal.m4:2044: AC_ENABLE_FAST_INSTALL is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1553: AC_ARG_WITH is expanded from...
+aclocal.m4:2185: AC_PROG_LD is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1553: AC_ARG_WITH is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:638: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2718: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2717: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_static_works, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:683: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2718: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2717: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:485: _LT_AC_LOCK is expanded from...
+aclocal.m4:1101: AC_LIBTOOL_SYS_HARD_LINK_LOCKS is expanded from...
+aclocal.m4:2718: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2717: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+./lib/autoconf/lang.m4:200: AC_LANG_CONFTEST is expanded from...
+./lib/autoconf/general.m4:2894: _AC_LINK_IFELSE is expanded from...
+./lib/autoconf/general.m4:2911: AC_LINK_IFELSE is expanded from...
+aclocal.m4:297: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:5497: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:2718: _LT_AC_LANG_C_CONFIG is expanded from...
+aclocal.m4:2717: AC_LIBTOOL_LANG_C_CONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:62: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+./lib/autoconf/general.m4:1553: AC_ARG_WITH is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: back quotes and double quotes must not be escaped in: tag name \"$tagname\" already exists
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+./lib/autoconf/lang.m4:200: AC_LANG_CONFTEST is expanded from...
+./lib/autoconf/general.m4:2894: _AC_LINK_IFELSE is expanded from...
+./lib/autoconf/general.m4:2911: AC_LINK_IFELSE is expanded from...
+aclocal.m4:297: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:2795: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2794: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_CXX, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:638: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2795: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2794: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_static_works_CXX, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:683: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:2795: _LT_AC_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:2794: AC_LIBTOOL_LANG_CXX_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_F77, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:638: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:4017: _LT_AC_LANG_F77_CONFIG is expanded from...
+aclocal.m4:4016: AC_LIBTOOL_LANG_F77_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_static_works_F77, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:683: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:4017: _LT_AC_LANG_F77_CONFIG is expanded from...
+aclocal.m4:4016: AC_LIBTOOL_LANG_F77_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_pic_works_GCJ, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:638: AC_LIBTOOL_COMPILER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:4126: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:4125: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_CACHE_VAL(lt_prog_compiler_static_works_GCJ, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+aclocal.m4:683: AC_LIBTOOL_LINKER_OPTION is expanded from...
+aclocal.m4:4938: AC_LIBTOOL_PROG_COMPILER_PIC is expanded from...
+aclocal.m4:4126: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:4125: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:62: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+./lib/autoconf/lang.m4:200: AC_LANG_CONFTEST is expanded from...
+./lib/autoconf/general.m4:2894: _AC_LINK_IFELSE is expanded from...
+./lib/autoconf/general.m4:2911: AC_LINK_IFELSE is expanded from...
+aclocal.m4:297: _LT_AC_SYS_LIBPATH_AIX is expanded from...
+aclocal.m4:5497: AC_LIBTOOL_PROG_LD_SHLIBS is expanded from...
+aclocal.m4:4126: _LT_AC_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:4125: AC_LIBTOOL_LANG_GCJ_CONFIG is expanded from...
+aclocal.m4:1843: _LT_AC_TAGCONFIG is expanded from...
+aclocal.m4:86: AC_LIBTOOL_SETUP is expanded from...
+aclocal.m4:66: _AC_PROG_LIBTOOL is expanded from...
+aclocal.m4:31: AC_PROG_LIBTOOL is expanded from...
+configure.in:62: the top level
+configure.in:68: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.in:68: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.in:68: the top level
+configure.in:70: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.in:70: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.in:70: the top level
+configure.in:89: warning: The macro `AC_TYPE_SIGNAL' is obsolete.
+configure.in:89: You should run autoupdate.
+./lib/autoconf/types.m4:776: AC_TYPE_SIGNAL is expanded from...
+configure.in:89: the top level
+configure.in:95: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:95: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/inttypes_h.m4:14: jm_AC_HEADER_INTTYPES_H is expanded from...
+m4/xstrtoumax.m4:5: jm_AC_PREREQ_XSTRTOUMAX is expanded from...
+configure.in:95: the top level
+configure.in:95: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:95: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/ulonglong.m4:11: jm_AC_TYPE_UNSIGNED_LONG_LONG is expanded from...
+m4/xstrtoumax.m4:5: jm_AC_PREREQ_XSTRTOUMAX is expanded from...
+configure.in:95: the top level
+configure.in:96: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:96: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/stdint_h.m4:14: jm_AC_HEADER_STDINT_H is expanded from...
+m4/uintmax_t.m4:16: jm_AC_TYPE_UINTMAX_T is expanded from...
+configure.in:96: the top level
+configure.in:112: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:112: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.in:112: the top level
+configure.in:139: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.in:139: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/rename.m4:13: ad_CHECK_FUNC_RENAME is expanded from...
+m4/rename.m4:25: ad_REPLACE_FUNC_RENAME is expanded from...
+configure.in:139: the top level
+configure.in:149: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.in:149: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/malloc.m4:8: jm_FUNC_MALLOC is expanded from...
+configure.in:149: the top level
+configure.in:150: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.in:150: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/realloc.m4:8: jm_FUNC_REALLOC is expanded from...
+configure.in:150: the top level
+configure.in:151: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:151: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/mbrtowc.m4:11: jm_FUNC_MBRTOWC is expanded from...
+m4/prereq.m4:6: jm_PREREQ_QUOTEARG is expanded from...
+configure.in:151: the top level
+configure.in:151: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.in:151: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+m4/prereq.m4:6: jm_PREREQ_QUOTEARG is expanded from...
+configure.in:151: the top level
+configure.in:151: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.in:151: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+m4/protos.m4:8: AM_C_PROTOTYPES is expanded from...
+m4/prereq.m4:6: jm_PREREQ_QUOTEARG is expanded from...
+configure.in:151: the top level
+configure.in:162: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:162: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/termios.m4:5: AM_SYS_POSIX_TERMIOS is expanded from...
+m4/winsz.m4:5: AM_HEADER_TIOCGWINSZ_NEEDS_SYS_IOCTL is expanded from...
+m4/tterm.m4:6: ad_TINYTERM_CHECKS is expanded from...
+configure.in:162: the top level
+configure.in:169: warning: The macro `AC_OUTPUT_COMMANDS' is obsolete.
+configure.in:169: You should run autoupdate.
+./lib/autoconf/status.m4:1025: AC_OUTPUT_COMMANDS is expanded from...
+m4/gettext.m4:330: AM_PO_SUBDIRS is expanded from...
+m4/gettext.m4:59: AM_GNU_GETTEXT is expanded from...
+configure.in:169: the top level
+configure.in:169: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:169: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/gettext.m4:59: AM_GNU_GETTEXT is expanded from...
+configure.in:169: the top level
+configure.in:169: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:169: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/iconv.m4:22: AM_ICONV_LINK is expanded from...
+m4/gettext.m4:59: AM_GNU_GETTEXT is expanded from...
+configure.in:169: the top level
+configure.in:200: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:200: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.in:200: the top level
+configure.in:263: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:263: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.in:263: the top level
+configure.in:277: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:277: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+configure.in:277: the top level
+configure.in:311: warning: AC_CACHE_VAL(remote_com_netscape, ...): suspicious cache-id, must contain _cv_ to be cached
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.in:311: the top level
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure  --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --without-included-gettext --disable-rpath --enable-shared --sysconfdir=/etc/a2ps --disable-static build_alias=x86_64-alt-linux host_alias=x86_64-alt-linux CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  --no-create --no-recursion
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gawk... (cached) gawk
+checking for gm4... no
+checking for gnum4... no
+checking for m4... /usr/bin/m4
+checking whether m4 supports frozen files... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for perl... /usr/bin/perl
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for style of include used by make... GNU
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/time.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for strerror in -lcposix... no
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for function prototypes... yes
+checking for bison... bison -y
+checking how to suppress newlines using echo... option
+checking for gperf... /usr/bin/gperf
+checking for gperf - version >= 2.7... no
+checking for flex... flex
+checking for flex... (cached) flex
+checking for lex output file root... lex.yy
+checking for lex library... none needed
+checking for library containing yywrap... -lfl
+checking whether yytext is a pointer... yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognize dependent libraries... (cached) pass_all
+checking for dlfcn.h... yes
+checking for x86_64-alt-linux-g++... no
+checking for x86_64-alt-linux-c++... no
+checking for x86_64-alt-linux-gpp... no
+checking for x86_64-alt-linux-aCC... no
+checking for x86_64-alt-linux-CC... no
+checking for x86_64-alt-linux-cxx... no
+checking for x86_64-alt-linux-cc++... no
+checking for x86_64-alt-linux-cl.exe... no
+checking for x86_64-alt-linux-FCC... no
+checking for x86_64-alt-linux-KCC... no
+checking for x86_64-alt-linux-RCC... no
+checking for x86_64-alt-linux-xlC_r... no
+checking for x86_64-alt-linux-xlC... no
+checking for x86_64-alt-linux-clang++... no
+checking for g++... no
+checking for c++... no
+checking for gpp... no
+checking for aCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for cl.exe... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking for clang++... no
+checking whether the compiler supports GNU C++... no
+checking whether g++ accepts -g... no
+checking for g++ option to enable C++11 features... none needed
+checking dependency style of g++... none
+checking for x86_64-alt-linux-g77... no
+checking for x86_64-alt-linux-xlf... no
+checking for x86_64-alt-linux-f77... no
+checking for x86_64-alt-linux-frt... no
+checking for x86_64-alt-linux-pgf77... no
+checking for x86_64-alt-linux-cf77... no
+checking for x86_64-alt-linux-fort77... no
+checking for x86_64-alt-linux-fl32... no
+checking for x86_64-alt-linux-af77... no
+checking for x86_64-alt-linux-xlf90... no
+checking for x86_64-alt-linux-f90... no
+checking for x86_64-alt-linux-pgf90... no
+checking for x86_64-alt-linux-pghpf... no
+checking for x86_64-alt-linux-epcf90... no
+checking for x86_64-alt-linux-gfortran... no
+checking for x86_64-alt-linux-g95... no
+checking for x86_64-alt-linux-xlf95... no
+checking for x86_64-alt-linux-f95... no
+checking for x86_64-alt-linux-fort... no
+checking for x86_64-alt-linux-ifort... no
+checking for x86_64-alt-linux-ifc... no
+checking for x86_64-alt-linux-efc... no
+checking for x86_64-alt-linux-pgfortran... no
+checking for x86_64-alt-linux-pgf95... no
+checking for x86_64-alt-linux-lf95... no
+checking for x86_64-alt-linux-ftn... no
+checking for x86_64-alt-linux-nagfor... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking whether the compiler supports GNU Fortran 77... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking for egrep... /usr/bin/grep -E
+checking whether stat file-mode macros are broken... no
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for sys/time.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/ioctl.h... yes
+checking for math.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdarg.h... yes
+checking for pwd.h... yes
+checking for malloc.h... yes
+checking for memory.h... yes
+checking for errno.h... yes
+checking for fcntl.h... yes
+checking for stdbool.h... yes
+checking for fnmatch.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for uchar... no
+checking for size_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct passwd.pw_gecos... yes
+checking for inttypes.h... yes
+checking for unsigned long long... yes
+checking for stdlib.h... (cached) yes
+checking for strtoumax... yes
+checking for stdint.h... yes
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking whether sys_siglist is declared... no
+checking for sys_siglist... no
+checking for library containing getpwuid... none required
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strtoul... yes
+checking for memcpy... yes
+checking for memset... yes
+checking for gethostname... yes
+checking for getuid... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for rename... yes
+checking whether rename works... no
+checking for link... yes
+checking for uname... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strerror_r... yes
+checking for getcwd... yes
+checking for bcopy... yes
+checking for bzero... yes
+checking for tempnam... yes
+checking for strsignal... yes
+checking for psignal... yes
+checking for setlocale... yes
+checking for systempapername in -lpaper... yes
+checking for paper.h... yes
+checking for atexit... yes
+checking for alarm... yes
+checking for vprintf... yes
+checking for strftime... yes
+checking for struct tm.tm_zone... yes
+checking for tzset... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for limits.h... yes
+checking for working mktime... yes
+checking whether closedir returns void... no
+checking for obstacks... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for error_at_line... yes
+checking for working malloc... no
+checking for working realloc... no
+checking for isascii... yes
+checking for iswprint... yes
+checking for mbsinit... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for limits.h... (cached) yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for wchar.h... (cached) yes
+checking for wctype.h... yes
+checking for egrep... (cached) /usr/bin/grep -E
+checking whether backslash-a works in strings... yes
+checking for mbstate_t... yes
+checking for function prototypes... yes
+checking for working POSIX fnmatch... yes
+checking POSIX termios... yes
+checking whether use of TIOCGWINSZ requires sys/ioctl.h... yes
+checking for termios.h... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for limits.h... (cached) yes
+checking whether fputs is declared... yes
+checking whether strlen is declared... yes
+checking for mempcpy... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... egrep: warning: egrep is obsolescent; using grep -E
+yes
+checking for shared library run path origin... egrep: warning: egrep is obsolescent; using grep -E
+done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking for emacs... no
+checking for xemacs... no
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+checking whether paths should be hardcoded... no
+checking for PostScript fonts path... :/usr/local/ghostscript/fonts:/usr/local/share/ghostscript/fonts
+checking for file... /usr/bin/file
+checking for the option for file to follow the links...  -L
+checking for lp... no
+checking for lpr... lpr
+checking for printer queue selection... lpr -P PRINTER
+checking for gv... yes
+checking for ghostview... yes
+checking for gzip... yes
+checking for bzip... yes
+checking for bzip2... yes
+checking for dvips... yes
+checking for convert... yes
+checking for netscape... no
+checking for html2ps... no
+checking for acroread... no
+checking for pdf2ps... yes
+checking for distill... no
+checking for ps2pdf... yes
+checking for psselect... yes
+checking for psnup... yes
+configure: WARNING: ===========================================================
+configure: WARNING: a2ps works much better with the psutils.  Available at
+configure: WARNING:   http://www.dcs.ed.ac.uk/home/ajcd/psutils/
+configure: WARNING: You *really* should install them *before* installing a2ps.
+configure: WARNING: ===========================================================
+checking for grog... yes
+checking for makeinfo... no
+checking for tex... yes
+checking for latex... yes
+configure: creating ./config.status
+*****************************************************************
+* a2ps thinks it should be configured the following way:
+* - you print on `libpaper' paper
+*   (`libpaper' means a2ps asks the medium to libpaper.  See man paperconf.)
+* - your charset is `latin1'
+* - to send a JOB to the default printer, run `lpr job'
+* - to send a JOB to the printer PRINTER, run `lpr -P PRINTER job'
+* - to ask `file(1)' to follow the links, run `/usr/bin/file -L'
+*   (`file(1)' is used to guess the type of the files to print.)
+*
+* If a2ps is wrong somewhere, fix the `System Dependent parameters'
+* in `etc/a2ps-site.cfg'.  See the README file.
+*****************************************************************
+ /bin/sh ./config.status
+config.status: creating contrib/card
+config.status: creating contrib/fixps
+config.status: creating contrib/pdiff
+config.status: creating contrib/psmandup
+config.status: creating contrib/psset
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating man/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/defs
+config.status: creating lib/Makefile
+config.status: creating auxdir/Makefile
+config.status: creating m4/Makefile
+config.status: creating etc/Makefile
+config.status: creating etc/a2ps_cfg
+config.status: creating etc/a2ps-site.cfg
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating sheets/Makefile
+config.status: creating encoding/Makefile
+config.status: creating ps/Makefile
+config.status: creating afm/Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/sample/Makefile
+config.status: creating contrib/emacs/Makefile
+config.status: creating fonts/Makefile
+config.status: creating ppd/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+cd . && /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run autoheader
+autoheader-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+make  all-recursive
+make[1]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14'
+Making all in auxdir
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/auxdir'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/auxdir'
+Making all in m4
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/m4'
+Making all in etc
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/etc'
+sed "s!@date@!`date`!g;s!@version@!4.14!g"	\
+./README.in > README
+sed -e "s!@libpath@!/usr/share/a2ps/sheets:/usr/share/a2ps/ps:/usr/share/a2ps/encoding:/usr/share/a2ps/afm:/usr/share/ogonkify/afm:/usr/share/a2ps/ppd:/usr/share/a2ps/fonts:/usr/share/ogonkify/fonts:/usr/share/a2ps!" \
+    -e "s!@apppath@!/usr/local/ghostscript/fonts:/usr/local/share/ghostscript/fonts!" \
+    a2ps_cfg > a2ps.cfg
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/etc'
+Making all in ps
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ps'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ps'
+Making all in ogonkify
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify'
+Makefile:770: warning: ignoring prerequisites on suffix rule definition
+Makefile:766: warning: ignoring prerequisites on suffix rule definition
+ cd . && /bin/sh ./config.status Makefile 
+config.status: creating Makefile
+Makefile:770: warning: ignoring prerequisites on suffix rule definition
+Makefile:766: warning: ignoring prerequisites on suffix rule definition
+Making all in doc
+make[3]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/doc'
+ cd .. && /bin/sh ./config.status doc/Makefile 
+config.status: creating doc/Makefile
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && cd . && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run makeinfo --version) >/dev/null 2>&1; then \
+  for f in ogonkify.info ogonkify.info-[0-9] ogonkify.info-[0-9][0-9] ogonkify.i[0-9] ogonkify.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing --run makeinfo   -I . \
+ -o ogonkify.info ogonkify.texi; \
+then \
+  rc=0; \
+  cd .; \
+else \
+  rc=$?; \
+  cd . && \
+  $restore $backupdir/* `echo "./ogonkify.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+/usr/src/RPM/BUILD/a2ps-4.14/auxdir/missing: line 52: makeinfo: command not found
+WARNING: `makeinfo' is missing on your system.  You should only need it if
+         you modified a `.texi' or `.texinfo' file, or any other file
+         indirectly affecting the aspect of the manual.  The spurious
+         call might also be the consequence of using a buggy `make' (AIX,
+         DU, IRIX).  You might want to install the `Texinfo' package or
+         the `GNU make' package.  Grab either from any GNU archive site.
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/doc'
+Making all in m4
+make[3]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/m4'
+ cd .. && /bin/sh ./config.status m4/Makefile 
+config.status: creating m4/Makefile
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify/m4'
+make[3]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify'
+Makefile:770: warning: ignoring prerequisites on suffix rule definition
+Makefile:766: warning: ignoring prerequisites on suffix rule definition
+sed -e "s#@LIBDIR@#/usr/share/ogonkify#g" ogonkify.in > ogonkify-t
+chmod +x ogonkify-t
+mv ogonkify-t ogonkify
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/ogonkify'
+Making all in lib
+make[2]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make  all-am
+make[3]: Entering directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o encoding.lo encoding.c
+mkdir .libs
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c encoding.c  -fPIC -DPIC -o .libs/encoding.o
+encoding.c: In function 'dump_encoding_setup':
+encoding.c:795:30: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' {aka 'long unsigned int'} [-Wformat=]
+  795 |   fprintf (stream, "/%sdict %d dict begin\n", encoding->key, nb);
+      |                             ~^                               ~~
+      |                              |                               |
+      |                              int                             size_t {aka long unsigned int}
+      |                             %ld
+encoding.c: In function 'get_encoding_by_alias':
+encoding.c:974:68: warning: pointer targets in passing argument 1 of 'strlower' differ in signedness [-Wpointer-sign]
+  974 |   key = encodings_map_resolve_alias (job->encodings_map, strlower (alias));
+      |                                                                    ^~~~~
+      |                                                                    |
+      |                                                                    char *
+In file included from a2ps.h:28,
+                 from encoding.h:33,
+                 from encoding.c:27:
+routines.h:225:34: note: expected 'unsigned char *' but argument is of type 'char *'
+  225 | uchar *strlower PARAMS ((uchar * string));
+system.h:65:28: note: in definition of macro 'PARAMS'
+   65 | #    define PARAMS(protos) protos
+      |                            ^~~~~~
+encoding.c:974:58: warning: pointer targets in passing argument 2 of 'encodings_map_resolve_alias' differ in signedness [-Wpointer-sign]
+  974 |   key = encodings_map_resolve_alias (job->encodings_map, strlower (alias));
+      |                                                          ^~~~~~~~~~~~~~~~
+      |                                                          |
+      |                                                          unsigned char *
+encoding.c:153:43: note: expected 'const char *' but argument is of type 'unsigned char *'
+  153 |                              const char * alias)
+      |                              ~~~~~~~~~~~~~^~~~~
+encoding.c: At top level:
+encoding.c:380:1: warning: 'font_entry_set_used' defined but not used [-Wunused-function]
+  380 | font_entry_set_used (struct hash_table_s * table, const char * name)
+      | ^~~~~~~~~~~~~~~~~~~
+encoding.c:374:1: warning: 'font_entry_is_used' defined but not used [-Wunused-function]
+  374 | font_entry_is_used (struct hash_table_s * table, const char * name)
+      | ^~~~~~~~~~~~~~~~~~
+encoding.c:368:1: warning: 'font_entry_exists' defined but not used [-Wunused-function]
+  368 | font_entry_exists (struct hash_table_s * table, const char * name)
+      | ^~~~~~~~~~~~~~~~~
+encoding.c:361:1: warning: 'font_entry_get_wx' defined but not used [-Wunused-function]
+  361 | font_entry_get_wx (struct hash_table_s * table,
+      | ^~~~~~~~~~~~~~~~~
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o media.lo media.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c media.c  -fPIC -DPIC -o .libs/media.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o jobs.lo jobs.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c jobs.c  -fPIC -DPIC -o .libs/jobs.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o output.lo output.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c output.c  -fPIC -DPIC -o .libs/output.o
+output.c: In function 'derivation_self_print':
+output.c:87:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   87 |   fprintf (stream, "At %x: ", (int) derivation);
+      |                               ^
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o routines.lo routines.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c routines.c  -fPIC -DPIC -o .libs/routines.o
+routines.c: In function 'strlower':
+routines.c:95:46: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   95 |   return _strncpylc (string, string, strlen (string));
+      |                                              ^~~~~~
+      |                                              |
+      |                                              unsigned char *
+In file included from system.h:102,
+                 from a2ps.h:28,
+                 from routines.c:29:
+/usr/include/string.h:407:35: note: expected 'const char *' but argument is of type 'unsigned char *'
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+routines.c: In function 'strcpylc':
+routines.c:101:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  101 |   return _strncpylc (dst, src, strlen (src));
+      |                                        ^~~
+      |                                        |
+      |                                        const unsigned char *
+/usr/include/string.h:407:35: note: expected 'const char *' but argument is of type 'const unsigned char *'
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o psgen.lo psgen.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c psgen.c  -fPIC -DPIC -o .libs/psgen.o
+psgen.c:183:1: warning: 'ps_escape_string' defined but not used [-Wunused-function]
+  183 | ps_escape_string (a2ps_job * job, uchar * string, uchar * res)
+      | ^~~~~~~~~~~~~~~~
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o prolog.lo prolog.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c prolog.c  -fPIC -DPIC -o .libs/prolog.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o faces.lo faces.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c faces.c  -fPIC -DPIC -o .libs/faces.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o confg.lo confg.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c confg.c  -fPIC -DPIC -o .libs/confg.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o useropt.lo useropt.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c useropt.c  -fPIC -DPIC -o .libs/useropt.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o gen.lo gen.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c gen.c  -fPIC -DPIC -o .libs/gen.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o printers.lo printers.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c printers.c  -fPIC -DPIC -o .libs/printers.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o psstat.lo psstat.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c psstat.c  -fPIC -DPIC -o .libs/psstat.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o caret.lo caret.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c caret.c  -fPIC -DPIC -o .libs/caret.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o metaseq.lo metaseq.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c metaseq.c  -fPIC -DPIC -o .libs/metaseq.o
+metaseq.c: In function 'grow_user_string_obstack':
+metaseq.c:294:16: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  294 |             cp = macro_meta_sequence_get (job, VAR_USER_NAME);
+      |                ^
+metaseq.c:295:17: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  295 |             cp2 = macro_meta_sequence_get (job, VAR_USER_HOST);
+      |                 ^
+metaseq.c:386:16: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  386 |             cp = macro_meta_sequence_get (job, VAR_USER_HOST);
+      |                ^
+In file included from /usr/include/stdlib.h:706,
+                 from system.h:88,
+                 from a2ps.h:28,
+                 from metaseq.c:33:
+metaseq.c:387:42: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  387 |             cp2 = ALLOCA (uchar, strlen (cp) + 1);
+      |                                          ^~
+      |                                          |
+      |                                          unsigned char *
+metaseq.c:387:19: note: in expansion of macro 'ALLOCA'
+  387 |             cp2 = ALLOCA (uchar, strlen (cp) + 1);
+      |                   ^~~~~~
+In file included from system.h:102:
+/usr/include/string.h:407:35: note: expected 'const char *' but argument is of type 'unsigned char *'
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+metaseq.c:388:21: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+  388 |             strcpy (cp2, cp);
+      |                     ^~~
+      |                     |
+      |                     unsigned char *
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from system.h:76:
+/usr/include/bits/string_fortified.h:77:16: note: expected 'char *' but argument is of type 'unsigned char *'
+   77 | __NTH (strcpy (__fortify_clang_overload_arg (char *, __restrict, __dest),
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+metaseq.c:388:26: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness [-Wpointer-sign]
+  388 |             strcpy (cp2, cp);
+      |                          ^~
+      |                          |
+      |                          unsigned char *
+/usr/include/bits/string_fortified.h:77:1: note: expected 'const char *' but argument is of type 'unsigned char *'
+   77 | __NTH (strcpy (__fortify_clang_overload_arg (char *, __restrict, __dest),
+      | ^~~~~
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o options.lo options.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c options.c  -fPIC -DPIC -o .libs/options.o
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o dsc.lo dsc.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c dsc.c  -fPIC -DPIC -o .libs/dsc.o
+/bin/sh ../auxdir/ylwrap fonts.l lex.yy.c fonts.c -- flex -CFe  
+/bin/sh ../libtool --tag=CC --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I.    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -c -o fonts.lo fonts.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DSYSCONFFILE=\"/etc/a2ps/a2ps.cfg\" -I. -I. -I.. -I.. -I../intl -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c fonts.c  -fPIC -DPIC -o .libs/fonts.o
+In file included from media.h:31,
+                 from jobs.h:38,
+                 from fonts.l:37:
+fonts.c: In function 'afmalloc':
+../config.h:496:16: error: implicit declaration of function 'rpl_malloc'; did you mean 'xmalloc'? [-Wimplicit-function-declaration]
+  496 | #define malloc rpl_malloc
+      |                ^~~~~~~~~~
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+ 2384 |         return malloc(size);
+      |                ^~~~~~
+../config.h:496:16: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+  496 | #define malloc rpl_malloc
+fonts.c:2384:16: note: in expansion of macro 'malloc'
+ 2384 |         return malloc(size);
+      |                ^~~~~~
+fonts.c: In function 'afmrealloc':
+../config.h:508:17: error: implicit declaration of function 'rpl_realloc'; did you mean 'xrealloc'? [-Wimplicit-function-declaration]
+  508 | #define realloc rpl_realloc
+      |                 ^~~~~~~~~~~
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+ 2396 |         return realloc(ptr, size);
+      |                ^~~~~~~
+../config.h:508:17: error: returning 'int' from a function with return type 'void *' makes pointer from integer without a cast [-Wint-conversion]
+  508 | #define realloc rpl_realloc
+fonts.c:2396:16: note: in expansion of macro 'realloc'
+ 2396 |         return realloc(ptr, size);
+      |                ^~~~~~~
+fonts.c: At top level:
+fonts.c:1782:16: warning: 'input' defined but not used [-Wunused-function]
+ 1782 |     static int input  (void)
+      |                ^~~~~
+fonts.c:1739:17: warning: 'yyunput' defined but not used [-Wunused-function]
+ 1739 |     static void yyunput (int c, char * yy_bp )
+      |                 ^~~~~~~
+make[3]: *** [Makefile:562: fonts.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[2]: *** [Makefile:383: all] Error 2
+make[2]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14/lib'
+make[1]: *** [Makefile:357: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+make: *** [Makefile:286: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/a2ps-4.14'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+
+
+RPM build errors:
+    line 37: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 82: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps = 4.14-alt4
+    line 96: Deprecated PreReq converted to Requires(pre,postun): PreReq: liba2ps-devel = 4.14-alt4
+    Bad exit status from /usr/src/tmp/rpm-tmp.13999 (%build)
+Command exited with non-zero status 1
+68.43user 12.41system 1:21.84elapsed 98%CPU (0avgtext+0avgdata 57160maxresident)k
+0inputs+0outputs (0major+2435493minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `a2ps-4.14-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+4.74user 3.34system 2:00.19elapsed 6%CPU (0avgtext+0avgdata 143712maxresident)k
+360inputs+0outputs (0major+293623minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.86181 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.86181 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.86181 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.86181 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.25user 0.18system 0:00.43elapsed 100%CPU (0avgtext+0avgdata 22608maxresident)k
+0.25user 0.18system 0:00.43elapsed 100%CPU (0avgtext+0avgdata 22608maxresident)k
+0inputs+0outputs (0major+41428minor)pagefaults 0swaps
+0inputs+0outputs (0major+41428minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libnss-fallback-0.0.1-alt2.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `libnss-fallback-0.0.1-alt2.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.33user 2.26system 0:12.95elapsed 58%CPU (0avgtext+0avgdata 142304maxresident)k
+5.33user 2.26system 0:12.95elapsed 58%CPU (0avgtext+0avgdata 142304maxresident)k
+0inputs+0outputs (0major+209409minor)pagefaults 0swaps

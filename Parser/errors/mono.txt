@@ -1,0 +1,182 @@
+checking for x86_64-alt-linux-g++ option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-g++ PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-g++ static flag -static works... no
+checking if x86_64-alt-linux-g++ supports -c -o file.o... yes
+checking if x86_64-alt-linux-g++ supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for bash... /usr/bin/bash
+checking if dolt supports this host... yes, replacing libtool
+./configure: line 20309: ./libtool: No such file or directory
+checking for ld used by x86_64-alt-linux-gcc... (cached) /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... (cached) yes
+checking for sys/filio.h... no
+checking for sys/sockio.h... no
+checking for netdb.h... yes
+checking for utime.h... yes
+checking for sys/utime.h... no
+checking for semaphore.h... yes
+checking for sys/un.h... yes
+checking for linux/rtc.h... yes
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+libtool: link: (cd .libs/libcord.lax/libgc.a && ar x "/usr/src/RPM/BUILD/mono-6.12.0.206/external/bdwgc/./.libs/libgc.a")
+libtool: link: ar cr .libs/libcord.a cord/.libs/libcord_la-cordbscs.o cord/.libs/libcord_la-cordprnt.o cord/.libs/libcord_la-cordxtra.o   .libs/libcord.lax/libgc.a/gc.o .libs/libcord.lax/libgc.a/pthread_start.o 
+libtool: link: ranlib .libs/libcord.a
+libtool: link: rm -fr .libs/libcord.lax
+libtool: link: ( cd ".libs" && rm -f "libcord.la" && ln -s "../libcord.la" "libcord.la" )
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/external/bdwgc'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/external/bdwgc'
+Making all in llvm
+make[2]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+/bin/sh: line 1: git: command not found
+which: no ninja in (/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games)
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+make[2]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+make[2]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+make[2]: Nothing to be done for 'all'.
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/llvm'
+Making all in mono
+Making all in mono
+make[2]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[2]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+Making all in btls
+Making all in btls
+make[3]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[3]: Entering directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+mkdir -p build-shared
+mkdir -p build-shared
+(cd build-shared && CC="x86_64-alt-linux-gcc" CXX="x86_64-alt-linux-g++" "/usr/bin/cmake" -D CMAKE_MAKE_PROGRAM="/usr/bin/gmake" -D CMAKE_INSTALL_PREFIX:PATH="/usr" -D BTLS_ROOT:PATH="/usr/src/RPM/BUILD/mono-6.12.0.206/external/boringssl" -D SRC_DIR:PATH="/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls" -D BTLS_CFLAGS:STRING="" -DCMAKE_AR:PATH=/usr/bin/ar  -DBTLS_ARCH="x86_64" -DBUILD_SHARED_LIBS=1 "/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls")
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+make[3]: *** [Makefile:682: build-shared/Makefile] Error 1
+make[3]: *** [Makefile:682: build-shared/Makefile] Error 1
+make[3]: *** [Makefile:682: build-shared/Makefile] Error 1
+make[3]: *** [Makefile:682: build-shared/Makefile] Error 1
+make[3]: *** [Makefile:682: build-shared/Makefile] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono/btls'
+make[2]: *** [Makefile:534: all-recursive] Error 1
+make[2]: *** [Makefile:534: all-recursive] Error 1
+make[2]: *** [Makefile:534: all-recursive] Error 1
+make[2]: *** [Makefile:534: all-recursive] Error 1
+make[2]: *** [Makefile:534: all-recursive] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206/mono'
+make[1]: *** [Makefile:604: all-recursive] Error 1
+make[1]: *** [Makefile:604: all-recursive] Error 1
+make[1]: *** [Makefile:604: all-recursive] Error 1
+make[1]: *** [Makefile:604: all-recursive] Error 1
+make[1]: *** [Makefile:604: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: *** [Makefile:532: all] Error 2
+make: *** [Makefile:532: all] Error 2
+make: *** [Makefile:532: all] Error 2
+make: *** [Makefile:532: all] Error 2
+make: *** [Makefile:532: all] Error 2
+make: *** [Makefile:532: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+make: Leaving directory '/usr/src/RPM/BUILD/mono-6.12.0.206'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.73452 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+48.49user 23.14system 1:11.60elapsed 100%CPU (0avgtext+0avgdata 145728maxresident)k
+48.49user 23.14system 1:11.60elapsed 100%CPU (0avgtext+0avgdata 145728maxresident)k
+48.49user 23.14system 1:11.60elapsed 100%CPU (0avgtext+0avgdata 145728maxresident)k
+48.49user 23.14system 1:11.60elapsed 100%CPU (0avgtext+0avgdata 145728maxresident)k
+0inputs+0outputs (0major+3809269minor)pagefaults 0swaps
+0inputs+0outputs (0major+3809269minor)pagefaults 0swaps
+0inputs+0outputs (0major+3809269minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `mono-6.12.0.206-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `mono-6.12.0.206-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `mono-6.12.0.206-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.02user 3.78system 1:54.26elapsed 8%CPU (0avgtext+0avgdata 141968maxresident)k
+6.02user 3.78system 1:54.26elapsed 8%CPU (0avgtext+0avgdata 141968maxresident)k
+16inputs+0outputs (0major+335030minor)pagefaults 0swaps

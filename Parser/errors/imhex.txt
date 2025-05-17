@@ -1,0 +1,287 @@
+removed 'lib/third_party/yara/yara/tests/test-version.c'
+removed 'lib/third_party/yara/yara/tests/test-string.c'
+removed 'lib/third_party/yara/yara/tests/test-stack.c'
+removed 'lib/third_party/yara/yara/tests/test-rules.c'
+removed 'lib/third_party/yara/yara/tests/test-re-split.c'
+removed 'lib/third_party/yara/yara/tests/test-pe.c'
+removed 'lib/third_party/yara/yara/tests/test-pb.c'
+removed 'lib/third_party/yara/yara/tests/test-math.c'
+removed 'lib/third_party/yara/yara/tests/test-magic.c'
+removed 'lib/third_party/yara/yara/tests/test-macho.c'
+removed 'lib/third_party/yara/yara/tests/test-exception.c'
+removed 'lib/third_party/yara/yara/tests/test-elf.c'
+removed 'lib/third_party/yara/yara/tests/test-dotnet.c'
+removed 'lib/third_party/yara/yara/tests/test-dex.c'
+removed 'lib/third_party/yara/yara/tests/test-bitmask.c'
+removed 'lib/third_party/yara/yara/tests/test-atoms.c'
+removed 'lib/third_party/yara/yara/tests/test-async.c'
+removed 'lib/third_party/yara/yara/tests/test-arena.c'
+removed 'lib/third_party/yara/yara/tests/test-api.c'
+removed 'lib/third_party/yara/yara/tests/test-alignment.c'
+removed 'lib/third_party/yara/yara/tests/oss-fuzz/rules_fuzzer_corpus/8'
+removed 'lib/third_party/yara/yara/libyara/hex_grammar.y'
+removed 'lib/third_party/yara/yara/libyara/hex_grammar.h'
+removed 'lib/third_party/yara/yara/libyara/hex_grammar.c'
+removed 'lib/third_party/yara/yara/libyara/hash.c'
+removed 'lib/third_party/yara/yara/libyara/grammar.y'
+removed 'lib/third_party/yara/yara/libyara/grammar.h'
+removed 'lib/third_party/yara/yara/libyara/grammar.c'
+removed 'lib/third_party/yara/yara/libyara/filemap.c'
+removed 'lib/third_party/yara/yara/libyara/exefiles.c'
+removed 'lib/third_party/yara/yara/libyara/exec.c'
+removed 'lib/third_party/yara/yara/libyara/exception.h'
+removed 'lib/third_party/yara/yara/libyara/endian.c'
+removed 'lib/third_party/yara/yara/libyara/crypto.h'
+removed 'lib/third_party/yara/yara/libyara/compiler.c'
+removed 'lib/third_party/yara/yara/libyara/bitmask.c'
+removed 'lib/third_party/yara/yara/libyara/base64.c'
+removed 'lib/third_party/yara/yara/libyara/atoms.c'
+removed 'lib/third_party/yara/yara/libyara/arena.c'
+removed 'lib/third_party/yara/yara/libyara/ahocorasick.c'
+removed directory 'lib/third_party/yara/yara/libyara'
+removed 'lib/third_party/yara/yara/extra/old-logo.psd'
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.12.0", minimum required is "3.10.2") 
+-- libpl static library is being created
+-- Found libmagic: /usr/lib64/libmagic.so  
+-- Looking for backtrace
+Problem opening /proc/meminfo
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Backtrace enabled! Header: execinfo.h
+-- Backtrace enabled! Header: execinfo.h
+CMake Warning at lib/libimhex/CMakeLists.txt:115 (message):
+CMake Warning at lib/libimhex/CMakeLists.txt:115 (message):
+  Failed to to determine commit hash/branch
+  Failed to to determine commit hash/branch
+
+
+
+
+-- Performing Test ZSTD_AVAILABLE_COMPILER
+-- Performing Test ZSTD_AVAILABLE_COMPILER
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Performing Test ZSTD_AVAILABLE_COMPILER - Success
+-- Performing Test ZSTD_AVAILABLE_COMPILER - Success
+-- Performing Test ZSTD_AVAILABLE_LINKER
+-- Performing Test ZSTD_AVAILABLE_LINKER
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Performing Test ZSTD_AVAILABLE_LINKER - Failed
+-- Performing Test ZSTD_AVAILABLE_LINKER - Failed
+-- Performing Test COMPRESS_AVAILABLE_COMPILER
+-- Performing Test COMPRESS_AVAILABLE_COMPILER
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+-- Performing Test COMPRESS_AVAILABLE_COMPILER - Success
+-- Performing Test COMPRESS_AVAILABLE_LINKER
+Problem opening /proc/meminfo
+-- Performing Test COMPRESS_AVAILABLE_LINKER - Success
+Using default compression for debug info because both compiler and linker support it
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+Problem opening /proc/meminfo
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+Setting warning flags
+-- Performing Test WOLD_STYLE_CAST
+Problem opening /proc/meminfo
+-- Performing Test WOLD_STYLE_CAST - Success
+-- Performing Test WSHADOW
+Problem opening /proc/meminfo
+-- Performing Test WSHADOW - Success
+-- Found Capstone: /usr/lib64/libcapstone.so  
+-- Unable to find any .NET runtimes
+CMake Warning at cmake/build_helpers.cmake:583 (message):
+  Failed to locate ImHex-Patterns repository, some resources will be missing
+  during install!
+Call Stack (most recent call first):
+  cmake/build_helpers.cmake:302 (downloadImHexPatternsFiles)
+  CMakeLists.txt:86 (createPackage)
+
+
+-- Configuring done (2.5s)
+-- Generating done (0.2s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/math.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/math.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/math.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/math.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/hash.cpp.o
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/hash.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/hash.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/hash.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/hash.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+[ 47%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp: In lambda function:
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+   60 |                     auto localTime = fmt::localtime(time);
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:10:
+/usr/include/fmt/chrono.h:538:28: note: declared here
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+      |                            ^~~~~~~~~
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp: In instantiation of 'pl::lib::libstd::time::registerFunctions(pl::PatternLanguage&)::<lambda(pl::core::Evaluator*, auto:64)> [with auto:64 = std::vector<pl::core::Token::Literal>]':
+/usr/include/c++/14/bits/invoke.h:61:36:   required from 'constexpr _Res std::__invoke_impl(__invoke_other, _Fn&&, _Args&& ...) [with _Res = optional<pl::core::Token::Literal>; _Fn = pl::lib::libstd::time::registerFunctions(pl::PatternLanguage&)::<lambda(pl::core::Evaluator*, auto:64)>&; _Args = {pl::core::Evaluator*, const vector<pl::core::Token::Literal, allocator<pl::core::Token::Literal> >&}]'
+   61 |     { return std::forward<_Fn>(__f)(std::forward<_Args>(__args)...); }
+      |              ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   62 |                     return { packTMValue(localTime) };
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   63 |                 } catch (const fmt::format_error&) {
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   64 |                     return u128(0);
+      |                     ~~~~~~~~~~~~~~~
+   65 |                 }
+   65 |                 }
+      |                 ~               
+      |                 ~               
+   66 |             });
+   66 |             });
+      |             ~~                  
+      |             ~~                  
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+   60 |                     auto localTime = fmt::localtime(time);
+   60 |                     auto localTime = fmt::localtime(time);
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+      |                            ^~~~~~~~~
+      |                            ^~~~~~~~~
+      |                            ^~~~~~~~~
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+   60 |                     auto localTime = fmt::localtime(time);
+   60 |                     auto localTime = fmt::localtime(time);
+   60 |                     auto localTime = fmt::localtime(time);
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+      |                            ^~~~~~~~~
+      |                            ^~~~~~~~~
+      |                            ^~~~~~~~~
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/time.cpp:60:52: error: 'tm fmt::v11::localtime(time_t)' is deprecated [-Werror=deprecated-declarations]
+   60 |                     auto localTime = fmt::localtime(time);
+   60 |                     auto localTime = fmt::localtime(time);
+   60 |                     auto localTime = fmt::localtime(time);
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~~~~~~^~~~~~
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+/usr/include/fmt/chrono.h:538:28: note: declared here
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+  538 | FMT_DEPRECATED inline auto localtime(std::time_t time) -> std::tm {
+      |                            ^~~~~~~~~
+      |                            ^~~~~~~~~
+cc1plus: all warnings being treated as errors
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [lib/external/pattern_language/lib/CMakeFiles/libpl.dir/build.make:779: lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o] Error 1
+gmake[2]: *** [lib/external/pattern_language/lib/CMakeFiles/libpl.dir/build.make:779: lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/time.cpp.o] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/random.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/random.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/random.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o
+[ 48%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/core.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/core.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/core.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -MF CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/lib/std/core.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/lib/std/core.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+[ 45%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o
+[ 45%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o
+[ 45%] Building CXX object lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -MF CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/core/parser.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -MF CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/core/parser.cpp
+cd /usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux/lib/external/pattern_language/lib && /usr/bin/c++ -DFMT_SHARED -DLIBWOLV_BUILTIN_UINT128 -DNDEBUG -DOS_LINUX -DSYSTEM_PLUGINS_LOCATION=\"/usr/lib64/imhex\" -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/../external/throwing_ptr/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/types/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/io/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/utils/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/hash/include -I/usr/src/RPM/BUILD/imhex-1.37.4/lib/external/libwolv/libs/containers/include -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -O2 -g -DNDEBUG -std=gnu++23 -fPIC -Wno-stringop-overflow -fexceptions -frtti -Wall -Wextra -Werror -Wpedantic -Wno-unknown-pragmas -Wno-array-bounds -Wno-stringop-overread -MD -MT lib/external/pattern_language/lib/CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -MF CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o.d -o CMakeFiles/libpl.dir/source/pl/core/parser.cpp.o -c /usr/src/RPM/BUILD/imhex-1.37.4/lib/external/pattern_language/lib/source/pl/core/parser.cpp
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/imhex-1.37.4/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:3074: lib/external/pattern_language/lib/CMakeFiles/libpl.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:3074: lib/external/pattern_language/lib/CMakeFiles/libpl.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:3074: lib/external/pattern_language/lib/CMakeFiles/libpl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+
+
+
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23733 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+546.84user 61.46system 0:45.11elapsed 1348%CPU (0avgtext+0avgdata 1157452maxresident)k
+546.84user 61.46system 0:45.11elapsed 1348%CPU (0avgtext+0avgdata 1157452maxresident)k
+546.84user 61.46system 0:45.11elapsed 1348%CPU (0avgtext+0avgdata 1157452maxresident)k
+546.84user 61.46system 0:45.11elapsed 1348%CPU (0avgtext+0avgdata 1157452maxresident)k
+0inputs+0outputs (0major+12080005minor)pagefaults 0swaps
+0inputs+0outputs (0major+12080005minor)pagefaults 0swaps
+0inputs+0outputs (0major+12080005minor)pagefaults 0swaps
+0inputs+0outputs (0major+12080005minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `imhex-1.37.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `imhex-1.37.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `imhex-1.37.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.79user 3.82system 1:11.67elapsed 14%CPU (0avgtext+0avgdata 140792maxresident)k
+6.79user 3.82system 1:11.67elapsed 14%CPU (0avgtext+0avgdata 140792maxresident)k
+2000inputs+0outputs (0major+364650minor)pagefaults 0swaps

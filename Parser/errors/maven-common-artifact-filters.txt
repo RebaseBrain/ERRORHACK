@@ -1,0 +1,77 @@
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ maven-common-artifact-filters ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-common-artifact-filters ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[54,30] cannot find symbol
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Maven Common Artifact Filters
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.647 s
+[INFO] Finished at: 2025-05-16T03:11:27Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-common-artifact-filters: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/ScopeArtifactFilterTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[54,30] cannot find symbol
+[ERROR]   symbol:   method mock(java.lang.Class<org.apache.maven.artifact.Artifact>)
+[ERROR] /usr/src/RPM/BUILD/maven-common-artifact-filters-3.2.0/src/test/java/org/apache/maven/shared/artifact/filter/AbstractPatternArtifactFilterTest.java:[477,9] cannot find symbol
+[ERROR]   symbol:   method when(java.lang.String)
+[ERROR]   location: class org.apache.maven.shared.artifact.filter.AbstractPatternArtifactFilterTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.75337 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.75337 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.75337 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.75337 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+13.53user 0.72system 0:04.24elapsed 336%CPU (0avgtext+0avgdata 356992maxresident)k
+13.53user 0.72system 0:04.24elapsed 336%CPU (0avgtext+0avgdata 356992maxresident)k
+0inputs+0outputs (0major+70387minor)pagefaults 0swaps
+0inputs+0outputs (0major+70387minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-common-artifact-filters-3.2.0-alt1_3jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-common-artifact-filters-3.2.0-alt1_3jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+11.05user 2.66system 0:46.81elapsed 29%CPU (0avgtext+0avgdata 142204maxresident)k
+11.05user 2.66system 0:46.81elapsed 29%CPU (0avgtext+0avgdata 142204maxresident)k
+7608inputs+0outputs (0major+280333minor)pagefaults 0swaps

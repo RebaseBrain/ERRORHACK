@@ -1,0 +1,245 @@
+++ pkg-config libssl --cflags
++ TLS_ARGS='-DUSE_TLS '
++ TLS_LIBS='-lssl -lcrypto'
++ make -C postfix-3.8.6 tidy makefiles shared=yes pie=yes dynamicmaps=yes 'SYSLIBS=-lresolv -ldl' AUXLIBS= AUXLIBS_PCRE=-lpcre AUXLIBS_CDB=-lcdb 'AUXLIBS_LDAP=-lldap -llber' 'AUXLIBS_MYSQL= -L/usr/lib64 -lmysqlclient  -lm' 'AUXLIBS_PGSQL=-L/usr/lib64 -lpq' AUXLIBS_SQLITE= 'CCARGS= -DNO_NIS  -DDEF_COMMAND_DIR=\"/usr/sbin\"  -DDEF_CONFIG_DIR=\"/etc/postfix\"  -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\"  -DDEF_DATA_DIR=\"/var/lib/postfix\"  -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\"  -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\"  -DDEF_MAILQ_PATH=\"/usr/bin/mailq\"  -DDEF_MANPAGE_DIR=\"/usr/share/man\"  -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\"  -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\"  -DDEF_QUEUE_DIR=\"/var/spool/postfix\"  -DDEF_README_DIR=\"/etc/postfix/README_FILES\"  -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\"  -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\"  -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl  -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql' 'OPT=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces' DEBUG= SHLIB_RPATH=
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+make -f Makefile.in MAKELEVEL= Makefiles
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+(echo "# Do not edit -- this file documents how Postfix was built for your machine."; /bin/sh makedefs) >makedefs.tmp
+set +e; if cmp makedefs.tmp conf/makedefs.out; then rm makedefs.tmp; \
+else mv makedefs.tmp conf/makedefs.out; fi >/dev/null 2>/dev/null
+set -e; for i in src/util src/global src/dns src/tls src/xsasl src/master src/milter src/postfix src/fsstone src/smtpstone src/sendmail src/error src/pickup src/cleanup src/smtpd src/local src/trivial-rewrite src/qmgr src/oqmgr src/smtp src/bounce src/pipe src/showq src/postalias src/postcat src/postconf src/postdrop src/postkick src/postlock src/postlog src/postmap src/postqueue src/postsuper src/qmqpd src/spawn src/flush src/verify src/virtual src/proxymap src/anvil src/scache src/discard src/tlsmgr src/postmulti src/postscreen src/dnsblog src/tlsproxy src/posttls-finger src/postlogd; do \
+ (set -e; echo "[$i]"; cd $i; rm -f Makefile; \
+ make -f Makefile.in Makefile MAKELEVEL=) || exit 1; \
+done
+[src/util]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+[src/global]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/global'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/posttls-finger'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/posttls-finger'
+[src/postlogd]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/postlogd'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/postlogd'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+make MAKELEVEL= tidy
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+set -e; for i in src/util src/global src/dns src/tls src/xsasl src/master src/milter src/postfix src/fsstone src/smtpstone src/sendmail src/error src/pickup src/cleanup src/smtpd src/local src/trivial-rewrite src/qmgr src/oqmgr src/smtp src/bounce src/pipe src/showq src/postalias src/postcat src/postconf src/postdrop src/postkick src/postlock src/postlog src/postmap src/postqueue src/postsuper src/qmqpd src/spawn src/flush src/verify src/virtual src/proxymap src/anvil src/scache src/discard src/tlsmgr src/postmulti src/postscreen src/dnsblog src/tlsproxy src/posttls-finger src/postlogd; do \
+ (set -e; echo "[$i]"; cd $i; make clean) || exit 1; \
+done
+[src/util]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+rm -f *.o libpostfix-util.so *core dict_open dup2_pass_on_exec events exec_command fifo_open fifo_rdonly_bug fifo_rdwr_bug fifo_trigger fsspace fullname inet_addr_host inet_addr_local mac_parse make_dirs msg_syslog mystrtok sigdelay translit valid_hostname vstream_popen vstring vstring_vstream doze select_bug stream_test mac_expand watchdog unescape hex_quote name_mask rand_sleep sane_time ctable inet_addr_list attr_print64 attr_scan64 base64_code attr_print0 attr_scan0 host_port attr_scan_plain attr_print_plain htable unix_recv_fd unix_send_fd stream_recv_fd stream_send_fd hex_code myaddrinfo myaddrinfo4 inet_proto sane_basename format_tv valid_utf8_string ip_match base32_code msg_rate_delay netstring vstream timecmp dict_cache midna_domain casefold strcasecmp_utf8 vbuf_print split_qnameval vstream msg_logger byte_mask known_tcp_ports dict_stream find_inet binhash hash_fnv argv clean_env inet_prefix_top junk  *.tmp
+rm -rf printfck
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+[src/global]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/global'
+rm -f *.o libpostfix-global.so *core domain_list dot_lockfile mail_addr_crunch mail_addr_find mail_addr_map mail_date maps mynetworks mypwd namadr_list off_cvt quote_822_local rec2stream recdump resolve_clnt resolve_local rewrite_clnt stream2rec string_list tok822_parse quote_821_local mail_conf_time mime_state strip_addr verify_clnt xtext anvil_clnt scache ehlo_mask valid_mailhost_addr own_inet_addr header_body_checks data_redirect addr_match_list safe_ultostr verify_sender_addr mail_version mail_dict server_acl uxtext mail_parm_split fold_addr smtp_reply_footer mail_addr_map normalize_mailhost_addr haproxy_srvr map_search delivered_hdr login_sender_match compat_level config_known_tcp_ports hfrom_format junk 
+rm -f *.o *core smtp-source smtp-sink qmqp-source qmqp-sink  junk
+rm -rf printfck
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/smtpstone'
+[src/sendmail]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/sendmail'
+rm -f *.o *core sendmail  junk 
+rm -rf printfck
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/sendmail'
+[src/error]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/error'
+rm -f *.o *core error  junk 
+rm -rf printfck
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/error'
+[src/pickup]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/pickup'
+rm -f *.o *core pickup  junk 
+rm -rf printfck
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/pickup'
+[src/cleanup]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/cleanup'
+rm -f *.o *core cleanup cleanup_masquerade cleanup_milter junk 
+    conf/main.cf.default conf/bounce.cf.default meta/*
+find . -type s -print | xargs rm -f
+find . -type d -print | xargs chmod 755
+find . -type f -print | xargs chmod a+r
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+make -f Makefile.in MAKELEVEL= Makefiles
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+(echo "# Do not edit -- this file documents how Postfix was built for your machine."; /bin/sh makedefs) >makedefs.tmp
+set +e; if cmp makedefs.tmp conf/makedefs.out; then rm makedefs.tmp; \
+else mv makedefs.tmp conf/makedefs.out; fi >/dev/null 2>/dev/null
+set -e; for i in src/util src/global src/dns src/tls src/xsasl src/master src/milter src/postfix src/fsstone src/smtpstone src/sendmail src/error src/pickup src/cleanup src/smtpd src/local src/trivial-rewrite src/qmgr src/oqmgr src/smtp src/bounce src/pipe src/showq src/postalias src/postcat src/postconf src/postdrop src/postkick src/postlock src/postlog src/postmap src/postqueue src/postsuper src/qmqpd src/spawn src/flush src/verify src/virtual src/proxymap src/anvil src/scache src/discard src/tlsmgr src/postmulti src/postscreen src/dnsblog src/tlsproxy src/posttls-finger src/postlogd; do \
+ (set -e; echo "[$i]"; cd $i; rm -f Makefile; \
+ make -f Makefile.in Makefile MAKELEVEL=) || exit 1; \
+done
+[src/util]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+[src/global]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/global'
+cat ../../conf/makedefs.out Makefile.in >Makefile
+	    if (have[$1]) print; next } \
+	{ print } \
+    '; \
+fi) | case "" in \
+ *) cat;; \
+esac > meta/postfix-files
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+rm -f libexec/postfix-tls-script && ln -f conf/postfix-tls-script libexec/postfix-tls-script
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6'
+set -e; for i in src/util src/global src/dns src/tls src/xsasl src/master src/milter src/postfix src/fsstone src/smtpstone src/sendmail src/error src/pickup src/cleanup src/smtpd src/local src/trivial-rewrite src/qmgr src/oqmgr src/smtp src/bounce src/pipe src/showq src/postalias src/postcat src/postconf src/postdrop src/postkick src/postlock src/postlog src/postmap src/postqueue src/postsuper src/qmqpd src/spawn src/flush src/verify src/virtual src/proxymap src/anvil src/scache src/discard src/tlsmgr src/postmulti src/postscreen src/dnsblog src/tlsproxy src/posttls-finger src/postlogd; do \
+ (set -e; echo "[$i]"; cd $i; make 'WARN=-Wmissing-prototypes -Wformat -Wno-comment -fno-common' update MAKELEVEL=) || exit 1; \
+done
+[src/util]
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common -fPIC  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -DLINUX6 -c alldig.c
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common -fPIC  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -DLINUX6 -c allprint.c
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/util'
+a - xsasl_client.o
+ranlib libxsasl.a
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+cp libxsasl.a ../../lib
+cp libxsasl.a ../../lib
+ranlib ../../lib/libxsasl.a
+ranlib ../../lib/libxsasl.a
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_client.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_client.c
+xsasl_cyrus_client.c: In function 'xsasl_cyrus_client_init':
+xsasl_cyrus_client.c: In function 'xsasl_cyrus_client_init':
+xsasl_cyrus_client.c: In function 'xsasl_cyrus_client_init':
+xsasl_cyrus_client.c:233:31: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+xsasl_cyrus_client.c:233:31: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+xsasl_cyrus_client.c:233:31: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+  233 |         {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+  233 |         {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+  233 |         {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+      |                               ^
+      |                               ^
+      |                               ^
+xsasl_cyrus_client.c:233:31: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_client.c:233:31: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_client.c:233:31: note: (near initialization for 'callbacks[1].proc')
+make: *** [Makefile:87: xsasl_cyrus_client.o] Error 1
+make: *** [Makefile:87: xsasl_cyrus_client.o] Error 1
+make: *** [Makefile:87: xsasl_cyrus_client.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_server.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_server.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_server.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_cyrus_server.c
+xsasl_cyrus_server.c:185:27: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+xsasl_cyrus_server.c:185:27: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+xsasl_cyrus_server.c:185:27: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+xsasl_cyrus_server.c:185:27: error: initialization of 'int (*)(void)' from incompatible pointer type 'int (*)(void *, char **)' [-Wincompatible-pointer-types]
+  185 |     {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+  185 |     {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+  185 |     {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+  185 |     {SASL_CB_GETCONFPATH, &xsasl_getconfpath, 0},
+      |                           ^
+      |                           ^
+      |                           ^
+xsasl_cyrus_server.c:185:27: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_server.c:185:27: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_server.c:185:27: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_server.c:185:27: note: (near initialization for 'callbacks[1].proc')
+xsasl_cyrus_server.c: In function 'xsasl_cyrus_server_get_username':
+xsasl_cyrus_server.c: In function 'xsasl_cyrus_server_get_username':
+xsasl_cyrus_server.c: In function 'xsasl_cyrus_server_get_username':
+xsasl_cyrus_server.c: In function 'xsasl_cyrus_server_get_username':
+xsasl_cyrus_server.c: In function 'xsasl_cyrus_server_get_username':
+xsasl_cyrus_server.c:623:17: warning: unused variable 'myname' [-Wunused-variable]
+xsasl_cyrus_server.c:623:17: warning: unused variable 'myname' [-Wunused-variable]
+xsasl_cyrus_server.c:623:17: warning: unused variable 'myname' [-Wunused-variable]
+xsasl_cyrus_server.c:623:17: warning: unused variable 'myname' [-Wunused-variable]
+xsasl_cyrus_server.c:623:17: warning: unused variable 'myname' [-Wunused-variable]
+  623 |     const char *myname = "xsasl_cyrus_server_get_username";
+  623 |     const char *myname = "xsasl_cyrus_server_get_username";
+  623 |     const char *myname = "xsasl_cyrus_server_get_username";
+  623 |     const char *myname = "xsasl_cyrus_server_get_username";
+      |                 ^~~~~~
+      |                 ^~~~~~
+      |                 ^~~~~~
+      |                 ^~~~~~
+make: *** [Makefile:87: xsasl_cyrus_server.o] Error 1
+make: *** [Makefile:87: xsasl_cyrus_server.o] Error 1
+make: *** [Makefile:87: xsasl_cyrus_server.o] Error 1
+make: *** [Makefile:87: xsasl_cyrus_server.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Entering directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_dovecot_server.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_dovecot_server.c
+gcc -fPIC -I. -I../../include -DNO_NIS -DDEF_COMMAND_DIR=\"/usr/sbin\" -DDEF_CONFIG_DIR=\"/etc/postfix\" -DDEF_DAEMON_DIR=\"/usr/libexec/postfix\" -DDEF_DATA_DIR=\"/var/lib/postfix\" -DDEF_SHLIB_DIR=\"/usr/lib64/postfix\" -DDEF_HTML_DIR=\"/usr/share/doc/postfix-3.8.6/html\" -DDEF_MAILQ_PATH=\"/usr/bin/mailq\" -DDEF_MANPAGE_DIR=\"/usr/share/man\" -DDEF_NEWALIAS_PATH=\"/usr/bin/newaliases\" -DDEF_PROGRAM_DIR=\"/usr/libexec/postfix\" -DDEF_QUEUE_DIR=\"/var/spool/postfix\" -DDEF_README_DIR=\"/etc/postfix/README_FILES\" -DDEF_SAMPLE_DIR=\"/etc/postfix/README_FILES\" -DDEF_SENDMAIL_PATH=\"/usr/sbin/sendmail\" -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl -DHAS_CDB -DHAS_LDAP -DHAS_MYSQL -I/usr/include/mysql -DHAS_PCRE -I/usr/include/pcre -DHAS_PGSQL -I/usr/include/pgsql -DNO_EAI -DDEF_SMTPUTF8_ENABLE=\"no\" -DHAS_DEV_URANDOM -DUSE_DYNAMIC_LIBS -DUSE_DYNAMIC_MAPS -Wmissing-prototypes -Wformat -Wno-comment -fno-common  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fno-strict-aliasing -Wno-comment -Wno-missing-braces -I. -I../../include -DLINUX6 -c xsasl_dovecot_server.c
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: Leaving directory '/usr/src/RPM/BUILD/postfix-3.8.6/postfix-3.8.6/src/xsasl'
+make: *** [Makefile:105: update] Error 1
+make: *** [Makefile:105: update] Error 1
+make: *** [Makefile:105: update] Error 1
+make: *** [Makefile:105: update] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.28798 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+18.37user 7.71system 0:06.45elapsed 404%CPU (0avgtext+0avgdata 63760maxresident)k
+18.37user 7.71system 0:06.45elapsed 404%CPU (0avgtext+0avgdata 63760maxresident)k
+18.37user 7.71system 0:06.45elapsed 404%CPU (0avgtext+0avgdata 63760maxresident)k
+0inputs+0outputs (0major+949035minor)pagefaults 0swaps
+0inputs+0outputs (0major+949035minor)pagefaults 0swaps
+0inputs+0outputs (0major+949035minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `postfix-3.8.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `postfix-3.8.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `postfix-3.8.6-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.23user 3.09system 0:45.12elapsed 18%CPU (0avgtext+0avgdata 141308maxresident)k
+5.23user 3.09system 0:45.12elapsed 18%CPU (0avgtext+0avgdata 141308maxresident)k
+224inputs+0outputs (0major+222162minor)pagefaults 0swaps

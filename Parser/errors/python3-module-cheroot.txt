@@ -1,0 +1,245 @@
+INFO     : root : copying cheroot/ssl/builtin.py -> build/lib/cheroot/ssl
+INFO     : root : copying cheroot/ssl/__init__.py -> build/lib/cheroot/ssl
+INFO     : root : running egg_info
+INFO     : root : creating cheroot.egg-info
+INFO     : root : writing cheroot.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to cheroot.egg-info/dependency_links.txt
+INFO     : root : writing entry points to cheroot.egg-info/entry_points.txt
+INFO     : root : writing requirements to cheroot.egg-info/requires.txt
+INFO     : root : writing top-level names to cheroot.egg-info/top_level.txt
+INFO     : root : writing manifest file 'cheroot.egg-info/SOURCES.txt'
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+WARNING setuptools_scm._file_finders.git git archive detected - fallback to listing all files
+INFO     : root : adding license file 'LICENSE.md'
+INFO     : root : writing manifest file 'cheroot.egg-info/SOURCES.txt'
+INFO     : root : copying cheroot/__init__.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/_compat.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/cli.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/connections.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/errors.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/makefile.pyi -> build/lib/cheroot
+INFO     : root : copying cheroot/py.typed -> build/lib/cheroot
+cheroot/test/test_ssl.py::test_ssl_env[2-True-pyopenssl] 
+cheroot/test/test_ssl.py::test_https_over_http_error[0.0.0.0] 
+[gw5] [ 91%] PASSED cheroot/test/test_ssl.py::test_ssl_env[2-True-pyopenssl] 
+[gw0] [ 91%] PASSED cheroot/test/test_server.py::test_high_number_of_file_descriptors[1024] 
+[gw0] [ 91%] PASSED cheroot/test/test_server.py::test_high_number_of_file_descriptors[1024] 
+cheroot/test/test_ssl.py::test_https_over_http_error[::] 
+cheroot/test/test_ssl.py::test_https_over_http_error[::] 
+[gw7] [ 92%] PASSED cheroot/test/test_ssl.py::test_https_over_http_error[0.0.0.0] 
+[gw7] [ 92%] PASSED cheroot/test/test_ssl.py::test_https_over_http_error[0.0.0.0] 
+cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-builtin] 
+cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-builtin] 
+cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-pyopenssl] 
+cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-pyopenssl] 
+cheroot/test/test_ssl.py::test_http_over_https_error[::-builtin] 
+cheroot/test/test_ssl.py::test_http_over_https_error[::-builtin] 
+cheroot/test/test_ssl.py::test_http_over_https_error[::-pyopenssl] 
+cheroot/test/test_ssl.py::test_http_over_https_error[::-pyopenssl] 
+[gw0] [ 92%] ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] 
+[gw0] [ 92%] ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] 
+[gw6] [ 93%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-pyopenssl] 
+[gw6] [ 93%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-pyopenssl] 
+cheroot/test/test_wsgi.py::test_gateway_write_needs_start_response_called_before 
+cheroot/test/test_wsgi.py::test_gateway_write_needs_start_response_called_before 
+[gw0] [ 94%] PASSED cheroot/test/test_wsgi.py::test_gateway_write_needs_start_response_called_before Client ('127.0.0.1', 39606) attempted to speak plain HTTP into a TCP connection configured for TLS-only traffic — trying to send back a plain HTTP error response: (1, '[SSL: HTTP_REQUEST] http request (_ssl.c:1010)')
+[gw0] [ 94%] PASSED cheroot/test/test_wsgi.py::test_gateway_write_needs_start_response_called_before Client ('127.0.0.1', 39606) attempted to speak plain HTTP into a TCP connection configured for TLS-only traffic — trying to send back a plain HTTP error response: (1, '[SSL: HTTP_REQUEST] http request (_ssl.c:1010)')
+
+
+[gw4] [ 94%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-builtin] 
+[gw4] [ 94%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[0.0.0.0-builtin] 
+[gw3] [ 95%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[::-builtin] 
+[gw3] [ 95%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[::-builtin] 
+[gw2] [ 96%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[::-pyopenssl] 
+[gw2] [ 96%] PASSED cheroot/test/test_ssl.py::test_http_over_https_error[::-pyopenssl] 
+cheroot/test/test_wsgi.py::test_connection_keepalive 
+cheroot/test/test_wsgi.py::test_connection_keepalive 
+cheroot/test/test_wsgi.py::test_gateway_start_response_called_twice 
+cheroot/test/test_wsgi.py::test_gateway_start_response_called_twice 
+[gw7] [ 96%] PASSED cheroot/test/test_wsgi.py::test_gateway_start_response_called_twice 
+[gw7] [ 96%] PASSED cheroot/test/test_wsgi.py::test_gateway_start_response_called_twice 
+cheroot/test/webtest.py::cheroot.test.webtest.strip_netloc 
+cheroot/test/webtest.py::cheroot.test.webtest.strip_netloc 
+[gw6] [ 97%] PASSED cheroot/test/webtest.py::cheroot.test.webtest.strip_netloc 
+[gw6] [ 97%] PASSED cheroot/test/webtest.py::cheroot.test.webtest.strip_netloc 
+cheroot/test/webtest.py::cheroot.test.webtest.WebCase.getPage 
+cheroot/test/webtest.py::cheroot.test.webtest.WebCase.getPage 
+[gw4] [ 98%] PASSED cheroot/test/webtest.py::cheroot.test.webtest.WebCase.getPage 
+[gw1] [ 98%] PASSED cheroot/test/test_conn.py::test_HTTP11_Timeout_after_request 
+cheroot/test/test_conn.py::test_HTTP11_pipelining 
+[gw1] [ 99%] PASSED cheroot/test/test_conn.py::test_HTTP11_pipelining 
+[gw5] [100%] PASSED cheroot/test/test_wsgi.py::test_connection_keepalive 
+
+==================================== ERRORS ====================================
+_______________ ERROR at setup of test_https_over_http_error[::] _______________
+[gw0] linux -- Python 3.12.10 /usr/src/RPM/BUILD/python3-module-cheroot-10.0.1/.run_venv/bin/python3
+
+cls = <class '_pytest.runner.CallInfo'>
+func = <function call_and_report.<locals>.<lambda> at 0x7f8ab17c45e0>
+when = 'setup'
+reraise = (<class '_pytest.outcomes.Exit'>, <class 'KeyboardInterrupt'>)
+
+    @classmethod
+    def from_call(
+        cls,
+        reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+    ) -> CallInfo[TResult]:
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :type func: Callable[[], _pytest.runner.TResult]
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        start = timing.time()
+        precise_start = timing.perf_counter()
+        try:
+>           result: TResult | None = func()
+
+cls        = <class '_pytest.runner.CallInfo'>
+duration   = 0.0007078638300299644
+        item       = <Function test_https_over_http_error[::]>
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+self = <_pytest.runner.SetupState object at 0x7f8ad0472780>
+self = <_pytest.runner.SetupState object at 0x7f8ad0472780>
+item = <Function test_https_over_http_error[::]>
+item = <Function test_https_over_http_error[::]>
+
+
+    def setup(self, item: Item) -> None:
+    def setup(self, item: Item) -> None:
+        """Setup objects along the collector chain to the item."""
+        """Setup objects along the collector chain to the item."""
+        needed_collectors = item.listchain()
+        needed_collectors = item.listchain()
+    
+    
+        # If a collector fails its setup, fail its entire subtree of items.
+        # If a collector fails its setup, fail its entire subtree of items.
+        # The setup is not retried for each item - the same exception is used.
+        # The setup is not retried for each item - the same exception is used.
+        for col, (finalizers, exc) in self.stack.items():
+        for col, (finalizers, exc) in self.stack.items():
+>           assert col in needed_collectors, "previous item was not torn down properly"
+>           assert col in needed_collectors, "previous item was not torn down properly"
+E           AssertionError: previous item was not torn down properly
+E           AssertionError: previous item was not torn down properly
+
+
+col        = <Module test_server.py>
+col        = <Module test_server.py>
+exc        = None
+exc        = None
+finalizers = [<bound method Node.teardown of <Module test_server.py>>]
+finalizers = [<bound method Node.teardown of <Module test_server.py>>]
+item       = <Function test_https_over_http_error[::]>
+item       = <Function test_https_over_http_error[::]>
+needed_collectors = [<Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=156>, <Dir python3-module-cheroot-10.0.1>, <Package cheroot>, <Package test>, <Module test_ssl.py>, <Function test_https_over_http_error[::]>]
+needed_collectors = [<Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=156>, <Dir python3-module-cheroot-10.0.1>, <Package cheroot>, <Package test>, <Module test_ssl.py>, <Function test_https_over_http_error[::]>]
+self       = <_pytest.runner.SetupState object at 0x7f8ad0472780>
+2.00s call     cheroot/test/test_conn.py::test_HTTP11_Timeout[False]
+1.03s call     cheroot/test/test_conn.py::test_invalid_selected_connection
+1.03s call     cheroot/test/test_conn.py::test_invalid_selected_connection
+0.62s call     cheroot/test/test_conn.py::test_broken_connection_during_http_communication_fallback
+0.62s call     cheroot/test/test_conn.py::test_broken_connection_during_http_communication_fallback
+0.62s call     cheroot/test/test_conn.py::test_kb_int_from_http_handler
+0.62s call     cheroot/test/test_conn.py::test_kb_int_from_http_handler
+0.62s call     cheroot/test/test_conn.py::test_kb_int_from_http_handler
+0.62s call     cheroot/test/test_conn.py::test_598
+0.62s call     cheroot/test/test_conn.py::test_598
+0.62s call     cheroot/test/test_conn.py::test_598
+0.62s call     cheroot/test/test_conn.py::test_598
+0.61s call     cheroot/test/test_conn.py::test_unhandled_exception_in_request_handler
+0.61s call     cheroot/test/test_conn.py::test_unhandled_exception_in_request_handler
+0.61s call     cheroot/test/test_conn.py::test_unhandled_exception_in_request_handler
+0.61s call     cheroot/test/test_conn.py::test_unhandled_exception_in_request_handler
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+XFAIL cheroot/test/test_conn.py::test_Chunked_Encoding - Headers from earlier request leak into the request line for a subsequent request, resulting in 400 instead of 413. See cherrypy/cheroot#69 for details.
+XFAIL cheroot/test/test_conn.py::test_Chunked_Encoding - Headers from earlier request leak into the request line for a subsequent request, resulting in 400 instead of 413. See cherrypy/cheroot#69 for details.
+XFAIL cheroot/test/test_conn.py::test_Chunked_Encoding - Headers from earlier request leak into the request line for a subsequent request, resulting in 400 instead of 413. See cherrypy/cheroot#69 for details.
+XFAIL cheroot/test/test_conn.py::test_Chunked_Encoding - Headers from earlier request leak into the request line for a subsequent request, resulting in 400 instead of 413. See cherrypy/cheroot#69 for details.
+XFAIL cheroot/test/test_conn.py::test_598 - Sometimes this test fails due to low timeout. Ref: https://github.com/cherrypy/cherrypy/issues/598
+XFAIL cheroot/test/test_conn.py::test_598 - Sometimes this test fails due to low timeout. Ref: https://github.com/cherrypy/cherrypy/issues/598
+XFAIL cheroot/test/test_conn.py::test_598 - Sometimes this test fails due to low timeout. Ref: https://github.com/cherrypy/cherrypy/issues/598
+XFAIL cheroot/test/test_conn.py::test_598 - Sometimes this test fails due to low timeout. Ref: https://github.com/cherrypy/cherrypy/issues/598
+XFAIL cheroot/test/test_core.py::test_large_request - https://github.com/cherrypy/cheroot/issues/106
+XFAIL cheroot/test/test_core.py::test_large_request - https://github.com/cherrypy/cheroot/issues/106
+XFAIL cheroot/test/test_core.py::test_large_request - https://github.com/cherrypy/cheroot/issues/106
+XFAIL cheroot/test/test_core.py::test_large_request - https://github.com/cherrypy/cheroot/issues/106
+ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] - AssertionErr...
+ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] - AssertionErr...
+ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] - AssertionErr...
+ERROR cheroot/test/test_ssl.py::test_https_over_http_error[::] - AssertionErr...
+=================== 152 passed, 3 xfailed, 1 error in 23.67s ===================
+=================== 152 passed, 3 xfailed, 1 error in 23.67s ===================
+=================== 152 passed, 3 xfailed, 1 error in 23.67s ===================
+=================== 152 passed, 3 xfailed, 1 error in 23.67s ===================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_tls_client_auth']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_tls_client_auth']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_tls_client_auth']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_tls_client_auth']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-k', 'not test_tls_client_auth']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11513 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+54.38user 3.32system 0:26.12elapsed 220%CPU (0avgtext+0avgdata 77592maxresident)k
+54.38user 3.32system 0:26.12elapsed 220%CPU (0avgtext+0avgdata 77592maxresident)k
+54.38user 3.32system 0:26.12elapsed 220%CPU (0avgtext+0avgdata 77592maxresident)k
+54.38user 3.32system 0:26.12elapsed 220%CPU (0avgtext+0avgdata 77592maxresident)k
+54.38user 3.32system 0:26.12elapsed 220%CPU (0avgtext+0avgdata 77592maxresident)k
+0inputs+0outputs (0major+303407minor)pagefaults 0swaps
+0inputs+0outputs (0major+303407minor)pagefaults 0swaps
+0inputs+0outputs (0major+303407minor)pagefaults 0swaps
+0inputs+0outputs (0major+303407minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-cheroot-10.0.1-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-cheroot-10.0.1-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-cheroot-10.0.1-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.43user 2.64system 0:45.44elapsed 24%CPU (0avgtext+0avgdata 142384maxresident)k
+8.43user 2.64system 0:45.44elapsed 24%CPU (0avgtext+0avgdata 142384maxresident)k
+896inputs+0outputs (0major+351246minor)pagefaults 0swaps

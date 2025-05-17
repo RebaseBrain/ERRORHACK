@@ -1,0 +1,879 @@
+<86>May 16 03:22:15 userdel[513435]: delete user 'rooter'
+<86>May 16 03:22:15 userdel[513435]: removed group 'rooter' owned by 'rooter'
+<86>May 16 03:22:15 userdel[513435]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 03:22:15 groupadd[513456]: group added to /etc/group: name=rooter, GID=1253
+<86>May 16 03:22:15 groupadd[513456]: group added to /etc/gshadow: name=rooter
+<86>May 16 03:22:15 groupadd[513456]: new group: name=rooter, GID=1253
+<86>May 16 03:22:15 useradd[513474]: new user: name=rooter, UID=1253, GID=1253, home=/root, shell=/bin/bash, from=none
+<86>May 16 03:22:15 userdel[513497]: delete user 'builder'
+<86>May 16 03:22:15 groupadd[513514]: group added to /etc/group: name=builder, GID=1254
+<86>May 16 03:22:15 groupadd[513514]: group added to /etc/gshadow: name=builder
+<86>May 16 03:22:15 groupadd[513514]: new group: name=builder, GID=1254
+<86>May 16 03:22:15 useradd[513528]: new user: name=builder, UID=1254, GID=1254, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 03:22:21 rpmi: libxkbcommon-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 03:22:21 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 03:22:21 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 03:22:21 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 03:22:21 rpmi: libts0-1.22-alt3 sisyphus+278442.100.1.2 1626216676 installed
+<13>May 16 03:22:21 rpmi: qt5-base-common-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:21 rpmi: qt5-declarative-common-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:21 rpmi: libmtdev-1.1.6-alt1 sisyphus+278361.100.1.1 1626091644 installed
+<13>May 16 03:22:21 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:22:21 rpmi: libevdev-1.13.4-alt1 sisyphus+379223.100.1.1 1742909304 installed
+<13>May 16 03:22:21 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 03:22:21 rpmi: libglvnd-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:21 rpmi: libwayland-server-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:22:21 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:22:21 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 03:22:21 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 03:22:21 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 03:22:21 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 03:22:21 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 03:22:21 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 03:22:21 rpmi: rpm-macros-qt5-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:21 rpmi: rpm-build-xdg-0.2-alt1 1250461503 installed
+<13>May 16 03:22:21 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 03:22:21 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 03:22:21 rpmi: libwacom-data-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 03:22:21 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 03:22:22 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:22:22 rpmi: libgudev-1:238-alt1 sisyphus+324364.100.1.1 1688646144 installed
+<13>May 16 03:22:22 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 03:22:22 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 03:22:22 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 03:22:22 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 03:22:22 rpmi: libduktape207-2.7.0-alt3 sisyphus+352341.100.1.1 1720324462 installed
+<13>May 16 03:22:22 rpmi: libdouble-conversion3-3.3.1-alt1 sisyphus+375894.100.1.1 1740393427 installed
+<13>May 16 03:22:23 rpmi: libqt5-core-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:23 rpmi: libqt5-sql-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:23 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:22:23 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 03:22:23 rpmi: libqt5-dbus-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:23 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 03:22:23 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 03:22:23 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 03:22:23 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 03:22:23 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:22:23 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 03:22:23 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 03:22:23 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 03:22:23 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 03:22:23 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 03:22:23 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 03:22:23 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 03:22:23 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:22:23 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 03:22:23 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:22:23 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 03:22:23 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 03:22:23 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 03:22:23 rpmi: libSDL2-2.32.6-alt1 sisyphus+383337.100.1.1 1746466019 installed
+<13>May 16 03:22:23 rpmi: tslib-1.22-alt3 sisyphus+278442.100.1.2 1626216676 installed
+<13>May 16 03:22:23 rpmi: libxshmfence-1.3.2-alt1 sisyphus+311428.400.1.1 1670577525 installed
+<13>May 16 03:22:23 rpmi: libsensors3-3.6.0-alt4 sisyphus+366234.100.1.1 1734814779 installed
+<13>May 16 03:22:23 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:22:23 rpmi: libspirv-tools0-1:2025.2-alt0.1.rc2 sisyphus+383827.500.1.1 1746996673 installed
+<13>May 16 03:22:23 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 03:22:23 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 03:22:23 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 03:22:23 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 03:22:25 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 03:22:25 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 03:22:25 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 03:22:25 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 03:22:25 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:22:25 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 03:22:25 rpmi: libXxf86vm-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 03:22:25 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 03:22:25 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 03:22:25 rpmi: libxcbutil-icccm-0.4.1-alt2 sisyphus+278275.100.1.2 1626148616 installed
+<13>May 16 03:22:25 rpmi: libxcbutil-1:0.4.1-alt1 sisyphus+312057.100.1.1 1671526887 installed
+<13>May 16 03:22:25 rpmi: libxcbutil-image-0.4.0-alt1 sisyphus+275413.100.1.3 1624505793 installed
+<13>May 16 03:22:25 rpmi: libxcbutil-keysyms-0.4.0-alt1 sisyphus+278187.100.1.1 1626075966 installed
+<13>May 16 03:22:25 rpmi: libxcb-render-util-0.3.9-alt3 sisyphus+276916.100.1.2 1625275234 installed
+<13>May 16 03:22:25 rpmi: libxkbcommon-x11-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 03:22:25 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:22:25 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 03:22:25 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 03:22:26 rpmi: libGLX-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 03:22:26 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 03:22:26 rpmi: libEGL-mesa-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 03:22:26 rpmi: libEGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:26 rpmi: libGLX-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:26 rpmi: libGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:26 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 03:22:26 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 03:22:26 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 03:22:26 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:22:26 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 03:22:26 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 03:22:26 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 03:22:26 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 03:22:27 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:22:27 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 03:22:27 groupadd[541888]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 03:22:27 groupadd[541888]: group added to /etc/gshadow: name=_keytab
+<86>May 16 03:22:27 groupadd[541888]: new group: name=_keytab, GID=999
+<13>May 16 03:22:27 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 03:22:27 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:22:28 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 03:22:28 rpmi: python3-module-pyudev-0.24.3-alt1 sisyphus+347852.100.1.1 1715497013 installed
+<13>May 16 03:22:28 rpmi: python3-module-libevdev-0.11-alt1 sisyphus+300877.100.1.1 1653893962 installed
+<13>May 16 03:22:28 rpmi: libwacom-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 03:22:28 rpmi: libinput-1.28.1-alt1 sisyphus+379958.100.1.1 1743546134 installed
+<13>May 16 03:22:28 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 03:22:28 groupadd[544074]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 03:22:28 groupadd[544074]: group added to /etc/gshadow: name=sasl
+<86>May 16 03:22:28 groupadd[544074]: new group: name=sasl, GID=998
+<13>May 16 03:22:28 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 03:22:28 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 03:22:28 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 03:22:28 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 03:22:28 rpmi: libproxy-0.5.9-alt1 sisyphus+360721.100.1.1 1729865346 installed
+<13>May 16 03:22:28 rpmi: libqt5-network-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:28 rpmi: libqt5-xcbqpa-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:28 rpmi: libqt5-eglfskmssupport-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:28 rpmi: libqt5-eglfsdeviceintegration-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:28 rpmi: libqt5-gui-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:28 rpmi: libqt5-qmlmodels-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: libqt5-qmlworkerscript-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: libqt5-quick-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: libqt5-quickshapes-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: libqt5-qml-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: rpm-build-qml-5.15.16-alt1 sisyphus+369622.100.1.3 1736947377 installed
+<13>May 16 03:22:28 rpmi: rpm-build-kf5-5.116.0-alt1 sisyphus+380720.100.1.1 1744027652 installed
+<13>May 16 03:22:51 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 03:22:51 rpmi: kf5-filesystem-5.100.1-alt1 sisyphus+333884.100.1.2 1699476475 installed
+<13>May 16 03:22:51 rpmi: libqt5-widgets-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:51 rpmi: libqt5-xml-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:52 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 03:22:52 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 03:22:52 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 03:22:52 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 03:22:52 rpmi: libXfixes-devel-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 03:22:52 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 03:22:52 rpmi: libplist-2.2.0-alt1 sisyphus+276395.100.1.1 1624993066 installed
+<13>May 16 03:22:52 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 03:22:52 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 03:22:52 rpmi: libXmu-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 03:22:52 rpmi: kf5-kio-common-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:22:52 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 03:22:52 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 03:22:53 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 03:22:53 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 03:22:53 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 03:22:53 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 03:22:53 rpmi: icon-theme-hicolor-0.18-alt1 sisyphus+349610.100.1.1 1716831669 installed
+<13>May 16 03:22:53 rpmi: menu-icons-default-0.2.0.23-alt1 sisyphus+366296.100.1.1 1734946210 installed
+<13>May 16 03:22:53 rpmi: altlinux-freedesktop-menu-icon-theme-default-0.0.26-alt1 1366231495 installed
+<13>May 16 03:22:53 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 03:22:53 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 03:22:53 rpmi: libkf5kiontlm-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:22:53 rpmi: xset-1.2.4-alt1 sisyphus+275497.100.2.2 1624918317 installed
+<13>May 16 03:22:53 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 03:22:53 rpmi: libXpm-devel-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 03:22:53 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 03:22:53 rpmi: libusbmuxd-2.0.2-alt1 sisyphus+278386.100.1.1 1626094376 installed
+<13>May 16 03:22:53 rpmi: libimobiledevice-1.3.0-alt1 sisyphus+326049.700.1.1 1690673775 installed
+<13>May 16 03:22:53 rpmi: libflac14-1.5.0-alt1 sisyphus+374510.100.1.1 1739435174 installed
+<13>May 16 03:22:53 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 03:22:53 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 03:22:53 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 03:22:53 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 03:22:54 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 03:22:54 rpmi: libxcbutil-keysyms-devel-0.4.0-alt1 sisyphus+278187.100.1.1 1626075966 installed
+<13>May 16 03:22:54 rpmi: libqt5-opengl-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:54 rpmi: kf5-attica-common-5.116.0-alt1 sisyphus+348739.400.3.2 1716829834 installed
+<13>May 16 03:22:54 rpmi: libkf5attica-5.116.0-alt1 sisyphus+348739.400.3.2 1716829834 installed
+<13>May 16 03:22:54 rpmi: kf5-karchive-common-5.116.0-alt1 sisyphus+348739.2100.3.2 1716830876 installed
+<13>May 16 03:22:54 rpmi: libkf5archive-5.116.0-alt1 sisyphus+348739.2100.3.2 1716830876 installed
+<13>May 16 03:22:54 rpmi: kf5-kauth-common-5.116.0-alt1 sisyphus+348739.2500.3.2 1716831191 installed
+<13>May 16 03:22:54 rpmi: kf5-kcoreaddons-common-5.116.0-alt1 sisyphus+348739.2300.3.2 1716831029 installed
+<13>May 16 03:22:54 rpmi: libkf5coreaddons-5.116.0-alt1 sisyphus+348739.2300.3.2 1716831029 installed
+<13>May 16 03:22:54 rpmi: kf5-kbookmarks-common-5.116.0-alt1 sisyphus+348739.5100.3.2 1716832750 installed
+<13>May 16 03:22:54 rpmi: kf5-kcodecs-common-5.116.0-alt1 sisyphus+348739.1100.3.2 1716830174 installed
+<13>May 16 03:22:54 rpmi: libkf5codecs-5.116.0-alt1 sisyphus+348739.1100.3.2 1716830174 installed
+<13>May 16 03:22:54 rpmi: kf5-kcodecs-devel-5.116.0-alt1 sisyphus+348739.1100.3.2 1716830174 installed
+<13>May 16 03:22:54 rpmi: kf5-kconfig-common-5.116.0-alt1 sisyphus+348739.1600.3.2 1716830636 installed
+<13>May 16 03:22:54 rpmi: libkf5configcore-5.116.0-alt1 sisyphus+348739.1600.3.2 1716830636 installed
+<13>May 16 03:22:54 rpmi: libkf5configgui-5.116.0-alt1 sisyphus+348739.1600.3.2 1716830636 installed
+<13>May 16 03:22:54 rpmi: libkf5configqml-5.116.0-alt1 sisyphus+348739.1600.3.2 1716830636 installed
+<13>May 16 03:22:54 rpmi: kf5-kconfig-devel-5.116.0-alt1 sisyphus+348739.1600.3.2 1716830636 installed
+<13>May 16 03:22:54 rpmi: kf5-kguiaddons-common-5.116.0-alt1 sisyphus+348739.1200.3.2 1716830246 installed
+<13>May 16 03:22:54 rpmi: kf5-ki18n-common-5.116.0-alt1 sisyphus+348739.3100.3.2 1716831491 installed
+<13>May 16 03:22:54 rpmi: libkf5i18n-5.116.0-alt1 sisyphus+348739.3100.3.2 1716831491 installed
+<13>May 16 03:22:54 rpmi: libkf5i18nlocaledata-5.116.0-alt1 sisyphus+348739.3100.3.2 1716831491 installed
+<13>May 16 03:22:55 rpmi: kf5-kwidgetsaddons-common-5.116.0-alt1 sisyphus+348739.1400.3.2 1716830400 installed
+<13>May 16 03:22:55 rpmi: libkf5widgetsaddons-5.116.0-alt1 sisyphus+348739.1400.3.2 1716830400 installed
+<13>May 16 03:22:55 rpmi: kf5-kwidgetsaddons-devel-5.116.0-alt1 sisyphus+348739.1400.3.2 1716830400 installed
+<13>May 16 03:22:55 rpmi: kf5-kconfigwidgets-common-5.116.0-alt1 sisyphus+348739.3600.3.2 1716831870 installed
+<13>May 16 03:22:55 rpmi: kf5-kglobalaccel-common-5.116.0-alt1 sisyphus+348739.4000.3.2 1716832046 installed
+<13>May 16 03:22:55 rpmi: kf5-kiconthemes-common-5.116.0-alt1 sisyphus+348739.4100.3.2 1716832120 installed
+<13>May 16 03:22:55 rpmi: kf5-kitemviews-common-5.116.0-alt1 sisyphus+348739.600.3.2 1716829980 installed
+<13>May 16 03:22:55 rpmi: libkf5itemviews-5.116.0-alt1 sisyphus+348739.600.3.2 1716829980 installed
+<13>May 16 03:22:55 rpmi: kf5-kitemviews-devel-5.116.0-alt1 sisyphus+348739.600.3.2 1716829980 installed
+<13>May 16 03:22:55 rpmi: kf5-kxmlgui-common-5.116.0-alt1 sisyphus+348739.5000.3.2 1716832672 installed
+<13>May 16 03:22:55 rpmi: kf5-kcompletion-common-5.116.0-alt1 sisyphus+348739.3000.3.2 1716831405 installed
+<13>May 16 03:22:55 rpmi: libkf5completion-5.116.0-alt1 sisyphus+348739.3000.3.2 1716831405 installed
+<13>May 16 03:22:55 rpmi: kf5-kcompletion-devel-5.116.0-alt1 sisyphus+348739.3000.3.2 1716831405 installed
+<13>May 16 03:22:55 rpmi: kf5-kcrash-common-5.116.0-alt1 sisyphus+348739.2600.3.2 1716831253 installed
+<13>May 16 03:22:55 rpmi: kf5-kdbusaddons-common-5.116.0-alt1 sisyphus+348739.2200.3.2 1716830949 installed
+<13>May 16 03:22:55 rpmi: kf5-kdoctools-common-5.116.0-alt1 sisyphus+348739.3300.3.2 1716831633 installed
+<13>May 16 03:22:55 rpmi: libkf5doctools-5.116.0-alt1 sisyphus+348739.3300.3.2 1716831633 installed
+<13>May 16 03:22:55 rpmi: kf5-kwindowsystem-common-5.116.0-alt1 sisyphus+348739.1700.3.2 1716830718 installed
+<13>May 16 03:22:55 rpmi: kf5-kjobwidgets-common-5.116.0-alt1 sisyphus+348739.2700.3.2 1716831328 installed
+<13>May 16 03:22:55 rpmi: kf5-kservice-common-5.116.0-alt1 sisyphus+348739.3700.3.2 1716831944 installed
+<13>May 16 03:22:55 rpmi: kf5-solid-common-5.116.0-alt1 sisyphus+348739.2000.3.2 1716830805 installed
+<13>May 16 03:22:55 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 03:22:55 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 03:22:55 rpmi: libICE-devel-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 03:22:55 rpmi: libSM-devel-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 03:22:55 rpmi: libXt-devel-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 03:22:55 rpmi: libXmu-devel-1.2.0-alt1 sisyphus+343583.1200.1.1 1711441172 installed
+<13>May 16 03:22:55 rpmi: libXdmcp-devel-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 03:22:55 rpmi: libXxf86vm-devel-1.1.5-alt1 sisyphus+308663.1400.1.1 1666168523 installed
+<13>May 16 03:22:55 rpmi: libxkbfile-1.1.3-alt1 sisyphus+343583.1100.1.1 1711441133 installed
+<13>May 16 03:22:55 rpmi: libxkbfile-devel-1.1.3-alt1 sisyphus+343583.1100.1.1 1711441133 installed
+<13>May 16 03:22:55 rpmi: libv4l-1.30.1-alt1 sisyphus+383276.100.1.1 1746438471 installed
+<13>May 16 03:22:55 rpmi: libopus-1.5.2-alt1.1 sisyphus+366209.100.1.1 1734786371 installed
+<13>May 16 03:22:55 rpmi: libmpg123-1:1.32.10-alt1 sisyphus+365072.100.1.1 1734226035 installed
+<13>May 16 03:22:55 rpmi: liblame-3.100-alt1 sisyphus+346342.200.2.2 1716474674 installed
+<13>May 16 03:22:55 rpmi: libjson-c5-0.18-alt1 sisyphus+358387.100.1.1 1727298142 installed
+<13>May 16 03:22:55 rpmi: libgsm-1.0.22-alt1 sisyphus+381615.100.1.1 1744646649 installed
+<13>May 16 03:22:55 rpmi: libsndfile-1.2.2-alt1 sisyphus+380661.100.1.1 1744001678 installed
+<13>May 16 03:22:55 rpmi: libasyncns-0.8-alt2.qa1 sisyphus+275091.100.1.1 1624402241 installed
+<13>May 16 03:22:55 rpmi: libpulseaudio-17.0-alt2 sisyphus+339257.100.1.1 1706519226 installed
+<13>May 16 03:22:55 rpmi: libvlc-3.0.21-alt1 sisyphus+372112.4700.37.2 1741316543 installed
+<13>May 16 03:22:55 rpmi: xorg-xf86miscproto-devel-0.9.3-alt1 sisyphus+277136.100.1.1 1625405239 installed
+<13>May 16 03:22:55 rpmi: libXxf86misc-1.0.4-alt1 sisyphus+275333.100.2.2 1624577010 installed
+<13>May 16 03:22:55 rpmi: libXxf86misc-devel-1.0.4-alt1 sisyphus+275333.100.2.2 1624577010 installed
+<13>May 16 03:22:55 rpmi: libXv-1.0.12-alt1 sisyphus+311188.600.1.1 1670233799 installed
+<13>May 16 03:22:55 rpmi: libXv-devel-1.0.12-alt1 sisyphus+311188.600.1.1 1670233799 installed
+<13>May 16 03:22:55 rpmi: libXtst-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 03:22:55 rpmi: libXres-1.2.2-alt1 sisyphus+311188.400.1.1 1670233741 installed
+<13>May 16 03:22:55 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 03:22:55 rpmi: libXrandr-devel-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 03:22:55 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 03:22:55 rpmi: libXinerama-devel-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 03:22:55 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 03:22:55 rpmi: libXi-devel-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 03:22:55 rpmi: libXtst-devel-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 03:22:55 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 03:22:55 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 03:22:55 rpmi: libXdamage-devel-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 03:22:55 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 03:22:55 rpmi: libXcursor-devel-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 03:22:55 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 03:22:55 rpmi: libXcomposite-devel-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 03:22:55 rpmi: libXScrnSaver-1.2.4-alt1 sisyphus+311188.500.1.1 1670233770 installed
+<13>May 16 03:22:55 rpmi: libXScrnSaver-devel-1.2.4-alt1 sisyphus+311188.500.1.1 1670233770 installed
+<13>May 16 03:22:55 rpmi: su-0.60-alt37 sisyphus+358299.200.3.1 1728461042 installed
+<13>May 16 03:22:56 rpmi: url_handler-0.3.1-alt1 1290564262 installed
+<13>May 16 03:22:56 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 03:22:56 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 03:22:56 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 03:22:56 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 03:22:56 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 03:22:56 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 03:22:56 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 03:22:56 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 03:22:56 rpmi: perl-Term-Cap-1.18-alt1 sisyphus+315126.100.1.1 1676227129 installed
+<13>May 16 03:22:56 rpmi: perl-Pod-Escapes-1.07-alt1 1418767892 installed
+<13>May 16 03:22:56 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 03:22:56 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 03:22:56 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 03:22:56 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 03:22:56 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 03:22:56 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 03:22:56 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 03:22:56 rpmi: perl-Pod-Simple-3.45-alt1 sisyphus+321554.100.1.1 1684663135 installed
+<13>May 16 03:22:56 rpmi: perl-Pod-Usage-2.05-alt1 sisyphus+380280.100.1.2 1743749666 installed
+<13>May 16 03:22:56 rpmi: perl-podlators-6.0.2-alt1 sisyphus+380278.100.1.2 1743747710 installed
+<13>May 16 03:22:56 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 03:22:56 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 03:22:56 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 03:22:56 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 03:22:56 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 03:22:56 rpmi: perl-XML-Parser-2.47-alt1 sisyphus+337612.100.1.1 1704201438 installed
+<13>May 16 03:22:56 rpmi: perl-XML-Twig-3.53-alt1 sisyphus+380342.100.1.2 1743766385 installed
+<13>May 16 03:22:56 rpmi: perl-Net-DBus-1.2.0-alt1 sisyphus+335067.4300.2.2 1701150369 installed
+<13>May 16 03:22:56 rpmi: perl-X11-Protocol-0.56-alt1.1 1290621401 installed
+<13>May 16 03:22:56 rpmi: xprop-1.2.5-alt1 sisyphus+279025.100.1.1 1626354198 installed
+<13>May 16 03:22:56 rpmi: xdg-utils-1.2.1-alt4 sisyphus+383868.100.2.1 1747293220 installed
+<13>May 16 03:22:56 rpmi: sgml-common-0.6.3-alt15 sisyphus+276099.100.1.1 1624817971 installed
+<13>May 16 03:22:56 rpmi: docbook-dtds-4.5-alt1 sisyphus+276837.100.1.1 1625242123 installed
+<13>May 16 03:22:56 rpmi: docbook-style-xsl-1.79.1-alt4 sisyphus+232871.100.1.1 1561238010 installed
+<13>May 16 03:22:56 rpmi: kf5-kdoctools-5.116.0-alt1 sisyphus+348739.3300.3.2 1716831633 installed
+<13>May 16 03:22:56 rpmi: kf5-kdoctools-devel-5.116.0-alt1 sisyphus+348739.3300.3.2 1716831633 installed
+<13>May 16 03:22:56 rpmi: qt5-svg-common-5.15.16-alt1 sisyphus+365342.1700.2.2 1734820101 installed
+<13>May 16 03:22:56 rpmi: libqt5-svg-5.15.16-alt1 sisyphus+365342.1700.2.2 1734820101 installed
+<13>May 16 03:22:56 rpmi: qt5-x11extras-common-5.15.16-alt1 sisyphus+365342.1600.2.2 1734820032 installed
+<13>May 16 03:22:56 rpmi: libqt5-x11extras-5.15.16-alt1 sisyphus+365342.1600.2.2 1734820032 installed
+<13>May 16 03:22:56 rpmi: libkf5windowsystem-5.116.0-alt1 sisyphus+348739.1700.3.2 1716830718 installed
+<13>May 16 03:22:56 rpmi: libkf5globalaccel-5.116.0-alt1 sisyphus+348739.4000.3.2 1716832046 installed
+<13>May 16 03:22:56 rpmi: libkf5crash-5.116.0-alt1 sisyphus+348739.2600.3.2 1716831253 installed
+<13>May 16 03:22:56 rpmi: libkf5dbusaddons-5.116.0-alt1 sisyphus+348739.2200.3.2 1716830949 installed
+<13>May 16 03:22:56 rpmi: libkf5jobwidgets-5.116.0-alt1 sisyphus+348739.2700.3.2 1716831328 installed
+<13>May 16 03:22:56 rpmi: kf5-kdbusaddons-devel-5.116.0-alt1 sisyphus+348739.2200.3.2 1716830949 installed
+<13>May 16 03:22:56 rpmi: kf5-kcrash-devel-5.116.0-alt1 sisyphus+348739.2600.3.2 1716831253 installed
+<13>May 16 03:22:56 rpmi: libkf5globalaccelprivate-5.116.0-alt1 sisyphus+348739.4000.3.2 1716832046 installed
+<13>May 16 03:22:56 rpmi: kf5-kglobalaccel-devel-5.116.0-alt1 sisyphus+348739.4000.3.2 1716832046 installed
+<13>May 16 03:22:56 rpmi: kf5-kwindowsystem-devel-5.116.0-alt1 sisyphus+348739.1700.3.2 1716830718 installed
+<13>May 16 03:22:56 rpmi: qt5-wayland-common-5.15.16-alt1 sisyphus+365342.3000.2.2 1734821054 installed
+<13>May 16 03:22:56 rpmi: libwayland-cursor-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 03:22:56 rpmi: libqt5-waylandclient-5.15.16-alt1 sisyphus+365342.3000.2.2 1734821054 installed
+<13>May 16 03:22:56 rpmi: libkf5guiaddons-5.116.0-alt1 sisyphus+348739.1200.3.2 1716830246 installed
+<13>May 16 03:22:56 rpmi: kf5-kguiaddons-devel-5.116.0-alt1 sisyphus+348739.1200.3.2 1716830246 installed
+<13>May 16 03:22:56 rpmi: libpolkit-126-alt2 sisyphus+383823.100.1.1 1746990253 installed
+<13>May 16 03:22:56 rpmi: libpolkit-qt5-core-0.175.0-alt1 sisyphus+334527.100.2.1 1700134971 installed
+<13>May 16 03:22:56 rpmi: libkf5authcore-5.116.0-alt1 sisyphus+348739.2500.3.2 1716831191 installed
+<13>May 16 03:22:56 rpmi: libkf5configwidgets-5.116.0-alt1 sisyphus+348739.3600.3.2 1716831870 installed
+<13>May 16 03:22:56 rpmi: libkf5iconthemes-5.116.0-alt1 sisyphus+348739.4100.3.2 1716832120 installed
+<13>May 16 03:22:56 rpmi: libkf5auth-5.116.0-alt1 sisyphus+348739.2500.3.2 1716831191 installed
+<13>May 16 03:22:56 rpmi: kf5-kauth-devel-5.116.0-alt1 sisyphus+348739.2500.3.2 1716831191 installed
+<13>May 16 03:22:56 rpmi: kf5-kconfigwidgets-devel-5.116.0-alt1 sisyphus+348739.3600.3.2 1716831870 installed
+<13>May 16 03:22:56 rpmi: libqt5-test-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:56 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 03:22:56 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 03:22:56 rpmi: libqt5-printsupport-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:56 rpmi: libkf5xmlgui-5.116.0-alt1 sisyphus+348739.5000.3.2 1716832672 installed
+<13>May 16 03:22:56 rpmi: libkf5bookmarks-5.116.0-alt1 sisyphus+348739.5100.3.2 1716832750 installed
+<13>May 16 03:22:56 rpmi: kf5-kbookmarks-devel-5.116.0-alt1 sisyphus+348739.5100.3.2 1716832750 installed
+<13>May 16 03:22:56 rpmi: libqt5-concurrent-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:56 rpmi: xxd-4:9.1.1264-alt1 sisyphus+379906.100.1.1 1743513158 installed
+<13>May 16 03:22:56 rpmi: vulkan-headers-1.4.313-alt1 sisyphus+383827.100.1.1 1746996478 installed
+<13>May 16 03:22:56 rpmi: libxkbcommon-devel-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 03:22:56 rpmi: libudev-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:22:56 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 03:22:56 rpmi: libdouble-conversion-devel-3.3.1-alt1 sisyphus+375894.100.1.1 1740393427 installed
+<13>May 16 03:22:56 rpmi: libGLES-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:56 rpmi: libOpenGL-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:56 rpmi: libglvnd-devel-7:1.7.0-alt1 sisyphus+330949.100.1.1 1696424893 installed
+<13>May 16 03:22:56 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 03:22:57 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:22:58 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 03:22:58 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 03:22:58 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:22:58 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:22:58 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:22:58 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 03:22:58 rpmi: qt5-base-devel-5.15.16-alt1 sisyphus+382598.100.2.1 1745825135 installed
+<13>May 16 03:22:58 rpmi: kf5-kcoreaddons-devel-5.116.0-alt1 sisyphus+348739.2300.3.2 1716831029 installed
+<13>May 16 03:22:58 rpmi: kf5-kjobwidgets-devel-5.116.0-alt1 sisyphus+348739.2700.3.2 1716831328 installed
+<13>May 16 03:22:58 rpmi: kf5-attica-devel-5.116.0-alt1 sisyphus+348739.400.3.2 1716829834 installed
+<13>May 16 03:22:58 rpmi: kf5-kxmlgui-devel-5.116.0-alt1 sisyphus+348739.5000.3.2 1716832672 installed
+<13>May 16 03:22:58 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 03:22:59 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 03:22:59 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:22:59 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:22:59 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 03:22:59 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 03:22:59 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 03:22:59 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 03:22:59 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 03:22:59 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 03:22:59 rpmi: python3-module-yaml-6.0.2-alt1.1 sisyphus+376369.16600.10.1 1746631034 installed
+<13>May 16 03:22:59 rpmi: python3-module-pyxdg-0.28-alt1.2 sisyphus+341065.100.1.1 1708351562 installed
+<13>May 16 03:22:59 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 03:22:59 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 03:22:59 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 03:22:59 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 03:22:59 rpmi: libxxhash-0.8.2-alt1 sisyphus+336514.200.7.1 1702672118 installed
+<13>May 16 03:22:59 rpmi: liblz4-1:1.9.4-alt1 sisyphus+309416.100.1.1 1667412981 installed
+<13>May 16 03:22:59 rpmi: rsync-3.2.7-alt3 sisyphus+372266.100.1.1 1738342240 installed
+<13>May 16 03:22:59 rpmi: openssh-common-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<86>May 16 03:22:59 groupadd[600517]: group added to /etc/group: name=sshagent, GID=997
+<86>May 16 03:22:59 groupadd[600517]: group added to /etc/gshadow: name=sshagent
+<86>May 16 03:22:59 groupadd[600517]: new group: name=sshagent, GID=997
+<13>May 16 03:22:59 rpmi: openssh-clients-9.6p1-alt3 sisyphus+375192.100.1.1 1739876264 installed
+<13>May 16 03:22:59 rpmi: less-633-alt1 sisyphus+328181.300.2.1 1693321749 installed
+<13>May 16 03:22:59 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 03:22:59 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 03:22:59 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 03:22:59 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 03:22:59 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 03:22:59 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<86>May 16 03:22:59 groupadd[600711]: group added to /etc/group: name=tape, GID=996
+<86>May 16 03:22:59 groupadd[600711]: group added to /etc/gshadow: name=tape
+<86>May 16 03:22:59 groupadd[600711]: new group: name=tape, GID=996
+<86>May 16 03:22:59 groupadd[600728]: group added to /etc/group: name=dialout, GID=995
+<86>May 16 03:22:59 groupadd[600728]: group added to /etc/gshadow: name=dialout
+<86>May 16 03:22:59 groupadd[600728]: new group: name=dialout, GID=995
+<86>May 16 03:22:59 groupadd[600744]: group added to /etc/group: name=input, GID=994
+<86>May 16 03:22:59 groupadd[600744]: group added to /etc/gshadow: name=input
+<86>May 16 03:22:59 groupadd[600744]: new group: name=input, GID=994
+<86>May 16 03:22:59 groupadd[600759]: group added to /etc/group: name=video, GID=993
+<86>May 16 03:22:59 groupadd[600759]: group added to /etc/gshadow: name=video
+<86>May 16 03:22:59 groupadd[600759]: new group: name=video, GID=993
+<86>May 16 03:22:59 groupadd[600768]: group added to /etc/group: name=render, GID=992
+<86>May 16 03:22:59 groupadd[600768]: group added to /etc/gshadow: name=render
+<86>May 16 03:22:59 groupadd[600768]: new group: name=render, GID=992
+<86>May 16 03:22:59 groupadd[600785]: group added to /etc/group: name=sgx, GID=991
+<86>May 16 03:22:59 groupadd[600785]: group added to /etc/gshadow: name=sgx
+<86>May 16 03:22:59 groupadd[600785]: new group: name=sgx, GID=991
+<13>May 16 03:22:59 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 03:23:00 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 03:23:00 rpmi: media-player-info-24-alt1 sisyphus+238163.100.1.2 1569417389 installed
+<13>May 16 03:23:00 rpmi: libkf5solid-5.116.0-alt1 sisyphus+348739.2000.3.2 1716830805 installed
+<13>May 16 03:23:00 rpmi: kf5-solid-devel-5.116.0-alt1 sisyphus+348739.2000.3.2 1716830805 installed
+<13>May 16 03:23:00 rpmi: diffstat-1.64-alt1 sisyphus+346132.200.3.2 1716466240 installed
+<13>May 16 03:23:00 rpmi: git-core-2.42.4-alt1 sisyphus+369547.100.1.1 1736878350 installed
+<13>May 16 03:23:00 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 03:23:00 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 03:23:00 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 03:23:00 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 03:23:00 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 03:23:00 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 03:23:01 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 03:23:01 rpmi: altlinux-mime-defaults-0.444-alt1 sisyphus+340883.100.1.1 1708169306 installed
+<13>May 16 03:23:01 rpmi: wm-common-freedesktop-1.3-alt1 1303402115 installed
+<13>May 16 03:23:01 rpmi: altlinux-freedesktop-menu-common-0.70-alt1 sisyphus+335216.100.2.1 1701270736 installed
+<13>May 16 03:23:01 rpmi: altlinux-freedesktop-menu-shallow-menu-0.70-alt1 sisyphus+335216.100.2.1 1701270736 installed
+<13>May 16 03:23:01 rpmi: altlinux-freedesktop-menu-generic-0.70-alt1 sisyphus+335216.100.2.1 1701270736 installed
+<13>May 16 03:23:01 rpmi: libkf5service-5.116.0-alt1 sisyphus+348739.3700.3.2 1716831944 installed
+<13>May 16 03:23:01 rpmi: kf5-kservice-devel-5.116.0-alt1 sisyphus+348739.3700.3.2 1716831944 installed
+<13>May 16 03:23:01 rpmi: libkf5kiocore-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:23:01 rpmi: libkf5kiogui-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:23:01 rpmi: libkf5kiowidgets-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:23:01 rpmi: libkf5kiofilewidgets-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:23:01 rpmi: kf5-kio-devel-5.116.0-alt7 sisyphus+360996.200.1.1 1730119248 installed
+<13>May 16 03:23:01 rpmi: extra-cmake-modules-6.13.0-alt1 sisyphus+381763.100.2.2 1744913817 installed
+<13>May 16 03:23:01 rpmi: qt5-x11extras-devel-5.15.16-alt1 sisyphus+365342.1600.2.2 1734820032 installed
+<13>May 16 03:23:01 rpmi: kf5-kdoctools-devel-static-5.116.0-alt1 sisyphus+348739.3300.3.2 1716831633 installed
+<13>May 16 03:23:01 rpmi: libXres-devel-1.2.2-alt1 sisyphus+311188.400.1.1 1670233741 installed
+<13>May 16 03:23:01 rpmi: libvlc-devel-3.0.21-alt1 sisyphus+372112.4700.37.2 1741316543 installed
+<13>May 16 03:23:01 rpmi: libv4l-devel-1.30.1-alt1 sisyphus+383276.100.1.1 1746438471 installed
+<13>May 16 03:23:01 rpmi: kf5-ki18n-devel-5.116.0-alt1 sisyphus+348739.3100.3.2 1716831491 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/kde5-kaffeine-2.0.18-alt2.nosrc.rpm (w1.gzdio)
+Installing kde5-kaffeine-2.0.18-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.46564
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf kde5-kaffeine-2.0.18
++ echo 'Source #0 (kde5-kaffeine-2.0.18.tar):'
+Source #0 (kde5-kaffeine-2.0.18.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/kde5-kaffeine-2.0.18.tar
++ cd kde5-kaffeine-2.0.18
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (alt-find-libdvbv5.patch):'
+Patch #1 (alt-find-libdvbv5.patch):
++ /usr/bin/patch -p1
+patching file cmake/modules/FindLibdvbv5.cmake
++ echo 'Patch #4 (remove-playing-videoCD.patch):'
+Patch #4 (remove-playing-videoCD.patch):
++ /usr/bin/patch -p1
+patching file src/mainwindow.cpp
+Hunk #1 succeeded at 122 (offset -1 lines).
+Hunk #2 succeeded at 220 (offset -1 lines).
+Hunk #3 succeeded at 342 (offset -1 lines).
+Hunk #4 succeeded at 462 with fuzz 2 (offset 4 lines).
+Hunk #5 succeeded at 594 (offset 114 lines).
+Hunk #6 succeeded at 726 (offset 41 lines).
+patching file src/mainwindow.h
++ mv .gear/po ./
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.46564
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd kde5-kaffeine-2.0.18
++ __kf5_build -DDATA_INSTALL_DIR=/usr/share
++ mkdir -p BUILD
++ __kf5_cmake -DDATA_INSTALL_DIR=/usr/share
++ export PATH=/usr/lib/kf5/bin:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ PATH=/usr/lib/kf5/bin:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ export QTDIR=/usr/share/qt5
++ QTDIR=/usr/share/qt5
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ pushd BUILD
+~/RPM/BUILD/kde5-kaffeine-2.0.18/BUILD ~/RPM/BUILD/kde5-kaffeine-2.0.18
++ cmake .. -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_USE_RELATIVE_PATHS:BOOL=ON -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_SKIP_RPATH:BOOL=ON -DBUILD_TESTING:BOOL=FALSE -DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON -DCMAKE_BUILD_TYPE=Release '-DCMAKE_EXE_LINKER_FLAGS:STRING=-L/usr/lib64 -L/usr/lib64/kf5/devel' '-DCMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/lib64 -L/usr/lib64/kf5/devel' '-DCMAKE_SHARED_LINKER_FLAGS:STRING=-L/usr/lib64 -L/usr/lib64/kf5/devel' '-DCMAKE_LIBRARY_PATH=/usr/lib64/kf5/devel;/usr/lib64;/lib64' '-DCMAKE_INCLUDE_PATH=/usr/include/KF5;/usr/include' -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_PREFIX_PATH=/usr -DCMAKE_INSTALL_BINDIR=/usr/bin -DCMAKE_INSTALL_FULL_BINDIR=/usr/bin -DBIN_INSTALL_DIR:PATH=/usr/bin -DCMAKE_INSTALL_SBINDIR=/usr/sbin -DCMAKE_INSTALL_FULL_SBINDIR=/usr/sbin -DSBIN_INSTALL_DIR:PATH=/usr/sbin -DLIBEXEC_INSTALL_DIR:PATH=/usr/libexec -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DCMAKE_INSTALL_INCLUDEDIR_KF5=/usr/include/KF5 -DDATA_INSTALL_DIR:PATH=/usr/share -DCONFIG_INSTALL_DIR:PATH=/etc/xdg -DSERVICES_INSTALL_DIR:PATH=/usr/share/kservices5 -DSERVICETYPES_INSTALL_DIR:PATH=/usr/share/kservicetypes5 -DKNOTIFYRC_INSTALL_DIR:PATH=/usr/share/knotifications5 -DKXMLGUI_INSTALL_DIR:PATH=/usr/share/kxmlgui5 -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DAUTOSTART_INSTALL_DIR=/etc/xdg/autostart -DHTML_INSTALL_DIR=/usr/share/doc/HTML -DICON_INSTALL_DIR=/usr/share/icons -DXDG_MIME_INSTALL_DIR=/usr/share/mime/packages -DXDG_APPS_INSTALL_DIR=/usr/share/applications -DECM_MKSPECS_INSTALL_DIR:PATH=/usr/lib64/qt5/mkspecs/modules -DKCFG_INSTALL_DIR:PATH=/usr/share/config.kcfg -DPLUGIN_INSTALL_DIR:PATH=/usr/lib64/qt5/plugins -DQT_PLUGIN_INSTALL_DIR:PATH=/usr/lib64/qt5/plugins -DQML_INSTALL_DIR:PATH=/usr/lib64/qt5/qml -DIMPORTS_INSTALL_DIR:PATH=/usr/lib64/qt5/imports -DDBUS_INTERFACES_INSTALL_DIR=/usr/share/dbus-1/interfaces -DDBUS_SERVICES_INSTALL_DIR=/usr/share/dbus-1/services -DDBUS_SYSTEM_SERVICES_INSTALL_DIR=/lib/dbus-1/system-services -DDATA_INSTALL_DIR=/usr/share
+Problem opening /proc/meminfo
+CMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at CMakeLists.txt:27 (cmake_policy):
+  Policy CMP0002 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0002 for more information.
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  BIN_INSTALL_DIR is deprecated, use KDE_INSTALL_BINDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:236 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  SBIN_INSTALL_DIR is deprecated, use KDE_INSTALL_SBINDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:239 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  LIB_INSTALL_DIR is deprecated, use KDE_INSTALL_LIBDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:242 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  LIBEXEC_INSTALL_DIR is deprecated, use KDE_INSTALL_LIBEXECDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:251 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  INCLUDE_INSTALL_DIR is deprecated, use KDE_INSTALL_INCLUDEDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:200 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:260 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  DATA_INSTALL_DIR is deprecated, use KDE_INSTALL_DATADIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:280 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  HTML_INSTALL_DIR is deprecated, use KDE_INSTALL_DOCBUNDLEDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:285 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  KCFG_INSTALL_DIR is deprecated, use KDE_INSTALL_KCFGDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:288 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  ICON_INSTALL_DIR is deprecated, use KDE_INSTALL_ICONDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:305 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  XDG_APPS_INSTALL_DIR is deprecated, use KDE_INSTALL_APPDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:320 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  XDG_MIME_INSTALL_DIR is deprecated, use KDE_INSTALL_MIMEDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:326 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  DBUS_INTERFACES_INSTALL_DIR is deprecated, use KDE_INSTALL_DBUSINTERFACEDIR
+  instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:340 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  DBUS_SERVICES_INSTALL_DIR is deprecated, use KDE_INSTALL_DBUSSERVICEDIR
+  instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:343 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  DBUS_SYSTEM_SERVICES_INSTALL_DIR is deprecated, use
+  KDE_INSTALL_DBUSSYSTEMSERVICEDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:346 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  SYSCONF_INSTALL_DIR is deprecated, use KDE_INSTALL_SYSCONFDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:200 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:363 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  CONFIG_INSTALL_DIR is deprecated, use KDE_INSTALL_CONFDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:366 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  AUTOSTART_INSTALL_DIR is deprecated, use KDE_INSTALL_AUTOSTARTDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:369 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:230 (include)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  QT_PLUGIN_INSTALL_DIR is deprecated, use KDE_INSTALL_QTPLUGINDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:200 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:261 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  IMPORTS_INSTALL_DIR is deprecated, use KDE_INSTALL_QTQUICKIMPORTSDIR
+  instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:200 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:270 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  QML_INSTALL_DIR is deprecated, use KDE_INSTALL_QMLDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:200 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:279 (_define_absolute)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  PLUGIN_INSTALL_DIR is deprecated, use KDE_INSTALL_PLUGINDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:301 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  SERVICES_INSTALL_DIR is deprecated, use KDE_INSTALL_KSERVICES5DIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:329 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  SERVICETYPES_INSTALL_DIR is deprecated, use KDE_INSTALL_KSERVICETYPES5DIR
+  instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:332 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  KNOTIFYRC_INSTALL_DIR is deprecated, use KDE_INSTALL_KNOTIFY5RCDIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:335 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+  KXMLGUI_INSTALL_DIR is deprecated, use KDE_INSTALL_KXMLGUI5DIR instead.
+Call Stack (most recent call first):
+  /usr/share/ECM/kde-modules/KDEInstallDirs5.cmake:338 (_define_relative)
+  /usr/share/ECM/kde-modules/KDEInstallDirs.cmake:15 (include)
+  CMakeLists.txt:38 (include)
+
+
+-- Looking for __GLIBC__
+Problem opening /proc/meminfo
+-- Looking for __GLIBC__ - found
+-- Performing Test _OFFT_IS_64BIT
+Problem opening /proc/meminfo
+-- Performing Test _OFFT_IS_64BIT - Success
+-- Performing Test HAVE_DATE_TIME
+Problem opening /proc/meminfo
+-- Performing Test HAVE_DATE_TIME - Success
+CMake Warning (dev) at /usr/share/ECM/modules/ECMFindModuleHelpers.cmake:111 (message):
+  Your project should require at least CMake 3.16.0 to use FindKF5.cmake
+Call Stack (most recent call first):
+  /usr/share/ECM/find-modules/FindKF5.cmake:30 (ecm_find_package_version_check)
+  CMakeLists.txt:58 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found KF5CoreAddons: /usr/lib64/cmake/KF5CoreAddons/KF5CoreAddonsConfig.cmake (found version "5.116.0")
+-- Found Gettext: /usr/bin/msgmerge (found version "0.21")
+-- Found KF5I18n: /usr/lib64/cmake/KF5I18n/KF5I18nConfig.cmake (found version "5.116.0")
+-- Found KF5WidgetsAddons: /usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake (found version "5.116.0")
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+Package bzip2 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `bzip2.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'bzip2', required by 'freetype2', not found
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so
+Problem opening /proc/meminfo
+-- Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so - found
+-- Looking for gethostbyname
+Problem opening /proc/meminfo
+-- Looking for gethostbyname - found
+-- Looking for connect
+Problem opening /proc/meminfo
+-- Looking for connect - found
+-- Looking for remove
+Problem opening /proc/meminfo
+-- Looking for remove - found
+-- Looking for shmat
+Problem opening /proc/meminfo
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+Problem opening /proc/meminfo
+-- Looking for IceConnectionNumber in ICE - found
+-- Found KF5WindowSystem: /usr/lib64/cmake/KF5WindowSystem/KF5WindowSystemConfig.cmake (found version "5.116.0")
+-- Found KF5XmlGui: /usr/lib64/cmake/KF5XmlGui/KF5XmlGuiConfig.cmake (found version "5.116.0")
+-- Found KF5KIO: /usr/lib64/cmake/KF5KIO/KF5KIOConfig.cmake (found version "5.116.0")
+-- Found KF5Solid: /usr/lib64/cmake/KF5Solid/KF5SolidConfig.cmake (found version "5.116.0")
+-- Found KF5DBusAddons: /usr/lib64/cmake/KF5DBusAddons/KF5DBusAddonsConfig.cmake (found version "5.116.0")
+-- Found KF5: success (found suitable version "5.116.0", minimum required is "5.11.0") found components: CoreAddons I18n WidgetsAddons WindowSystem XmlGui KIO Solid DBusAddons
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+-- Found VLC: /usr/include (found suitable version "3.0.21.0", minimum required is "1.2")
+-- The following OPTIONAL packages have been found:
+
+ * KF5DocTools (required version >= 5.11.0)
+ * Freetype
+ * Fontconfig
+ * PkgConfig
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 1.0.0)
+ * Qt5Sql
+ * Qt5X11Extras
+ * Qt5 (required version >= 5.4.0)
+ * Qt5Core (required version >= 5.15.2)
+ * Gettext
+ * KF5I18n (required version >= 5.11.0)
+ * Qt5Widgets (required version >= 5.15.2)
+ * Qt5Gui (required version >= 5.15.2)
+ * KF5CoreAddons (required version >= 5.116.0)
+ * KF5WidgetsAddons (required version >= 5.116.0)
+ * KF5XmlGui (required version >= 5.116.0)
+ * KF5WindowSystem (required version >= 5.116.0)
+ * Qt5Network (required version >= 5.15.2)
+ * KF5KIO (required version >= 5.11.0)
+ * KF5Solid (required version >= 5.11.0)
+ * KF5DBusAddons (required version >= 5.11.0)
+ * KF5 (required version >= 5.11.0)
+ * X11
+ * VLC (required version >= 1.2)
+
+-- Looking for include file /usr/src/RPM/BUILD/kde5-kaffeine-2.0.18/include/frontend.h
+Problem opening /proc/meminfo
+-- Looking for include file /usr/src/RPM/BUILD/kde5-kaffeine-2.0.18/include/frontend.h - found
+-- Checking for module 'libdvbv5'
+--   Found libdvbv5, version 1.30.1
+-- Found Libdvbv5: /usr/lib64/libdvbv5.so (found version "1.30.1")
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+Command exited with non-zero status 1
+1.68user 1.19system 0:02.77elapsed 103%CPU (0avgtext+0avgdata 27076maxresident)k
+0inputs+0outputs (0major+238909minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `kde5-kaffeine-2.0.18-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+8.16user 5.54system 0:55.87elapsed 24%CPU (0avgtext+0avgdata 142612maxresident)k
+53464inputs+0outputs (0major+779881minor)pagefaults 0swaps

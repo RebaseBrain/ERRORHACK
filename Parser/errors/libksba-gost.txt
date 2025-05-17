@@ -1,0 +1,287 @@
+checking if bison is the parser generator... yes
+checking for inline... inline
+checking for cc for build... i586-alt-linux-gcc
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wno-pointer-sign... yes
+checking whether the visibility attribute is supported... yes
+checking for broken visibility attribute... no
+checking for broken alias attribute... no
+checking if gcc supports -fvisibility=hidden... yes
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.8... yes (1.47)
+checking for egrep... (cached) /usr/bin/grep -E
+checking for string.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking size of unsigned int... 4
+checking size of unsigned long... 4
+checking for u32 typedef... no
+checking for memmove... yes
+checking for strchr... yes
+checking for strtol... yes
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c ber-decoder.c  -fPIC -DPIC -o .libs/ber-decoder.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o time.lo time.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c time.c  -fPIC -DPIC -o .libs/time.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o cms.lo cms.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c cms.c  -fPIC -DPIC -o .libs/cms.o
+cms.c: In function 'store_algorithm_id':
+cms.c:1931:36: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1931 |                                    &def_algo_params[0].length);
+ 1931 |                                    &def_algo_params[0].length);
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    |
+      |                                    long unsigned int *
+      |                                    long unsigned int *
+In file included from visibility.h:198,
+In file included from visibility.h:198,
+                 from util.h:39,
+                 from util.h:39,
+                 from cms.c:38:
+                 from cms.c:38:
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+  512 |                                unsigned char **rbuf, size_t *rlength);
+  512 |                                unsigned char **rbuf, size_t *rlength);
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+cms.c:1934:38: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+cms.c:1934:38: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1934 |                                      &def_algo_params[1].length);
+ 1934 |                                      &def_algo_params[1].length);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      |
+      |                                      long unsigned int *
+      |                                      long unsigned int *
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+  512 |                                unsigned char **rbuf, size_t *rlength);
+  512 |                                unsigned char **rbuf, size_t *rlength);
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+cms.c: In function 'transform_gost_values_to_cms':
+cms.c: In function 'transform_gost_values_to_cms':
+cms.c: In function 'transform_gost_values_to_cms':
+cms.c:2136:28: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+cms.c:2136:28: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+cms.c:2136:28: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2136 |                            &pk_algo_params[0].length);
+ 2136 |                            &pk_algo_params[0].length);
+ 2136 |                            &pk_algo_params[0].length);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            |
+      |                            long unsigned int *
+      |                            long unsigned int *
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+  512 |                                unsigned char **rbuf, size_t *rlength);
+  512 |                                unsigned char **rbuf, size_t *rlength);
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+cms.c:2141:28: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+cms.c:2141:28: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+ 2141 |                            &pk_algo_params[1].length);
+ 2141 |                            &pk_algo_params[1].length);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                            |
+      |                            long unsigned int *
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+  512 |                                unsigned char **rbuf, size_t *rlength);
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+cms.c: In function 'build_signed_data_attributes':
+cms.c: In function 'build_signed_data_attributes':
+cms.c:2974:11: warning: the comparison will always evaluate as 'true' for the address of 'signing_time' will never be NULL [-Waddress]
+cms.c:2974:11: warning: the comparison will always evaluate as 'true' for the address of 'signing_time' will never be NULL [-Waddress]
+ 2974 |       if (certlist->signing_time)
+ 2974 |       if (certlist->signing_time)
+      |           ^~~~~~~~
+In file included from cms.c:40:
+cms.h:77:18: note: 'signing_time' declared here
+   77 |   ksba_isotime_t signing_time;
+      |                  ^~~~~~~~~~~~
+      |                  ^~~~~~~~~~~~
+cms.c: In function 'build_enveloped_data_header':
+cms.c: In function 'build_enveloped_data_header':
+cms.c:3625:60: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+cms.c:3625:60: error: passing argument 3 of '_ksba_oid_from_str' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3625 |                                                            &algo_params[1].length);
+ 3625 |                                                            &algo_params[1].length);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~
+      |                                                            |
+      |                                                            |
+      |                                                            long unsigned int *
+      |                                                            long unsigned int *
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+ksba.h:512:62: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'long unsigned int *'
+  512 |                                unsigned char **rbuf, size_t *rlength);
+  512 |                                unsigned char **rbuf, size_t *rlength);
+      |                                                      ~~~~~~~~^~~~~~~
+      |                                                      ~~~~~~~~^~~~~~~
+make[3]: *** [Makefile:690: cms.lo] Error 1
+make[3]: *** [Makefile:690: cms.lo] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o oid.lo oid.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c oid.c  -fPIC -DPIC -o .libs/oid.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o version.lo version.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c version.c  -fPIC -DPIC -o .libs/version.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o ocsp.lo ocsp.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o ocsp.lo ocsp.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c ocsp.c  -fPIC -DPIC -o .libs/ocsp.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c ocsp.c  -fPIC -DPIC -o .libs/ocsp.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c ocsp.c  -fPIC -DPIC -o .libs/ocsp.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+/bin/sh ../libtool  --tag=CC   --mode=compile i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../gl -I../gl    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c -o dn.lo dn.c
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+libtool: compile:  i586-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../gl -I../gl -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -c dn.c  -fPIC -DPIC -o .libs/dn.o
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+/bin/sh ../libtool  --tag=CC   --mode=link i586-alt-linux-gcc   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+libtool: link: i586-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -Wno-pointer-sign -fvisibility=hidden -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[3]: Leaving directory '/usr/src/RPM/BUILD/libksba-1.3.6/src'
+make[2]: *** [Makefile:502: all] Error 2
+make[2]: *** [Makefile:502: all] Error 2
+make[2]: *** [Makefile:502: all] Error 2
+make[2]: *** [Makefile:502: all] Error 2
+make[2]: *** [Makefile:502: all] Error 2
+make[2]: *** [Makefile:502: all] Error 2
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make[1]: *** [Makefile:475: all-recursive] Error 1
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+make: *** [Makefile:407: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7068 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.41user 3.76system 0:07.13elapsed 156%CPU (0avgtext+0avgdata 40200maxresident)k
+7.41user 3.76system 0:07.13elapsed 156%CPU (0avgtext+0avgdata 40200maxresident)k
+7.41user 3.76system 0:07.13elapsed 156%CPU (0avgtext+0avgdata 40200maxresident)k
+7.41user 3.76system 0:07.13elapsed 156%CPU (0avgtext+0avgdata 40200maxresident)k
+7.41user 3.76system 0:07.13elapsed 156%CPU (0avgtext+0avgdata 40200maxresident)k
+0inputs+0outputs (0major+770643minor)pagefaults 0swaps
+0inputs+0outputs (0major+770643minor)pagefaults 0swaps
+0inputs+0outputs (0major+770643minor)pagefaults 0swaps
+0inputs+0outputs (0major+770643minor)pagefaults 0swaps
+0inputs+0outputs (0major+770643minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libksba-gost-1.3.6-alt15.src.rpm' failed.
+hsh-rebuild: rebuild of `libksba-gost-1.3.6-alt15.src.rpm' failed.
+hsh-rebuild: rebuild of `libksba-gost-1.3.6-alt15.src.rpm' failed.
+hsh-rebuild: rebuild of `libksba-gost-1.3.6-alt15.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.12user 2.92system 0:18.09elapsed 38%CPU (0avgtext+0avgdata 133888maxresident)k
+4.12user 2.92system 0:18.09elapsed 38%CPU (0avgtext+0avgdata 133888maxresident)k
+4344inputs+0outputs (0major+276169minor)pagefaults 0swaps

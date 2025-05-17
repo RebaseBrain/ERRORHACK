@@ -1,0 +1,56 @@
++ sed -i 's,DATADIR}/openxcom",DATADIR}/openxcom-extended",g' src/CMakeLists.txt
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.38744
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd openxcom-extended-8.1.5
++ cmake --debug-output -D CMAKE_INSTALL_PREFIX=/usr -D 'CMAKE_CXX_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -D 'CMAKE_C_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' CMakeLists.txt
+Running with debug output on.
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-extended-8.1.5/CMakeLists.txt
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-extended-8.1.5/CMakeLists.txt
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-extended-8.1.5/CMakeLists.txt
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38744 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38744 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.38744 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38744 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.18user 0.10system 0:00.28elapsed 101%CPU (0avgtext+0avgdata 20260maxresident)k
+0.18user 0.10system 0:00.28elapsed 101%CPU (0avgtext+0avgdata 20260maxresident)k
+0inputs+0outputs (0major+8647minor)pagefaults 0swaps
+0inputs+0outputs (0major+8647minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `openxcom-extended-8.1.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `openxcom-extended-8.1.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.22user 3.00system 0:19.51elapsed 37%CPU (0avgtext+0avgdata 139828maxresident)k
+4.22user 3.00system 0:19.51elapsed 37%CPU (0avgtext+0avgdata 139828maxresident)k
+9744inputs+0outputs (0major+241665minor)pagefaults 0swaps

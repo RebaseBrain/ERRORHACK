@@ -1,0 +1,488 @@
+<86>May 16 02:09:50 userdel[2925267]: delete user 'rooter'
+<86>May 16 02:09:50 userdel[2925267]: removed group 'rooter' owned by 'rooter'
+<86>May 16 02:09:50 userdel[2925267]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 02:09:50 groupadd[2925311]: group added to /etc/group: name=rooter, GID=1817
+<86>May 16 02:09:50 groupadd[2925311]: group added to /etc/gshadow: name=rooter
+<86>May 16 02:09:50 groupadd[2925311]: new group: name=rooter, GID=1817
+<86>May 16 02:09:50 useradd[2925355]: new user: name=rooter, UID=1817, GID=1817, home=/root, shell=/bin/bash, from=none
+<86>May 16 02:09:50 userdel[2925413]: delete user 'builder'
+<86>May 16 02:09:50 userdel[2925413]: removed group 'builder' owned by 'builder'
+<86>May 16 02:09:50 userdel[2925413]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 02:09:50 groupadd[2925469]: group added to /etc/group: name=builder, GID=1818
+<86>May 16 02:09:50 groupadd[2925469]: group added to /etc/gshadow: name=builder
+<86>May 16 02:09:50 groupadd[2925469]: new group: name=builder, GID=1818
+<86>May 16 02:09:50 useradd[2925501]: new user: name=builder, UID=1818, GID=1818, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 02:09:54 rpmi: chrooted-0.3.12-alt1 sisyphus+327286.5300.14.1 1711487147 installed
+<13>May 16 02:09:54 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 02:09:54 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 02:09:54 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 02:09:54 rpmi: libe2fs-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 02:09:54 rpmi: libnss-systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: libnss-myhostname-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: systemd-filesystem-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: msulogin-1.0-alt1 sisyphus+278100.4500.1.1 1626059577 installed
+<13>May 16 02:09:54 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 02:09:54 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 02:09:54 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 02:09:54 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 02:09:54 rpmi: libfdisk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 02:09:54 rpmi: libjson-c5-0.18-alt1 sisyphus+358387.100.1.1 1727298142 installed
+<13>May 16 02:09:54 rpmi: libargon2-20190702-alt1 sisyphus+346050.200.2.1 1716230698 installed
+<13>May 16 02:09:54 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 02:09:54 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 02:09:54 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 02:09:54 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 02:09:54 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 02:09:54 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 02:09:54 groupadd[2946051]: group added to /etc/group: name=messagebus, GID=999
+<86>May 16 02:09:54 groupadd[2946051]: group added to /etc/gshadow: name=messagebus
+<86>May 16 02:09:54 groupadd[2946051]: new group: name=messagebus, GID=999
+<86>May 16 02:09:54 useradd[2946070]: new user: name=messagebus, UID=999, GID=999, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 02:09:54 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 02:09:54 rpmi: pam_systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:54 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:09:54 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 02:09:54 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:09:54 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 02:09:54 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 02:09:54 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 02:09:54 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 02:09:54 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 02:09:54 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 02:09:54 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 02:09:54 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<86>May 16 02:09:55 groupadd[2946685]: group added to /etc/group: name=tape, GID=998
+<86>May 16 02:09:55 groupadd[2946685]: group added to /etc/gshadow: name=tape
+<86>May 16 02:09:55 groupadd[2946685]: new group: name=tape, GID=998
+<86>May 16 02:09:55 groupadd[2946713]: group added to /etc/group: name=dialout, GID=997
+<86>May 16 02:09:55 groupadd[2946713]: group added to /etc/gshadow: name=dialout
+<86>May 16 02:09:55 groupadd[2946713]: new group: name=dialout, GID=997
+<86>May 16 02:09:55 groupadd[2946746]: group added to /etc/group: name=input, GID=996
+<86>May 16 02:09:55 groupadd[2946746]: group added to /etc/gshadow: name=input
+<86>May 16 02:09:55 groupadd[2946746]: new group: name=input, GID=996
+<86>May 16 02:09:55 groupadd[2946769]: group added to /etc/group: name=video, GID=995
+<86>May 16 02:09:55 groupadd[2946769]: group added to /etc/gshadow: name=video
+<86>May 16 02:09:55 groupadd[2946769]: new group: name=video, GID=995
+<86>May 16 02:09:55 groupadd[2946790]: group added to /etc/group: name=render, GID=994
+<86>May 16 02:09:55 groupadd[2946790]: group added to /etc/gshadow: name=render
+<86>May 16 02:09:55 groupadd[2946790]: new group: name=render, GID=994
+<86>May 16 02:09:55 groupadd[2946810]: group added to /etc/group: name=sgx, GID=993
+<86>May 16 02:09:55 groupadd[2946810]: group added to /etc/gshadow: name=sgx
+<86>May 16 02:09:55 groupadd[2946810]: new group: name=sgx, GID=993
+<13>May 16 02:09:55 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:55 rpmi: libcryptsetup-2.7.5-alt1 sisyphus+357554.100.1.1 1726319400 installed
+<13>May 16 02:09:55 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 02:09:55 groupadd[2947815]: group added to /etc/group: name=_keytab, GID=992
+<86>May 16 02:09:55 groupadd[2947815]: group added to /etc/gshadow: name=_keytab
+<86>May 16 02:09:55 groupadd[2947815]: new group: name=_keytab, GID=992
+<13>May 16 02:09:55 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 02:09:55 rpmi: libtirpc-1.3.6-alt1 sisyphus+360096.100.1.1 1729241806 installed
+<13>May 16 02:09:55 rpmi: quota-2:4.06.0.7.100b-alt1 sisyphus+284564.100.1.1 1630709881 installed
+<13>May 16 02:09:55 rpmi: login-0.60-alt37 sisyphus+358299.200.3.1 1728461042 installed
+<13>May 16 02:09:55 rpmi: agetty-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 02:09:55 rpmi: acl-2.3.1.0.20.d265-alt1 sisyphus+346027.200.3.2 1716498315 installed
+<13>May 16 02:09:55 rpmi: systemd-boot-efi-1:257.5-alt3 sisyphus+382915.200.3.1 1746543247 installed
+<86>May 16 02:09:55 groupadd[2948194]: group added to /etc/group: name=systemd-journal, GID=991
+<86>May 16 02:09:55 groupadd[2948194]: group added to /etc/gshadow: name=systemd-journal
+<86>May 16 02:09:55 groupadd[2948194]: new group: name=systemd-journal, GID=991
+<86>May 16 02:09:55 groupadd[2948219]: group added to /etc/group: name=systemd-oom, GID=990
+<86>May 16 02:09:55 groupadd[2948219]: group added to /etc/gshadow: name=systemd-oom
+<86>May 16 02:09:55 groupadd[2948219]: new group: name=systemd-oom, GID=990
+<86>May 16 02:09:55 useradd[2948250]: new user: name=systemd-oom, UID=998, GID=990, home=/var/empty, shell=/dev/null, from=none
+<13>May 16 02:09:55 rpmi: systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 02:09:56 rpmi: systemd-analyze-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/sysfsutils-2.1.1-alt2.nosrc.rpm (w1.gzdio)
+Installing sysfsutils-2.1.1-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.80878
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf sysfsutils-2.1.1
++ echo 'Source #0 (sysfsutils-2.1.1.tar):'
+Source #0 (sysfsutils-2.1.1.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/sysfsutils-2.1.1.tar
++ cd sysfsutils-2.1.1
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80878
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd sysfsutils-2.1.1
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: configure.ac: tracing
+autoreconf-default: running: libtoolize --force --install
+libtoolize-default: putting auxiliary files in '.'.
+libtoolize-default: linking file './config.guess'
+libtoolize-default: linking file './config.sub'
+libtoolize-default: linking file './install-sh'
+libtoolize-default: linking file './ltmain.sh'
+libtoolize-default: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize-default: linking file 'm4/libtool.m4'
+libtoolize-default: linking file 'm4/ltoptions.m4'
+libtoolize-default: linking file 'm4/ltsugar.m4'
+libtoolize-default: linking file 'm4/ltversion.m4'
+libtoolize-default: linking file 'm4/lt~obsolete.m4'
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: aclocal --force -I m4
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoreconf-default: running: automake --add-missing --force-missing
+configure.ac:34: installing './compile'
+configure.ac:6: installing './missing'
+cmd/Makefile.am: installing './depcomp'
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects '
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects '
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects '
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects '
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects '
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=' '
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --disable-static
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking how to print strings... printf
+checking whether make supports the include directive... yes (GNU style)
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-alt-linux-gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-alt-linux-gnu file names to x86_64-alt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-alt-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-alt-linux-file... no
+checking for file... file
+checking for x86_64-alt-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... (cached) pass_all
+checking for x86_64-alt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-alt-linux-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking if x86_64-alt-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for --version-script linker flag... yes
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... (cached) yes
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking whether make sets $(MAKE)... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for fcntl.h... yes
+checking for malloc.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for size_t... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether lstat accepts an empty string... no
+checking for GNU libc compatible malloc... yes
+checking whether stat accepts an empty string... no
+checking for bzero... yes
+checking for isascii... yes
+checking for memset... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/libsysfs.pc
+config.status: creating cmd/Makefile
+config.status: creating test/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext
++ make -j16
+make  all-recursive
+Making all in lib
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_utils.lo `test -f 'sysfs_utils.c' || echo './'`sysfs_utils.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_utils.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_utils.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_module.lo `test -f 'sysfs_module.c' || echo './'`sysfs_module.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_module.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_module.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_driver.lo `test -f 'sysfs_driver.c' || echo './'`sysfs_driver.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_driver.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_driver.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-dlist.lo `test -f 'dlist.c' || echo './'`dlist.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c dlist.c  -fPIC -DPIC -o .libs/libsysfs_la-dlist.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_bus.lo `test -f 'sysfs_bus.c' || echo './'`sysfs_bus.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_bus.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_bus.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_class.lo `test -f 'sysfs_class.c' || echo './'`sysfs_class.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_class.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_class.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_device.lo `test -f 'sysfs_device.c' || echo './'`sysfs_device.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_device.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_device.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o libsysfs_la-sysfs_attr.lo `test -f 'sysfs_attr.c' || echo './'`sysfs_attr.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../include -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -c sysfs_attr.c  -fPIC -DPIC -o .libs/libsysfs_la-sysfs_attr.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+/bin/sh ../libtool  --tag=CC   --mode=link x86_64-alt-linux-gcc -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -version-info 2:1:0 -Wl,--version-script=./libsysfs.map  -o libsysfs.la -rpath /usr/lib64 libsysfs_la-sysfs_utils.lo libsysfs_la-sysfs_attr.lo libsysfs_la-sysfs_class.lo libsysfs_la-dlist.lo libsysfs_la-sysfs_device.lo libsysfs_la-sysfs_driver.lo libsysfs_la-sysfs_bus.lo libsysfs_la-sysfs_module.lo  
+libtool: link: x86_64-alt-linux-gcc -shared  -fPIC -DPIC  .libs/libsysfs_la-sysfs_utils.o .libs/libsysfs_la-sysfs_attr.o .libs/libsysfs_la-sysfs_class.o .libs/libsysfs_la-dlist.o .libs/libsysfs_la-sysfs_device.o .libs/libsysfs_la-sysfs_driver.o .libs/libsysfs_la-sysfs_bus.o .libs/libsysfs_la-sysfs_module.o    -g -O2 -flto=auto -Wl,--version-script=./libsysfs.map   -Wl,-soname -Wl,libsysfs.so.2 -o .libs/libsysfs.so.2.0.1
+libtool: link: (cd ".libs" && rm -f "libsysfs.so.2" && ln -s "libsysfs.so.2.0.1" "libsysfs.so.2")
+libtool: link: (cd ".libs" && rm -f "libsysfs.so" && ln -s "libsysfs.so.2.0.1" "libsysfs.so")
+libtool: link: ( cd ".libs" && rm -f "libsysfs.la" && ln -s "../libsysfs.la" "libsysfs.la" )
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+Making all in cmd
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o names.o names.c
+In file included from /usr/include/features.h:511,
+                 from /usr/include/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from names.c:11:
+In function 'read',
+    inlined from 'load_name_list' at names.c:211:7,
+    inlined from 'pci_lookup_name' at names.c:258:7:
+/usr/include/bits/unistd.h:32:10: warning: '*read' specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   32 |   return __glibc_fortify (read, __nbytes, sizeof (char),
+      |          ^~~~~~~~~~~~~~~
+/usr/include/bits/unistd-decl.h: In function 'pci_lookup_name':
+/usr/include/bits/unistd-decl.h:29:16: note: in a call to function '*read' declared with attribute 'access (write_only, 2, 3)'
+   29 | extern ssize_t __REDIRECT_FORTIFY (__read_alias, (int __fd, void *__buf,
+      |                ^~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I../include  -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects  -c -o systool.o systool.c
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+/bin/sh ../libtool  --tag=CC   --mode=link x86_64-alt-linux-gcc -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects    -o systool systool.o names.o ../lib/libsysfs.la 
+libtool: link: x86_64-alt-linux-gcc -Wall -W -Wextra -Wstrict-prototypes -Wshadow -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -o .libs/systool systool.o names.o  ../lib/.libs/libsysfs.so
+In function 'read',
+    inlined from 'load_name_list' at names.c:211:7,
+    inlined from 'pci_lookup_name' at names.c:258:7,
+    inlined from 'show_device.part.0' at systool.c:275:6:
+/usr/include/bits/unistd.h:32:10: warning: '__read_alias' specified size 18446744073709551614 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   32 |   return __glibc_fortify (read, __nbytes, sizeof (char),
+      |          ^
+/usr/include/bits/unistd-decl.h: In function 'show_device.part.0':
+/usr/include/bits/unistd-decl.h:29:16: note: in a call to function '__read_alias' declared with attribute 'access (write_only, 2, 3)'
+   29 | extern ssize_t __REDIRECT_FORTIFY (__read_alias, (int __fd, void *__buf,
+      |                ^
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+Making all in test
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+./create-test ./libsysfs.conf
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make  all-am
+make[3]: Nothing to be done for 'all-am'.
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.36273
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/sysfsutils-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/sysfsutils-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd sysfsutils-2.1.1
++ mkdir -p /usr/src/tmp/sysfsutils-buildroot/lib64 /usr/src/tmp/sysfsutils-buildroot/etc /usr/src/tmp/sysfsutils-buildroot/etc/rc.d/init.d /usr/src/tmp/sysfsutils-buildroot/usr/lib/systemd/system
++ make 'INSTALL=/usr/libexec/rpm-build/install -p' install DESTDIR=/usr/src/tmp/sysfsutils-buildroot
+make: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+Making install in lib
+make[1]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+ /usr/bin/mkdir -p '/usr/src/tmp/sysfsutils-buildroot/usr/lib64'
+ /bin/sh ../libtool   --mode=install /usr/libexec/rpm-build/install -p   libsysfs.la '/usr/src/tmp/sysfsutils-buildroot/usr/lib64'
+libtool: install: /usr/libexec/rpm-build/install -p .libs/libsysfs.so.2.0.1 /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so.2.0.1
+libtool: install: (cd /usr/src/tmp/sysfsutils-buildroot/usr/lib64 && { ln -s -f libsysfs.so.2.0.1 libsysfs.so.2 || { rm -f libsysfs.so.2 && ln -s libsysfs.so.2.0.1 libsysfs.so.2; }; })
+libtool: install: (cd /usr/src/tmp/sysfsutils-buildroot/usr/lib64 && { ln -s -f libsysfs.so.2.0.1 libsysfs.so || { rm -f libsysfs.so && ln -s libsysfs.so.2.0.1 libsysfs.so; }; })
+libtool: install: /usr/libexec/rpm-build/install -p .libs/libsysfs.lai /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.la
+libtool: warning: remember to run 'libtool --finish /usr/lib64'
+ /usr/bin/mkdir -p '/usr/src/tmp/sysfsutils-buildroot/usr/lib64/pkgconfig'
+ /usr/libexec/rpm-build/install -p -m 644 libsysfs.pc '/usr/src/tmp/sysfsutils-buildroot/usr/lib64/pkgconfig'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/lib'
+Making install in cmd
+make[1]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+ /usr/bin/mkdir -p '/usr/src/tmp/sysfsutils-buildroot/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/libexec/rpm-build/install -p systool '/usr/src/tmp/sysfsutils-buildroot/usr/bin'
+libtool: warning: '../lib/libsysfs.la' has not been installed in '/usr/lib64'
+libtool: install: /usr/libexec/rpm-build/install -p .libs/systool /usr/src/tmp/sysfsutils-buildroot/usr/bin/systool
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/cmd'
+Making install in test
+make[1]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make  install-am
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make[3]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+make[2]: Entering directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/src/tmp/sysfsutils-buildroot/usr/include/sysfs'
+ /usr/libexec/rpm-build/install -p -m 644 include/libsysfs.h include/dlist.h '/usr/src/tmp/sysfsutils-buildroot/usr/include/sysfs'
+ /usr/bin/mkdir -p '/usr/src/tmp/sysfsutils-buildroot/usr/share/man/man1'
+ /usr/libexec/rpm-build/install -p -m 644 systool.1 '/usr/src/tmp/sysfsutils-buildroot/usr/share/man/man1'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+make: Leaving directory '/usr/src/RPM/BUILD/sysfsutils-2.1.1'
+++ objdump -p /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so
+++ awk '/SONAME/ {print $2}'
++ v=libsysfs.so.2
++ '[' -n libsysfs.so.2 ']'
++ mv -v /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so.2 /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so.2.0.1 /usr/src/tmp/sysfsutils-buildroot/lib64
+renamed '/usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so.2' -> '/usr/src/tmp/sysfsutils-buildroot/lib64/libsysfs.so.2'
+renamed '/usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so.2.0.1' -> '/usr/src/tmp/sysfsutils-buildroot/lib64/libsysfs.so.2.0.1'
++ ln -sf ../../lib64/libsysfs.so.2 /usr/src/tmp/sysfsutils-buildroot/usr/lib64/libsysfs.so
++ install -p -m644 /usr/src/RPM/SOURCES/sysfs.conf /usr/src/tmp/sysfsutils-buildroot/etc/sysfs.conf
++ install -p -m755 /usr/src/RPM/SOURCES/sysfs.init /usr/src/tmp/sysfsutils-buildroot/etc/rc.d/init.d/sysfs
++ install -p -m644 /usr/src/RPM/SOURCES/sysfs.service /usr/src/tmp/sysfsutils-buildroot/usr/lib/systemd/system/sysfs.service
++ install -d -m755 /usr/src/tmp/sysfsutils-buildroot/etc/sysfs.d
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/sysfsutils-buildroot (auto)
+removed './usr/lib64/libsysfs.la'
+mode of './lib64/libsysfs.so.2.0.1' changed from 0755 (rwxr-xr-x) to 0644 (rw-r--r--)
+Verifying and fixing files in /usr/src/tmp/sysfsutils-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+/usr/lib64/pkgconfig/libsysfs.pc: Cflags: '-I${includedir}' --> ''
+/usr/lib64/pkgconfig/libsysfs.pc: Libs: '-L${libdir} -lsysfs' --> '-lsysfs'
+Checking contents of files in /usr/src/tmp/sysfsutils-buildroot/ (default)
+Compressing files in /usr/src/tmp/sysfsutils-buildroot (auto)
+Verifying systemd units in /usr/src/tmp/sysfsutils-buildroot
+Adjusting library links in /usr/src/tmp/sysfsutils-buildroot
+./usr/lib64: (from <cmdline>:0)
+./usr/lib: (from <cmdline>:0)
+./lib64: (from <cmdline>:0)
+	libsysfs.so.2 -> libsysfs.so.2.0.1
+Verifying ELF objects in /usr/src/tmp/sysfsutils-buildroot (arch=strict,fhs=strict,lfs=strict,lint=strict,rpath=strict,stack=strict,textrel=strict,unresolved=strict)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/sysfsutils-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.15732
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd sysfsutils-2.1.1
++ bash -n /usr/src/tmp/sysfsutils-buildroot/etc/rc.d/init.d/sysfs
++ ln -s rc.d/init.d /usr/src/tmp/sysfsutils-buildroot/etc/
++ systemd-analyze verify --root=/usr/src/tmp/sysfsutils-buildroot /usr/lib/systemd/system/sysfs.service
+Failed to create directory '/run/systemd/': Permission denied
+error: Bad exit status from /usr/src/tmp/rpm-tmp.15732 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.15732 (%check)
+Command exited with non-zero status 1
+6.14user 4.22system 0:09.23elapsed 112%CPU (0avgtext+0avgdata 39240maxresident)k
+0inputs+0outputs (0major+921772minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `sysfsutils-2.1.1-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+3.77user 2.96system 0:32.10elapsed 20%CPU (0avgtext+0avgdata 141956maxresident)k
+264inputs+0outputs (0major+242487minor)pagefaults 0swaps

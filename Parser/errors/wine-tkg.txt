@@ -1,0 +1,392 @@
+  -Wall -pipe -fcf-protection=none -fvisibility=hidden -fno-stack-protector -fno-strict-aliasing \
+  -Wdeclaration-after-statement -Wempty-body -Wignored-qualifiers -Winit-self \
+  -Wno-packed-not-aligned -Wshift-overflow=2 -Wstrict-prototypes -Wtype-limits \
+  -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wno-misleading-indentation -Wpointer-arith \
+  -Wlogical-op -pipe -frecord-gcc-switches -Wall -g0 -O2  -march=i586 -mtune=generic -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Entering directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+bison -o tools/widl/parser.tab.$$.c --defines=tools/widl/parser.tab.h tools/widl/parser.y && rm -f tools/widl/parser.tab.$$.c
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Entering directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+clang -D__STDC__ -c -o dlls/winecrt0/i386-windows/exception.o dlls/winecrt0/exception.c -Idlls/winecrt0 -Iinclude -Iinclude/msvcrt \
+  -D_MSVCR_VER=0 -D__WINESRC__ -D__WINE_PE_BUILD -Wall -target i686-windows -fuse-ld=lld \
+  --no-default-config -fno-strict-aliasing -Wdeclaration-after-statement -Wempty-body \
+  -Wignored-qualifiers -Winit-self -Wno-pragma-pack -Wno-microsoft-enum-forward-reference \
+  -Wstrict-prototypes -Wtype-limits -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wpointer-arith \
+  -Wabsolute-value -fno-omit-frame-pointer -g -O2
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Entering directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+clang -D__STDC__ -c -o dlls/winecrt0/i386-windows/dll_main.o dlls/winecrt0/dll_main.c -Idlls/winecrt0 -Iinclude -Iinclude/msvcrt \
+  -D_MSVCR_VER=0 -D__WINESRC__ -D__WINE_PE_BUILD -Wall -target i686-windows -fuse-ld=lld \
+  --no-default-config -fno-strict-aliasing -Wdeclaration-after-statement -Wempty-body \
+  -Wtype-limits -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wno-misleading-indentation \
+  -Wpointer-arith -Wlogical-op -fPIC -fasynchronous-unwind-tables -pipe -frecord-gcc-switches -Wall -g0 -O2  -march=i586 -mtune=generic -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+In file included from dlls/ntdll/unix/esync.c:27:
+include/config.h:850:9: warning: "_GNU_SOURCE" redefined
+  850 | #define _GNU_SOURCE 1
+      |         ^~~~~~~~~~~
+dlls/ntdll/unix/esync.c:25:9: note: this is the location of the previous definition
+   25 | #define _GNU_SOURCE
+      |         ^~~~~~~~~~~
+dlls/ntdll/unix/esync.c: In function 'add_to_list':
+dlls/ntdll/unix/esync.c:184:38: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  184 |     if (!InterlockedCompareExchange( (int *)&esync_list[entry][idx].type, type, 0 ))
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |
+      |                                      |
+      |                                      int *
+      |                                      int *
+In file included from include/windef.h:271,
+In file included from include/windef.h:271,
+                 from dlls/ntdll/unix/esync.c:45:
+                 from dlls/ntdll/unix/esync.c:45:
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+In file included from dlls/ntdll/unix/esync.c:48:
+In file included from dlls/ntdll/unix/esync.c:48:
+dlls/ntdll/unix/esync.c: In function 'get_object':
+dlls/ntdll/unix/esync.c:257:14: warning: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'NTSTATUS' {aka 'long int'} [-Wformat=]
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ~~~
+      |                                                                            |
+      |                                                                            NTSTATUS {aka long int}
+include/wine/debug.h:91:44: note: in definition of macro '__WINE_DBG_LOG'
+include/wine/debug.h:91:44: note: in definition of macro '__WINE_DBG_LOG'
+   91 |    wine_dbg_log( __dbcl, __dbch, __func__, __VA_ARGS__); } } while(0)
+   91 |    wine_dbg_log( __dbcl, __dbch, __func__, __VA_ARGS__); } } while(0)
+      |                                            ^~~~~~~~~~~
+      |                                            ^~~~~~~~~~~
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+      |                                    ^~~~~~~~~~~~~~
+      |                                    ^~~~~~~~~~~~~~
+      |                                    ^~~~~~~~~~~~~~
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+  536 | #define WARN                       WINE_WARN
+  536 | #define WARN                       WINE_WARN
+      |                                    ^~~~~~~~~
+      |                                    ^~~~~~~~~
+dlls/ntdll/unix/esync.c:257:9: note: in expansion of macro 'WARN'
+dlls/ntdll/unix/esync.c:257:9: note: in expansion of macro 'WARN'
+dlls/ntdll/unix/esync.c:257:9: note: in expansion of macro 'WARN'
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+      |         ^~~~
+      |         ^~~~
+      |         ^~~~
+dlls/ntdll/unix/esync.c:257:61: note: format string is defined here
+dlls/ntdll/unix/esync.c:257:61: note: format string is defined here
+dlls/ntdll/unix/esync.c:257:61: note: format string is defined here
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+  257 |         WARN("Failed to retrieve fd for handle %p, status %#x.\n", handle, ret);
+      |                                                           ~~^
+      |                                                           ~~^
+      |                                                           ~~^
+      |                                                             |
+      |                                                             |
+      |                                                             |
+      |                                                             unsigned int
+      |                                                             unsigned int
+      |                                                             unsigned int
+      |                                                           %#lx
+      |                                                           %#lx
+      |                                                           %#lx
+dlls/ntdll/unix/esync.c: In function 'esync_close':
+dlls/ntdll/unix/esync.c: In function 'esync_close':
+dlls/ntdll/unix/esync.c: In function 'esync_close':
+dlls/ntdll/unix/esync.c:276:33: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:276:33: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:276:33: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  276 |         if (InterlockedExchange((int *)&esync_list[entry][idx].type, 0))
+  276 |         if (InterlockedExchange((int *)&esync_list[entry][idx].type, 0))
+  276 |         if (InterlockedExchange((int *)&esync_list[entry][idx].type, 0))
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 |
+      |                                 int *
+      |                                 int *
+include/winnt.h:7167:68: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7167 | static FORCEINLINE LONG WINAPI InterlockedExchange( LONG volatile *dest, LONG val )
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c: In function 'esync_create_semaphore':
+dlls/ntdll/unix/esync.c:374:11: warning: format '%d' expects argument of type 'int', but argument 6 has type 'LONG' {aka 'long int'} [-Wformat=]
+  374 |     TRACE("name %s, initial %d, max %d.\n",
+      |                                    ^~~~~~~~~~
+dlls/ntdll/unix/esync.c:396:5: note: in expansion of macro 'TRACE'
+  396 |     TRACE("%p, %d, %p.\n", handle, count, prev);
+      |     ^~~~~
+dlls/ntdll/unix/esync.c:396:17: note: format string is defined here
+  396 |     TRACE("%p, %d, %p.\n", handle, count, prev);
+      |                ~^
+      |                 |
+      |                 int
+      |                %ld
+      |                %ld
+dlls/ntdll/unix/esync.c:407:42: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:407:42: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  407 |     } while (InterlockedCompareExchange( &semaphore->count, count + current, current ) != current);
+  407 |     } while (InterlockedCompareExchange( &semaphore->count, count + current, current ) != current);
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          |
+      |                                          int *
+      |                                          int *
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c: In function 'esync_set_event':
+dlls/ntdll/unix/esync.c: In function 'esync_set_event':
+dlls/ntdll/unix/esync.c: In function 'esync_set_event':
+dlls/ntdll/unix/esync.c:536:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:536:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:536:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  536 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+  536 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+  536 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+      |                                            ^~~~~~~~~~~~~~
+      |                                            ^~~~~~~~~~~~~~
+      |                                            |
+      |                                            |
+      |                                            int *
+      |                                            int *
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c:549:31: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:549:31: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:549:31: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  549 |     if (!InterlockedExchange( &event->signaled, 1 ) || obj->type == ESYNC_AUTO_EVENT)
+  549 |     if (!InterlockedExchange( &event->signaled, 1 ) || obj->type == ESYNC_AUTO_EVENT)
+  549 |     if (!InterlockedExchange( &event->signaled, 1 ) || obj->type == ESYNC_AUTO_EVENT)
+      |                               ^~~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~~
+      |                               ^~~~~~~~~~~~~~~~
+      |                               |
+      |                               |
+      |                               int *
+      |                               int *
+include/winnt.h:7167:68: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7167:68: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7167 | static FORCEINLINE LONG WINAPI InterlockedExchange( LONG volatile *dest, LONG val )
+ 7167 | static FORCEINLINE LONG WINAPI InterlockedExchange( LONG volatile *dest, LONG val )
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c: In function 'esync_reset_event':
+dlls/ntdll/unix/esync.c: In function 'esync_reset_event':
+dlls/ntdll/unix/esync.c: In function 'esync_reset_event':
+dlls/ntdll/unix/esync.c:579:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:579:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:579:44: error: passing argument 1 of '_InterlockedCompareExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  579 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+  579 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+  579 |         while (InterlockedCompareExchange( &event->locked, 1, 0 ))
+      |                                            ^~~~~~~~~~~~~~
+      |                                            ^~~~~~~~~~~~~~
+      |                                            |
+      |                                            |
+      |                                            int *
+      |                                            int *
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7152:75: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+ 7152 | static FORCEINLINE LONG WINAPI InterlockedCompareExchange( LONG volatile *dest, LONG xchg, LONG compare )
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+      |                                                            ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c:589:30: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:589:30: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:589:30: error: passing argument 1 of '_InterlockedExchange' from incompatible pointer type [-Wincompatible-pointer-types]
+  589 |     if (InterlockedExchange( &event->signaled, 0 ) || obj->type == ESYNC_AUTO_EVENT)
+  589 |     if (InterlockedExchange( &event->signaled, 0 ) || obj->type == ESYNC_AUTO_EVENT)
+  589 |     if (InterlockedExchange( &event->signaled, 0 ) || obj->type == ESYNC_AUTO_EVENT)
+      |                              ^~~~~~~~~~~~~~~~
+      |                              ^~~~~~~~~~~~~~~~
+      |                              ^~~~~~~~~~~~~~~~
+      |                              |
+      |                              |
+      |                              int *
+      |                              int *
+include/winnt.h:7167:68: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7167:68: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7167 | static FORCEINLINE LONG WINAPI InterlockedExchange( LONG volatile *dest, LONG val )
+ 7167 | static FORCEINLINE LONG WINAPI InterlockedExchange( LONG volatile *dest, LONG val )
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+      |                                                     ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c: In function 'update_grabbed_object':
+dlls/ntdll/unix/esync.c: In function 'update_grabbed_object':
+dlls/ntdll/unix/esync.c:789:33: error: passing argument 1 of '_InterlockedExchangeAdd' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:789:33: error: passing argument 1 of '_InterlockedExchangeAdd' from incompatible pointer type [-Wincompatible-pointer-types]
+  789 |         InterlockedExchangeAdd( &semaphore->count, -1 );
+  789 |         InterlockedExchangeAdd( &semaphore->count, -1 );
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 |
+      |                                 int *
+include/winnt.h:7181:71: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7181 | static FORCEINLINE LONG WINAPI InterlockedExchangeAdd( LONG volatile *dest, LONG incr )
+      |                                                        ~~~~~~~~~~~~~~~^~~~
+dlls/ntdll/unix/esync.c: In function '__esync_wait_objects':
+dlls/ntdll/unix/esync.c:876:15: warning: format '%d' expects argument of type 'int', but argument 6 has type 'DWORD' {aka 'long unsigned int'} [-Wformat=]
+  876 |         TRACE("Waiting for %s of %d handles:", wait_any ? "any" : "all", count);
+      |                                    ^~~~~~~~~~
+dlls/ntdll/unix/esync.c:876:9: note: in expansion of macro 'TRACE'
+  876 |         TRACE("Waiting for %s of %d handles:", wait_any ? "any" : "all", count);
+      |         ^~~~~
+dlls/ntdll/unix/esync.c:876:35: note: format string is defined here
+  876 |         TRACE("Waiting for %s of %d handles:", wait_any ? "any" : "all", count);
+      |                                  ~^
+      |                                   |
+      |                                   int
+      |                                   int
+      |                                  %ld
+      |                                  %ld
+dlls/ntdll/unix/esync.c:943:51: error: passing argument 1 of '_InterlockedDecrement' from incompatible pointer type [-Wincompatible-pointer-types]
+dlls/ntdll/unix/esync.c:943:51: error: passing argument 1 of '_InterlockedDecrement' from incompatible pointer type [-Wincompatible-pointer-types]
+  943 |                             InterlockedDecrement( &semaphore->count );
+  943 |                             InterlockedDecrement( &semaphore->count );
+      |                                                   ^~~~~~~~~~~~~~~~~
+      |                                                   ^~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   |
+      |                                                   int *
+      |                                                   int *
+include/winnt.h:7211:69: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+include/winnt.h:7211:69: note: expected 'volatile LONG *' {aka 'volatile long int *'} but argument is of type 'int *'
+ 7211 | static FORCEINLINE LONG WINAPI InterlockedDecrement( LONG volatile *dest )
+ 7211 | static FORCEINLINE LONG WINAPI InterlockedDecrement( LONG volatile *dest )
+      |                                                      ~~~~~~~~~~~~~~~^~~~
+      |                                                      ~~~~~~~~~~~~~~~^~~~
+make: *** [Makefile:84710: dlls/ntdll/unix/esync.o] Error 1
+make: *** [Makefile:84710: dlls/ntdll/unix/esync.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+clang -D__STDC__ -c -o dlls/advpack/i386-windows/reg.o dlls/advpack/reg.c -Idlls/advpack -Iinclude -Iinclude/msvcrt -D_UCRT \
+  -D__WINESRC__ -D__WINE_PE_BUILD -Wall -target i686-windows -fuse-ld=lld --no-default-config \
+  -fno-strict-aliasing -Wdeclaration-after-statement -Wempty-body -Wignored-qualifiers -Winit-self \
+  -Wno-pragma-pack -Wno-microsoft-enum-forward-reference -Wstrict-prototypes -Wtype-limits \
+  -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wpointer-arith -Wabsolute-value \
+  -fno-omit-frame-pointer -g -O2
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Entering directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+i586-alt-linux-gcc -c -o dlls/ntdll/unix/fsync.o dlls/ntdll/unix/fsync.c -Idlls/ntdll -Iinclude -D__WINESRC__ -D_NTSYSTEM_ \
+  -D_ACRTIMP= -DWINBASEAPI= -DWINE_UNIX_LIB -Wall -pipe -fcf-protection=none -fvisibility=hidden \
+  -fno-stack-protector -fno-strict-aliasing -Wdeclaration-after-statement -Wempty-body \
+  -Wignored-qualifiers -Winit-self -Wno-packed-not-aligned -Wshift-overflow=2 -Wstrict-prototypes \
+  -Wtype-limits -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wno-misleading-indentation \
+  -Wpointer-arith -Wlogical-op -fPIC -fasynchronous-unwind-tables -pipe -frecord-gcc-switches -Wall -g0 -O2  -march=i586 -mtune=generic -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0
+In file included from dlls/ntdll/unix/fsync.c:51:
+dlls/ntdll/unix/fsync.c: In function 'get_object':
+dlls/ntdll/unix/fsync.c:323:14: warning: format '%x' expects argument of type 'unsigned int', but argument 6 has type 'NTSTATUS' {aka 'long int'} [-Wformat=]
+  323 |         WARN("Failed to retrieve shm index for handle %p, status %#x.\n", handle, ret);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ~~~
+      |                                                                                   |
+      |                                                                                   NTSTATUS {aka long int}
+include/wine/debug.h:91:44: note: in definition of macro '__WINE_DBG_LOG'
+include/wine/debug.h:91:44: note: in definition of macro '__WINE_DBG_LOG'
+   91 |    wine_dbg_log( __dbcl, __dbch, __func__, __VA_ARGS__); } } while(0)
+   91 |    wine_dbg_log( __dbcl, __dbch, __func__, __VA_ARGS__); } } while(0)
+      |                                            ^~~~~~~~~~~
+      |                                            ^~~~~~~~~~~
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+include/wine/debug.h:488:36: note: in expansion of macro '__WINE_DPRINTF'
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+  488 | #define WINE_WARN                  __WINE_DPRINTF(_WARN,__wine_dbch___default)
+      |                                    ^~~~~~~~~~~~~~
+      |                                    ^~~~~~~~~~~~~~
+      |                                    ^~~~~~~~~~~~~~
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+include/wine/debug.h:536:36: note: in expansion of macro 'WINE_WARN'
+  536 | #define WARN                       WINE_WARN
+  536 | #define WARN                       WINE_WARN
+      |                                    ^~~~~~~~~
+      |                                    ^~~~~~~~~
+dlls/ntdll/unix/fsync.c:323:9: note: in expansion of macro 'WARN'
+dlls/ntdll/unix/fsync.c:323:9: note: in expansion of macro 'WARN'
+  323 |         WARN("Failed to retrieve shm index for handle %p, status %#x.\n", handle, ret);
+  323 |         WARN("Failed to retrieve shm index for handle %p, status %#x.\n", handle, ret);
+      |         ^~~~
+      |         ^~~~
+dlls/ntdll/unix/fsync.c:323:68: note: format string is defined here
+dlls/ntdll/unix/fsync.c:323:68: note: format string is defined here
+  323 |         WARN("Failed to retrieve shm index for handle %p, status %#x.\n", handle, ret);
+  323 |         WARN("Failed to retrieve shm index for handle %p, status %#x.\n", handle, ret);
+      |                                                                  ~~^
+      |                                                                  ~~^
+      |                                                                    |
+      |                                                                    |
+      |                                                                    unsigned int
+      |                                                                    unsigned int
+      |                                                                  %#lx
+      |                                                                  %#lx
+dlls/ntdll/unix/fsync.c: In function 'fsync_create_semaphore':
+dlls/ntdll/unix/fsync.c: In function 'fsync_create_semaphore':
+dlls/ntdll/unix/fsync.c:465:11: warning: format '%d' expects argument of type 'int', but argument 6 has type 'LONG' {aka 'long int'} [-Wformat=]
+dlls/ntdll/unix/fsync.c:465:11: warning: format '%d' expects argument of type 'int', but argument 6 has type 'LONG' {aka 'long int'} [-Wformat=]
+  465 |     TRACE("name %s, initial %d, max %d.\n",
+  465 |     TRACE("name %s, initial %d, max %d.\n",
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  466 |         attr ? debugstr_us(attr->ObjectName) : "<no name>", initial, max);
+      |                                                             ~~~~~~~
+dlls/ntdll/unix/file.c:4058:9: note: in expansion of macro 'ERR'
+ 4058 |         ERR("Size mismatch decoding reparse point buffer (%d != %d)\n", *size, buffer_len);
+      |         ^~~
+dlls/ntdll/unix/file.c:4058:60: note: format string is defined here
+ 4058 |         ERR("Size mismatch decoding reparse point buffer (%d != %d)\n", *size, buffer_len);
+      |                                                           ~^
+      |                                                            |
+      |                                                            int
+      |                                                           %ld
+      |                                                           %ld
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+make: Leaving directory '/usr/src/RPM/BUILD/wine-tkg-9.5'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36708 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.36708 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.36708 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.36708 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+63.01user 15.51system 0:50.79elapsed 154%CPU (0avgtext+0avgdata 108108maxresident)k
+63.01user 15.51system 0:50.79elapsed 154%CPU (0avgtext+0avgdata 108108maxresident)k
+0inputs+0outputs (0major+2425866minor)pagefaults 0swaps
+0inputs+0outputs (0major+2425866minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `wine-tkg-9.5-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `wine-tkg-9.5-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.52user 5.65system 1:37.77elapsed 13%CPU (0avgtext+0avgdata 134828maxresident)k
+7.52user 5.65system 1:37.77elapsed 13%CPU (0avgtext+0avgdata 134828maxresident)k
+124280inputs+0outputs (0major+363967minor)pagefaults 0swaps

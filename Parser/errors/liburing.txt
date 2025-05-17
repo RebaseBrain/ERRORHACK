@@ -1,0 +1,497 @@
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o submit-and-wait.t submit-and-wait.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o sqwait.t sqwait.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o symlink.t symlink.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o submit-link-fail.t submit-link-fail.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o sq-poll-share.t sq-poll-share.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o teardowns.t teardowns.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Entering directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+gcc -D_GNU_SOURCE -D__SANE_USERSPACE_TYPES__ -I../src/include/ -include ../config-host.h -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -ffat-lto-objects -Wno-unused-parameter -Wno-sign-compare -Wstringop-overflow=0 -Warray-bounds=0 -DLIBURING_BUILD_TEST -o version.t version.c helpers.o -L../src/ -luring -lpthread
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/examples'
++ make -j16 -C examples clean
++ rm examples/Makefile
++ uname -rm
+6.12.24-6.12-alt1 i686
++ test/probe.t
++ strace -v test/probe.t
+execve("test/probe.t", ["test/probe.t"], ["RPM_PYTHON_COMPILE_INCLUDE=/usr/"..., "RPM_FIXUP_TOPDIR=", "RPM_PYTHON3_SELF_PROV_PATH=", "RPM_SOURCE_DIR=/usr/src/RPM/SOUR"..., "RPM_PKG_CONTENTS_INDEX_BIN=/.hos"..., "RPM_PYTHON_LIB_PATH=", "RPM_PYTHON3_VERSION=unknown", "G_BROKEN_FILENAMES=1", "HOSTNAME=localhost.localdomain", "HISTSIZE=999", "RPM_DEBUGINFO_STRIPPED_TERMINATE"..., "RPM_PYTHON3_SITELIBDIR=/usr/lib/"..., "RPM_PYTHON=/usr/bin/python2.7", "RPM_PYTHON3_COMPILE_EXCLUDE=/usr"..., "RPM_PYTHON_COMPILE_DEEP=20", "RPM_PYTHON3_SITELIBDIR_NOARCH=/u"..., "RPM_PYTHON_COMPILE_SKIP_X=1", "RPM_PYTHON_COMPILE_EXCLUDE=/usr/"..., "RPM_LIB=lib", "RPM_FIXUP_METHOD=binconfig pkgco"..., "RPM_LD_PRELOAD_python=/usr/lib/l"..., "PWD=/usr/src/RPM/BUILD/liburing-"..., "RPM_CLEANUP_TOPDIR=", "SOURCE_DATE_EPOCH=1738710100", "LOGNAME=builder", "RPM_PYTHON3_COMPILE_SKIP_X=1", "RPM_VERIFY_ELF_METHOD=strict", "RPM_FILES_TO_LD_PRELOAD_python= "..., "RPM_CLEANUP_SKIPLIST=", "RPM_ARCH=i586", "RPM_PYTHON3_COMPILE_CLEAN=1", "RPM_DATADIR=/usr/share", "HOME=/usr/src", "RPM_FILES_TO_LD_PRELOAD_python3="..., "PERL_USE_UNSAFE_INC=1", "RPM_PERL_REQ_METHOD=normal", "RPM_PYTHON_REQ_METHOD=slight", "RPM_TARGET_ARCH=i586", "RPM_PYTHON3=/usr/bin/python3", "RPM_FINDPROV_LIB_PATH=", "RPM_COMPRESS_TOPDIR=/usr", "TMPDIR=/usr/src/tmp", "RPM_VERIFY_ELF_TOPDIR=", "RPM_CHECK_CONTENTS_METHOD=defaul"..., "RPM_FINDPROV_TOPDIR=", "RPM_PACKAGE_RELEASE=alt1", "RPM_DEBUGINFO_SKIPLIST=", "RPM_PYTHON_COMPILE_CLEAN=1", "RPM_OS=linux", "RPM_VERIFY_ELF_SKIPLIST=", "MAKEFLAGS=-w -O PAM_SO_SUFFIX=", "RPM_CHECK_CONTENTS_SKIPLIST=", "TERM=dumb", "RPM_PYTHON3_REQ_METHOD=slight", "USER=builder", "RPM_PYTHON3_LIBDIR=/usr/lib/pyth"..., "RPM_PYTHON3_PATH=/usr/lib/python"..., "PAM_SO_SUFFIX=", "RPM_TARGET_OS=linux", "SHLVL=2", "RPM_BUILD_DIR=/usr/src/RPM/BUILD", "RPM_FINDREQ_TOPDIR=", "PAM_NAME_SUFFIX=", "RPM_FIXUP_SKIPLIST=", "RPM_PYTHON2_PATH=/usr/lib/python"..., "RPM_PYTHON3_COMPILE_DEEP=20", "RPM_OPT_FLAGS=-pipe -frecord-gcc"..., "RPM_PYTHON3_REQ_HIER=yes", "RPM_FINDREQ_SKIPLIST=/usr/share/"..., "RPM_PYTHON3_IMPORT_PATH=", "RPM_DOC_DIR=/usr/share/doc", "RPM_VERIFY_INFO_METHOD=normal", "RPM_PACKAGE_VERSION=2.9", "RPM_PYTHON3_COMPILE_INCLUDE=/usr"..., "RPM_PYTHON_MODULE_DECLARED=", "RPM_PYTHON_REQ_SKIP=", "RPM_LD_PRELOAD_python3=/usr/lib/"..., "RPM_LIBDIR=/usr/lib", "RPM_PYTHON_COMPILE_METHOD=ALL", "RPM_PYTHON3_REQ_SKIP=", "PATH=/usr/src/bin:/usr/bin:/bin:"..., "RPM_CHECK_CONTENTS_TOPDIR=", "HISTFILESIZE=9999", "MAIL=/var/mail/builder", "RPM_FINDPROV_SKIPLIST=/usr/share"..., "RPM_FINDPACKAGE_PATH=", "RPM_COMPRESS_SKIPLIST=", "RPM_PACKAGE_NAME=liburing", "RPM_CLEANUP_METHOD=auto", "RPM_BUILD_ROOT=/usr/src/tmp/libu"..., "OLDPWD=/usr/src/RPM/BUILD", "RPM_COMPRESS_METHOD=auto", "RPM_PYTHON3_LIB_PATH=", "_=/usr/bin/strace"]) = 0
+brk(NULL)                               = 0x56e1d000
+mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xf7f1e000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_blksize=4096, stx_attributes=0, stx_nlink=1, stx_uid=1787, stx_gid=1787, stx_mode=S_IFREG|0644, stx_ino=2200903, stx_size=8067, stx_blocks=16, stx_attributes_mask=STATX_ATTR_IMMUTABLE|STATX_ATTR_APPEND|STATX_ATTR_NODUMP|STATX_ATTR_AUTOMOUNT|STATX_ATTR_MOUNT_ROOT|STATX_ATTR_DAX, stx_atime={tv_sec=1746871535, tv_nsec=603778943} /* 2025-05-10T10:05:35.603778943+0000 */, stx_ctime={tv_sec=1746871535, tv_nsec=602778931} /* 2025-05-10T10:05:35.602778931+0000 */, stx_mtime={tv_sec=1746871535, tv_nsec=602778931} /* 2025-05-10T10:05:35.602778931+0000 */, stx_rdev_major=0, stx_rdev_minor=0, stx_dev_major=0, stx_dev_minor=61, stx_mnt_id=0x3fc}) = 0
+mmap2(NULL, 8067, PROT_READ, MAP_PRIVATE, 3, 0) = 0xf7f1c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/libc.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0O\2\0004\0\0\0"..., 512) = 512
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_blksize=4096, stx_attributes=0, stx_nlink=1, stx_uid=1787, stx_gid=1787, stx_mode=S_IFREG|0755, stx_ino=2183107, stx_size=2110780, stx_blocks=4128, stx_attributes_mask=STATX_ATTR_IMMUTABLE|STATX_ATTR_APPEND|STATX_ATTR_NODUMP|STATX_ATTR_AUTOMOUNT|STATX_ATTR_MOUNT_ROOT|STATX_ATTR_DAX, stx_atime={tv_sec=1746871520, tv_nsec=74601018} /* 2025-05-10T10:05:20.074601018+0000 */, stx_ctime={tv_sec=1746871519, tv_nsec=195590947} /* 2025-05-10T10:05:19.195590947+0000 */, stx_mtime={tv_sec=1737954000, tv_nsec=0} /* 2025-01-27T05:00:00+0000 */, stx_rdev_major=0, stx_rdev_minor=0, stx_dev_major=0, stx_dev_minor=61, stx_mnt_id=0x3fc}) = 0
+mmap2(NULL, 2144496, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0xf7d10000
+mmap2(0xf7d33000, 1437696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0xf7d33000
+mmap2(0xf7e92000, 512000, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x182000) = 0xf7e92000
+[   14.555716] CR2: 000000000000000e
+[   14.556432] ---[ end trace 0000000000000000 ]---
+[   14.557313] EIP: __io_remove_buffers+0xa0/0xe0
+[   14.558253] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[   14.562632] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[   14.564179] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[   14.565666] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[   14.567168] CR0: 80050033 CR2: 0000000e CR3: 04e7d000 CR4: 00350ed0
+[   14.568663] note: buf-ring.t[3835] exited with irqs disabled
+./runtests.sh: line 66:  3834 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test buf-ring.t failed with ret 137
+[  134.504108] Running test buf-ring-nommap.t:
+Running test buf-ring-nommap.t                                      [  134.508538] BUG: kernel NULL pointer dereference, address: 00000018
+[  134.509457] #PF: supervisor write access in kernel mode
+[  134.510175] #PF: error_code(0x0002) - not-present page
+[  134.510885] *pde = 00000000 
+[  134.511304] Oops: Oops: 0002 [#2] PREEMPT SMP
+[  134.511927] CPU: 1 UID: 0 PID: 3841 Comm: buf-ring-nommap Tainted: G      D            6.14.6-6.14-alt1 #1
+[  134.513241] Tainted: [D]=DIE
+[  134.513660] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[  134.514815] EIP: io_uring_setup.cold+0x762/0xa32
+[  134.539887] CR2: 0000000000000018
+[  134.540350] ---[ end trace 0000000000000000 ]---
+[  134.540972] EIP: __io_remove_buffers+0xa0/0xe0
+[  134.541585] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  134.544089] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  134.544934] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  134.545790] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  134.546745] CR0: 80050033 CR2: 00000018 CR3: 05c44000 CR4: 00350ed0
+[  134.547592] note: buf-ring-nommap[3841] exited with irqs disabled
+./runtests.sh: line 66:  3840 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test buf-ring-nommap.t failed with ret 137
+[  134.551630] Running test buf-ring-put.t:
+Running test buf-ring-put.t                                         1 sec
+Running test buf-ring-put.t                                         1 sec
+[  135.627679] Running test ce593a6c480a.t:
+[  135.627679] Running test ce593a6c480a.t:
+Running test ce593a6c480a.t                                         1 sec
+Running test ce593a6c480a.t                                         1 sec
+[  136.637431] Running test close-opath.t:
+[  136.637431] Running test close-opath.t:
+Running test close-opath.t                                          0 sec
+Running test close-opath.t                                          0 sec
+[  136.646469] Running test connect.t:
+[  136.646469] Running test connect.t:
+Running test connect.t                                              0 sec
+Running test connect.t                                              0 sec
+[  136.656710] Running test connect-rep.t:
+[  136.656710] Running test connect-rep.t:
+Running test connect-rep.t                                          0 sec
+Running test connect-rep.t                                          0 sec
+[  136.766717] Running test coredump.t:
+Running test coredump.t                                             [  136.770615] coredump.t[3908]: segfault at 0 ip 0048b6a6 sp bfe9edb0 error 6 in coredump.t[16a6,48b000+1000] likely on CPU 4 (core 4, socket 0)
+[  136.772380] Code: 01 b8 aa 01 00 00 8b 9c 24 20 01 00 00 31 d2 31 ff c7 44 24 1c 08 00 00 00 ff 74 24 1c 55 8b 6c 24 04 cd 80 5d 83 c4 04 31 c0 <a3> 00 00 00 00 0f 0b e9 11 ff ff ff c6 05 00 00 00 00 00 0f 0b 89
+0 sec
+[  136.780044] Running test cmd-discard.t:
+Running test cmd-discard.t                                          Skipped
+[  136.785172] Running test cq-full.t:
+Running test cq-full.t                                              0 sec
+[  136.793943] Running test cq-overflow.t:
+Running test cq-overflow.t                                          11 sec
+[  147.101794] Running test cq-peek-batch.t:
+Running test cq-peek-batch.t                                        0 sec
+[  160.912626] ---[ end trace 0000000000000000 ]---
+[  160.913487] EIP: __io_remove_buffers+0xa0/0xe0
+[  160.914326] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  160.917739] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  160.919106] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  160.920477] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  160.921722] CR0: 80050033 CR2: 00000000 CR3: 05d6e000 CR4: 00350ed0
+[  160.922905] note: init-mem.t[22563] exited with irqs disabled
+./runtests.sh: line 66: 22562 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Tes[  280.874998] Running test io-cancel.t:
+t init-mem.t failed with ret 137
+Running test io-cancel.t                                            3 sec
+[  282.998544] Running test iopoll.t:
+Running test iopoll.t                                               File/device/fs doesn't support polled IO
+0 sec
+[  283.009284] Running test iopoll-leak.t:
+Running test iopoll-leak.t                                          0 sec
+[  283.024972] Running test iopoll-overflow.t:
+Running test iopoll-overflow.t                                      1 sec
+[  284.038689] Running test io_uring_enter.t:
+Running test io_uring_enter.t                                       0 sec
+[  317.515530] ---[ end trace 0000000000000000 ]---
+[  317.516167] EIP: __io_remove_buffers+0xa0/0xe0
+[  317.516768] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  317.519253] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  317.520111] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  317.520942] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  317.521875] CR0: 80050033 CR2: 0000000e CR3: 055bc000 CR4: 00350ed0
+[  317.522726] note: poll-race-mshot[26173] exited with irqs disabled
+./runtests.sh: line 66: 26172 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${tes[  437.482947] Running test poll-ring.t:
+t_exec[@]}"
+Test poll-race-mshot.t failed with ret 137
+Running test poll-ring.t                                            0 sec
+[  437.496517] Running test poll-v-poll.t:
+Running test poll-v-poll.t                                          0 sec
+[  437.911949] Running test pollfree.t:
+Running test pollfree.t                                             10 sec
+[  447.923955] Running test probe.t:
+Running test probe.t                                                0 sec
+[  447.934750] Running test read-before-exit.t:
+Running test read-before-exit.t                                     1 sec
+[  448.180141] Running test read-inc-file.t:
+[  448.221728] ---[ end trace 0000000000000000 ]---
+[  448.222403] EIP: __io_remove_buffers+0xa0/0xe0
+[  448.223120] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  448.225907] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  448.226891] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  448.227857] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  448.228889] CR0: 80050033 CR2: 0000000e CR3: 05560000 CR4: 00350ed0
+[  448.229951] note: read-inc-file.t[5046] exited with irqs disabled
+./runtests.sh: line 66:  5045 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test read-inc-fi[  568.186178] Running test read-mshot.t:
+le.t failed with ret 137
+Running test read-mshot.t                                           [  568.190528] BUG: kernel NULL pointer dereference, address: 0000000e
+[  568.191642] #PF: supervisor read access in kernel mode
+[  568.192401] #PF: error_code(0x0000) - not-present page
+[  568.193160] *pde = 00000000 
+[  568.193705] Oops: Oops: 0000 [#6] PREEMPT SMP
+[  568.194357] CPU: 2 UID: 0 PID: 5052 Comm: read-mshot.t Tainted: G      D            6.14.6-6.14-alt1 #1
+[  568.195714] Tainted: [D]=DIE
+[  568.196116] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[  568.197379] EIP: io_buffer_select+0x4b/0x220
+[  568.198035] Code: 00 0f b7 50 3e 8d 86 d0 00 00 00 e8 1f c2 65 00 85 c0 89 c1 0f 84 85 01 00 00 f6 41 12 01 0f 84 b3 00 00 00 8b 31 0f b7 41 0e <0f> b7 56 0e 39 d0 0f 84 a9 01 00 00 8d 78 01 39 d7 75 04 83 4b 48
+[  568.224398] ---[ end trace 0000000000000000 ]---
+[  568.225075] EIP: __io_remove_buffers+0xa0/0xe0
+[  568.225802] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  568.228492] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  568.229487] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  568.230394] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  568.231428] CR0: 80050033 CR2: 0000000e CR3: 06d1e000 CR4: 00350ed0
+[  568.232332] note: read-mshot.t[5052] exited with irqs disabled
+./runtests.sh: line 66:  5051 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test read-mshot.[  688.191828] Running test read-mshot-empty.t:
+t failed with ret 137
+Running test read-mshot-empty.t                                     [  688.195483] BUG: kernel NULL pointer dereference, address: 0000000e
+[  688.196612] #PF: supervisor read access in kernel mode
+[  688.197531] #PF: error_code(0x0000) - not-present page
+[  688.198439] *pde = 00000000 
+[  688.198955] Oops: Oops: 0000 [#7] PREEMPT SMP
+[  688.199735] CPU: 3 UID: 0 PID: 5058 Comm: read-mshot-empt Tainted: G      D            6.14.6-6.14-alt1 #1
+[  688.201434] Tainted: [D]=DIE
+[  688.201956] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[  688.203469] EIP: io_buffer_select+0x4b/0x220
+[  688.204232] Code: 00 0f b7 50 3e 8d 86 d0 00 00 00 e8 1f c2 65 00 85 c0 89 c1 0f 84 85 01 00 00 f6 41 12 01 0f 84 b3 00 00 00 8b 31 0f b7 41 0e <0f> b7 56 0e 39 d0 0f 84 a9 01 00 00 8d 78 01 39 d7 75 04 83 4b 48
+[  688.237169] ---[ end trace 0000000000000000 ]---
+[  688.237987] EIP: __io_remove_buffers+0xa0/0xe0
+[  688.238777] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  688.242044] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  688.243146] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  688.244247] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  688.245450] CR0: 80050033 CR2: 0000000e CR3: 0583e000 CR4: 00350ed0
+[  688.246565] note: read-mshot-empt[5058] exited with irqs disabled
+./runtests.sh: line 66:  5057 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test read-mshot-[  808.202693] Running test read-mshot-stdin.t:
+empty.t failed with ret 137
+Running test read-mshot-stdin.t                                     Skipped
+[  808.214768] Running test read-write.t:
+Running test read-write.t                                           1 sec
+[  809.861615] Running test recv-msgall.t:
+Running test recv-msgall.t                                          0 sec
+[  809.938128] Running test recv-msgall-stream.t:
+Running test recv-msgall-stream.t                                   [  810.046201] Running test recv-multishot.t:
+1 sec
+Running test recv-multishot.t                                       0 sec
+[  810.264614] Running test reg-fd-only.t:
+[  810.455966] ---[ end trace 0000000000000000 ]---
+[  810.459077] EIP: __io_remove_buffers+0xa0/0xe0
+[  810.462111] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  810.469305] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  810.471732] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  810.474172] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  810.476947] CR0: 80050033 CR2: 00000014 CR3: 06b5d000 CR4: 00350ed0
+[  810.479261] note: reg-wait.t[5252] exited with irqs disabled
+./runtests.sh: line 66:  5251 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test reg-wait.t [  810.488650] Running test regbuf-clone.t:
+failed with ret 137
+Running test regbuf-clone.t                                         0 sec
+[  810.516845] Running test regbuf-merge.t:
+Running test regbuf-merge.t                                         0 sec
+[  810.534494] Running test register-restrictions.t:
+Running test register-restrictions.t                                0 sec
+[  810.548016] Running test rename.t:
+Running test rename.t                                               0 sec
+[  810.563519] Running test resize-rings.t:
+Running test resize-rings.t                                         3 sec
+[  813.838315] Running test ringbuf-read.t:
+[  813.981771]  make_task_dead+0x84/0x90
+[  813.982679]  rewind_stack_and_make_dead+0x11/0x14
+[  813.983934] EIP: 0x408a8c
+[  813.984657] Code: 74 24 04 89 44 24 04 83 ce 01 31 d2 c7 44 24 54 08 00 00 00 b8 aa 01 00 00 8b 5c 24 18 89 d7 ff 74 24 54 55 8b 6c 24 04 cd 80 <5d> 83 c4 04 83 f8 40 0f 85 c0 01 00 00 8b 44 24 28 ba 40 00 00 00
+[  813.989229] EAX: ffffffda EBX: 00000003 ECX: 00000040 EDX: 00000000
+[  813.990797] ESI: 00000000 EDI: 00000000 EBP: 00000008 ESP: bf8986e8
+[  813.992316] DS: 007b ES: 007b FS: 0000 GS: 0033 SS: 007b EFLAGS: 00000246
+[  813.994065] ---[ end trace 0000000000000000 ]---
+./runtests.sh: line 66:  5337 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Tes[  933.844070] Running test ringbuf-status.t:
+t ringbuf-read.t failed with ret 137
+Running test ringbuf-status.t                                       [  933.848628] BUG: kernel NULL pointer dereference, address: 0000000e
+[  933.849565] #PF: supervisor read access in kernel mode
+[  933.850290] #PF: error_code(0x0000) - not-present page
+[  933.851049] *pde = 00000000 
+[  933.851482] Oops: Oops: 0000 [#10] PREEMPT SMP
+[  933.852129] CPU: 2 UID: 0 PID: 5344 Comm: ringbuf-status. Tainted: G      D W          6.14.6-6.14-alt1 #1
+[  933.853523] Tainted: [D]=DIE, [W]=WARN
+[  933.854064] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[  933.855295] EIP: io_buffer_select+0x4b/0x220
+[  933.855927] Code: 00 0f b7 50 3e 8d 86 d0 00 00 00 e8 1f c2 65 00 85 c0 89 c1 0f 84 85 01 00 00 f6 41 12 01 0f 84 b3 00 00 00 8b 31 0f b7 41 0e <0f> b7 56 0e 39 d0 0f 84 a9 01 00 00 8d 78 01 39 d7 75 04 83 4b 48
+[  933.883026] ---[ end trace 0000000000000000 ]---
+[  933.883711] EIP: __io_remove_buffers+0xa0/0xe0
+[  933.884360] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[  933.887053] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[  933.887955] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[  933.888881] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[  933.889874] CR0: 80050033 CR2: 0000000e CR3: 06960000 CR4: 00350ed0
+[  933.890788] note: ringbuf-status.[5344] exited with irqs disabled
+./runtests.sh: line 66:  5343 Killed            [ 1053.851286] Running test ring-leak2.t:
+      timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test ringbuf-status.t failed with ret 137
+Running test ring-leak2.t                                           1 sec
+[ 1054.897224] Running test ring-leak.t:
+Running test ring-leak.t                                            Skipped
+[ 1054.965378] Running test rsrc_tags.t:
+Running test rsrc_tags.t                                            0 sec
+[ 1055.004531] Running test rw_merge_test.t:
+Running test rw_merge_test.t                                        0 sec
+[ 1055.038775] Running test self.t:
+Running test self.t                                                 0 sec
+[ 1055.066143] Running test recvsend_bundle.t:
+[ 1055.213915] CR2: 000000000000000e
+[ 1055.216015] ---[ end trace 0000000000000000 ]---
+[ 1055.217822] EIP: __io_remove_buffers+0xa0/0xe0
+[ 1055.220919] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1055.220919] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1055.232004] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1055.232004] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1055.233757] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1055.233757] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1055.238359] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[ 1055.238359] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[ 1055.241864] CR0: 80050033 CR2: 0000000e CR3: 0d2ac000 CR4: 00350ed0
+[ 1055.241864] CR0: 80050033 CR2: 0000000e CR3: 0d2ac000 CR4: 00350ed0
+[ 1055.244435] note: recvsend_bundle[5407] exited with irqs disabled
+[ 1055.244435] note: recvsend_bundle[5407] exited with irqs disabled
+./runtests.sh: line 66:  5406 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+./runtests.sh: line 66:  5406 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test recvsend_bundle.t failed with ret 137
+Test recvsend_bundle.t failed with ret 137
+[ 1175.079495] Running test recvsend_bundle-inc.t:
+[ 1175.079495] Running test recvsend_bundle-inc.t:
+Running test recvsend_bundle-inc.t                                  bind: Address already in use
+Running test recvsend_bundle-inc.t                                  bind: Address already in use
+recv_prep failed: 1
+recv_prep failed: 1
+Test recvsend_bundle-inc.t timed out (may not be a failure)
+Test recvsend_bundle-inc.t timed out (may not be a failure)
+[ 1235.086823] Running test send_recv.t:
+[ 1235.086823] Running test send_recv.t:
+Running test send_recv.t                                            [ 1235.089391] BUG: kernel NULL pointer dereference, address: 0000000e
+Running test send_recv.t                                            [ 1235.089391] BUG: kernel NULL pointer dereference, address: 0000000e
+[ 1235.090426] #PF: supervisor read access in kernel mode
+[ 1235.090426] #PF: supervisor read access in kernel mode
+[ 1235.091202] #PF: error_code(0x0000) - not-present page
+[ 1235.091202] #PF: error_code(0x0000) - not-present page
+[ 1235.092244] *pde = 00000000 
+[ 1235.092244] *pde = 00000000 
+[ 1235.092820] Oops: Oops: 0000 [#12] PREEMPT SMP
+[ 1235.092820] Oops: Oops: 0000 [#12] PREEMPT SMP
+[ 1235.093671] CPU: 3 UID: 0 PID: 5137 Comm: kworker/u32:8 Tainted: G      D W          6.14.6-6.14-alt1 #1
+[ 1235.095489] Tainted: [D]=DIE, [W]=WARN
+[ 1235.096247] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[ 1235.117993] Modules linked in: virtio_rng rng_core virtio_net net_failover failover sd_mod ata_generic pata_acpi ata_piix libata scsi_mod scsi_common virtio_pci virtio_pci_legacy_dev virtio_pci_modern_dev 9pnet_virtio 9p 9pnet netfs virtio_blk virtio virtio_ring
+[ 1235.122117] CR2: 000000000000000e
+[ 1235.122759] ---[ end trace 0000000000000000 ]---
+[ 1235.123589] EIP: __io_remove_buffers+0xa0/0xe0
+[ 1235.124408] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1235.127693] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1235.128785] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1235.129939] DS: 007b ES: 007b FS: 00d8 GS: 0000 SS: 0068 EFLAGS: 00010202
+[ 1235.131181] CR0: 80050033 CR2: 0000000e CR3: 02950000 CR4: 00350ed0
+[ 1235.132290] note: kworker/u32:8[5137] exited with irqs disabled
+Test send_recv.t failed dmesg check
+[ 1235.148011] Running test send_recvmsg.t:
+Running test send_recvmsg.t                                         [ 1235.194271] BUG: kernel NULL pointer dereference, address: 0000000e
+[ 1235.195292] #PF: supervisor read access in kernel mode
+[ 1235.196092] #PF: error_code(0x0000) - not-present page
+[ 1235.196875] *pde = 00000000 
+[ 1235.197306] Oops: Oops: 0000 [#13] PREEMPT SMP
+[ 1235.197986] CPU: 2 UID: 0 PID: 5477 Comm: send_recvmsg.t Tainted: G      D W          6.14.6-6.14-alt1 #1
+[ 1235.199412] Tainted: [D]=DIE, [W]=WARN
+[ 1235.199971] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.16.3-alt3 04/01/2014
+[ 1235.201269] EIP: io_buffer_select+0x4b/0x220
+[ 1235.241347] CR2: 000000000000000e
+[ 1235.241859] ---[ end trace 0000000000000000 ]---
+[ 1235.242597] EIP: __io_remove_buffers+0xa0/0xe0
+[ 1235.243223] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1235.245982] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1235.246905] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1235.247821] DS: 007b ES: 007b FS: 00d8 GS: 0033 SS: 0068 EFLAGS: 00010202
+[ 1235.248829] CR0: 80050033 CR2: 0000000e CR3: 0e5f4000 CR4: 00350ed0
+[ 1235.249726] note: send_recvmsg.t[5477] exited with irqs disabled
+./runtests.sh: line 66:  5471 Killed                  timeout -s INT -k $TIMEOUT $TIMEOUT "${test_exec[@]}"
+Test send_recvmsg.t failed with ret 137
+[ 1355.156838] Running test send-zerocopy.t:
+Running test send-zerocopy.t                                        18 sec
+[ 1373.718739] Running test shared-wq.t:
+Running test shared-wq.t                                            0 sec
+[ 1373.730222] Running test short-read.t:
+Running test short-read.t                                           0 sec
+[ 1373.741838] Running test shutdown.t:
+Running test shutdown.t                                             0 sec
+[ 1373.752142] Running test sigfd-deadlock.t:
+Running test sigfd-deadlock.t                                       0 sec
+[ 1378.208096] Running test sq-space_left.t:
+Running test sq-space_left.t                                        0 sec
+Running test sq-space_left.t                                        0 sec
+[ 1378.218586] Running test sqwait.t:
+[ 1378.218586] Running test sqwait.t:
+Running test sqwait.t                                               0 sec
+Running test sqwait.t                                               0 sec
+[ 1378.662449] Running test stdout.t:
+[ 1378.662449] Running test stdout.t:
+Running test stdout.t                                               This is a pipe test
+Running test stdout.t                                               This is a pipe test
+This is a fixed pipe test
+This is a fixed pipe test
+0 sec
+0 sec
+[ 1378.674777] Running test submit-and-wait.t:
+[ 1378.674777] Running test submit-and-wait.t:
+Running test submit-and-wait.t                                      1 sec
+Running test submit-and-wait.t                                      1 sec
+[ 1379.685779] Running test submit-link-fail.t:
+[ 1379.685779] Running test submit-link-fail.t:
+Running test submit-link-fail.t                                     0 sec
+Running test submit-link-fail.t                                     0 sec
+[ 1379.697862] Running test submit-reuse.t:
+[ 1379.697862] Running test submit-reuse.t:
+Running test submit-reuse.t                                         1 sec
+Running test submit-reuse.t                                         1 sec
+[ 1380.037558] Running test symlink.t:
+[ 1380.037558] Running test symlink.t:
+Running test symlink.t                                              0 sec
+Running test symlink.t                                              0 sec
+[ 1380.048298] Running test sync-cancel.t:
+[ 1380.048298] Running test sync-cancel.t:
+Running test sync-cancel.t                                          0 sec
+Running test sync-cancel.t                                          0 sec
+[ 1380.200286] Running test teardowns.t:
+[ 1380.200286] Running test teardowns.t:
+Running test teardowns.t                                            0 sec
+Running test teardowns.t                                            0 sec
+[ 1380.214870] Running test thread-exit.t:
+[ 1380.214870] Running test thread-exit.t:
+Running test thread-exit.t                                          0 sec
+[ 1235.122759] ---[ end trace 0000000000000000 ]---
+[ 1235.123589] EIP: __io_remove_buffers+0xa0/0xe0
+[ 1235.123589] EIP: __io_remove_buffers+0xa0/0xe0
+[ 1235.124408] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1235.124408] Code: f0 83 c4 08 5b 5e 89 f8 5f 5d 31 d2 31 c9 c3 8d 76 00 83 c4 08 31 ff 5b 89 f8 5e 5f 5d 31 d2 31 c9 c3 2e 8d b4 26 00 00 00 00 <0f> b7 78 0e 8d 52 14 0f b7 42 fa 29 c7 89 f0 e8 3c 35 01 00 0f b7
+[ 1235.127693] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1235.127693] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1235.127693] EAX: 00000000 EBX: c3d3cc00 ECX: ffffffff EDX: c3d3cc00
+[ 1235.128785] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1235.128785] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1235.128785] ESI: c3c85c00 EDI: c3c85cd0 EBP: c5c87cf8 ESP: c5c87ce4
+[ 1235.129939] DS: 007b ES: 007b FS: 00d8 GS: 0000 SS: 0068 EFLAGS: 00010202
+[ 1235.129939] DS: 007b ES: 007b FS: 00d8 GS: 0000 SS: 0068 EFLAGS: 00010202
+[ 1235.129939] DS: 007b ES: 007b FS: 00d8 GS: 0000 SS: 0068 EFLAGS: 00010202
+[ 1235.131181] CR0: 80050033 CR2: 0000000e CR3: 02950000 CR4: 00350ed0
+[ 1235.131181] CR0: 80050033 CR2: 0000000e CR3: 02950000 CR4: 00350ed0
+[ 1235.131181] CR0: 80050033 CR2: 0000000e CR3: 02950000 CR4: 00350ed0
+[ 1235.132290] note: kworker/u32:8[5137] exited with irqs disabled
+[ 1235.132290] note: kworker/u32:8[5137] exited with irqs disabled
+[ 1235.132290] note: kworker/u32:8[5137] exited with irqs disabled
+[ 1235.132290] note: kworker/u32:8[5137] exited with irqs disabled
+Tests timed out (1): <recvsend_bundle-inc.t>
+Tests timed out (1): <recvsend_bundle-inc.t>
+Tests timed out (1): <recvsend_bundle-inc.t>
+Tests timed out (1): <recvsend_bundle-inc.t>
+Test run complete, kernel: 6.14.6-6.14-alt1 #1 SMP PREEMPT_DYNAMIC Fri May  9 12:13:24 UTC 2025
+Test run complete, kernel: 6.14.6-6.14-alt1 #1 SMP PREEMPT_DYNAMIC Fri May  9 12:13:24 UTC 2025
+Test run complete, kernel: 6.14.6-6.14-alt1 #1 SMP PREEMPT_DYNAMIC Fri May  9 12:13:24 UTC 2025
+Test run complete, kernel: 6.14.6-6.14-alt1 #1 SMP PREEMPT_DYNAMIC Fri May  9 12:13:24 UTC 2025
+Tests failed (13): <buf-ring.t> <buf-ring-nommap.t> <init-mem.t> <poll-race-mshot.t> <read-inc-file.t> <read-mshot.t> <read-mshot-empty.t> <reg-wait.t> <ringbuf-read.t> <ringbuf-status.t> <recvsend_bundle.t> <send_recv.t> <send_recvmsg.t>
+Tests failed (13): <buf-ring.t> <buf-ring-nommap.t> <init-mem.t> <poll-race-mshot.t> <read-inc-file.t> <read-mshot.t> <read-mshot-empty.t> <reg-wait.t> <ringbuf-read.t> <ringbuf-status.t> <recvsend_bundle.t> <send_recv.t> <send_recvmsg.t>
+Tests failed (13): <buf-ring.t> <buf-ring-nommap.t> <init-mem.t> <poll-race-mshot.t> <read-inc-file.t> <read-mshot.t> <read-mshot-empty.t> <reg-wait.t> <ringbuf-read.t> <ringbuf-status.t> <recvsend_bundle.t> <send_recv.t> <send_recvmsg.t>
+Tests failed (13): <buf-ring.t> <buf-ring-nommap.t> <init-mem.t> <poll-race-mshot.t> <read-inc-file.t> <read-mshot.t> <read-mshot-empty.t> <reg-wait.t> <ringbuf-read.t> <ringbuf-status.t> <recvsend_bundle.t> <send_recv.t> <send_recvmsg.t>
+make[1]: *** [Makefile:322: runtests] Error 1
+make[1]: *** [Makefile:322: runtests] Error 1
+make[1]: *** [Makefile:322: runtests] Error 1
+make[1]: *** [Makefile:322: runtests] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9/test'
+make: *** [Makefile:20: runtests] Error 2
+make: *** [Makefile:20: runtests] Error 2
+make: *** [Makefile:20: runtests] Error 2
+make: *** [Makefile:20: runtests] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9'
+make: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9'
+make: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9'
+make: Leaving directory '/usr/src/RPM/BUILD/liburing-2.9'
+60.77user 79.90system 23:23.96elapsed 10%CPU (0avgtext+0avgdata 1024300maxresident)k
+60.77user 79.90system 23:23.96elapsed 10%CPU (0avgtext+0avgdata 1024300maxresident)k
+60.77user 79.90system 23:23.96elapsed 10%CPU (0avgtext+0avgdata 1024300maxresident)k
+60.77user 79.90system 23:23.96elapsed 10%CPU (0avgtext+0avgdata 1024300maxresident)k
+60.77user 79.90system 23:23.96elapsed 10%CPU (0avgtext+0avgdata 1024300maxresident)k
+0inputs+0outputs (0major+10354minor)pagefaults 0swaps
+0inputs+0outputs (0major+10354minor)pagefaults 0swaps
+0inputs+0outputs (0major+10354minor)pagefaults 0swaps
+0inputs+0outputs (0major+10354minor)pagefaults 0swaps
+0inputs+0outputs (0major+10354minor)pagefaults 0swaps
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.50724 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+186.26user 113.58system 24:08.64elapsed 20%CPU (0avgtext+0avgdata 1024300maxresident)k
+186.26user 113.58system 24:08.64elapsed 20%CPU (0avgtext+0avgdata 1024300maxresident)k
+186.26user 113.58system 24:08.64elapsed 20%CPU (0avgtext+0avgdata 1024300maxresident)k
+0inputs+0outputs (0major+4486258minor)pagefaults 0swaps
+0inputs+0outputs (0major+4486258minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `liburing-2.9-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `liburing-2.9-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.54user 3.06system 24:29.98elapsed 0%CPU (0avgtext+0avgdata 133712maxresident)k
+4.54user 3.06system 24:29.98elapsed 0%CPU (0avgtext+0avgdata 133712maxresident)k
+251856inputs+0outputs (0major+245240minor)pagefaults 0swaps

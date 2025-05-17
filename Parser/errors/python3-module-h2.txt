@@ -1,0 +1,161 @@
+test/test_related_events.py .............                                [ 94%]
+test/test_rfc7838.py ...................                                 [ 95%]
+test/test_rfc8441.py .                                                   [ 95%]
+test/test_settings.py ................................                   [ 97%]
+test/test_state_machines.py ..................                           [ 99%]
+test/test_stream_reset.py .....                                          [ 99%]
+test/test_utility_functions.py ........                                  [100%]
+
+=================================== FAILURES ===================================
+_________________ TestBasicClient.test_changing_max_frame_size _________________
+  + Exception Group Traceback (most recent call last):
+  |   File "/usr/lib/python3/site-packages/_pytest/runner.py", line 341, in from_call
+  |     result: TResult | None = func()
+  |                              ^^^^^^
+  |   File "/usr/lib/python3/site-packages/_pytest/runner.py", line 242, in <lambda>
+  |     lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+  |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/pluggy/_hooks.py", line 513, in __call__
+  |     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/pluggy/_manager.py", line 120, in _hookexec
+  |     item.runtest()
+  |   File "/usr/lib/python3/site-packages/_pytest/python.py", line 1627, in runtest
+  |     self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  |   File "/usr/lib/python3/site-packages/pluggy/_hooks.py", line 513, in __call__
+  |     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/pluggy/_manager.py", line 120, in _hookexec
+  |     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/pluggy/_callers.py", line 139, in _multicall
+  |     raise exception.with_traceback(exception.__traceback__)
+  |   File "/usr/lib/python3/site-packages/pluggy/_callers.py", line 103, in _multicall
+  |     res = hook_impl.function(*args)
+  |     res = hook_impl.function(*args)
+  |           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/_pytest/python.py", line 159, in pytest_pyfunc_call
+  |   File "/usr/lib/python3/site-packages/_pytest/python.py", line 159, in pytest_pyfunc_call
+  |     result = testfunction(**testargs)
+  |     result = testfunction(**testargs)
+  |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/src/RPM/BUILD/python3-module-h2-4.1.0/test/test_basic_logic.py", line 793, in test_changing_max_frame_size
+  |   File "/usr/src/RPM/BUILD/python3-module-h2-4.1.0/test/test_basic_logic.py", line 793, in test_changing_max_frame_size
+  |     @settings(suppress_health_check=[HealthCheck.function_scoped_fixture])
+  |     @settings(suppress_health_check=[HealthCheck.function_scoped_fixture])
+  |                ^^^^^^^^^^^^^^^^^^^^^^
+  |                ^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1843, in wrapped_test
+  |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1843, in wrapped_test
+  |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1843, in wrapped_test
+  |     raise the_error_hypothesis_found
+  |     raise the_error_hypothesis_found
+  | hypothesis.errors.FlakyFailure: Hypothesis test_changing_max_frame_size(self=<test.test_basic_logic.TestBasicClient object at 0xf62f24e0>, frame_factory=<test.helpers.FrameFactory object at 0xf6142ea0>, frame_size=13315933) produces unreliable results: Falsified on the first call but did not on a subsequent one (1 sub-exception)
+  | hypothesis.errors.FlakyFailure: Hypothesis test_changing_max_frame_size(self=<test.test_basic_logic.TestBasicClient object at 0xf62f24e0>, frame_factory=<test.helpers.FrameFactory object at 0xf6142ea0>, frame_size=13315933) produces unreliable results: Falsified on the first call but did not on a subsequent one (1 sub-exception)
+  | Falsifying example: test_changing_max_frame_size(
+  | Falsifying example: test_changing_max_frame_size(
+  |     self=<test.test_basic_logic.TestBasicClient object at 0xf62f24e0>,
+  |     self=<test.test_basic_logic.TestBasicClient object at 0xf62f24e0>,
+  |     frame_factory=<test.helpers.FrameFactory object at 0xf6142ea0>,
+  |     frame_factory=<test.helpers.FrameFactory object at 0xf6142ea0>,
+  |     frame_size=13315933,
+  |     frame_size=13315933,
+  | )
+  | )
+  | Unreliable test timings! On an initial run, this test took 294.34ms, which exceeded the deadline of 200.00ms, but on a subsequent run it took 174.86 ms, which did not. If you expect this sort of variability in your test timings, consider turning deadlines off for this test by setting deadline=None.
+  | Unreliable test timings! On an initial run, this test took 294.34ms, which exceeded the deadline of 200.00ms, but on a subsequent run it took 174.86 ms, which did not. If you expect this sort of variability in your test timings, consider turning deadlines off for this test by setting deadline=None.
+  +-+---------------- 1 ----------------
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    | Traceback (most recent call last):
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1091, in _execute_once_for_engine
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1091, in _execute_once_for_engine
+    |     result = self.execute_once(data)
+    |     result = self.execute_once(data)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1028, in execute_once
+    |     result = self.test_runner(data, run)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 733, in default_executor
+    |     return function(data)
+    |            ^^^^^^^^^^^^^^
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 1000, in run
+    |     return test(*args, **kwargs)
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/src/RPM/BUILD/python3-module-h2-4.1.0/test/test_basic_logic.py", line 793, in test_changing_max_frame_size
+    |   File "/usr/src/RPM/BUILD/python3-module-h2-4.1.0/test/test_basic_logic.py", line 793, in test_changing_max_frame_size
+    |   File "/usr/src/RPM/BUILD/python3-module-h2-4.1.0/test/test_basic_logic.py", line 793, in test_changing_max_frame_size
+    |     @settings(suppress_health_check=[HealthCheck.function_scoped_fixture])
+    |     @settings(suppress_health_check=[HealthCheck.function_scoped_fixture])
+    |     @settings(suppress_health_check=[HealthCheck.function_scoped_fixture])
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 930, in test
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 930, in test
+    |   File "/usr/lib/python3/site-packages/hypothesis/core.py", line 930, in test
+    |     raise DeadlineExceeded(
+    |     raise DeadlineExceeded(
+    |     raise DeadlineExceeded(
+    | hypothesis.errors.DeadlineExceeded: Test took 294.34ms, which exceeds the deadline of 200.00ms
+    | hypothesis.errors.DeadlineExceeded: Test took 294.34ms, which exceeds the deadline of 200.00ms
+    | hypothesis.errors.DeadlineExceeded: Test took 294.34ms, which exceeds the deadline of 200.00ms
+    +------------------------------------
+    +------------------------------------
+    +------------------------------------
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED test/test_basic_logic.py::TestBasicClient::test_changing_max_frame_size
+FAILED test/test_basic_logic.py::TestBasicClient::test_changing_max_frame_size
+FAILED test/test_basic_logic.py::TestBasicClient::test_changing_max_frame_size
+FAILED test/test_basic_logic.py::TestBasicClient::test_changing_max_frame_size
+======================= 1 failed, 1432 passed in 27.82s ========================
+======================= 1 failed, 1432 passed in 27.82s ========================
+======================= 1 failed, 1432 passed in 27.82s ========================
+======================= 1 failed, 1432 passed in 27.82s ========================
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.78932 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+19.05user 8.26system 0:31.18elapsed 87%CPU (0avgtext+0avgdata 233216maxresident)k
+19.05user 8.26system 0:31.18elapsed 87%CPU (0avgtext+0avgdata 233216maxresident)k
+19.05user 8.26system 0:31.18elapsed 87%CPU (0avgtext+0avgdata 233216maxresident)k
+19.05user 8.26system 0:31.18elapsed 87%CPU (0avgtext+0avgdata 233216maxresident)k
+0inputs+0outputs (0major+3372710minor)pagefaults 0swaps
+0inputs+0outputs (0major+3372710minor)pagefaults 0swaps
+0inputs+0outputs (0major+3372710minor)pagefaults 0swaps
+0inputs+0outputs (0major+3372710minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-h2-4.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-h2-4.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-h2-4.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-h2-4.1.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.81user 3.34system 0:49.48elapsed 16%CPU (0avgtext+0avgdata 133948maxresident)k
+4.81user 3.34system 0:49.48elapsed 16%CPU (0avgtext+0avgdata 133948maxresident)k
+0inputs+0outputs (0major+321566minor)pagefaults 0swaps

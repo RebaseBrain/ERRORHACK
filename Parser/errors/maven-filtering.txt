@@ -1,0 +1,119 @@
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf maven-filtering-3.2.0
++ rm -rf maven-filtering-3.2.0
++ echo 'Source #0 (maven-filtering-3.2.0-source-release.zip):'
++ echo 'Source #0 (maven-filtering-3.2.0-source-release.zip):'
+Source #0 (maven-filtering-3.2.0-source-release.zip):
+Source #0 (maven-filtering-3.2.0-source-release.zip):
++ /usr/bin/unzip -qq /usr/src/RPM/SOURCES/maven-filtering-3.2.0-source-release.zip
++ /usr/bin/unzip -qq /usr/src/RPM/SOURCES/maven-filtering-3.2.0-source-release.zip
++ cd maven-filtering-3.2.0
++ cd maven-filtering-3.2.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (0001-Skip-failed-tests.patch):'
++ echo 'Patch #1 (0001-Skip-failed-tests.patch):'
+Patch #1 (0001-Skip-failed-tests.patch):
+Patch #1 (0001-Skip-failed-tests.patch):
++ /usr/bin/patch -p1
++ /usr/bin/patch -p1
+patching file src/test/java/org/apache/maven/shared/filtering/IncrementalResourceFilteringTest.java
+patching file src/test/java/org/apache/maven/shared/filtering/IncrementalResourceFilteringTest.java
++ exit 0
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.25714
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.25714
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd maven-filtering-3.2.0
++ cd maven-filtering-3.2.0
++ /usr/bin/python3 /usr/share/java-utils/mvn_build.py --xmvn-javadoc -- -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8 -Dmaven.javadoc.source=1.8 -Dmaven.compiler.release=8
++ /usr/bin/python3 /usr/share/java-utils/mvn_build.py --xmvn-javadoc -- -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8 -Dmaven.javadoc.source=1.8 -Dmaven.compiler.release=8
+Executing: xmvn --batch-mode --offline -Dmaven.compiler.source=1.8 -Dmaven.compiler.target=1.8 -Dmaven.javadoc.source=1.8 -Dmaven.compiler.release=8 verify org.fedoraproject.xmvn:xmvn-mojo:install org.fedoraproject.xmvn:xmvn-mojo:javadoc org.fedoraproject.xmvn:xmvn-mojo:builddep
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-filtering ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /usr/src/RPM/BUILD/maven-filtering-3.2.0/target/test-classes
+[INFO] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/StubMavenSession.java: /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/StubMavenSession.java uses or overrides a deprecated API.
+[INFO] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/StubMavenSession.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[23,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[36,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[37,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEndingTest.java:[23,26] package org.mockito does not exist
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Maven Filtering
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.938 s
+[INFO] Finished at: 2025-05-16T03:50:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-filtering: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[23,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[24,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[24,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[25,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[25,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[36,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/AbstractInterpolatorFilterReaderLineEndingTest.java:[37,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEndingTest.java:[23,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEndingTest.java:[23,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-filtering-3.2.0/src/test/java/org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEndingTest.java:[115,71] cannot find symbol
+[ERROR]   symbol:   method isA(java.lang.Class<org.codehaus.plexus.interpolation.RecursionInterceptor>)
+[ERROR]   location: class org.apache.maven.shared.filtering.MultiDelimiterInterpolatorFilterReaderLineEndingTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.25714 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.25714 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.25714 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.25714 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+14.75user 1.14system 0:02.88elapsed 552%CPU (0avgtext+0avgdata 518924maxresident)k
+14.75user 1.14system 0:02.88elapsed 552%CPU (0avgtext+0avgdata 518924maxresident)k
+0inputs+0outputs (0major+101016minor)pagefaults 0swaps
+0inputs+0outputs (0major+101016minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-filtering-3.2.0-alt1_3jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-filtering-3.2.0-alt1_3jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.06user 2.88system 0:21.04elapsed 47%CPU (0avgtext+0avgdata 142300maxresident)k
+7.06user 2.88system 0:21.04elapsed 47%CPU (0avgtext+0avgdata 142300maxresident)k
+808inputs+0outputs (0major+278959minor)pagefaults 0swaps

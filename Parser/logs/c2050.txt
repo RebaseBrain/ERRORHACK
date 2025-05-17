@@ -1,0 +1,86 @@
+<86>May 16 00:03:30 userdel[3360053]: delete user 'rooter'
+<86>May 16 00:03:30 userdel[3360053]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:03:30 userdel[3360053]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:03:30 groupadd[3360068]: group added to /etc/group: name=rooter, GID=1223
+<86>May 16 00:03:30 groupadd[3360068]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:03:30 groupadd[3360068]: new group: name=rooter, GID=1223
+<86>May 16 00:03:30 useradd[3360082]: new user: name=rooter, UID=1223, GID=1223, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:03:30 userdel[3360105]: delete user 'builder'
+<86>May 16 00:03:30 userdel[3360105]: removed group 'builder' owned by 'builder'
+<86>May 16 00:03:30 userdel[3360105]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:03:30 groupadd[3360122]: group added to /etc/group: name=builder, GID=1224
+<86>May 16 00:03:30 groupadd[3360122]: group added to /etc/gshadow: name=builder
+<86>May 16 00:03:30 groupadd[3360122]: new group: name=builder, GID=1224
+<86>May 16 00:03:30 useradd[3360133]: new user: name=builder, UID=1224, GID=1224, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/c2050-0.4-alt1.qa1.src.rpm: The use of such a license name is ambiguous: GPL
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/c2050-0.4-alt1.qa1.nosrc.rpm (w1.gzdio)
+Installing c2050-0.4-alt1.qa1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.54651
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf c2050-0.4
++ echo 'Source #0 (c2050-0.4.tar):'
+Source #0 (c2050-0.4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/c2050-0.4.tar
++ cd c2050-0.4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #0 (c2050-0.3-mdk-looplimits.patch):'
+Patch #0 (c2050-0.3-mdk-looplimits.patch):
++ /usr/bin/patch -p1
+patching file c2050.c
+Hunk #1 succeeded at 129 (offset 12 lines).
+Hunk #2 succeeded at 166 with fuzz 1 (offset 10 lines).
+Hunk #3 succeeded at 299 with fuzz 1 (offset 15 lines).
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.54651
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd c2050-0.4
++ make 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+make: Entering directory '/usr/src/RPM/BUILD/c2050-0.4'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c c2050.c
+c2050.c: In function 'ClearBuffer':
+c2050.c:65:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+   65 |   register i;
+      |            ^
+c2050.c: At top level:
+c2050.c:72:1: error: return type defaults to 'int' [-Wimplicit-int]
+   72 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+      | ^~~~~~~~~~~~~~~~
+c2050.c: In function 'PrintSweep':
+c2050.c:149:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  149 |   register i;
+      |            ^
+c2050.c: In function 'LineSum':
+c2050.c:178:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  178 |   register i = 0;
+      |            ^
+c2050.c: In function 'LexPrint':
+c2050.c:371:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+  371 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+c2050.c: In function 'SweepBuffer_Init':
+c2050.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+   80 | } /* SweepBuffer_Init */
+      | ^
+make: *** [Makefile:24: c2050.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/c2050-0.4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.54651 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.54651 (%build)
+Command exited with non-zero status 1
+0.03user 0.03system 0:00.07elapsed 105%CPU (0avgtext+0avgdata 17668maxresident)k
+0inputs+0outputs (0major+7689minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `c2050-0.4-alt1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+0.80user 1.37system 0:03.93elapsed 55%CPU (0avgtext+0avgdata 12236maxresident)k
+0inputs+0outputs (0major+84516minor)pagefaults 0swaps

@@ -1,0 +1,224 @@
++ make -j8 'LIBS=-lz -lbz2 -lcrypt -lcrypto'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/zlib.c` -o zlib.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/bz2lib.c` -o bz2lib.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/crypt.c` -o crypt.o
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/crypt.c` -o crypt.o
+./generic/crypt.c: In function 'TrfCryptObjCmd':
+./generic/crypt.c: In function 'TrfCryptObjCmd':
+./generic/crypt.c:96:35: error: implicit declaration of function 'crypt' [-Wimplicit-function-declaration]
+./generic/crypt.c:96:35: error: implicit declaration of function 'crypt' [-Wimplicit-function-declaration]
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+      |                                   ^~~~~
+      |                                   ^~~~~
+      |                                   ^~~~~
+./generic/crypt.c:96:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+./generic/crypt.c:96:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+./generic/crypt.c:96:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+      |                           ^
+      |                           ^
+      |                           ^
+      |                           ^
+make: *** [Makefile:260: crypt.o] Error 1
+make: *** [Makefile:260: crypt.o] Error 1
+make: *** [Makefile:260: crypt.o] Error 1
+make: *** [Makefile:260: crypt.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+./generic/loadman.c: In function 'TrfLoadMD2':
+./generic/loadman.c: In function 'TrfLoadMD2':
+./generic/loadman.c: In function 'TrfLoadMD2':
+./generic/loadman.c: In function 'TrfLoadMD2':
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+  139 |   md2f.init   = MD2_Init;
+  139 |   md2f.init   = MD2_Init;
+  139 |   md2f.init   = MD2_Init;
+  139 |   md2f.init   = MD2_Init;
+  139 |   md2f.init   = MD2_Init;
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+  140 |   md2f.update = MD2_Update;
+  140 |   md2f.update = MD2_Update;
+  140 |   md2f.update = MD2_Update;
+  140 |   md2f.update = MD2_Update;
+  140 |   md2f.update = MD2_Update;
+  140 |   md2f.update = MD2_Update;
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+  141 |   md2f.final  = MD2_Final;
+  141 |   md2f.final  = MD2_Final;
+  141 |   md2f.final  = MD2_Final;
+  141 |   md2f.final  = MD2_Final;
+  141 |   md2f.final  = MD2_Final;
+  141 |   md2f.final  = MD2_Final;
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+  247 |   sha1f.init   = SHA1_Init;
+  247 |   sha1f.init   = SHA1_Init;
+  247 |   sha1f.init   = SHA1_Init;
+  247 |   sha1f.init   = SHA1_Init;
+  247 |   sha1f.init   = SHA1_Init;
+      |                ^
+      |                ^
+      |                ^
+      |                ^
+      |                ^
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+  248 |   sha1f.update = SHA1_Update;
+  248 |   sha1f.update = SHA1_Update;
+  248 |   sha1f.update = SHA1_Update;
+  248 |   sha1f.update = SHA1_Update;
+      |                ^
+      |                ^
+      |                ^
+      |                ^
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+  249 |   sha1f.final  = SHA1_Final;
+  249 |   sha1f.final  = SHA1_Final;
+  249 |   sha1f.final  = SHA1_Final;
+  249 |   sha1f.final  = SHA1_Final;
+      |                ^
+      |                ^
+      |                ^
+      |                ^
+./generic/loadman.c: At top level:
+./generic/loadman.c: At top level:
+./generic/loadman.c: At top level:
+./generic/loadman.c: At top level:
+./generic/loadman.c:109:24: warning: 'ssl' defined but not used [-Wunused-variable]
+./generic/loadman.c:109:24: warning: 'ssl' defined but not used [-Wunused-variable]
+./generic/loadman.c:109:24: warning: 'ssl' defined but not used [-Wunused-variable]
+./generic/loadman.c:109:24: warning: 'ssl' defined but not used [-Wunused-variable]
+  109 | static sslLibFunctions ssl; /* THREADING: serialize initialization */
+  109 | static sslLibFunctions ssl; /* THREADING: serialize initialization */
+  109 | static sslLibFunctions ssl; /* THREADING: serialize initialization */
+      |                        ^~~
+      |                        ^~~
+      |                        ^~~
+./generic/loadman.c:57:14: warning: 'ssl_symbols' defined but not used [-Wunused-variable]
+./generic/loadman.c:57:14: warning: 'ssl_symbols' defined but not used [-Wunused-variable]
+./generic/loadman.c:57:14: warning: 'ssl_symbols' defined but not used [-Wunused-variable]
+   57 | static char* ssl_symbols [] = {
+   57 | static char* ssl_symbols [] = {
+      |              ^~~~~~~~~~~
+      |              ^~~~~~~~~~~
+make: *** [Makefile:260: loadman.o] Error 1
+make: *** [Makefile:260: loadman.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/init.c` -o init.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/load.c` -o load.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/convert.c` -o convert.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/registry.c` -o registry.o
+./generic/registry.c: In function 'TrfSeek':
+./generic/registry.c:1837:15: warning: variable 'parent' set but not used [-Wunused-but-set-variable]
+ 1837 |   Tcl_Channel parent;
+      |               ^~~~~~
+./generic/registry.c: In function 'DownSeek':
+./generic/registry.c:3401:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 3401 |     Tcl_ChannelType*    parentType     = Tcl_GetChannelType  (parent);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          ^~~~~~~~~~~~~~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.81user 1.59system 0:04.53elapsed 119%CPU (0avgtext+0avgdata 49072maxresident)k
+3.81user 1.59system 0:04.53elapsed 119%CPU (0avgtext+0avgdata 49072maxresident)k
+0inputs+0outputs (0major+410760minor)pagefaults 0swaps
+0inputs+0outputs (0major+410760minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tcl-trf-2.1.4-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `tcl-trf-2.1.4-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.39user 2.12system 0:15.38elapsed 48%CPU (0avgtext+0avgdata 144284maxresident)k
+5.39user 2.12system 0:15.38elapsed 48%CPU (0avgtext+0avgdata 144284maxresident)k
+2208inputs+0outputs (0major+197755minor)pagefaults 0swaps

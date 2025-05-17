@@ -1,0 +1,98 @@
+-- Performing Test SUPPORTS_OPENMP - Success
+CMake Deprecation Warning at src/projectM-test/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at src/projectM-test/CMakeLists.txt:3 (cmake_policy):
+  Policy CMP0005 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0005 for more information.
+
+
+CMake Warning (dev) at /usr/share/cmake/Modules/CPack.cmake:796 (option):
+-- Found SDL: /usr/lib64/libSDLmain.a;/usr/lib64/libSDL.so (found version "1.2.14")
+CMake Deprecation Warning at src/projectM-libvisual/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at src/projectM-libvisual/CMakeLists.txt:9 (cmake_policy):
+  Policy CMP0005 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0005 for more information.
+
+
+CMake Warning (dev) at /usr/share/cmake/Modules/FindOpenGL.cmake:415 (message):
+-- [projectM-libvisual] libvisual detected.
+CMake Deprecation Warning at src/NativePresets/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at src/NativePresets/CMakeLists.txt:3 (cmake_policy):
+  Policy CMP0005 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+  and use of NEW behavior is now required.
+
+
+  Please either update your CMakeLists.txt files to conform to the new
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0005 for more information.
+  behavior.  Run cmake --help-policy CMP0005 for more information.
+
+
+
+
+-- [NativePresets] projectM detected.
+-- [NativePresets] projectM detected.
+-- [NativePresets] projectM detected.
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85618 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85618 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.85618 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85618 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.27user 0.76system 0:02.00elapsed 101%CPU (0avgtext+0avgdata 23960maxresident)k
+1.27user 0.76system 0:02.00elapsed 101%CPU (0avgtext+0avgdata 23960maxresident)k
+0inputs+0outputs (0major+96377minor)pagefaults 0swaps
+0inputs+0outputs (0major+96377minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libprojectM-2.1.0-alt17.src.rpm' failed.
+hsh-rebuild: rebuild of `libprojectM-2.1.0-alt17.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.73user 3.21system 0:25.09elapsed 31%CPU (0avgtext+0avgdata 140500maxresident)k
+4.73user 3.21system 0:25.09elapsed 31%CPU (0avgtext+0avgdata 140500maxresident)k
+288inputs+0outputs (0major+251462minor)pagefaults 0swaps

@@ -1,0 +1,77 @@
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o rbtree.o rbtree.c
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o util.o util.c
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o run_dedupe.o run_dedupe.c
+run_dedupe.c: In function 'add_shared_extents_post':
+run_dedupe.c: In function 'add_shared_extents_post':
+run_dedupe.c:161:44: error: passing argument 4 of 'fiemap_count_shared' from incompatible pointer type [-Wincompatible-pointer-types]
+run_dedupe.c:161:44: error: passing argument 4 of 'fiemap_count_shared' from incompatible pointer type [-Wincompatible-pointer-types]
+  161 |                                            &bytes);
+  161 |                                            &bytes);
+      |                                            ^~~~~~
+      |                                            ^~~~~~
+      |                                            |
+      |                                            |
+      |                                            uint64_t * {aka long long unsigned int *}
+      |                                            uint64_t * {aka long long unsigned int *}
+In file included from run_dedupe.c:42:
+In file included from run_dedupe.c:42:
+fiemap.h:29:75: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+fiemap.h:29:75: note: expected 'size_t *' {aka 'unsigned int *'} but argument is of type 'uint64_t *' {aka 'long long unsigned int *'}
+   29 | int fiemap_count_shared(int fd, size_t start_off, size_t end_off, size_t *shared);
+   29 | int fiemap_count_shared(int fd, size_t start_off, size_t end_off, size_t *shared);
+      |                                                                   ~~~~~~~~^~~~~~
+      |                                                                   ~~~~~~~~^~~~~~
+make: *** [<builtin>: run_dedupe.o] Error 1
+make: *** [<builtin>: run_dedupe.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o duperemove.o duperemove.c
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o filerec.o filerec.c
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o list_sort.o list_sort.c
+dbfile.c:1143:98: note: format string is defined here
+ 1143 |                 dprintf("dbfile_load_one_filerec: no file found in hashdb: ino = %lu, subvol = %lu\n", ino, subvol);
+      |                                                                                                ~~^
+      |                                                                                                  |
+      |                                                                                                  long unsigned int
+      |                                                                                                %llu
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Entering directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o csum.o csum.c
+cc -Wall -ggdb -O2 --std=gnu2x -D_FILE_OFFSET_BITS=64 -DVERSTRING=\"\" -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  -rdynamic  -I/usr/include/blkid -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -DIS_RELEASE=1   -c -o csum.o csum.c
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+make: Leaving directory '/usr/src/RPM/BUILD/duperemove-0.14.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.40998 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.35user 0.51system 0:02.51elapsed 233%CPU (0avgtext+0avgdata 41272maxresident)k
+5.35user 0.51system 0:02.51elapsed 233%CPU (0avgtext+0avgdata 41272maxresident)k
+0inputs+0outputs (0major+107033minor)pagefaults 0swaps
+0inputs+0outputs (0major+107033minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `duperemove-0.14.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `duperemove-0.14.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.29user 2.71system 0:19.20elapsed 52%CPU (0avgtext+0avgdata 136220maxresident)k
+7.29user 2.71system 0:19.20elapsed 52%CPU (0avgtext+0avgdata 136220maxresident)k
+3272inputs+0outputs (0major+267005minor)pagefaults 0swaps

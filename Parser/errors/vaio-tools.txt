@@ -1,0 +1,119 @@
++ for i in jogdiald-0.2.4 spicctrl-1.2 atitvout sonypid
++ make -j16 -C spicctrl-1.2
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/spicctrl-1.2'
+gcc -Wall -Wstrict-prototypes -O2 -pipe    spicctrl.c   -o spicctrl
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/spicctrl-1.2'
++ for i in jogdiald-0.2.4 spicctrl-1.2 atitvout sonypid
++ make -j16 -C atitvout
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o mach64.o mach64.c
+mach64.c: In function 'mach64_detect_attached_displays':
+mach64.c:28:5: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   28 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+   24 | #include "vbecall.h"
+  +++ |+#include <string.h>
+   25 | 
+mach64.c:28:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   28 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:28:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_get_tvout_standard':
+mach64.c:98:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   98 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+mach64.c:98:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c: In function 'mach64_set_tvout_standard':
+mach64.c:112:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+mach64.c:112:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  112 |     memset(&r, 0, sizeof(r));
+  112 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+      |     ^~~~~~
+mach64.c:112:5: note: include '<string.h>' or provide a declaration of 'memset'
+mach64.c:112:5: note: include '<string.h>' or provide a declaration of 'memset'
+make: *** [<builtin>: mach64.o] Error 1
+make: *** [<builtin>: mach64.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o radeon.o radeon.c
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o radeon.o radeon.c
+radeon.c: In function 'radeon_detect_attached_displays':
+radeon.c: In function 'radeon_detect_attached_displays':
+radeon.c:32:5: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+radeon.c:32:5: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   32 |     memset(&r, 0, sizeof(r));
+   32 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+      |     ^~~~~~
+radeon.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+   24 | #include "vbecall.h"
+   24 | #include "vbecall.h"
+  +++ |+#include <string.h>
+   25 | 
+radeon.c:32:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+   32 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:32:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_get_tvout_standard':
+radeon.c:123:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  123 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:123:5: note: include '<string.h>' or provide a declaration of 'memset'
+radeon.c: In function 'radeon_set_tvout_standard':
+radeon.c:160:5: warning: incompatible implicit declaration of built-in function 'memset' [-Wbuiltin-declaration-mismatch]
+  160 |     memset(&r, 0, sizeof(r));
+      |     ^~~~~~
+radeon.c:160:5: note: include '<string.h>' or provide a declaration of 'memset'
+make: *** [<builtin>: radeon.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o ati.o ati.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o vbecall.o vbecall.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Entering directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+cc -Wall -O2 -g -DVERSION=\"0.4\" -I./lrmi-0.6   -c -o vbeinfo.o vbeinfo.c
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+atitvout.c:206:56: warning: pointer targets in passing argument 2 of 'radeon_get_tvout_config' differ in signedness [-Wpointer-sign]
+  206 |                 if ((r = radeon_get_tvout_config(&rev, &freq)) < 0)
+      |                                                        ^~~~~
+      |                                                        |
+      |                                                        unsigned int *
+In file included from atitvout.c:31:
+radeon.h:27:49: note: expected 'int *' but argument is of type 'unsigned int *'
+   27 | int radeon_get_tvout_config(unsigned *rev, int *freq);
+      |                                            ~~~~~^~~~
+      |                                            ~~~~~^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+make: Leaving directory '/usr/src/RPM/BUILD/vaio-tools-0.0.1/atitvout'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.30066 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.54user 0.19system 0:00.47elapsed 155%CPU (0avgtext+0avgdata 26024maxresident)k
+0.54user 0.19system 0:00.47elapsed 155%CPU (0avgtext+0avgdata 26024maxresident)k
+0inputs+0outputs (0major+41392minor)pagefaults 0swaps
+0inputs+0outputs (0major+41392minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `vaio-tools-0.0.1-alt8.3.src.rpm' failed.
+hsh-rebuild: rebuild of `vaio-tools-0.0.1-alt8.3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.48user 2.88system 0:10.84elapsed 58%CPU (0avgtext+0avgdata 132240maxresident)k
+3.48user 2.88system 0:10.84elapsed 58%CPU (0avgtext+0avgdata 132240maxresident)k
+280inputs+0outputs (0major+189377minor)pagefaults 0swaps

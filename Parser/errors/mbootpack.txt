@@ -1,0 +1,56 @@
+      |                 ^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+sh ./mkhex bzimage_bootsect bootsect > bzimage_header.c
+sh ./mkhex bzimage_bootsect bootsect > bzimage_header.c
+sh ./mkhex bzimage_setup setup >> bzimage_header.c
+sh ./mkhex bzimage_setup setup >> bzimage_header.c
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Entering directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wp,-MD,buildimage.o.d -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -c buildimage.c -o buildimage.o
+gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -Wp,-MD,buildimage.o.d -I. -I- -DVERSION=\"0.6a\" -DHAVE_ZLIB -c buildimage.c -o buildimage.o
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+cc1: note: obsolete option '-I-' used, please use '-iquote' instead
+virtual memory exhausted: Cannot allocate memory
+virtual memory exhausted: Cannot allocate memory
+make: *** [Makefile:77: buildimage.o] Error 1
+make: *** [Makefile:77: buildimage.o] Error 1
+make: *** [Makefile:77: buildimage.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+make: Leaving directory '/usr/src/RPM/BUILD/mbootpack-0.6a'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42964 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+186.93user 24.27system 2:10.89elapsed 161%CPU (0avgtext+0avgdata 3325968maxresident)k
+186.93user 24.27system 2:10.89elapsed 161%CPU (0avgtext+0avgdata 3325968maxresident)k
+186.93user 24.27system 2:10.89elapsed 161%CPU (0avgtext+0avgdata 3325968maxresident)k
+0inputs+0outputs (0major+438512minor)pagefaults 0swaps
+0inputs+0outputs (0major+438512minor)pagefaults 0swaps
+0inputs+0outputs (0major+438512minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `mbootpack-0.6a-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `mbootpack-0.6a-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `mbootpack-0.6a-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.89user 2.23system 2:20.81elapsed 5%CPU (0avgtext+0avgdata 133420maxresident)k
+4.89user 2.23system 2:20.81elapsed 5%CPU (0avgtext+0avgdata 133420maxresident)k
+320inputs+0outputs (0major+182700minor)pagefaults 0swaps

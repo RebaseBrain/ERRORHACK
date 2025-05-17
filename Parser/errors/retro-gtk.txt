@@ -1,0 +1,98 @@
+[34/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-core-view.c.o
+[35/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-core-view-controller.c.o
+[36/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-gl-display.c.o
+[37/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-log.c.o
+[37/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-log.c.o
+[38/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-module-iterator.c.o
+[38/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-module-iterator.c.o
+[39/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-module-query.c.o
+[39/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-module-query.c.o
+[40/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-option.c.o
+[40/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-option.c.o
+[41/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-option-iterator.c.o
+[41/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-option-iterator.c.o
+[42/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-pixbuf.c.o
+[42/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-pixbuf.c.o
+[43/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o
+[43/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o
+FAILED: retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o 
+FAILED: retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o 
+cc -Iretro-gtk/libretro-gtk-1.so.0.p -Iretro-gtk -I../retro-gtk -I. -I.. -Ishared -I../shared -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC -pthread -DRETRO_GTK_COMPILATION '-DG_LOG_DOMAIN="Retro"' '-DRETRO_PLUGIN_PATH="/usr/lib/libretro:/usr/lib"' -MD -MQ retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o -MF retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o.d -o retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o -c ../retro-gtk/retro-core.c
+cc -Iretro-gtk/libretro-gtk-1.so.0.p -Iretro-gtk -I../retro-gtk -I. -I.. -Ishared -I../shared -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fPIC -pthread -DRETRO_GTK_COMPILATION '-DG_LOG_DOMAIN="Retro"' '-DRETRO_PLUGIN_PATH="/usr/lib/libretro:/usr/lib"' -MD -MQ retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o -MF retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o.d -o retro-gtk/libretro-gtk-1.so.0.p/retro-core.c.o -c ../retro-gtk/retro-core.c
+../retro-gtk/retro-core.c: In function ‘retro_core_get_memory_size’:
+../retro-gtk/retro-core.c: In function ‘retro_core_get_memory_size’:
+../retro-gtk/retro-core.c:1540:66: error: passing argument 3 of ‘ipc_runner_call_get_memory_size_sync’ from incompatible pointer type [-Wincompatible-pointer-types]
+../retro-gtk/retro-core.c:1540:66: error: passing argument 3 of ‘ipc_runner_call_get_memory_size_sync’ from incompatible pointer type [-Wincompatible-pointer-types]
+ 1540 |   if (!ipc_runner_call_get_memory_size_sync (proxy, memory_type, &size,
+ 1540 |   if (!ipc_runner_call_get_memory_size_sync (proxy, memory_type, &size,
+      |                                                                  ^~~~~
+      |                                                                  ^~~~~
+      |                                                                  |
+      |                                                                  |
+      |                                                                  gsize * {aka unsigned int *}
+      |                                                                  gsize * {aka unsigned int *}
+In file included from ../retro-gtk/retro-runner-process-private.h:7,
+In file included from ../retro-gtk/retro-runner-process-private.h:7,
+                 from ../retro-gtk/retro-core.c:29:
+                 from ../retro-gtk/retro-core.c:29:
+shared/ipc-runner-private.h:485:14: note: expected ‘guint64 *’ {aka ‘long long unsigned int *’} but argument is of type ‘gsize *’ {aka ‘unsigned int *’}
+shared/ipc-runner-private.h:485:14: note: expected ‘guint64 *’ {aka ‘long long unsigned int *’} but argument is of type ‘gsize *’ {aka ‘unsigned int *’}
+  485 |     guint64 *out_size,
+      |     ~~~~~~~~~^~~~~~~~
+[44/77] Compiling C object retro-gtk/libretro-gtk-1.so.0.p/retro-pixdata.c.o
+[49/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-controller-codes.c.o
+[50/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-controller-state.c.o
+[50/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-controller-state.c.o
+[51/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-controller-type.c.o
+[51/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-controller-type.c.o
+[52/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-debug.c.o
+[52/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-debug.c.o
+[53/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-framebuffer.c.o
+[53/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-framebuffer.c.o
+[54/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-input.c.o
+[54/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-input.c.o
+[55/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-memfd.c.o
+[55/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-memfd.c.o
+[56/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-pixel-format.c.o
+[56/77] Compiling C object retro-runner/retro-runner.p/.._shared_retro-pixel-format.c.o
+[57/77] Compiling C object retro-runner/retro-runner.p/ipc-runner-impl.c.o
+[57/77] Compiling C object retro-runner/retro-runner.p/ipc-runner-impl.c.o
+[58/77] Compiling C object retro-runner/retro-runner.p/retro-runner.c.o
+[58/77] Compiling C object retro-runner/retro-runner.p/retro-runner.c.o
+[58/77] Compiling C object retro-runner/retro-runner.p/retro-runner.c.o
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23938 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+14.99user 4.45system 0:06.97elapsed 278%CPU (0avgtext+0avgdata 69612maxresident)k
+14.99user 4.45system 0:06.97elapsed 278%CPU (0avgtext+0avgdata 69612maxresident)k
+14.99user 4.45system 0:06.97elapsed 278%CPU (0avgtext+0avgdata 69612maxresident)k
+0inputs+0outputs (0major+809709minor)pagefaults 0swaps
+0inputs+0outputs (0major+809709minor)pagefaults 0swaps
+0inputs+0outputs (0major+809709minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `retro-gtk-1.0.2-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `retro-gtk-1.0.2-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `retro-gtk-1.0.2-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.48user 4.57system 1:31.35elapsed 15%CPU (0avgtext+0avgdata 133632maxresident)k
+9.48user 4.57system 1:31.35elapsed 15%CPU (0avgtext+0avgdata 133632maxresident)k
+2560inputs+0outputs (0major+377856minor)pagefaults 0swaps

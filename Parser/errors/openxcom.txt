@@ -1,0 +1,56 @@
+Hunk #1 succeeded at 42 with fuzz 2 (offset 7 lines).
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.14890
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd openxcom-1.0_2025.03.29
++ cmake --debug-output -D CMAKE_INSTALL_PREFIX=/usr -D 'CMAKE_CXX_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -D 'CMAKE_C_FLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' CMakeLists.txt
+Running with debug output on.
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-1.0_2025.03.29/CMakeLists.txt
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-1.0_2025.03.29/CMakeLists.txt
+   Called from: [1]	/usr/src/RPM/BUILD/openxcom-1.0_2025.03.29/CMakeLists.txt
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14890 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.14890 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.14890 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.14890 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 18688maxresident)k
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 18688maxresident)k
+0inputs+0outputs (0major+9894minor)pagefaults 0swaps
+0inputs+0outputs (0major+9894minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `openxcom-1.0_2025.03.29-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `openxcom-1.0_2025.03.29-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.17user 2.90system 0:16.40elapsed 43%CPU (0avgtext+0avgdata 142396maxresident)k
+4.17user 2.90system 0:16.40elapsed 43%CPU (0avgtext+0avgdata 142396maxresident)k
+384inputs+0outputs (0major+247299minor)pagefaults 0swaps

@@ -1,0 +1,77 @@
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 23 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-dependency-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/target/test-classes
+[INFO] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/testUtils/DependencyTestUtils.java: Some input files use or override a deprecated API.
+[INFO] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/testUtils/DependencyTestUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[29,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[36,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[36,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[37,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[37,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[38,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[38,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[39,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[39,1] static import only from classes and interfaces
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Maven Dependency Plugin
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.978 s
+[INFO] Finished at: 2025-05-16T04:08:45Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project maven-dependency-plugin: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[29,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[36,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[36,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[37,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[37,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[38,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[38,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[39,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[39,1] static import only from classes and interfaces
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/resolvers/ExcludeReactorProjectsArtifactFilterTest.java:[40,26] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/maven-dependency-plugin-3.1.2/src/test/java/org/apache/maven/plugins/dependency/TestSkip.java:[171,22] cannot find symbol
+[ERROR]   symbol:   method atLeastOnce()
+[ERROR]   location: class org.apache.maven.plugins.dependency.TestSkip
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72169 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.72169 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.72169 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.72169 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+22.44user 3.37system 0:04.67elapsed 552%CPU (0avgtext+0avgdata 612712maxresident)k
+22.44user 3.37system 0:04.67elapsed 552%CPU (0avgtext+0avgdata 612712maxresident)k
+0inputs+0outputs (0major+160427minor)pagefaults 0swaps
+0inputs+0outputs (0major+160427minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `maven-dependency-plugin-3.1.2-alt1_7jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `maven-dependency-plugin-3.1.2-alt1_7jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.68user 3.17system 0:24.89elapsed 47%CPU (0avgtext+0avgdata 139432maxresident)k
+8.68user 3.17system 0:24.89elapsed 47%CPU (0avgtext+0avgdata 139432maxresident)k
+0inputs+0outputs (0major+280905minor)pagefaults 0swaps

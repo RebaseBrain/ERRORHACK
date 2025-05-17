@@ -1,0 +1,119 @@
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/src'
+make[1]: Entering directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+rm -f speedy_backend_main.c
+/bin/cp -p ../src/speedy_backend_main.c speedy_backend_main.c
+gcc -c  -I../src -I. -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"2.22\" -DXS_VERSION=\"2.22\" -fPIC "-I/usr/lib64/perl5/CORE"  -fcommon -DSPEEDY_PROGNAME=\"speedy_backend\" -DSPEEDY_VERSION=\"2.22\" -DSPEEDY_BACKEND speedy_backend_main.c
+rm -f speedy_perl.c
+/bin/cp -p ../src/speedy_perl.c speedy_perl.c
+gcc -c  -I../src -I. -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"2.22\" -DXS_VERSION=\"2.22\" -fPIC "-I/usr/lib64/perl5/CORE"  -fcommon -DSPEEDY_PROGNAME=\"speedy_backend\" -DSPEEDY_VERSION=\"2.22\" -DSPEEDY_BACKEND speedy_perl.c
+speedy_perl.c: In function 'onerun':
+speedy_perl.c:808:9: error: implicit declaration of function 'PerlIO_reopen'; did you mean 'PerlIO_fdopen'? [-Wimplicit-function-declaration]
+  808 |     if (PerlIO_reopen(dev_null, "r", pio_in ) == NULL ||
+      |         ^~~~~~~~~~~~~
+      |         PerlIO_fdopen
+speedy_perl.c:808:47: warning: comparison between pointer and integer
+speedy_perl.c:808:47: warning: comparison between pointer and integer
+  808 |     if (PerlIO_reopen(dev_null, "r", pio_in ) == NULL ||
+  808 |     if (PerlIO_reopen(dev_null, "r", pio_in ) == NULL ||
+      |                                               ^~
+      |                                               ^~
+speedy_perl.c:809:47: warning: comparison between pointer and integer
+speedy_perl.c:809:47: warning: comparison between pointer and integer
+  809 |         PerlIO_reopen(dev_null, "w", pio_out) == NULL ||
+  809 |         PerlIO_reopen(dev_null, "w", pio_out) == NULL ||
+      |                                               ^~
+      |                                               ^~
+speedy_perl.c:810:47: warning: comparison between pointer and integer
+speedy_perl.c:810:47: warning: comparison between pointer and integer
+  810 |         PerlIO_reopen(dev_null, "w", pio_err) == NULL)
+      |                                               ^~
+speedy_perl.c: In function 'speedy_perl_init':
+speedy_perl.c:917:29: error: passing argument 2 of 'perl_parse' from incompatible pointer type [-Wincompatible-pointer-types]
+  917 |     if (perl_parse(my_perl, xs_init,
+      |                             ^~~~~~~
+      |                             |
+      |                             void (*)(void)
+In file included from /usr/lib64/perl5/CORE/perl.h:6188,
+                 from ../src/speedy_inc_perl.h:25,
+                 from ../src/speedy_inc_perl.h:25,
+                 from speedy.h:1,
+                 from speedy.h:1,
+                 from speedy_perl.c:20:
+                 from speedy_perl.c:20:
+                 from speedy_perl.c:20:
+/usr/lib64/perl5/CORE/proto.h:3472:47: note: expected 'XSINIT_t' {aka 'void (*)(struct interpreter *)'} but argument is of type 'void (*)(void)'
+/usr/lib64/perl5/CORE/proto.h:3472:47: note: expected 'XSINIT_t' {aka 'void (*)(struct interpreter *)'} but argument is of type 'void (*)(void)'
+/usr/lib64/perl5/CORE/proto.h:3472:47: note: expected 'XSINIT_t' {aka 'void (*)(struct interpreter *)'} but argument is of type 'void (*)(void)'
+ 3472 | perl_parse(PerlInterpreter *my_perl, XSINIT_t xsinit, int argc, char **argv, char **env);
+ 3472 | perl_parse(PerlInterpreter *my_perl, XSINIT_t xsinit, int argc, char **argv, char **env);
+ 3472 | perl_parse(PerlInterpreter *my_perl, XSINIT_t xsinit, int argc, char **argv, char **env);
+ 3472 | perl_parse(PerlInterpreter *my_perl, XSINIT_t xsinit, int argc, char **argv, char **env);
+      |                                      ~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~^~~~~~
+      |                                      ~~~~~~~~~^~~~~~
+speedy_perl.c: In function 'do_proto2':
+speedy_perl.c: In function 'do_proto2':
+speedy_perl.c: In function 'do_proto2':
+speedy_perl.c:466:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+speedy_perl.c:466:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+speedy_perl.c:466:5: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  466 |     write(PREF_FD_ACCEPT_O, &c, 1);
+  466 |     write(PREF_FD_ACCEPT_O, &c, 1);
+  466 |     write(PREF_FD_ACCEPT_O, &c, 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:324: speedy_perl.o] Error 1
+make[1]: *** [Makefile:324: speedy_perl.o] Error 1
+make[1]: *** [Makefile:324: speedy_perl.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22/speedy_backend'
+make: *** [Makefile:525: subdirs] Error 2
+make: *** [Makefile:525: subdirs] Error 2
+make: *** [Makefile:525: subdirs] Error 2
+make: *** [Makefile:525: subdirs] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+make: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+make: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+make: Leaving directory '/usr/src/RPM/BUILD/CGI-SpeedyCGI-2.22'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.34946 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.65user 0.46system 0:01.10elapsed 101%CPU (0avgtext+0avgdata 81612maxresident)k
+0.65user 0.46system 0:01.10elapsed 101%CPU (0avgtext+0avgdata 81612maxresident)k
+0.65user 0.46system 0:01.10elapsed 101%CPU (0avgtext+0avgdata 81612maxresident)k
+0.65user 0.46system 0:01.10elapsed 101%CPU (0avgtext+0avgdata 81612maxresident)k
+0inputs+0outputs (0major+75534minor)pagefaults 0swaps
+0inputs+0outputs (0major+75534minor)pagefaults 0swaps
+0inputs+0outputs (0major+75534minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-CGI-SpeedyCGI-2.22-alt9.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-CGI-SpeedyCGI-2.22-alt9.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-CGI-SpeedyCGI-2.22-alt9.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.38user 2.50system 0:09.42elapsed 62%CPU (0avgtext+0avgdata 144444maxresident)k
+3.38user 2.50system 0:09.42elapsed 62%CPU (0avgtext+0avgdata 144444maxresident)k
+3160inputs+0outputs (0major+189254minor)pagefaults 0swaps

@@ -1,0 +1,987 @@
+<86>May 10 10:12:32 userdel[4099139]: delete user 'rooter'
+<86>May 10 10:12:32 userdel[4099139]: removed group 'rooter' owned by 'rooter'
+<86>May 10 10:12:32 userdel[4099139]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 10 10:12:32 groupadd[4099150]: group added to /etc/group: name=rooter, GID=1214
+<86>May 10 10:12:32 groupadd[4099150]: group added to /etc/gshadow: name=rooter
+<86>May 10 10:12:32 groupadd[4099150]: new group: name=rooter, GID=1214
+<86>May 10 10:12:32 useradd[4099160]: new user: name=rooter, UID=1214, GID=1214, home=/root, shell=/bin/bash, from=none
+<86>May 10 10:12:32 userdel[4099181]: delete user 'builder'
+<86>May 10 10:12:32 userdel[4099181]: removed group 'builder' owned by 'builder'
+<86>May 10 10:12:32 userdel[4099181]: removed shadow group 'builder' owned by 'builder'
+<86>May 10 10:12:32 groupadd[4099195]: group added to /etc/group: name=builder, GID=1215
+<86>May 10 10:12:32 groupadd[4099195]: group added to /etc/gshadow: name=builder
+<86>May 10 10:12:32 groupadd[4099195]: new group: name=builder, GID=1215
+<86>May 10 10:12:32 useradd[4099208]: new user: name=builder, UID=1215, GID=1215, home=/usr/src, shell=/bin/bash, from=none
+warning: Macro %meson not found
+warning: Macro %meson_build not found
+warning: Macro %meson_test not found
+<13>May 10 10:12:37 rpmi: rpm-macros-meson-1.8.0-alt1 sisyphus+383173.100.1.1 1746257195 installed
+<13>May 10 10:12:37 rpmi: ninja-build-1:1.12.2-alt1 sisyphus+382947.100.1.1 1746022504 installed
+<13>May 10 10:12:37 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432033 installed
+<13>May 10 10:12:37 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468406 installed
+<13>May 10 10:12:37 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519386 installed
+<13>May 10 10:12:37 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 10 10:12:37 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962878 installed
+<13>May 10 10:12:37 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 10 10:12:38 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 10:12:39 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131612 installed
+<13>May 10 10:12:39 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 10:12:39 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 10 10:12:39 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 10:12:39 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 10 10:12:39 rpmi: ca-certificates-2025.02.10-alt1 sisyphus+374228.100.4.1 1739265441 installed
+<13>May 10 10:12:39 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 10 10:12:39 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622586 installed
+<13>May 10 10:12:39 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 10:12:39 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299702 installed
+<13>May 10 10:12:39 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:12:40 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802963 installed
+<13>May 10 10:12:40 rpmi: python3-module-typing_extensions-4.13.2-alt1 sisyphus+381315.100.1.1 1744375640 installed
+<13>May 10 10:12:41 rpmi: meson-1.8.0-alt1 sisyphus+383173.100.1.1 1746257195 installed
+<13>May 10 10:12:41 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139881 installed
+Building target platforms: i586
+Building for target i586
+Wrote: /usr/src/in/nosrpm/simde-0.8.2-alt1.nosrc.rpm (w1.gzdio)
+Installing simde-0.8.2-alt1.src.rpm
+Building target platforms: i586
+Building for target i586
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.92881
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf simde-0.8.2
++ echo 'Source #0 (simde-0.8.2.tar):'
+Source #0 (simde-0.8.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/simde-0.8.2.tar
++ cd simde-0.8.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.92881
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/simde-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/simde-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd simde-0.8.2
++ mkdir -p /usr/src/tmp/simde-buildroot/usr/include
++ cp -a simde -t /usr/src/tmp/simde-buildroot/usr/include
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/simde-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/simde-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/simde-buildroot/ (default)
+Compressing files in /usr/src/tmp/simde-buildroot (auto)
+Verifying ELF objects in /usr/src/tmp/simde-buildroot (arch=strict,fhs=strict,lfs=strict,lint=strict,rpath=strict,stack=strict,textrel=strict,unresolved=strict)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/simde-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.92881
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd simde-0.8.2
++ IFS=.
++ read a b c
++ grep -Fx '#define SIMDE_VERSION_MAJOR 0' simde/simde-common.h
+#define SIMDE_VERSION_MAJOR 0
++ grep -Fx '#define SIMDE_VERSION_MINOR 8' simde/simde-common.h
+#define SIMDE_VERSION_MINOR 8
++ grep -Fx '#define SIMDE_VERSION_MICRO 2' simde/simde-common.h
+#define SIMDE_VERSION_MICRO 2
++ mkdir -p i586-alt-linux
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic'
++ export FCFLAGS
++ /usr/bin/meson setup . i586-alt-linux -Doptimization=2 --prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --libdir=/usr/lib --localstatedir=/var --sharedstatedir=/var/lib --includedir=/usr/include --datadir=/usr/share --sysconfdir=/etc --mandir=/usr/share/man --infodir=/usr/share/info --localedir=/usr/share/locale --wrap-mode=nodownload
+The Meson build system
+Version: 1.8.0
+Source dir: /usr/src/RPM/BUILD/simde-0.8.2
+Build dir: /usr/src/RPM/BUILD/simde-0.8.2/i586-alt-linux
+Build type: native build
+Project name: SIMDe
+Project version: 0.8.2
+C compiler for the host machine: cc (gcc 14.2.1 "i586-alt-linux-gcc (GCC) 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)")
+C linker for the host machine: cc ld.bfd 2.43.1.20241025
+C++ compiler for the host machine: c++ (gcc 14.2.1 "i586-alt-linux-g++ (GCC) 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)")
+C++ linker for the host machine: c++ ld.bfd 2.43.1.20241025
+Host machine cpu family: x86
+Host machine cpu: i686
+Library m found: YES
+Compiler for C supports arguments -fopenmp-simd: YES 
+Compiler for C++ supports arguments -fopenmp-simd: YES 
+Compiler for C supports arguments -Wpsabi: YES 
+Compiler for C++ supports arguments -Wpsabi: YES 
+Library m found: YES
+Found pkg-config: YES (/usr/bin/pkg-config) 0.29.2
+Build targets in project: 2002
+
+SIMDe 0.8.2
+
+  User defined options
+    bindir        : /usr/bin
+    datadir       : /usr/share
+    includedir    : /usr/include
+    infodir       : /usr/share/info
+    libdir        : /usr/lib
+    libexecdir    : /usr/lib
+    localedir     : /usr/share/locale
+    localstatedir : /var
+    mandir        : /usr/share/man
+    optimization  : 2
+    prefix        : /usr
+    sbindir       : /usr/sbin
+    sharedstatedir: /var/lib
+    sysconfdir    : /etc
+    wrap_mode     : nodownload
+
+Found ninja-1.12.2 at /usr/bin/ninja
++ ninja-build -j8 -C i586-alt-linux
+ninja: Entering directory `i586-alt-linux'
+[1/4004] Compiling C object test/common/common-c.p/common.c.o
+[2/4004] Compiling C object test/x86/avx512/2intersect-emul-c.p/2intersect.c.o
+[3/4004] Compiling C object test/x86/avx512/4dpwssd-native-c.p/4dpwssd.c.o
+[4/4004] Compiling C object test/x86/avx512/2intersect-native-c.p/2intersect.c.o
+[5/4004] Compiling C++ object test/common/common-cpp.p/meson-generated_.._common.cpp.o
+[6/4004] Compiling C object test/x86/avx512/4dpwssd-emul-c.p/4dpwssd.c.o
+[7/4004] Compiling C++ object test/x86/avx512/2intersect-emul-cpp.p/meson-generated_.._2intersect.cpp.o
+[8/4004] Compiling C++ object test/x86/avx512/2intersect-native-cpp.p/meson-generated_.._2intersect.cpp.o
+[9/4004] Compiling C object test/x86/avx512/4dpwssds-emul-c.p/4dpwssds.c.o
+[10/4004] Compiling C object test/x86/avx512/4dpwssds-native-c.p/4dpwssds.c.o
+[11/4004] Compiling C++ object test/x86/avx512/4dpwssd-emul-cpp.p/meson-generated_.._4dpwssd.cpp.o
+[12/4004] Compiling C++ object test/x86/avx512/4dpwssd-native-cpp.p/meson-generated_.._4dpwssd.cpp.o
+[13/4004] Compiling C++ object test/x86/avx512/4dpwssds-emul-cpp.p/meson-generated_.._4dpwssds.cpp.o
+[14/4004] Compiling C++ object test/x86/avx512/4dpwssds-native-cpp.p/meson-generated_.._4dpwssds.cpp.o
+[15/4004] Compiling C object test/x86/avx512/add-emul-c.p/add.c.o
+[16/4004] Compiling C object test/x86/avx512/abs-emul-c.p/abs.c.o
+[17/4004] Compiling C object test/x86/avx512/abs-native-c.p/abs.c.o
+[18/4004] Compiling C object test/x86/avx512/add-native-c.p/add.c.o
+[19/4004] Compiling C++ object test/x86/avx512/add-emul-cpp.p/meson-generated_.._add.cpp.o
+[20/4004] Compiling C++ object test/x86/avx512/abs-native-cpp.p/meson-generated_.._abs.cpp.o
+[21/4004] Compiling C++ object test/x86/avx512/add-native-cpp.p/meson-generated_.._add.cpp.o
+[22/4004] Compiling C++ object test/x86/avx512/abs-emul-cpp.p/meson-generated_.._abs.cpp.o
+[23/4004] Compiling C object test/x86/avx512/and-emul-c.p/and.c.o
+[24/4004] Compiling C object test/x86/avx512/and-native-c.p/and.c.o
+[25/4004] Compiling C object test/x86/avx512/adds-native-c.p/adds.c.o
+[26/4004] Compiling C++ object test/x86/avx512/and-native-cpp.p/meson-generated_.._and.cpp.o
+[27/4004] Compiling C++ object test/x86/avx512/and-emul-cpp.p/meson-generated_.._and.cpp.o
+[28/4004] Compiling C object test/x86/avx512/adds-emul-c.p/adds.c.o
+[29/4004] Compiling C object test/x86/avx512/andnot-emul-c.p/andnot.c.o
+[30/4004] Compiling C object test/x86/avx512/andnot-native-c.p/andnot.c.o
+[31/4004] Compiling C++ object test/x86/avx512/adds-emul-cpp.p/meson-generated_.._adds.cpp.o
+[32/4004] Compiling C++ object test/x86/avx512/andnot-emul-cpp.p/meson-generated_.._andnot.cpp.o
+[33/4004] Compiling C++ object test/x86/avx512/adds-native-cpp.p/meson-generated_.._adds.cpp.o
+[34/4004] Compiling C++ object test/x86/avx512/andnot-native-cpp.p/meson-generated_.._andnot.cpp.o
+[35/4004] Compiling C object test/x86/avx512/bitshuffle-emul-c.p/bitshuffle.c.o
+[36/4004] Compiling C object test/x86/avx512/avg-emul-c.p/avg.c.o
+[37/4004] Compiling C object test/x86/avx512/bitshuffle-native-c.p/bitshuffle.c.o
+[38/4004] Compiling C object test/x86/avx512/avg-native-c.p/avg.c.o
+[39/4004] Compiling C++ object test/x86/avx512/avg-native-cpp.p/meson-generated_.._avg.cpp.o
+[40/4004] Compiling C++ object test/x86/avx512/avg-emul-cpp.p/meson-generated_.._avg.cpp.o
+[41/4004] Compiling C++ object test/x86/avx512/bitshuffle-native-cpp.p/meson-generated_.._bitshuffle.cpp.o
+[42/4004] Compiling C object test/x86/avx512/blend-native-c.p/blend.c.o
+[43/4004] Compiling C++ object test/x86/avx512/bitshuffle-emul-cpp.p/meson-generated_.._bitshuffle.cpp.o
+[44/4004] Compiling C object test/x86/avx512/blend-emul-c.p/blend.c.o
+[45/4004] Compiling C object test/x86/avx512/cast-emul-c.p/cast.c.o
+[46/4004] Compiling C++ object test/x86/avx512/blend-native-cpp.p/meson-generated_.._blend.cpp.o
+[47/4004] Compiling C object test/x86/avx512/cast-native-c.p/cast.c.o
+[48/4004] Compiling C++ object test/x86/avx512/blend-emul-cpp.p/meson-generated_.._blend.cpp.o
+[49/4004] Compiling C object test/x86/avx512/broadcast-emul-c.p/broadcast.c.o
+[50/4004] Compiling C object test/x86/avx512/broadcast-native-c.p/broadcast.c.o
+[51/4004] Compiling C++ object test/x86/avx512/cast-emul-cpp.p/meson-generated_.._cast.cpp.o
+[52/4004] Compiling C object test/x86/avx512/cmp-emul-c.p/cmp.c.o
+[53/4004] Compiling C++ object test/x86/avx512/cast-native-cpp.p/meson-generated_.._cast.cpp.o
+[54/4004] Compiling C++ object test/x86/avx512/broadcast-emul-cpp.p/meson-generated_.._broadcast.cpp.o
+[55/4004] Compiling C object test/x86/avx512/cmp-native-c.p/cmp.c.o
+[56/4004] Compiling C++ object test/x86/avx512/broadcast-native-cpp.p/meson-generated_.._broadcast.cpp.o
+[57/4004] Compiling C object test/x86/avx512/cmpeq-emul-c.p/cmpeq.c.o
+[58/4004] Compiling C object test/x86/avx512/cmpeq-native-c.p/cmpeq.c.o
+[59/4004] Compiling C++ object test/x86/avx512/cmp-emul-cpp.p/meson-generated_.._cmp.cpp.o
+[60/4004] Compiling C object test/x86/avx512/cmpge-emul-c.p/cmpge.c.o
+[61/4004] Compiling C object test/x86/avx512/cmpge-native-c.p/cmpge.c.o
+[62/4004] Compiling C++ object test/x86/avx512/cmp-native-cpp.p/meson-generated_.._cmp.cpp.o
+[63/4004] Compiling C++ object test/x86/avx512/cmpeq-native-cpp.p/meson-generated_.._cmpeq.cpp.o
+[64/4004] Compiling C++ object test/x86/avx512/cmpeq-emul-cpp.p/meson-generated_.._cmpeq.cpp.o
+[65/4004] Compiling C object test/x86/avx512/cmpgt-emul-c.p/cmpgt.c.o
+[66/4004] Compiling C object test/x86/avx512/cmpgt-native-c.p/cmpgt.c.o
+[67/4004] Compiling C object test/x86/avx512/cmple-emul-c.p/cmple.c.o
+[68/4004] Compiling C object test/x86/avx512/cmple-native-c.p/cmple.c.o
+[69/4004] Compiling C++ object test/x86/avx512/cmpge-emul-cpp.p/meson-generated_.._cmpge.cpp.o
+[70/4004] Compiling C++ object test/x86/avx512/cmpge-native-cpp.p/meson-generated_.._cmpge.cpp.o
+[71/4004] Compiling C++ object test/x86/avx512/cmpgt-emul-cpp.p/meson-generated_.._cmpgt.cpp.o
+[72/4004] Compiling C++ object test/x86/avx512/cmpgt-native-cpp.p/meson-generated_.._cmpgt.cpp.o
+[73/4004] Compiling C object test/x86/avx512/cmplt-native-c.p/cmplt.c.o
+[74/4004] Compiling C object test/x86/avx512/cmplt-emul-c.p/cmplt.c.o
+[75/4004] Compiling C++ object test/x86/avx512/cmple-emul-cpp.p/meson-generated_.._cmple.cpp.o
+[76/4004] Compiling C object test/x86/avx512/cmpneq-emul-c.p/cmpneq.c.o
+[77/4004] Compiling C object test/x86/avx512/cmpneq-native-c.p/cmpneq.c.o
+[78/4004] Compiling C++ object test/x86/avx512/cmple-native-cpp.p/meson-generated_.._cmple.cpp.o
+[79/4004] Compiling C++ object test/x86/avx512/cmpneq-emul-cpp.p/meson-generated_.._cmpneq.cpp.o
+[80/4004] Compiling C object test/x86/avx512/compress-native-c.p/compress.c.o
+[81/4004] Compiling C++ object test/x86/avx512/cmplt-emul-cpp.p/meson-generated_.._cmplt.cpp.o
+[82/4004] Compiling C++ object test/x86/avx512/cmplt-native-cpp.p/meson-generated_.._cmplt.cpp.o
+[83/4004] Compiling C object test/x86/avx512/compress-emul-c.p/compress.c.o
+[84/4004] Compiling C object test/x86/avx512/conflict-native-c.p/conflict.c.o
+[85/4004] Compiling C object test/x86/avx512/conflict-emul-c.p/conflict.c.o
+[86/4004] Compiling C object test/x86/avx512/copysign-emul-c.p/copysign.c.o
+[87/4004] Compiling C++ object test/x86/avx512/cmpneq-native-cpp.p/meson-generated_.._cmpneq.cpp.o
+[88/4004] Compiling C++ object test/x86/avx512/compress-emul-cpp.p/meson-generated_.._compress.cpp.o
+[89/4004] Compiling C++ object test/x86/avx512/compress-native-cpp.p/meson-generated_.._compress.cpp.o
+[90/4004] Compiling C object test/x86/avx512/copysign-native-c.p/copysign.c.o
+[91/4004] Compiling C++ object test/x86/avx512/conflict-native-cpp.p/meson-generated_.._conflict.cpp.o
+[92/4004] Compiling C object test/x86/avx512/cvt-emul-c.p/cvt.c.o
+[93/4004] Compiling C++ object test/x86/avx512/conflict-emul-cpp.p/meson-generated_.._conflict.cpp.o
+[94/4004] Compiling C++ object test/x86/avx512/copysign-emul-cpp.p/meson-generated_.._copysign.cpp.o
+[95/4004] Compiling C object test/x86/avx512/cvt-native-c.p/cvt.c.o
+[96/4004] Compiling C object test/x86/avx512/cvtt-emul-c.p/cvtt.c.o
+[97/4004] Compiling C++ object test/x86/avx512/copysign-native-cpp.p/meson-generated_.._copysign.cpp.o
+[98/4004] Compiling C object test/x86/avx512/cvtt-native-c.p/cvtt.c.o
+[99/4004] Compiling C++ object test/x86/avx512/cvt-emul-cpp.p/meson-generated_.._cvt.cpp.o
+[100/4004] Compiling C++ object test/x86/avx512/cvtt-emul-cpp.p/meson-generated_.._cvtt.cpp.o
+[101/4004] Compiling C++ object test/x86/avx512/cvt-native-cpp.p/meson-generated_.._cvt.cpp.o
+[102/4004] Compiling C++ object test/x86/avx512/cvtt-native-cpp.p/meson-generated_.._cvtt.cpp.o
+[103/4004] Compiling C object test/x86/avx512/cvtus-emul-c.p/cvtus.c.o
+[104/4004] Compiling C object test/x86/avx512/cvts-emul-c.p/cvts.c.o
+[105/4004] Compiling C object test/x86/avx512/cvtus-native-c.p/cvtus.c.o
+[106/4004] Compiling C object test/x86/avx512/cvts-native-c.p/cvts.c.o
+[107/4004] Compiling C++ object test/x86/avx512/cvts-emul-cpp.p/meson-generated_.._cvts.cpp.o
+[108/4004] Compiling C++ object test/x86/avx512/cvtus-native-cpp.p/meson-generated_.._cvtus.cpp.o
+[109/4004] Compiling C object test/x86/avx512/dbsad-emul-c.p/dbsad.c.o
+[110/4004] Compiling C++ object test/x86/avx512/cvtus-emul-cpp.p/meson-generated_.._cvtus.cpp.o
+[111/4004] Compiling C++ object test/x86/avx512/cvts-native-cpp.p/meson-generated_.._cvts.cpp.o
+[112/4004] Compiling C object test/x86/avx512/dbsad-native-c.p/dbsad.c.o
+[113/4004] Compiling C object test/x86/avx512/div-emul-c.p/div.c.o
+[114/4004] Compiling C object test/x86/avx512/div-native-c.p/div.c.o
+[115/4004] Compiling C object test/x86/avx512/dpbf16-emul-c.p/dpbf16.c.o
+[116/4004] Compiling C object test/x86/avx512/dpbf16-native-c.p/dpbf16.c.o
+[117/4004] Compiling C++ object test/x86/avx512/dbsad-emul-cpp.p/meson-generated_.._dbsad.cpp.o
+[118/4004] Compiling C++ object test/x86/avx512/dbsad-native-cpp.p/meson-generated_.._dbsad.cpp.o
+[119/4004] Compiling C++ object test/x86/avx512/div-native-cpp.p/meson-generated_.._div.cpp.o
+[120/4004] Compiling C++ object test/x86/avx512/div-emul-cpp.p/meson-generated_.._div.cpp.o
+[121/4004] Compiling C object test/x86/avx512/dpbusd-native-c.p/dpbusd.c.o
+[122/4004] Compiling C object test/x86/avx512/dpbusd-emul-c.p/dpbusd.c.o
+[123/4004] Compiling C++ object test/x86/avx512/dpbf16-emul-cpp.p/meson-generated_.._dpbf16.cpp.o
+[124/4004] Compiling C++ object test/x86/avx512/dpbf16-native-cpp.p/meson-generated_.._dpbf16.cpp.o
+[125/4004] Compiling C object test/x86/avx512/dpbusds-emul-c.p/dpbusds.c.o
+[126/4004] Compiling C object test/x86/avx512/dpbusds-native-c.p/dpbusds.c.o
+[127/4004] Compiling C++ object test/x86/avx512/dpbusd-emul-cpp.p/meson-generated_.._dpbusd.cpp.o
+[128/4004] Compiling C++ object test/x86/avx512/dpbusd-native-cpp.p/meson-generated_.._dpbusd.cpp.o
+[129/4004] Compiling C object test/x86/avx512/dpwssd-emul-c.p/dpwssd.c.o
+[130/4004] Compiling C object test/x86/avx512/dpwssd-native-c.p/dpwssd.c.o
+[131/4004] Compiling C object test/x86/avx512/dpwssds-emul-c.p/dpwssds.c.o
+[132/4004] Compiling C object test/x86/avx512/dpwssds-native-c.p/dpwssds.c.o
+[133/4004] Compiling C++ object test/x86/avx512/dpbusds-emul-cpp.p/meson-generated_.._dpbusds.cpp.o
+[134/4004] Compiling C++ object test/x86/avx512/dpbusds-native-cpp.p/meson-generated_.._dpbusds.cpp.o
+[135/4004] Compiling C object test/x86/avx512/expand-emul-c.p/expand.c.o
+[136/4004] Compiling C object test/x86/avx512/expand-native-c.p/expand.c.o
+[137/4004] Compiling C++ object test/x86/avx512/dpwssd-native-cpp.p/meson-generated_.._dpwssd.cpp.o
+[138/4004] Compiling C++ object test/x86/avx512/dpwssd-emul-cpp.p/meson-generated_.._dpwssd.cpp.o
+[139/4004] Compiling C++ object test/x86/avx512/dpwssds-emul-cpp.p/meson-generated_.._dpwssds.cpp.o
+[140/4004] Compiling C++ object test/x86/avx512/dpwssds-native-cpp.p/meson-generated_.._dpwssds.cpp.o
+[141/4004] Compiling C++ object test/x86/avx512/expand-native-cpp.p/meson-generated_.._expand.cpp.o
+[142/4004] Compiling C object test/x86/avx512/extract-emul-c.p/extract.c.o
+[143/4004] Compiling C++ object test/x86/avx512/expand-emul-cpp.p/meson-generated_.._expand.cpp.o
+[144/4004] Compiling C object test/x86/avx512/extract-native-c.p/extract.c.o
+[145/4004] Compiling C++ object test/x86/avx512/extract-native-cpp.p/meson-generated_.._extract.cpp.o
+[146/4004] Compiling C++ object test/x86/avx512/extract-emul-cpp.p/meson-generated_.._extract.cpp.o
+[147/4004] Compiling C object test/x86/avx512/fixupimm_round-emul-c.p/fixupimm_round.c.o
+[148/4004] Compiling C object test/x86/avx512/fixupimm-native-c.p/fixupimm.c.o
+[149/4004] Compiling C object test/x86/avx512/fixupimm-emul-c.p/fixupimm.c.o
+[150/4004] Compiling C object test/x86/avx512/fixupimm_round-native-c.p/fixupimm_round.c.o
+[151/4004] Compiling C object test/x86/avx512/flushsubnormal-native-c.p/flushsubnormal.c.o
+[152/4004] Compiling C object test/x86/avx512/flushsubnormal-emul-c.p/flushsubnormal.c.o
+[153/4004] Compiling C object test/x86/avx512/fmadd-native-c.p/fmadd.c.o
+[154/4004] Compiling C object test/x86/avx512/fmadd-emul-c.p/fmadd.c.o
+[155/4004] Compiling C++ object test/x86/avx512/fixupimm-native-cpp.p/meson-generated_.._fixupimm.cpp.o
+[156/4004] Compiling C++ object test/x86/avx512/fixupimm-emul-cpp.p/meson-generated_.._fixupimm.cpp.o
+[157/4004] Compiling C++ object test/x86/avx512/flushsubnormal-emul-cpp.p/meson-generated_.._flushsubnormal.cpp.o
+[158/4004] Compiling C++ object test/x86/avx512/flushsubnormal-native-cpp.p/meson-generated_.._flushsubnormal.cpp.o
+[159/4004] Compiling C++ object test/x86/avx512/fixupimm_round-emul-cpp.p/meson-generated_.._fixupimm_round.cpp.o
+[160/4004] Compiling C++ object test/x86/avx512/fixupimm_round-native-cpp.p/meson-generated_.._fixupimm_round.cpp.o
+[161/4004] Compiling C object test/x86/avx512/fmsub-native-c.p/fmsub.c.o
+[162/4004] Compiling C object test/x86/avx512/fnmadd-emul-c.p/fnmadd.c.o
+[163/4004] Compiling C object test/x86/avx512/fmsub-emul-c.p/fmsub.c.o
+[164/4004] Compiling C++ object test/x86/avx512/fmadd-native-cpp.p/meson-generated_.._fmadd.cpp.o
+[165/4004] Compiling C object test/x86/avx512/fnmadd-native-c.p/fnmadd.c.o
+[166/4004] Compiling C object test/x86/avx512/fnmsub-native-c.p/fnmsub.c.o
+[167/4004] Compiling C++ object test/x86/avx512/fmadd-emul-cpp.p/meson-generated_.._fmadd.cpp.o
+[168/4004] Compiling C object test/x86/avx512/fnmsub-emul-c.p/fnmsub.c.o
+[169/4004] Compiling C++ object test/x86/avx512/fmsub-emul-cpp.p/meson-generated_.._fmsub.cpp.o
+[170/4004] Compiling C++ object test/x86/avx512/fmsub-native-cpp.p/meson-generated_.._fmsub.cpp.o
+[171/4004] Compiling C++ object test/x86/avx512/fnmadd-native-cpp.p/meson-generated_.._fnmadd.cpp.o
+[172/4004] Compiling C object test/x86/avx512/fpclass-emul-c.p/fpclass.c.o
+[173/4004] Compiling C object test/x86/avx512/fpclass-native-c.p/fpclass.c.o
+[174/4004] Compiling C++ object test/x86/avx512/fnmadd-emul-cpp.p/meson-generated_.._fnmadd.cpp.o
+[175/4004] Compiling C++ object test/x86/avx512/fnmsub-emul-cpp.p/meson-generated_.._fnmsub.cpp.o
+[176/4004] Compiling C object test/x86/avx512/gather-emul-c.p/gather.c.o
+[177/4004] Compiling C++ object test/x86/avx512/fnmsub-native-cpp.p/meson-generated_.._fnmsub.cpp.o
+[178/4004] Compiling C++ object test/x86/avx512/fpclass-emul-cpp.p/meson-generated_.._fpclass.cpp.o
+[179/4004] Compiling C object test/x86/avx512/gather-native-c.p/gather.c.o
+[180/4004] Compiling C object test/x86/avx512/insert-emul-c.p/insert.c.o
+[181/4004] Compiling C++ object test/x86/avx512/fpclass-native-cpp.p/meson-generated_.._fpclass.cpp.o
+[182/4004] Compiling C object test/x86/avx512/kand-emul-c.p/kand.c.o
+[183/4004] Compiling C object test/x86/avx512/insert-native-c.p/insert.c.o
+[184/4004] Compiling C++ object test/x86/avx512/gather-native-cpp.p/meson-generated_.._gather.cpp.o
+[185/4004] Compiling C object test/x86/avx512/kand-native-c.p/kand.c.o
+[186/4004] Compiling C++ object test/x86/avx512/gather-emul-cpp.p/meson-generated_.._gather.cpp.o
+[187/4004] Compiling C++ object test/x86/avx512/insert-emul-cpp.p/meson-generated_.._insert.cpp.o
+[188/4004] Compiling C object test/x86/avx512/kshift-emul-c.p/kshift.c.o
+[189/4004] Compiling C object test/x86/avx512/kshift-native-c.p/kshift.c.o
+[190/4004] Compiling C++ object test/x86/avx512/kand-emul-cpp.p/meson-generated_.._kand.cpp.o
+[191/4004] Compiling C++ object test/x86/avx512/kand-native-cpp.p/meson-generated_.._kand.cpp.o
+[192/4004] Compiling C object test/x86/avx512/knot-emul-c.p/knot.c.o
+[193/4004] Compiling C++ object test/x86/avx512/insert-native-cpp.p/meson-generated_.._insert.cpp.o
+[194/4004] Compiling C object test/x86/avx512/knot-native-c.p/knot.c.o
+[195/4004] Compiling C object test/x86/avx512/kxor-emul-c.p/kxor.c.o
+[196/4004] Compiling C object test/x86/avx512/kxor-native-c.p/kxor.c.o
+[197/4004] Compiling C++ object test/x86/avx512/kshift-emul-cpp.p/meson-generated_.._kshift.cpp.o
+[198/4004] Compiling C++ object test/x86/avx512/kshift-native-cpp.p/meson-generated_.._kshift.cpp.o
+[199/4004] Compiling C++ object test/x86/avx512/knot-emul-cpp.p/meson-generated_.._knot.cpp.o
+[200/4004] Compiling C++ object test/x86/avx512/knot-native-cpp.p/meson-generated_.._knot.cpp.o
+[201/4004] Compiling C object test/x86/avx512/load-emul-c.p/load.c.o
+[202/4004] Compiling C object test/x86/avx512/load-native-c.p/load.c.o
+[203/4004] Compiling C++ object test/x86/avx512/kxor-emul-cpp.p/meson-generated_.._kxor.cpp.o
+[204/4004] Compiling C++ object test/x86/avx512/kxor-native-cpp.p/meson-generated_.._kxor.cpp.o
+[205/4004] Compiling C++ object test/x86/avx512/load-emul-cpp.p/meson-generated_.._load.cpp.o
+[206/4004] Compiling C object test/x86/avx512/loadu-native-c.p/loadu.c.o
+[207/4004] Compiling C object test/x86/avx512/loadu-emul-c.p/loadu.c.o
+[208/4004] Compiling C object test/x86/avx512/lzcnt-native-c.p/lzcnt.c.o
+[209/4004] Compiling C object test/x86/avx512/lzcnt-emul-c.p/lzcnt.c.o
+[210/4004] Compiling C++ object test/x86/avx512/load-native-cpp.p/meson-generated_.._load.cpp.o
+[211/4004] Compiling C object test/x86/avx512/madd-emul-c.p/madd.c.o
+[212/4004] Compiling C object test/x86/avx512/madd-native-c.p/madd.c.o
+[213/4004] Compiling C++ object test/x86/avx512/lzcnt-emul-cpp.p/meson-generated_.._lzcnt.cpp.o
+[214/4004] Compiling C++ object test/x86/avx512/lzcnt-native-cpp.p/meson-generated_.._lzcnt.cpp.o
+[215/4004] Compiling C object test/x86/avx512/maddubs-emul-c.p/maddubs.c.o
+[216/4004] Compiling C object test/x86/avx512/maddubs-native-c.p/maddubs.c.o
+[217/4004] Compiling C++ object test/x86/avx512/loadu-native-cpp.p/meson-generated_.._loadu.cpp.o
+[218/4004] Compiling C++ object test/x86/avx512/loadu-emul-cpp.p/meson-generated_.._loadu.cpp.o
+[219/4004] Compiling C++ object test/x86/avx512/madd-native-cpp.p/meson-generated_.._madd.cpp.o
+[220/4004] Compiling C++ object test/x86/avx512/madd-emul-cpp.p/meson-generated_.._madd.cpp.o
+[221/4004] Compiling C object test/x86/avx512/max-emul-c.p/max.c.o
+[222/4004] Compiling C++ object test/x86/avx512/maddubs-emul-cpp.p/meson-generated_.._maddubs.cpp.o
+[223/4004] Compiling C++ object test/x86/avx512/maddubs-native-cpp.p/meson-generated_.._maddubs.cpp.o
+[224/4004] Compiling C object test/x86/avx512/max-native-c.p/max.c.o
+[225/4004] Compiling C object test/x86/avx512/min-emul-c.p/min.c.o
+[226/4004] Compiling C object test/x86/avx512/min-native-c.p/min.c.o
+[227/4004] Compiling C++ object test/x86/avx512/max-emul-cpp.p/meson-generated_.._max.cpp.o
+[228/4004] Compiling C++ object test/x86/avx512/max-native-cpp.p/meson-generated_.._max.cpp.o
+[229/4004] Compiling C++ object test/x86/avx512/min-emul-cpp.p/meson-generated_.._min.cpp.o
+[230/4004] Compiling C object test/x86/avx512/mov_mask-emul-c.p/mov_mask.c.o
+[231/4004] Compiling C++ object test/x86/avx512/min-native-cpp.p/meson-generated_.._min.cpp.o
+[232/4004] Compiling C object test/x86/avx512/mov_mask-native-c.p/mov_mask.c.o
+[233/4004] Compiling C object test/x86/avx512/mov-native-c.p/mov.c.o
+[234/4004] Compiling C object test/x86/avx512/mov-emul-c.p/mov.c.o
+[235/4004] Compiling C object test/x86/avx512/movm-native-c.p/movm.c.o
+[236/4004] Compiling C object test/x86/avx512/movm-emul-c.p/movm.c.o
+[237/4004] Compiling C++ object test/x86/avx512/mov_mask-emul-cpp.p/meson-generated_.._mov_mask.cpp.o
+[238/4004] Compiling C++ object test/x86/avx512/mov-emul-cpp.p/meson-generated_.._mov.cpp.o
+[239/4004] Compiling C++ object test/x86/avx512/mov_mask-native-cpp.p/meson-generated_.._mov_mask.cpp.o
+[240/4004] Compiling C++ object test/x86/avx512/mov-native-cpp.p/meson-generated_.._mov.cpp.o
+[241/4004] Compiling C++ object test/x86/avx512/movm-emul-cpp.p/meson-generated_.._movm.cpp.o
+[242/4004] Compiling C object test/x86/avx512/mulhi-emul-c.p/mulhi.c.o
+[243/4004] Compiling C++ object test/x86/avx512/movm-native-cpp.p/meson-generated_.._movm.cpp.o
+[244/4004] Compiling C object test/x86/avx512/mul-emul-c.p/mul.c.o
+[245/4004] Compiling C object test/x86/avx512/mul-native-c.p/mul.c.o
+[246/4004] Compiling C object test/x86/avx512/mulhi-native-c.p/mulhi.c.o
+[247/4004] Compiling C object test/x86/avx512/mulhrs-emul-c.p/mulhrs.c.o
+[248/4004] Compiling C object test/x86/avx512/mulhrs-native-c.p/mulhrs.c.o
+[249/4004] Compiling C object test/x86/avx512/mullo-emul-c.p/mullo.c.o
+[250/4004] Compiling C object test/x86/avx512/mullo-native-c.p/mullo.c.o
+[251/4004] Compiling C++ object test/x86/avx512/mul-emul-cpp.p/meson-generated_.._mul.cpp.o
+[252/4004] Compiling C++ object test/x86/avx512/mulhrs-native-cpp.p/meson-generated_.._mulhrs.cpp.o
+[253/4004] Compiling C++ object test/x86/avx512/mulhi-emul-cpp.p/meson-generated_.._mulhi.cpp.o
+[254/4004] Compiling C++ object test/x86/avx512/mulhrs-emul-cpp.p/meson-generated_.._mulhrs.cpp.o
+[255/4004] Compiling C++ object test/x86/avx512/mulhi-native-cpp.p/meson-generated_.._mulhi.cpp.o
+[256/4004] Compiling C++ object test/x86/avx512/mul-native-cpp.p/meson-generated_.._mul.cpp.o
+[257/4004] Compiling C object test/x86/avx512/multishift-native-c.p/multishift.c.o
+[258/4004] Compiling C object test/x86/avx512/multishift-emul-c.p/multishift.c.o
+[259/4004] Compiling C object test/x86/avx512/negate-emul-c.p/negate.c.o
+[260/4004] Compiling C object test/x86/avx512/negate-native-c.p/negate.c.o
+[261/4004] Compiling C++ object test/x86/avx512/mullo-emul-cpp.p/meson-generated_.._mullo.cpp.o
+[262/4004] Compiling C++ object test/x86/avx512/mullo-native-cpp.p/meson-generated_.._mullo.cpp.o
+[263/4004] Compiling C++ object test/x86/avx512/multishift-native-cpp.p/meson-generated_.._multishift.cpp.o
+[264/4004] Compiling C object test/x86/avx512/or-emul-c.p/or.c.o
+[265/4004] Compiling C++ object test/x86/avx512/multishift-emul-cpp.p/meson-generated_.._multishift.cpp.o
+[266/4004] Compiling C object test/x86/avx512/or-native-c.p/or.c.o
+[267/4004] Compiling C++ object test/x86/avx512/negate-native-cpp.p/meson-generated_.._negate.cpp.o
+[268/4004] Compiling C object test/x86/avx512/packs-native-c.p/packs.c.o
+[269/4004] Compiling C++ object test/x86/avx512/negate-emul-cpp.p/meson-generated_.._negate.cpp.o
+[270/4004] Compiling C object test/x86/avx512/packs-emul-c.p/packs.c.o
+[271/4004] Compiling C object test/x86/avx512/packus-emul-c.p/packus.c.o
+[272/4004] Compiling C++ object test/x86/avx512/or-emul-cpp.p/meson-generated_.._or.cpp.o
+[273/4004] Compiling C object test/x86/avx512/packus-native-c.p/packus.c.o
+[274/4004] Compiling C++ object test/x86/avx512/or-native-cpp.p/meson-generated_.._or.cpp.o
+[275/4004] Compiling C++ object test/x86/avx512/packs-emul-cpp.p/meson-generated_.._packs.cpp.o
+[276/4004] Compiling C++ object test/x86/avx512/packs-native-cpp.p/meson-generated_.._packs.cpp.o
+[277/4004] Compiling C object test/x86/avx512/permutex-native-c.p/permutex.c.o
+[278/4004] Compiling C++ object test/x86/avx512/packus-native-cpp.p/meson-generated_.._packus.cpp.o
+[279/4004] Compiling C object test/x86/avx512/permutex-emul-c.p/permutex.c.o
+[280/4004] Compiling C++ object test/x86/avx512/packus-emul-cpp.p/meson-generated_.._packus.cpp.o
+[281/4004] Compiling C++ object test/x86/avx512/permutex-emul-cpp.p/meson-generated_.._permutex.cpp.o
+[282/4004] Compiling C++ object test/x86/avx512/permutex-native-cpp.p/meson-generated_.._permutex.cpp.o
+[283/4004] Compiling C object test/x86/avx512/permutexvar-emul-c.p/permutexvar.c.o
+[284/4004] Compiling C object test/x86/avx512/permutexvar-native-c.p/permutexvar.c.o
+[285/4004] Compiling C object test/x86/avx512/popcnt-emul-c.p/popcnt.c.o
+[286/4004] Compiling C object test/x86/avx512/permutex2var-emul-c.p/permutex2var.c.o
+[287/4004] Compiling C object test/x86/avx512/popcnt-native-c.p/popcnt.c.o
+[288/4004] Compiling C++ object test/x86/avx512/permutexvar-native-cpp.p/meson-generated_.._permutexvar.cpp.o
+[289/4004] Compiling C++ object test/x86/avx512/permutexvar-emul-cpp.p/meson-generated_.._permutexvar.cpp.o
+[290/4004] Compiling C object test/x86/avx512/permutex2var-native-c.p/permutex2var.c.o
+[291/4004] Compiling C++ object test/x86/avx512/popcnt-emul-cpp.p/meson-generated_.._popcnt.cpp.o
+[292/4004] Compiling C++ object test/x86/avx512/popcnt-native-cpp.p/meson-generated_.._popcnt.cpp.o
+[293/4004] Compiling C++ object test/x86/avx512/permutex2var-native-cpp.p/meson-generated_.._permutex2var.cpp.o
+[294/4004] Compiling C++ object test/x86/avx512/permutex2var-emul-cpp.p/meson-generated_.._permutex2var.cpp.o
+[295/4004] Compiling C object test/x86/avx512/range-emul-c.p/range.c.o
+[296/4004] Compiling C object test/x86/avx512/range-native-c.p/range.c.o
+[297/4004] Compiling C object test/x86/avx512/range_round-native-c.p/range_round.c.o
+[298/4004] Compiling C object test/x86/avx512/rcp-emul-c.p/rcp.c.o
+[299/4004] Compiling C object test/x86/avx512/range_round-emul-c.p/range_round.c.o
+[300/4004] Compiling C object test/x86/avx512/rcp-native-c.p/rcp.c.o
+[301/4004] Compiling C++ object test/x86/avx512/range-emul-cpp.p/meson-generated_.._range.cpp.o
+[302/4004] Compiling C++ object test/x86/avx512/range-native-cpp.p/meson-generated_.._range.cpp.o
+[303/4004] Compiling C object test/x86/avx512/reduce-emul-c.p/reduce.c.o
+[304/4004] Compiling C object test/x86/avx512/reduce-native-c.p/reduce.c.o
+[305/4004] Compiling C++ object test/x86/avx512/range_round-emul-cpp.p/meson-generated_.._range_round.cpp.o
+[306/4004] Compiling C++ object test/x86/avx512/rcp-emul-cpp.p/meson-generated_.._rcp.cpp.o
+[307/4004] Compiling C++ object test/x86/avx512/rcp-native-cpp.p/meson-generated_.._rcp.cpp.o
+[308/4004] Compiling C++ object test/x86/avx512/range_round-native-cpp.p/meson-generated_.._range_round.cpp.o
+[309/4004] Compiling C object test/x86/avx512/rol-emul-c.p/rol.c.o
+[310/4004] Compiling C++ object test/x86/avx512/reduce-native-cpp.p/meson-generated_.._reduce.cpp.o
+[311/4004] Compiling C++ object test/x86/avx512/reduce-emul-cpp.p/meson-generated_.._reduce.cpp.o
+[312/4004] Compiling C object test/x86/avx512/rol-native-c.p/rol.c.o
+[313/4004] Compiling C object test/x86/avx512/rolv-emul-c.p/rolv.c.o
+[314/4004] Compiling C object test/x86/avx512/rolv-native-c.p/rolv.c.o
+[315/4004] Compiling C++ object test/x86/avx512/rol-emul-cpp.p/meson-generated_.._rol.cpp.o
+[316/4004] Compiling C++ object test/x86/avx512/rol-native-cpp.p/meson-generated_.._rol.cpp.o
+[317/4004] Compiling C object test/x86/avx512/ror-emul-c.p/ror.c.o
+[318/4004] Compiling C++ object test/x86/avx512/rolv-emul-cpp.p/meson-generated_.._rolv.cpp.o
+[319/4004] Compiling C object test/x86/avx512/ror-native-c.p/ror.c.o
+[320/4004] Compiling C++ object test/x86/avx512/rolv-native-cpp.p/meson-generated_.._rolv.cpp.o
+[321/4004] Compiling C object test/x86/avx512/rorv-emul-c.p/rorv.c.o
+[322/4004] Compiling C object test/x86/avx512/rorv-native-c.p/rorv.c.o
+[323/4004] Compiling C object test/x86/avx512/round-emul-c.p/round.c.o
+[324/4004] Compiling C++ object test/x86/avx512/ror-emul-cpp.p/meson-generated_.._ror.cpp.o
+[325/4004] Compiling C object test/x86/avx512/round-native-c.p/round.c.o
+[326/4004] Compiling C++ object test/x86/avx512/ror-native-cpp.p/meson-generated_.._ror.cpp.o
+[327/4004] Compiling C++ object test/x86/avx512/rorv-emul-cpp.p/meson-generated_.._rorv.cpp.o
+[328/4004] Compiling C++ object test/x86/avx512/round-emul-cpp.p/meson-generated_.._round.cpp.o
+[329/4004] Compiling C++ object test/x86/avx512/rorv-native-cpp.p/meson-generated_.._rorv.cpp.o
+[330/4004] Compiling C++ object test/x86/avx512/round-native-cpp.p/meson-generated_.._round.cpp.o
+[331/4004] Compiling C object test/x86/avx512/roundscale_round-emul-c.p/roundscale_round.c.o
+[332/4004] Compiling C object test/x86/avx512/roundscale_round-native-c.p/roundscale_round.c.o
+[333/4004] Compiling C object test/x86/avx512/sad-emul-c.p/sad.c.o
+[334/4004] Compiling C object test/x86/avx512/sad-native-c.p/sad.c.o
+[335/4004] Compiling C++ object test/x86/avx512/roundscale_round-emul-cpp.p/meson-generated_.._roundscale_round.cpp.o
+[336/4004] Compiling C++ object test/x86/avx512/roundscale_round-native-cpp.p/meson-generated_.._roundscale_round.cpp.o
+[337/4004] Compiling C++ object test/x86/avx512/sad-emul-cpp.p/meson-generated_.._sad.cpp.o
+[338/4004] Compiling C++ object test/x86/avx512/sad-native-cpp.p/meson-generated_.._sad.cpp.o
+[339/4004] Compiling C object test/x86/avx512/scalef-emul-c.p/scalef.c.o
+[340/4004] Compiling C object test/x86/avx512/scalef-native-c.p/scalef.c.o
+[341/4004] Compiling C object test/x86/avx512/set-native-c.p/set.c.o
+[342/4004] Compiling C object test/x86/avx512/set-emul-c.p/set.c.o
+[343/4004] Compiling C object test/x86/avx512/roundscale-emul-c.p/roundscale.c.o
+[344/4004] Compiling C object test/x86/avx512/roundscale-native-c.p/roundscale.c.o
+[345/4004] Compiling C++ object test/x86/avx512/set-emul-cpp.p/meson-generated_.._set.cpp.o
+[346/4004] Compiling C++ object test/x86/avx512/set-native-cpp.p/meson-generated_.._set.cpp.o
+[347/4004] Compiling C object test/x86/avx512/set1-emul-c.p/set1.c.o
+[348/4004] Compiling C++ object test/x86/avx512/roundscale-native-cpp.p/meson-generated_.._roundscale.cpp.o
+[349/4004] Compiling C object test/x86/avx512/set1-native-c.p/set1.c.o
+[350/4004] Compiling C++ object test/x86/avx512/scalef-emul-cpp.p/meson-generated_.._scalef.cpp.o
+[351/4004] Compiling C++ object test/x86/avx512/scalef-native-cpp.p/meson-generated_.._scalef.cpp.o
+[352/4004] Compiling C++ object test/x86/avx512/roundscale-emul-cpp.p/meson-generated_.._roundscale.cpp.o
+[353/4004] Compiling C object test/x86/avx512/set4-emul-c.p/set4.c.o
+[354/4004] Compiling C object test/x86/avx512/set4-native-c.p/set4.c.o
+[355/4004] Compiling C object test/x86/avx512/setr-emul-c.p/setr.c.o
+[356/4004] Compiling C object test/x86/avx512/setr-native-c.p/setr.c.o
+[357/4004] Compiling C++ object test/x86/avx512/set4-emul-cpp.p/meson-generated_.._set4.cpp.o
+[358/4004] Compiling C++ object test/x86/avx512/set1-emul-cpp.p/meson-generated_.._set1.cpp.o
+[359/4004] Compiling C object test/x86/avx512/setr4-emul-c.p/setr4.c.o
+[360/4004] Compiling C++ object test/x86/avx512/set4-native-cpp.p/meson-generated_.._set4.cpp.o
+[361/4004] Compiling C++ object test/x86/avx512/set1-native-cpp.p/meson-generated_.._set1.cpp.o
+[362/4004] Compiling C object test/x86/avx512/setr4-native-c.p/setr4.c.o
+[363/4004] Compiling C++ object test/x86/avx512/setr-emul-cpp.p/meson-generated_.._setr.cpp.o
+[364/4004] Compiling C++ object test/x86/avx512/setr-native-cpp.p/meson-generated_.._setr.cpp.o
+[365/4004] Compiling C object test/x86/avx512/setzero-emul-c.p/setzero.c.o
+[366/4004] Compiling C object test/x86/avx512/setzero-native-c.p/setzero.c.o
+[367/4004] Compiling C object test/x86/avx512/setone-native-c.p/setone.c.o
+[368/4004] Compiling C++ object test/x86/avx512/setr4-emul-cpp.p/meson-generated_.._setr4.cpp.o
+[369/4004] Compiling C object test/x86/avx512/setone-emul-c.p/setone.c.o
+[370/4004] Compiling C object test/x86/avx512/shldv-emul-c.p/shldv.c.o
+[371/4004] Compiling C++ object test/x86/avx512/setr4-native-cpp.p/meson-generated_.._setr4.cpp.o
+[372/4004] Compiling C++ object test/x86/avx512/setzero-native-cpp.p/meson-generated_.._setzero.cpp.o
+[373/4004] Compiling C++ object test/x86/avx512/setzero-emul-cpp.p/meson-generated_.._setzero.cpp.o
+[374/4004] Compiling C object test/x86/avx512/shldv-native-c.p/shldv.c.o
+[375/4004] Compiling C++ object test/x86/avx512/setone-emul-cpp.p/meson-generated_.._setone.cpp.o
+[376/4004] Compiling C++ object test/x86/avx512/setone-native-cpp.p/meson-generated_.._setone.cpp.o
+[377/4004] Compiling C object test/x86/avx512/sll-emul-c.p/sll.c.o
+[378/4004] Compiling C++ object test/x86/avx512/shldv-emul-cpp.p/meson-generated_.._shldv.cpp.o
+[379/4004] Compiling C++ object test/x86/avx512/shldv-native-cpp.p/meson-generated_.._shldv.cpp.o
+[380/4004] Compiling C object test/x86/avx512/sll-native-c.p/sll.c.o
+[381/4004] Compiling C object test/x86/avx512/slli-emul-c.p/slli.c.o
+[382/4004] Compiling C object test/x86/avx512/slli-native-c.p/slli.c.o
+[383/4004] Compiling C++ object test/x86/avx512/sll-emul-cpp.p/meson-generated_.._sll.cpp.o
+[384/4004] Compiling C++ object test/x86/avx512/sll-native-cpp.p/meson-generated_.._sll.cpp.o
+[385/4004] Compiling C object test/x86/avx512/sllv-emul-c.p/sllv.c.o
+[386/4004] Compiling C object test/x86/avx512/sllv-native-c.p/sllv.c.o
+[387/4004] Compiling C++ object test/x86/avx512/slli-emul-cpp.p/meson-generated_.._slli.cpp.o
+[388/4004] Compiling C++ object test/x86/avx512/slli-native-cpp.p/meson-generated_.._slli.cpp.o
+[389/4004] Compiling C object test/x86/avx512/sqrt-emul-c.p/sqrt.c.o
+[390/4004] Compiling C object test/x86/avx512/sqrt-native-c.p/sqrt.c.o
+[391/4004] Compiling C++ object test/x86/avx512/sllv-native-cpp.p/meson-generated_.._sllv.cpp.o
+[392/4004] Compiling C++ object test/x86/avx512/sllv-emul-cpp.p/meson-generated_.._sllv.cpp.o
+[393/4004] Compiling C object test/x86/avx512/shuffle-emul-c.p/shuffle.c.o
+[394/4004] Compiling C object test/x86/avx512/sra-emul-c.p/sra.c.o
+[395/4004] Compiling C object test/x86/avx512/shuffle-native-c.p/shuffle.c.o
+[396/4004] Compiling C object test/x86/avx512/sra-native-c.p/sra.c.o
+[397/4004] Compiling C++ object test/x86/avx512/sqrt-native-cpp.p/meson-generated_.._sqrt.cpp.o
+[398/4004] Compiling C++ object test/x86/avx512/sqrt-emul-cpp.p/meson-generated_.._sqrt.cpp.o
+[399/4004] Compiling C object test/x86/avx512/srai-emul-c.p/srai.c.o
+[400/4004] Compiling C object test/x86/avx512/srai-native-c.p/srai.c.o
+[401/4004] Compiling C++ object test/x86/avx512/shuffle-emul-cpp.p/meson-generated_.._shuffle.cpp.o
+[402/4004] Compiling C object test/x86/avx512/srav-emul-c.p/srav.c.o
+[403/4004] Compiling C++ object test/x86/avx512/sra-native-cpp.p/meson-generated_.._sra.cpp.o
+[404/4004] Compiling C object test/x86/avx512/srav-native-c.p/srav.c.o
+[405/4004] Compiling C++ object test/x86/avx512/srai-emul-cpp.p/meson-generated_.._srai.cpp.o
+[406/4004] Compiling C++ object test/x86/avx512/sra-emul-cpp.p/meson-generated_.._sra.cpp.o
+[407/4004] Compiling C object test/x86/avx512/srl-native-c.p/srl.c.o
+[408/4004] Compiling C++ object test/x86/avx512/shuffle-native-cpp.p/meson-generated_.._shuffle.cpp.o
+[409/4004] Compiling C++ object test/x86/avx512/srai-native-cpp.p/meson-generated_.._srai.cpp.o
+[410/4004] Compiling C++ object test/x86/avx512/srav-emul-cpp.p/meson-generated_.._srav.cpp.o
+[411/4004] Compiling C object test/x86/avx512/srl-emul-c.p/srl.c.o
+[412/4004] Compiling C++ object test/x86/avx512/srav-native-cpp.p/meson-generated_.._srav.cpp.o
+[413/4004] Compiling C object test/x86/avx512/srli-emul-c.p/srli.c.o
+[414/4004] Compiling C object test/x86/avx512/srli-native-c.p/srli.c.o
+[415/4004] Compiling C object test/x86/avx512/srlv-emul-c.p/srlv.c.o
+[416/4004] Compiling C++ object test/x86/avx512/srl-emul-cpp.p/meson-generated_.._srl.cpp.o
+[417/4004] Compiling C object test/x86/avx512/srlv-native-c.p/srlv.c.o
+[418/4004] Compiling C++ object test/x86/avx512/srl-native-cpp.p/meson-generated_.._srl.cpp.o
+[419/4004] Compiling C object test/x86/avx512/store-emul-c.p/store.c.o
+[420/4004] Compiling C++ object test/x86/avx512/srli-emul-cpp.p/meson-generated_.._srli.cpp.o
+[421/4004] Compiling C++ object test/x86/avx512/srli-native-cpp.p/meson-generated_.._srli.cpp.o
+[422/4004] Compiling C object test/x86/avx512/store-native-c.p/store.c.o
+[423/4004] Compiling C object test/x86/avx512/storeu-emul-c.p/storeu.c.o
+[424/4004] Compiling C object test/x86/avx512/storeu-native-c.p/storeu.c.o
+[425/4004] Compiling C++ object test/x86/avx512/store-native-cpp.p/meson-generated_.._store.cpp.o
+[426/4004] Compiling C++ object test/x86/avx512/srlv-emul-cpp.p/meson-generated_.._srlv.cpp.o
+[427/4004] Compiling C++ object test/x86/avx512/srlv-native-cpp.p/meson-generated_.._srlv.cpp.o
+[428/4004] Compiling C++ object test/x86/avx512/store-emul-cpp.p/meson-generated_.._store.cpp.o
+[429/4004] Compiling C++ object test/x86/avx512/storeu-emul-cpp.p/meson-generated_.._storeu.cpp.o
+[430/4004] Compiling C++ object test/x86/avx512/storeu-native-cpp.p/meson-generated_.._storeu.cpp.o
+[431/4004] Compiling C object test/x86/avx512/sub-emul-c.p/sub.c.o
+[432/4004] Compiling C object test/x86/avx512/sub-native-c.p/sub.c.o
+[433/4004] Compiling C++ object test/x86/avx512/sub-emul-cpp.p/meson-generated_.._sub.cpp.o
+[434/4004] Compiling C object test/x86/avx512/subs-native-c.p/subs.c.o
+[435/4004] Compiling C object test/x86/avx512/subs-emul-c.p/subs.c.o
+[436/4004] Compiling C++ object test/x86/avx512/sub-native-cpp.p/meson-generated_.._sub.cpp.o
+[437/4004] Compiling C object test/x86/avx512/test-emul-c.p/test.c.o
+[438/4004] Compiling C++ object test/x86/avx512/subs-native-cpp.p/meson-generated_.._subs.cpp.o
+[439/4004] Compiling C++ object test/x86/avx512/subs-emul-cpp.p/meson-generated_.._subs.cpp.o
+[440/4004] Compiling C object test/x86/avx512/test-native-c.p/test.c.o
+[441/4004] Compiling C object test/x86/avx512/ternarylogic-emul-c.p/ternarylogic.c.o
+[442/4004] Compiling C object test/x86/avx512/testn-native-c.p/testn.c.o
+[443/4004] Compiling C object test/x86/avx512/testn-emul-c.p/testn.c.o
+[444/4004] Compiling C object test/x86/avx512/ternarylogic-native-c.p/ternarylogic.c.o
+[445/4004] Compiling C++ object test/x86/avx512/test-emul-cpp.p/meson-generated_.._test.cpp.o
+[446/4004] Compiling C++ object test/x86/avx512/test-native-cpp.p/meson-generated_.._test.cpp.o
+[447/4004] Compiling C++ object test/x86/avx512/testn-emul-cpp.p/meson-generated_.._testn.cpp.o
+[448/4004] Compiling C++ object test/x86/avx512/testn-native-cpp.p/meson-generated_.._testn.cpp.o
+[449/4004] Compiling C object test/x86/avx512/unpacklo-emul-c.p/unpacklo.c.o
+[450/4004] Compiling C object test/x86/avx512/unpacklo-native-c.p/unpacklo.c.o
+[451/4004] Compiling C++ object test/x86/avx512/ternarylogic-native-cpp.p/meson-generated_.._ternarylogic.cpp.o
+[452/4004] Compiling C++ object test/x86/avx512/ternarylogic-emul-cpp.p/meson-generated_.._ternarylogic.cpp.o
+[453/4004] Compiling C object test/x86/avx512/unpackhi-native-c.p/unpackhi.c.o
+[454/4004] Compiling C object test/x86/avx512/unpackhi-emul-c.p/unpackhi.c.o
+[455/4004] Compiling C object test/x86/avx512/xor-emul-c.p/xor.c.o
+[456/4004] Compiling C++ object test/x86/avx512/unpacklo-native-cpp.p/meson-generated_.._unpacklo.cpp.o
+[457/4004] Compiling C object test/x86/avx512/xor-native-c.p/xor.c.o
+[458/4004] Compiling C++ object test/x86/avx512/unpacklo-emul-cpp.p/meson-generated_.._unpacklo.cpp.o
+[459/4004] Compiling C object test/x86/avx512/xorsign-native-c.p/xorsign.c.o
+[460/4004] Compiling C object test/x86/avx512/xorsign-emul-c.p/xorsign.c.o
+[461/4004] Compiling C++ object test/x86/avx512/unpackhi-emul-cpp.p/meson-generated_.._unpackhi.cpp.o
+[462/4004] Compiling C++ object test/x86/avx512/unpackhi-native-cpp.p/meson-generated_.._unpackhi.cpp.o
+[463/4004] Compiling C++ object test/x86/avx512/xor-native-cpp.p/meson-generated_.._xor.cpp.o
+[464/4004] Compiling C++ object test/x86/avx512/xor-emul-cpp.p/meson-generated_.._xor.cpp.o
+[465/4004] Compiling C++ object test/x86/avx512/xorsign-emul-cpp.p/meson-generated_.._xorsign.cpp.o
+[466/4004] Compiling C++ object test/x86/avx512/xorsign-native-cpp.p/meson-generated_.._xorsign.cpp.o
+[467/4004] Compiling C object test/x86/mmx-native-c.p/mmx.c.o
+[468/4004] Compiling C object test/x86/mmx-emul-c.p/mmx.c.o
+[469/4004] Compiling C++ object test/x86/mmx-native-cpp.p/meson-generated_.._mmx.cpp.o
+[470/4004] Compiling C++ object test/x86/mmx-emul-cpp.p/meson-generated_.._mmx.cpp.o
+[471/4004] Compiling C object test/x86/sse-native-c.p/sse.c.o
+[472/4004] Compiling C object test/x86/sse-emul-c.p/sse.c.o
+[473/4004] Compiling C object test/x86/sse3-native-c.p/sse3.c.o
+[474/4004] Compiling C object test/x86/sse3-emul-c.p/sse3.c.o
+[475/4004] Compiling C++ object test/x86/sse-emul-cpp.p/meson-generated_.._sse.cpp.o
+[476/4004] Compiling C++ object test/x86/sse-native-cpp.p/meson-generated_.._sse.cpp.o
+[477/4004] Compiling C++ object test/x86/sse3-emul-cpp.p/meson-generated_.._sse3.cpp.o
+[478/4004] Compiling C++ object test/x86/sse3-native-cpp.p/meson-generated_.._sse3.cpp.o
+[479/4004] Compiling C object test/x86/ssse3-native-c.p/ssse3.c.o
+[480/4004] Compiling C object test/x86/ssse3-emul-c.p/ssse3.c.o
+[481/4004] Compiling C object test/x86/sse2-emul-c.p/sse2.c.o
+[482/4004] Compiling C object test/x86/sse2-native-c.p/sse2.c.o
+[483/4004] Compiling C object test/x86/sse4.1-emul-c.p/sse4.1.c.o
+[484/4004] Compiling C++ object test/x86/ssse3-emul-cpp.p/meson-generated_.._ssse3.cpp.o
+[485/4004] Compiling C object test/x86/sse4.1-native-c.p/sse4.1.c.o
+[486/4004] Compiling C object test/x86/sse4.2-emul-c.p/sse4.2.c.o
+[487/4004] Compiling C++ object test/x86/ssse3-native-cpp.p/meson-generated_.._ssse3.cpp.o
+[488/4004] Compiling C object test/x86/sse4.2-native-c.p/sse4.2.c.o
+[489/4004] Compiling C++ object test/x86/sse2-emul-cpp.p/meson-generated_.._sse2.cpp.o
+[490/4004] Compiling C++ object test/x86/sse4.1-emul-cpp.p/meson-generated_.._sse4.1.cpp.o
+[491/4004] Compiling C++ object test/x86/sse4.2-emul-cpp.p/meson-generated_.._sse4.2.cpp.o
+[492/4004] Compiling C++ object test/x86/sse2-native-cpp.p/meson-generated_.._sse2.cpp.o
+[493/4004] Compiling C++ object test/x86/sse4.2-native-cpp.p/meson-generated_.._sse4.2.cpp.o
+[494/4004] Compiling C++ object test/x86/sse4.1-native-cpp.p/meson-generated_.._sse4.1.cpp.o
+[495/4004] Compiling C object test/x86/avx-emul-c.p/avx.c.o
+[496/4004] Compiling C object test/x86/avx-native-c.p/avx.c.o
+[497/4004] Compiling C object test/x86/fma-emul-c.p/fma.c.o
+[498/4004] Compiling C++ object test/x86/avx-native-cpp.p/meson-generated_.._avx.cpp.o
+[499/4004] Compiling C object test/x86/fma-native-c.p/fma.c.o
+[500/4004] Compiling C++ object test/x86/fma-native-cpp.p/meson-generated_.._fma.cpp.o
+[501/4004] Compiling C++ object test/x86/avx-emul-cpp.p/meson-generated_.._avx.cpp.o
+[502/4004] Compiling C object test/x86/f16c-emul-c.p/f16c.c.o
+[503/4004] Compiling C++ object test/x86/fma-emul-cpp.p/meson-generated_.._fma.cpp.o
+[504/4004] Compiling C object test/x86/f16c-native-c.p/f16c.c.o
+[505/4004] Compiling C object test/x86/avx2-emul-c.p/avx2.c.o
+[506/4004] Compiling C++ object test/x86/avx2-emul-cpp.p/meson-generated_.._avx2.cpp.o
+[507/4004] Compiling C object test/x86/avx2-native-c.p/avx2.c.o
+[508/4004] Compiling C++ object test/x86/f16c-emul-cpp.p/meson-generated_.._f16c.cpp.o
+[509/4004] Compiling C++ object test/x86/f16c-native-cpp.p/meson-generated_.._f16c.cpp.o
+[510/4004] Compiling C++ object test/x86/avx2-native-cpp.p/meson-generated_.._avx2.cpp.o
+[511/4004] Compiling C object test/x86/clmul-emul-c.p/clmul.c.o
+[512/4004] Compiling C object test/x86/clmul-native-c.p/clmul.c.o
+[513/4004] Compiling C++ object test/x86/clmul-native-cpp.p/meson-generated_.._clmul.cpp.o
+[514/4004] Compiling C++ object test/x86/clmul-emul-cpp.p/meson-generated_.._clmul.cpp.o
+[515/4004] Compiling C object test/x86/gfni-native-c.p/gfni.c.o
+[516/4004] Compiling C object test/x86/gfni-emul-c.p/gfni.c.o
+[517/4004] Compiling C object test/x86/xop-native-c.p/xop.c.o
+[518/4004] Compiling C object test/x86/xop-emul-c.p/xop.c.o
+[519/4004] Compiling C++ object test/x86/gfni-emul-cpp.p/meson-generated_.._gfni.cpp.o
+[520/4004] Compiling C object test/x86/aes-emul-c.p/aes.c.o
+[521/4004] Compiling C++ object test/x86/gfni-native-cpp.p/meson-generated_.._gfni.cpp.o
+[522/4004] Compiling C object test/x86/aes-native-c.p/aes.c.o
+[523/4004] Compiling C++ object test/x86/xop-emul-cpp.p/meson-generated_.._xop.cpp.o
+[524/4004] Compiling C++ object test/x86/xop-native-cpp.p/meson-generated_.._xop.cpp.o
+[525/4004] Compiling C++ object test/x86/aes-emul-cpp.p/meson-generated_.._aes.cpp.o
+[526/4004] Compiling C object test/arm/neon/aba-emul-c.p/aba.c.o
+[527/4004] Compiling C object test/arm/neon/aba-native-c.p/aba.c.o
+[528/4004] Compiling C++ object test/x86/aes-native-cpp.p/meson-generated_.._aes.cpp.o
+[529/4004] Compiling C object test/arm/neon/abal-emul-c.p/abal.c.o
+[530/4004] Compiling C++ object test/arm/neon/aba-emul-cpp.p/meson-generated_.._aba.cpp.o
+[531/4004] Compiling C object test/arm/neon/abal-native-c.p/abal.c.o
+[532/4004] Compiling C++ object test/arm/neon/aba-native-cpp.p/meson-generated_.._aba.cpp.o
+[533/4004] Compiling C object test/arm/neon/abal_high-emul-c.p/abal_high.c.o
+[534/4004] Compiling C object test/arm/neon/abal_high-native-c.p/abal_high.c.o
+[535/4004] Compiling C++ object test/arm/neon/abal-emul-cpp.p/meson-generated_.._abal.cpp.o
+[536/4004] Compiling C++ object test/arm/neon/abal-native-cpp.p/meson-generated_.._abal.cpp.o
+[537/4004] Compiling C++ object test/arm/neon/abal_high-native-cpp.p/meson-generated_.._abal_high.cpp.o
+[538/4004] Compiling C++ object test/arm/neon/abal_high-emul-cpp.p/meson-generated_.._abal_high.cpp.o
+[539/4004] Compiling C object test/arm/neon/abd-native-c.p/abd.c.o
+[540/4004] Compiling C object test/arm/neon/abd-emul-c.p/abd.c.o
+[541/4004] Compiling C object test/x86/svml-native-c.p/svml.c.o
+[542/4004] Compiling C object test/arm/neon/abdl-emul-c.p/abdl.c.o
+[543/4004] Compiling C object test/x86/svml-emul-c.p/svml.c.o
+[544/4004] Compiling C object test/arm/neon/abdl-native-c.p/abdl.c.o
+[545/4004] Compiling C object test/arm/neon/abdl_high-emul-c.p/abdl_high.c.o
+[546/4004] Compiling C object test/arm/neon/abdl_high-native-c.p/abdl_high.c.o
+[547/4004] Compiling C++ object test/arm/neon/abd-emul-cpp.p/meson-generated_.._abd.cpp.o
+[548/4004] Compiling C++ object test/arm/neon/abd-native-cpp.p/meson-generated_.._abd.cpp.o
+[549/4004] Compiling C++ object test/arm/neon/abdl-native-cpp.p/meson-generated_.._abdl.cpp.o
+[550/4004] Compiling C++ object test/arm/neon/abdl-emul-cpp.p/meson-generated_.._abdl.cpp.o
+[551/4004] Compiling C object test/arm/neon/abs-emul-c.p/abs.c.o
+[552/4004] Compiling C object test/arm/neon/abs-native-c.p/abs.c.o
+[553/4004] Compiling C++ object test/arm/neon/abdl_high-emul-cpp.p/meson-generated_.._abdl_high.cpp.o
+[554/4004] Compiling C++ object test/arm/neon/abdl_high-native-cpp.p/meson-generated_.._abdl_high.cpp.o
+[555/4004] Compiling C++ object test/x86/svml-native-cpp.p/meson-generated_.._svml.cpp.o
+[556/4004] Compiling C++ object test/arm/neon/abs-emul-cpp.p/meson-generated_.._abs.cpp.o
+[557/4004] Compiling C++ object test/arm/neon/abs-native-cpp.p/meson-generated_.._abs.cpp.o
+[558/4004] Compiling C object test/arm/neon/add-emul-c.p/add.c.o
+[559/4004] Compiling C object test/arm/neon/add-native-c.p/add.c.o
+[560/4004] Compiling C object test/arm/neon/addhn-emul-c.p/addhn.c.o
+[561/4004] Compiling C++ object test/x86/svml-emul-cpp.p/meson-generated_.._svml.cpp.o
+[562/4004] Compiling C object test/arm/neon/addhn-native-c.p/addhn.c.o
+[563/4004] Compiling C++ object test/arm/neon/add-emul-cpp.p/meson-generated_.._add.cpp.o
+[564/4004] Compiling C object test/arm/neon/addhn_high-emul-c.p/addhn_high.c.o
+[565/4004] Compiling C object test/arm/neon/addhn_high-native-c.p/addhn_high.c.o
+[566/4004] Compiling C object test/arm/neon/addl-emul-c.p/addl.c.o
+[567/4004] Compiling C object test/arm/neon/addl-native-c.p/addl.c.o
+[568/4004] Compiling C++ object test/arm/neon/addhn-native-cpp.p/meson-generated_.._addhn.cpp.o
+[569/4004] Compiling C++ object test/arm/neon/addhn-emul-cpp.p/meson-generated_.._addhn.cpp.o
+[570/4004] Compiling C object test/arm/neon/addlv-emul-c.p/addlv.c.o
+[571/4004] Compiling C++ object test/arm/neon/add-native-cpp.p/meson-generated_.._add.cpp.o
+[572/4004] Compiling C object test/arm/neon/addlv-native-c.p/addlv.c.o
+[573/4004] Compiling C++ object test/arm/neon/addhn_high-native-cpp.p/meson-generated_.._addhn_high.cpp.o
+[574/4004] Compiling C++ object test/arm/neon/addl-native-cpp.p/meson-generated_.._addl.cpp.o
+[575/4004] Compiling C++ object test/arm/neon/addhn_high-emul-cpp.p/meson-generated_.._addhn_high.cpp.o
+[576/4004] Compiling C object test/arm/neon/addl_high-emul-c.p/addl_high.c.o
+[577/4004] Compiling C++ object test/arm/neon/addlv-emul-cpp.p/meson-generated_.._addlv.cpp.o
+[578/4004] Compiling C++ object test/arm/neon/addl-emul-cpp.p/meson-generated_.._addl.cpp.o
+[579/4004] Compiling C object test/arm/neon/addl_high-native-c.p/addl_high.c.o
+[580/4004] Compiling C object test/arm/neon/addv-native-c.p/addv.c.o
+[581/4004] Compiling C++ object test/arm/neon/addlv-native-cpp.p/meson-generated_.._addlv.cpp.o
+[582/4004] Compiling C object test/arm/neon/addv-emul-c.p/addv.c.o
+[583/4004] Compiling C object test/arm/neon/addw-emul-c.p/addw.c.o
+[584/4004] Compiling C object test/arm/neon/addw-native-c.p/addw.c.o
+[585/4004] Compiling C++ object test/arm/neon/addl_high-emul-cpp.p/meson-generated_.._addl_high.cpp.o
+[586/4004] Compiling C object test/arm/neon/addw_high-emul-c.p/addw_high.c.o
+[587/4004] Compiling C object test/arm/neon/addw_high-native-c.p/addw_high.c.o
+[588/4004] Compiling C++ object test/arm/neon/addl_high-native-cpp.p/meson-generated_.._addl_high.cpp.o
+[589/4004] Compiling C++ object test/arm/neon/addv-emul-cpp.p/meson-generated_.._addv.cpp.o
+[590/4004] Compiling C++ object test/arm/neon/addv-native-cpp.p/meson-generated_.._addv.cpp.o
+[591/4004] Compiling C++ object test/arm/neon/addw-emul-cpp.p/meson-generated_.._addw.cpp.o
+[592/4004] Compiling C object test/arm/neon/aes-emul-c.p/aes.c.o
+[593/4004] Compiling C++ object test/arm/neon/addw-native-cpp.p/meson-generated_.._addw.cpp.o
+[594/4004] Compiling C object test/arm/neon/aes-native-c.p/aes.c.o
+[595/4004] Compiling C object test/arm/neon/and-native-c.p/and.c.o
+[596/4004] Compiling C object test/arm/neon/and-emul-c.p/and.c.o
+[597/4004] Compiling C++ object test/arm/neon/addw_high-emul-cpp.p/meson-generated_.._addw_high.cpp.o
+[598/4004] Compiling C++ object test/arm/neon/aes-emul-cpp.p/meson-generated_.._aes.cpp.o
+[599/4004] Compiling C++ object test/arm/neon/addw_high-native-cpp.p/meson-generated_.._addw_high.cpp.o
+[600/4004] Compiling C object test/arm/neon/bcax-emul-c.p/bcax.c.o
+[601/4004] Compiling C++ object test/arm/neon/aes-native-cpp.p/meson-generated_.._aes.cpp.o
+[602/4004] Compiling C object test/arm/neon/bcax-native-c.p/bcax.c.o
+[603/4004] Compiling C++ object test/arm/neon/and-emul-cpp.p/meson-generated_.._and.cpp.o
+[604/4004] Compiling C++ object test/arm/neon/and-native-cpp.p/meson-generated_.._and.cpp.o
+[605/4004] Compiling C object test/arm/neon/bic-native-c.p/bic.c.o
+[606/4004] Compiling C object test/arm/neon/bic-emul-c.p/bic.c.o
+[607/4004] Compiling C++ object test/arm/neon/bcax-emul-cpp.p/meson-generated_.._bcax.cpp.o
+[608/4004] Compiling C++ object test/arm/neon/bcax-native-cpp.p/meson-generated_.._bcax.cpp.o
+[609/4004] Compiling C++ object test/arm/neon/bic-emul-cpp.p/meson-generated_.._bic.cpp.o
+[610/4004] Compiling C object test/arm/neon/cadd_rot270-emul-c.p/cadd_rot270.c.o
+[611/4004] Compiling C object test/arm/neon/bsl-emul-c.p/bsl.c.o
+[612/4004] Compiling C++ object test/arm/neon/bic-native-cpp.p/meson-generated_.._bic.cpp.o
+[613/4004] Compiling C object test/arm/neon/bsl-native-c.p/bsl.c.o
+[614/4004] Compiling C object test/arm/neon/cadd_rot270-native-c.p/cadd_rot270.c.o
+[615/4004] Compiling C object test/arm/neon/cadd_rot90-native-c.p/cadd_rot90.c.o
+[616/4004] Compiling C object test/arm/neon/cadd_rot90-emul-c.p/cadd_rot90.c.o
+[617/4004] Compiling C++ object test/arm/neon/bsl-emul-cpp.p/meson-generated_.._bsl.cpp.o
+[618/4004] Compiling C++ object test/arm/neon/cadd_rot270-native-cpp.p/meson-generated_.._cadd_rot270.cpp.o
+[619/4004] Compiling C++ object test/arm/neon/bsl-native-cpp.p/meson-generated_.._bsl.cpp.o
+[620/4004] Compiling C++ object test/arm/neon/cadd_rot270-emul-cpp.p/meson-generated_.._cadd_rot270.cpp.o
+[621/4004] Compiling C object test/arm/neon/cage-emul-c.p/cage.c.o
+[622/4004] Compiling C object test/arm/neon/cage-native-c.p/cage.c.o
+[623/4004] Compiling C++ object test/arm/neon/cadd_rot90-emul-cpp.p/meson-generated_.._cadd_rot90.cpp.o
+[624/4004] Compiling C object test/arm/neon/cagt-emul-c.p/cagt.c.o
+[625/4004] Compiling C object test/arm/neon/cagt-native-c.p/cagt.c.o
+[626/4004] Compiling C object test/arm/neon/cale-emul-c.p/cale.c.o
+[627/4004] Compiling C++ object test/arm/neon/cadd_rot90-native-cpp.p/meson-generated_.._cadd_rot90.cpp.o
+[628/4004] Compiling C object test/arm/neon/cale-native-c.p/cale.c.o
+[629/4004] Compiling C++ object test/arm/neon/cage-native-cpp.p/meson-generated_.._cage.cpp.o
+[630/4004] Compiling C++ object test/arm/neon/cage-emul-cpp.p/meson-generated_.._cage.cpp.o
+[631/4004] Compiling C++ object test/arm/neon/cagt-emul-cpp.p/meson-generated_.._cagt.cpp.o
+[632/4004] Compiling C++ object test/arm/neon/cagt-native-cpp.p/meson-generated_.._cagt.cpp.o
+[633/4004] Compiling C object test/arm/neon/calt-emul-c.p/calt.c.o
+[634/4004] Compiling C object test/arm/neon/calt-native-c.p/calt.c.o
+[635/4004] Compiling C object test/arm/neon/ceq-native-c.p/ceq.c.o
+[636/4004] Compiling C object test/arm/neon/ceq-emul-c.p/ceq.c.o
+[637/4004] Compiling C++ object test/arm/neon/cale-emul-cpp.p/meson-generated_.._cale.cpp.o
+[638/4004] Compiling C++ object test/arm/neon/calt-emul-cpp.p/meson-generated_.._calt.cpp.o
+[639/4004] Compiling C++ object test/arm/neon/cale-native-cpp.p/meson-generated_.._cale.cpp.o
+[640/4004] Compiling C object test/arm/neon/ceqz-emul-c.p/ceqz.c.o
+[641/4004] Compiling C++ object test/arm/neon/calt-native-cpp.p/meson-generated_.._calt.cpp.o
+[642/4004] Compiling C object test/arm/neon/ceqz-native-c.p/ceqz.c.o
+[643/4004] Compiling C++ object test/arm/neon/ceq-emul-cpp.p/meson-generated_.._ceq.cpp.o
+[644/4004] Compiling C++ object test/arm/neon/ceq-native-cpp.p/meson-generated_.._ceq.cpp.o
+[645/4004] Compiling C++ object test/arm/neon/ceqz-emul-cpp.p/meson-generated_.._ceqz.cpp.o
+[646/4004] Compiling C++ object test/arm/neon/ceqz-native-cpp.p/meson-generated_.._ceqz.cpp.o
+[647/4004] Compiling C++ object test/arm/neon/cge-emul-cpp.p/meson-generated_.._cge.cpp.o
+[648/4004] Compiling C object test/arm/neon/cge-emul-c.p/cge.c.o
+[649/4004] Compiling C++ object test/arm/neon/cge-native-cpp.p/meson-generated_.._cge.cpp.o
+[650/4004] Compiling C object test/arm/neon/cge-native-c.p/cge.c.o
+[651/4004] Compiling C object test/arm/neon/cgez-emul-c.p/cgez.c.o
+[652/4004] Compiling C object test/arm/neon/cgez-native-c.p/cgez.c.o
+[653/4004] Compiling C++ object test/arm/neon/cgez-emul-cpp.p/meson-generated_.._cgez.cpp.o
+[654/4004] Compiling C++ object test/arm/neon/cgez-native-cpp.p/meson-generated_.._cgez.cpp.o
+[655/4004] Compiling C++ object test/arm/neon/cgt-emul-cpp.p/meson-generated_.._cgt.cpp.o
+[656/4004] Compiling C object test/arm/neon/cgt-emul-c.p/cgt.c.o
+[657/4004] Compiling C object test/arm/neon/cgt-native-c.p/cgt.c.o
+[658/4004] Compiling C++ object test/arm/neon/cgtz-emul-cpp.p/meson-generated_.._cgtz.cpp.o
+[659/4004] Compiling C++ object test/arm/neon/cgt-native-cpp.p/meson-generated_.._cgt.cpp.o
+[660/4004] Compiling C++ object test/arm/neon/cgtz-native-cpp.p/meson-generated_.._cgtz.cpp.o
+[661/4004] Compiling C object test/arm/neon/cgtz-native-c.p/cgtz.c.o
+[662/4004] Compiling C object test/arm/neon/cgtz-emul-c.p/cgtz.c.o
+[663/4004] Compiling C object test/arm/neon/cls-emul-c.p/cls.c.o
+[664/4004] Compiling C object test/arm/neon/cls-native-c.p/cls.c.o
+[665/4004] Compiling C object test/arm/neon/cle-emul-c.p/cle.c.o
+[666/4004] Compiling C++ object test/arm/neon/cle-native-cpp.p/meson-generated_.._cle.cpp.o
+[667/4004] Compiling C++ object test/arm/neon/cle-emul-cpp.p/meson-generated_.._cle.cpp.o
+[668/4004] Compiling C object test/arm/neon/cle-native-c.p/cle.c.o
+[669/4004] Compiling C++ object test/arm/neon/clez-emul-cpp.p/meson-generated_.._clez.cpp.o
+[670/4004] Compiling C++ object test/arm/neon/clez-native-cpp.p/meson-generated_.._clez.cpp.o
+[671/4004] Compiling C++ object test/arm/neon/cls-emul-cpp.p/meson-generated_.._cls.cpp.o
+[672/4004] Compiling C++ object test/arm/neon/cls-native-cpp.p/meson-generated_.._cls.cpp.o
+[673/4004] Compiling C object test/arm/neon/clez-emul-c.p/clez.c.o
+[674/4004] Compiling C object test/arm/neon/cltz-emul-c.p/cltz.c.o
+[675/4004] Compiling C object test/arm/neon/clez-native-c.p/clez.c.o
+[676/4004] Compiling C object test/arm/neon/cltz-native-c.p/cltz.c.o
+[677/4004] Compiling C object test/arm/neon/clt-emul-c.p/clt.c.o
+[678/4004] Compiling C++ object test/arm/neon/clt-emul-cpp.p/meson-generated_.._clt.cpp.o
+[679/4004] Compiling C++ object test/arm/neon/clt-native-cpp.p/meson-generated_.._clt.cpp.o
+[680/4004] Compiling C object test/arm/neon/clz-emul-c.p/clz.c.o
+[681/4004] Compiling C++ object test/arm/neon/cltz-native-cpp.p/meson-generated_.._cltz.cpp.o
+[682/4004] Compiling C object test/arm/neon/clz-native-c.p/clz.c.o
+[683/4004] Compiling C object test/arm/neon/clt-native-c.p/clt.c.o
+[684/4004] Compiling C object test/arm/neon/cmla-emul-c.p/cmla.c.o
+[685/4004] Compiling C++ object test/arm/neon/cltz-emul-cpp.p/meson-generated_.._cltz.cpp.o
+[686/4004] Compiling C object test/arm/neon/cmla-native-c.p/cmla.c.o
+[687/4004] Compiling C++ object test/arm/neon/clz-emul-cpp.p/meson-generated_.._clz.cpp.o
+[688/4004] Compiling C++ object test/arm/neon/clz-native-cpp.p/meson-generated_.._clz.cpp.o
+[689/4004] Compiling C++ object test/arm/neon/cmla-native-cpp.p/meson-generated_.._cmla.cpp.o
+[690/4004] Compiling C object test/arm/neon/cmla_lane-native-c.p/cmla_lane.c.o
+[691/4004] Compiling C object test/arm/neon/cmla_rot180-emul-c.p/cmla_rot180.c.o
+[692/4004] Compiling C++ object test/arm/neon/cmla-emul-cpp.p/meson-generated_.._cmla.cpp.o
+[693/4004] Compiling C object test/arm/neon/cmla_rot180-native-c.p/cmla_rot180.c.o
+[694/4004] Compiling C object test/arm/neon/cmla_lane-emul-c.p/cmla_lane.c.o
+[695/4004] Compiling C++ object test/arm/neon/cmla_rot180-emul-cpp.p/meson-generated_.._cmla_rot180.cpp.o
+[696/4004] Compiling C++ object test/arm/neon/cmla_lane-native-cpp.p/meson-generated_.._cmla_lane.cpp.o
+[697/4004] Compiling C++ object test/arm/neon/cmla_lane-emul-cpp.p/meson-generated_.._cmla_lane.cpp.o
+[698/4004] Compiling C++ object test/arm/neon/cmla_rot180-native-cpp.p/meson-generated_.._cmla_rot180.cpp.o
+[699/4004] Compiling C object test/arm/neon/cmla_rot180_lane-native-c.p/cmla_rot180_lane.c.o
+[700/4004] Compiling C object test/arm/neon/cmla_rot180_lane-emul-c.p/cmla_rot180_lane.c.o
+[701/4004] Compiling C object test/arm/neon/cmla_rot270-emul-c.p/cmla_rot270.c.o
+[702/4004] Compiling C object test/arm/neon/cmla_rot270-native-c.p/cmla_rot270.c.o
+[703/4004] Compiling C++ object test/arm/neon/cmla_rot270-emul-cpp.p/meson-generated_.._cmla_rot270.cpp.o
+[704/4004] Compiling C object test/arm/neon/cmla_rot270_lane-emul-c.p/cmla_rot270_lane.c.o
+[705/4004] Compiling C++ object test/arm/neon/cmla_rot270-native-cpp.p/meson-generated_.._cmla_rot270.cpp.o
+[706/4004] Compiling C object test/arm/neon/cmla_rot270_lane-native-c.p/cmla_rot270_lane.c.o
+[707/4004] Compiling C++ object test/arm/neon/cmla_rot180_lane-native-cpp.p/meson-generated_.._cmla_rot180_lane.cpp.o
+[708/4004] Compiling C++ object test/arm/neon/cmla_rot180_lane-emul-cpp.p/meson-generated_.._cmla_rot180_lane.cpp.o
+[709/4004] Compiling C object test/arm/neon/cmla_rot90-emul-c.p/cmla_rot90.c.o
+[710/4004] Compiling C object test/arm/neon/cmla_rot90-native-c.p/cmla_rot90.c.o
+[711/4004] Compiling C++ object test/arm/neon/cmla_rot270_lane-native-cpp.p/meson-generated_.._cmla_rot270_lane.cpp.o
+[712/4004] Compiling C++ object test/arm/neon/cmla_rot270_lane-emul-cpp.p/meson-generated_.._cmla_rot270_lane.cpp.o
+[713/4004] Compiling C object test/arm/neon/cnt-emul-c.p/cnt.c.o
+[714/4004] Compiling C++ object test/arm/neon/cmla_rot90-native-cpp.p/meson-generated_.._cmla_rot90.cpp.o
+[715/4004] Compiling C object test/arm/neon/cnt-native-c.p/cnt.c.o
+[716/4004] Compiling C object test/arm/neon/cmla_rot90_lane-emul-c.p/cmla_rot90_lane.c.o
+[717/4004] Compiling C++ object test/arm/neon/cmla_rot90-emul-cpp.p/meson-generated_.._cmla_rot90.cpp.o
+[718/4004] Compiling C object test/arm/neon/cmla_rot90_lane-native-c.p/cmla_rot90_lane.c.o
+[719/4004] Compiling C++ object test/arm/neon/cmla_rot90_lane-emul-cpp.p/meson-generated_.._cmla_rot90_lane.cpp.o
+[720/4004] Compiling C++ object test/arm/neon/cnt-emul-cpp.p/meson-generated_.._cnt.cpp.o
+[721/4004] Compiling C++ object test/arm/neon/cnt-native-cpp.p/meson-generated_.._cnt.cpp.o
+[722/4004] Compiling C++ object test/arm/neon/cmla_rot90_lane-native-cpp.p/meson-generated_.._cmla_rot90_lane.cpp.o
+[723/4004] Compiling C object test/arm/neon/cvt-emul-c.p/cvt.c.o
+[724/4004] Compiling C object test/arm/neon/cvt-native-c.p/cvt.c.o
+[725/4004] Compiling C object test/arm/neon/cvtm-emul-c.p/cvtm.c.o
+[726/4004] Compiling C object test/arm/neon/cvt_n-emul-c.p/cvt_n.c.o
+[727/4004] Compiling C object test/arm/neon/cvt_n-native-c.p/cvt_n.c.o
+[728/4004] Compiling C++ object test/arm/neon/cvt-native-cpp.p/meson-generated_.._cvt.cpp.o
+[729/4004] Compiling C++ object test/arm/neon/cvt-emul-cpp.p/meson-generated_.._cvt.cpp.o
+[730/4004] Compiling C object test/arm/neon/cvtm-native-c.p/cvtm.c.o
+[731/4004] Compiling C++ object test/arm/neon/cvt_n-emul-cpp.p/meson-generated_.._cvt_n.cpp.o
+[732/4004] Compiling C object test/arm/neon/cvtn-native-c.p/cvtn.c.o
+[733/4004] Compiling C object test/arm/neon/cvtn-emul-c.p/cvtn.c.o
+[734/4004] Compiling C++ object test/arm/neon/cvt_n-native-cpp.p/meson-generated_.._cvt_n.cpp.o
+[735/4004] Compiling C object test/arm/neon/cvtp-emul-c.p/cvtp.c.o
+[736/4004] Compiling C++ object test/arm/neon/cvtm-emul-cpp.p/meson-generated_.._cvtm.cpp.o
+[737/4004] Compiling C++ object test/arm/neon/cvtm-native-cpp.p/meson-generated_.._cvtm.cpp.o
+[738/4004] Compiling C object test/arm/neon/cvtp-native-c.p/cvtp.c.o
+[739/4004] Compiling C++ object test/arm/neon/cvtn-emul-cpp.p/meson-generated_.._cvtn.cpp.o
+[740/4004] Compiling C++ object test/arm/neon/cvtn-native-cpp.p/meson-generated_.._cvtn.cpp.o
+[741/4004] Compiling C object test/arm/neon/combine-emul-c.p/combine.c.o
+[742/4004] Compiling C++ object test/arm/neon/cvtp-emul-cpp.p/meson-generated_.._cvtp.cpp.o
+[743/4004] Compiling C object test/arm/neon/combine-native-c.p/combine.c.o
+[744/4004] Compiling C++ object test/arm/neon/cvtp-native-cpp.p/meson-generated_.._cvtp.cpp.o
+[745/4004] Compiling C object test/arm/neon/crc32-emul-c.p/crc32.c.o
+[746/4004] Compiling C++ object test/arm/neon/combine-emul-cpp.p/meson-generated_.._combine.cpp.o
+[747/4004] Compiling C++ object test/arm/neon/combine-native-cpp.p/meson-generated_.._combine.cpp.o
+[748/4004] Compiling C object test/arm/neon/crc32-native-c.p/crc32.c.o
+[749/4004] Compiling C object test/arm/neon/copy_lane-native-c.p/copy_lane.c.o
+[750/4004] Compiling C object test/arm/neon/copy_lane-emul-c.p/copy_lane.c.o
+[751/4004] Compiling C++ object test/arm/neon/crc32-emul-cpp.p/meson-generated_.._crc32.cpp.o
+[752/4004] Compiling C++ object test/arm/neon/crc32-native-cpp.p/meson-generated_.._crc32.cpp.o
+[753/4004] Compiling C++ object test/arm/neon/copy_lane-emul-cpp.p/meson-generated_.._copy_lane.cpp.o
+[754/4004] Compiling C++ object test/arm/neon/copy_lane-native-cpp.p/meson-generated_.._copy_lane.cpp.o
+[755/4004] Compiling C++ object test/arm/neon/create-emul-cpp.p/meson-generated_.._create.cpp.o
+[756/4004] Compiling C++ object test/arm/neon/create-native-cpp.p/meson-generated_.._create.cpp.o
+[757/4004] Compiling C object test/arm/neon/div-emul-c.p/div.c.o
+[758/4004] Compiling C object test/arm/neon/div-native-c.p/div.c.o
+[759/4004] Compiling C object test/arm/neon/create-emul-c.p/create.c.o
+[760/4004] Compiling C object test/arm/neon/dot-emul-c.p/dot.c.o
+[761/4004] Compiling C object test/arm/neon/create-native-c.p/create.c.o
+[762/4004] Compiling C object test/arm/neon/dot-native-c.p/dot.c.o
+[763/4004] Compiling C++ object test/arm/neon/div-emul-cpp.p/meson-generated_.._div.cpp.o
+[764/4004] Compiling C object test/arm/neon/dot_lane-native-c.p/dot_lane.c.o
+[765/4004] Compiling C object test/arm/neon/dot_lane-emul-c.p/dot_lane.c.o
+[766/4004] Compiling C++ object test/arm/neon/div-native-cpp.p/meson-generated_.._div.cpp.o
+[767/4004] Compiling C object test/arm/neon/dup_n-native-c.p/dup_n.c.o
+[768/4004] Compiling C++ object test/arm/neon/dot-native-cpp.p/meson-generated_.._dot.cpp.o
+[769/4004] Compiling C++ object test/arm/neon/dot-emul-cpp.p/meson-generated_.._dot.cpp.o
+[770/4004] Compiling C object test/arm/neon/dup_n-emul-c.p/dup_n.c.o
+[771/4004] Compiling C++ object test/arm/neon/dot_lane-emul-cpp.p/meson-generated_.._dot_lane.cpp.o
+[772/4004] Compiling C++ object test/arm/neon/dot_lane-native-cpp.p/meson-generated_.._dot_lane.cpp.o
+[773/4004] Compiling C++ object test/arm/neon/dup_n-emul-cpp.p/meson-generated_.._dup_n.cpp.o
+[774/4004] Compiling C object test/arm/neon/eor-emul-c.p/eor.c.o
+[775/4004] Compiling C object test/arm/neon/eor-native-c.p/eor.c.o
+[776/4004] Compiling C++ object test/arm/neon/dup_n-native-cpp.p/meson-generated_.._dup_n.cpp.o
+[777/4004] Compiling C object test/arm/neon/dup_lane-emul-c.p/dup_lane.c.o
+[778/4004] Compiling C object test/arm/neon/ext-emul-c.p/ext.c.o
+FAILED: test/arm/neon/ext-emul-c.p/ext.c.o 
+cc -Itest/arm/neon/ext-emul-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-c.p/ext.c.o -MF test/arm/neon/ext-emul-c.p/ext.c.o.d -o test/arm/neon/ext-emul-c.p/ext.c.o -c ../test/arm/neon/ext.c
+during GIMPLE pass: local-fnsummary
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+0x8f0f1bf internal_error(char const*, ...)
+	???:0
+0x8f0f294 fancy_abort(char const*, int, char const*)
+	???:0
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+[779/4004] Compiling C object test/arm/neon/dup_lane-native-c.p/dup_lane.c.o
+[780/4004] Compiling C object test/arm/neon/ext-native-c.p/ext.c.o
+FAILED: test/arm/neon/ext-native-c.p/ext.c.o 
+cc -Itest/arm/neon/ext-native-c.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c99 -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -ffloat-store -MD -MQ test/arm/neon/ext-native-c.p/ext.c.o -MF test/arm/neon/ext-native-c.p/ext.c.o.d -o test/arm/neon/ext-native-c.p/ext.c.o -c ../test/arm/neon/ext.c
+during GIMPLE pass: local-fnsummary
+../test/arm/neon/ext.c: In function ‘simde_vext_p64’:
+../test/arm/neon/ext.c:2236: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+0x8f0f1bf internal_error(char const*, ...)
+	???:0
+0x8f0f294 fancy_abort(char const*, int, char const*)
+	???:0
+0x91b7e3c compute_fn_summary(cgraph_node*, bool)
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+[781/4004] Compiling C++ object test/arm/neon/eor-emul-cpp.p/meson-generated_.._eor.cpp.o
+[782/4004] Compiling C++ object test/arm/neon/dup_lane-emul-cpp.p/meson-generated_.._dup_lane.cpp.o
+[783/4004] Compiling C++ object test/arm/neon/eor-native-cpp.p/meson-generated_.._eor.cpp.o
+[784/4004] Compiling C++ object test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o
+FAILED: test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o 
+c++ -Itest/arm/neon/ext-emul-cpp.p -Itest/arm/neon -I../test/arm/neon -I. -I.. -fdiagnostics-color=always -D_GLIBCXX_ASSERTIONS=1 -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -g -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -march=i586 -mtune=generic -fopenmp-simd -DSIMDE_CONSTRAINED_COMPILATION -DSIMDE_ENABLE_OPENMP -Wno-psabi -DSIMDE_TEST_BARE -DSIMDE_NO_NATIVE -ffloat-store -MD -MQ test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -MF test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o.d -o test/arm/neon/ext-emul-cpp.p/meson-generated_.._ext.cpp.o -c test/arm/neon/ext.cpp
+during GIMPLE pass: local-fnsummary
+In file included from test/arm/neon/ext.cpp:2235:
+../test/arm/neon/test-neon-footer.h: In function ‘simde_vext_p64’:
+../test/arm/neon/test-neon-footer.h:17:3: internal compiler error: in predicate_for_phi_result, at ipa-fnsummary.cc:2447
+   17 |   }
+      |   ^
+0x8fcfced internal_error(char const*, ...)
+	???:0
+0x8fcfdc2 fancy_abort(char const*, int, char const*)
+	???:0
+0x92f057c compute_fn_summary(cgraph_node*, bool)
+	???:0
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <http://bugzilla.altlinux.org> for instructions.
+[785/4004] Compiling C++ object test/arm/neon/dup_lane-native-cpp.p/meson-generated_.._dup_lane.cpp.o
+ninja: build stopped: subcommand failed.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92881 (%check)
+Command exited with non-zero status 1
+562.40user 34.78system 2:33.21elapsed 389%CPU (0avgtext+0avgdata 247192maxresident)k
+0inputs+0outputs (0major+12306000minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `simde-0.8.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+5.60user 2.23system 2:49.10elapsed 4%CPU (0avgtext+0avgdata 133896maxresident)k
+0inputs+0outputs (0major+199960minor)pagefaults 0swaps

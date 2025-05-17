@@ -1,0 +1,119 @@
+      | ^
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -g -Wall -fno-strict-aliasing   -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mbdotdesktop.lo mbdotdesktop.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -g -Wall -fno-strict-aliasing -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c mbdotdesktop.c  -fPIC -DPIC -o .libs/mbdotdesktop.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -g -Wall -fno-strict-aliasing   -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mbpixbuf.lo mbpixbuf.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -g -Wall -fno-strict-aliasing -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c mbpixbuf.c  -fPIC -DPIC -o .libs/mbpixbuf.o
+mbpixbuf.c: In function '_load_jpg_file':
+mbpixbuf.c:153:9: error: implicit declaration of function 'mb_want_warnings' [-Wimplicit-function-declaration]
+  153 |     if (mb_want_warnings())
+  153 |     if (mb_want_warnings())
+      |         ^~~~~~~~~~~~~~~~
+      |         ^~~~~~~~~~~~~~~~
+mbpixbuf.c: In function 'mb_pixbuf_img_fill':
+mbpixbuf.c: In function 'mb_pixbuf_img_fill':
+mbpixbuf.c:1400:25: warning: value computed is not used [-Wunused-value]
+mbpixbuf.c:1400:25: warning: value computed is not used [-Wunused-value]
+ 1400 |               { *p = a; *p++; }
+ 1400 |               { *p = a; *p++; }
+      |                         ^~~~
+      |                         ^~~~
+mbpixbuf.c: In function '_load_png_file':
+mbpixbuf.c: In function '_load_png_file':
+mbpixbuf.c:230:3: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+mbpixbuf.c:230:3: warning: ignoring return value of 'fread' declared with attribute 'warn_unused_result' [-Wunused-result]
+  230 |   fread( header, 1, 8, fd );
+  230 |   fread( header, 1, 8, fd );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:506: mbpixbuf.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -g -Wall -fno-strict-aliasing   -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mbtray.lo mbtray.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -g -Wall -fno-strict-aliasing -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c mbtray.c  -fPIC -DPIC -o .libs/mbtray.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -g -Wall -fno-strict-aliasing   -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o mbmenu.lo mbmenu.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -g -Wall -fno-strict-aliasing -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpng16 -lXsettings-client -DDATADIR=\"/usr/share\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c mbmenu.c  -fPIC -DPIC -o .libs/mbmenu.o
+mbmenu.c: In function 'mb_menu_handle_xevent':
+mbexp.c:1586:3: warning: value computed is not used [-Wunused-value]
+ 1586 |   *s++;
+ 1586 |   *s++;
+      |   ^~~~
+      |   ^~~~
+      |   ^~~~
+mbexp.c:1592:5: warning: value computed is not used [-Wunused-value]
+mbexp.c:1592:5: warning: value computed is not used [-Wunused-value]
+mbexp.c:1592:5: warning: value computed is not used [-Wunused-value]
+ 1592 |     *s++;
+ 1592 |     *s++;
+ 1592 |     *s++;
+      |     ^~~~
+      |     ^~~~
+      |     ^~~~
+mbexp.c:1555:21: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+mbexp.c:1555:21: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+mbexp.c:1555:21: warning: variable 'mask' set but not used [-Wunused-but-set-variable]
+ 1555 |   unsigned char *s, mask;
+ 1555 |   unsigned char *s, mask;
+ 1555 |   unsigned char *s, mask;
+      |                     ^~~~
+      |                     ^~~~
+      |                     ^~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libmatchbox-1.9/libmb'
+make[1]: *** [Makefile:485: all-recursive] Error 1
+make[1]: *** [Makefile:485: all-recursive] Error 1
+make[1]: *** [Makefile:485: all-recursive] Error 1
+make[1]: *** [Makefile:485: all-recursive] Error 1
+make: *** [Makefile:394: all] Error 2
+make: *** [Makefile:394: all] Error 2
+make: *** [Makefile:394: all] Error 2
+make: *** [Makefile:394: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84089 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.43user 3.03system 0:07.11elapsed 104%CPU (0avgtext+0avgdata 51276maxresident)k
+4.43user 3.03system 0:07.11elapsed 104%CPU (0avgtext+0avgdata 51276maxresident)k
+4.43user 3.03system 0:07.11elapsed 104%CPU (0avgtext+0avgdata 51276maxresident)k
+4.43user 3.03system 0:07.11elapsed 104%CPU (0avgtext+0avgdata 51276maxresident)k
+0inputs+0outputs (0major+701851minor)pagefaults 0swaps
+0inputs+0outputs (0major+701851minor)pagefaults 0swaps
+0inputs+0outputs (0major+701851minor)pagefaults 0swaps
+0inputs+0outputs (0major+701851minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libmatchbox-1.9-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libmatchbox-1.9-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libmatchbox-1.9-alt4.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libmatchbox-1.9-alt4.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.50user 2.64system 0:21.95elapsed 32%CPU (0avgtext+0avgdata 140580maxresident)k
+4.50user 2.64system 0:21.95elapsed 32%CPU (0avgtext+0avgdata 140580maxresident)k
+264inputs+0outputs (0major+226138minor)pagefaults 0swaps

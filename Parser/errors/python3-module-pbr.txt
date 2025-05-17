@@ -1,0 +1,371 @@
+.pkg_external: create virtual environment via CPython3Posix(dest=/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/.tox/.pkg_external, clear=False, no_vcs_ignore=False, global=True)
+.pkg_external: add seed packages via FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/usr/src/.local/share/virtualenv)
+.pkg_external: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+.pkg_external: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+py3: install_package> python -I -m pip install --force-reinstall --no-deps /usr/src/RPM/BUILD/python3-module-pbr-6.1.1/dist/pbr-6.1.1-py2.py3-none-any.whl
+py3: install_package> python -I -m pip install --force-reinstall --no-deps /usr/src/RPM/BUILD/python3-module-pbr-6.1.1/dist/pbr-6.1.1-py2.py3-none-any.whl
+py3: exit 0 (0.75 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> python -I -m pip install --force-reinstall --no-deps /usr/src/RPM/BUILD/python3-module-pbr-6.1.1/dist/pbr-6.1.1-py2.py3-none-any.whl pid=1601065
+py3: exit 0 (0.75 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> python -I -m pip install --force-reinstall --no-deps /usr/src/RPM/BUILD/python3-module-pbr-6.1.1/dist/pbr-6.1.1-py2.py3-none-any.whl pid=1601065
+py3: exit 0 (0.75 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> python -I -m pip install --force-reinstall --no-deps /usr/src/RPM/BUILD/python3-module-pbr-6.1.1/dist/pbr-6.1.1-py2.py3-none-any.whl pid=1601065
+py3: commands[0]> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument'
+py3: commands[0]> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument'
+py3: commands[0]> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument'
+{0} pbr.tests.test_commands.TestCommands.test_custom_build_py_command [0.221900s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_build_py_command [0.221900s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_build_py_command [0.221900s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_deb_version_py_command [0.220782s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_deb_version_py_command [0.220782s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_deb_version_py_command [0.220782s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_rpm_version_py_command [0.225233s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_rpm_version_py_command [0.225233s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_custom_rpm_version_py_command [0.225233s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_freeze_command [0.138127s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_freeze_command [0.138127s] ... ok
+{0} pbr.tests.test_commands.TestCommands.test_freeze_command [0.138127s] ... ok
+{0} pbr.tests.test_core.TestCore.test_console_script_develop [0.996434s] ... FAILED
+{0} pbr.tests.test_core.TestCore.test_console_script_develop [0.996434s] ... FAILED
+{0} pbr.tests.test_core.TestCore.test_console_script_develop [0.996434s] ... FAILED
+
+
+
+Captured traceback:
+Captured traceback:
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+    Traceback (most recent call last):
+    Traceback (most recent call last):
+
+
+
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+    self.check_script_install(stdout)
+    self.check_script_install(stdout)
+    self.check_script_install(stdout)
+
+
+
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 59, in check_script_install
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 59, in check_script_install
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 59, in check_script_install
+    self.assertIn(install_txt, install_stdout)
+    self.assertIn(install_txt, install_stdout)
+    self.assertIn(install_txt, install_stdout)
+
+
+      File "/usr/lib/python3/site-packages/testtools/testcase.py", line 425, in assertIn
+      File "/usr/lib/python3/site-packages/testtools/testcase.py", line 425, in assertIn
+    self.assertThat(haystack, Contains(needle), message)
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+
+
+        License :: OSI Approved :: BSD License
+        License :: OSI Approved :: BSD License
+        License :: OSI Approved :: BSD License
+
+
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+        ********************************************************************************
+        ********************************************************************************
+
+
+
+!!
+!!
+!!
+  self._finalize_license_expression()
+  self._finalize_license_expression()
+  self._finalize_license_expression()
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: No matching distribution found for setuptools
+ERROR: No matching distribution found for setuptools
+ERROR: No matching distribution found for setuptools
+Traceback
+Traceback
+Traceback
+     (most recent call last):
+     (most recent call last):
+     (most recent call last):
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+    setuptools.setup(
+    setuptools.setup(
+    setuptools.setup(
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+    return distutils.core.setup(**attrs)
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+    return run_commands(dist)
+    return run_commands(dist)
+           ^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+{0} pbr.tests.test_version.TestSemanticVersion.test_increment_nonrelease [0.005099s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_increment_release [0.005374s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_ordering [0.006505s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_parsing_short_forms [0.005420s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_rc_dev_version [0.005569s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_rc_version [0.005022s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_to_dev [0.005076s] ... ok
+{0} pbr.tests.test_version.TestSemanticVersion.test_to_dev [0.005076s] ... ok
+{0} pbr.tests.test_wsgi.TestWsgiScripts.test_wsgi_script_install [0.403196s] ... ok
+{0} pbr.tests.test_wsgi.TestWsgiScripts.test_wsgi_script_install [0.403196s] ... ok
+
+
+
+==============================
+==============================
+==============================
+Failed 1 tests - output below:
+Failed 1 tests - output below:
+Failed 1 tests - output below:
+==============================
+==============================
+==============================
+
+
+
+pbr.tests.test_core.TestCore.test_console_script_develop
+pbr.tests.test_core.TestCore.test_console_script_develop
+pbr.tests.test_core.TestCore.test_console_script_develop
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+
+
+
+Captured traceback:
+Captured traceback:
+Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+    Traceback (most recent call last):
+    Traceback (most recent call last):
+
+
+
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 129, in test_console_script_develop
+    self.check_script_install(stdout)
+    self.check_script_install(stdout)
+
+
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 59, in check_script_install
+      File "/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/pbr/tests/test_core.py", line 59, in check_script_install
+    self.assertIn(install_txt, install_stdout)
+    self.assertIn(install_txt, install_stdout)
+
+
+      File "/usr/lib/python3/site-packages/testtools/testcase.py", line 425, in assertIn
+      File "/usr/lib/python3/site-packages/testtools/testcase.py", line 425, in assertIn
+    self.assertThat(haystack, Contains(needle), message)
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+
+
+        License :: OSI Approved :: BSD License
+        License :: OSI Approved :: BSD License
+        License :: OSI Approved :: BSD License
+
+
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+        ********************************************************************************
+        ********************************************************************************
+
+
+
+!!
+!!
+!!
+  self._finalize_license_expression()
+  self._finalize_license_expression()
+  self._finalize_license_expression()
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: Could not find a version that satisfies the requirement setuptools (from pbr-testpackage) (from versions: none)
+ERROR: No matching distribution found for setuptools
+ERROR: No matching distribution found for setuptools
+ERROR: No matching distribution found for setuptools
+Traceback
+Traceback
+Traceback
+     (most recent call last):
+     (most recent call last):
+     (most recent call last):
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+  File "/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t/testpackage/setup.py", line 18, in <module>
+    setuptools.setup(
+    setuptools.setup(
+    setuptools.setup(
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+    return distutils.core.setup(**attrs)
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 186, in setup
+    return run_commands(dist)
+    return run_commands(dist)
+    return run_commands(dist)
+           ^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+subprocess.CalledProcessError: Command '['/usr/src/RPM/BUILD/python3-module-pbr-6.1.1/.tox/py3/bin/python', '-m', 'pip', 'install', '-e', '.', '--use-pep517', '--target', '/usr/src/tmp/tmpvqkenexv/tmpiuam0_4t']' returned non-zero exit status 1.
+
+
+
+
+
+======
+======
+Totals
+Totals
+======
+======
+Ran: 193 tests in 43.1655 sec.
+Ran: 193 tests in 43.1655 sec.
+ - Passed: 178
+ - Passed: 178
+ - Skipped: 14
+ - Skipped: 14
+ - Expected Fail: 0
+ - Expected Fail: 0
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Unexpected Success: 0
+ - Unexpected Success: 0
+ - Unexpected Success: 0
+ - Failed: 1
+ - Failed: 1
+ - Failed: 1
+ - Failed: 1
+ - Failed: 1
+Sum of execute time for each test: 43.0511 sec.
+Sum of execute time for each test: 43.0511 sec.
+Sum of execute time for each test: 43.0511 sec.
+Sum of execute time for each test: 43.0511 sec.
+Sum of execute time for each test: 43.0511 sec.
+
+
+
+
+
+==============
+==============
+==============
+==============
+==============
+Worker Balance
+Worker Balance
+Worker Balance
+Worker Balance
+Worker Balance
+==============
+==============
+==============
+==============
+==============
+ - Worker 0 (193 tests) => 0:00:43.165548
+ - Worker 0 (193 tests) => 0:00:43.165548
+ - Worker 0 (193 tests) => 0:00:43.165548
+ - Worker 0 (193 tests) => 0:00:43.165548
+ - Worker 0 (193 tests) => 0:00:43.165548
+py3: exit 1 (44.07 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument' pid=1605520
+py3: exit 1 (44.07 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument' pid=1605520
+py3: exit 1 (44.07 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument' pid=1605520
+py3: exit 1 (44.07 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument' pid=1605520
+py3: exit 1 (44.07 seconds) /usr/src/RPM/BUILD/python3-module-pbr-6.1.1> stestr run --serial --suppress-attachments --exclude-regex 'test_requirement_parsing|test_pep_517_support|test_wsgi_script_run|test_with_argument' pid=1605520
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  py3: FAIL code 1 (45.04=setup[0.97]+cmd[44.07] seconds)
+  evaluation failed :( (45.12 seconds)
+  evaluation failed :( (45.12 seconds)
+  evaluation failed :( (45.12 seconds)
+  evaluation failed :( (45.12 seconds)
+  evaluation failed :( (45.12 seconds)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11446 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+34.25user 8.28system 0:46.75elapsed 90%CPU (0avgtext+0avgdata 47564maxresident)k
+34.25user 8.28system 0:46.75elapsed 90%CPU (0avgtext+0avgdata 47564maxresident)k
+34.25user 8.28system 0:46.75elapsed 90%CPU (0avgtext+0avgdata 47564maxresident)k
+34.25user 8.28system 0:46.75elapsed 90%CPU (0avgtext+0avgdata 47564maxresident)k
+0inputs+0outputs (0major+820033minor)pagefaults 0swaps
+0inputs+0outputs (0major+820033minor)pagefaults 0swaps
+0inputs+0outputs (0major+820033minor)pagefaults 0swaps
+0inputs+0outputs (0major+820033minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-pbr-6.1.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pbr-6.1.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pbr-6.1.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pbr-6.1.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.18user 3.64system 1:03.74elapsed 13%CPU (0avgtext+0avgdata 141528maxresident)k
+5.18user 3.64system 1:03.74elapsed 13%CPU (0avgtext+0avgdata 141528maxresident)k
+0inputs+0outputs (0major+359535minor)pagefaults 0swaps

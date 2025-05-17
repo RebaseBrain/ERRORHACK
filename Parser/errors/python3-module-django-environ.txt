@@ -1,0 +1,119 @@
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%3F] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%23] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%5B] PASSED [ 14%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%5D] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%40] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_password_using_gen_delims[%2C] PASSED [ 15%]
+tests/test_cache.py::test_cache_url_env_using_default PASSED             [ 16%]
+tests/test_db.py::test_db_parsing[postgres] PASSED                       [ 16%]
+tests/test_db.py::test_db_parsing[postgres_unix_domain] PASSED           [ 16%]
+tests/test_db.py::test_db_parsing[postgis] PASSED                        [ 16%]
+tests/test_db.py::test_db_parsing[postgres_cluster] FAILED               [ 17%]
+tests/test_db.py::test_db_parsing[postgres_no_ports] PASSED              [ 17%]
+tests/test_db.py::test_db_parsing[mysqlgis] PASSED                       [ 17%]
+tests/test_db.py::test_db_parsing[cleardb] PASSED                        [ 18%]
+tests/test_db.py::test_db_parsing[mysql_no_password] PASSED              [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_empty] PASSED                   [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_file] PASSED                    [ 18%]
+tests/test_db.py::test_db_parsing[sqlite_memory] PASSED                  [ 19%]
+tests/test_db.py::test_db_parsing[ldap] PASSED                           [ 19%]
+tests/test_db.py::test_db_parsing[mssql] PASSED                          [ 19%]
+tests/test_db.py::test_db_parsing[mssql_port] PASSED                     [ 20%]
+environ/compat.py:36
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:36: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:36: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if find_loader('redis_cache'):
+    if find_loader('redis_cache'):
+
+
+
+environ/compat.py:52
+environ/compat.py:52
+environ/compat.py:52
+environ/compat.py:52
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:52: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:52: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:52: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+  /usr/src/RPM/BUILD/python3-module-django-environ-0.10.0/environ/compat.py:52: DeprecationWarning: 'pkgutil.find_loader' is deprecated and slated for removal in Python 3.14; use importlib.util.find_spec() instead
+    if old_django or not find_loader('pymemcache'):
+    if old_django or not find_loader('pymemcache'):
+    if old_django or not find_loader('pymemcache'):
+    if old_django or not find_loader('pymemcache'):
+
+
+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_db.py::test_db_parsing[postgres_cluster] - ValueError: Invalid IPv6 URL
+FAILED tests/test_db.py::test_db_parsing[postgres_cluster] - ValueError: Invalid IPv6 URL
+FAILED tests/test_db.py::test_db_parsing[postgres_cluster] - ValueError: Invalid IPv6 URL
+FAILED tests/test_db.py::test_db_parsing[postgres_cluster] - ValueError: Invalid IPv6 URL
+================== 1 failed, 349 passed, 4 warnings in 0.42s ===================
+================== 1 failed, 349 passed, 4 warnings in 0.42s ===================
+================== 1 failed, 349 passed, 4 warnings in 0.42s ===================
+================== 1 failed, 349 passed, 4 warnings in 0.42s ===================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-vra', 'tests']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79066 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+2.26user 0.75system 0:02.96elapsed 101%CPU (0avgtext+0avgdata 38056maxresident)k
+0inputs+0outputs (0major+146542minor)pagefaults 0swaps
+0inputs+0outputs (0major+146542minor)pagefaults 0swaps
+0inputs+0outputs (0major+146542minor)pagefaults 0swaps
+0inputs+0outputs (0major+146542minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-django-environ-0.10.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-django-environ-0.10.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-django-environ-0.10.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.37user 3.26system 0:15.96elapsed 47%CPU (0avgtext+0avgdata 141120maxresident)k
+4.37user 3.26system 0:15.96elapsed 47%CPU (0avgtext+0avgdata 141120maxresident)k
+0inputs+0outputs (0major+281906minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Alien::cmake3
+Writing Makefile for Alien::cmake3
++ make -j16
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Entering directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+cp lib/Alien/cmake3.pm blib/lib/Alien/cmake3.pm
+cp lib/Alien/cmake3.pm blib/lib/Alien/cmake3.pm
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Entering directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Entering directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+"/usr/bin/perl" -MAlien::Build::MM=cmd -e prefix vendor /usr/lib64/perl5 /usr/local/lib64/perl/5.38 /usr/lib64/perl5
+"/usr/bin/perl" -MAlien::Build::MM=cmd -e prefix vendor /usr/lib64/perl5 /usr/local/lib64/perl/5.38 /usr/lib64/perl5
+Can't locate Mojo/DOM58.pm in @INC (you may need to install the Mojo::DOM58 module) (@INC entries checked: /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at /usr/share/perl5/Alien/Build.pm line 352.
+Can't locate Mojo/DOM58.pm in @INC (you may need to install the Mojo::DOM58 module) (@INC entries checked: /usr/local/lib64/perl/5.38 /usr/local/share/perl/5.38 /usr/lib64/perl5 /usr/share/perl5 /usr/lib64/perl5 /usr/share/perl5 /etc/perl5 /usr/lib/perl5/vendor_perl .) at /usr/share/perl5/Alien/Build.pm line 352.
+make: *** [Makefile:824: _alien/mm/prefix] Error 2
+make: *** [Makefile:824: _alien/mm/prefix] Error 2
+make: *** [Makefile:824: _alien/mm/prefix] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+make: Leaving directory '/usr/src/RPM/BUILD/Alien-cmake3-0.09'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.37046 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.70user 0.24system 0:01.16elapsed 81%CPU (0avgtext+0avgdata 28900maxresident)k
+0.70user 0.24system 0:01.16elapsed 81%CPU (0avgtext+0avgdata 28900maxresident)k
+0.70user 0.24system 0:01.16elapsed 81%CPU (0avgtext+0avgdata 28900maxresident)k
+0inputs+0outputs (0major+36201minor)pagefaults 0swaps
+0inputs+0outputs (0major+36201minor)pagefaults 0swaps
+0inputs+0outputs (0major+36201minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Alien-cmake3-0.09-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Alien-cmake3-0.09-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Alien-cmake3-0.09-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+13.46user 5.39system 0:30.12elapsed 62%CPU (0avgtext+0avgdata 137316maxresident)k
+13.46user 5.39system 0:30.12elapsed 62%CPU (0avgtext+0avgdata 137316maxresident)k
+1936inputs+0outputs (0major+233095minor)pagefaults 0swaps

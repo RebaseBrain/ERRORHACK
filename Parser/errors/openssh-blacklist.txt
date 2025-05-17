@@ -1,0 +1,56 @@
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80084
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd openssh-blacklist-0.3.1
+++ getconf LFS_CFLAGS
++ gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto utils-0.3.1/blacklist-check.c -o openssh-blacklist-check
+++ getconf LFS_CFLAGS
++ gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto utils-0.3.1/blacklist-encode.c -o openssh-blacklist-encode
+utils-0.3.1/blacklist-encode.c: In function 'read_stream':
+utils-0.3.1/blacklist-encode.c:111:36: error: passing argument 2 of 'getline' from incompatible pointer type [-Wincompatible-pointer-types]
+utils-0.3.1/blacklist-encode.c:111:36: error: passing argument 2 of 'getline' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |         while ((n = getline(&line, &size, fp)) >= 0)
+  111 |         while ((n = getline(&line, &size, fp)) >= 0)
+      |                                    ^~~~~
+      |                                    ^~~~~
+      |                                    |
+      |                                    |
+      |                                    unsigned int *
+      |                                    unsigned int *
+In file included from /usr/include/stdio.h:966,
+In file included from /usr/include/stdio.h:966,
+                 from utils-0.3.1/blacklist-encode.c:36:
+                 from utils-0.3.1/blacklist-encode.c:36:
+/usr/include/bits/stdio.h:118:36: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'unsigned int *'
+/usr/include/bits/stdio.h:118:36: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'unsigned int *'
+  118 | getline (char **__lineptr, size_t *__n, FILE *__stream)
+  118 | getline (char **__lineptr, size_t *__n, FILE *__stream)
+  118 | getline (char **__lineptr, size_t *__n, FILE *__stream)
+      |                            ~~~~~~~~^~~
+      |                            ~~~~~~~~^~~
+      |                            ~~~~~~~~^~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80084 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.65user 0.08system 0:00.72elapsed 101%CPU (0avgtext+0avgdata 27780maxresident)k
+0.65user 0.08system 0:00.72elapsed 101%CPU (0avgtext+0avgdata 27780maxresident)k
+0inputs+0outputs (0major+15697minor)pagefaults 0swaps
+0inputs+0outputs (0major+15697minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `openssh-blacklist-0.3.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `openssh-blacklist-0.3.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.98user 1.72system 0:06.24elapsed 43%CPU (0avgtext+0avgdata 12288maxresident)k
+0.98user 1.72system 0:06.24elapsed 43%CPU (0avgtext+0avgdata 12288maxresident)k
+0inputs+0outputs (0major+84886minor)pagefaults 0swaps

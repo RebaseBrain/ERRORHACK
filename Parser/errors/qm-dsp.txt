@@ -1,0 +1,77 @@
+      |            ^~~~
+dsp/chromagram/Chromagram.cpp:159:12: warning: unused variable 'cval' [-Wunused-variable]
+  159 |     double cval = 0;
+      |            ^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o dsp/chromagram/ConstantQ.o dsp/chromagram/ConstantQ.cpp
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o dsp/chromagram/ConstantQ.o dsp/chromagram/ConstantQ.cpp
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o hmm/hmm.o hmm/hmm.c
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o hmm/hmm.o hmm/hmm.c
+hmm/hmm.c:21:10: fatal error: lapack.h: No such file or directory
+hmm/hmm.c:21:10: fatal error: lapack.h: No such file or directory
+   21 | #include <lapack.h>             /* LAPACK for matrix inversion */
+   21 | #include <lapack.h>             /* LAPACK for matrix inversion */
+      |          ^~~~~~~~~~
+      |          ^~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [<builtin>: hmm/hmm.o] Error 1
+make: *** [<builtin>: hmm/hmm.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o maths/Correlation.o maths/Correlation.cpp
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o maths/Correlation.o maths/Correlation.cpp
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o dsp/keydetection/GetKeyMode.o dsp/keydetection/GetKeyMode.cpp
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Entering directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+g++ -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_PTHREADS -I/usr/include/openblas -I. -Iext/kissfft -Iext/kissfft/tools -Dkiss_fft_scalar=double   -c -o dsp/segmentation/Segmenter.o dsp/segmentation/Segmenter.cpp
+dsp/tempotracking/TempoTrack.cpp:823:62: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  823 |                     for (int i = 0; i < TTLoopIndex + 3 && i < TTFrames; ++i) {
+      |                                                            ~~^~~~~~~~~~
+dsp/tempotracking/TempoTrack.cpp:827:62: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  827 |                     for (int i = 0; i < TTLoopIndex + 3 && i < TTFrames; ++i) {
+      |                                                            ~~^~~~~~~~~~
+dsp/tempotracking/TempoTrack.cpp:715:18: warning: unused variable 'DFCLength' [-Wunused-variable]
+  715 |     unsigned int DFCLength = m_dataLength + m_winLength;
+      |                  ^~~~~~~~~
+      |                  ^~~~~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+make: Leaving directory '/usr/src/RPM/BUILD/qm-dsp-1.7.1'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97277 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.97277 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.97277 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.97277 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+14.25user 1.51system 0:01.46elapsed 1075%CPU (0avgtext+0avgdata 122636maxresident)k
+14.25user 1.51system 0:01.46elapsed 1075%CPU (0avgtext+0avgdata 122636maxresident)k
+0inputs+0outputs (0major+130069minor)pagefaults 0swaps
+0inputs+0outputs (0major+130069minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `qm-dsp-1.7.1-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `qm-dsp-1.7.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.15user 3.11system 0:23.91elapsed 30%CPU (0avgtext+0avgdata 141872maxresident)k
+4.15user 3.11system 0:23.91elapsed 30%CPU (0avgtext+0avgdata 141872maxresident)k
+72inputs+0outputs (0major+244712minor)pagefaults 0swaps

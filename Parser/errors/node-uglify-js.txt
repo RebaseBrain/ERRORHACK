@@ -1,0 +1,917 @@
+  [32m√ [39mShould generate bug report via API
+  [32m√ [39mShould generate bug report via CLI
+bin/uglifyjs
+  [32m√ [39mShould produce a functional build when using --self
+  [32m√ [39mShould be able to filter comments correctly with `--comments all`
+  [32m√ [39mShould be able to filter comments correctly with `--comment <RegExp>`
+  [32m√ [39mShould be able to filter comments correctly with just `--comment`
+  [32m√ [39mShould work with --expression
+  [32m√ [39mShould work with --source-map names=true
+  [32m√ [39mShould work with --source-map names=false
+  [32m√ [39mShould give sensible error against invalid input source map
+  [32m√ [39mShould append source map to output when using --source-map url=inline
+  [32m√ [39mShould not append source map to output when not using --source-map url=inline
+  [32m√ [39mShould not consider source map file content as source map file name (issue #2082)
+  [32m√ [39mShould not load source map before finish reading from STDIN
+  [32m√ [39mShould work with --keep-fargs (mangle only)
+  [32m√ [39mShould work with --keep-fargs (mangle & compress)
+  [32m√ [39mShould work with keep_fargs under mangler options
+  [32m√ [39mShould work with keep_fargs under mangler options
+  [32m√ [39mShould work with --keep-fnames (mangle only)
+  [32m√ [39mShould work with --keep-fnames (mangle only)
+  [32m√ [39mShould work with --keep-fnames (mangle & compress)
+  [32m√ [39mShould work with --keep-fnames (mangle & compress)
+  [32m√ [39mShould work with keep_fnames under mangler options
+  [32m√ [39mShould work with keep_fnames under mangler options
+  [32m√ [39mShould work with --define (simple)
+  [32m√ [39mShould work with --define (simple)
+  [32m√ [39mShould work with --define (nested)
+  [32m√ [39mShould work with --define (nested)
+  [32m√ [39mShould work with --define (nested)
+  [32m√ [39mShould work with --define (AST_Node)
+  [32m√ [39mShould work with --define (AST_Node)
+  [32m√ [39mShould work with --define (AST_Node)
+  [32m√ [39mShould work with --define (AST_Node)
+  [32m√ [39mShould work with `--beautify`
+  [32m√ [39mShould work with `--beautify`
+  [32m√ [39mShould work with `--beautify`
+  [32m√ [39mShould work with `--beautify`
+  [32m√ [39mShould work with `--beautify`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--beautify braces`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould work with `--output-opts`
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould fail when both --beautify & --output-opts are specified
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould process inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould warn for missing inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould handle multiple input and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with acorn and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with SpiderMonkey and inline source map
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with invalid syntax
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking of tabs
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with correct marking at start of line
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould fail with a missing loop body
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (5--)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (Math.random() /= 2)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (++this)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error (null = 4)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error ([]?.length ^= 5)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (a.=)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (%.a)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error (a./();)
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error ({%: 1})
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (delete x)
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function g(arguments))
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (function eval())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (iife arguments())
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (catch (eval))
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var eval)
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (var { eval })
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (else)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (return)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in init)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-in var)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of init)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-of var)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (for-await)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (switch defaults)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould throw syntax error (console?.log``)
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould handle literal string as source map input
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould include function calls in source map
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould dump AST as JSON
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould print supported options on invalid option syntax
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=[]
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould work with --mangle reserved=false
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould fail with --mangle-props reserved=[in]
+  [32m√ [39mShould work with mangle.properties.regex from --config-file
+  [32m√ [39mShould work with mangle.properties.regex from --config-file
+  [32m√ [39mShould work with mangle.properties.regex from --config-file
+  [32m√ [39mShould work with mangle.properties.regex from --config-file
+  [32m√ [39mShould work with mangle.properties.regex from --config-file
+  [32m√ [39mShould fail with --define a-b
+  [32m√ [39mShould fail with --define a-b
+  [32m√ [39mShould fail with --define a-b
+  [32m√ [39mShould fail with --define a-b
+  [32m√ [39mShould work with explicit --rename
+  [32m√ [39mShould work with explicit --rename
+  [32m√ [39mShould work with explicit --rename
+  [32m√ [39mShould work with explicit --no-rename
+  [32m√ [39mShould work with explicit --no-rename
+  [32m√ [39mShould work with implicit --rename
+  [32m√ [39mShould work with implicit --rename
+  [32m√ [39mShould work with implicit --no-rename
+  [32m√ [39mShould work with implicit --no-rename
+  [32m√ [39mShould work with --enclose
+  [32m√ [39mShould work with --enclose
+  [32m√ [39mShould work with --enclose arg
+  [32m√ [39mShould work with --enclose arg
+  [32m√ [39mShould work with --enclose arg:value
+  [32m√ [39mShould work with --enclose arg:value
+  [32m√ [39mShould work with --enclose & --wrap
+  [32m√ [39mShould work with --enclose & --wrap
+  [32m√ [39mShould work with --module
+  [31m× [39mShould compress swarm of unused variables with reasonable performance
+  [32m√ [39mShould compress leading parentheses with reasonable performance
+test/reduce.js
+  [32m√ [39mShould reduce test case
+  [32m√ [39mShould eliminate unreferenced labels
+  [32m√ [39mShould retain setter arguments
+  [32m√ [39mShould handle test cases with --toplevel
+  [32m√ [39mShould handle test cases with --compress toplevel
+  [32m√ [39mShould handle test cases with --mangle toplevel
+  [32m√ [39mShould handle test result of NaN
+  [32m√ [39mShould print correct output for irreducible test case
+  [32m√ [39mShould fail when invalid option is supplied
+  [32m√ [39mShould report on test case with invalid syntax
+  [32m√ [39mShould format multi-line output correctly
+  [32m√ [39mShould reduce `for (const ... in ...)` without invalid intermediate AST
+  [32m√ [39mShould reduce infinite loops with reasonable performance
+  [32m√ [39mShould ignore difference in Error.message
+  [32m√ [39mShould report trailing whitespace difference in stringified format
+  [32m√ [39mShould reduce test case which differs only in Error.message
+  [32m√ [39mShould maintain block-scope for const/let
+  [32m√ [39mShould handle corner cases when intermediate case differs only in Error.message
+  [32m√ [39mShould maintain valid LHS in destructuring assignments
+    [32m√ [39mShould not modify input source map
+    [32m√ [39mShould copy over original sourcesContent
+    [32m√ [39mShould copy sourcesContent if sources are relative
+    [32m√ [39mShould copy sourcesContent if sources are relative
+    [32m√ [39mShould not have invalid mappings from inputSourceMap
+    [32m√ [39mShould not have invalid mappings from inputSourceMap
+    [32m√ [39mShould not have invalid mappings from inputSourceMap
+bin/uglifyjs with input file globs
+bin/uglifyjs with input file globs
+bin/uglifyjs with input file globs
+bin/uglifyjs with input file globs
+  [31m× [39mShould handle array of glob strings - matching and otherwise
+  [31m× [39mShould handle array of glob strings - matching and otherwise
+  [31m× [39mShould handle array of glob strings - matching and otherwise
+  [31m× [39mShould handle array of glob strings - matching and otherwise
+  [31m× [39mShould handle array of glob strings - matching and otherwise
+spidermonkey export/import sanity test
+spidermonkey export/import sanity test
+spidermonkey export/import sanity test
+spidermonkey export/import sanity test
+spidermonkey export/import sanity test
+  [32m√ [39mShould not add unnecessary escape slashes to RegExp
+  [32m√ [39mShould not add unnecessary escape slashes to RegExp
+  [32m√ [39mShould not add unnecessary escape slashes to RegExp
+  [32m√ [39mShould not add unnecessary escape slashes to RegExp
+  [32m√ [39mShould not add unnecessary escape slashes to RegExp
+  [32m√ [39mShould judge between directives and strings correctly on import
+  [32m√ [39mShould judge between directives and strings correctly on import
+  [32m√ [39mShould judge between directives and strings correctly on import
+  [32m√ [39mShould judge between directives and strings correctly on import
+  [32m√ [39mShould judge between directives and strings correctly on import
+String literals
+String literals
+String literals
+String literals
+String literals
+  [32m√ [39mShould throw syntax error if a string literal contains a newline
+  [32m√ [39mShould throw syntax error if a string literal contains a newline
+  [32m√ [39mShould throw syntax error if a string literal contains a newline
+  [32m√ [39mShould throw syntax error if a string literal contains a newline
+  [32m√ [39mShould throw syntax error if a string literal contains a newline
+  [32m√ [39mShould handle line continuation correctly
+  [32m√ [39mShould handle line continuation correctly
+  [32m√ [39mShould handle line continuation correctly
+  [32m√ [39mShould handle line continuation correctly
+  [32m√ [39mShould handle line continuation correctly
+  [32m√ [39mShould not throw syntax error if a string has a line continuation
+  [32m√ [39mShould not throw syntax error if a string has a line continuation
+  [32m√ [39mShould not throw syntax error if a string has a line continuation
+  [32m√ [39mShould not throw syntax error if a string has a line continuation
+  [32m√ [39mShould not throw syntax error if a string has a line continuation
+  [32m√ [39mShould throw error in strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould throw error in strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould throw error in strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould throw error in strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould throw error in strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error outside strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error outside strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error outside strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error outside strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error outside strict mode if string contains escaped octalIntegerLiteral
+  [32m√ [39mShould not throw error when digit is 8 or 9
+  [32m√ [39mShould not throw error when digit is 8 or 9
+  [32m√ [39mShould not throw error when digit is 8 or 9
+  [32m√ [39mShould not throw error when digit is 8 or 9
+  [32m√ [39mShould not throw error when digit is 8 or 9
+  [32m√ [39mShould not unescape unpaired surrogates
+  [32m√ [39mShould not unescape unpaired surrogates
+  [32m√ [39mShould not unescape unpaired surrogates
+  [32m√ [39mShould not unescape unpaired surrogates
+  [32m√ [39mShould not unescape unpaired surrogates
+  [32m√ [39mShould reject invalid Unicode escape sequence
+  [32m√ [39mShould reject invalid Unicode escape sequence
+  [32m√ [39mShould reject invalid Unicode escape sequence
+  [32m√ [39mShould reject invalid Unicode escape sequence
+  [32m√ [39mShould reject invalid Unicode escape sequence
+  [32m√ [39mShould reject invalid code points in Unicode escape sequence
+  [32m√ [39mShould reject invalid code points in Unicode escape sequence
+  [32m√ [39mShould reject invalid code points in Unicode escape sequence
+  [32m√ [39mShould reject invalid code points in Unicode escape sequence
+  [32m√ [39mShould reject invalid code points in Unicode escape sequence
+Template literals
+Template literals
+Template literals
+Template literals
+Template literals
+  [32m√ [39mShould reject invalid literal
+  [32m√ [39mShould reject invalid literal
+  [32m√ [39mShould reject invalid literal
+  [32m√ [39mShould reject invalid literal
+  [32m√ [39mShould reject invalid literal
+  [32m√ [39mShould reject invalid expression
+  [32m√ [39mShould reject invalid expression
+  [32m√ [39mShould reject invalid expression
+  [32m√ [39mShould reject invalid expression
+  [32m√ [39mShould process line-break characters correctly
+  [32m√ [39mShould process line-break characters correctly
+  [32m√ [39mShould process line-break characters correctly
+  [32m√ [39mShould process line-break characters correctly
+tokens
+tokens
+tokens
+  [32m√ [39mShould give correct positions for accessors
+  [32m√ [39mShould give correct positions for accessors
+With
+With
+  [32m√ [39mShould throw syntaxError when using with statement in strict mode
+  [32m√ [39mShould set uses_with for scopes involving With statements
+generator
+  [32m√ [39mShould reject `yield` as symbol name within generator functions only
+  [32m√ [39mShould reject `yield` expression outside of generator functions
+  [32m√ [39mShould reject `yield` expression directly on computed key of function argument
+  [32m√ [39mShould accept `yield` expression nested within computed key of function argument
+  [32m√ [39mShould reject `yield*` without an expression
+
+[31m3 test(s) failed![39m
+
+bin/uglifyjs
+  1) Should compress swarm of unused variables with reasonable performance
+[31mError: Timed out: exceeds 10000ms[39m
+    at Timeout.<anonymous> (/usr/src/RPM/BUILD/node-uglify-js-3.17.0/test/mocha.js:74:27)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+
+bin/uglifyjs with input file globs
+  2) bin/uglifyjs with one input file extension glob.
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:351:12)
+
+  3) Should handle array of glob strings - matching and otherwise
+[31mError: Timed out: exceeds 10000ms[39m
+    at Timeout.<anonymous> (/usr/src/RPM/BUILD/node-uglify-js-3.17.0/test/mocha.js:74:27)
+    at listOnTimeout (node:internal/timers:588:17)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+    at process.processTimers (node:internal/timers:523:7)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7622 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7622 (%check)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7622 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7622 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+355.49user 53.84system 12:27.39elapsed 54%CPU (0avgtext+0avgdata 337084maxresident)k
+355.49user 53.84system 12:27.39elapsed 54%CPU (0avgtext+0avgdata 337084maxresident)k
+0inputs+0outputs (0major+7985506minor)pagefaults 0swaps
+0inputs+0outputs (0major+7985506minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `node-uglify-js-3.17.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `node-uglify-js-3.17.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.81user 2.61system 12:49.25elapsed 1%CPU (0avgtext+0avgdata 134056maxresident)k
+6.81user 2.61system 12:49.25elapsed 1%CPU (0avgtext+0avgdata 134056maxresident)k
+37744inputs+0outputs (0major+273867minor)pagefaults 0swaps

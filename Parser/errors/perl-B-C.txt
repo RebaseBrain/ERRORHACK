@@ -1,0 +1,98 @@
+/usr/lib64/perl5/CORE/warnings.h:24:38: warning: comparison of distinct pointer types lacks a cast [-Wcompare-distinct-pointer-types]
+   24 |                                  (x) == pWARN_NONE)
+      |                                      ^~
+bytecode.h:731:17: note: in expansion of macro 'specialWARN'
+  731 |             if (specialWARN((STRLEN *)w)) {                             \
+      |                 ^~~~~~~~~~~
+byterun.c:1605:17: note: in expansion of macro 'BSET_cop_warnings'
+byterun.c:1605:17: note: in expansion of macro 'BSET_cop_warnings'
+ 1605 |                 BSET_cop_warnings(cCOP, arg);
+ 1605 |                 BSET_cop_warnings(cCOP, arg);
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~
+In file included from byterun.c:35:
+In file included from byterun.c:35:
+bytecode.h:732:33: error: assignment to 'char *' from incompatible pointer type 'STRLEN *' {aka 'long unsigned int *'} [-Wincompatible-pointer-types]
+bytecode.h:732:33: error: assignment to 'char *' from incompatible pointer type 'STRLEN *' {aka 'long unsigned int *'} [-Wincompatible-pointer-types]
+  732 |                 c->cop_warnings = (STRLEN *)w;                          \
+  732 |                 c->cop_warnings = (STRLEN *)w;                          \
+      |                                 ^
+      |                                 ^
+      |                                 ^
+byterun.c:1605:17: note: in expansion of macro 'BSET_cop_warnings'
+byterun.c:1605:17: note: in expansion of macro 'BSET_cop_warnings'
+byterun.c:1605:17: note: in expansion of macro 'BSET_cop_warnings'
+ 1605 |                 BSET_cop_warnings(cCOP, arg);
+ 1605 |                 BSET_cop_warnings(cCOP, arg);
+ 1605 |                 BSET_cop_warnings(cCOP, arg);
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:338: byterun.o] Error 1
+make[1]: *** [Makefile:338: byterun.o] Error 1
+make[1]: *** [Makefile:338: byterun.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"0.12\" -DXS_VERSION=\"0.12\" -fPIC "-I/usr/lib64/perl5/CORE"   ByteLoader.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"0.12\" -DXS_VERSION=\"0.12\" -fPIC "-I/usr/lib64/perl5/CORE"   ByteLoader.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"0.12\" -DXS_VERSION=\"0.12\" -fPIC "-I/usr/lib64/perl5/CORE"   ByteLoader.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"0.12\" -DXS_VERSION=\"0.12\" -fPIC "-I/usr/lib64/perl5/CORE"   ByteLoader.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01/ByteLoader'
+make: *** [Makefile:622: subdirs] Error 2
+make: *** [Makefile:622: subdirs] Error 2
+make: *** [Makefile:622: subdirs] Error 2
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+make: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+make: Entering directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.57_01\" -DXS_VERSION=\"1.57_01\" -fPIC "-I/usr/lib64/perl5/CORE"   C.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.57_01\" -DXS_VERSION=\"1.57_01\" -fPIC "-I/usr/lib64/perl5/CORE"   C.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.57_01\" -DXS_VERSION=\"1.57_01\" -fPIC "-I/usr/lib64/perl5/CORE"   C.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.57_01\" -DXS_VERSION=\"1.57_01\" -fPIC "-I/usr/lib64/perl5/CORE"   C.c
+make: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+make: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+make: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+make: Leaving directory '/usr/src/RPM/BUILD/perl-B-C-1.57_01'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.84640 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.93user 0.59system 0:01.40elapsed 179%CPU (0avgtext+0avgdata 83224maxresident)k
+1.93user 0.59system 0:01.40elapsed 179%CPU (0avgtext+0avgdata 83224maxresident)k
+0inputs+0outputs (0major+112403minor)pagefaults 0swaps
+0inputs+0outputs (0major+112403minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-B-C-1.57_01-alt1.gitb29a5b8f.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-B-C-1.57_01-alt1.gitb29a5b8f.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.83user 2.25system 0:13.65elapsed 66%CPU (0avgtext+0avgdata 142452maxresident)k
+6.83user 2.25system 0:13.65elapsed 66%CPU (0avgtext+0avgdata 142452maxresident)k
+3808inputs+0outputs (0major+198125minor)pagefaults 0swaps

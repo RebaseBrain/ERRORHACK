@@ -1,0 +1,287 @@
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-gcc static flag -static works... no
+checking if x86_64-alt-linux-gcc supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by x86_64-alt-linux-g++... /usr/bin/ld -m elf_x86_64
+checking for ld used by x86_64-alt-linux-g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for x86_64-alt-linux-g++ option to produce PIC... -fPIC
+checking if x86_64-alt-linux-g++ PIC flag -fPIC works... yes
+checking if x86_64-alt-linux-g++ static flag -static works... no
+checking if x86_64-alt-linux-g++ supports -c -o file.o... yes
+checking whether the x86_64-alt-linux-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... cat: '/etc/ld.so.conf.d/*.conf': No such file or directory
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking for x86_64-alt-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTKHTML2... yes
+checking for GAILUTIL... yes
+checking for GNOME_VFS... yes
+configure: creating ./config.status
+      |                                  ~~~~~~~~~~~~~^~~~~~
+      |                                               |
+      |                                               const xmlChar * {aka const unsigned char *}
+/usr/include/glib-2.0/glib/gstrfuncs.h:324:38: note: in definition of macro 'g_strdup'
+  324 | #define g_strdup(x) g_strdup_inline (x)
+      |                                      ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:309:30: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+  309 | g_strdup_inline (const char *str)
+      |                  ~~~~~~~~~~~~^~~
+dom-node.c: In function 'dom_Node_addEventListener':
+dom-node.c:611:24: error: assignment to 'DomEventListener *' {aka 'struct _DomEventListener *'} from incompatible pointer type 'GObject *' {aka 'struct _GObject *'} [-Wincompatible-pointer-types]
+  611 |         info->listener = g_object_ref (G_OBJECT (listener));
+      |                        ^
+dom-node.c: In function 'dom_Node_invokeListener':
+dom-node.c:658:17: warning: 'GTimeVal' is deprecated: Use 'GDateTime' instead [-Wdeprecated-declarations]
+  658 |                 GTimeVal tv;
+      |                 ^~~~~~~~
+/usr/include/glib-2.0/glib/gtypes.h:580:8: note: declared here
+  580 | struct _GTimeVal
+  580 | struct _GTimeVal
+      |        ^~~~~~~~~
+      |        ^~~~~~~~~
+dom-node.c:660:17: warning: 'g_get_current_time' is deprecated: Use 'g_get_real_time' instead [-Wdeprecated-declarations]
+dom-node.c:660:17: warning: 'g_get_current_time' is deprecated: Use 'g_get_real_time' instead [-Wdeprecated-declarations]
+  660 |                 g_get_current_time (&tv);
+  660 |                 g_get_current_time (&tv);
+      |                 ^~~~~~~~~~~~~~~~~~
+      |                 ^~~~~~~~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/giochannel.h:35:
+In file included from /usr/include/glib-2.0/glib/giochannel.h:35:
+/usr/include/glib-2.0/glib/gmain.h:825:8: note: declared here
+/usr/include/glib-2.0/glib/gmain.h:825:8: note: declared here
+/usr/include/glib-2.0/glib/gmain.h:825:8: note: declared here
+  825 | void   g_get_current_time                 (GTimeVal       *result);
+  825 | void   g_get_current_time                 (GTimeVal       *result);
+  825 | void   g_get_current_time                 (GTimeVal       *result);
+      |        ^~~~~~~~~~~~~~~~~~
+      |        ^~~~~~~~~~~~~~~~~~
+      |        ^~~~~~~~~~~~~~~~~~
+dom-node.c: In function 'dom_Node_dispatchEvent':
+dom-node.c: In function 'dom_Node_dispatchEvent':
+dom-node.c: In function 'dom_Node_dispatchEvent':
+dom-node.c: In function 'dom_Node_dispatchEvent':
+dom-node.c:729:46: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:729:46: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:729:46: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:729:46: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+  729 |                         event->currentTarget = g_object_ref (path[i]);
+  729 |                         event->currentTarget = g_object_ref (path[i]);
+  729 |                         event->currentTarget = g_object_ref (path[i]);
+  729 |                         event->currentTarget = g_object_ref (path[i]);
+      |                                              ^
+      |                                              ^
+      |                                              ^
+      |                                              ^
+dom-node.c:744:38: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:744:38: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:744:38: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:744:38: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+  744 |                 event->currentTarget = g_object_ref (path[0]);
+  744 |                 event->currentTarget = g_object_ref (path[0]);
+  744 |                 event->currentTarget = g_object_ref (path[0]);
+  744 |                 event->currentTarget = g_object_ref (path[0]);
+      |                                      ^
+      |                                      ^
+      |                                      ^
+      |                                      ^
+dom-node.c:754:54: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:754:54: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:754:54: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+dom-node.c:754:54: error: assignment to 'DomEventTarget *' {aka 'struct _DomEventTarget *'} from incompatible pointer type 'DomNode *' {aka 'struct _DomNode *'} [-Wincompatible-pointer-types]
+  754 |                                 event->currentTarget = g_object_ref (path[i]);
+  754 |                                 event->currentTarget = g_object_ref (path[i]);
+  754 |                                 event->currentTarget = g_object_ref (path[i]);
+  754 |                                 event->currentTarget = g_object_ref (path[i]);
+      |                                                      ^
+      |                                                      ^
+      |                                                      ^
+      |                                                      ^
+make[4]: *** [Makefile:323: dom-node.lo] Error 1
+make[4]: *** [Makefile:323: dom-node.lo] Error 1
+make[4]: *** [Makefile:323: dom-node.lo] Error 1
+make[4]: *** [Makefile:323: dom-node.lo] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: *** Waiting for unfinished jobs....
+make[4]: *** Waiting for unfinished jobs....
+make[4]: *** Waiting for unfinished jobs....
+make[4]: Entering directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Entering directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+/bin/sh ../../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../.. -I../../../libgtkhtml -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dom-documenttype.lo dom-documenttype.c
+/bin/sh ../../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../.. -I../../../libgtkhtml -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dom-documenttype.lo dom-documenttype.c
+/bin/sh ../../../libtool --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../.. -I../../../libgtkhtml -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dom-documenttype.lo dom-documenttype.c
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../.. -I../../../libgtkhtml -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c dom-documenttype.c  -fPIC -DPIC -o .libs/dom-documenttype.o
+ x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../.. -I../../../libgtkhtml -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c dom-documenttype.c  -fPIC -DPIC -o .libs/dom-documenttype.o
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkcontainer.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkbin.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkwindow.h:36,
+dom-namednodemap.c: In function 'dom_NamedNodeMap_removeNamedItem':
+dom-namednodemap.c:116:60: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+dom-namednodemap.c:116:60: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  116 |                 if (attr->type == map->type && strcmp (attr->name, name) == 0) {
+  116 |                 if (attr->type == map->type && strcmp (attr->name, name) == 0) {
+  116 |                 if (attr->type == map->type && strcmp (attr->name, name) == 0) {
+      |                                                        ~~~~^~~~~~
+      |                                                        ~~~~^~~~~~
+      |                                                        ~~~~^~~~~~
+      |                                                        ~~~~^~~~~~
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |                                                            const xmlChar * {aka const unsigned char *}
+      |                                                            const xmlChar * {aka const unsigned char *}
+      |                                                            const xmlChar * {aka const unsigned char *}
+      |                                                            const xmlChar * {aka const unsigned char *}
+      |                                                            const xmlChar * {aka const unsigned char *}
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+/usr/include/string.h:156:32: note: expected 'const char *' but argument is of type 'const xmlChar *' {aka 'const unsigned char *'}
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |                    ~~~~~~~~~~~~^~~~
+      |                    ~~~~~~~~~~~~^~~~
+      |                    ~~~~~~~~~~~~^~~~
+      |                    ~~~~~~~~~~~~^~~~
+      |                    ~~~~~~~~~~~~^~~~
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libgtkhtml-2.11.1/libgtkhtml/dom/core'
+make[3]: *** [Makefile:306: all-recursive] Error 1
+make[3]: *** [Makefile:306: all-recursive] Error 1
+make[3]: *** [Makefile:306: all-recursive] Error 1
+make[3]: *** [Makefile:306: all-recursive] Error 1
+make[3]: *** [Makefile:306: all-recursive] Error 1
+make[2]: *** [Makefile:369: all-recursive] Error 1
+make[2]: *** [Makefile:369: all-recursive] Error 1
+make[2]: *** [Makefile:369: all-recursive] Error 1
+make[2]: *** [Makefile:369: all-recursive] Error 1
+make[2]: *** [Makefile:369: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make[1]: *** [Makefile:308: all-recursive] Error 1
+make: *** [Makefile:219: all] Error 2
+make: *** [Makefile:219: all] Error 2
+make: *** [Makefile:219: all] Error 2
+make: *** [Makefile:219: all] Error 2
+make: *** [Makefile:219: all] Error 2
+make: *** [Makefile:219: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.33818 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+8.88user 6.91system 0:08.52elapsed 185%CPU (0avgtext+0avgdata 79320maxresident)k
+0inputs+0outputs (0major+1161630minor)pagefaults 0swaps
+0inputs+0outputs (0major+1161630minor)pagefaults 0swaps
+0inputs+0outputs (0major+1161630minor)pagefaults 0swaps
+0inputs+0outputs (0major+1161630minor)pagefaults 0swaps
+0inputs+0outputs (0major+1161630minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgtkhtml-2.11.1-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtkhtml-2.11.1-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtkhtml-2.11.1-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `libgtkhtml-2.11.1-alt1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.57user 3.26system 0:27.38elapsed 28%CPU (0avgtext+0avgdata 140808maxresident)k
+4.57user 3.26system 0:27.38elapsed 28%CPU (0avgtext+0avgdata 140808maxresident)k
+6776inputs+0outputs (0major+248698minor)pagefaults 0swaps

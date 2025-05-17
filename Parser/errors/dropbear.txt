@@ -1,0 +1,455 @@
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+[219] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54274
+[219] May 16 05:19:36 Exit (root) from <127.0.0.1:54274>: Exited normally
+[222] May 16 05:19:36 Child connection from 127.0.0.1:54282
+[222] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54282
+[222] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54282
+[222] May 16 05:19:36 Exit (root) from <127.0.0.1:54282>: Exited normally
+[222] May 16 05:19:36 Exit (root) from <127.0.0.1:54282>: Exited normally
+[225] May 16 05:19:36 Child connection from 127.0.0.1:54290
+[225] May 16 05:19:36 Child connection from 127.0.0.1:54290
+[225] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54290
+[225] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54290
+[225] May 16 05:19:36 Exit (root) from <127.0.0.1:54290>: Exited normally
+[225] May 16 05:19:36 Exit (root) from <127.0.0.1:54290>: Exited normally
+[230] May 16 05:19:36 Child connection from 127.0.0.1:54292
+[230] May 16 05:19:36 Child connection from 127.0.0.1:54292
+[230] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54292
+[230] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54292
+[230] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54292
+[231] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[231] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[231] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[231] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[231] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[231] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[230] May 16 05:19:36 Exit (root) from <127.0.0.1:54292>: Exited normally
+[230] May 16 05:19:36 Exit (root) from <127.0.0.1:54292>: Exited normally
+[230] May 16 05:19:36 Exit (root) from <127.0.0.1:54292>: Exited normally
+[230] May 16 05:19:36 Exit (root) from <127.0.0.1:54292>: Exited normally
+[230] May 16 05:19:36 syslogin_perform_logout: logout(pts/1) returned an error: No such file or directory
+[230] May 16 05:19:36 syslogin_perform_logout: logout(pts/1) returned an error: No such file or directory
+[230] May 16 05:19:36 syslogin_perform_logout: logout(pts/1) returned an error: No such file or directory
+[230] May 16 05:19:36 syslogin_perform_logout: logout(pts/1) returned an error: No such file or directory
+[234] May 16 05:19:36 Child connection from 127.0.0.1:54308
+[234] May 16 05:19:36 Child connection from 127.0.0.1:54308
+[234] May 16 05:19:36 Child connection from 127.0.0.1:54308
+[234] May 16 05:19:36 Child connection from 127.0.0.1:54308
+[234] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54308
+[234] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54308
+[234] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54308
+[234] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54308
+[234] May 16 05:19:36 Exit (root) from <127.0.0.1:54308>: Exited normally
+[234] May 16 05:19:36 Exit (root) from <127.0.0.1:54308>: Exited normally
+[234] May 16 05:19:36 Exit (root) from <127.0.0.1:54308>: Exited normally
+[234] May 16 05:19:36 Exit (root) from <127.0.0.1:54308>: Exited normally
+[239] May 16 05:19:36 Child connection from 127.0.0.1:54322
+[239] May 16 05:19:36 Child connection from 127.0.0.1:54322
+[239] May 16 05:19:36 Child connection from 127.0.0.1:54322
+[239] May 16 05:19:36 Child connection from 127.0.0.1:54322
+[239] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54322
+[239] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54322
+[239] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54322
+[239] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54322
+[239] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54322
+[240] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[240] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[240] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[240] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[240] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[240] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[240] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[240] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[240] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[240] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[239] May 16 05:19:36 Exit (root) from <127.0.0.1:54322>: Exited normally
+[239] May 16 05:19:36 Exit (root) from <127.0.0.1:54322>: Exited normally
+[239] May 16 05:19:36 Exit (root) from <127.0.0.1:54322>: Exited normally
+[239] May 16 05:19:36 Exit (root) from <127.0.0.1:54322>: Exited normally
+[239] May 16 05:19:36 Exit (root) from <127.0.0.1:54322>: Exited normally
+[239] May 16 05:19:36 syslogin_perform_logout: logout(pts/2) returned an error: No such file or directory
+[239] May 16 05:19:36 syslogin_perform_logout: logout(pts/2) returned an error: No such file or directory
+[239] May 16 05:19:36 syslogin_perform_logout: logout(pts/2) returned an error: No such file or directory
+[239] May 16 05:19:36 syslogin_perform_logout: logout(pts/2) returned an error: No such file or directory
+[239] May 16 05:19:36 syslogin_perform_logout: logout(pts/2) returned an error: No such file or directory
+[243] May 16 05:19:36 Child connection from 127.0.0.1:54336
+[243] May 16 05:19:36 Child connection from 127.0.0.1:54336
+[243] May 16 05:19:36 Child connection from 127.0.0.1:54336
+[243] May 16 05:19:36 Child connection from 127.0.0.1:54336
+[243] May 16 05:19:36 Child connection from 127.0.0.1:54336
+[243] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54336
+[243] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54336
+[243] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54336
+[243] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54336
+[243] May 16 05:19:36 Exit (root) from <127.0.0.1:54336>: Exited normally
+[243] May 16 05:19:36 Exit (root) from <127.0.0.1:54336>: Exited normally
+[243] May 16 05:19:36 Exit (root) from <127.0.0.1:54336>: Exited normally
+[243] May 16 05:19:36 Exit (root) from <127.0.0.1:54336>: Exited normally
+[248] May 16 05:19:36 Child connection from 127.0.0.1:54344
+[248] May 16 05:19:36 Child connection from 127.0.0.1:54344
+[248] May 16 05:19:36 Child connection from 127.0.0.1:54344
+[248] May 16 05:19:36 Child connection from 127.0.0.1:54344
+[248] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54344
+[248] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54344
+[248] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54344
+[248] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54344
+[248] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54344
+[249] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[249] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[249] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[249] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[249] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[249] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[249] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[249] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[249] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[249] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[248] May 16 05:19:36 Exit (root) from <127.0.0.1:54344>: Exited normally
+[248] May 16 05:19:36 Exit (root) from <127.0.0.1:54344>: Exited normally
+[248] May 16 05:19:36 Exit (root) from <127.0.0.1:54344>: Exited normally
+[248] May 16 05:19:36 Exit (root) from <127.0.0.1:54344>: Exited normally
+[248] May 16 05:19:36 Exit (root) from <127.0.0.1:54344>: Exited normally
+[248] May 16 05:19:36 syslogin_perform_logout: logout(pts/3) returned an error: No such file or directory
+[248] May 16 05:19:36 syslogin_perform_logout: logout(pts/3) returned an error: No such file or directory
+[248] May 16 05:19:36 syslogin_perform_logout: logout(pts/3) returned an error: No such file or directory
+[248] May 16 05:19:36 syslogin_perform_logout: logout(pts/3) returned an error: No such file or directory
+[248] May 16 05:19:36 syslogin_perform_logout: logout(pts/3) returned an error: No such file or directory
+[252] May 16 05:19:36 Child connection from 127.0.0.1:54358
+[252] May 16 05:19:36 Child connection from 127.0.0.1:54358
+[252] May 16 05:19:36 Child connection from 127.0.0.1:54358
+[252] May 16 05:19:36 Child connection from 127.0.0.1:54358
+[252] May 16 05:19:36 Child connection from 127.0.0.1:54358
+[252] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54358
+[252] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54358
+[252] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54358
+[252] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54358
+[252] May 16 05:19:36 Exit (root) from <127.0.0.1:54358>: Exited normally
+[252] May 16 05:19:36 Exit (root) from <127.0.0.1:54358>: Exited normally
+[252] May 16 05:19:36 Exit (root) from <127.0.0.1:54358>: Exited normally
+[252] May 16 05:19:36 Exit (root) from <127.0.0.1:54358>: Exited normally
+[257] May 16 05:19:36 Child connection from 127.0.0.1:54360
+[257] May 16 05:19:36 Child connection from 127.0.0.1:54360
+[257] May 16 05:19:36 Child connection from 127.0.0.1:54360
+[257] May 16 05:19:36 Child connection from 127.0.0.1:54360
+[257] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54360
+[257] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54360
+[257] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54360
+[257] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54360
+[257] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54360
+[258] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[258] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[258] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[258] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[258] May 16 05:19:36 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[258] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[258] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[258] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[258] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[258] May 16 05:19:36 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[257] May 16 05:19:36 Exit (root) from <127.0.0.1:54360>: Exited normally
+[257] May 16 05:19:36 Exit (root) from <127.0.0.1:54360>: Exited normally
+[257] May 16 05:19:36 Exit (root) from <127.0.0.1:54360>: Exited normally
+[257] May 16 05:19:36 Exit (root) from <127.0.0.1:54360>: Exited normally
+[257] May 16 05:19:36 Exit (root) from <127.0.0.1:54360>: Exited normally
+[257] May 16 05:19:36 syslogin_perform_logout: logout(pts/4) returned an error: No such file or directory
+[257] May 16 05:19:36 syslogin_perform_logout: logout(pts/4) returned an error: No such file or directory
+[257] May 16 05:19:36 syslogin_perform_logout: logout(pts/4) returned an error: No such file or directory
+[257] May 16 05:19:36 syslogin_perform_logout: logout(pts/4) returned an error: No such file or directory
+[257] May 16 05:19:36 syslogin_perform_logout: logout(pts/4) returned an error: No such file or directory
+[261] May 16 05:19:36 Child connection from 127.0.0.1:54372
+[261] May 16 05:19:36 Child connection from 127.0.0.1:54372
+[261] May 16 05:19:36 Child connection from 127.0.0.1:54372
+[261] May 16 05:19:36 Child connection from 127.0.0.1:54372
+[261] May 16 05:19:36 Child connection from 127.0.0.1:54372
+[261] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54372
+[261] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54372
+[261] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54372
+[261] May 16 05:19:36 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54372
+[261] May 16 05:19:36 Exit (root) from <127.0.0.1:54372>: Exited normally
+[261] May 16 05:19:36 Exit (root) from <127.0.0.1:54372>: Exited normally
+[261] May 16 05:19:36 Exit (root) from <127.0.0.1:54372>: Exited normally
+[261] May 16 05:19:36 Exit (root) from <127.0.0.1:54372>: Exited normally
+[266] May 16 05:19:36 Child connection from 127.0.0.1:54378
+[266] May 16 05:19:36 Child connection from 127.0.0.1:54378
+[266] May 16 05:19:36 Child connection from 127.0.0.1:54378
+[266] May 16 05:19:36 Child connection from 127.0.0.1:54378
+[266] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54378
+[266] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54378
+[266] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54378
+[266] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54378
+[266] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54378
+[267] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[267] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[267] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[267] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[267] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[267] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[267] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[267] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[267] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[267] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[266] May 16 05:19:37 Exit (root) from <127.0.0.1:54378>: Exited normally
+[266] May 16 05:19:37 Exit (root) from <127.0.0.1:54378>: Exited normally
+[266] May 16 05:19:37 Exit (root) from <127.0.0.1:54378>: Exited normally
+[266] May 16 05:19:37 Exit (root) from <127.0.0.1:54378>: Exited normally
+[266] May 16 05:19:37 Exit (root) from <127.0.0.1:54378>: Exited normally
+[266] May 16 05:19:37 syslogin_perform_logout: logout(pts/5) returned an error: No such file or directory
+[266] May 16 05:19:37 syslogin_perform_logout: logout(pts/5) returned an error: No such file or directory
+[266] May 16 05:19:37 syslogin_perform_logout: logout(pts/5) returned an error: No such file or directory
+[266] May 16 05:19:37 syslogin_perform_logout: logout(pts/5) returned an error: No such file or directory
+[266] May 16 05:19:37 syslogin_perform_logout: logout(pts/5) returned an error: No such file or directory
+[270] May 16 05:19:37 Child connection from 127.0.0.1:54394
+[270] May 16 05:19:37 Child connection from 127.0.0.1:54394
+[270] May 16 05:19:37 Child connection from 127.0.0.1:54394
+[270] May 16 05:19:37 Child connection from 127.0.0.1:54394
+[270] May 16 05:19:37 Child connection from 127.0.0.1:54394
+[270] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54394
+[270] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54394
+[270] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54394
+[270] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54394
+[270] May 16 05:19:37 Exit (root) from <127.0.0.1:54394>: Exited normally
+[270] May 16 05:19:37 Exit (root) from <127.0.0.1:54394>: Exited normally
+[270] May 16 05:19:37 Exit (root) from <127.0.0.1:54394>: Exited normally
+[270] May 16 05:19:37 Exit (root) from <127.0.0.1:54394>: Exited normally
+[275] May 16 05:19:37 Child connection from 127.0.0.1:54400
+[275] May 16 05:19:37 Child connection from 127.0.0.1:54400
+[275] May 16 05:19:37 Child connection from 127.0.0.1:54400
+[275] May 16 05:19:37 Child connection from 127.0.0.1:54400
+[275] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54400
+[275] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54400
+[275] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54400
+[275] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54400
+[276] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[276] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[276] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[276] May 16 05:19:37 lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+[276] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[276] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[276] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[276] May 16 05:19:37 lastlog_openseek: /var/log/lastlog is not a file or directory!
+[275] May 16 05:19:37 Exit (root) from <127.0.0.1:54400>: Exited normally
+[275] May 16 05:19:37 Exit (root) from <127.0.0.1:54400>: Exited normally
+[275] May 16 05:19:37 Exit (root) from <127.0.0.1:54400>: Exited normally
+[275] May 16 05:19:37 syslogin_perform_logout: logout(pts/6) returned an error: No such file or directory
+[275] May 16 05:19:37 syslogin_perform_logout: logout(pts/6) returned an error: No such file or directory
+[275] May 16 05:19:37 syslogin_perform_logout: logout(pts/6) returned an error: No such file or directory
+[279] May 16 05:19:37 Child connection from 127.0.0.1:54402
+[279] May 16 05:19:37 Child connection from 127.0.0.1:54402
+[279] May 16 05:19:37 Child connection from 127.0.0.1:54402
+[279] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54402
+[279] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54402
+[279] May 16 05:19:37 Exit (root) from <127.0.0.1:54402>: Exited normally
+[279] May 16 05:19:37 Exit (root) from <127.0.0.1:54402>: Exited normally
+[283] May 16 05:19:37 Child connection from 127.0.0.1:54404
+[283] May 16 05:19:37 Child connection from 127.0.0.1:54404
+[283] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54404
+[283] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54404
+[283] May 16 05:19:37 Exit (root) from <127.0.0.1:54404>: Exited normally
+[283] May 16 05:19:37 Exit (root) from <127.0.0.1:54404>: Exited normally
+[287] May 16 05:19:37 Child connection from 127.0.0.1:54418
+[287] May 16 05:19:37 Child connection from 127.0.0.1:54418
+[287] May 16 05:19:37 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54418
+[287] May 16 05:19:38 Exit (root) from <127.0.0.1:54418>: Exited normally
+[291] May 16 05:19:38 Child connection from 127.0.0.1:54430
+[319] May 16 05:19:42 Exit (root) from <127.0.0.1:54478>: Exited normally
+[324] May 16 05:19:43 Child connection from 127.0.0.1:54488
+[324] May 16 05:19:43 Child connection from 127.0.0.1:54488
+[324] May 16 05:19:43 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54488
+[324] May 16 05:19:43 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54488
+[324] May 16 05:19:43 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54488
+[324] May 16 05:19:43 Exit (root) from <127.0.0.1:54488>: Exited normally
+[324] May 16 05:19:43 Exit (root) from <127.0.0.1:54488>: Exited normally
+[324] May 16 05:19:43 Exit (root) from <127.0.0.1:54488>: Exited normally
+[324] May 16 05:19:43 Exit (root) from <127.0.0.1:54488>: Exited normally
+[329] May 16 05:19:44 Child connection from 127.0.0.1:54492
+[329] May 16 05:19:44 Child connection from 127.0.0.1:54492
+[329] May 16 05:19:44 Child connection from 127.0.0.1:54492
+[329] May 16 05:19:44 Child connection from 127.0.0.1:54492
+[329] May 16 05:19:44 Child connection from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Pubkey auth succeeded for 'root' with ecdsa-sha2-nistp256 key SHA256:ql6pbP/wDL93CHEAp9Y1abwYDw3fgewgNzqWG9Eylvo from 127.0.0.1:54492
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[329] May 16 05:19:44 Exit (root) from <127.0.0.1:54492>: Exited normally
+[198] May 16 05:19:45 Early exit: Terminated by signal
+[198] May 16 05:19:45 Early exit: Terminated by signal
+[198] May 16 05:19:45 Early exit: Terminated by signal
+[198] May 16 05:19:45 Early exit: Terminated by signal
+[198] May 16 05:19:45 Early exit: Terminated by signal
+[198] May 16 05:19:45 Early exit: Terminated by signal
+Done
+Done
+Done
+Done
+Done
+Done
+Done
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-4000] - ConnectionRefusedError: [...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[L-40000] - ConnectionRefusedError: ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-1] - OSError: [Errno 98] Address ...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-4000] - OSError: [Errno 98] Addre...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+FAILED test_channels.py::test_tcpflushout[R-40000] - OSError: [Errno 98] Addr...
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+======== 5 failed, 43 passed, 3 skipped, 1 xfailed, 15 rerun in 30.86s =========
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+49.56user 8.45system 0:35.63elapsed 162%CPU (0avgtext+0avgdata 3619224maxresident)k
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+0inputs+0outputs (0major+14489minor)pagefaults 0swaps
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.64421 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+123.26user 29.58system 1:24.73elapsed 180%CPU (0avgtext+0avgdata 3619224maxresident)k
+123.26user 29.58system 1:24.73elapsed 180%CPU (0avgtext+0avgdata 3619224maxresident)k
+123.26user 29.58system 1:24.73elapsed 180%CPU (0avgtext+0avgdata 3619224maxresident)k
+123.26user 29.58system 1:24.73elapsed 180%CPU (0avgtext+0avgdata 3619224maxresident)k
+0inputs+0outputs (0major+2871634minor)pagefaults 0swaps
+0inputs+0outputs (0major+2871634minor)pagefaults 0swaps
+0inputs+0outputs (0major+2871634minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `dropbear-2025.88-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `dropbear-2025.88-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.25user 3.67system 1:54.26elapsed 10%CPU (0avgtext+0avgdata 143708maxresident)k
+8.25user 3.67system 1:54.26elapsed 10%CPU (0avgtext+0avgdata 143708maxresident)k
+7264inputs+0outputs (0major+257392minor)pagefaults 0swaps

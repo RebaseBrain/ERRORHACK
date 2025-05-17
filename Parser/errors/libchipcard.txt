@@ -1,0 +1,203 @@
+config.status: creating src/tools/kvkcard/Makefile
+config.status: creating src/tools/cardcommander/Makefile
+config.status: creating src/tools/cardcommander/Makefile
+config.status: creating src/tools/zkacard/Makefile
+config.status: creating src/tools/zkacard/Makefile
+config.status: creating src/tools/usbtan-test/Makefile
+config.status: creating src/tools/usbtan-test/Makefile
+config.status: creating tutorials/Makefile
+config.status: creating tutorials/Makefile
+config.status: creating m4/Makefile
+config.status: creating m4/Makefile
+config.status: creating config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --without-included-gettext, --enable-pcsc, --with-pcsc-libs
+configure: WARNING: unrecognized options: --without-included-gettext, --enable-pcsc, --with-pcsc-libs
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hiinsurancedata.h': File exists
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hiinsurancedata.h': File exists
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hipersonaldata.h': File exists
+ln: failed to create symbolic link 'libchipcard5/chipcard/cards/hipersonaldata.h': File exists
+
+
+Summary:
+Summary:
+=================================
+=================================
+Libchipcard version     : 5.1.5.0rc2
+Libchipcard version     : 5.1.5.0rc2
+System                  : linux
+System                  : linux
+Cfg Installation Folder : ${sysconfdir}/chipcard
+Cfg Installation Folder : ${sysconfdir}/chipcard
+Cfg Search Folder       : ${sysconfdir}/chipcard
+Cfg Search Folder       : ${sysconfdir}/chipcard
+Data Installation Folder: ${datadir}/chipcard
+Data Installation Folder: ${datadir}/chipcard
+Data Search Folder      : ${datadir}/chipcard
+Data Search Folder      : ${datadir}/chipcard
+Local Installation Mode : no
+libtool: link: x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/zkacard-tool main.o getpublickey.o shownotepad.o resetptc.o  ../../lib/client/.libs/libchipcard.so -lgwenhywfar
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/zkacard'
+Making all in usbtan-test
+make[4]: Entering directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I../../.. -I../../../libchipcard5 -I/usr/include/gwenhywfar5     -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o main.o main.c
+main.c: In function '_readBytesDec':
+main.c:307:15: warning: variable 'pSave' set but not used [-Wunused-but-set-variable]
+  307 |   const char *pSave;
+      |               ^~~~~
+main.c: In function '_readBytesHex':
+main.c:347:9: error: implicit declaration of function 'toupper' [-Wimplicit-function-declaration]
+  347 |     c = toupper(c);
+      |         ^~~~~~~
+main.c:23:1: note: include '<ctype.h>' or provide a declaration of 'toupper'
+   22 | #include <chipcard/client.h>
+  +++ |+#include <ctype.h>
+   23 | 
+main.c: In function 'main':
+main.c:573:11: warning: pointer targets in assignment from 'char *' to 'unsigned char *' differ in signedness [-Wpointer-sign]
+  573 |   pHHDSrc = GWEN_Buffer_GetStart(cbuf);
+      |           ^
+      |       ^
+main.c:528:14: warning: unused variable 'cl' [-Wunused-variable]
+  528 |   LC_CLIENT *cl;
+  528 |   LC_CLIENT *cl;
+      |              ^~
+      |              ^~
+      |              ^~
+main.c:526:15: warning: unused variable 'cmd' [-Wunused-variable]
+main.c:526:15: warning: unused variable 'cmd' [-Wunused-variable]
+main.c:526:15: warning: unused variable 'cmd' [-Wunused-variable]
+main.c:526:15: warning: unused variable 'cmd' [-Wunused-variable]
+  526 |   const char *cmd;
+  526 |   const char *cmd;
+  526 |   const char *cmd;
+  526 |   const char *cmd;
+  526 |   const char *cmd;
+      |               ^~~
+      |               ^~~
+      |               ^~~
+      |               ^~~
+      |               ^~~
+      |               ^~~
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+main.c:525:15: warning: unused variable 's' [-Wunused-variable]
+  525 |   const char *s;
+  525 |   const char *s;
+  525 |   const char *s;
+  525 |   const char *s;
+  525 |   const char *s;
+  525 |   const char *s;
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+      |               ^
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: *** [Makefile:479: main.o] Error 1
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[4]: Leaving directory '/usr/src/RPM/BUILD/libchipcard-5.1.6/src/tools/usbtan-test'
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[3]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[2]: *** [Makefile:417: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make[1]: *** [Makefile:607: all-recursive] Error 1
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+make: *** [Makefile:452: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.79603 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+10.59user 7.71system 0:14.42elapsed 127%CPU (0avgtext+0avgdata 68196maxresident)k
+0inputs+0outputs (0major+1468447minor)pagefaults 0swaps
+0inputs+0outputs (0major+1468447minor)pagefaults 0swaps
+0inputs+0outputs (0major+1468447minor)pagefaults 0swaps
+0inputs+0outputs (0major+1468447minor)pagefaults 0swaps
+0inputs+0outputs (0major+1468447minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libchipcard-5.1.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libchipcard-5.1.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libchipcard-5.1.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libchipcard-5.1.6-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.23user 3.88system 0:35.60elapsed 22%CPU (0avgtext+0avgdata 141148maxresident)k
+4.23user 3.88system 0:35.60elapsed 22%CPU (0avgtext+0avgdata 141148maxresident)k
+1976inputs+0outputs (0major+276042minor)pagefaults 0swaps

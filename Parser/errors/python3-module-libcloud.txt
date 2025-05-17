@@ -1,0 +1,182 @@
+creating build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Virtual_Guest_getObject.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Virtual_Guest_getCreateObjectOptions.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Virtual_Guest_createObject.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Security_Ssh_Key_getObject.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Security_Ssh_Key_deleteObject.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Security_Ssh_Key_createObject.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3__SoftLayer_Account_getSshKeys.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3_SoftLayer_Location_Datacenter_getDatacenters.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/v3_SoftLayer_Account_getVirtualGuests.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/fail.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/empty.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+copying libcloud/test/compute/fixtures/softlayer/SoftLayer_Account.xml -> build/lib/libcloud/test/compute/fixtures/softlayer
+creating build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/user_info.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/token_info.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/reboot_node.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/list_volumes_empty.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/list_volumes.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/list_volume_snapshots.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/test/compute/fixtures/scaleway/list_sizes.json -> build/lib/libcloud/test/compute/fixtures/scaleway
+copying libcloud/data/pricing.json -> build/lib/libcloud/data
++ export PYTHONPATH=/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0
++ PYTHONPATH=/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0
++ make SPHINXBUILD=sphinx-build-3 -C docs man
+make: Entering directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+sphinx-build-3 -b man -d _build/doctrees   . _build/man
+Running Sphinx v8.2.1
+loading translations [en]... done
+making output directory... done
+Converting `source_suffix = '.rst'` to `source_suffix = {'.rst': 'restructuredtext'}`.
+ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']. Expected a two-element tuple or list.
+
+Configuration error!
+
+Versions
+========
+
+* Platform:         linux; (Linux-6.12.24-6.12-alt1-x86_64-with-glibc2.40)
+* Python version:   3.12.10 (CPython)
+* Sphinx version:   8.2.1
+* Docutils version: 0.20.1
+Last Messages
+=============
+
+None.
+
+Loaded Extensions
+=================
+
+None.
+None.
+
+
+Traceback
+Traceback
+=========
+=========
+=========
+
+
+
+
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+      File "/usr/lib/python3/site-packages/sphinx/ext/intersphinx/_load.py", line 132, in validate_intersphinx_mapping
+        raise ConfigError(msg)
+        raise ConfigError(msg)
+        raise ConfigError(msg)
+        raise ConfigError(msg)
+        raise ConfigError(msg)
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+    sphinx.errors.ConfigError: Invalid `intersphinx_mapping` configuration (1 error).
+
+
+
+
+
+
+
+
+
+
+
+
+The full traceback has been saved in:
+The full traceback has been saved in:
+The full traceback has been saved in:
+The full traceback has been saved in:
+The full traceback has been saved in:
+The full traceback has been saved in:
+/usr/src/tmp/sphinx-err-vuimogfn.log
+/usr/src/tmp/sphinx-err-vuimogfn.log
+/usr/src/tmp/sphinx-err-vuimogfn.log
+/usr/src/tmp/sphinx-err-vuimogfn.log
+/usr/src/tmp/sphinx-err-vuimogfn.log
+/usr/src/tmp/sphinx-err-vuimogfn.log
+
+
+
+
+
+
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+Please also report this if it was a user error, so that a better error message can be provided next time.
+Please also report this if it was a user error, so that a better error message can be provided next time.
+Please also report this if it was a user error, so that a better error message can be provided next time.
+Please also report this if it was a user error, so that a better error message can be provided next time.
+Please also report this if it was a user error, so that a better error message can be provided next time.
+make: *** [Makefile:117: man] Error 2
+make: *** [Makefile:117: man] Error 2
+make: *** [Makefile:117: man] Error 2
+make: *** [Makefile:117: man] Error 2
+make: *** [Makefile:117: man] Error 2
+make: *** [Makefile:117: man] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+make: Leaving directory '/usr/src/RPM/BUILD/python3-module-libcloud-3.7.0/docs'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42970 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.26user 0.40system 0:01.66elapsed 100%CPU (0avgtext+0avgdata 60668maxresident)k
+1.26user 0.40system 0:01.66elapsed 100%CPU (0avgtext+0avgdata 60668maxresident)k
+1.26user 0.40system 0:01.66elapsed 100%CPU (0avgtext+0avgdata 60668maxresident)k
+1.26user 0.40system 0:01.66elapsed 100%CPU (0avgtext+0avgdata 60668maxresident)k
+1.26user 0.40system 0:01.66elapsed 100%CPU (0avgtext+0avgdata 60668maxresident)k
+0inputs+0outputs (0major+41094minor)pagefaults 0swaps
+0inputs+0outputs (0major+41094minor)pagefaults 0swaps
+0inputs+0outputs (0major+41094minor)pagefaults 0swaps
+0inputs+0outputs (0major+41094minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-libcloud-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-libcloud-3.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-libcloud-3.7.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.09user 3.22system 0:16.46elapsed 50%CPU (0avgtext+0avgdata 141404maxresident)k
+5.09user 3.22system 0:16.46elapsed 50%CPU (0avgtext+0avgdata 141404maxresident)k
+9672inputs+0outputs (0major+353065minor)pagefaults 0swaps

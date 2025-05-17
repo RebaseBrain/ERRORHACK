@@ -1,0 +1,161 @@
+
+
+Review the options above for accuracy.  If they look okay,
+type 'make all' to compile the main program and CGIs.
+type 'make all' to compile the main program and CGIs.
+
+
++ make -j16 all
++ make -j16 all
+cd ./base && make
+cd ./base && make
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE   -c -o logging.o logging.c
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE   -c -o logging.o logging.c
+logging.c: In function 'write_to_log':
+logging.c: In function 'write_to_log':
+logging.c:184:20: error: returning 'void *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+logging.c:184:20: error: returning 'void *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+  184 |             return NULL;
+  184 |             return NULL;
+      |                    ^~~~
+      |                    ^~~~
+logging.c:190:20: error: returning 'void *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+logging.c:190:20: error: returning 'void *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+  190 |             return NULL;
+  190 |             return NULL;
+      |                    ^~~~
+      |                    ^~~~
+logging.c:194:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+logging.c:194:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  194 |     if (fh != -1)
+  194 |     if (fh != -1)
+      |     ^~
+      |     ^~
+logging.c:197:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+logging.c:197:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  197 |         if(fp==NULL){
+  197 |         if(fp==NULL){
+      |         ^~
+logging.c: In function 'log_service_event':
+logging.c:257:13: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  394 |         int rename_result=0,tmp;
+      |                             ^~~
+logging.c: In function 'write_log_file_info':
+logging.c:457:13: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  457 |         int tmp;
+      |             ^~~
+logging.c: In function 'log_debug_info':
+logging.c:516:13: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  516 |         int tmp;
+      |             ^~~
+make[1]: *** [<builtin>: logging.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE -c -o skiplist.o ../common/skiplist.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE -c -o retention-base.o sretention.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE   -c -o broker.o broker.c
+utils.c:2971:22: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+ 2971 |         register int ch=0;
+      |                      ^~
+utils.c: In function 'my_fcopy':
+utils.c:3266:13: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+ 3266 |         int tmp;
+      |             ^~~
+In file included from ../include/epn_nagios.h:12,
+                 from utils.c:38:
+utils.c: In function 'init_embedded_perl':
+utils.c:3620:38: error: passing argument 2 of 'Perl_sys_init3' from incompatible pointer type [-Wincompatible-pointer-types]
+ 3620 |                 PERL_SYS_INIT3(&argc,&embedding,&env);
+      |                                      ^~~~~~~~~~
+      |                                      |
+      |                                      char * (*)[2]
+/usr/lib64/perl5/CORE/perl.h:3609:62: note: in definition of macro 'PERL_SYS_INIT3'
+ 3609 | #define PERL_SYS_INIT3(argc, argv, env) Perl_sys_init3(argc, argv, env)
+      |                                                              ^~~~
+In file included from /usr/lib64/perl5/CORE/perl.h:6188:
+/usr/lib64/perl5/CORE/proto.h:4997:35: note: expected 'char ***' but argument is of type 'char * (*)[2]'
+ 4997 | Perl_sys_init3(int *argc, char ***argv, char ***env);
+utils.c:3987:23: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+ 3987 |         int result=OK,tmp;
+      |                       ^~~
+utils.c: In function 'generate_check_stats':
+utils.c:4135:13: warning: variable 'right_value' set but not used [-Wunused-but-set-variable]
+ 4135 |         int right_value=0;
+      |             ^~~~~~~~~~~
+utils.c:4134:13: warning: variable 'left_value' set but not used [-Wunused-but-set-variable]
+ 4134 |         int left_value=0;
+      |             ^~~~~~~~~~
+make[1]: *** [<builtin>: utils.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: Entering directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto  -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -I/usr/lib64/perl5/CORE  -DHAVE_CONFIG_H -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -DNSCORE   -c -o commands.o commands.c
+commands.c: In function 'process_external_command1':
+commands.c:218:35: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  218 |         int command_type=CMD_NONE,tmp;
+      |                                   ^~~
+commands.c: In function 'process_passive_checks':
+commands.c:4943:36: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+ 4943 |         int checkresult_file_fd=-1,tmp;
+ 2849 |         int dbuf_chunk=1024,tmp;
+      |                             ^~~
+      |                             ^~~
+checks.c:2841:13: warning: variable 'wait_result' set but not used [-Wunused-but-set-variable]
+checks.c:2841:13: warning: variable 'wait_result' set but not used [-Wunused-but-set-variable]
+ 2841 |         int wait_result=0;
+ 2841 |         int wait_result=0;
+      |             ^~~~~~~~~~~
+      |             ^~~~~~~~~~~
+checks.c: In function 'handle_async_host_check_result_3x':
+checks.c: In function 'handle_async_host_check_result_3x':
+checks.c:3184:36: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+checks.c:3184:36: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+ 3184 |         int reschedule_check=FALSE,tmp;
+ 3184 |         int reschedule_check=FALSE,tmp;
+      |                                    ^~~
+      |                                    ^~~
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/nagios-3.0.6/base'
+make: *** [Makefile:64: all] Error 2
+make: *** [Makefile:64: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68008 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.68008 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    line 74: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common = 3.0.6-alt18
+    line 74: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common = 3.0.6-alt18
+    line 112: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common = 3.0.6-alt18
+    line 112: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common = 3.0.6-alt18
+    line 112: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common = 3.0.6-alt18
+    line 131: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 apache2
+    line 131: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 apache2
+    line 131: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 apache2
+    line 140: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 lighttpd
+    line 140: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 lighttpd
+    line 140: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www = 3.0.6-alt18 lighttpd
+    line 157: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common
+    line 157: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common
+    line 157: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-common
+    line 158: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios
+    line 158: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios
+    line 158: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios
+    line 159: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www
+    line 159: Deprecated PreReq converted to Requires(pre,postun): PreReq: nagios-www
+    Bad exit status from /usr/src/tmp/rpm-tmp.68008 (%build)
+Command exited with non-zero status 1
+5.57user 4.84system 0:06.10elapsed 170%CPU (0avgtext+0avgdata 100792maxresident)k
+0inputs+0outputs (0major+978084minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `nagios-3.0.6-alt18.src.rpm' failed.
+Command exited with non-zero status 1
+3.91user 2.78system 0:17.92elapsed 37%CPU (0avgtext+0avgdata 141076maxresident)k
+208inputs+0outputs (0major+231918minor)pagefaults 0swaps

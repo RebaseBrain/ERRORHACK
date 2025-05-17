@@ -1,0 +1,77 @@
+  170 | int headerNextIterator(HeaderIterator hi,
+      |     ^~~~~~~~~~~~~~~~~~
+RPM/Header.xs:603:55: warning: pointer targets in passing argument 3 of 'headerNextIterator' differ in signedness [-Wpointer-sign]
+  603 |         if (! headerNextIterator(hdr->iterator, tagp, &type, &data, &size)) {
+      |                                                       ^~~~~
+      |                                                       |
+      |                                                       int *
+/usr/include/rpm/rpmlegacy.h:172:33: note: expected 'rpm_tagtype_t *' {aka 'unsigned int *'} but argument is of type 'int *'
+  172 |                 rpm_tagtype_t * type,
+      |                 ~~~~~~~~~~~~~~~~^~~~
+RPM/Header.xs:603:62: error: passing argument 4 of 'headerNextIterator' from incompatible pointer type [-Wincompatible-pointer-types]
+  603 |         if (! headerNextIterator(hdr->iterator, tagp, &type, &data, &size)) {
+      |                                                              ^~~~~
+      |                                                              |
+      |                                                              const void **
+/usr/include/rpm/rpmlegacy.h:173:30: note: expected 'void **' but argument is of type 'const void **'
+  173 |                 rpm_data_t * p,
+      |                 ~~~~~~~~~~~~~^
+RPM/Header.xs:603:69: warning: pointer targets in passing argument 5 of 'headerNextIterator' differ in signedness [-Wpointer-sign]
+  603 |         if (! headerNextIterator(hdr->iterator, tagp, &type, &data, &size)) {
+      |                                                                     ^~~~~
+   49 |                         rpm_tagtype_t * type,
+      |                         ~~~~~~~~~~~~~~~~^~~~
+RPM/Header.xs: At top level:
+RPM/Header.xs:756:30: warning: 'struct headerTagTableEntry_s' declared inside parameter list will not be visible outside of this definition or declaration
+  756 |                 const struct headerTagTableEntry_s * tags)
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+RPM/Header.c: In function 'XS_RPM__Header_dump':
+RPM/Header.c:1549:17: warning: variable 'fh' set but not used [-Wunused-but-set-variable]
+ 1549 |         FILE *  fh;
+      |                 ^~
+make: *** [Makefile:363: RPM/Header.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+gcc -c  -I. -I/usr/include/rpm -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.51\" -DXS_VERSION=\"1.51\" -fPIC "-I/usr/lib64/perl5/CORE"  -DRPM_VERSION=0x040d00 RPM/Constants.c -o RPM/Constants.o
+make: Leaving directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+make: Entering directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+gcc -c  -I. -I/usr/include/rpm -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"1.51\" -DXS_VERSION=\"1.51\" -fPIC "-I/usr/lib64/perl5/CORE"  -DRPM_VERSION=0x040d00 RPM/Database.c -o RPM/Database.o
+RPM/Database.xs: In function 'rpmdb_TIEHASH':
+RPM/Database.xs:21:12: warning: unused variable 'perms' [-Wunused-variable]
+   21 |     mode_t perms = 0;
+  648 |         const char*     root;
+      |                         ^~~~
+RPM/Database.c:646:17: warning: unused variable 'class' [-Wunused-variable]
+  646 |         SV*     class = ST(0)
+      |                 ^~~~~
+RPM/Database.c: In function 'XS_RPM__Database_rebuild':
+RPM/Database.c:694:25: warning: variable 'root' set but not used [-Wunused-but-set-variable]
+  694 |         const char*     root;
+      |                         ^~~~
+      |                         ^~~~
+make: Leaving directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+make: Leaving directory '/usr/src/RPM/BUILD/Perl-RPM-1.51-alt6'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8469 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8469 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.8469 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.8469 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.63user 0.56system 0:00.63elapsed 343%CPU (0avgtext+0avgdata 81680maxresident)k
+1.63user 0.56system 0:00.63elapsed 343%CPU (0avgtext+0avgdata 81680maxresident)k
+0inputs+0outputs (0major+156826minor)pagefaults 0swaps
+0inputs+0outputs (0major+156826minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-RPM-1.51-alt6.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-RPM-1.51-alt6.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.32user 2.48system 0:08.79elapsed 65%CPU (0avgtext+0avgdata 142004maxresident)k
+3.32user 2.48system 0:08.79elapsed 65%CPU (0avgtext+0avgdata 142004maxresident)k
+24inputs+0outputs (0major+202737minor)pagefaults 0swaps

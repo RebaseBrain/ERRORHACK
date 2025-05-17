@@ -1,0 +1,266 @@
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o dispatcher.lo dispatcher.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c dispatcher.c  -fPIC -DPIC -o .libs/dispatcher.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o handler.lo handler.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c handler.c  -fPIC -DPIC -o .libs/handler.o
+In file included from fault-linux-x86_64-old.h:17,
+                 from fault.h:36,
+                 from handler-unix.c:77,
+                 from handler.c:19:
+                 from handler.c:19:
+/usr/include/asm/sigcontext.h:40:8: error: redefinition of 'struct _fpx_sw_bytes'
+/usr/include/asm/sigcontext.h:40:8: error: redefinition of 'struct _fpx_sw_bytes'
+   40 | struct _fpx_sw_bytes {
+   40 | struct _fpx_sw_bytes {
+      |        ^~~~~~~~~~~~~
+      |        ^~~~~~~~~~~~~
+In file included from /usr/include/signal.h:301,
+In file included from /usr/include/signal.h:301,
+                 from sigsegv.h:31,
+                 from sigsegv.h:31,
+                 from handler-unix.c:25:
+                 from handler-unix.c:25:
+                 from handler-unix.c:25:
+/usr/include/bits/sigcontext.h:31:8: note: originally defined here
+/usr/include/bits/sigcontext.h:31:8: note: originally defined here
+/usr/include/bits/sigcontext.h:31:8: note: originally defined here
+   31 | struct _fpx_sw_bytes
+   31 | struct _fpx_sw_bytes
+   31 | struct _fpx_sw_bytes
+      |        ^~~~~~~~~~~~~
+      |        ^~~~~~~~~~~~~
+      |        ^~~~~~~~~~~~~
+/usr/include/asm/sigcontext.h:85:8: error: redefinition of 'struct _fpreg'
+/usr/include/asm/sigcontext.h:85:8: error: redefinition of 'struct _fpreg'
+/usr/include/asm/sigcontext.h:85:8: error: redefinition of 'struct _fpreg'
+   85 | struct _fpreg {
+   85 | struct _fpreg {
+   85 | struct _fpreg {
+      |        ^~~~~~
+      |        ^~~~~~
+      |        ^~~~~~
+/usr/include/bits/sigcontext.h:40:8: note: originally defined here
+/usr/include/bits/sigcontext.h:40:8: note: originally defined here
+/usr/include/bits/sigcontext.h:40:8: note: originally defined here
+   40 | struct _fpreg
+   40 | struct _fpreg
+   40 | struct _fpreg
+      |        ^~~~~~
+      |        ^~~~~~
+      |        ^~~~~~
+/usr/include/asm/sigcontext.h:91:8: error: redefinition of 'struct _fpxreg'
+/usr/include/asm/sigcontext.h:91:8: error: redefinition of 'struct _fpxreg'
+/usr/include/asm/sigcontext.h:91:8: error: redefinition of 'struct _fpxreg'
+   91 | struct _fpxreg {
+   91 | struct _fpxreg {
+   91 | struct _fpxreg {
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/bits/sigcontext.h:46:8: note: originally defined here
+/usr/include/bits/sigcontext.h:46:8: note: originally defined here
+/usr/include/bits/sigcontext.h:46:8: note: originally defined here
+/usr/include/bits/sigcontext.h:46:8: note: originally defined here
+   46 | struct _fpxreg
+   46 | struct _fpxreg
+   46 | struct _fpxreg
+   46 | struct _fpxreg
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/asm/sigcontext.h:98:8: error: redefinition of 'struct _xmmreg'
+/usr/include/asm/sigcontext.h:98:8: error: redefinition of 'struct _xmmreg'
+/usr/include/asm/sigcontext.h:98:8: error: redefinition of 'struct _xmmreg'
+   98 | struct _xmmreg {
+   98 | struct _xmmreg {
+   98 | struct _xmmreg {
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/bits/sigcontext.h:53:8: note: originally defined here
+/usr/include/bits/sigcontext.h:53:8: note: originally defined here
+/usr/include/bits/sigcontext.h:53:8: note: originally defined here
+/usr/include/bits/sigcontext.h:53:8: note: originally defined here
+   53 | struct _xmmreg
+   53 | struct _xmmreg
+   53 | struct _xmmreg
+   53 | struct _xmmreg
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/asm/sigcontext.h:180:8: error: redefinition of 'struct _ymmh_state'
+/usr/include/asm/sigcontext.h:180:8: error: redefinition of 'struct _ymmh_state'
+/usr/include/asm/sigcontext.h:180:8: error: redefinition of 'struct _ymmh_state'
+  180 | struct _ymmh_state {
+  180 | struct _ymmh_state {
+  180 | struct _ymmh_state {
+      |        ^~~~~~~~~~~
+      |        ^~~~~~~~~~~
+      |        ^~~~~~~~~~~
+      |        ^~~~~~~~~~~
+/usr/include/bits/sigcontext.h:184:8: note: originally defined here
+/usr/include/bits/sigcontext.h:184:8: note: originally defined here
+/usr/include/bits/sigcontext.h:184:8: note: originally defined here
+/usr/include/bits/sigcontext.h:184:8: note: originally defined here
+  184 | struct _ymmh_state
+  184 | struct _ymmh_state
+  184 | struct _ymmh_state
+  184 | struct _ymmh_state
+      |        ^~~~~~~~~~~
+      |        ^~~~~~~~~~~
+      |        ^~~~~~~~~~~
+/usr/include/asm/sigcontext.h:192:8: error: redefinition of 'struct _xstate'
+/usr/include/asm/sigcontext.h:192:8: error: redefinition of 'struct _xstate'
+/usr/include/asm/sigcontext.h:192:8: error: redefinition of 'struct _xstate'
+  192 | struct _xstate {
+  192 | struct _xstate {
+  192 | struct _xstate {
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/bits/sigcontext.h:189:8: note: originally defined here
+/usr/include/bits/sigcontext.h:189:8: note: originally defined here
+/usr/include/bits/sigcontext.h:189:8: note: originally defined here
+/usr/include/bits/sigcontext.h:189:8: note: originally defined here
+  189 | struct _xstate
+  189 | struct _xstate
+  189 | struct _xstate
+  189 | struct _xstate
+      |        ^~~~~~~
+      |        ^~~~~~~
+      |        ^~~~~~~
+/usr/include/asm/sigcontext.h:317:8: error: redefinition of 'struct sigcontext'
+/usr/include/asm/sigcontext.h:317:8: error: redefinition of 'struct sigcontext'
+/usr/include/asm/sigcontext.h:317:8: error: redefinition of 'struct sigcontext'
+/usr/include/asm/sigcontext.h:317:8: error: redefinition of 'struct sigcontext'
+  317 | struct sigcontext {
+  317 | struct sigcontext {
+  317 | struct sigcontext {
+  317 | struct sigcontext {
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+/usr/include/bits/sigcontext.h:139:8: note: originally defined here
+/usr/include/bits/sigcontext.h:139:8: note: originally defined here
+/usr/include/bits/sigcontext.h:139:8: note: originally defined here
+/usr/include/bits/sigcontext.h:139:8: note: originally defined here
+  139 | struct sigcontext
+  139 | struct sigcontext
+  139 | struct sigcontext
+  139 | struct sigcontext
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+      |        ^~~~~~~~~~
+handler-unix.c: In function 'sigsegv_handler':
+handler-unix.c: In function 'sigsegv_handler':
+handler-unix.c: In function 'sigsegv_handler':
+handler-unix.c:359:57: error: initialization of 'stackoverflow_context_t' {aka 'struct sigcontext *'} from incompatible pointer type 'struct sigcontext *' [-Wincompatible-pointer-types]
+handler-unix.c:359:57: error: initialization of 'stackoverflow_context_t' {aka 'struct sigcontext *'} from incompatible pointer type 'struct sigcontext *' [-Wincompatible-pointer-types]
+handler-unix.c:359:57: error: initialization of 'stackoverflow_context_t' {aka 'struct sigcontext *'} from incompatible pointer type 'struct sigcontext *' [-Wincompatible-pointer-types]
+handler-unix.c:359:57: error: initialization of 'stackoverflow_context_t' {aka 'struct sigcontext *'} from incompatible pointer type 'struct sigcontext *' [-Wincompatible-pointer-types]
+  359 |                       stackoverflow_context_t context = (SIGSEGV_FAULT_CONTEXT);
+  359 |                       stackoverflow_context_t context = (SIGSEGV_FAULT_CONTEXT);
+  359 |                       stackoverflow_context_t context = (SIGSEGV_FAULT_CONTEXT);
+  359 |                       stackoverflow_context_t context = (SIGSEGV_FAULT_CONTEXT);
+  359 |                       stackoverflow_context_t context = (SIGSEGV_FAULT_CONTEXT);
+      |                                                         ^
+      |                                                         ^
+      |                                                         ^
+      |                                                         ^
+      |                                                         ^
+      |                                                         ^
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: *** [Makefile:495: handler.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stackvma.lo stackvma.c
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stackvma.lo stackvma.c
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stackvma.lo stackvma.c
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stackvma.lo stackvma.c
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.   -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o stackvma.lo stackvma.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c stackvma.c  -fPIC -DPIC -o .libs/stackvma.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c stackvma.c  -fPIC -DPIC -o .libs/stackvma.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c stackvma.c  -fPIC -DPIC -o .libs/stackvma.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c stackvma.c  -fPIC -DPIC -o .libs/stackvma.o
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I. -I. -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c stackvma.c  -fPIC -DPIC -o .libs/stackvma.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libsigsegv-2.14-alt1/src'
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make[1]: *** [Makefile:433: all-recursive] Error 1
+make: *** [Makefile:365: all] Error 2
+make: *** [Makefile:365: all] Error 2
+make: *** [Makefile:365: all] Error 2
+make: *** [Makefile:365: all] Error 2
+make: *** [Makefile:365: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.6993 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.71user 2.46system 0:08.52elapsed 84%CPU (0avgtext+0avgdata 25908maxresident)k
+4.71user 2.46system 0:08.52elapsed 84%CPU (0avgtext+0avgdata 25908maxresident)k
+4.71user 2.46system 0:08.52elapsed 84%CPU (0avgtext+0avgdata 25908maxresident)k
+4.71user 2.46system 0:08.52elapsed 84%CPU (0avgtext+0avgdata 25908maxresident)k
+0inputs+0outputs (0major+610627minor)pagefaults 0swaps
+0inputs+0outputs (0major+610627minor)pagefaults 0swaps
+0inputs+0outputs (0major+610627minor)pagefaults 0swaps
+0inputs+0outputs (0major+610627minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libsigsegv-2.14-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libsigsegv-2.14-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libsigsegv-2.14-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libsigsegv-2.14-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.08user 2.87system 0:22.79elapsed 39%CPU (0avgtext+0avgdata 141900maxresident)k
+6.08user 2.87system 0:22.79elapsed 39%CPU (0avgtext+0avgdata 141900maxresident)k
+12416inputs+0outputs (0major+188190minor)pagefaults 0swaps

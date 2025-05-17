@@ -1,0 +1,56 @@
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.37933 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.37933 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.37933 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.37933 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.80user 0.29system 0:01.06elapsed 103%CPU (0avgtext+0avgdata 24536maxresident)k
+0.80user 0.29system 0:01.06elapsed 103%CPU (0avgtext+0avgdata 24536maxresident)k
+0inputs+0outputs (0major+61865minor)pagefaults 0swaps
+0inputs+0outputs (0major+61865minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `vavoom-1.33-alt2_41.src.rpm' failed.
+hsh-rebuild: rebuild of `vavoom-1.33-alt2_41.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.57user 3.31system 0:47.98elapsed 24%CPU (0avgtext+0avgdata 142216maxresident)k
+8.57user 3.31system 0:47.98elapsed 24%CPU (0avgtext+0avgdata 142216maxresident)k
+632inputs+0outputs (0major+401476minor)pagefaults 0swaps

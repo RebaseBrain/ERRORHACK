@@ -1,0 +1,140 @@
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.7711
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd c2070-0.99
++ cd c2070-0.99
++ make 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ make 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+make: Entering directory '/usr/src/RPM/BUILD/c2070-0.99'
+make: Entering directory '/usr/src/RPM/BUILD/c2070-0.99'
+gcc -c c2070.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto
+gcc -c c2070.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto
+gcc -c c2070.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto
+c2070.c: In function 'ClearBuffer':
+c2070.c: In function 'ClearBuffer':
+c2070.c: In function 'ClearBuffer':
+c2070.c:53:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:53:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:53:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+   53 |   register i;
+   53 |   register i;
+   53 |   register i;
+      |            ^
+      |            ^
+      |            ^
+      |            ^
+c2070.c: At top level:
+c2070.c: At top level:
+c2070.c: At top level:
+c2070.c: At top level:
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+c2070.c:60:1: error: return type defaults to 'int' [-Wimplicit-int]
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+   60 | SweepBuffer_Init (struct tSweepBuffer *SweepBuffer, int bytesize)
+      | ^~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~
+      | ^~~~~~~~~~~~~~~~
+c2070.c: In function 'PrintSweep':
+c2070.c: In function 'PrintSweep':
+c2070.c: In function 'PrintSweep':
+c2070.c: In function 'PrintSweep':
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:138:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  138 |   register i;
+  138 |   register i;
+  138 |   register i;
+  138 |   register i;
+      |            ^
+      |            ^
+      |            ^
+      |            ^
+c2070.c: In function 'LineSum':
+c2070.c: In function 'LineSum':
+c2070.c: In function 'LineSum':
+c2070.c:168:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:168:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+c2070.c:168:12: error: type defaults to 'int' in declaration of 'i' [-Wimplicit-int]
+  168 |   register i = 0;
+  168 |   register i = 0;
+  168 |   register i = 0;
+  168 |   register i = 0;
+      |            ^
+      |            ^
+      |            ^
+      |            ^
+c2070.c: In function 'LexPrint':
+c2070.c: In function 'LexPrint':
+c2070.c: In function 'LexPrint':
+c2070.c: In function 'LexPrint':
+c2070.c:332:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+c2070.c:332:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+c2070.c:332:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+c2070.c:332:32: warning: operation on 'CurrentColBuffer' may be undefined [-Wsequence-point]
+  332 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+  332 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+  332 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+  332 |               CurrentColBuffer = ++CurrentColBuffer % 3;
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+c2070.c: In function 'SweepBuffer_Init':
+c2070.c: In function 'SweepBuffer_Init':
+c2070.c: In function 'SweepBuffer_Init':
+c2070.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+c2070.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+c2070.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | } /* SweepBuffer_Init */
+   68 | } /* SweepBuffer_Init */
+   68 | } /* SweepBuffer_Init */
+      | ^
+      | ^
+      | ^
+make: *** [makefile:24: c2070.o] Error 1
+make: *** [makefile:24: c2070.o] Error 1
+make: *** [makefile:24: c2070.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/c2070-0.99'
+make: Leaving directory '/usr/src/RPM/BUILD/c2070-0.99'
+make: Leaving directory '/usr/src/RPM/BUILD/c2070-0.99'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7711 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.03user 0.03system 0:00.07elapsed 105%CPU (0avgtext+0avgdata 17504maxresident)k
+0.03user 0.03system 0:00.07elapsed 105%CPU (0avgtext+0avgdata 17504maxresident)k
+0.03user 0.03system 0:00.07elapsed 105%CPU (0avgtext+0avgdata 17504maxresident)k
+0inputs+0outputs (0major+7664minor)pagefaults 0swaps
+0inputs+0outputs (0major+7664minor)pagefaults 0swaps
+0inputs+0outputs (0major+7664minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `c2070-0.99-alt1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `c2070-0.99-alt1.qa2.src.rpm' failed.
+hsh-rebuild: rebuild of `c2070-0.99-alt1.qa2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.79user 1.43system 0:04.48elapsed 49%CPU (0avgtext+0avgdata 12236maxresident)k
+0.79user 1.43system 0:04.48elapsed 49%CPU (0avgtext+0avgdata 12236maxresident)k
+0inputs+0outputs (0major+91796minor)pagefaults 0swaps

@@ -1,0 +1,392 @@
+In file included from /usr/include/qt5/QtCore/QMutex:1,
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+  159 |     explicit QMutex(RecursionMode mode);
+  159 |     explicit QMutex(RecursionMode mode);
+      |              ^~~~~~
+      |              ^~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+[ 26%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o
+[ 26%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -MF CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o.d -o CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -MF CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o.d -o CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -MF CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o.d -o CMakeFiles/toonzlib.dir/sandor_fxs/BlurMatrix.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In copy constructor 'CBlurMatrix::CBlurMatrix(const CBlurMatrix&)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In copy constructor 'CBlurMatrix::CBlurMatrix(const CBlurMatrix&)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In copy constructor 'CBlurMatrix::CBlurMatrix(const CBlurMatrix&)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In copy constructor 'CBlurMatrix::CBlurMatrix(const CBlurMatrix&)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:43:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:43:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:43:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:43:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+   43 |   } catch (exception) {
+   43 |   } catch (exception) {
+   43 |   } catch (exception) {
+   43 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In constructor 'CBlurMatrix::CBlurMatrix(double, int, bool, bool)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In constructor 'CBlurMatrix::CBlurMatrix(double, int, bool, bool)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In constructor 'CBlurMatrix::CBlurMatrix(double, int, bool, bool)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In constructor 'CBlurMatrix::CBlurMatrix(double, int, bool, bool)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:64:12: warning: catching polymorphic type 'class SBlurMatrixError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:64:12: warning: catching polymorphic type 'class SBlurMatrixError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:64:12: warning: catching polymorphic type 'class SBlurMatrixError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:64:12: warning: catching polymorphic type 'class SBlurMatrixError' by value [-Wcatch-value=]
+   64 |   } catch (SBlurMatrixError) {
+   64 |   } catch (SBlurMatrixError) {
+   64 |   } catch (SBlurMatrixError) {
+   64 |   } catch (SBlurMatrixError) {
+   64 |   } catch (SBlurMatrixError) {
+      |            ^~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createRandom(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:116:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+  116 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::createEqual(double, int)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:141:12: warning: unused variable 'd2' [-Wunused-variable]
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+  141 |     double d2 = d * d;
+      |            ^~
+      |            ^~
+      |            ^~
+      |            ^~
+      |            ^~
+      |            ^~
+      |            ^~
+      |            ^~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:183:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+  183 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath(std::vector<std::vector<SXYD> >::iterator)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:207:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  207 |   } catch (exception) {
+  207 |   } catch (exception) {
+  207 |   } catch (exception) {
+  207 |   } catch (exception) {
+  207 |   } catch (exception) {
+  207 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp: In member function 'void CBlurMatrix::addPath()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/BlurMatrix.cpp:221:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  221 |   } catch (exception) {
+  221 |   } catch (exception) {
+  221 |   } catch (exception) {
+  221 |   } catch (exception) {
+  221 |   } catch (exception) {
+  221 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+[ 25%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o
+[ 25%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o
+[ 25%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o
+[ 25%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -MF CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o.d -o CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -MF CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o.d -o CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -MF CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o.d -o CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -MF CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o.d -o CMakeFiles/toonzlib.dir/txshsoundlevel.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp
+In file included from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tsound.h:10,
+In file included from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tsound.h:10,
+In file included from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tsound.h:10,
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/toonz/txshsoundlevel.h:7,
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/toonz/txshsoundlevel.h:7,
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp:3:
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/txshsoundlevel.cpp:3:
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h: In constructor 'TThread::Mutex::Mutex()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h: In constructor 'TThread::Mutex::Mutex()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:87:37: warning: 'QMutex::QMutex(RecursionMode)' is deprecated: Use QRecursiveMutex instead of a recursive QMutex [-Wdeprecated-declarations]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h: In constructor 'TThread::Mutex::Mutex()':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:87:37: warning: 'QMutex::QMutex(RecursionMode)' is deprecated: Use QRecursiveMutex instead of a recursive QMutex [-Wdeprecated-declarations]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:87:37: warning: 'QMutex::QMutex(RecursionMode)' is deprecated: Use QRecursiveMutex instead of a recursive QMutex [-Wdeprecated-declarations]
+   87 |   Mutex() : QMutex(QMutex::Recursive) {}
+   87 |   Mutex() : QMutex(QMutex::Recursive) {}
+      |                                     ^
+      |                                     ^
+In file included from /usr/include/qt5/QtCore/QMutex:1,
+In file included from /usr/include/qt5/QtCore/QMutex:1,
+In file included from /usr/include/qt5/QtCore/QMutex:1,
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+                 from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/tthreadmessage.h:12:
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+/usr/include/qt5/QtCore/qmutex.h:159:14: note: declared here
+  159 |     explicit QMutex(RecursionMode mode);
+  159 |     explicit QMutex(RecursionMode mode);
+  159 |     explicit QMutex(RecursionMode mode);
+  159 |     explicit QMutex(RecursionMode mode);
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+      |              ^~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeRandomPositions(int, int, int, int, const UCHAR*)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeRandomPositions(int, int, int, int, const UCHAR*)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeRandomPositions(int, int, int, int, const UCHAR*)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeRandomPositions(int, int, int, int, const UCHAR*)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:58:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:58:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:58:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:58:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+   58 |   } catch (exception) {
+   58 |   } catch (exception) {
+   58 |   } catch (exception) {
+   58 |   } catch (exception) {
+   58 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::prepareCircle(std::vector<SPOINT>&, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:158:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  158 |   } catch (exception) {
+  158 |   } catch (exception) {
+  158 |   } catch (exception) {
+  158 |   } catch (exception) {
+  158 |   } catch (exception) {
+  158 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: In member function 'void CPatternPosition::makeDDPositions(int, int, UCHAR*, double, double)':
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:184:12: warning: catching polymorphic type 'class SMemAllocError' by value [-Wcatch-value=]
+  184 |   } catch (SMemAllocError) {
+  184 |   } catch (SMemAllocError) {
+  184 |   } catch (SMemAllocError) {
+  184 |   } catch (SMemAllocError) {
+  184 |   } catch (SMemAllocError) {
+  184 |   } catch (SMemAllocError) {
+      |            ^~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:210:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:210:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:210:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:210:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:210:12: warning: catching polymorphic type 'class std::exception' by value [-Wcatch-value=]
+  210 |   } catch (exception) {
+  210 |   } catch (exception) {
+  210 |   } catch (exception) {
+  210 |   } catch (exception) {
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+      |            ^~~~~~~~~
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: At global scope:
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: At global scope:
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: At global scope:
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp: At global scope:
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:35:12: warning: 'int pp_intCompare(const void*, const void*)' defined but not used [-Wunused-function]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:35:12: warning: 'int pp_intCompare(const void*, const void*)' defined but not used [-Wunused-function]
+/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/PatternPosition.cpp:35:12: warning: 'int pp_intCompare(const void*, const void*)' defined but not used [-Wunused-function]
+   35 | static int pp_intCompare(const void *a, const void *b) {
+   35 | static int pp_intCompare(const void *a, const void *b) {
+      |            ^~~~~~~~~~~~~
+      |            ^~~~~~~~~~~~~
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux'
+[ 26%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o
+[ 26%] Building CXX object toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o -MF CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o.d -o CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/Pattern.cpp
+cd /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib && /usr/bin/c++ -DLINUX -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_SCRIPT_LIB -DQT_SHARED -DQT_WIDGETS_LIB -DTNZ_LITTLE_ENDIAN=1 -DTOONZLIB_EXPORTS -Dtoonzlib_EXPORTS -Dx64 -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/x86_64-alt-linux/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include -I/usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/../toonzfarm/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/BEFORE -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/tiff-4.0.3/libtiff -isystem /usr/include/libusb-1.0 -isystem /usr/include/superlu -isystem /usr/include/libmypaint -isystem /usr/include/json-c -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/src/RPM/BUILD/opentoonz-1.6.0/thirdparty/libusb/libusb-1.0.9/include -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtCore -isystem /usr/share/qt5/../../lib64/qt5/mkspecs/linux-g++ -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtOpenGL -isystem /usr/include/qt5/QtWidgets -isystem /usr/include/qt5/QtScript -isystem /usr/include/qt5/QtMultimedia -isystem /usr/include/qt5/QtNetwork -Wwrite-strings -Wundef -Wmissing-declarations -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c++11 -lstdc++ -O2 -DNDEBUG -std=gnu++11 -fPIC -fPIC -MD -MT toonzlib/CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o -MF CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o.d -o CMakeFiles/toonzlib.dir/sandor_fxs/Pattern.cpp.o -c /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/toonzlib/sandor_fxs/Pattern.cpp
+In file included from /usr/src/RPM/BUILD/opentoonz-1.6.0/toonz/sources/include/traster.h:8,
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+  No cmake_minimum_required command is present.  A line of code such as
+
+
+    cmake_minimum_required(VERSION 4.0)
+    cmake_minimum_required(VERSION 4.0)
+
+
+  should be added at the top of the file.  The version specified may be lower
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+  information run "cmake --help-policy CMP0000".
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11461 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.11461 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.11461 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.11461 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3335.92user 476.10system 4:50.59elapsed 1311%CPU (0avgtext+0avgdata 877256maxresident)k
+3335.92user 476.10system 4:50.59elapsed 1311%CPU (0avgtext+0avgdata 877256maxresident)k
+0inputs+0outputs (0major+92094977minor)pagefaults 0swaps
+0inputs+0outputs (0major+92094977minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `opentoonz-1.6.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `opentoonz-1.6.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.68user 4.25system 6:14.44elapsed 2%CPU (0avgtext+0avgdata 141628maxresident)k
+5.68user 4.25system 6:14.44elapsed 2%CPU (0avgtext+0avgdata 141628maxresident)k
+213112inputs+0outputs (0major+409132minor)pagefaults 0swaps

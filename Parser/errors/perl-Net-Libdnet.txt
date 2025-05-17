@@ -1,0 +1,371 @@
+Libdnet.xs:124:8: warning: unused variable 'ret' [-Wunused-variable]
+  124 |    int ret;
+      |        ^~~
+Libdnet.xs: In function 'fw_callback':
+Libdnet.xs:140:8: warning: unused variable 'ret' [-Wunused-variable]
+  140 |    int ret;
+      |        ^~~
+In file included from /usr/lib64/perl5/CORE/perl.h:4530,
+                 from Libdnet.xs:33:
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_addr_cmp':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:281:41: note: in expansion of macro 'SvPV'
+Libdnet.xs:281:41: note: in expansion of macro 'SvPV'
+  281 |                         StrA = (char *) SvPV(SvA, len);
+  281 |                         StrA = (char *) SvPV(SvA, len);
+      |                                         ^~~~
+      |                                         ^~~~
+In file included from /usr/lib64/perl5/CORE/perl.h:7812:
+In file included from /usr/lib64/perl5/CORE/perl.h:7812:
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:288:49: note: in expansion of macro 'SvPV'
+Libdnet.xs:288:49: note: in expansion of macro 'SvPV'
+  288 |                                 StrB = (char *) SvPV(SvB, len);
+  288 |                                 StrB = (char *) SvPV(SvB, len);
+      |                                                 ^~~~
+      |                                                 ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_addr_bcast':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:317:42: note: in expansion of macro 'SvPV'
+Libdnet.xs:317:42: note: in expansion of macro 'SvPV'
+  317 |                         StrAd = (char *) SvPV(SvAd, len);
+  317 |                         StrAd = (char *) SvPV(SvAd, len);
+      |                                          ^~~~
+      |                                          ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_addr_net':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:355:42: note: in expansion of macro 'SvPV'
+Libdnet.xs:355:42: note: in expansion of macro 'SvPV'
+  355 |                         StrAd = (char *) SvPV(SvAd, len);
+  355 |                         StrAd = (char *) SvPV(SvAd, len);
+      |                                          ^~~~
+      |                                          ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_arp_add':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:405:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:405:52: note: in expansion of macro 'SvPV'
+  405 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+  405 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:416:60: note: in expansion of macro 'SvPV'
+Libdnet.xs:416:60: note: in expansion of macro 'SvPV'
+  416 |                                         StrAddr = (char *) SvPV(SvHwAddr, len);
+  416 |                                         StrAddr = (char *) SvPV(SvHwAddr, len);
+      |                                                            ^~~~
+      |                                                            ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_arp_delete':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:465:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:465:52: note: in expansion of macro 'SvPV'
+  465 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+  465 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_arp_get':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:514:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:514:52: note: in expansion of macro 'SvPV'
+  514 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+  514 |                                 StrAddr = (char *) SvPV(SvProtoAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_intf_get':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:573:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:573:52: note: in expansion of macro 'SvPV'
+  573 |                                 StrName = (char *) SvPV(SvName, len);
+  573 |                                 StrName = (char *) SvPV(SvName, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_intf_get_src':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:619:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:619:52: note: in expansion of macro 'SvPV'
+  619 |                                 StrAddr = (char *) SvPV(SvAddr, len);
+  619 |                                 StrAddr = (char *) SvPV(SvAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_intf_get_dst':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:670:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:670:52: note: in expansion of macro 'SvPV'
+  670 |                                 StrAddr = (char *) SvPV(SvAddr, len);
+  670 |                                 StrAddr = (char *) SvPV(SvAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_route_add':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:721:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:721:52: note: in expansion of macro 'SvPV'
+  721 |                                 StrAddr = (char *) SvPV(SvDstAddr, len);
+  721 |                                 StrAddr = (char *) SvPV(SvDstAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:732:60: note: in expansion of macro 'SvPV'
+Libdnet.xs:732:60: note: in expansion of macro 'SvPV'
+  732 |                                         StrAddr = (char *) SvPV(SvGwAddr, len);
+  732 |                                         StrAddr = (char *) SvPV(SvGwAddr, len);
+      |                                                            ^~~~
+      |                                                            ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_route_delete':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+      |                                     ^~~~~~~~~~
+Libdnet.xs:781:52: note: in expansion of macro 'SvPV'
+Libdnet.xs:781:52: note: in expansion of macro 'SvPV'
+  781 |                                 StrAddr = (char *) SvPV(SvDstAddr, len);
+  781 |                                 StrAddr = (char *) SvPV(SvDstAddr, len);
+      |                                                    ^~~~
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                  ~~~~~~~~~~~~~~~^~
+Libdnet.xs: In function 'XS_Net__Libdnet__obsolete_route_get':
+/usr/lib64/perl5/CORE/sv.h:1952:31: error: passing argument 3 of 'Perl_SvPV_helper' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1952 |    Perl_SvPV_helper(aTHX_ sv, &len, flags, SvPVnormal_type_,                \
+/usr/lib64/perl5/CORE/sv.h:1972:37: note: in expansion of macro 'SvPV_flags'
+ 1972 | #define SvPV(sv, len)               SvPV_flags(sv, len, SV_GMAGIC)
+      |                                     ^~~~~~~~~~
+Libdnet.xs:830:52: note: in expansion of macro 'SvPV'
+  830 |                                 StrAddr = (char *) SvPV(SvDstAddr, len);
+      |                                                    ^~~~
+/usr/lib64/perl5/CORE/sv_inline.h:908:33: note: expected 'STRLEN * const' {aka 'long unsigned int * const'} but argument is of type 'int *'
+  908 |                  STRLEN * const lp,
+      |                  ~~~~~~~~~~~~~~~^~
+      |                           ^~~
+      |                           |
+      |                           unsigned char *
+      |                           unsigned char *
+/usr/lib64/perl5/CORE/embed.h:437:68: note: in definition of macro 'newSVpv'
+/usr/lib64/perl5/CORE/embed.h:437:68: note: in definition of macro 'newSVpv'
+  437 | # define newSVpv(a,b)                           Perl_newSVpv(aTHX_ a,b)
+  437 | # define newSVpv(a,b)                           Perl_newSVpv(aTHX_ a,b)
+      |                                                                    ^
+      |                                                                    ^
+In file included from /usr/lib64/perl5/CORE/perl.h:6188:
+In file included from /usr/lib64/perl5/CORE/perl.h:6188:
+/usr/lib64/perl5/CORE/proto.h:3010:39: note: expected 'const char * const' but argument is of type 'unsigned char *'
+/usr/lib64/perl5/CORE/proto.h:3010:39: note: expected 'const char * const' but argument is of type 'unsigned char *'
+ 3010 | Perl_newSVpv(pTHX_ const char * const s, const STRLEN len)
+ 3010 | Perl_newSVpv(pTHX_ const char * const s, const STRLEN len)
+      |                    ~~~~~~~~~~~~~~~~~~~^
+      |                    ~~~~~~~~~~~~~~~~~~~^
+make: *** [Makefile:351: Libdnet.o] Error 1
+make: *** [Makefile:351: Libdnet.o] Error 1
+make: *** [Makefile:351: Libdnet.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/Net-Libdnet-0.99'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-Libdnet-0.99'
+make: Leaving directory '/usr/src/RPM/BUILD/Net-Libdnet-0.99'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.95555 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.86user 0.33system 0:00.97elapsed 122%CPU (0avgtext+0avgdata 78596maxresident)k
+0.86user 0.33system 0:00.97elapsed 122%CPU (0avgtext+0avgdata 78596maxresident)k
+0.86user 0.33system 0:00.97elapsed 122%CPU (0avgtext+0avgdata 78596maxresident)k
+0inputs+0outputs (0major+63912minor)pagefaults 0swaps
+0inputs+0outputs (0major+63912minor)pagefaults 0swaps
+0inputs+0outputs (0major+63912minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-Net-Libdnet-0.99-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-Libdnet-0.99-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-Net-Libdnet-0.99-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.64user 3.83system 0:13.84elapsed 68%CPU (0avgtext+0avgdata 142076maxresident)k
+5.64user 3.83system 0:13.84elapsed 68%CPU (0avgtext+0avgdata 142076maxresident)k
+360inputs+0outputs (0major+205769minor)pagefaults 0swaps

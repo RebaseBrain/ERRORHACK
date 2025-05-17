@@ -1,0 +1,147 @@
+<86>May 16 00:12:23 userdel[3765988]: delete user 'rooter'
+<86>May 16 00:12:23 userdel[3765988]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:12:23 userdel[3765988]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:12:23 groupadd[3766014]: group added to /etc/group: name=rooter, GID=1805
+<86>May 16 00:12:23 groupadd[3766014]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:12:23 groupadd[3766014]: new group: name=rooter, GID=1805
+<86>May 16 00:12:23 useradd[3766048]: new user: name=rooter, UID=1805, GID=1805, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:12:23 userdel[3766090]: delete user 'builder'
+<86>May 16 00:12:23 userdel[3766090]: removed group 'builder' owned by 'builder'
+<86>May 16 00:12:23 userdel[3766090]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:12:23 groupadd[3766128]: group added to /etc/group: name=builder, GID=1806
+<86>May 16 00:12:23 groupadd[3766128]: group added to /etc/gshadow: name=builder
+<86>May 16 00:12:23 groupadd[3766128]: new group: name=builder, GID=1806
+<86>May 16 00:12:23 useradd[3766176]: new user: name=builder, UID=1806, GID=1806, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 00:12:28 rpmi: chrooted-0.3.12-alt1 sisyphus+327286.5300.14.1 1711487147 installed
+<13>May 16 00:12:28 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 00:12:28 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 00:12:28 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 00:12:28 rpmi: libe2fs-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 00:12:28 rpmi: libnss-systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: libnss-myhostname-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: systemd-filesystem-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: msulogin-1.0-alt1 sisyphus+278100.4500.1.1 1626059577 installed
+<13>May 16 00:12:28 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 00:12:28 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 00:12:28 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 00:12:28 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 00:12:28 rpmi: libfdisk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 00:12:28 rpmi: libjson-c5-0.18-alt1 sisyphus+358387.100.1.1 1727298142 installed
+<13>May 16 00:12:28 rpmi: libargon2-20190702-alt1 sisyphus+346050.200.2.1 1716230698 installed
+<13>May 16 00:12:28 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 00:12:28 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 00:12:28 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 00:12:28 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 00:12:28 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 00:12:28 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 00:12:28 groupadd[3790828]: group added to /etc/group: name=messagebus, GID=999
+<86>May 16 00:12:28 groupadd[3790828]: group added to /etc/gshadow: name=messagebus
+<86>May 16 00:12:28 groupadd[3790828]: new group: name=messagebus, GID=999
+<86>May 16 00:12:28 useradd[3790835]: new user: name=messagebus, UID=999, GID=999, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 00:12:28 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 00:12:28 rpmi: pam_systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:28 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:12:28 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 00:12:28 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:12:28 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:12:28 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 00:12:28 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 00:12:28 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:12:28 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 00:12:28 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 00:12:28 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 00:12:28 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<86>May 16 00:12:28 groupadd[3791110]: group added to /etc/group: name=tape, GID=998
+<86>May 16 00:12:28 groupadd[3791110]: group added to /etc/gshadow: name=tape
+<86>May 16 00:12:28 groupadd[3791110]: new group: name=tape, GID=998
+<86>May 16 00:12:28 groupadd[3791135]: group added to /etc/group: name=dialout, GID=997
+<86>May 16 00:12:28 groupadd[3791135]: group added to /etc/gshadow: name=dialout
+<86>May 16 00:12:28 groupadd[3791135]: new group: name=dialout, GID=997
+<86>May 16 00:12:28 groupadd[3791148]: group added to /etc/group: name=input, GID=996
+<86>May 16 00:12:28 groupadd[3791148]: group added to /etc/gshadow: name=input
+<86>May 16 00:12:28 groupadd[3791148]: new group: name=input, GID=996
+<86>May 16 00:12:28 groupadd[3791162]: group added to /etc/group: name=video, GID=995
+<86>May 16 00:12:28 groupadd[3791162]: group added to /etc/gshadow: name=video
+<86>May 16 00:12:28 groupadd[3791162]: new group: name=video, GID=995
+<86>May 16 00:12:28 groupadd[3791176]: group added to /etc/group: name=render, GID=994
+<86>May 16 00:12:28 groupadd[3791176]: group added to /etc/gshadow: name=render
+<86>May 16 00:12:28 groupadd[3791176]: new group: name=render, GID=994
+<86>May 16 00:12:28 groupadd[3791192]: group added to /etc/group: name=sgx, GID=993
+<86>May 16 00:12:28 groupadd[3791192]: group added to /etc/gshadow: name=sgx
+<86>May 16 00:12:28 groupadd[3791192]: new group: name=sgx, GID=993
+<13>May 16 00:12:29 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:29 rpmi: libcryptsetup-2.7.5-alt1 sisyphus+357554.100.1.1 1726319400 installed
+<13>May 16 00:12:29 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 00:12:29 groupadd[3792264]: group added to /etc/group: name=_keytab, GID=992
+<86>May 16 00:12:29 groupadd[3792264]: group added to /etc/gshadow: name=_keytab
+<86>May 16 00:12:29 groupadd[3792264]: new group: name=_keytab, GID=992
+<13>May 16 00:12:29 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 00:12:29 rpmi: libtirpc-1.3.6-alt1 sisyphus+360096.100.1.1 1729241806 installed
+<13>May 16 00:12:29 rpmi: quota-2:4.06.0.7.100b-alt1 sisyphus+284564.100.1.1 1630709881 installed
+<13>May 16 00:12:29 rpmi: login-0.60-alt37 sisyphus+358299.200.3.1 1728461042 installed
+<13>May 16 00:12:29 rpmi: agetty-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 00:12:29 rpmi: acl-2.3.1.0.20.d265-alt1 sisyphus+346027.200.3.2 1716498315 installed
+<13>May 16 00:12:29 rpmi: systemd-boot-efi-1:257.5-alt3 sisyphus+382915.200.3.1 1746543247 installed
+<86>May 16 00:12:29 groupadd[3792818]: group added to /etc/group: name=systemd-journal, GID=991
+<86>May 16 00:12:29 groupadd[3792818]: group added to /etc/gshadow: name=systemd-journal
+<86>May 16 00:12:29 groupadd[3792818]: new group: name=systemd-journal, GID=991
+<86>May 16 00:12:29 groupadd[3792900]: group added to /etc/group: name=systemd-oom, GID=990
+<86>May 16 00:12:29 groupadd[3792900]: group added to /etc/gshadow: name=systemd-oom
+<86>May 16 00:12:29 groupadd[3792900]: new group: name=systemd-oom, GID=990
+<86>May 16 00:12:29 useradd[3792976]: new user: name=systemd-oom, UID=998, GID=990, home=/var/empty, shell=/dev/null, from=none
+<13>May 16 00:12:29 rpmi: systemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 00:12:30 rpmi: systemd-analyze-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/netconsole-1.1-alt1.nosrc.rpm (w1.gzdio)
+Installing netconsole-1.1-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.82764
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/netconsole-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/netconsole-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ mkdir -p /usr/src/tmp/netconsole-buildroot/etc/sysconfig
++ install -pm640 /usr/src/RPM/SOURCES/netconsole.sysconfig /usr/src/tmp/netconsole-buildroot/etc/sysconfig/netconsole
++ mkdir -p /usr/src/tmp/netconsole-buildroot/etc/rc.d/init.d /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system
++ install -pm755 /usr/src/RPM/SOURCES/netconsole.init /usr/src/tmp/netconsole-buildroot/etc/rc.d/init.d/netconsole
++ install -pm644 /usr/src/RPM/SOURCES/netconsole.service /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system/netconsole.service
++ mkdir -p /usr/src/tmp/netconsole-buildroot/usr/sbin
++ install -Dpm755 /usr/src/RPM/SOURCES/netconsole-setup /usr/src/tmp/netconsole-buildroot/usr/sbin/netconsole-setup
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/netconsole-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/netconsole-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/netconsole-buildroot/ (default)
+Compressing files in /usr/src/tmp/netconsole-buildroot (auto)
+Verifying systemd units in /usr/src/tmp/netconsole-buildroot
+Adjusting library links in /usr/src/tmp/netconsole-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/netconsole-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/netconsole-buildroot
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.82764
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ systemd-analyze verify /usr/src/tmp/netconsole-buildroot/usr/lib/systemd/system/netconsole.service
+Failed to create directory '/run/systemd/': Permission denied
+error: Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.82764 (%check)
+Command exited with non-zero status 1
+0.03user 0.23system 0:00.22elapsed 117%CPU (0avgtext+0avgdata 8412maxresident)k
+0inputs+0outputs (0major+38071minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `netconsole-1.1-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.55user 2.97system 0:12.98elapsed 50%CPU (0avgtext+0avgdata 141280maxresident)k
+15392inputs+0outputs (0major+240877minor)pagefaults 0swaps

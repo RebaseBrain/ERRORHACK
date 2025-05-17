@@ -1,0 +1,56 @@
++ cd /usr/src/RPM/BUILD
++ cd blobby-1.0svn1681
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON -DOpenGL_GL_PREFERENCE=GLVND .
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83933 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.83933 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.83933 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.83933 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.32user 0.08system 0:00.40elapsed 103%CPU (0avgtext+0avgdata 19288maxresident)k
+0.32user 0.08system 0:00.40elapsed 103%CPU (0avgtext+0avgdata 19288maxresident)k
+0inputs+0outputs (0major+19913minor)pagefaults 0swaps
+0inputs+0outputs (0major+19913minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `blobby-1.0-alt3_19.svn1681.src.rpm' failed.
+hsh-rebuild: rebuild of `blobby-1.0-alt3_19.svn1681.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.86user 2.80system 0:35.66elapsed 32%CPU (0avgtext+0avgdata 142124maxresident)k
+8.86user 2.80system 0:35.66elapsed 32%CPU (0avgtext+0avgdata 142124maxresident)k
+78016inputs+0outputs (0major+350487minor)pagefaults 0swaps

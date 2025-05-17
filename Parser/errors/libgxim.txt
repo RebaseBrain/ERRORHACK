@@ -1,0 +1,119 @@
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I..    -DG_LOG_DOMAIN="\"GXIM\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes  -fno-strict-aliasing -fdiagnostics-show-option -c -o libgxim_la-gximsrvconn.lo `test -f 'gximsrvconn.c' || echo './'`gximsrvconn.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I.. -DG_LOG_DOMAIN=\"GXIM\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes -fno-strict-aliasing -fdiagnostics-show-option -c gximsrvconn.c  -fPIC -DPIC -o .libs/libgxim_la-gximsrvconn.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I..    -DG_LOG_DOMAIN="\"GXIM\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes  -fno-strict-aliasing -fdiagnostics-show-option -c -o libgxim_la-gximcore.lo `test -f 'gximcore.c' || echo './'`gximcore.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I.. -DG_LOG_DOMAIN=\"GXIM\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes -fno-strict-aliasing -fdiagnostics-show-option -c gximcore.c  -fPIC -DPIC -o .libs/libgxim_la-gximcore.o
+gximcore.c: In function 'g_xim_core_atom_init':
+gximcore.c:100:20: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  100 |         GXimCorePrivate *priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
+gximcore.c:118:17: error: implicit declaration of function 'gdk_x11_atom_to_xatom_for_display' [-Wimplicit-function-declaration]
+  118 |                 gdk_x11_atom_to_xatom_for_display(priv->dpy, atom);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gximcore.c: In function 'g_xim_core_real_constructor':
+gximcore.c:239:27: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  239 |                 priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~                                      
+gximcore.c: In function 'g_xim_core_real_set_property':
+gximcore.c:270:20: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  270 |         GXimCorePrivate *priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
+  768 |         priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~                                       
+gximcore.c: In function 'g_xim_core_remove_client_message_filter':
+gximcore.c:788:20: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  788 |         priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~                                       
+gximcore.c: In function 'g_xim_core_lookup_client_message_filter':
+gximcore.c:809:20: warning: Deprecated pre-processor symbol: replace with "G_ADD_PRIVATE"
+  809 |         priv = G_XIM_CORE_GET_PRIVATE (core);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~                                       
+make[2]: *** [Makefile:606: libgxim_la-gximcore.lo] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I..    -DG_LOG_DOMAIN="\"GXIM\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes  -fno-strict-aliasing -fdiagnostics-show-option -c -o libgxim_la-gximcltmpl.lo `test -f 'gximcltmpl.c' || echo './'`gximcltmpl.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I.. -DG_LOG_DOMAIN=\"GXIM\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes -fno-strict-aliasing -fdiagnostics-show-option -c gximcltmpl.c  -fPIC -DPIC -o .libs/libgxim_la-gximcltmpl.o
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[2]: Entering directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+/bin/sh ../libtool  --tag=CC   --mode=compile x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I..    -DG_LOG_DOMAIN="\"GXIM\""  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes  -fno-strict-aliasing -fdiagnostics-show-option -c -o libgxim_la-gximprotocol.lo `test -f 'gximprotocol.c' || echo './'`gximprotocol.c
+libtool: compile:  x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I.. -DG_LOG_DOMAIN=\"GXIM\" -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wmissing-prototypes -fno-strict-aliasing -fdiagnostics-show-option -c gximprotocol.c  -fPIC -DPIC -o .libs/libgxim_la-gximprotocol.o
+In file included from /usr/include/glib-2.0/glib/gthread.h:34,
+gximmisc.c:3696:53: warning: 'g_memdup' is deprecated: Use 'g_memdup2' instead [-Wdeprecated-declarations]
+ 3696 |                                                     retval->key.string = g_memdup ("\0\0", 2);
+ 3696 |                                                     retval->key.string = g_memdup ("\0\0", 2);
+      |                                                     ^~~~~~
+      |                                                     ^~~~~~
+      |                                                     ^~~~~~
+In file included from /usr/include/glib-2.0/glib/gstring.h:37,
+In file included from /usr/include/glib-2.0/glib/gstring.h:37,
+In file included from /usr/include/glib-2.0/glib/gstring.h:37,
+                 from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib/giochannel.h:36,
+                 from /usr/include/glib-2.0/glib.h:56:
+                 from /usr/include/glib-2.0/glib.h:56:
+                 from /usr/include/glib-2.0/glib.h:56:
+/usr/include/glib-2.0/glib/gstrfuncs.h:338:23: note: declared here
+/usr/include/glib-2.0/glib/gstrfuncs.h:338:23: note: declared here
+/usr/include/glib-2.0/glib/gstrfuncs.h:338:23: note: declared here
+  338 | gpointer              g_memdup         (gconstpointer mem,
+  338 | gpointer              g_memdup         (gconstpointer mem,
+  338 | gpointer              g_memdup         (gconstpointer mem,
+      |                       ^~~~~~~~
+      |                       ^~~~~~~~
+      |                       ^~~~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/libgxim-0.5.0/libgxim'
+make[1]: *** [Makefile:510: all-recursive] Error 1
+make[1]: *** [Makefile:510: all-recursive] Error 1
+make[1]: *** [Makefile:510: all-recursive] Error 1
+make[1]: *** [Makefile:510: all-recursive] Error 1
+make: *** [Makefile:416: all] Error 2
+make: *** [Makefile:416: all] Error 2
+make: *** [Makefile:416: all] Error 2
+make: *** [Makefile:416: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.23613 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.24user 2.90system 0:03.37elapsed 241%CPU (0avgtext+0avgdata 73492maxresident)k
+5.24user 2.90system 0:03.37elapsed 241%CPU (0avgtext+0avgdata 73492maxresident)k
+5.24user 2.90system 0:03.37elapsed 241%CPU (0avgtext+0avgdata 73492maxresident)k
+5.24user 2.90system 0:03.37elapsed 241%CPU (0avgtext+0avgdata 73492maxresident)k
+0inputs+0outputs (0major+530376minor)pagefaults 0swaps
+0inputs+0outputs (0major+530376minor)pagefaults 0swaps
+0inputs+0outputs (0major+530376minor)pagefaults 0swaps
+0inputs+0outputs (0major+530376minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libgxim-0.5.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `libgxim-0.5.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `libgxim-0.5.0-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `libgxim-0.5.0-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.33user 3.04system 0:21.31elapsed 39%CPU (0avgtext+0avgdata 141316maxresident)k
+5.33user 3.04system 0:21.31elapsed 39%CPU (0avgtext+0avgdata 141316maxresident)k
+2912inputs+0outputs (0major+249931minor)pagefaults 0swaps

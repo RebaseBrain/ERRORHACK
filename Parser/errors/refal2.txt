@@ -1,0 +1,119 @@
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.92945
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd refal2-0.2.3
++ cd refal2-0.2.3
++ make FASM=1
++ make FASM=1
++ make FASM=1
+make: Entering directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Entering directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Entering directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst1.o src/comp/ccst1.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst1.o src/comp/ccst1.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst1.o src/comp/ccst1.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst2.o src/comp/ccst2.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst2.o src/comp/ccst2.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst2.o src/comp/ccst2.c
+gcc -pipe -O0 -w -DNO_DEBUG -Isrc/inter -DFASM   -c -o src/comp/ccst2.o src/comp/ccst2.c
+src/comp/ccst2.c:160:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:160:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:160:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:160:1: error: return type defaults to 'int' [-Wimplicit-int]
+  160 | lsg_p() {
+  160 | lsg_p() {
+  160 | lsg_p() {
+  160 | lsg_p() {
+  160 | lsg_p() {
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:195:1: error: return type defaults to 'int' [-Wimplicit-int]
+  195 | rsg_p() {
+  195 | rsg_p() {
+  195 | rsg_p() {
+  195 | rsg_p() {
+  195 | rsg_p() {
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+src/comp/ccst2.c:232:1: error: return type defaults to 'int' [-Wimplicit-int]
+  232 | ortgn(n1, n2) short n1, n2; {
+  232 | ortgn(n1, n2) short n1, n2; {
+  232 | ortgn(n1, n2) short n1, n2; {
+  232 | ortgn(n1, n2) short n1, n2; {
+  232 | ortgn(n1, n2) short n1, n2; {
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+      | ^~~~~
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: *** [<builtin>: src/comp/ccst2.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+make: Leaving directory '/usr/src/RPM/BUILD/refal2-0.2.3'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92945 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.07user 0.06system 0:00.13elapsed 107%CPU (0avgtext+0avgdata 24976maxresident)k
+0.07user 0.06system 0:00.13elapsed 107%CPU (0avgtext+0avgdata 24976maxresident)k
+0.07user 0.06system 0:00.13elapsed 107%CPU (0avgtext+0avgdata 24976maxresident)k
+0inputs+0outputs (0major+11566minor)pagefaults 0swaps
+0inputs+0outputs (0major+11566minor)pagefaults 0swaps
+0inputs+0outputs (0major+11566minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `refal2-0.2.3-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `refal2-0.2.3-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `refal2-0.2.3-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.11user 2.49system 0:07.85elapsed 71%CPU (0avgtext+0avgdata 132856maxresident)k
+3.11user 2.49system 0:07.85elapsed 71%CPU (0avgtext+0avgdata 132856maxresident)k
+2392inputs+0outputs (0major+195394minor)pagefaults 0swaps

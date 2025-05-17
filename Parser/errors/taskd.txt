@@ -1,0 +1,77 @@
+Problem opening /proc/meminfo
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at CMakeLists.txt:4 (cmake_policy):
+  Policy CMP0037 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0037 for more information.
+
+
+-- The C compiler identification is GNU 14.2.1
+Problem opening /proc/meminfo
+-- Looking for timegm - found
+-- Looking for get_current_dir_name
+Problem opening /proc/meminfo
+-- Looking for get_current_dir_name - found
+-- Performing Test HAVE_TM_GMTOFF
+Problem opening /proc/meminfo
+-- Performing Test HAVE_TM_GMTOFF - Success
+-- Performing Test HAVE_ST_BIRTHTIME
+Problem opening /proc/meminfo
+-- Performing Test HAVE_ST_BIRTHTIME - Failed
+-- Configuring cmake.h
+CMake Deprecation Warning at src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Configuring run_all
+-- Configuring run_all
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32477 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.32477 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.32477 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.32477 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.69user 0.84system 0:01.47elapsed 104%CPU (0avgtext+0avgdata 22948maxresident)k
+0.69user 0.84system 0:01.47elapsed 104%CPU (0avgtext+0avgdata 22948maxresident)k
+0inputs+0outputs (0major+168667minor)pagefaults 0swaps
+0inputs+0outputs (0major+168667minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `taskd-1.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `taskd-1.1.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.47user 3.24system 0:14.19elapsed 54%CPU (0avgtext+0avgdata 141236maxresident)k
+4.47user 3.24system 0:14.19elapsed 54%CPU (0avgtext+0avgdata 141236maxresident)k
+208inputs+0outputs (0major+297108minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:16 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at CMakeLists.txt:27 (cmake_policy):
+  Policy CMP0002 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 2.6.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0002 for more information.
+
+
+CMake Deprecation Warning at /usr/share/ECM/kde-modules/KDEInstallDirsCommon.cmake:135 (message):
+ * X11
+ * VLC (required version >= 1.2)
+
+-- Looking for include file /usr/src/RPM/BUILD/kde5-kaffeine-2.0.18/include/frontend.h
+Problem opening /proc/meminfo
+-- Looking for include file /usr/src/RPM/BUILD/kde5-kaffeine-2.0.18/include/frontend.h - found
+-- Checking for module 'libdvbv5'
+--   Found libdvbv5, version 1.30.1
+-- Found Libdvbv5: /usr/lib64/libdvbv5.so (found version "1.30.1")
+-- Found Libdvbv5: /usr/lib64/libdvbv5.so (found version "1.30.1")
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.46564 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.68user 1.19system 0:02.77elapsed 103%CPU (0avgtext+0avgdata 27076maxresident)k
+1.68user 1.19system 0:02.77elapsed 103%CPU (0avgtext+0avgdata 27076maxresident)k
+0inputs+0outputs (0major+238909minor)pagefaults 0swaps
+0inputs+0outputs (0major+238909minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `kde5-kaffeine-2.0.18-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `kde5-kaffeine-2.0.18-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.16user 5.54system 0:55.87elapsed 24%CPU (0avgtext+0avgdata 142612maxresident)k
+8.16user 5.54system 0:55.87elapsed 24%CPU (0avgtext+0avgdata 142612maxresident)k
+53464inputs+0outputs (0major+779881minor)pagefaults 0swaps

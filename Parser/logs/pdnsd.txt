@@ -1,0 +1,374 @@
+<86>May 16 01:09:14 userdel[1173450]: delete user 'rooter'
+<86>May 16 01:09:14 userdel[1173450]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:09:14 userdel[1173450]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:09:14 groupadd[1173476]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 01:09:14 groupadd[1173476]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:09:14 groupadd[1173476]: new group: name=rooter, GID=1823
+<86>May 16 01:09:14 useradd[1173493]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:09:14 userdel[1173537]: delete user 'builder'
+<86>May 16 01:09:14 userdel[1173537]: removed group 'builder' owned by 'builder'
+<86>May 16 01:09:14 userdel[1173537]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:09:14 groupadd[1173565]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 01:09:14 groupadd[1173565]: group added to /etc/gshadow: name=builder
+<86>May 16 01:09:14 groupadd[1173565]: new group: name=builder, GID=1824
+<86>May 16 01:09:14 useradd[1173591]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+warning: Macro %gpl3plus not found
+<13>May 16 01:09:17 rpmi: rpm-build-licenses-3.0.0-alt1 sisyphus+241804.100.1.1 1574868053 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/pdnsd-1.2.9a-alt2.nosrc.rpm (w1.gzdio)
+Installing pdnsd-1.2.9a-alt2.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.76537
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf pdnsd-1.2.9a-alt2
++ echo 'Source #0 (pdnsd-1.2.9a-alt2.tar):'
+Source #0 (pdnsd-1.2.9a-alt2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/pdnsd-1.2.9a-alt2.tar
++ cd pdnsd-1.2.9a-alt2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ mv alt/README.ALT .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.76537
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd pdnsd-1.2.9a-alt2
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.in: not using Gettext
+autoreconf-default: running: aclocal --force 
+aclocal-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoreconf-default: configure.in: tracing
+autoreconf-default: configure.in: not using Libtool
+autoreconf-default: configure.in: not using Intltool
+autoreconf-default: configure.in: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.in:30: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:429: AM_INIT_AUTOMAKE is expanded from...
+configure.in:30: the top level
+configure.in:31: warning: 'AM_CONFIG_HEADER': this macro is obsolete.
+configure.in:31: You should use the 'AC_CONFIG_HEADERS' macro instead.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:745: AM_CONFIG_HEADER is expanded from...
+configure.in:31: the top level
+configure.in:32: warning: The macro `AC_GNU_SOURCE' is obsolete.
+configure.in:32: You should run autoupdate.
+./lib/autoconf/specific.m4:298: AC_GNU_SOURCE is expanded from...
+configure.in:32: the top level
+configure.in:276: warning: 'AM_PROG_CC_STDC': this macro is obsolete.
+configure.in:276: You should simply use the 'AC_PROG_CC' macro instead.
+configure.in:276: Also, your code should no longer depend upon 'am_cv_prog_cc_stdc',
+configure.in:276: but upon 'ac_cv_prog_cc_stdc'.
+./lib/autoconf/general.m4:2434: AC_DIAGNOSE is expanded from...
+aclocal.m4:751: AM_PROG_CC_STDC is expanded from...
+configure.in:276: the top level
+configure.in:361: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+./lib/autoconf/lang.m4:200: AC_LANG_CONFTEST is expanded from...
+./lib/autoconf/general.m4:2962: _AC_RUN_IFELSE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2981: AC_RUN_IFELSE is expanded from...
+configure.in:361: the top level
+configure.in:421: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.in:421: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.in:421: the top level
+configure.in:443: warning: The macro `AC_HEADER_TIME' is obsolete.
+configure.in:443: You should run autoupdate.
+./lib/autoconf/headers.m4:743: AC_HEADER_TIME is expanded from...
+configure.in:443: the top level
+configure.in:455: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+./lib/autoconf/lang.m4:200: AC_LANG_CONFTEST is expanded from...
+./lib/autoconf/general.m4:2823: _AC_COMPILE_IFELSE is expanded from...
+./lib/autoconf/general.m4:2839: AC_COMPILE_IFELSE is expanded from...
+configure.in:455: the top level
+configure.in:480: warning: The macro `AC_TYPE_SIGNAL' is obsolete.
+configure.in:480: You should run autoupdate.
+./lib/autoconf/types.m4:776: AC_TYPE_SIGNAL is expanded from...
+configure.in:480: the top level
+configure.in:490: warning: AC_OUTPUT should be used without arguments.
+configure.in:490: You should run autoupdate.
+autoreconf-default: running: /usr/bin/autoheader-2.71 --force
+autoheader-2.71: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoheader-2.71: warning: WARNING: Using auxiliary files such as 'acconfig.h', 'config.h.bot'
+autoheader-2.71: WARNING: and 'config.h.top', to define templates for 'config.h.in'
+autoheader-2.71: WARNING: is deprecated and discouraged.
+autoheader-2.71: 
+autoheader-2.71: WARNING: Using the third argument of 'AC_DEFINE_UNQUOTED' and
+autoheader-2.71: WARNING: 'AC_DEFINE' allows one to define a template without
+autoheader-2.71: WARNING: 'acconfig.h':
+autoheader-2.71: 
+autoheader-2.71: WARNING:   AC_DEFINE([NEED_FUNC_MAIN], 1,
+autoheader-2.71: 		[Define if a function 'main' is needed.])
+autoheader-2.71: 
+autoheader-2.71: WARNING: More sophisticated templates can also be produced, see the
+autoheader-2.71: WARNING: documentation.
+autoreconf-default: running: automake --add-missing --force-missing
+automake-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:30: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:30: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+automake-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoreconf-default: Leaving directory '.'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --with-default-id=pdnsd --with-random-device=/dev/urandom
+configure: WARNING: unrecognized options: --without-included-gettext
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports the include directive... yes (GNU style)
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... yes
+checking dependency style of x86_64-alt-linux-gcc... none
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/time.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... (cached) yes
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking for x86_64-alt-linux-gcc... (cached) x86_64-alt-linux-gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether x86_64-alt-linux-gcc accepts -g... (cached) yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... (cached) none needed
+checking whether x86_64-alt-linux-gcc understands -c and -o together... (cached) yes
+checking dependency style of x86_64-alt-linux-gcc... (cached) none
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for autodetect build target... Linux
+checking for pthread_kill in -lpthread... yes
+checking if this is an NPTL-based system... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for fcntl.h... yes
+checking for malloc.h... yes
+checking for sys/ioctl.h... yes
+checking for sys/time.h... (cached) yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... yes
+checking for linux/if.h... yes
+checking for netinet/in.h... yes
+checking for sys/poll.h... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for socklen_t... yes
+checking for struct in6_addr... yes
+checking for struct in_pktinfo... yes
+checking for struct ifreq... yes
+checking for CPP C99 Variadic macro support... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking whether x86_64-alt-linux-gcc needs -traditional... no
+checking for working memcmp... yes
+checking return type of signal handlers... void
+checking for vprintf... yes
+checking for library containing nanosleep... none required
+checking for library containing socket... none required
+checking for library containing inet_aton... none required
+checking for nanosleep... yes
+checking for gettimeofday... yes
+checking for mkfifo... yes
+checking for select... yes
+checking for socket... yes
+checking for strerror... yes
+checking for uname... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for poll... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strlcpy... yes
+checking for mempcpy... yes
+checking for getline... yes
+checking for asprintf... yes
+checking for vasprintf... yes
+checking for getpwnam_r... yes
+checking for inet_ntop... yes
+checking for inet_pton... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating pdnsd.spec
+config.status: creating Makefile
+config.status: creating file-list.base
+config.status: creating contrib/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/pdnsd.8
+config.status: creating doc/pdnsd.conf.5
+config.status: creating doc/pdnsd.conf
+config.status: creating src/Makefile
+config.status: creating src/pdnsd-ctl/Makefile
+config.status: creating src/rc/Makefile
+config.status: creating src/rc/RedHat/Makefile
+config.status: creating src/rc/RedHat/pdnsd
+config.status: creating src/rc/SuSE/Makefile
+config.status: creating src/rc/SuSE/pdnsd
+config.status: creating src/rc/Debian/Makefile
+config.status: creating src/rc/Debian/pdnsd
+config.status: creating src/rc/Slackware/Makefile
+config.status: creating src/rc/Slackware/rc.pdnsd
+config.status: creating src/rc/ArchLinux/Makefile
+config.status: creating src/rc/ArchLinux/pdnsd
+config.status: creating src/test/Makefile
+config.status: creating PKGBUILD
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --without-included-gettext
++ make -j16
+make  all-recursive
+Making all in src
+Making all in .
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-consts.o `test -f 'consts.c' || echo './'`consts.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-rr_types.o `test -f 'rr_types.c' || echo './'`rr_types.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-netdev.o `test -f 'netdev.c' || echo './'`netdev.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-error.o `test -f 'error.c' || echo './'`error.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-list.o `test -f 'list.c' || echo './'`list.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-debug.o `test -f 'debug.c' || echo './'`debug.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-conff.o `test -f 'conff.c' || echo './'`conff.c
+conff.c: In function 'read_config_file':
+conff.c:207:1: warning: label 'close_file' defined but not used [-Wunused-label]
+  207 | close_file:
+      | ^~~~~~~~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-helpers.o `test -f 'helpers.c' || echo './'`helpers.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-main.o `test -f 'main.c' || echo './'`main.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns.o `test -f 'dns.c' || echo './'`dns.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-icmp.o `test -f 'icmp.c' || echo './'`icmp.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-status.o `test -f 'status.c' || echo './'`status.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-thread.o `test -f 'thread.c' || echo './'`thread.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-droppriv.o `test -f 'droppriv.c' || echo './'`droppriv.c
+droppriv.c: In function 'drop_priv':
+droppriv.c:19:17: error: implicit declaration of function 'error'; did you mean 'perror'? [-Wimplicit-function-declaration]
+   19 |                 error (EXIT_FAILURE, 0, "user shouldn't be empty");
+      |                 ^~~~~
+      |                 perror
+make[3]: *** [Makefile:737: pdnsd-droppriv.o] Error 1
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: *** Waiting for unfinished jobs....
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-servers.o `test -f 'servers.c' || echo './'`servers.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-hash.o `test -f 'hash.c' || echo './'`hash.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns_answer.o `test -f 'dns_answer.c' || echo './'`dns_answer.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-conf-parser.o `test -f 'conf-parser.c' || echo './'`conf-parser.c
+conf-parser.c: In function 'confparse':
+conf-parser.c:695:17: warning: variable 'ignore_cd' set but not used [-Wunused-but-set-variable]
+  695 |             int ignore_cd;
+      |                 ^~~~~~~~~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-dns_query.o `test -f 'dns_query.c' || echo './'`dns_query.c
+dns_query.c: In function 'p_exec_query':
+dns_query.c:1402:43: warning: variable 'qc' set but not used [-Wunused-but-set-variable]
+ 1402 |                         unsigned short qt,qc;
+      |                                           ^~
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[3]: Entering directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DCONFDIR='"/etc"'  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+make[3]: Leaving directory '/usr/src/RPM/BUILD/pdnsd-1.2.9a-alt2/src'
+make[2]: *** [Makefile:753: all-recursive] Error 1
+make[1]: *** [Makefile:373: all-recursive] Error 1
+make: *** [Makefile:308: all] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.76537 (%build)
+Command exited with non-zero status 1
+4.64user 3.22system 0:06.44elapsed 122%CPU (0avgtext+0avgdata 38228maxresident)k
+0inputs+0outputs (0major+637196minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `pdnsd-1.2.9a-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+3.54user 2.58system 0:14.56elapsed 42%CPU (0avgtext+0avgdata 142472maxresident)k
+0inputs+0outputs (0major+187658minor)pagefaults 0swaps

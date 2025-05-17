@@ -1,0 +1,77 @@
++ __qmake_qt5 PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm
++ export 'CPPFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ export 'CPPFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ CPPFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ CPPFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ CPPFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC'
++ /usr/share/qt5/bin/qmake 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm
++ /usr/share/qt5/bin/qmake 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm
++ /usr/share/qt5/bin/qmake 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm
+Info: creating stash file /usr/src/RPM/BUILD/libdtkwm-2.0.12/.qmake.stash
+Info: creating stash file /usr/src/RPM/BUILD/libdtkwm-2.0.12/.qmake.stash
+Info: creating stash file /usr/src/RPM/BUILD/libdtkwm-2.0.12/.qmake.stash
++ make -j16
++ make -j16
++ make -j16
+cd src/ && ( test -e Makefile || /usr/share/qt5/bin/qmake -o Makefile /usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm ) && make -f Makefile 
+cd src/ && ( test -e Makefile || /usr/share/qt5/bin/qmake -o Makefile /usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm ) && make -f Makefile 
+cd src/ && ( test -e Makefile || /usr/share/qt5/bin/qmake -o Makefile /usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro 'QMAKE_CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' 'QMAKE_CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -fPIC -DPIC' PREFIX=/usr LIB_INSTALL_DIR=/usr/lib64 DTK_MODULE_NAME=dtkwm ) && make -f Makefile 
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:13: Cannot find feature dtk_build
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:13: Cannot find feature dtk_build
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:13: Cannot find feature dtk_build
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:14: Cannot find feature dtk_module
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:14: Cannot find feature dtk_module
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:14: Cannot find feature dtk_module
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:15: Cannot find feature dtk_cmake
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:15: Cannot find feature dtk_cmake
+/usr/src/RPM/BUILD/libdtkwm-2.0.12/src/src.pro:15: Cannot find feature dtk_cmake
+Project ERROR: Unknown module(s) in QT: dtkcore
+Project ERROR: Unknown module(s) in QT: dtkcore
+Project ERROR: Unknown module(s) in QT: dtkcore
+Project ERROR: Unknown module(s) in QT: dtkcore
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+make: *** [Makefile:48: sub-src-make_first-ordered] Error 3
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41543 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 8408maxresident)k
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 8408maxresident)k
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 8408maxresident)k
+0.09user 0.08system 0:00.17elapsed 101%CPU (0avgtext+0avgdata 8408maxresident)k
+0inputs+0outputs (0major+18162minor)pagefaults 0swaps
+0inputs+0outputs (0major+18162minor)pagefaults 0swaps
+0inputs+0outputs (0major+18162minor)pagefaults 0swaps
+0inputs+0outputs (0major+18162minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libdtkwm-2.0.12-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libdtkwm-2.0.12-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libdtkwm-2.0.12-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `libdtkwm-2.0.12-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.08user 3.36system 0:24.06elapsed 35%CPU (0avgtext+0avgdata 143136maxresident)k
+5.08user 3.36system 0:24.06elapsed 35%CPU (0avgtext+0avgdata 143136maxresident)k
+6152inputs+0outputs (0major+287738minor)pagefaults 0swaps

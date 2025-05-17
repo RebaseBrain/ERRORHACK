@@ -1,0 +1,366 @@
+<86>May 16 01:52:23 userdel[3227261]: delete user 'rooter'
+<86>May 16 01:52:23 userdel[3227261]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:52:23 userdel[3227261]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:52:23 groupadd[3227281]: group added to /etc/group: name=rooter, GID=1874
+<86>May 16 01:52:23 groupadd[3227281]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:52:23 groupadd[3227281]: new group: name=rooter, GID=1874
+<86>May 16 01:52:23 useradd[3227303]: new user: name=rooter, UID=1874, GID=1874, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:52:23 userdel[3227335]: delete user 'builder'
+<86>May 16 01:52:23 userdel[3227335]: removed group 'builder' owned by 'builder'
+<86>May 16 01:52:23 userdel[3227335]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:52:23 groupadd[3227362]: group added to /etc/group: name=builder, GID=1875
+<86>May 16 01:52:23 groupadd[3227362]: group added to /etc/gshadow: name=builder
+<86>May 16 01:52:23 groupadd[3227362]: new group: name=builder, GID=1875
+<86>May 16 01:52:23 useradd[3227380]: new user: name=builder, UID=1875, GID=1875, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:52:26 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 01:52:26 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:52:26 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:52:26 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:52:26 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:52:26 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 01:52:26 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 01:52:26 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 01:52:26 rpmi: gcc-c++-common-1.4.28-alt1 sisyphus+348678.100.1.1 1716396142 installed
+<13>May 16 01:52:27 rpmi: libstdc++14-devel-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:52:27 rpmi: gcc14-c++-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:52:27 rpmi: cmake-modules-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 01:52:27 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 01:52:27 rpmi: librhash-1.3.5-alt3 sisyphus+286141.40.2.1 1632982456 installed
+<13>May 16 01:52:27 rpmi: libjsoncpp24-1.9.4-alt2 sisyphus+346331.200.2.1 1716448551 installed
+<13>May 16 01:52:27 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:52:27 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 01:52:28 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 01:52:28 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 01:52:28 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 01:52:28 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:52:28 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 01:52:28 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 01:52:28 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 01:52:28 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 01:52:28 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 01:52:28 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 01:52:28 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:52:28 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:52:28 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:52:28 rpmi: rpm-macros-cmake-4.0.0-alt1 sisyphus+380707.100.1.1 1744023402 installed
+<13>May 16 01:52:28 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:52:28 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:52:28 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:52:28 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:52:28 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:52:28 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:52:28 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 01:52:28 groupadd[3239259]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 01:52:28 groupadd[3239259]: group added to /etc/gshadow: name=_keytab
+<86>May 16 01:52:28 groupadd[3239259]: new group: name=_keytab, GID=999
+<13>May 16 01:52:28 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 01:52:28 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 01:52:28 groupadd[3239332]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 01:52:28 groupadd[3239332]: group added to /etc/gshadow: name=sasl
+<86>May 16 01:52:28 groupadd[3239332]: new group: name=sasl, GID=998
+<13>May 16 01:52:28 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 01:52:28 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:52:28 rpmi: libarchive13-3.7.9-alt1 sisyphus+384117.200.2.1 1747222433 installed
+<13>May 16 01:52:28 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 01:52:28 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 01:52:28 rpmi: cmake-4.0.1-alt1 sisyphus+382689.100.1.1 1745786887 installed
+<13>May 16 01:52:28 rpmi: gcc-c++-14-alt1 sisyphus+360995.300.1.1 1730139222 installed
+<13>May 16 01:52:43 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:52:43 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 01:52:43 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 01:52:43 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 01:52:43 rpmi: libSDL2-2.32.6-alt1 sisyphus+383337.100.1.1 1746466019 installed
+<13>May 16 01:52:43 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 01:52:43 rpmi: libgomp1-14.2.1-alt1 sisyphus+360995.100.1.1 1730131018 installed
+<13>May 16 01:52:43 rpmi: libltdl7-2.4.7-alt5 sisyphus+341963.200.3.1 1711659208 installed
+<13>May 16 01:52:43 rpmi: libopenjpeg2.0-2.5.3-alt1 sisyphus+376290.11300.24.2 1745386888 installed
+<13>May 16 01:52:43 rpmi: libICE-1.1.1-alt1 sisyphus+311428.500.1.1 1670577555 installed
+<13>May 16 01:52:43 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 01:52:43 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 01:52:43 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 01:52:43 rpmi: libopenexrcore32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 01:52:43 rpmi: libSDL2_image-2.8.8-alt1 sisyphus+376290.1140.24.2 1745365313 installed
+<13>May 16 01:52:43 rpmi: libSM-1.2.4-alt1 sisyphus+312057.200.1.1 1671526916 installed
+<13>May 16 01:52:43 rpmi: libraw-0.21.4-alt1 sisyphus+381532.100.1.1 1744570705 installed
+<13>May 16 01:52:43 rpmi: libmng-2.0.3-alt3 sisyphus+363683.100.1.1 1732898408 installed
+<13>May 16 01:52:43 rpmi: libSDL2_mixer-2.8.1-alt1 sisyphus+374087.100.1.1 1739010991 installed
+<13>May 16 01:52:43 rpmi: libtheora-2:1.1.1-alt6 sisyphus+277967.100.1.1 1625928129 installed
+<13>May 16 01:52:43 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 01:52:43 rpmi: libflif-0.4-alt1 sisyphus+343861.100.1.1 1711656717 installed
+<13>May 16 01:52:43 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:52:43 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 01:52:43 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:52:43 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:52:43 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:52:43 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:52:43 rpmi: liblua5.1-preinstall-5.1.5-alt21 sisyphus+369650.3100.9.1 1736952756 installed
+<13>May 16 01:52:43 rpmi: liblua5.1-5.1.5-alt21 sisyphus+369650.3100.9.1 1736952756 installed
+<13>May 16 01:52:43 rpmi: libtolua++-lua5.1-1.0.93-alt5 sisyphus+249325.100.1.1 1585937317 installed
+<13>May 16 01:52:44 rpmi: stratagus-3.3.2-alt1 sisyphus+339883.100.2.1 1707816414 installed
+<13>May 16 01:52:44 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:52:44 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:52:44 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:52:44 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:52:44 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 01:52:44 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 01:52:44 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:52:44 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 01:52:44 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 01:52:44 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 01:52:44 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 01:52:44 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 01:52:44 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 01:52:44 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 01:52:44 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:52:44 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:52:44 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:52:45 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:52:45 rpmi: libImageMagick7-common-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 01:52:45 rpmi: libzip5-1.10.1-alt1 sisyphus+340170.100.1.1 1707475902 installed
+<13>May 16 01:52:45 rpmi: libwmflite-0.2.13-alt1 sisyphus+380613.100.1.1 1743880102 installed
+<13>May 16 01:52:45 rpmi: liblqr-0.4.3-alt1 sisyphus+356629.200.1.1 1725279244 installed
+<13>May 16 01:52:45 rpmi: highway-libs-1.2.0-alt1 sisyphus+350172.100.1.1 1717270054 installed
+<13>May 16 01:52:45 rpmi: libbrotlienc-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:52:45 rpmi: libjbig2.1-2.1-alt2 sisyphus+326386.40.6.1 1691148231 installed
+<13>May 16 01:52:45 rpmi: libfftw3-common-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 01:52:45 rpmi: libfftw3-3.3.10-alt2 sisyphus+363193.200.2.1 1732292771 installed
+<13>May 16 01:52:45 rpmi: djvu-common-3.5.28-alt3 sisyphus+376290.2600.24.2 1745368454 installed
+<13>May 16 01:52:45 rpmi: libdjvu-3.5.28-alt3 sisyphus+376290.2600.24.2 1745368454 installed
+<13>May 16 01:52:45 rpmi: libdav1d_7-1.5.1-alt1 sisyphus+375116.100.1.1 1739813289 installed
+<13>May 16 01:52:45 rpmi: libgts-0.7.6-alt2.drc20130205.1 sisyphus+346279.200.2.1 1716435910 installed
+<13>May 16 01:52:45 rpmi: libpaper2-2:2.1.3-alt1 sisyphus+340967.100.1.1 1708276732 installed
+<13>May 16 01:52:45 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:52:45 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:52:45 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 01:52:45 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 01:52:45 rpmi: libnuma-2.0.19-alt1 sisyphus+363830.100.1.1 1733131852 installed
+<13>May 16 01:52:45 rpmi: libx265-199-3.5-alt1.1 sisyphus+277560.100.1.1 1625697230 installed
+<13>May 16 01:52:45 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 01:52:45 rpmi: libde265-1.0.15-alt1 sisyphus+337190.100.1.1 1703502096 installed
+<13>May 16 01:52:46 rpmi: libaom3-3.12.0-alt2 sisyphus+381948.100.1.1 1744966704 installed
+<13>May 16 01:52:46 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 01:52:46 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 01:52:46 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 01:52:46 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 01:52:46 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:52:46 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:52:46 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:52:46 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 01:52:46 rpmi: libheif-1.19.8-alt1 sisyphus+384099.100.1.1 1747213304 installed
+<13>May 16 01:52:46 rpmi: libjxl0.11-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740871628 installed
+<13>May 16 01:52:46 rpmi: libjxl-pixbuf-loader-0.11.1-alt1.1 sisyphus+376389.500.5.2 1740871628 installed
+<13>May 16 01:52:46 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 01:52:46 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:52:46 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:52:46 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:52:46 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:52:47 rpmi: libgs-10.05.1-alt1 sisyphus+384210.100.1.1 1747310503 installed
+<13>May 16 01:52:47 rpmi: libraqm-0.10.2-alt1 sisyphus+378370.100.1.1 1742284731 installed
+<13>May 16 01:52:47 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:52:47 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:52:47 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:52:47 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:52:47 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:52:47 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:52:47 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:52:47 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:52:47 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:52:47 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:52:47 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 01:52:47 rpmi: librsvg-1:2.60.0-alt1 sisyphus+378509.200.1.1 1742367009 installed
+<13>May 16 01:52:47 rpmi: liblasi-1.1.3-alt3 sisyphus+286812.100.2.1 1633968131 installed
+<13>May 16 01:52:47 rpmi: libXt-1.3.0-alt1 sisyphus+331490.500.1.1 1697023310 installed
+<13>May 16 01:52:47 rpmi: libXpm-3.5.17-alt1 sisyphus+330921.100.1.1 1696400257 installed
+<13>May 16 01:52:47 rpmi: libgd3-2.3.3-alt4 sisyphus+376290.4300.24.2 1745377382 installed
+<13>May 16 01:52:47 rpmi: libgraphviz-12.1.2-alt2 sisyphus+362875.200.2.1 1731953966 installed
+<13>May 16 01:52:47 rpmi: libiex32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 01:52:47 rpmi: libilmthread32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 01:52:47 rpmi: libimath29-3.1.12-alt1.1 sisyphus+378502.100.1.1 1742362125 installed
+<13>May 16 01:52:47 rpmi: libopenexr32-3.3.1-alt1 sisyphus+376389.140.5.2 1740869981 installed
+<13>May 16 01:52:47 rpmi: libImageMagick7.10-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 01:52:47 rpmi: ImageMagick-tools-7.1.1.47-alt1 sisyphus+383885.100.1.1 1747049523 installed
+<13>May 16 01:52:47 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:52:47 rpmi: stratagus-devel-3.3.2-alt1 sisyphus+339883.100.2.1 1707816414 installed
+<13>May 16 01:52:47 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:52:47 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 01:52:47 rpmi: bzlib-devel-1:1.0.8-alt3 sisyphus+327286.5000.14.1 1711487039 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/wargus-3.3.2-alt1.nosrc.rpm (w1.gzdio)
+Installing wargus-3.3.2-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.43132
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf wargus-3.3.2
++ echo 'Source #0 (wargus-3.3.2.tar):'
+Source #0 (wargus-3.3.2.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/wargus-3.3.2.tar
++ cd wargus-3.3.2
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.43132
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd wargus-3.3.2
++ mkdir -p x86_64-alt-linux
++ cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX=/usr -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -S . -B x86_64-alt-linux
+Problem opening /proc/meminfo
+CMake Warning (dev) at CMakeLists.txt:30 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found stratagus: /usr/games/stratagus:/usr/include
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.3.1")
+-- Found PNG: /usr/lib64/libpng.so (found version "1.6.42")
+-- Found BZip2: /usr/lib64/libbz2.so (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+Problem opening /proc/meminfo
+-- Looking for BZ2_bzCompressInit - found
+-- Could not find StormLib
+-- Performing Test HAS_17_FS
+Problem opening /proc/meminfo
+-- Performing Test HAS_17_FS - Success
+-- Will build StormLib as part of compilation.
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_Fortran_FLAGS
+    INCLUDE_INSTALL_DIR
+    LIB_DESTINATION
+    LIB_INSTALL_DIR
+    LIB_SUFFIX
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+
+
+-- Build files have been written to: /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux
++ cmake --build x86_64-alt-linux --verbose --parallel 16
+Change Dir: '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j16
+gmake: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+/usr/bin/cmake -S/usr/src/RPM/BUILD/wargus-3.3.2 -B/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux --check-build-system CMakeFiles/Makefile.cmake 0
+gmake: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+/usr/bin/cmake -E cmake_progress_start /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/CMakeFiles /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux//CMakeFiles/progress.marks
+gmake: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+/usr/bin/gmake  -f CMakeFiles/StormLib.dir/build.make CMakeFiles/StormLib.dir/depend
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+cd /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/src/RPM/BUILD/wargus-3.3.2 /usr/src/RPM/BUILD/wargus-3.3.2 /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/CMakeFiles/StormLib.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+/usr/bin/gmake  -f CMakeFiles/StormLib.dir/build.make CMakeFiles/StormLib.dir/build
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+[  5%] Creating directories for 'StormLib'
+/usr/bin/cmake -Dcfgdir= -P /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/tmp/StormLib-mkdirs.cmake
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-mkdir
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+[ 11%] No download step for 'StormLib'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-download
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+[ 16%] No update step for 'StormLib'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-update
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+[ 22%] No patch step for 'StormLib'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-patch
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake[2]: Entering directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+[ 27%] Performing configure step for 'StormLib'
+cd /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-build && /usr/bin/cmake -P /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-configure-.cmake
+CMake Error at /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-configure-.cmake:37 (message):
+  Command failed: 1
+
+   '/usr/bin/cmake' '-DSTORM_SKIP_INSTALL=ON' '-GUnix Makefiles' '-S' '/usr/src/RPM/BUILD/wargus-3.3.2/StormLib' '-B' '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-build'
+
+  See also
+
+    /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/Logs/StormLib-configure-*.log
+
+
+-- stdout output is:
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 14.2.1
+-- The CXX compiler identification is GNU 14.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+
+-- stderr output is:
+Problem opening /proc/meminfo
+CMake Warning (dev) at CMakeLists.txt:1 (project):
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Problem opening /proc/meminfo
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+CMake Error at /usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux/StormLib/src/StormLib-stamp/StormLib-configure-.cmake:47 (message):
+  Stopping after outputting logs.
+
+
+gmake[2]: *** [CMakeFiles/StormLib.dir/build.make:92: StormLib/src/StormLib-stamp/StormLib-configure] Error 1
+gmake[2]: Leaving directory '/usr/src/RPM/BUILD/wargus-3.3.2/x86_64-alt-linux'
+gmake[1]: *** [CMakeFiles/Makefile2:97: CMakeFiles/StormLib.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2
+
+error: Bad exit status from /usr/src/tmp/rpm-tmp.43132 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.43132 (%build)
+Command exited with non-zero status 1
+1.24user 0.73system 0:01.94elapsed 101%CPU (0avgtext+0avgdata 96104maxresident)k
+0inputs+0outputs (0major+146174minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `wargus-3.3.2-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+4.67user 3.27system 0:32.67elapsed 24%CPU (0avgtext+0avgdata 141816maxresident)k
+53608inputs+0outputs (0major+321847minor)pagefaults 0swaps

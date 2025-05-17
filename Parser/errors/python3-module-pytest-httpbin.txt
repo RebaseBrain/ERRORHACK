@@ -1,0 +1,161 @@
+INFO     : Running command: ['python3', '-m', 'pytest', '-ra', '-Wignore']
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+rootdir: /usr/src/RPM/BUILD/python3-module-pytest-httpbin-2.1.0
+configfile: pyproject.toml
+plugins: httpbin-2.1.0
+collected 23 items
+
+tests/test_httpbin.py ...............                                    [ 65%]
+tests/test_server.py .127.0.0.1 - - [16/May/2025 02:28:10] "GET /headers HTTP/1.1" 200 156
+...pytest-httpbin server hit an exception serving request: _ssl.c:993: The handshake operation timed out
+attempting to ignore so the rest of the tests can run
+F...                                            [100%]
+
+=================================== FAILURES ===================================
+_____________________ test_dont_crash_on_handshake_timeout _____________________
+
+httpbin_secure = <pytest_httpbin.serve.SecureServer object at 0x7fed5c32da00>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>
+
+
+    def test_dont_crash_on_handshake_timeout(httpbin_secure, capsys):
+    def test_dont_crash_on_handshake_timeout(httpbin_secure, capsys):
+        with socket.socket() as sock:
+            sock.connect((httpbin_secure.host, httpbin_secure.port))
+            # this request used to hang
+            assert sock.recv(1) == b""
+    
+>       assert (
+>       assert (
+            re.match(
+            re.match(
+                r"pytest-httpbin server hit an exception serving request:.* The "
+                r"pytest-httpbin server hit an exception serving request:.* The "
+                "handshake operation timed out\nattempting to ignore so the rest "
+                "handshake operation timed out\nattempting to ignore so the rest "
+                "of the tests can run\n",
+                "of the tests can run\n",
+                capsys.readouterr().out,
+                capsys.readouterr().out,
+            )
+            )
+            is not None
+            is not None
+        )
+        )
+        )
+E       AssertionError: assert None is not None
+E       AssertionError: assert None is not None
+E       AssertionError: assert None is not None
+E       AssertionError: assert None is not None
+E        +  where None = <function match at 0x7fed5cf732e0>('pytest-httpbin server hit an exception serving request:.* The handshake operation timed out\nattempting to ignore so the rest of the tests can run\n', '')
+E        +  where None = <function match at 0x7fed5cf732e0>('pytest-httpbin server hit an exception serving request:.* The handshake operation timed out\nattempting to ignore so the rest of the tests can run\n', '')
+E        +  where None = <function match at 0x7fed5cf732e0>('pytest-httpbin server hit an exception serving request:.* The handshake operation timed out\nattempting to ignore so the rest of the tests can run\n', '')
+E        +  where None = <function match at 0x7fed5cf732e0>('pytest-httpbin server hit an exception serving request:.* The handshake operation timed out\nattempting to ignore so the rest of the tests can run\n', '')
+E        +    where <function match at 0x7fed5cf732e0> = re.match
+E        +    where <function match at 0x7fed5cf732e0> = re.match
+E        +    where <function match at 0x7fed5cf732e0> = re.match
+E        +    where <function match at 0x7fed5cf732e0> = re.match
+E        +    where <function match at 0x7fed5cf732e0> = re.match
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +    and   '' = CaptureResult(out='', err='').out
+E        +      where CaptureResult(out='', err='') = readouterr()
+E        +      where CaptureResult(out='', err='') = readouterr()
+E        +      where CaptureResult(out='', err='') = readouterr()
+E        +      where CaptureResult(out='', err='') = readouterr()
+E        +      where CaptureResult(out='', err='') = readouterr()
+E        +        where readouterr = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>.readouterr
+E        +        where readouterr = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>.readouterr
+E        +        where readouterr = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>.readouterr
+E        +        where readouterr = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>.readouterr
+E        +        where readouterr = <_pytest.capture.CaptureFixture object at 0x7fed5b88dbe0>.readouterr
+
+
+
+
+
+tests/test_server.py:63: AssertionError
+tests/test_server.py:63: AssertionError
+tests/test_server.py:63: AssertionError
+tests/test_server.py:63: AssertionError
+tests/test_server.py:63: AssertionError
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+FAILED tests/test_server.py::test_dont_crash_on_handshake_timeout - Assertion...
+FAILED tests/test_server.py::test_dont_crash_on_handshake_timeout - Assertion...
+FAILED tests/test_server.py::test_dont_crash_on_handshake_timeout - Assertion...
+FAILED tests/test_server.py::test_dont_crash_on_handshake_timeout - Assertion...
+FAILED tests/test_server.py::test_dont_crash_on_handshake_timeout - Assertion...
+========================= 1 failed, 22 passed in 3.26s =========================
+========================= 1 failed, 22 passed in 3.26s =========================
+========================= 1 failed, 22 passed in 3.26s =========================
+========================= 1 failed, 22 passed in 3.26s =========================
+========================= 1 failed, 22 passed in 3.26s =========================
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-Wignore']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-Wignore']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-Wignore']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-Wignore']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['python3', '-m', 'pytest', '-ra', '-Wignore']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-pytest-httpbin-2.1.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pytest-httpbin-2.1.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pytest-httpbin-2.1.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pytest-httpbin-2.1.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-pytest-httpbin-2.1.0-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.21814 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.61user 1.16system 0:08.54elapsed 55%CPU (0avgtext+0avgdata 45468maxresident)k
+3.61user 1.16system 0:08.54elapsed 55%CPU (0avgtext+0avgdata 45468maxresident)k
+3.61user 1.16system 0:08.54elapsed 55%CPU (0avgtext+0avgdata 45468maxresident)k
+3.61user 1.16system 0:08.54elapsed 55%CPU (0avgtext+0avgdata 45468maxresident)k
+0inputs+0outputs (0major+149281minor)pagefaults 0swaps
+0inputs+0outputs (0major+149281minor)pagefaults 0swaps
+0inputs+0outputs (0major+149281minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-pytest-httpbin-2.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pytest-httpbin-2.1.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-pytest-httpbin-2.1.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.11user 3.60system 0:27.54elapsed 38%CPU (0avgtext+0avgdata 140884maxresident)k
+864inputs+0outputs (0major+284859minor)pagefaults 0swaps

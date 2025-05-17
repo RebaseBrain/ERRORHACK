@@ -1,0 +1,140 @@
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 1572864
+checking command to parse /usr/bin/nm -B output from x86_64-alt-linux-gcc object... failed
+checking for objdir... .libs
+checking for x86_64-alt-linux-ar... no
+checking for ar... ar
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-alt-linux-strip... no
+checking for strip... strip
+checking if x86_64-alt-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-alt-linux-gcc option to produce PIC... -fPIC
+checking if x86_64-alt-linux-gcc PIC flag -fPIC works... yes
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c makeoctree.c
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -L../src  -o makeoctree makeoctree.o -lvolpack -lm 
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/makeoctree makeoctree.o  -L/usr/src/RPM/BUILD/volpack-1.0c7/src /usr/src/RPM/BUILD/volpack-1.0c7/src/.libs/libvolpack.so -lm 
+creating makeoctree
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c classifyvolume.c
+/bin/sh ../libtool --tag=CC   --mode=link x86_64-alt-linux-gcc  -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -L../src  -o classifyvolume classifyvolume.o -lvolpack -lm 
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -o .libs/classifyvolume classifyvolume.o  -L/usr/src/RPM/BUILD/volpack-1.0c7/src /usr/src/RPM/BUILD/volpack-1.0c7/src/.libs/libvolpack.so -lm 
+creating classifyvolume
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c rendervolume.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c rendervolume.c
+rendervolume.c: In function 'main':
+rendervolume.c: In function 'main':
+rendervolume.c:210:18: error: passing argument 1 of 'StorePGM' from incompatible pointer type [-Wincompatible-pointer-types]
+rendervolume.c:210:18: error: passing argument 1 of 'StorePGM' from incompatible pointer type [-Wincompatible-pointer-types]
+rendervolume.c:210:18: error: passing argument 1 of 'StorePGM' from incompatible pointer type [-Wincompatible-pointer-types]
+  210 |         StorePGM(image, IMAGE_WIDTH, IMAGE_HEIGHT, filename);
+  210 |         StorePGM(image, IMAGE_WIDTH, IMAGE_HEIGHT, filename);
+  210 |         StorePGM(image, IMAGE_WIDTH, IMAGE_HEIGHT, filename);
+      |                  ^~~~~
+      |                  ^~~~~
+      |                  ^~~~~
+      |                  ^~~~~
+      |                  |
+      |                  |
+      |                  |
+      |                  |
+      |                  unsigned char (*)[256]
+      |                  unsigned char (*)[256]
+      |                  unsigned char (*)[256]
+      |                  unsigned char (*)[256]
+      |                  unsigned char (*)[256]
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+rendervolume.c:44:21: note: expected 'char *' but argument is of type 'unsigned char (*)[256]'
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+   44 | void StorePGM(char *image, int width, int height, char *filename);
+      |               ~~~~~~^~~~~
+      |               ~~~~~~^~~~~
+      |               ~~~~~~^~~~~
+      |               ~~~~~~^~~~~
+      |               ~~~~~~^~~~~
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: *** [Makefile:294: rendervolume.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7/examples'
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: *** [Makefile:272: all-recursive] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: *** [Makefile:202: all] Error 2
+make: *** [Makefile:202: all] Error 2
+make: *** [Makefile:202: all] Error 2
+make: *** [Makefile:202: all] Error 2
+make: *** [Makefile:202: all] Error 2
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+make: Leaving directory '/usr/src/RPM/BUILD/volpack-1.0c7'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.85631 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.06user 5.96system 0:11.47elapsed 131%CPU (0avgtext+0avgdata 85588maxresident)k
+9.06user 5.96system 0:11.47elapsed 131%CPU (0avgtext+0avgdata 85588maxresident)k
+9.06user 5.96system 0:11.47elapsed 131%CPU (0avgtext+0avgdata 85588maxresident)k
+9.06user 5.96system 0:11.47elapsed 131%CPU (0avgtext+0avgdata 85588maxresident)k
+0inputs+0outputs (0major+1106446minor)pagefaults 0swaps
+0inputs+0outputs (0major+1106446minor)pagefaults 0swaps
+0inputs+0outputs (0major+1106446minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `volpack-1.0c7-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `volpack-1.0c7-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `volpack-1.0c7-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.41user 2.49system 0:19.42elapsed 30%CPU (0avgtext+0avgdata 136244maxresident)k
+3.41user 2.49system 0:19.42elapsed 30%CPU (0avgtext+0avgdata 136244maxresident)k
+0inputs+0outputs (0major+130572minor)pagefaults 0swaps

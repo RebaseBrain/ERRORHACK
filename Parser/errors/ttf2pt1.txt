@@ -1,0 +1,203 @@
+<86>May 16 01:08:35 groupadd[1042110]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:08:35 groupadd[1042110]: new group: name=rooter, GID=1877
+<86>May 16 01:08:35 useradd[1042135]: new user: name=rooter, UID=1877, GID=1877, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:08:35 userdel[1042168]: delete user 'builder'
+<86>May 16 01:08:35 userdel[1042168]: removed group 'builder' owned by 'builder'
+<86>May 16 01:08:35 userdel[1042168]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:08:35 groupadd[1042190]: group added to /etc/group: name=builder, GID=1878
+<86>May 16 01:08:35 groupadd[1042190]: group added to /etc/gshadow: name=builder
+<86>May 16 01:08:35 groupadd[1042190]: new group: name=builder, GID=1878
+<86>May 16 01:08:35 useradd[1042212]: new user: name=builder, UID=1878, GID=1878, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/ttf2pt1-3.4.4-alt1.qa1.src.rpm: exception not found in '/usr/share/license-exception' directory: advertising
+<13>May 16 01:08:39 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:08:39 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:08:40 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:08:40 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:08:40 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 01:08:40 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:08:40 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:08:40 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:08:40 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 01:08:40 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+pt1.c: In function 'fconcisecontour':
+pt1.c:6049:29: warning: 'fcrossraysge' accessing 32 bytes in a region of size 16 [-Wstringop-overflow=]
+ 6049 |                         if( fcrossraysge(&tpge, &tnge, NULL, NULL, &apcv[1]) ) {
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pt1.c:6049:29: note: referencing argument 5 of type 'double[2][2]'
+pt1.c:6049:29: note: referencing argument 5 of type 'double[2][2]'
+pt1.c:4935:1: note: in a call to function 'fcrossraysge'
+pt1.c:4935:1: note: in a call to function 'fcrossraysge'
+ 4935 | fcrossraysge(
+ 4935 | fcrossraysge(
+      | ^~~~~~~~~~~~
+      | ^~~~~~~~~~~~
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_FREETYPE -I/usr/include/freetype2  -DPREFER_FREETYPE -DEXTERNAL_T1ASM -c runt1asm.c
+cc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -DUSE_FREETYPE -I/usr/include/freetype2  -DPREFER_FREETYPE -DEXTERNAL_T1ASM -c runt1asm.c
+runt1asm.c: In function 'runt1asm':
+runt1asm.c: In function 'runt1asm':
+runt1asm.c:28:19: error: implicit declaration of function 'dup' [-Wimplicit-function-declaration]
+runt1asm.c:28:19: error: implicit declaration of function 'dup' [-Wimplicit-function-declaration]
+   28 |         if(( id = dup(fileno(ifp)) )<0) {
+   28 |         if(( id = dup(fileno(ifp)) )<0) {
+      |                   ^~~
+      |                   ^~~
+runt1asm.c:30:17: error: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+runt1asm.c:30:17: error: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   30 |                 exit(1);
+   30 |                 exit(1);
+      |                 ^~~~
+      |                 ^~~~
+runt1asm.c:14:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:14:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+   13 | #include <errno.h>
+   13 | #include <errno.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   14 | 
+   14 | 
+   14 | 
+runt1asm.c:30:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:30:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:30:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+   30 |                 exit(1);
+   30 |                 exit(1);
+      |                 ^~~~
+      |                 ^~~~
+runt1asm.c:30:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:30:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:34:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+   34 |                 exit(1);
+      |                 ^~~~
+runt1asm.c:34:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:37:9: error: implicit declaration of function 'close'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+   37 |         close(0);
+      |         ^~~~~
+      |         ^~~~~
+      |         pclose
+      |         pclose
+      |         pclose
+runt1asm.c:40:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:40:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:40:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+   40 |                 exit(1);
+   40 |                 exit(1);
+   40 |                 exit(1);
+      |                 ^~~~
+      |                 ^~~~
+      |                 ^~~~
+runt1asm.c:40:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:40:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:40:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:40:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:45:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:45:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:45:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:45:17: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+   45 |                 exit(1);
+   45 |                 exit(1);
+   45 |                 exit(1);
+   45 |                 exit(1);
+      |                 ^~~~
+      |                 ^~~~
+      |                 ^~~~
+      |                 ^~~~
+runt1asm.c:45:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:45:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:45:17: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:50:25: error: implicit declaration of function 'execlp' [-Wimplicit-function-declaration]
+runt1asm.c:50:25: error: implicit declaration of function 'execlp' [-Wimplicit-function-declaration]
+runt1asm.c:50:25: error: implicit declaration of function 'execlp' [-Wimplicit-function-declaration]
+   50 |                 error = execlp("t1asm", "t1asm", "-b", NULL);
+   50 |                 error = execlp("t1asm", "t1asm", "-b", NULL);
+   50 |                 error = execlp("t1asm", "t1asm", "-b", NULL);
+      |                         ^~~~~~
+      |                         ^~~~~~
+      |                         ^~~~~~
+runt1asm.c:50:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:50:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:50:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:52:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:52:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:52:25: warning: incompatible implicit declaration of built-in function 'execlp' [-Wbuiltin-declaration-mismatch]
+   52 |                 error = execlp("t1asm", "t1asm", NULL);
+   52 |                 error = execlp("t1asm", "t1asm", NULL);
+   52 |                 error = execlp("t1asm", "t1asm", NULL);
+      |                         ^~~~~~
+      |                         ^~~~~~
+      |                         ^~~~~~
+runt1asm.c:56:9: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:56:9: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:56:9: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+runt1asm.c:56:9: warning: incompatible implicit declaration of built-in function 'exit' [-Wbuiltin-declaration-mismatch]
+   56 |         exit(1);
+   56 |         exit(1);
+   56 |         exit(1);
+   56 |         exit(1);
+      |         ^~~~
+      |         ^~~~
+      |         ^~~~
+      |         ^~~~
+      |         ^~~~
+runt1asm.c:56:9: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:56:9: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:56:9: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:56:9: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:56:9: note: include '<stdlib.h>' or provide a declaration of 'exit'
+runt1asm.c:25:13: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+runt1asm.c:25:13: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+runt1asm.c:25:13: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+runt1asm.c:25:13: warning: variable 'error' set but not used [-Wunused-but-set-variable]
+   25 |         int error;
+   25 |         int error;
+   25 |         int error;
+      |             ^~~~~
+      |             ^~~~~
+      |             ^~~~~
+runt1asm.c:23:15: warning: unused variable 'cmd' [-Wunused-variable]
+runt1asm.c:23:15: warning: unused variable 'cmd' [-Wunused-variable]
+runt1asm.c:23:15: warning: unused variable 'cmd' [-Wunused-variable]
+   23 |         char *cmd;
+   23 |         char *cmd;
+   23 |         char *cmd;
+      |               ^~~
+      |               ^~~
+make: *** [Makefile:207: runt1asm.o] Error 1
+make: *** [Makefile:207: runt1asm.o] Error 1
+make: *** [Makefile:207: runt1asm.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/ttf2pt1-3.4.4'
+make: Leaving directory '/usr/src/RPM/BUILD/ttf2pt1-3.4.4'
+make: Leaving directory '/usr/src/RPM/BUILD/ttf2pt1-3.4.4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.41871 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.58user 0.14system 0:00.69elapsed 103%CPU (0avgtext+0avgdata 44392maxresident)k
+0.58user 0.14system 0:00.69elapsed 103%CPU (0avgtext+0avgdata 44392maxresident)k
+0.58user 0.14system 0:00.69elapsed 103%CPU (0avgtext+0avgdata 44392maxresident)k
+0inputs+0outputs (0major+27566minor)pagefaults 0swaps
+0inputs+0outputs (0major+27566minor)pagefaults 0swaps
+0inputs+0outputs (0major+27566minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `ttf2pt1-3.4.4-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `ttf2pt1-3.4.4-alt1.qa1.src.rpm' failed.
+hsh-rebuild: rebuild of `ttf2pt1-3.4.4-alt1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.77user 3.01system 0:14.72elapsed 46%CPU (0avgtext+0avgdata 141596maxresident)k
+3.77user 3.01system 0:14.72elapsed 46%CPU (0avgtext+0avgdata 141596maxresident)k
+24544inputs+0outputs (0major+235837minor)pagefaults 0swaps

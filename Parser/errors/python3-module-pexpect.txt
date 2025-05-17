@@ -1,0 +1,35 @@
+tests/test_pxssh.py::PxsshTestCase::test_wrong_pw PASSED                 [ 63%]
+tests/test_replwrap.py::REPLWrapTestCase::test_bash PASSED               [ 63%]
+tests/test_replwrap.py::REPLWrapTestCase::test_bash_env PASSED           [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_existing_spawn PASSED     [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_long_running_continuation PASSED [ 64%]
+tests/test_replwrap.py::REPLWrapTestCase::test_long_running_multiline PASSED [ 65%]
+tests/test_replwrap.py::REPLWrapTestCase::test_multiline PASSED          [ 65%]
+tests/test_replwrap.py::REPLWrapTestCase::test_no_change_prompt PASSED   [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_pager_as_cat PASSED       [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_python PASSED             [ 66%]
+tests/test_replwrap.py::REPLWrapTestCase::test_zsh FAILED                [ 67%]
+tests/test_repr.py::TestCaseMisc::test_str_before_spawn PASSED           [ 67%]
+tests/test_repr.py::TestCaseMisc::test_str_spawn PASSED                  [ 68%]
+tests/test_repr.py::TestCaseMisc::test_str_spawnu PASSED                 [ 68%]
+tests/test_run.py::RunFuncTestCase::test_run PASSED                      [ 68%]
+tests/test_run.py::RunFuncTestCase::test_run_bad_exitstatus PASSED       [ 69%]
+tests/test_run.py::RunFuncTestCase::test_run_callback PASSED             [ 69%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_function PASSED    [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_method PASSED      [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_as_string PASSED      [ 70%]
+tests/test_run.py::RunFuncTestCase::test_run_event_typeerror PASSED      [ 71%]
+tests/test_socket.py::ExpectTestCase::test_socket PASSED                 [ 82%]
+tests/test_socket.py::ExpectTestCase::test_socket_with_write PASSED      [ 82%]
+tests/test_socket.py::ExpectTestCase::test_timeout PASSED                [ 83%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isalive PASSED          [ 83%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isalive_poll PASSED     [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isatty PASSED           [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fd_isatty_poll PASSED      [ 84%]
+tests/test_socket_fd.py::ExpectTestCase::test_fileobj PASSED             [ 85%]
+tests/test_socket_fd.py::ExpectTestCase::test_interrupt 
+hasher-privd: parent: handle_io: idle time limit (3600 seconds) exceeded
+hsh-rebuild: rebuild of `python3-module-pexpect-4.9.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+7.31user 3.04system 1:03:41elapsed 0%CPU (0avgtext+0avgdata 134044maxresident)k
+88inputs+0outputs (0major+322260minor)pagefaults 0swaps

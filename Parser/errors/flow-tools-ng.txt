@@ -1,0 +1,140 @@
+/bin/sh ../ylwrap aclyacc.y y.tab.c aclyacc.c y.tab.h `echo aclyacc.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output aclyacc.output -- bison -y -d 
+updating aclyacc.h
+make[1]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make  all-am
+make  all-am
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+/bin/sh ../ylwrap acllex.l lex.yy.c acllex.c -- flex  
+/bin/sh ../ylwrap acllex.l lex.yy.c acllex.c -- flex  
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+x86_64-alt-linux-gcc -I./../lib -I. -I../lib    -fPIE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o aclyacc.o aclyacc.c
+x86_64-alt-linux-gcc -I./../lib -I. -I../lib    -fPIE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o aclyacc.o aclyacc.c
+x86_64-alt-linux-gcc -I./../lib -I. -I../lib    -fPIE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o aclyacc.o aclyacc.c
+aclyacc.c: In function 'yyparse':
+aclyacc.c: In function 'yyparse':
+aclyacc.c: In function 'yyparse':
+aclyacc.c:1232:16: error: implicit declaration of function 'yylex' [-Wimplicit-function-declaration]
+aclyacc.c:1232:16: error: implicit declaration of function 'yylex' [-Wimplicit-function-declaration]
+aclyacc.c:1232:16: error: implicit declaration of function 'yylex' [-Wimplicit-function-declaration]
+ 1232 |       yychar = yylex ();
+ 1232 |       yychar = yylex ();
+ 1232 |       yychar = yylex ();
+      |                ^~~~~
+      |                ^~~~~
+      |                ^~~~~
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+aclyacc.c:1772:7: error: implicit declaration of function 'yyerror'; did you mean 'YYerror'? [-Wimplicit-function-declaration]
+ 1772 |       yyerror (YY_("syntax error"));
+ 1772 |       yyerror (YY_("syntax error"));
+ 1772 |       yyerror (YY_("syntax error"));
+      |       ^~~~~~~
+      |       ^~~~~~~
+      |       ^~~~~~~
+      |       YYerror
+      |       YYerror
+      |       YYerror
+make[2]: *** [Makefile:677: aclyacc.o] Error 1
+make[2]: *** [Makefile:677: aclyacc.o] Error 1
+make[2]: *** [Makefile:677: aclyacc.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Entering directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+x86_64-alt-linux-gcc -I./../lib -I. -I../lib    -fPIE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o flow-header.o flow-header.c
+x86_64-alt-linux-gcc -I./../lib -I. -I../lib    -fPIE -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c -o flow-header.o flow-header.c
+In file included from /usr/include/sys/types.h:25,
+In file included from /usr/include/sys/types.h:25,
+                 from ./../lib/ftlib.h:32,
+                 from ./../lib/ftlib.h:32,
+                 from flow-header.c:30:
+/usr/include/features.h:197:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  197 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+                 from ./../lib/ftlib.h:32,
+                 from flow-stat.c:30:
+                 from flow-stat.c:30:
+/usr/include/features.h:197:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+/usr/include/features.h:197:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+/usr/include/features.h:197:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+  197 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+  197 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+  197 | # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+      |   ^~~~~~~
+      |   ^~~~~~~
+      |   ^~~~~~~
+flow-stat.c: In function 'format14':
+flow-stat.c: In function 'format14':
+flow-stat.c: In function 'format14':
+flow-stat.c:1643:12: warning: variable 'nflows' set but not used [-Wunused-but-set-variable]
+flow-stat.c:1643:12: warning: variable 'nflows' set but not used [-Wunused-but-set-variable]
+flow-stat.c:1643:12: warning: variable 'nflows' set but not used [-Wunused-but-set-variable]
+ 1643 |   uint64_t nflows;
+ 1643 |   uint64_t nflows;
+ 1643 |   uint64_t nflows;
+      |            ^~~~~~
+      |            ^~~~~~
+      |            ^~~~~~
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/flow-tools-ng-0.68.5/src'
+make[1]: *** [Makefile:465: all] Error 2
+make[1]: *** [Makefile:465: all] Error 2
+make[1]: *** [Makefile:465: all] Error 2
+make[1]: *** [Makefile:465: all] Error 2
+make: *** [Makefile:401: all-recursive] Error 1
+make: *** [Makefile:401: all-recursive] Error 1
+make: *** [Makefile:401: all-recursive] Error 1
+make: *** [Makefile:401: all-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.8091 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+19.90user 4.66system 0:11.10elapsed 221%CPU (0avgtext+0avgdata 97084maxresident)k
+19.90user 4.66system 0:11.10elapsed 221%CPU (0avgtext+0avgdata 97084maxresident)k
+19.90user 4.66system 0:11.10elapsed 221%CPU (0avgtext+0avgdata 97084maxresident)k
+19.90user 4.66system 0:11.10elapsed 221%CPU (0avgtext+0avgdata 97084maxresident)k
+0inputs+0outputs (0major+1044509minor)pagefaults 0swaps
+0inputs+0outputs (0major+1044509minor)pagefaults 0swaps
+0inputs+0outputs (0major+1044509minor)pagefaults 0swaps
+0inputs+0outputs (0major+1044509minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `flow-tools-ng-0.68.5-alt5.src.rpm' failed.
+hsh-rebuild: rebuild of `flow-tools-ng-0.68.5-alt5.src.rpm' failed.
+hsh-rebuild: rebuild of `flow-tools-ng-0.68.5-alt5.src.rpm' failed.
+hsh-rebuild: rebuild of `flow-tools-ng-0.68.5-alt5.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.87user 2.85system 0:49.43elapsed 15%CPU (0avgtext+0avgdata 145136maxresident)k
+4.87user 2.85system 0:49.43elapsed 15%CPU (0avgtext+0avgdata 145136maxresident)k
+0inputs+0outputs (0major+224461minor)pagefaults 0swaps

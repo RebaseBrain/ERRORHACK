@@ -1,0 +1,77 @@
+Problem opening /proc/meminfo
+-- Looking for get_current_dir_name - found
+-- Looking for wordexp
+Problem opening /proc/meminfo
+-- Looking for wordexp - found
+-- Performing Test HAVE_TM_GMTOFF
+Problem opening /proc/meminfo
+-- Performing Test HAVE_TM_GMTOFF - Success
+-- Performing Test HAVE_ST_BIRTHTIME
+Problem opening /proc/meminfo
+-- Performing Test HAVE_ST_BIRTHTIME - Failed
+-- Looking for libuuid
+-- Looking for uuid_unparse_lower
+Problem opening /proc/meminfo
+-- Looking for uuid_unparse_lower - found
+-- Found libuuid
+-- Configuring cmake.h
+CMake Deprecation Warning at src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+
+CMake Deprecation Warning at test/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Error at test/CMakeLists.txt:3 (cmake_policy):
+  Policy CMP0037 may not be set to OLD behavior because this version of CMake
+  no longer supports it.  The policy was introduced in CMake version 3.0.0,
+  and use of NEW behavior is now required.
+
+  Please either update your CMakeLists.txt files to conform to the new
+  behavior or use an older version of CMake that still supports the old
+  behavior.  Run cmake --help-policy CMP0037 for more information.
+
+
+CMake Deprecation Warning at performance/CMakeLists.txt:1 (cmake_minimum_required):
+CMake Deprecation Warning at performance/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73774 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.73774 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.73774 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.73774 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.46user 1.31system 0:02.68elapsed 103%CPU (0avgtext+0avgdata 22896maxresident)k
+1.46user 1.31system 0:02.68elapsed 103%CPU (0avgtext+0avgdata 22896maxresident)k
+0inputs+0outputs (0major+200173minor)pagefaults 0swaps
+0inputs+0outputs (0major+200173minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `task-2.5.1-alt4.src.rpm' failed.
+hsh-rebuild: rebuild of `task-2.5.1-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.46user 3.73system 0:18.15elapsed 50%CPU (0avgtext+0avgdata 142300maxresident)k
+5.46user 3.73system 0:18.15elapsed 50%CPU (0avgtext+0avgdata 142300maxresident)k
+5272inputs+0outputs (0major+301057minor)pagefaults 0swaps

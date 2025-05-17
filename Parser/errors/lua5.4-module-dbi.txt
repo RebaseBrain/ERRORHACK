@@ -1,0 +1,140 @@
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_sqlite3_main.o dbd/sqlite3/main.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include -lsqlite3
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_common.o dbd/common.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I.
+cc -c -o build/dbd_common.o dbd/common.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I.
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_mysql_statement.o dbd/mysql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
+cc -c -o build/dbd_mysql_statement.o dbd/mysql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
+cc -c -o build/dbd_mysql_statement.o dbd/mysql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient
+dbd/mysql/statement.c: In function 'statement_execute':
+dbd/mysql/statement.c: In function 'statement_execute':
+dbd/mysql/statement.c: In function 'statement_execute':
+dbd/mysql/statement.c: In function 'statement_execute':
+dbd/mysql/statement.c:221:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:221:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:221:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:221:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+  221 |                 bind[i].is_null = (int*)1;
+  221 |                 bind[i].is_null = (int*)1;
+  221 |                 bind[i].is_null = (int*)1;
+  221 |                 bind[i].is_null = (int*)1;
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+dbd/mysql/statement.c:230:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:230:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:230:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:230:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:230:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+  230 |                 bind[i].is_null = (int*)0;
+  230 |                 bind[i].is_null = (int*)0;
+  230 |                 bind[i].is_null = (int*)0;
+  230 |                 bind[i].is_null = (int*)0;
+  230 |                 bind[i].is_null = (int*)0;
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+dbd/mysql/statement.c:245:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:245:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:245:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:245:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:245:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+  245 |                 bind[i].is_null = (int*)0;
+  245 |                 bind[i].is_null = (int*)0;
+  245 |                 bind[i].is_null = (int*)0;
+  245 |                 bind[i].is_null = (int*)0;
+  245 |                 bind[i].is_null = (int*)0;
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+dbd/mysql/statement.c:256:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:256:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:256:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:256:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+dbd/mysql/statement.c:256:33: error: assignment to 'my_bool *' {aka 'char *'} from incompatible pointer type 'int *' [-Wincompatible-pointer-types]
+  256 |                 bind[i].is_null = (int*)0;
+  256 |                 bind[i].is_null = (int*)0;
+  256 |                 bind[i].is_null = (int*)0;
+  256 |                 bind[i].is_null = (int*)0;
+  256 |                 bind[i].is_null = (int*)0;
+      |                                 ^
+      |                                 ^
+      |                                 ^
+      |                                 ^
+make: *** [Makefile:82: build/dbd_mysql_statement.o] Error 1
+make: *** [Makefile:82: build/dbd_mysql_statement.o] Error 1
+make: *** [Makefile:82: build/dbd_mysql_statement.o] Error 1
+make: *** [Makefile:82: build/dbd_mysql_statement.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_postgresql_statement.o dbd/postgresql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/postgresql -lpq
+cc -c -o build/dbd_postgresql_statement.o dbd/postgresql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/postgresql -lpq
+cc -c -o build/dbd_postgresql_statement.o dbd/postgresql/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include/postgresql -lpq
+dbd/postgresql/statement.c: In function 'statement_execute':
+dbd/postgresql/statement.c: In function 'statement_execute':
+dbd/postgresql/statement.c:205:9: warning: dangling pointer 'errstr_33' to 'err' may be used [-Wdangling-pointer=]
+dbd/postgresql/statement.c:205:9: warning: dangling pointer 'errstr_33' to 'err' may be used [-Wdangling-pointer=]
+  205 |         lua_pushfstring(L, DBI_ERR_BINDING_PARAMS, errstr);
+  205 |         lua_pushfstring(L, DBI_ERR_BINDING_PARAMS, errstr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dbd/postgresql/statement.c:163:14: note: 'err' declared here
+  163 |         char err[64];
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_sqlite3_statement.o dbd/sqlite3/statement.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include -lsqlite3
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Entering directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+cc -c -o build/dbd_sqlite3_connection.o dbd/sqlite3/connection.c -I/usr/include -g -pedantic -Wall -O2 -shared -fPIC -DPIC -std=c99 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -I. -shared  -I/usr/include -lsqlite3
+dbd/sqlite3/connection.c: In function 'dbd_sqlite3_connection':
+dbd/sqlite3/connection.c:265:29: warning: missing braces around initializer [-Wmissing-braces]
+  265 |     } sqlite3_constants[] = {
+      |                             ^
+      |                             ^
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+make: Leaving directory '/usr/src/RPM/BUILD/luadbi-0.7.2'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48793 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48793 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.48793 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.48793 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.29user 0.20system 0:00.17elapsed 279%CPU (0avgtext+0avgdata 22768maxresident)k
+0.29user 0.20system 0:00.17elapsed 279%CPU (0avgtext+0avgdata 22768maxresident)k
+0inputs+0outputs (0major+30651minor)pagefaults 0swaps
+0inputs+0outputs (0major+30651minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lua5.4-module-dbi-0.7.2-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `lua5.4-module-dbi-0.7.2-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.84user 2.76system 0:38.10elapsed 19%CPU (0avgtext+0avgdata 141700maxresident)k
+4.84user 2.76system 0:38.10elapsed 19%CPU (0avgtext+0avgdata 141700maxresident)k
+2824inputs+0outputs (0major+216680minor)pagefaults 0swaps

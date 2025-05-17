@@ -1,0 +1,161 @@
+<13>May 16 05:13:10 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:10 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:10 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:10 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:10 rpmi: systemd-filesystem-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 05:13:10 rpmi: msulogin-1.0-alt1 sisyphus+278100.4500.1.1 1626059577 installed
+<13>May 16 05:13:10 rpmi: monit-base-5.35.2-alt1 sisyphus+383619.100.1.1 1746751526 installed
+<86>May 16 05:13:10 groupadd[891817]: group added to /etc/group: name=psqluser, GID=998
+<86>May 16 05:13:10 groupadd[891817]: group added to /etc/gshadow: name=psqluser
+<86>May 16 05:13:10 groupadd[891817]: new group: name=psqluser, GID=998
+<86>May 16 05:13:10 useradd[892055]: failed adding user 'postgres', exit code: 9
+<13>May 16 05:13:10 rpmi: postgresql-common-1.0-alt9 sisyphus+316872.700.2.1 1679053194 installed
+<13>May 16 05:13:10 rpmi: libxslt-1.1.39-alt1 sisyphus+349406.100.1.1 1716751806 installed
+<13>May 16 05:13:10 rpmi: libuv-1.50.0-alt1 sisyphus+377760.100.1.1 1741795923 installed
+<13>May 16 05:13:10 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 05:13:10 rpmi: python3-modules-sqlite3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:10 rpmi: python3-module-coverage-7.6.10-alt1 sisyphus+378449.100.1.1 1742313292 installed
+<13>May 16 05:13:10 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 05:13:10 rpmi: libossp-uuid16-1.6.2-alt2 sisyphus+335067.4400.2.2 1701150504 installed
+<13>May 16 05:13:10 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 05:13:10 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+tests/test_connect.py::TestAuthentication::test_auth_password_cleartext PASSED
+tests/test_connect.py::TestAuthentication::test_auth_password_cleartext_callable PASSED
+tests/test_connect.py::TestAuthentication::test_auth_password_cleartext_callable_awaitable PASSED
+tests/test_connect.py::TestAuthentication::test_auth_password_cleartext_callable_coroutine PASSED
+tests/test_connect.py::TestAuthentication::test_auth_password_md5 PASSED
+tests/test_connect.py::TestAuthentication::test_auth_password_scram_sha_256 PASSED
+tests/test_connect.py::TestAuthentication::test_auth_reject PASSED
+tests/test_connect.py::TestAuthentication::test_auth_trust PASSED
+tests/test_connect.py::TestSspiAuthentication::test_auth_sspi SKIPPED
+tests/test_connect.py::TestConnectParams::test_connect_args_validation PASSED
+tests/test_connect.py::TestConnectParams::test_connect_params FAILED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_badness_mode PASSED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_badness_non_file PASSED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_inaccessible_directory PASSED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_inaccessible_file PASSED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_nonexistent PASSED
+tests/test_connect.py::TestConnectParams::test_connect_pgpass_regular PASSED
+tests/test_connect.py::TestConnectParams::test_test_connect_params_environ PASSED
+tests/test_connect.py::TestConnectParams::test_test_connect_params_run_testcase PASSED
+tests/test_connect.py::TestConnection::test_connection_implicit_host PASSED
+tests/test_connect.py::TestConnection::test_connection_isinstance PASSED
+tests/test_transaction.py::TestTransaction::test_transaction_interface_errors PASSED
+tests/test_transaction.py::TestTransaction::test_transaction_nested PASSED
+tests/test_transaction.py::TestTransaction::test_transaction_regular PASSED
+tests/test_transaction.py::TestTransaction::test_transaction_within_manual_transaction PASSED
+tests/test_types.py::TestTypes::test_range_issubset PASSED
+tests/test_utils.py::TestUtils::test_mogrify_multiple PASSED
+tests/test_utils.py::TestUtils::test_mogrify_simple PASSED
+
+=================================== FAILURES ===================================
+____________________ TestConnectParams.test_connect_params _____________________
+Traceback (most recent call last):
+  File "/usr/lib64/python3.12/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/usr/lib64/python3.12/unittest/case.py", line 634, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib64/python3.12/unittest/case.py", line 589, in _callTestMethod
+    if method() is not None:
+       ^^^^^^^^
+  File "/usr/src/RPM/BUILD/python3-module-asyncpg-0.30.0/tests/test_connect.py", line 1237, in test_connect_params
+    self.run_testcase(testcase)
+  File "/usr/src/RPM/BUILD/python3-module-asyncpg-0.30.0/tests/test_connect.py", line 1154, in run_testcase
+    _check_bracketed_netloc(netloc)
+  File "/usr/lib64/python3.12/urllib/parse.py", line 451, in _check_bracketed_netloc
+  File "/usr/lib64/python3.12/urllib/parse.py", line 451, in _check_bracketed_netloc
+    raise ValueError("Invalid IPv6 URL")
+    raise ValueError("Invalid IPv6 URL")
+ValueError: Invalid IPv6 URL
+ValueError: Invalid IPv6 URL
+ValueError: Invalid IPv6 URL
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+=========================== short test summary info ============================
+SKIPPED [1] tests/test__environment.py:31: environ[ASYNCPG_VERSION] is not set
+SKIPPED [1] tests/test__environment.py:31: environ[ASYNCPG_VERSION] is not set
+SKIPPED [1] tests/test__environment.py:31: environ[ASYNCPG_VERSION] is not set
+SKIPPED [1] tests/test__environment.py:31: environ[ASYNCPG_VERSION] is not set
+SKIPPED [1] tests/test__environment.py:18: environ[PGVERSION] is not set
+SKIPPED [1] tests/test__environment.py:18: environ[PGVERSION] is not set
+SKIPPED [1] tests/test__environment.py:18: environ[PGVERSION] is not set
+SKIPPED [1] tests/test__environment.py:18: environ[PGVERSION] is not set
+SKIPPED [1] tests/test__sourcecode.py:19: flake8 module is missing
+SKIPPED [1] tests/test__sourcecode.py:19: flake8 module is missing
+SKIPPED [1] tests/test__sourcecode.py:19: flake8 module is missing
+SKIPPED [1] tests/test__sourcecode.py:19: flake8 module is missing
+SKIPPED [1] tests/test__sourcecode.py:42: mypy module is missing
+SKIPPED [1] tests/test__sourcecode.py:42: mypy module is missing
+SKIPPED [1] tests/test__sourcecode.py:42: mypy module is missing
+SKIPPED [1] tests/test__sourcecode.py:42: mypy module is missing
+SKIPPED [1] tests/test_connect.py:467: SSPI is only available on Windows
+SKIPPED [1] tests/test_connect.py:467: SSPI is only available on Windows
+SKIPPED [1] tests/test_connect.py:467: SSPI is only available on Windows
+SKIPPED [1] tests/test_connect.py:467: SSPI is only available on Windows
+FAILED tests/test_connect.py::TestConnectParams::test_connect_params - ValueE...
+FAILED tests/test_connect.py::TestConnectParams::test_connect_params - ValueE...
+FAILED tests/test_connect.py::TestConnectParams::test_connect_params - ValueE...
+FAILED tests/test_connect.py::TestConnectParams::test_connect_params - ValueE...
+====== 1 failed, 304 passed, 5 skipped, 3 deselected in 65.96s (0:01:05) =======
+====== 1 failed, 304 passed, 5 skipped, 3 deselected in 65.96s (0:01:05) =======
+====== 1 failed, 304 passed, 5 skipped, 3 deselected in 65.96s (0:01:05) =======
+====== 1 failed, 304 passed, 5 skipped, 3 deselected in 65.96s (0:01:05) =======
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['pytest', '-vra', './tests', '-k', 'not test_auth_gssapi']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['pytest', '-vra', './tests', '-k', 'not test_auth_gssapi']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['pytest', '-vra', './tests', '-k', 'not test_auth_gssapi']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['pytest', '-vra', './tests', '-k', 'not test_auth_gssapi']' returned non-zero exit status 1.
+INFO     : Command's error: Command '['pytest', '-vra', './tests', '-k', 'not test_auth_gssapi']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-asyncpg-0.30.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-asyncpg-0.30.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-asyncpg-0.30.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-asyncpg-0.30.0-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-asyncpg-0.30.0-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.59208 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+118.72user 15.15system 2:20.45elapsed 95%CPU (0avgtext+0avgdata 540252maxresident)k
+118.72user 15.15system 2:20.45elapsed 95%CPU (0avgtext+0avgdata 540252maxresident)k
+118.72user 15.15system 2:20.45elapsed 95%CPU (0avgtext+0avgdata 540252maxresident)k
+118.72user 15.15system 2:20.45elapsed 95%CPU (0avgtext+0avgdata 540252maxresident)k
+0inputs+0outputs (0major+2423998minor)pagefaults 0swaps
+0inputs+0outputs (0major+2423998minor)pagefaults 0swaps
+0inputs+0outputs (0major+2423998minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-asyncpg-0.30.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-asyncpg-0.30.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-asyncpg-0.30.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.38user 3.27system 2:39.20elapsed 5%CPU (0avgtext+0avgdata 142396maxresident)k
+2096inputs+0outputs (0major+327414minor)pagefaults 0swaps

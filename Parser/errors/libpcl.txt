@@ -1,0 +1,203 @@
++ cd pcl-1.12
++ make -j8 check
+Making check in .
+Making check in pcl
+Making check in pcl
+make[1]: Nothing to be done for 'check'.
+make[1]: Nothing to be done for 'check'.
+Making check in test
+Making check in test
+make  cobench cothread
+make  cobench cothread
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c cothread.c
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c cothread.c
+cothread.c: In function 'main':
+cothread.c: In function 'main':
+cothread.c:353:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+cothread.c:353:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  353 |                                 nthreads = atoi(argv[i]);
+  353 |                                 nthreads = atoi(argv[i]);
+      |                                            ^~~~
+      |                                            ^~~~
+cothread.c:359:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+cothread.c:359:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+cothread.c:9:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cothread.c:9:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    8 | #include <pcl.h>
+    8 | #include <pcl.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+    9 | 
+    9 | 
+    9 | 
+cothread.c:359:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cothread.c:359:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cothread.c:359:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  359 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+cothread.c:359:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cothread.c:359:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cothread.c: In function 'test2':
+cothread.c:308:17: warning: ignoring return value of 'write' declared with attribute 'warn_unused_result' [-Wunused-result]
+  308 |                 write(out, buf, n);
+      |                 ^~~~~~~~~~~~~~~~~~
+make[2]: *** [Makefile:251: cothread.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Entering directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+x86_64-alt-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I./../include    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -c cobench.c
+cobench.c: In function 'run_test':
+cobench.c:62:28: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   62 |         fprintf(stdout, "[%p] measuring co_create+co_delete performance ...\n",
+      |                           ~^
+      |                            |
+      |                            void *
+      |                         ~~~~~~~~~~~~~~
+      |                         |
+      |                         pthread_t {aka long unsigned int}
+cobench.c:96:36: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+cobench.c:96:36: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'pthread_t' {aka 'long unsigned int'} [-Wformat=]
+   96 |                 fprintf(stdout, "[%p] %g usec\n", pthread_self(),
+   96 |                 fprintf(stdout, "[%p] %g usec\n", pthread_self(),
+      |                                   ~^              ~~~~~~~~~~~~~~
+      |                                   ~^              ~~~~~~~~~~~~~~
+      |                                    |              |
+      |                                    |              |
+      |                                    void *         pthread_t {aka long unsigned int}
+      |                                    void *         pthread_t {aka long unsigned int}
+      |                                   %ld
+      |                                   %ld
+cobench.c: In function 'main':
+cobench.c: In function 'main':
+cobench.c:125:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+cobench.c:125:44: error: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  125 |                                 nthreads = atoi(argv[i]);
+  125 |                                 nthreads = atoi(argv[i]);
+      |                                            ^~~~
+      |                                            ^~~~
+cobench.c:131:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+cobench.c:131:39: error: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+cobench.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:30:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+   29 | #include <pcl.h>
+   29 | #include <pcl.h>
+   29 | #include <pcl.h>
+   29 | #include <pcl.h>
+   29 | #include <pcl.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+  +++ |+#include <stdlib.h>
+   30 | 
+   30 | 
+   30 | 
+   30 | 
+   30 | 
+   30 | 
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+cobench.c:131:39: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+  131 |                 thids = (pthread_t *) malloc(nthreads * sizeof(pthread_t));
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+      |                                       ^~~~~~
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+cobench.c:131:39: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+make[2]: *** [Makefile:251: cobench.o] Error 1
+make[2]: *** [Makefile:251: cobench.o] Error 1
+make[2]: *** [Makefile:251: cobench.o] Error 1
+make[2]: *** [Makefile:251: cobench.o] Error 1
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[2]: Leaving directory '/usr/src/RPM/BUILD/pcl-1.12/test'
+make[1]: *** [Makefile:356: check-am] Error 2
+make[1]: *** [Makefile:356: check-am] Error 2
+make[1]: *** [Makefile:356: check-am] Error 2
+make[1]: *** [Makefile:356: check-am] Error 2
+make[1]: *** [Makefile:356: check-am] Error 2
+make: *** [Makefile:289: check-recursive] Error 1
+make: *** [Makefile:289: check-recursive] Error 1
+make: *** [Makefile:289: check-recursive] Error 1
+make: *** [Makefile:289: check-recursive] Error 1
+make: *** [Makefile:289: check-recursive] Error 1
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.38414 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+2.24user 1.75system 0:07.11elapsed 56%CPU (0avgtext+0avgdata 26268maxresident)k
+0inputs+0outputs (0major+488234minor)pagefaults 0swaps
+0inputs+0outputs (0major+488234minor)pagefaults 0swaps
+0inputs+0outputs (0major+488234minor)pagefaults 0swaps
+0inputs+0outputs (0major+488234minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libpcl-1.12-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libpcl-1.12-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libpcl-1.12-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `libpcl-1.12-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.96user 1.89system 0:13.80elapsed 20%CPU (0avgtext+0avgdata 12248maxresident)k
+0.96user 1.89system 0:13.80elapsed 20%CPU (0avgtext+0avgdata 12248maxresident)k
+0inputs+0outputs (0major+84188minor)pagefaults 0swaps

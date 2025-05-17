@@ -1,0 +1,77 @@
+[INFO] Using 'null' encoding to copy filtered properties files.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ org.apache.felix.utils ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 17 source files to /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/target/test-classes
+[INFO] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/properties/MockBundleContext.java: Some input files use unchecked or unsafe operations.
+[INFO] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/properties/MockBundleContext.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[23,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/CapabilityImplTest.java:[23,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[51,24] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.felix.utils.resource.RequirementImplTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[63,49] cannot find symbol
+  symbol:   variable Mockito
+  location: class org.apache.felix.utils.resource.RequirementImplTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[68,50] cannot find symbol
+[INFO] ------------------------------------------------------------------------
+[INFO] Skipping Apache Felix Utils
+[INFO] This project has been banned from the build due to previous failures.
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.484 s
+[INFO] Finished at: 2025-05-16T03:03:32Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project org.apache.felix.utils: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[23,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/CapabilityImplTest.java:[23,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[51,24] cannot find symbol
+[ERROR]   symbol:   variable Mockito
+[ERROR]   location: class org.apache.felix.utils.resource.RequirementImplTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[63,49] cannot find symbol
+[ERROR]   symbol:   variable Mockito
+[ERROR]   location: class org.apache.felix.utils.resource.RequirementImplTest
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/RequirementImplTest.java:[68,50] cannot find symbol
+[ERROR]   symbol:   variable Mockito
+[ERROR] /usr/src/RPM/BUILD/org.apache.felix.utils-1.11.8/src/test/java/org/apache/felix/utils/resource/CapabilityImplTest.java:[67,25] cannot find symbol
+[ERROR]   symbol:   variable Mockito
+[ERROR]   location: class org.apache.felix.utils.resource.CapabilityImplTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7777 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.7777 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.7777 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.7777 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+19.68user 1.45system 0:04.91elapsed 430%CPU (0avgtext+0avgdata 487552maxresident)k
+19.68user 1.45system 0:04.91elapsed 430%CPU (0avgtext+0avgdata 487552maxresident)k
+0inputs+0outputs (0major+105344minor)pagefaults 0swaps
+0inputs+0outputs (0major+105344minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `felix-utils-1.11.8-alt1_2jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `felix-utils-1.11.8-alt1_2jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.34user 3.35system 0:22.04elapsed 39%CPU (0avgtext+0avgdata 144536maxresident)k
+5.34user 3.35system 0:22.04elapsed 39%CPU (0avgtext+0avgdata 144536maxresident)k
+152inputs+0outputs (0major+269697minor)pagefaults 0swaps

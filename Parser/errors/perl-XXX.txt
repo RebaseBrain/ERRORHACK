@@ -1,0 +1,308 @@
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd XXX-0.38
++ make test
+make: Entering directory '/usr/src/RPM/BUILD/XXX-0.38'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/000-compile-modules.t .. ok
+t/000-compile-modules.t .. ok
+t/author-pod-syntax.t .... skipped: these tests are for testing by the author
+t/author-pod-syntax.t .... skipped: these tests are for testing by the author
+t/env.t .................. skipped: JSON::Color not installed
+t/env.t .................. skipped: JSON::Color not installed
+t/env.t .................. skipped: JSON::Color not installed
+
+
+
+#   Failed test 'XXX has the string'
+#   Failed test 'XXX has the string'
+#   Failed test 'XXX has the string'
+#   Failed test 'XXX has the string'
+#   at t/regex.t line 13.
+#   at t/regex.t line 13.
+#   at t/regex.t line 13.
+#   at t/regex.t line 13.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+# '
+# '
+# '
+# '
+#     doesn't match '(?^s:3.+1.+2.+3)'
+#     doesn't match '(?^s:3.+1.+2.+3)'
+#     doesn't match '(?^s:3.+1.+2.+3)'
+#     doesn't match '(?^s:3.+1.+2.+3)'
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+t/regex.t ................ 
+t/regex.t ................ 
+t/regex.t ................ 
+t/regex.t ................ 
+t/regex.t ................ 
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+
+
+
+
+
+
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   Failed test 'YAML Dump Worked for "require XXX"'
+#   at t/require.t line 7.
+#   at t/require.t line 7.
+#   at t/require.t line 7.
+#   at t/require.t line 7.
+#   at t/require.t line 7.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+#                   'Can't use an undefined value as a subroutine reference at /usr/share/perl5/YAML/PP/Representer.pm line 159.
+# '
+# '
+# '
+# '
+# '
+# '
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+#     doesn't match '(?^:^---)'
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+# Looks like you failed 1 test of 2.
+t/require.t .............. 
+t/require.t .............. 
+t/require.t .............. 
+t/require.t .............. 
+t/require.t .............. 
+t/require.t .............. 
+t/require.t .............. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+Failed 1/2 subtests 
+t/test.t ................. ok
+t/test.t ................. ok
+t/test.t ................. ok
+t/test.t ................. ok
+t/test.t ................. ok
+t/test.t ................. ok
+t/test.t ................. ok
+
+
+
+
+
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/regex.t              (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+t/require.t            (Wstat: 256 (exited 1) Tests: 2 Failed: 1)
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Failed test:  1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+  Non-zero exit status: 1
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Files=6, Tests=6,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.23 cusr  0.06 csys =  0.32 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+Failed 2/6 test programs. 2/6 subtests failed.
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: *** [Makefile:772: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+make: Leaving directory '/usr/src/RPM/BUILD/XXX-0.38'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+    Bad exit status from /usr/src/tmp/rpm-tmp.48493 (%check)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.55user 0.44system 0:00.78elapsed 126%CPU (0avgtext+0avgdata 17464maxresident)k
+0.55user 0.44system 0:00.78elapsed 126%CPU (0avgtext+0avgdata 17464maxresident)k
+0.55user 0.44system 0:00.78elapsed 126%CPU (0avgtext+0avgdata 17464maxresident)k
+0.55user 0.44system 0:00.78elapsed 126%CPU (0avgtext+0avgdata 17464maxresident)k
+0.55user 0.44system 0:00.78elapsed 126%CPU (0avgtext+0avgdata 17464maxresident)k
+0inputs+0outputs (0major+79757minor)pagefaults 0swaps
+0inputs+0outputs (0major+79757minor)pagefaults 0swaps
+0inputs+0outputs (0major+79757minor)pagefaults 0swaps
+0inputs+0outputs (0major+79757minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-XXX-0.38-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-XXX-0.38-alt2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-XXX-0.38-alt2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.06user 2.66system 0:12.90elapsed 75%CPU (0avgtext+0avgdata 135068maxresident)k
+7.06user 2.66system 0:12.90elapsed 75%CPU (0avgtext+0avgdata 135068maxresident)k
+248inputs+0outputs (0major+223738minor)pagefaults 0swaps

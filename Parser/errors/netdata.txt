@@ -1,0 +1,77 @@
+m4 /usr/src/RPM/BUILD/netdata-1.43.2/database/engine/journalfile_v2.ksy.in > database/engine/journalfile_v2.ksy
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Entering directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+m4 -DVIRT_MEMBERS /usr/src/RPM/BUILD/netdata-1.43.2/database/engine/journalfile_v2.ksy.in > database/engine/journalfile_v2_virtmemb.ksy
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Entering directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+/usr/bin/protoc --proto_path=. --cpp_out=. exporting/prometheus/remote_write/remote_write.proto
+google/protobuf/descriptor.proto: File not found.
+exporting/prometheus/remote_write/remote_write.proto:6:1: Import "google/protobuf/descriptor.proto" was not found or had errors.
+exporting/prometheus/remote_write/remote_write.proto:6:1: Import "google/protobuf/descriptor.proto" was not found or had errors.
+exporting/prometheus/remote_write/remote_write.proto:27:8: "google.protobuf.FieldOptions" is not defined.
+exporting/prometheus/remote_write/remote_write.proto:27:8: "google.protobuf.FieldOptions" is not defined.
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.h] Error 1
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.h] Error 1
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.h] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Entering directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Entering directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+/usr/bin/protoc --proto_path=. --cpp_out=. exporting/prometheus/remote_write/remote_write.proto
+/usr/bin/protoc --proto_path=. --cpp_out=. exporting/prometheus/remote_write/remote_write.proto
+/usr/bin/protoc --proto_path=. --cpp_out=. exporting/prometheus/remote_write/remote_write.proto
+google/protobuf/descriptor.proto: File not found.
+google/protobuf/descriptor.proto: File not found.
+google/protobuf/descriptor.proto: File not found.
+exporting/prometheus/remote_write/remote_write.proto:6:1: Import "google/protobuf/descriptor.proto" was not found or had errors.
+exporting/prometheus/remote_write/remote_write.proto:6:1: Import "google/protobuf/descriptor.proto" was not found or had errors.
+exporting/prometheus/remote_write/remote_write.proto:6:1: Import "google/protobuf/descriptor.proto" was not found or had errors.
+exporting/prometheus/remote_write/remote_write.proto:27:8: "google.protobuf.FieldOptions" is not defined.
+exporting/prometheus/remote_write/remote_write.proto:27:8: "google.protobuf.FieldOptions" is not defined.
+exporting/prometheus/remote_write/remote_write.proto:27:8: "google.protobuf.FieldOptions" is not defined.
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.cc] Error 1
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.cc] Error 1
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.cc] Error 1
+make: *** [Makefile:11731: exporting/prometheus/remote_write/remote_write.pb.cc] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+make: Leaving directory '/usr/src/RPM/BUILD/netdata-1.43.2'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.66630 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+13.53user 4.70system 0:19.08elapsed 95%CPU (0avgtext+0avgdata 46156maxresident)k
+13.53user 4.70system 0:19.08elapsed 95%CPU (0avgtext+0avgdata 46156maxresident)k
+13.53user 4.70system 0:19.08elapsed 95%CPU (0avgtext+0avgdata 46156maxresident)k
+0inputs+0outputs (0major+1231056minor)pagefaults 0swaps
+0inputs+0outputs (0major+1231056minor)pagefaults 0swaps
+0inputs+0outputs (0major+1231056minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `netdata-1.43.2-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `netdata-1.43.2-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `netdata-1.43.2-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+6.66user 2.63system 0:36.41elapsed 25%CPU (0avgtext+0avgdata 142356maxresident)k
+6.66user 2.63system 0:36.41elapsed 25%CPU (0avgtext+0avgdata 142356maxresident)k
+4104inputs+0outputs (0major+294809minor)pagefaults 0swaps

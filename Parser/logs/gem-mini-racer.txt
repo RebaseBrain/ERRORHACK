@@ -1,0 +1,51 @@
+<86>May 16 00:05:48 userdel[2559002]: delete user 'rooter'
+<86>May 16 00:05:48 userdel[2559002]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:05:48 userdel[2559002]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:05:48 groupadd[2559019]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 00:05:48 groupadd[2559019]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:05:48 groupadd[2559019]: new group: name=rooter, GID=1823
+<86>May 16 00:05:48 useradd[2559034]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:05:48 userdel[2559045]: delete user 'builder'
+<86>May 16 00:05:48 userdel[2559045]: removed group 'builder' owned by 'builder'
+<86>May 16 00:05:48 userdel[2559045]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:05:48 groupadd[2559058]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 00:05:48 groupadd[2559058]: group added to /etc/gshadow: name=builder
+<86>May 16 00:05:48 groupadd[2559058]: new group: name=builder, GID=1824
+<86>May 16 00:05:48 useradd[2559073]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 00:05:52 rpmi: libruby-3.3.7-alt1.1 sisyphus+376994.100.1.1 1741211038 installed
+<13>May 16 00:05:52 rpmi: libruby-devel-3.3.7-alt1.1 sisyphus+376994.100.1.1 1741211038 installed
+<13>May 16 00:05:52 rpmi: rpm-macros-ruby-1:3.3.7-alt1.1 sisyphus+376994.100.1.1 1741211038 installed
+<13>May 16 00:05:52 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 00:05:52 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 00:05:52 rpmi: chrpath-0.16-alt1 sisyphus+346101.200.3.1 1716459476 installed
+<13>May 16 00:05:52 rpmi: setup-rb-5.999.6-alt20 sisyphus+377769.100.1.1 1742977968 installed
+<13>May 16 00:05:52 rpmi: gem-setup-5.999.6-alt20 sisyphus+377769.100.1.1 1742977968 installed
+<13>May 16 00:05:52 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:05:52 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 00:05:52 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:05:52 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:05:52 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 00:05:52 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 00:05:52 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:05:52 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 00:05:52 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 00:05:52 groupadd[2567216]: group added to /etc/group: name=ruby, GID=999
+<86>May 16 00:05:52 groupadd[2567216]: group added to /etc/gshadow: name=ruby
+<86>May 16 00:05:52 groupadd[2567216]: new group: name=ruby, GID=999
+<86>May 16 00:05:52 usermod[2567229]: add 'root' to group 'ruby'
+<86>May 16 00:05:52 usermod[2567229]: add 'root' to shadow group 'ruby'
+<13>May 16 00:05:52 rpmi: ruby-3.3.7-alt1.1 sisyphus+376994.100.1.1 1741211038 installed
+NOTE: to make the environment variable changes come into effect, please relogin the terminal session
+<13>May 16 00:05:53 rpmi: ruby-stdlibs-3.3.7-alt1.1 sisyphus+376994.100.1.1 1741211038 installed
+<13>May 16 00:05:53 rpmi: gem-rake-13.1.0-alt1.1 sisyphus+343176.100.1.1 1710938591 installed
+<13>May 16 00:05:53 rpmi: rake-13.1.0-alt1.1 sisyphus+343176.100.1.1 1710938591 installed
+<13>May 16 00:05:53 rpmi: rpm-build-ruby-1:1.1.1-alt1 sisyphus+334339.50.37.1 1702423926 installed
+Reading Package Lists...
+Building Dependency Tree...
+rpm-build-ruby is already the newest version.
+E: Couldn't find package libv8-3.14-devel
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+3.09user 2.33system 0:08.89elapsed 61%CPU (0avgtext+0avgdata 143536maxresident)k
+17016inputs+0outputs (0major+164180minor)pagefaults 0swaps

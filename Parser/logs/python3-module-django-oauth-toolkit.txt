@@ -1,0 +1,785 @@
+<86>May 16 04:10:07 userdel[2300109]: delete user 'rooter'
+<86>May 16 04:10:07 userdel[2300109]: removed group 'rooter' owned by 'rooter'
+<86>May 16 04:10:07 userdel[2300109]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 04:10:07 groupadd[2300178]: group added to /etc/group: name=rooter, GID=1808
+<86>May 16 04:10:07 groupadd[2300178]: group added to /etc/gshadow: name=rooter
+<86>May 16 04:10:07 groupadd[2300178]: new group: name=rooter, GID=1808
+<86>May 16 04:10:07 useradd[2300223]: new user: name=rooter, UID=1808, GID=1808, home=/root, shell=/bin/bash, from=none
+<86>May 16 04:10:07 userdel[2300318]: delete user 'builder'
+<86>May 16 04:10:07 userdel[2300318]: removed group 'builder' owned by 'builder'
+<86>May 16 04:10:07 userdel[2300318]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 04:10:07 groupadd[2300383]: group added to /etc/group: name=builder, GID=1809
+<86>May 16 04:10:07 groupadd[2300383]: group added to /etc/gshadow: name=builder
+<86>May 16 04:10:07 groupadd[2300383]: new group: name=builder, GID=1809
+<86>May 16 04:10:07 useradd[2300454]: new user: name=builder, UID=1809, GID=1809, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 04:10:14 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 04:10:14 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 04:10:14 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 04:10:14 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 04:10:14 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 04:10:14 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:10:14 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 04:10:14 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:10:14 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 04:10:14 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 04:10:14 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 04:10:14 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 04:10:14 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:10:14 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 04:10:14 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:10:15 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:10:15 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 04:10:15 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 04:10:15 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 04:10:18 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 04:10:18 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 04:10:18 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 04:10:18 rpmi: python3-module-pluggy-1.5.0-alt1 sisyphus+345632.100.2.1 1713864244 installed
+<13>May 16 04:10:18 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 04:10:18 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 04:10:19 rpmi: python3-module-pycryptodome-3.22.0-alt1 sisyphus+378294.100.1.1 1742210220 installed
+<13>May 16 04:10:19 rpmi: python3-module-typing_extensions-4.13.2-alt1 sisyphus+381315.100.1.1 1744375640 installed
+<13>May 16 04:10:19 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 04:10:19 rpmi: python3-module-iniconfig-2.1.0-alt1 sisyphus+378658.100.2.1 1742493599 installed
+<13>May 16 04:10:19 rpmi: python3-module-pytest-8.3.5-alt2 sisyphus+383865.100.1.1 1747039699 installed
+<13>May 16 04:10:19 rpmi: python3-module-pyasn1-0.6.1-alt1 sisyphus+357301.100.1.1 1740397762 installed
+<13>May 16 04:10:19 rpmi: python3-module-urllib3-2:2.4.0-alt1 sisyphus+381271.100.2.1 1744618213 installed
+<13>May 16 04:10:19 rpmi: python3-module-idna-3.10-alt1 sisyphus+358681.100.1.1 1727701241 installed
+<13>May 16 04:10:19 rpmi: python3-module-wcwidth-0.2.13-alt1 sisyphus+341792.100.2.1 1709543329 installed
+<13>May 16 04:10:19 rpmi: python3-module-prettytable-2.1.0-alt1 sisyphus+269172.200.1.1 1617824839 installed
+<13>May 16 04:10:19 rpmi: python3-module-sqlparse-0.5.3-alt1 sisyphus+367438.100.1.1 1735561443 installed
+<13>May 16 04:10:19 rpmi: python3-module-markupsafe-1:3.0.2-alt1 sisyphus+360209.100.1.1 1729323052 installed
+<13>May 16 04:10:19 rpmi: python3-module-jinja2-3.1.6-alt1 sisyphus+377889.1500.2.1 1742249941 installed
+<13>May 16 04:10:19 rpmi: python3-module-charset-normalizer-3.2.0-alt1 sisyphus+347396.200.2.1 1714733155 installed
+<13>May 16 04:10:19 rpmi: python3-module-requests-2.32.3-alt1 sisyphus+349946.100.1.1 1717059877 installed
+<13>May 16 04:10:19 rpmi: python3-module-pycparser-2.22-alt1 sisyphus+378485.100.1.1 1742331206 installed
+<13>May 16 04:10:19 rpmi: python3-module-cffi-1.17.1-alt1 sisyphus+357396.100.1.1 1726156476 installed
+<13>May 16 04:10:19 rpmi: python3-module-cryptography-44.0.0-alt1 sisyphus+368451.100.1.1 1736436050 installed
+<13>May 16 04:10:19 rpmi: python3-module-openssl-24.3.0-alt1 sisyphus+368451.200.1.1 1736436083 installed
+<13>May 16 04:10:19 rpmi: python3-module-bson-4.13.0-alt1 sisyphus+384236.100.1.1 1747321919 installed
+<13>May 16 04:10:19 rpmi: python3-module-bottle-1:0.12.25-alt1 sisyphus+316623.100.1.1 1678651894 installed
+<13>May 16 04:10:19 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 04:10:19 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 04:10:19 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 04:10:19 rpmi: python3-module-attrs-25.3.0-alt1 sisyphus+378700.100.1.1 1742472992 installed
+<13>May 16 04:10:19 rpmi: python3-module-service_identity-24.2.0-alt1 sisyphus+362235.100.1.1 1731336596 installed
+<13>May 16 04:10:19 rpmi: python3-module-pymongo-4.13.0-alt1 sisyphus+384236.100.1.1 1747321919 installed
+<13>May 16 04:10:19 rpmi: python3-module-asgiref-3.8.1-alt1 sisyphus+372174.1500.2.1 1738333633 installed
+<13>May 16 04:10:19 rpmi: python3-module-argcomplete-3.6.2-alt1 sisyphus+380100.100.1.1 1743688705 installed
+<13>May 16 04:10:19 rpmi: python3-module-servicemanager-2.0.7-alt1 sisyphus+275998.100.1.1 1624811123 installed
+<13>May 16 04:10:19 rpmi: python3-module-execnet-2.1.1-alt1 sisyphus+344737.100.1.1 1712657795 installed
+<13>May 16 04:10:19 rpmi: libyaml2-0.2.5-alt1 sisyphus+278391.100.1.1 1626094928 installed
+<13>May 16 04:10:19 rpmi: python3-module-yaml-6.0.2-alt1.1 sisyphus+376369.16600.10.1 1746631034 installed
+<13>May 16 04:10:19 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 04:10:19 rpmi: python3-modules-sqlite3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:10:20 rpmi: python3-module-coverage-7.6.10-alt1 sisyphus+378449.100.1.1 1742313292 installed
+<13>May 16 04:10:20 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:10:20 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:10:20 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:10:20 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 04:10:21 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 04:10:21 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:10:21 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 04:10:21 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 04:10:21 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 04:10:21 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<86>May 16 04:10:21 groupadd[2344874]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 04:10:21 groupadd[2344874]: group added to /etc/gshadow: name=_keytab
+<86>May 16 04:10:21 groupadd[2344874]: new group: name=_keytab, GID=999
+<13>May 16 04:10:21 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<86>May 16 04:10:21 groupadd[2345080]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 04:10:21 groupadd[2345080]: group added to /etc/gshadow: name=sasl
+<86>May 16 04:10:21 groupadd[2345080]: new group: name=sasl, GID=998
+<13>May 16 04:10:21 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 04:10:21 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 04:10:21 rpmi: libpq5-17-17.5-alt1 sisyphus+383526.100.1.1 1746616280 installed
+<13>May 16 04:10:21 rpmi: python3-module-psycopg2-2.9.10-alt1 sisyphus+361099.100.1.1 1730221764 installed
+<13>May 16 04:10:22 rpmi: python3-module-django-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 04:10:22 rpmi: python3-module-django-dbbackend-postgresql-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 04:10:22 rpmi: python3-module-django-dbbackend-sqlite3-5.2.1-alt1 sisyphus+383925.100.1.1 1747069833 installed
+<13>May 16 04:10:22 rpmi: python3-module-djangorestframework-3.16.0-alt1 sisyphus+379756.100.1.1 1743410753 installed
+<13>May 16 04:10:22 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 04:10:22 rpmi: python3-module-pytest-cov-6.1.1-alt1 sisyphus+380698.100.1.1 1744020317 installed
+<13>May 16 04:10:22 rpmi: python3-module-pytest-xdist-3.6.1-alt1 sisyphus+347405.100.1.1 1714737453 installed
+<13>May 16 04:10:22 rpmi: python3-module-jwcrypto-1.5.6-alt1 sisyphus+342239.100.1.1 1709803127 installed
+<13>May 16 04:10:22 rpmi: python3-module-pytest-django-4.11.1-alt1 sisyphus+380385.100.1.1 1743762846 installed
+<13>May 16 04:10:22 rpmi: python3-module-pytest-mock-3.14.0-alt1 sisyphus+343327.100.2.2 1711118794 installed
+<13>May 16 04:10:22 rpmi: python3-module-oauthlib-3.2.2-alt1 sisyphus+312712.100.1.1 1672406908 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/python3-module-django-oauth-toolkit-2.3.0-alt1.nosrc.rpm (w1.gzdio)
+<13>May 16 04:10:25 rpmi: python3-module-pyproject-installer-0.5.5-alt2 sisyphus+366395.100.1.1 1735032014 installed
+Installing python3-module-django-oauth-toolkit-2.3.0-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.32143
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf django-oauth-toolkit-2.3.0
++ echo 'Source #0 (django-oauth-toolkit-2.3.0.tar):'
+Source #0 (django-oauth-toolkit-2.3.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/django-oauth-toolkit-2.3.0.tar
++ cd django-oauth-toolkit-2.3.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (disable-tests-requiring-a-network.patch):'
+Patch #1 (disable-tests-requiring-a-network.patch):
++ /usr/bin/patch -p1
+patching file tests/test_oauth2_validators.py
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.32143
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd django-oauth-toolkit-2.3.0
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ /usr/bin/python3 -m pyproject_installer -v build
+INFO     : pyproject_installer.build_cmd._build : Building wheel
+INFO     : pyproject_installer.build_cmd._build : Source tree: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0
+INFO     : pyproject_installer.build_cmd._build : Output dir: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist
+DEBUG    : pyproject_installer.lib.build_backend : Validating source path
+DEBUG    : pyproject_installer.lib.build_backend : Checking for PEP517 spec
+DEBUG    : pyproject_installer.lib.build_backend : Parsing configuration file: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/pyproject.toml
+INFO     : pyproject_installer.lib.build_backend : build-system was not found, using defaults
+INFO     : backend_caller.py : Calling hook build_wheel in subprocess
+INFO     : backend_caller.py : Build backend: setuptools.build_meta:__legacy__
+INFO     : backend_caller.py : Hook args: ['/usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist']
+INFO     : backend_caller.py : Hook kwargs: {'config_settings': None}
+/usr/lib64/python3/site-packages/setuptools/dist.py:761: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: BSD License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+INFO     : root : running bdist_wheel
+INFO     : root : running build
+INFO     : root : running build_py
+INFO     : root : creating build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/validators.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/urls.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/signals.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/settings.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/scopes.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/oauth2_validators.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/oauth2_backends.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/models.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/middleware.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/http.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/generators.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/forms.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/exceptions.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/decorators.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/compat.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/backends.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/apps.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/admin.py -> build/lib/oauth2_provider
+INFO     : root : copying oauth2_provider/__init__.py -> build/lib/oauth2_provider
+INFO     : root : creating build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/token.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/oidc.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/mixins.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/introspect.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/generic.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/base.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/application.py -> build/lib/oauth2_provider/views
+INFO     : root : copying oauth2_provider/views/__init__.py -> build/lib/oauth2_provider/views
+INFO     : root : creating build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/__init__.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0006_alter_application_client_secret.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0005_auto_20211222_2352.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0004_auto_20200902_2022.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0003_auto_20201211_1314.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0002_auto_20190406_1805.py -> build/lib/oauth2_provider/migrations
+INFO     : root : copying oauth2_provider/migrations/0001_initial.py -> build/lib/oauth2_provider/migrations
+INFO     : root : creating build/lib/oauth2_provider/management
+INFO     : root : copying oauth2_provider/management/__init__.py -> build/lib/oauth2_provider/management
+INFO     : root : creating build/lib/oauth2_provider/contrib
+INFO     : root : copying oauth2_provider/contrib/__init__.py -> build/lib/oauth2_provider/contrib
+INFO     : root : creating build/lib/oauth2_provider/management/commands
+INFO     : root : copying oauth2_provider/management/commands/createapplication.py -> build/lib/oauth2_provider/management/commands
+INFO     : root : copying oauth2_provider/management/commands/cleartokens.py -> build/lib/oauth2_provider/management/commands
+INFO     : root : copying oauth2_provider/management/commands/__init__.py -> build/lib/oauth2_provider/management/commands
+INFO     : root : creating build/lib/oauth2_provider/contrib/rest_framework
+INFO     : root : copying oauth2_provider/contrib/rest_framework/permissions.py -> build/lib/oauth2_provider/contrib/rest_framework
+INFO     : root : copying oauth2_provider/contrib/rest_framework/authentication.py -> build/lib/oauth2_provider/contrib/rest_framework
+INFO     : root : copying oauth2_provider/contrib/rest_framework/__init__.py -> build/lib/oauth2_provider/contrib/rest_framework
+INFO     : root : running egg_info
+INFO     : root : creating django_oauth_toolkit.egg-info
+INFO     : root : writing django_oauth_toolkit.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to django_oauth_toolkit.egg-info/dependency_links.txt
+INFO     : root : writing requirements to django_oauth_toolkit.egg-info/requires.txt
+INFO     : root : writing top-level names to django_oauth_toolkit.egg-info/top_level.txt
+INFO     : root : writing manifest file 'django_oauth_toolkit.egg-info/SOURCES.txt'
+INFO     : root : reading manifest file 'django_oauth_toolkit.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+INFO     : root : adding license file 'LICENSE'
+INFO     : root : adding license file 'AUTHORS'
+INFO     : root : writing manifest file 'django_oauth_toolkit.egg-info/SOURCES.txt'
+/usr/lib64/python3/site-packages/setuptools/command/build_py.py:212: _Warning: Package 'oauth2_provider.templates.oauth2_provider' is absent from the `packages` configuration.
+!!
+
+        ********************************************************************************
+        ############################
+        # Package would be ignored #
+        ############################
+        Python recognizes 'oauth2_provider.templates.oauth2_provider' as an importable package[^1],
+        but it is absent from setuptools' `packages` configuration.
+
+        This leads to an ambiguous overall configuration. If you want to distribute this
+        package, please make sure that 'oauth2_provider.templates.oauth2_provider' is explicitly added
+        to the `packages` configuration field.
+
+        Alternatively, you can also rely on setuptools' discovery methods
+        (for example by using `find_namespace_packages(...)`/`find_namespace:`
+        instead of `find_packages(...)`/`find:`).
+
+        You can read more about "package discovery" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+        If you don't want 'oauth2_provider.templates.oauth2_provider' to be distributed and are
+        already explicitly excluding 'oauth2_provider.templates.oauth2_provider' via
+        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+        you can try to use `exclude_package_data`, or `include-package-data=False` in
+        combination with a more fine grained `package-data` configuration.
+
+        You can read more about "package data files" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+        [^1]: For Python, any directory (with suitable naming) can be imported,
+              even if it does not contain any `.py` files.
+              On the other hand, currently there is no concept of package data
+              directory, all directories are treated like packages.
+        ********************************************************************************
+
+!!
+  check.warn(importable)
+INFO     : root : creating build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/application_confirm_delete.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/application_detail.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/application_form.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/application_list.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/application_registration_form.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/authorize.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/authorized-token-delete.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/authorized-tokens.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/base.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying oauth2_provider/templates/oauth2_provider/logout_confirm.html -> build/lib/oauth2_provider/templates/oauth2_provider
+INFO     : root : installing to build/bdist.linux-x86_64/wheel
+INFO     : root : running install
+INFO     : root : running install_lib
+INFO     : root : creating build/bdist.linux-x86_64/wheel
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/templates
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/logout_confirm.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/base.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/authorized-tokens.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/authorized-token-delete.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/authorize.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/application_registration_form.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/application_list.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/application_form.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/application_detail.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/templates/oauth2_provider/application_confirm_delete.html -> build/bdist.linux-x86_64/wheel/./oauth2_provider/templates/oauth2_provider
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/contrib
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/contrib/rest_framework
+INFO     : root : copying build/lib/oauth2_provider/contrib/rest_framework/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/contrib/rest_framework
+INFO     : root : copying build/lib/oauth2_provider/contrib/rest_framework/authentication.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/contrib/rest_framework
+INFO     : root : copying build/lib/oauth2_provider/contrib/rest_framework/permissions.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/contrib/rest_framework
+INFO     : root : copying build/lib/oauth2_provider/contrib/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/contrib
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/management
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/management/commands
+INFO     : root : copying build/lib/oauth2_provider/management/commands/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/management/commands
+INFO     : root : copying build/lib/oauth2_provider/management/commands/cleartokens.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/management/commands
+INFO     : root : copying build/lib/oauth2_provider/management/commands/createapplication.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/management/commands
+INFO     : root : copying build/lib/oauth2_provider/management/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/management
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0001_initial.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0002_auto_20190406_1805.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0003_auto_20201211_1314.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0004_auto_20200902_2022.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0005_auto_20211222_2352.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0006_alter_application_client_secret.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : copying build/lib/oauth2_provider/migrations/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/migrations
+INFO     : root : creating build/bdist.linux-x86_64/wheel/oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/application.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/base.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/generic.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/introspect.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/mixins.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/oidc.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/views/token.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider/views
+INFO     : root : copying build/lib/oauth2_provider/__init__.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/admin.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/apps.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/backends.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/compat.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/decorators.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/exceptions.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/forms.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/generators.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/http.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/middleware.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/models.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/oauth2_backends.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/oauth2_validators.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/scopes.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/settings.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/signals.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/urls.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : copying build/lib/oauth2_provider/validators.py -> build/bdist.linux-x86_64/wheel/./oauth2_provider
+INFO     : root : running install_egg_info
+INFO     : root : Copying django_oauth_toolkit.egg-info to build/bdist.linux-x86_64/wheel/./django_oauth_toolkit-2.3.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/django_oauth_toolkit-2.3.0.dist-info/WHEEL
+INFO     : wheel : creating '/usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist/.tmp-mrpcl2vg/django_oauth_toolkit-2.3.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/licenses/AUTHORS'
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/licenses/LICENSE'
+INFO     : wheel : adding 'oauth2_provider/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/admin.py'
+INFO     : wheel : adding 'oauth2_provider/apps.py'
+INFO     : wheel : adding 'oauth2_provider/backends.py'
+INFO     : wheel : adding 'oauth2_provider/compat.py'
+INFO     : wheel : adding 'oauth2_provider/decorators.py'
+INFO     : wheel : adding 'oauth2_provider/exceptions.py'
+INFO     : wheel : adding 'oauth2_provider/forms.py'
+INFO     : wheel : adding 'oauth2_provider/generators.py'
+INFO     : wheel : adding 'oauth2_provider/http.py'
+INFO     : wheel : adding 'oauth2_provider/middleware.py'
+INFO     : wheel : adding 'oauth2_provider/models.py'
+INFO     : wheel : adding 'oauth2_provider/oauth2_backends.py'
+INFO     : wheel : adding 'oauth2_provider/oauth2_validators.py'
+INFO     : wheel : adding 'oauth2_provider/scopes.py'
+INFO     : wheel : adding 'oauth2_provider/settings.py'
+INFO     : wheel : adding 'oauth2_provider/signals.py'
+INFO     : wheel : adding 'oauth2_provider/urls.py'
+INFO     : wheel : adding 'oauth2_provider/validators.py'
+INFO     : wheel : adding 'oauth2_provider/contrib/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/contrib/rest_framework/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/contrib/rest_framework/authentication.py'
+INFO     : wheel : adding 'oauth2_provider/contrib/rest_framework/permissions.py'
+INFO     : wheel : adding 'oauth2_provider/management/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/management/commands/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/management/commands/cleartokens.py'
+INFO     : wheel : adding 'oauth2_provider/management/commands/createapplication.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0001_initial.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0002_auto_20190406_1805.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0003_auto_20201211_1314.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0004_auto_20200902_2022.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0005_auto_20211222_2352.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0006_alter_application_client_secret.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py'
+INFO     : wheel : adding 'oauth2_provider/migrations/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/application_confirm_delete.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/application_detail.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/application_form.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/application_list.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/application_registration_form.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/authorize.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/authorized-token-delete.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/authorized-tokens.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/base.html'
+INFO     : wheel : adding 'oauth2_provider/templates/oauth2_provider/logout_confirm.html'
+INFO     : wheel : adding 'oauth2_provider/views/__init__.py'
+INFO     : wheel : adding 'oauth2_provider/views/application.py'
+INFO     : wheel : adding 'oauth2_provider/views/base.py'
+INFO     : wheel : adding 'oauth2_provider/views/generic.py'
+INFO     : wheel : adding 'oauth2_provider/views/introspect.py'
+INFO     : wheel : adding 'oauth2_provider/views/mixins.py'
+INFO     : wheel : adding 'oauth2_provider/views/oidc.py'
+INFO     : wheel : adding 'oauth2_provider/views/token.py'
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/METADATA'
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/WHEEL'
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/top_level.txt'
+INFO     : wheel : adding 'django_oauth_toolkit-2.3.0.dist-info/RECORD'
+INFO     : root : removing build/bdist.linux-x86_64/wheel
+INFO     : pyproject_installer.build_cmd._build : Built wheel: django_oauth_toolkit-2.3.0-py3-none-any.whl
++ exit 0
+Executing(%install): /bin/sh -e /usr/src/tmp/rpm-tmp.56316
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ /bin/chmod -Rf u+rwX -- /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
++ :
++ /bin/rm -rf -- /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
++ PATH=/usr/libexec/rpm-build:/usr/src/bin:/usr/bin:/bin:/usr/local/bin:/usr/games
++ cd django-oauth-toolkit-2.3.0
++ /usr/bin/python3 -m pyproject_installer -v install --destdir=/usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
+INFO     : pyproject_installer.install_cmd._install : Installing wheel
+INFO     : pyproject_installer.install_cmd._install : Wheel directory: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist
+INFO     : pyproject_installer.install_cmd._install : Wheel filename: django_oauth_toolkit-2.3.0-py3-none-any.whl
+INFO     : pyproject_installer.install_cmd._install : Destination: /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel filename
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel file
+DEBUG    : pyproject_installer.lib.wheel : Validating wheel spec version
+DEBUG    : pyproject_installer.lib.wheel : Parsing wheel spec metadata
+DEBUG    : pyproject_installer.lib.wheel : Validating RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel installation root: /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages
+INFO     : pyproject_installer.install_cmd._install : Extracting wheel
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_oauth_toolkit-2.3.0.dist-info/licenses/AUTHORS
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_oauth_toolkit-2.3.0.dist-info/licenses/LICENSE
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_oauth_toolkit-2.3.0.dist-info/WHEEL
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_oauth_toolkit-2.3.0.dist-info/top_level.txt
+DEBUG    : pyproject_installer.install_cmd._install : Filtering out not allowed file: django_oauth_toolkit-2.3.0.dist-info/RECORD
+INFO     : pyproject_installer.install_cmd._install : Wheel was installed
++ /usr/lib/rpm/brp-alt
+Cleaning files in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot (auto)
+Verifying and fixing files in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot (binconfig,pkgconfig,libtool,desktop,gnuconfig)
+Checking contents of files in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/ (default)
+Compressing files in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot (auto)
+Adjusting library links in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
+./usr/lib: (from <cmdline>:0)
+Verifying ELF objects in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot (arch=normal,fhs=normal,lfs=relaxed,lint=relaxed,rpath=normal,stack=normal,textrel=normal,unresolved=normal)
+Splitting links to aliased files under /{,s}bin in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot
+Bytecompiling python3 modules in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot using /usr/bin/python3
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/authentication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/permissions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/cleartokens.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/createapplication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0001_initial.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0002_auto_20190406_1805.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0003_auto_20201211_1314.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0004_auto_20200902_2022.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0005_auto_20211222_2352.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0006_alter_application_client_secret.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/application.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/base.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/generic.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/introspect.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/mixins.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/oidc.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/token.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/admin.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/apps.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/compat.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/decorators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/exceptions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/forms.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/generators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/http.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/middleware.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/models.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_validators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/scopes.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/settings.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/signals.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/urls.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/validators.py
+Bytecompiling python3 modules with optimization in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot using /usr/bin/python3 -O
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/authentication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/permissions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/cleartokens.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/createapplication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0001_initial.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0002_auto_20190406_1805.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0003_auto_20201211_1314.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0004_auto_20200902_2022.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0005_auto_20211222_2352.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0006_alter_application_client_secret.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/application.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/base.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/generic.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/introspect.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/mixins.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/oidc.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/token.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/admin.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/apps.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/compat.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/decorators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/exceptions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/forms.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/generators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/http.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/middleware.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/models.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_validators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/scopes.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/settings.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/signals.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/urls.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/validators.py
+Bytecompiling python3 modules with optimization-2 in /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot using /usr/bin/python3 -OO
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/authentication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/permissions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/contrib/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/cleartokens.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/commands/createapplication.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/management/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0001_initial.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0002_auto_20190406_1805.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0003_auto_20201211_1314.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0004_auto_20200902_2022.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0005_auto_20211222_2352.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0006_alter_application_client_secret.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/0007_application_post_logout_redirect_uris.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/migrations/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/application.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/base.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/generic.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/introspect.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/mixins.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/oidc.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/views/token.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/__init__.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/admin.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/apps.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/compat.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/decorators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/exceptions.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/forms.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/generators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/http.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/middleware.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/models.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_backends.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/oauth2_validators.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/scopes.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/settings.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/signals.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/urls.py
+compile /usr/src/tmp/python3-module-django-oauth-toolkit-buildroot/usr/lib/python3/site-packages/oauth2_provider/validators.py
+Hardlinking identical .pyc and .opt-?.pyc files
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/admin.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/admin.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/admin.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/admin.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/apps.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/apps.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/apps.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/apps.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/backends.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/backends.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/compat.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/compat.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/decorators.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/decorators.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/exceptions.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/exceptions.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/forms.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/forms.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/forms.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/forms.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/generators.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/generators.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/http.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/http.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/middleware.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/middleware.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/oauth2_backends.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/oauth2_backends.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/scopes.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/scopes.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/settings.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/settings.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/signals.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/signals.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/signals.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/signals.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/urls.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/urls.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/urls.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/urls.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/__pycache__/validators.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/__pycache__/validators.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/contrib/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/contrib/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/contrib/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/contrib/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/authentication.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/contrib/rest_framework/__pycache__/authentication.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/cleartokens.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/cleartokens.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/cleartokens.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/cleartokens.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/createapplication.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/createapplication.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/createapplication.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/management/commands/__pycache__/createapplication.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0001_initial.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0001_initial.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0002_auto_20190406_1805.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0002_auto_20190406_1805.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0002_auto_20190406_1805.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0002_auto_20190406_1805.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0003_auto_20201211_1314.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0003_auto_20201211_1314.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0003_auto_20201211_1314.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0003_auto_20201211_1314.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0004_auto_20200902_2022.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0004_auto_20200902_2022.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0004_auto_20200902_2022.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0004_auto_20200902_2022.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0005_auto_20211222_2352.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0005_auto_20211222_2352.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0005_auto_20211222_2352.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0005_auto_20211222_2352.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0006_alter_application_client_secret.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0006_alter_application_client_secret.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0007_application_post_logout_redirect_uris.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0007_application_post_logout_redirect_uris.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0007_application_post_logout_redirect_uris.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/0007_application_post_logout_redirect_uris.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/migrations/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/__init__.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/__init__.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/__init__.cpython-312.opt-2.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/__init__.cpython-312.opt-1.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/application.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/application.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/base.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/base.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/generic.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/generic.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/introspect.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/introspect.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/mixins.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/mixins.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/oidc.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/oidc.cpython-312.pyc'
+'./usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/token.cpython-312.opt-1.pyc' => './usr/lib/python3/site-packages/oauth2_provider/views/__pycache__/token.cpython-312.pyc'
+Executing(%check): /bin/sh -e /usr/src/tmp/rpm-tmp.33716
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd django-oauth-toolkit-2.3.0
++ export DJANGO_SETTINGS_MODULE=tests.settings
++ DJANGO_SETTINGS_MODULE=tests.settings
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'CXXFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export 'FFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export NO_INTERNET=YES
++ NO_INTERNET=YES
++ /usr/bin/python3 -m pyproject_installer run -- python3 -m pytest
+INFO     : Creating venv
+INFO     : Installing console scripts
+INFO     : Installing package: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist/django_oauth_toolkit-2.3.0-py3-none-any.whl
+INFO     : Running command: ['/usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/.run_venv/bin/python3', '-m', 'pyproject_installer', 'install', '/usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/dist/django_oauth_toolkit-2.3.0-py3-none-any.whl']
+INFO     : Running command: ['python3', '-m', 'pytest']
+============================= test session starts ==============================
+platform linux -- Python 3.12.10, pytest-8.3.5, pluggy-1.5.0
+django: version: 5.2.1, settings: tests.settings (from env)
+rootdir: /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0
+configfile: tox.ini
+plugins: mock-3.14.0, django-4.11.1, xdist-3.6.1, cov-6.1.1
+collected 414 items
+
+tests/test_application_views.py .....
+tests/test_auth_backends.py ..........
+tests/test_authorization_code.py .................................................................
+tests/test_client_credential.py .......
+tests/test_commands.py New application SOfSQ7hh4xtlRPY9rLKqjygZ9URwN1jpUZyKkHIJ created successfully.
+client_secret: 1xckXorheFYqDeJVqzfYgN87MnfrCwPiemqsa59cJWTjEkNSZhHFhgfUU1ouLTaAxjrlb1dJF5bagehORb123QgcGbR4RLkXXIhwMdRTMLTzTkvoODX7EASQk1iT9to2
+.New application wEJI2RmoEzDZhHp5xltu1fZns1LRVWJZCiGYlibs created successfully.
+client_secret: MV6KRnvJ21C4M4QpZffIUKhF1YIIrqDPSvaL1R270XPrjgfAZKc0L0Nos8z0DtkCYVn3wDEAka9QD0aWvbswaN2V7yTy5MekvHpB1fGbinGXYAjQjPvieWhZGUW7l5Wl
+.New application someId created successfully.
+client_secret: fY2HX0EzCvGuNYdrf7DaHIoOLufNvZ72fzvbqllPgUBJzYrweIuFbFkWLKypOIOt0gcTFmT7bwPLjPr8vsI5xMU3KnBHby1fLZWaoW3UOvEorcOIsLMkDbdlBWQUPi5L
+.New application X3rOQ8kXq1hVyEf50utDPwUYCgObSwXHd5QvYEv6 created successfully.
+.New application TEST created successfully.
+client_secret: RCsDhSjc3bmOu21apRdNpg7vzQQCGKIMGg7vH8KrLjvn0pYdRpfjkUlM72jc8f41S81cUodwdjYKLBW8XNdopz6e0ZESeY2ykSUfxrdsp9NVStWR5N78H4CeGRJolieD
+.New application AffLBCTwfSemVKb3vOSb1IMz69Es1876KuwUpEoG created successfully.
+client_secret: a72zlSGs5pYo1ZUjoIBoLSoCPgKkjvkKNY19J7izn56srwE7g4u91MNRxCGINLeUB2EFWge0d2SmhODgK4NdggdOdfZrgqJJZbQAM0F7MoLXpVArloslvKw15GWpHDet
+..New application UfpMLikv2zLoTadoSGvpxG9IRzPRUfcqtzCV9OlE created successfully.
+client_secret: acwc346SfOragHNiVqk9skcZZ9Djueryjq1CpaorCJh4aZ3UEkidYUwh8VBDJM8o2dXQTzo40M3yuyzASzNzOTtchb9vtIeNbLk2pxeQCEJx0gsI94YYMBLhq4DfufJU
+..F
+tests/test_decorators.py ...
+tests/test_generator.py ...
+tests/test_hybrid.py ....................................................
+tests/test_implicit.py ..................
+tests/test_introspection_auth.py ......
+tests/test_introspection_view.py ..............
+tests/test_mixins.py ........
+tests/test_models.py ..............................
+tests/test_oauth2_backends.py ..........
+tests/test_oauth2_validators.py s...
+tests/test_oidc_views.py ......................................
+tests/test_password.py ...
+tests/test_rest_framework.py ..............................
+tests/test_scopes.py ............
+tests/test_settings.py ...........
+tests/test_token_revocation.py .......
+tests/test_token_view.py ..........
+tests/test_validators.py ...
+tests/test_oauth2_validators.py ..........................
+tests/test_mixins.py ......
+tests/test_oauth2_backends.py .....
+tests/test_oauth2_validators.py ....
+tests/test_oidc_views.py .
+tests/test_scopes_backend.py ..
+tests/test_settings.py ...........
+
+=================================== FAILURES ===================================
+_____________ CreateApplicationTest.test_validation_failed_message _____________
+
+self = <tests.test_commands.CreateApplicationTest testMethod=test_validation_failed_message>
+
+    def test_validation_failed_message(self):
+        output = StringIO()
+        call_command(
+            "createapplication",
+            "confidential",
+            "authorization-code",
+            "--redirect-uris=http://example.com http://example2.com",
+            "--user=783",
+            stdout=output,
+        )
+    
+        self.assertIn("user", output.getvalue())
+        self.assertIn("783", output.getvalue())
+>       self.assertIn("does not exist", output.getvalue())
+E       AssertionError: 'does not exist' not found in "Please correct the following errors:\n - user: ['user instance with id 783 is not a valid choice.']\n"
+
+tests/test_commands.py:145: AssertionError
+=============================== warnings summary ===============================
+tests/test_client_credential.py:101
+  /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/tests/test_client_credential.py:101: PytestCollectionWarning: cannot collect test class 'TestView' because it has a __init__ constructor (from: tests/test_client_credential.py)
+    class TestView(OAuthLibMixin, View):
+
+tests/test_authorization_code.py::TestOIDCAuthorizationCodeHSAlgorithm::test_id_token
+  /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/tests/test_authorization_code.py:1674: DeprecationWarning: 
+    assert key.key_type == "oct"
+
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_get_resource
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_get_token_from_authentication_server_existing_token
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_get_token_from_authentication_server_expires_timezone
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_post_resource
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_validate_bearer_token
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_validate_bearer_token
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_validate_bearer_token
+tests/test_introspection_auth.py::TestTokenIntrospectionAuth::test_validate_bearer_token
+  /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/oauth2_provider/oauth2_validators.py:384: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    expires = datetime.utcfromtimestamp(content["exp"])
+
+tests/test_models.py::test_application_key
+  /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/tests/test_models.py:509: DeprecationWarning: 
+    assert key.key_type == "RSA"
+
+tests/test_models.py::test_application_key
+  /usr/src/RPM/BUILD/django-oauth-toolkit-2.3.0/tests/test_models.py:520: DeprecationWarning: 
+    assert key.key_type == "oct"
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_commands.py::CreateApplicationTest::test_validation_failed_message
+====== 1 failed, 412 passed, 1 skipped, 12 warnings in 496.16s (0:08:16) =======
+INFO     : Command's result: FAILURE
+INFO     : Command's error: Command '['python3', '-m', 'pytest']' returned non-zero exit status 1.
+error: Bad exit status from /usr/src/tmp/rpm-tmp.33716 (%check)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.33716 (%check)
+Command exited with non-zero status 1
+394.86user 6.22system 8:23.13elapsed 79%CPU (0avgtext+0avgdata 102620maxresident)k
+0inputs+0outputs (0major+144982minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-django-oauth-toolkit-2.3.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+8.19user 6.56system 8:52.13elapsed 2%CPU (0avgtext+0avgdata 142044maxresident)k
+2608inputs+0outputs (0major+365188minor)pagefaults 0swaps

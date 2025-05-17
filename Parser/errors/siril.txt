@@ -1,0 +1,77 @@
+
+| -- Generating done (0.0s)
+| -- Build files have been written to: /usr/src/RPM/BUILD/siril-1.2.6/x86_64-alt-linux/subprojects/librtprocess/__CMake_build
+
+librtprocess| CMake configuration: SUCCEEDED
+librtprocess| CMake project rtprocess 0.11.0 has 2 build targets.
+librtprocess| Generated Meson AST: /usr/src/RPM/BUILD/siril-1.2.6/x86_64-alt-linux/subprojects/librtprocess/meson.build
+librtprocess| Project name: rtprocess
+librtprocess| Project version: 0.11.0
+librtprocess| C++ compiler for the host machine: c++ (gcc 14.2.1 "x86_64-alt-linux-g++ (GCC) 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)")
+Traceback (most recent call last):
+  File "/usr/lib/python3/site-packages/mesonbuild/mesonmain.py", line 193, in run
+    return options.run_func(options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/site-packages/mesonbuild/msetup.py", line 391, in run
+    app.generate()
+  File "/usr/lib/python3/site-packages/mesonbuild/msetup.py", line 189, in generate
+    return self._generate(env, capture, vslite_ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/site-packages/mesonbuild/msetup.py", line 250, in _generate
+    intr.run()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/site-packages/mesonbuild/modules/cmake.py", line 160, in include_directories
+    assert isinstance(inc, build.IncludeDirs), 'for mypy'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: for mypy
+AssertionError: for mypy
+librtprocess| C++ linker for the host machine: c++ ld.bfd 2.43.1.20241025
+librtprocess| C++ linker for the host machine: c++ ld.bfd 2.43.1.20241025
+librtprocess| Build targets in project: 3
+librtprocess| Build targets in project: 3
+librtprocess| Subproject librtprocess finished.
+librtprocess| Subproject librtprocess finished.
+
+
+
+
+meson.build:284:27: ERROR: Unhandled python exception
+meson.build:284:27: ERROR: Unhandled python exception
+
+
+
+    This is a Meson bug and should be reported!
+    This is a Meson bug and should be reported!
+    This is a Meson bug and should be reported!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.92200 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.37user 4.63system 0:09.70elapsed 103%CPU (0avgtext+0avgdata 150708maxresident)k
+5.37user 4.63system 0:09.70elapsed 103%CPU (0avgtext+0avgdata 150708maxresident)k
+5.37user 4.63system 0:09.70elapsed 103%CPU (0avgtext+0avgdata 150708maxresident)k
+0inputs+0outputs (0major+1521431minor)pagefaults 0swaps
+0inputs+0outputs (0major+1521431minor)pagefaults 0swaps
+0inputs+0outputs (0major+1521431minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `siril-1.2.6-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `siril-1.2.6-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.28user 4.12system 0:47.02elapsed 28%CPU (0avgtext+0avgdata 143436maxresident)k
+9.28user 4.12system 0:47.02elapsed 28%CPU (0avgtext+0avgdata 143436maxresident)k
+5224inputs+0outputs (0major+337115minor)pagefaults 0swaps

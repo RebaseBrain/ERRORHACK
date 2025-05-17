@@ -1,0 +1,73 @@
+<86>May 16 00:03:38 userdel[428765]: delete user 'rooter'
+<86>May 16 00:03:38 userdel[428765]: removed group 'rooter' owned by 'rooter'
+<86>May 16 00:03:38 userdel[428765]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 00:03:38 groupadd[428772]: group added to /etc/group: name=rooter, GID=1226
+<86>May 16 00:03:38 groupadd[428772]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:03:38 groupadd[428772]: new group: name=rooter, GID=1226
+<86>May 16 00:03:38 useradd[428778]: new user: name=rooter, UID=1226, GID=1226, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:03:38 userdel[428788]: delete user 'builder'
+<86>May 16 00:03:38 userdel[428788]: removed group 'builder' owned by 'builder'
+<86>May 16 00:03:38 userdel[428788]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:03:38 groupadd[428795]: group added to /etc/group: name=builder, GID=1227
+<86>May 16 00:03:38 groupadd[428795]: group added to /etc/gshadow: name=builder
+<86>May 16 00:03:38 groupadd[428795]: new group: name=builder, GID=1227
+<86>May 16 00:03:38 useradd[428801]: new user: name=builder, UID=1227, GID=1227, home=/usr/src, shell=/bin/bash, from=none
+/usr/src/in/srpm/schedtool-1.3.0-alt1.qa1.src.rpm: The use of such a license name is ambiguous: GPL
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/schedtool-1.3.0-alt1.qa1.nosrc.rpm (w1.gzdio)
+Installing schedtool-1.3.0-alt1.qa1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.51150
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf schedtool-1.3.0
++ echo 'Source #0 (schedtool-1.3.0.tar.bz2):'
+Source #0 (schedtool-1.3.0.tar.bz2):
++ /usr/bin/bzip2 -dc /usr/src/RPM/SOURCES/schedtool-1.3.0.tar.bz2
++ /bin/tar -xf -
++ cd schedtool-1.3.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ echo 'Patch #1 (Makefile.patch):'
+Patch #1 (Makefile.patch):
++ /usr/bin/patch -p1
+patching file Makefile
+Hunk #1 succeeded at 7 with fuzz 2.
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.51150
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd schedtool-1.3.0
++ make -j8 affinity_hack
+make: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+rm -f *.o schedtool
+make: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make CFLAGS="-Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK" schedtool
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o error.o error.c
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make[1]: Entering directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+gcc -Os -fomit-frame-pointer -s -pipe -DHAVE_AFFINITY_HACK   -c -o schedtool.o schedtool.c
+schedtool.c: In function 'set_process':
+schedtool.c:436:72: error: pointer/integer type mismatch in conditional expression [-Wint-conversion]
+  436 |                              (CHECK_RANGE_POLICY(policy) ? TAB[policy] : policy)
+      |                                                                        ^
+make[1]: *** [<builtin>: schedtool.o] Error 1
+make[1]: Leaving directory '/usr/src/RPM/BUILD/schedtool-1.3.0'
+make: *** [Makefile:39: affinity_hack] Error 2
+error: Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.51150 (%build)
+Command exited with non-zero status 1
+0.07user 0.04system 0:00.08elapsed 139%CPU (0avgtext+0avgdata 25752maxresident)k
+0inputs+0outputs (0major+10028minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `schedtool-1.3.0-alt1.qa1.src.rpm' failed.
+Command exited with non-zero status 1
+0.80user 1.16system 0:03.69elapsed 53%CPU (0avgtext+0avgdata 12240maxresident)k
+0inputs+0outputs (0major+84908minor)pagefaults 0swaps

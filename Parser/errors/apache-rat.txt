@@ -1,0 +1,77 @@
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ apache-rat-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 7 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ apache-rat-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[25,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[26,27] package org.mockito.runners does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ExclusionHelperTest.java:[24,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ExclusionHelperTest.java:[25,27] package org.mockito.runners does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[41,10] cannot find symbol
+  symbol: class MockitoJUnitRunner
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[46,6] cannot find symbol
+  symbol:   class Mock
+  location: class org.apache.rat.mp.util.ScmIgnoreParserTest
+[INFO] Apache Creadur Rat::API ............................ SUCCESS [  1.165 s]
+[INFO] Apache Creadur Rat::Core ........................... SUCCESS [  1.883 s]
+[INFO] Apache Creadur Rat::Plugin4Maven ................... FAILURE [  0.934 s]
+[INFO] Apache Creadur Rat::Tasks4Ant ...................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.700 s
+[INFO] Finished at: 2025-05-16T04:42:10Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project apache-rat-plugin: Compilation failure: Compilation failure: 
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[25,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[26,27] package org.mockito.runners does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ExclusionHelperTest.java:[24,19] package org.mockito does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ExclusionHelperTest.java:[25,27] package org.mockito.runners does not exist
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[41,10] cannot find symbol
+[ERROR]   symbol: class MockitoJUnitRunner
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ScmIgnoreParserTest.java:[46,6] cannot find symbol
+[ERROR]   symbol:   class Mock
+[ERROR]   location: class org.apache.rat.mp.util.ScmIgnoreParserTest
+[ERROR] /usr/src/RPM/BUILD/apache-rat-0.13/apache-rat-plugin/src/test/java/org/apache/rat/mp/util/ExclusionHelperTest.java:[40,10] cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :apache-rat-plugin
+[ERROR]   mvn <args> -rf :apache-rat-plugin
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55561 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.55561 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.55561 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.55561 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+28.43user 4.41system 0:06.18elapsed 530%CPU (0avgtext+0avgdata 832940maxresident)k
+28.43user 4.41system 0:06.18elapsed 530%CPU (0avgtext+0avgdata 832940maxresident)k
+0inputs+0outputs (0major+200414minor)pagefaults 0swaps
+0inputs+0outputs (0major+200414minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `apache-rat-0.13-alt1_9jpp11.src.rpm' failed.
+hsh-rebuild: rebuild of `apache-rat-0.13-alt1_9jpp11.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+11.65user 3.87system 0:31.06elapsed 49%CPU (0avgtext+0avgdata 140928maxresident)k
+11.65user 3.87system 0:31.06elapsed 49%CPU (0avgtext+0avgdata 140928maxresident)k
+528inputs+0outputs (0major+349340minor)pagefaults 0swaps

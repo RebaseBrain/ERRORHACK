@@ -1,0 +1,682 @@
+<86>May 16 01:30:14 userdel[489460]: delete user 'rooter'
+<86>May 16 01:30:14 userdel[489460]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:30:14 userdel[489460]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:30:14 groupadd[489487]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 01:30:14 groupadd[489487]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:30:14 groupadd[489487]: new group: name=rooter, GID=1823
+<86>May 16 01:30:14 useradd[489525]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:30:14 userdel[489581]: delete user 'builder'
+<86>May 16 01:30:14 userdel[489581]: removed group 'builder' owned by 'builder'
+<86>May 16 01:30:14 userdel[489581]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:30:14 groupadd[489622]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 01:30:14 groupadd[489622]: group added to /etc/gshadow: name=builder
+<86>May 16 01:30:14 groupadd[489622]: new group: name=builder, GID=1824
+<86>May 16 01:30:14 useradd[489659]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:30:18 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:30:18 rpmi: libogg-1.3.5-alt1 sisyphus+278100.3400.1.1 1626058929 installed
+<13>May 16 01:30:18 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:30:18 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 01:30:18 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:30:18 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:30:18 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 01:30:18 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:30:18 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:30:18 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:30:18 rpmi: libcom_err-devel-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 01:30:18 rpmi: libverto-devel-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 01:30:18 rpmi: libflac14-1.5.0-alt1 sisyphus+374510.100.1.1 1739435174 installed
+<13>May 16 01:30:18 rpmi: libvorbis-1.3.7-alt1 sisyphus+275738.100.1.1 1624751601 installed
+<13>May 16 01:30:18 rpmi: libpcsclite-2.3.3-alt2 sisyphus+381115.100.2.1 1744279254 installed
+<13>May 16 01:30:18 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:30:18 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:30:18 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 01:30:18 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 01:30:18 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 01:30:19 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 01:30:19 rpmi: libgmp-devel-6.3.0-alt1 sisyphus+328118.100.2.1 1693294124 installed
+<13>May 16 01:30:19 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:30:19 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:30:19 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:30:19 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:30:19 rpmi: libopus-1.5.2-alt1.1 sisyphus+366209.100.1.1 1734786371 installed
+<13>May 16 01:30:19 rpmi: libmpg123-1:1.32.10-alt1 sisyphus+365072.100.1.1 1734226035 installed
+<13>May 16 01:30:19 rpmi: liblame-3.100-alt1 sisyphus+346342.200.2.2 1716474674 installed
+<13>May 16 01:30:19 rpmi: libgsm-1.0.22-alt1 sisyphus+381615.100.1.1 1744646649 installed
+<13>May 16 01:30:19 rpmi: libsndfile-1.2.2-alt1 sisyphus+380661.100.1.1 1744001678 installed
+<13>May 16 01:30:19 rpmi: libsamplerate-0.2.2-alt1 sisyphus+284642.100.1.1 1630906301 installed
+<13>May 16 01:30:19 rpmi: libasyncns-0.8-alt2.qa1 sisyphus+275091.100.1.1 1624402241 installed
+<13>May 16 01:30:19 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:30:19 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:30:19 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:30:19 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:30:19 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:30:19 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:30:19 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 01:30:19 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 01:30:19 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:30:19 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 01:30:20 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:30:20 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:30:20 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:30:20 rpmi: libpulseaudio-17.0-alt2 sisyphus+339257.100.1.1 1706519226 installed
+<13>May 16 01:30:20 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:30:20 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:30:20 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:30:20 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:30:20 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:30:20 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:30:20 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 01:30:20 groupadd[522806]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 01:30:20 groupadd[522806]: group added to /etc/gshadow: name=_keytab
+<86>May 16 01:30:20 groupadd[522806]: new group: name=_keytab, GID=999
+<13>May 16 01:30:20 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 01:30:20 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:30:21 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<86>May 16 01:30:21 groupadd[525145]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 01:30:21 groupadd[525145]: group added to /etc/gshadow: name=sasl
+<86>May 16 01:30:21 groupadd[525145]: new group: name=sasl, GID=998
+<13>May 16 01:30:21 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 01:30:21 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:30:21 rpmi: libkrb5-ldap-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 01:30:21 rpmi: alsa-ucm-conf-1.2.13-alt2 sisyphus+379457.100.1.1 1743144589 installed
+<13>May 16 01:30:21 rpmi: alsa-topology-conf-1.2.5.1-alt1 sisyphus+274777.100.1.1 1624089141 installed
+<13>May 16 01:30:21 rpmi: libalsa-1:1.2.13-alt1 sisyphus+370533.200.1.1 1737298943 installed
+<13>May 16 01:30:21 rpmi: libao-1:1.2.2-alt7 sisyphus+366225.100.1.1 1734808147 installed
+<13>May 16 01:30:21 rpmi: libao-devel-1:1.2.2-alt7 sisyphus+366225.100.1.1 1734808147 installed
+<13>May 16 01:30:21 rpmi: libkrb5-devel-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 01:30:21 rpmi: libpcsclite-devel-2.3.3-alt2 sisyphus+381115.100.2.1 1744279254 installed
+<13>May 16 01:30:21 rpmi: libXrandr-devel-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 01:30:21 rpmi: libXcursor-devel-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 01:30:21 rpmi: libsamplerate-devel-0.2.2-alt1 sisyphus+284642.100.1.1 1630906301 installed
+<13>May 16 01:30:21 rpmi: libnettle-devel-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:30:21 rpmi: libgnutls-devel-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 01:30:21 rpmi: libtasn1-devel-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/rdesktop-1.9.0-alt1.nosrc.rpm (w1.gzdio)
+Installing rdesktop-1.9.0-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.79597
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf rdesktop-1.9.0
++ echo 'Source #0 (rdesktop-1.9.0.tar):'
+Source #0 (rdesktop-1.9.0.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/rdesktop-1.9.0.tar
++ cd rdesktop-1.9.0
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.79597
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd rdesktop-1.9.0
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.ac: not using Gettext
+autoreconf-default: running: aclocal --force 
+autoreconf-default: configure.ac: tracing
+autoreconf-default: configure.ac: not using Libtool
+autoreconf-default: configure.ac: not using Intltool
+autoreconf-default: configure.ac: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.ac:13: warning: The macro `AC_LANG_C' is obsolete.
+configure.ac:13: You should run autoupdate.
+./lib/autoconf/c.m4:72: AC_LANG_C is expanded from...
+configure.ac:13: the top level
+configure.ac:14: warning: The macro `AC_HEADER_STDC' is obsolete.
+configure.ac:14: You should run autoupdate.
+./lib/autoconf/headers.m4:704: AC_HEADER_STDC is expanded from...
+configure.ac:14: the top level
+configure.ac:58: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:58: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:1534: AC_ARG_ENABLE is expanded from...
+configure.ac:58: the top level
+configure.ac:198: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:198: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:198: the top level
+configure.ac:249: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:249: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+configure.ac:249: the top level
+configure.ac:517: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:517: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:442: UTILS_FUNC_DIRFD is expanded from...
+configure.ac:517: the top level
+configure.ac:594: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:594: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:527: UTILS_FUNC_ICONV is expanded from...
+configure.ac:594: the top level
+configure.ac:594: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:594: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:527: UTILS_FUNC_ICONV is expanded from...
+configure.ac:594: the top level
+configure.ac:642: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.ac:642: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/types.m4:149: _AC_CHECK_TYPE_NEW is expanded from...
+./lib/autoconf/types.m4:233: AC_CHECK_TYPE is expanded from...
+configure.ac:605: TYPE_SOCKLEN_T is expanded from...
+configure.ac:642: the top level
+configure.ac:663: warning: The macro `AC_CHECKING' is obsolete.
+configure.ac:663: You should run autoupdate.
+./lib/autoconf/general.m4:2499: AC_CHECKING is expanded from...
+configure.ac:663: the top level
+configure.ac:669: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:669: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:669: the top level
+configure.ac:698: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.ac:698: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+configure.ac:698: the top level
+configure.ac:713: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:713: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:713: the top level
+configure.ac:740: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:740: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:740: the top level
+configure.ac:770: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:770: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:770: the top level
+configure.ac:792: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:792: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:792: the top level
+configure.ac:819: warning: The macro `AC_TRY_RUN' is obsolete.
+configure.ac:819: You should run autoupdate.
+./lib/autoconf/general.m4:2997: AC_TRY_RUN is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+configure.ac:819: the top level
+configure.ac:910: warning: AC_OUTPUT should be used without arguments.
+configure.ac:910: You should run autoupdate.
+configure.ac:910: warning: AC_C_BIGENDIAN should be used with AC_CONFIG_HEADERS
+autoreconf-default: configure.ac: not using Autoheader
+autoreconf-default: configure.ac: not using Automake
+autoreconf-default: linking ./config.sub to /usr/share/autoconf-2.71/build-aux/config.sub
+autoreconf-default: linking ./config.guess to /usr/share/autoconf-2.71/build-aux/config.guess
+autoreconf-default: linking ./install-sh to /usr/share/autoconf-2.71/build-aux/install-sh
+autoreconf-default: Leaving directory '.'
++ export ac_cv_prog_STRIP=/bin/true
++ ac_cv_prog_STRIP=/bin/true
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --with-ipv6 --with-sound=libao --enable-credssp --enable-smartcard
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
+checking build system type... x86_64-alt-linux-gnu
+checking host system type... x86_64-alt-linux-gnu
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether byte ordering is bigendian... no
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... no
+checking for x86_64-alt-linux-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking for library containing __gmpz_init... -lgmp
+checking for library containing socket... none required
+checking for library containing inet_aton... none required
+checking for sys/select.h... yes
+checking for sys/modem.h... no
+checking for sys/filio.h... no
+checking for sys/strtio.h... no
+checking for locale.h... yes
+checking for langinfo.h... yes
+checking for sysexits.h... yes
+checking for x86_64-alt-linux-strip... (cached) /bin/true
+checking for x86_64-alt-linux-pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for krb5-gssapi... yes
+checking for xrandr... yes
+checking for xcursor... yes
+checking for libtasn1... yes
+checking for nettle... yes
+checking for hogweed... yes
+checking for gnutls >= 3.2.0... yes
+checking for libpcsclite... yes
+checking for PCSC-lite >= 1.6.0 (PnP/Notifications support)... checking for libpcsclite >= 1.6.0... yes
+checking for old version of PCSC... no
+checking if architecture needs alignment... no
+checking for sys/soundcard.h... yes
+checking for dmedia/audio.h... no
+checking for sys/audioio.h... no
+checking for ao... yes
+checking for libpulse... no
+checking for alsa... no
+checking for samplerate... yes
+checking for x86_64-alt-linux-gcc options needed to detect all undeclared functions... none needed
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for dirfd... yes
+checking whether dirfd is declared... yes
+checking whether dirfd is a macro... no
+checking for iconv.h... yes
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for socklen_t... yes
+checking for sys/vfs.h... yes
+checking for sys/statvfs.h... yes
+checking for sys/statfs.h... yes
+checking for sys/param.h... yes
+checking for sys/mount.h... yes
+configure: checking how to get filesystem space usage...
+checking statvfs64 function (SVR4)... no
+checking statvfs function (SVR4)... yes
+checking for struct statfs.f_namemax... no
+checking for struct statvfs.f_namemax... yes
+checking for struct statfs.f_namelen... yes
+checking for struct statvfs.f_namelen... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for mntent.h... yes
+checking for setmntent... yes
+configure: creating ./config.status
+config.status: creating Makefile
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ make -j16
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o cliprdr.o -c cliprdr.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdpsnd_dsp.o -c rdpsnd_dsp.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from rdpsnd_dsp.c:23:
+rdpsnd_dsp.c: In function 'rdpsnd_dsp_process':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdpsnd_dsp.c:431:9: note: in expansion of macro 's_seek'
+  431 |         s_seek(out, 0);
+      |         ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdpsnd_libao.o -c rdpsnd_libao.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o mcs.o -c mcs.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o iso.o -c iso.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o ewmhints.o -c ewmhints.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdpsnd.o -c rdpsnd.c
+rdpsnd.c: In function 'rdpsnd_process':
+rdpsnd.c:437:39: warning: comparison of integer expressions of different signedness: 'long int' and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+  437 |                 if (s_length(&packet) == packet_len)
+      |                                       ^~
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from rdpsnd.c:27:
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdpsnd.c:439:25: note: in expansion of macro 's_seek'
+  439 |                         s_seek(&packet, 0);
+      |                         ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o ctrl.o -c ctrl.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o xkeymap.o -c xkeymap.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o asn.o -c asn.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o xclip.o -c xclip.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o licence.o -c licence.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o cache.o -c cache.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o tcp.o -c tcp.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from tcp.c:39:
+tcp.c: In function 'tcp_send':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+tcp.c:125:9: note: in expansion of macro 's_seek'
+  125 |         s_seek(s, 0);
+      |         ^~~~~~
+tcp.c: In function 'tcp_tls_get_server_pubkey':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+tcp.c:517:9: note: in expansion of macro 's_seek'
+  517 |         s_seek(s, 0);
+      |         ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o channels.o -c channels.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from channels.c:22:
+channels.c: In function 'channel_process':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+channels.c:227:25: note: in expansion of macro 's_seek'
+  227 |                         s_seek(in, 0);
+      |                         ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o printer.o -c printer.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o secure.o -c secure.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdp5.o -c rdp5.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from rdp5.c:22:
+rdp5.c: In function 'process_ts_fp_updates':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdp5.c:120:25: note: in expansion of macro 's_seek'
+  120 |                         s_seek(ns, 0);
+      |                         ^~~~~~
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdp5.c:150:33: note: in expansion of macro 's_seek'
+  150 |                                 s_seek(assembled[code], 0);
+      |                                 ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o serial.o -c serial.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o parallel.o -c parallel.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o ssl.o -c ssl.c
+ssl.c: In function 'rdssl_rsa_encrypt':
+ssl.c:107:20: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+  107 |         if (outlen < (int) modulus_size)
+      |                    ^
+ssl.c: In function 'rdssl_cert_to_rkey':
+ssl.c:201:25: warning: comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+  201 |         } else if (algo == GNUTLS_E_UNIMPLEMENTED_FEATURE) {
+      |                         ^~
+ssl.c: In function 'rdssl_rkey_get_exp_mod':
+ssl.c:310:34: error: passing argument 1 of '__gmpz_sizeinbase' from incompatible pointer type [-Wincompatible-pointer-types]
+  310 |         outlen = (mpz_sizeinbase(modulus, 2) + 7) / 8;
+      |                                  ^~~~~~~
+      |                                  |
+      |                                  uint8 * {aka unsigned char *}
+In file included from /usr/include/nettle/bignum.h:50,
+                 from /usr/include/nettle/rsa.h:38,
+                 from ssl.h:30,
+                 from ssl.c:24:
+/usr/include/gmp.h:1054:39: note: expected 'mpz_srcptr' {aka 'const __mpz_struct *'} but argument is of type 'uint8 *' {aka 'unsigned char *'}
+ 1054 | __GMP_DECLSPEC size_t mpz_sizeinbase (mpz_srcptr, int) __GMP_NOTHROW __GMP_ATTRIBUTE_PURE;
+      |                                       ^~~~~~~~~~
+ssl.c:313:34: error: passing argument 1 of '__gmpz_sizeinbase' from incompatible pointer type [-Wincompatible-pointer-types]
+  313 |         outlen = (mpz_sizeinbase(exponent, 2) + 7) / 8;
+      |                                  ^~~~~~~~
+      |                                  |
+      |                                  uint8 * {aka unsigned char *}
+/usr/include/gmp.h:1054:39: note: expected 'mpz_srcptr' {aka 'const __mpz_struct *'} but argument is of type 'uint8 *' {aka 'unsigned char *'}
+ 1054 | __GMP_DECLSPEC size_t mpz_sizeinbase (mpz_srcptr, int) __GMP_NOTHROW __GMP_ATTRIBUTE_PURE;
+      |                                       ^~~~~~~~~~
+make: *** [Makefile:129: ssl.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdesktop.o -c rdesktop.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o pstcache.o -c pstcache.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdpdr.o -c rdpdr.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from rdpdr.c:45:
+rdpdr.c: In function 'rdpdr_process_irp':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdpdr.c:826:25: note: in expansion of macro 's_seek'
+  826 |                         s_seek(out, 0);
+      |                         ^~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o mppc.o -c mppc.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o seamless.o -c seamless.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o lspci.o -c lspci.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o printercache.o -c printercache.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o orders.o -c orders.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o stream.o -c stream.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o bitmap.o -c bitmap.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o disk.o -c disk.c
+disk.c: In function 'FsVolumeInfo':
+disk.c:1097:49: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1097 |                                                 read(fd, buf, sizeof(buf));
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+disk.c:1106:49: warning: ignoring return value of 'read' declared with attribute 'warn_unused_result' [-Wunused-result]
+ 1106 |                                                 read(fd, buf, sizeof(buf));
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o dvc.o -c dvc.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o utils.o -c utils.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o rdp.o -c rdp.c
+In file included from types.h:27,
+                 from utils.h:26,
+                 from rdesktop.h:188,
+                 from rdp.c:31:
+rdp.c: In function 'process_data_pdu':
+stream.h:75:69: warning: comparison of unsigned expression in '>= 0' is always true [-Wtype-limits]
+   75 | #define s_check_rem(s,n)        (((s)->p <= (s)->end) && ((size_t)n <= s_remaining(s)))
+      |                                                                     ^~
+stream.h:84:40: note: in expansion of macro 's_check_rem'
+   84 | #define s_assert_r(s,n)         { if (!s_check_rem(s, n)) rdp_protocol_error( "unexpected stream overrun", s); }
+      |                                        ^~~~~~~~~~~
+stream.h:71:53: note: in expansion of macro 's_assert_r'
+   71 | #define s_seek(s,o)             (s)->p = (s)->data; s_assert_r(s,o); (s)->p += o;
+      |                                                     ^~~~~~~~~~
+rdp.c:1793:17: note: in expansion of macro 's_seek'
+ 1793 |                 s_seek(ns, 0);
+      |                 ^~~~~~
+rdp.c: In function 'rdp_loop':
+rdp.c:2094:38: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'long int' [-Wsign-compare]
+ 2094 |                 cont = g_next_packet < s_length(s);
+      |                                      ^
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+make: Entering directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+x86_64-alt-linux-gcc -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -Wall -Wextra        -I/usr/include/PCSC    -DPACKAGE_NAME=\"rdesktop\" -DPACKAGE_TARNAME=\"rdesktop\" -DPACKAGE_VERSION=\"1.9.0\" -DPACKAGE_STRING=\"rdesktop\ 1.9.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DL_ENDIAN=1 -DHAVE_SYS_SELECT_H=1 -DHAVE_LOCALE_H=1 -DHAVE_LANGINFO_H=1 -DHAVE_SYSEXITS_H=1 -DWITH_CREDSSP=1 -DHAVE_XRANDR=1 -DHAVE_XCURSOR=1 -DWITH_SCARD=1 -DWITH_PNP_NOTIFICATIONS=1 -DEGD_SOCKET=\"/var/run/egd-pool\" -DHAVE_LIBSAMPLERATE=1 -DWITH_RDPSND=1 -DRDPSND_LIBAO=1 -DHAVE_DIRENT_H=1 -DHAVE_DIRFD=1 -DHAVE_DECL_DIRFD=1 -DHAVE_ICONV_H=1 -DHAVE_ICONV=1 -DICONV_CONST= -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_PARAM_H=1 -DHAVE_SYS_MOUNT_H=1 -DSTAT_STATVFS=1 -DHAVE_STRUCT_STATVFS_F_NAMEMAX=1 -DHAVE_STRUCT_STATFS_F_NAMELEN=1 -DHAVE_MNTENT_H=1 -DHAVE_SETMNTENT=1 -DIPv6=1 -DKEYMAP_PATH=\"/usr/share/rdesktop/keymaps/\" -o xwin.o -c xwin.c
+make: Leaving directory '/usr/src/RPM/BUILD/rdesktop-1.9.0'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.79597 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.79597 (%build)
+Command exited with non-zero status 1
+5.28user 2.70system 0:05.12elapsed 156%CPU (0avgtext+0avgdata 46864maxresident)k
+0inputs+0outputs (0major+473901minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `rdesktop-1.9.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+3.83user 2.92system 0:17.53elapsed 38%CPU (0avgtext+0avgdata 142248maxresident)k
+2512inputs+0outputs (0major+219662minor)pagefaults 0swaps

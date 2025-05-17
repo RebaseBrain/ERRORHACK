@@ -1,0 +1,98 @@
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) (Required is at least version "2.7")
+-- No suitable Python version found, so skipping summary tests.
+-- Build tests: OFF
+Problem opening /proc/meminfo
+CMake Error at /usr/src/RPM/BUILD/lapack-3.8.0/INSTALL/CMakeLists.txt:1 (cmake_minimum_required):
+CMake Error at /usr/src/RPM/BUILD/lapack-3.8.0/INSTALL/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+
+
+
+CMake Error at CMAKE/CheckTimeFunction.cmake:10 (try_compile):
+CMake Error at CMAKE/CheckTimeFunction.cmake:10 (try_compile):
+CMake Error at CMAKE/CheckTimeFunction.cmake:10 (try_compile):
+CMake Error at CMAKE/CheckTimeFunction.cmake:10 (try_compile):
+  Failed to configure test project build system.
+  Failed to configure test project build system.
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+Call Stack (most recent call first):
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (CHECK_TIME_FUNCTION)
+  CMakeLists.txt:147 (CHECK_TIME_FUNCTION)
+  CMakeLists.txt:147 (CHECK_TIME_FUNCTION)
+
+
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.5733 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.63user 0.68system 0:02.02elapsed 64%CPU (0avgtext+0avgdata 24972maxresident)k
+0.63user 0.68system 0:02.02elapsed 64%CPU (0avgtext+0avgdata 24972maxresident)k
+0inputs+0outputs (0major+70762minor)pagefaults 0swaps
+0inputs+0outputs (0major+70762minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `lapack-3.8.0-alt8.src.rpm' failed.
+hsh-rebuild: rebuild of `lapack-3.8.0-alt8.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.53user 4.28system 0:20.60elapsed 47%CPU (0avgtext+0avgdata 142200maxresident)k
+5.53user 4.28system 0:20.60elapsed 47%CPU (0avgtext+0avgdata 142200maxresident)k
+39176inputs+0outputs (0major+229911minor)pagefaults 0swaps

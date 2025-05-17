@@ -1,0 +1,56 @@
+patching file bindings/python/setup.py
+patching file CMakeLists.txt
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.1407
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd libmsym-0.2.3-paper
++ cmake -S . -B build -DCMAKE_SKIP_INSTALL_RPATH:BOOL=yes '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_Fortran_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib64 -DCMAKE_INSTALL_LIBEXECDIR:PATH=/usr/lib -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DLIB_DESTINATION=lib64 -DLIB_SUFFIX=64 -DBUILD_SHARED_LIBS:BOOL=ON -DBUILD_STATIC_LIBS:BOOL=OFF -DINSTALL_LIB_DIR=/usr/lib64 -DINSTALL_CMAKE_DIR=/usr/lib64/cmake/libmsym -DMSYM_BUILD_PYTHON=ON -DPYTHON=/usr/bin/python3 -DMSYM_PYTHON_INSTALL_OPTS=--root=/usr/src/tmp/libmsym-buildroot
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1407 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.1407 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    ignored self-provides: libmsym-devel = 0.2.3-alt2_7.1
+    ignored self-provides: libmsym-devel = 0.2.3-alt2_7.1
+    Bad exit status from /usr/src/tmp/rpm-tmp.1407 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.1407 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.16user 0.13system 0:00.44elapsed 67%CPU (0avgtext+0avgdata 18764maxresident)k
+0.16user 0.13system 0:00.44elapsed 67%CPU (0avgtext+0avgdata 18764maxresident)k
+0inputs+0outputs (0major+16836minor)pagefaults 0swaps
+0inputs+0outputs (0major+16836minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `libmsym-0.2.3-alt2_7.1.src.rpm' failed.
+hsh-rebuild: rebuild of `libmsym-0.2.3-alt2_7.1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+9.33user 5.72system 0:28.64elapsed 52%CPU (0avgtext+0avgdata 142944maxresident)k
+16inputs+0outputs (0major+291395minor)pagefaults 0swaps

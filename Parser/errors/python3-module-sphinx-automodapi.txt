@@ -1,0 +1,56 @@
+INFO     : root : copying build/lib/sphinx_automodapi/automodsumm.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/smart_resolver.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/utils.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : copying build/lib/sphinx_automodapi/version.py -> build/bdist.linux-x86_64/wheel/./sphinx_automodapi
+INFO     : root : running install_egg_info
+INFO     : root : running egg_info
+INFO     : root : writing sphinx_automodapi.egg-info/PKG-INFO
+INFO     : root : writing dependency_links to sphinx_automodapi.egg-info/dependency_links.txt
+INFO     : root : writing requirements to sphinx_automodapi.egg-info/requires.txt
+INFO     : root : writing top-level names to sphinx_automodapi.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+INFO     : root : reading manifest file 'sphinx_automodapi.egg-info/SOURCES.txt'
+INFO     : root : reading manifest template 'MANIFEST.in'
+WARNING  : root : warning: no previously-included files found matching '*.pyc'
+WARNING  : root : warning: no previously-included files found matching '*.o'
+WARNING  : root : no previously-included directories found matching 'build'
+INFO     : root : adding license file 'LICENSE.rst'
+INFO     : root : writing manifest file 'sphinx_automodapi.egg-info/SOURCES.txt'
+INFO     : root : Copying sphinx_automodapi.egg-info to build/bdist.linux-x86_64/wheel/./sphinx_automodapi-0.18.0-py3.12.egg-info
+INFO     : root : running install_scripts
+INFO     : root : creating build/bdist.linux-x86_64/wheel/sphinx_automodapi-0.18.0.dist-info/WHEEL
+ROOT: installing console scripts
+ROOT: generating console scripts of system packages
+ROOT: generating console scripts of user packages
+.pkg_external: find interpreter for spec PythonSpec(path=/usr/bin/python3)
+.pkg_external: proposed PythonInfo(spec=CPython3.12.10.final.0-64, exe=/usr/bin/python3, platform=linux, version='3.12.10 (main, Apr 16 2025, 11:02:44) [GCC 14.2.1 20241028 (ALT Sisyphus 14.2.1-alt1)]', encoding_fs_io=utf-8-utf-8)
+.pkg_external: create virtual environment via CPython3Posix(dest=/usr/src/RPM/BUILD/sphinx-automodapi-0.18.0/.tox/.pkg_external, clear=False, no_vcs_ignore=False, global=True)
+.pkg_external: add seed packages via FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/usr/src/.local/share/virtualenv)
+.pkg_external: add activators for Bash, CShell, Fish, Nushell, PowerShell, Python
+ROOT: install_package_deps> python -I -m pip install 'sphinx>=4'
+[31mERROR: Could not find a version that satisfies the requirement sphinxcontrib-jsmath>=1.0.1 (from sphinx) (from versions: none)
+ERROR: No matching distribution found for sphinxcontrib-jsmath>=1.0.1
+Requirement already satisfied: sphinx>=4 in /usr/lib/python3/site-packages (8.2.1)
+Requirement already satisfied: sphinxcontrib-applehelp>=1.0.7 in /usr/lib/python3/site-packages (from sphinx>=4) (2.0.0)
+Requirement already satisfied: sphinxcontrib-devhelp>=1.0.6 in /usr/lib/python3/site-packages (from sphinx>=4) (2.0.0)
+Requirement already satisfied: sphinxcontrib-htmlhelp>=2.0.6 in /usr/lib/python3/site-packages (from sphinx>=4) (2.1.0)
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of sphinx to determine which version is compatible with other requirements. This could take a while.
+ROOT: exit 1 (1.97 seconds) /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0> python -I -m pip install 'sphinx>=4' pid=836820
+ROOT: exit 1 (1.97 seconds) /usr/src/RPM/BUILD/sphinx-automodapi-0.18.0> python -I -m pip install 'sphinx>=4' pid=836820
+[39merror: Bad exit status from /usr/src/tmp/rpm-tmp.56250 (%check)
+[39merror: Bad exit status from /usr/src/tmp/rpm-tmp.56250 (%check)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.56250 (%check)
+Command exited with non-zero status 1
+4.77user 1.26system 0:10.21elapsed 59%CPU (0avgtext+0avgdata 67124maxresident)k
+0inputs+0outputs (0major+160948minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-sphinx-automodapi-0.18.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+8.65user 4.29system 0:42.06elapsed 30%CPU (0avgtext+0avgdata 142176maxresident)k
+696inputs+0outputs (0major+403076minor)pagefaults 0swaps

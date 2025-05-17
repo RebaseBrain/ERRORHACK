@@ -1,0 +1,77 @@
+   cd build && \
+   cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_FLAGS=-fPIC .. \
+   && make
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+mkdir -p build
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+mkdir -p build
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+make: *** [Makefile:127: lib/axc/lib/libsignal-protocol-c/build/src/libsignal-protocol-c.a] Error 1
+make: *** Waiting for unfinished jobs....
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+cc -fPIC -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c11 -Wall -g -Wstrict-overflow -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -I./headers/jabber -I./lib/libomemo/src -I./lib/axc/src -I./lib/axc/lib/libsignal-protocol-c/src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include   -I./lib/libsignal-protocol-c/src -std=c11 -g -Wall -Wextra -Wpedantic -Wstrict-overflow -fno-strict-aliasing -funsigned-char -fno-builtin-memset -fstack-protector-strong -Wformat -Werror=format-security -D_XOPEN_SOURCE=700 -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -D_DEFAULT_SOURCE -c src/axc_crypto.c -o build/axc_crypto.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+cc -fPIC -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c11 -Wall -g -Wstrict-overflow -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -I./headers/jabber -I./lib/libomemo/src -I./lib/axc/src -I./lib/axc/lib/libsignal-protocol-c/src -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include   -I./lib/libsignal-protocol-c/src -std=c11 -g -Wall -Wextra -Wpedantic -Wstrict-overflow -fno-strict-aliasing -funsigned-char -fno-builtin-memset -fstack-protector-strong -Wformat -Werror=format-security -D_XOPEN_SOURCE=700 -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -D_DEFAULT_SOURCE -c src/axc_store.c -o build/axc_store.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+cc -c src/libomemo.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c11 -Wall -g -Wstrict-overflow -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -I./headers/jabber -I./lib/libomemo/src -I./lib/axc/src -I./lib/axc/lib/libsignal-protocol-c/src -std=c11 -Wall -Wextra -Wpedantic -Wstrict-overflow -fno-strict-aliasing -funsigned-char -fno-builtin-memset -g -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -D_THREAD_SAFE -D_REENTRANT   -DOMEMO_XMLNS='"eu.siacs.conversations.axolotl"' -DOMEMO_NS_SEPARATOR='"."' -DOMEMO_NS_NOVERSION -D_XOPEN_SOURCE=700 -D_DEFAULT_SOURCE -fPIC -o build/libomemo-conversations.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/axc'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+cc -c src/libomemo_storage.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c11 -Wall -g -Wstrict-overflow -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -I./headers/jabber -I./lib/libomemo/src -I./lib/axc/src -I./lib/axc/lib/libsignal-protocol-c/src -std=c11 -Wall -Wextra -Wpedantic -Wstrict-overflow -fno-strict-aliasing -funsigned-char -fno-builtin-memset -g -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -D_THREAD_SAFE -D_REENTRANT   -D_XOPEN_SOURCE=700 -D_DEFAULT_SOURCE -fPIC -o build/libomemo_storage.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+cc -c src/libomemo_crypto.c -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -std=c11 -Wall -g -Wstrict-overflow -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libpurple -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libxml2 -I./headers/jabber -I./lib/libomemo/src -I./lib/axc/src -I./lib/axc/lib/libsignal-protocol-c/src -std=c11 -Wall -Wextra -Wpedantic -Wstrict-overflow -fno-strict-aliasing -funsigned-char -fno-builtin-memset -g -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -D_THREAD_SAFE -D_REENTRANT   -D_XOPEN_SOURCE=700 -D_DEFAULT_SOURCE -fPIC -o build/libomemo_crypto.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+make[1]: Entering directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+ar rcs build/libomemo-conversations.a build/libomemo-conversations.o build/libomemo_crypto.o build/libomemo_storage.o
+ar rcs build/libomemo-conversations.a build/libomemo-conversations.o build/libomemo_crypto.o build/libomemo_storage.o
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+make[1]: Leaving directory '/usr/src/RPM/BUILD/lurch-0.7.0/lib/libomemo'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.86099 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.86099 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.86099 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.86099 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.73user 0.31system 0:00.47elapsed 219%CPU (0avgtext+0avgdata 34592maxresident)k
+0.73user 0.31system 0:00.47elapsed 219%CPU (0avgtext+0avgdata 34592maxresident)k
+0inputs+0outputs (0major+35307minor)pagefaults 0swaps
+0inputs+0outputs (0major+35307minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `purple-plugin-lurch-0.7.0-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `purple-plugin-lurch-0.7.0-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.36user 3.02system 0:16.42elapsed 44%CPU (0avgtext+0avgdata 142512maxresident)k
+4.36user 3.02system 0:16.42elapsed 44%CPU (0avgtext+0avgdata 142512maxresident)k
+3960inputs+0outputs (0major+231954minor)pagefaults 0swaps

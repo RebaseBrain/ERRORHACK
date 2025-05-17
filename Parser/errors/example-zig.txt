@@ -1,0 +1,56 @@
++ /bin/tar -xf /usr/src/RPM/SOURCES/example-zig-3.tar
++ cd example-zig-3
++ /bin/chmod -c -Rf u+rwX,go-w .
++ exit 0
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80116
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80116
++ umask 022
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd example-zig-3
++ cd example-zig-3
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseSafe --system zig-cache --cache-dir zig-cache --global-cache-dir zig-cache
++ /usr/bin/zig build --verbose --release=safe -Dtarget=native -Dcpu=baseline -Doptimize=ReleaseSafe --system zig-cache --cache-dir zig-cache --global-cache-dir zig-cache
+/usr/src/RPM/BUILD/example-zig-3/build.zig.zon:9:13: error: expected enum literal
+/usr/src/RPM/BUILD/example-zig-3/build.zig.zon:9:13: error: expected enum literal
+    .name = "example-zig",
+    .name = "example-zig",
+    .name = "example-zig",
+            ^~~~~~~~~~~~~
+            ^~~~~~~~~~~~~
+            ^~~~~~~~~~~~~
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.80116 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.03user 0.08system 0:00.19elapsed 62%CPU (0avgtext+0avgdata 71052maxresident)k
+0.03user 0.08system 0:00.19elapsed 62%CPU (0avgtext+0avgdata 71052maxresident)k
+0.03user 0.08system 0:00.19elapsed 62%CPU (0avgtext+0avgdata 71052maxresident)k
+0inputs+0outputs (0major+10059minor)pagefaults 0swaps
+0inputs+0outputs (0major+10059minor)pagefaults 0swaps
+0inputs+0outputs (0major+10059minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `example-zig-3-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `example-zig-3-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+7.80user 6.03system 0:28.55elapsed 48%CPU (0avgtext+0avgdata 141760maxresident)k
+7.80user 6.03system 0:28.55elapsed 48%CPU (0avgtext+0avgdata 141760maxresident)k
+43496inputs+0outputs (0major+263771minor)pagefaults 0swaps

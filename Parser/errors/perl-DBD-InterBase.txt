@@ -1,0 +1,161 @@
+      |                       ^~~~
+dbdimp.c:1194:92: note: format string is defined here
+ 1194 |         DBI_TRACE_imp_xxh(imp_sth, 3, (DBIc_LOGPIO(imp_sth), "dbd_st_fetch: fetch result: %d\n", fetch));
+      |                                                                                           ~^
+      |                                                                                            |
+      |                                                                                            int
+      |                                                                                           %ld
+dbdimp.c:1406:31: warning: unused variable 'fpsec' [-Wunused-variable]
+ 1406 |                     int       fpsec;
+      |                               ^~~~~
+dbdimp.c:1532:51: error: initialization of 'isc_blob_handle' {aka 'unsigned int'} from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ 1532 |                     isc_blob_handle blob_handle = NULL;
+      |                                                   ^~~~
+dbdimp.c:1552:36: warning: pointer targets in passing argument 7 of 'isc_open_blob2' differ in signedness [-Wpointer-sign]
+ 1552 |                                    (char *) NULL);  /* no Blob filter */
+      |                                    ^
+      |                                    |
+      |                                    char *
+In file included from dbdimp.h:68:
+/usr/include/ibase.h:574:74: note: expected 'const ISC_UCHAR *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  574 |                                                                          const ISC_UCHAR*);
+dbdimp.c: In function 'ib_discon_all':
+/usr/lib64/perl5/auto/DBI/DBIXS.h:393:54: warning: statement with no effect [-Wunused-value]
+  393 | #define DBIh_EVENTx(h,t,a1,a2)  /* deprecated XXX */ &PL_sv_no
+/usr/lib64/perl5/auto/DBI/DBIXS.h:396:33: note: in expansion of macro 'DBIh_EVENTx'
+  396 | #define DBIh_EVENT2(h,t, a1,a2) DBIh_EVENTx((h), (t), (a1),         (a2))
+      |                                 ^~~~~~~~~~~
+dbdimp.c:1991:9: note: in expansion of macro 'DBIh_EVENT2'
+ 1991 |         DBIh_EVENT2(drh, ERROR_event, DBIc_ERR(imp_drh), DBIc_ERRSTR(imp_drh));
+      |         ^~~~~~~~~~~
+dbdimp.c: In function 'ib_blob_write':
+dbdimp.c:2003:30: error: initialization of 'isc_blob_handle' {aka 'unsigned int'} from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ 2003 |     isc_blob_handle handle = NULL;
+      |                              ^~~~
+dbdimp.c:2042:62: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long int' [-Wformat=]
+ 2042 |         DBI_TRACE_imp_xxh(imp_sth, 3, (DBIc_LOGPIO(imp_sth), "ib_blob_write: %d bytes left\n", total_length));
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~
+      |                                                                                                |
+      |                                                                                                long int
+dbdimp.h:162:23: note: in definition of macro 'DBI_TRACE_imp_xxh'
+  162 |         PerlIO_printf args;             \
+      |                       ^~~~
+dbdimp.c:2274:75: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+ 2274 |                 sprintf(err, "You are trying to put %d characters into a %d character field",
+      |                                                                          ~^
+      |                                                                           |
+      |                                                                           int
+      |                                                                          %ld
+ 2275 |                         len, (sizeof(char) * (ivar->sqllen+1)));
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+      |                                            |
+      |                                            long unsigned int
+make: *** [Makefile:347: dbdimp.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/DBD-InterBase-0.48'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/DBD-InterBase-0.48'
+gcc -c  -I"/usr/include" -I"/usr/lib64/perl5/auto/DBI" -D_REENTRANT -D_GNU_SOURCE -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto   -DVERSION=\"0.48\" -DXS_VERSION=\"0.48\" -fPIC "-I/usr/lib64/perl5/CORE"   InterBase.c
+InterBase.xs: In function '_call_perlsub':
+InterBase.xs:73:52: warning: pointer targets in passing argument 3 of 'isc_event_counts' differ in signedness [-Wpointer-sign]
+   73 |         isc_event_counts(ecount, ev->epb_length, ev->event_buffer,
+      |                                                  ~~^~~~~~~~~~~~~~
+      |                                                    |
+      |                                                    char *
+      |               |
+      |               char *
+/usr/include/ibase.h:606:74: note: expected 'const ISC_UCHAR *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  606 |                                                                          const ISC_UCHAR*,
+      |                                                                          ^~~~~~~~~~~~~~~~
+InterBase.c: In function 'XS_DBD__InterBase__db__do':
+InterBase.c:1634:17: warning: variable 'attr' set but not used [-Wunused-but-set-variable]
+ 1634 |         SV *    attr;
+      |                 ^~~~
+      |                 ^~~~
+InterBase.xs: In function 'XS_DBD__InterBase__db_ib_init_event':
+InterBase.xs: In function 'XS_DBD__InterBase__db_ib_init_event':
+InterBase.xs:1213:13: error: passing argument 1 of 'isc_event_block' from incompatible pointer type [-Wincompatible-pointer-types]
+InterBase.xs:1213:13: error: passing argument 1 of 'isc_event_block' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1213 |             &(RETVAL->event_buffer),
+ 1213 |             &(RETVAL->event_buffer),
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+      |             |
+      |             |
+      |             char **
+      |             char **
+/usr/include/ibase.h:503:44: note: expected 'ISC_UCHAR **' {aka 'unsigned char **'} but argument is of type 'char **'
+/usr/include/ibase.h:503:44: note: expected 'ISC_UCHAR **' {aka 'unsigned char **'} but argument is of type 'char **'
+  503 | ISC_LONG ISC_EXPORT_VARARG isc_event_block(ISC_UCHAR**,
+  503 | ISC_LONG ISC_EXPORT_VARARG isc_event_block(ISC_UCHAR**,
+      |                                            ^~~~~~~~~~~
+      |                                            ^~~~~~~~~~~
+InterBase.xs:1214:13: error: passing argument 2 of 'isc_event_block' from incompatible pointer type [-Wincompatible-pointer-types]
+InterBase.xs:1214:13: error: passing argument 2 of 'isc_event_block' from incompatible pointer type [-Wincompatible-pointer-types]
+ 1214 |             &(RETVAL->result_buffer),
+ 1214 |             &(RETVAL->result_buffer),
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+      |             |
+      |             char **
+/usr/include/ibase.h:504:84: note: expected 'ISC_UCHAR **' {aka 'unsigned char **'} but argument is of type 'char **'
+  504 |                                                                                    ISC_UCHAR**,
+      |                                                                                    ^~~~~~~~~~~
+InterBase.xs:1237:78: warning: pointer targets in passing argument 4 of 'isc_wait_for_event' differ in signedness [-Wpointer-sign]
+ 1237 |         isc_wait_for_event(status, &(imp_dbh->db), RETVAL->epb_length, RETVAL->event_buffer,
+      |                                                                        ~~~~~~^~~~~~~~~~~~~~
+  521 |                                                                  const ISC_UCHAR *);
+      |                                                                  ^~~~~~~~~~~~~~~~~
+InterBase.xs:1329:70: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'ISC_ULONG' {aka 'unsigned int'} [-Wformat=]
+InterBase.xs:1329:70: warning: format '%ld' expects argument of type 'long int', but argument 4 has type 'ISC_ULONG' {aka 'unsigned int'} [-Wformat=]
+ 1329 |                 DBI_TRACE_imp_xxh(imp_dbh, 2, (DBIc_LOGPIO(imp_dbh), "Event %s caught %ld times.\n", *(ev->names + i), ecount[i]));
+ 1329 |                 DBI_TRACE_imp_xxh(imp_dbh, 2, (DBIc_LOGPIO(imp_dbh), "Event %s caught %ld times.\n", *(ev->names + i), ecount[i]));
+      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    ~~~~~~~~~
+      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                    ~~~~~~~~~
+      |                                                                                                                              |
+      |                                                                                                                              |
+      |                                                                                                                              ISC_ULONG {aka unsigned int}
+      |                                                                                                                              ISC_ULONG {aka unsigned int}
+dbdimp.h:162:23: note: in definition of macro 'DBI_TRACE_imp_xxh'
+dbdimp.h:162:23: note: in definition of macro 'DBI_TRACE_imp_xxh'
+  162 |         PerlIO_printf args;             \
+  162 |         PerlIO_printf args;             \
+      |                       ^~~~
+      |                       ^~~~
+make: *** [Makefile:347: InterBase.o] Error 1
+make: *** [Makefile:347: InterBase.o] Error 1
+make: *** [Makefile:347: InterBase.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/DBD-InterBase-0.48'
+make: Leaving directory '/usr/src/RPM/BUILD/DBD-InterBase-0.48'
+make: Leaving directory '/usr/src/RPM/BUILD/DBD-InterBase-0.48'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.47973 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.28user 0.30system 0:01.02elapsed 154%CPU (0avgtext+0avgdata 92852maxresident)k
+1.28user 0.30system 0:01.02elapsed 154%CPU (0avgtext+0avgdata 92852maxresident)k
+1.28user 0.30system 0:01.02elapsed 154%CPU (0avgtext+0avgdata 92852maxresident)k
+0inputs+0outputs (0major+61742minor)pagefaults 0swaps
+0inputs+0outputs (0major+61742minor)pagefaults 0swaps
+0inputs+0outputs (0major+61742minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-DBD-InterBase-0.48-alt5.2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-DBD-InterBase-0.48-alt5.2.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-DBD-InterBase-0.48-alt5.2.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+5.57user 2.30system 0:22.06elapsed 35%CPU (0avgtext+0avgdata 142204maxresident)k
+5.57user 2.30system 0:22.06elapsed 35%CPU (0avgtext+0avgdata 142204maxresident)k
+12896inputs+0outputs (0major+196500minor)pagefaults 0swaps

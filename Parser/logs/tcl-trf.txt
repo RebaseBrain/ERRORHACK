@@ -1,0 +1,396 @@
+<86>May 16 00:58:26 userdel[1380855]: delete user 'rooter'
+<86>May 16 00:58:26 groupadd[1380876]: group added to /etc/group: name=rooter, GID=1265
+<86>May 16 00:58:26 groupadd[1380876]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:58:26 groupadd[1380876]: new group: name=rooter, GID=1265
+<86>May 16 00:58:26 useradd[1380893]: new user: name=rooter, UID=1265, GID=1265, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:58:26 userdel[1380917]: delete user 'builder'
+<86>May 16 00:58:26 userdel[1380917]: removed group 'builder' owned by 'builder'
+<86>May 16 00:58:26 userdel[1380917]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:58:26 groupadd[1380935]: group added to /etc/group: name=builder, GID=1266
+<86>May 16 00:58:26 groupadd[1380935]: group added to /etc/gshadow: name=builder
+<86>May 16 00:58:26 groupadd[1380935]: new group: name=builder, GID=1266
+<86>May 16 00:58:26 useradd[1380950]: new user: name=builder, UID=1266, GID=1266, home=/usr/src, shell=/bin/bash, from=none
+warning: Macro %tea_patch not found
+warning: Macro %_tcllibdir not found
+warning: Macro %_tcllibdir not found
+warning: Macro %_tcllibdir not found
+<13>May 16 00:58:31 rpmi: rpm-build-tcl-0.6.2-alt1 sisyphus+299320.100.1.1 1651401392 installed
+<13>May 16 00:58:31 rpmi: libtcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 00:58:31 rpmi: tcl-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 00:58:31 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 00:58:31 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:58:31 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 00:58:31 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:58:31 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 00:58:31 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 00:58:31 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 00:58:31 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 00:58:31 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 00:58:31 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 00:58:31 rpmi: libssl-devel-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 00:58:31 rpmi: tcl-devel-8.6.13-alt1 sisyphus+310696.100.1.1 1669548266 installed
+<13>May 16 00:58:31 rpmi: tcl-memchan-2.3-alt3 sisyphus+284115.300.3.1 1630189501 installed
+<13>May 16 00:58:31 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 00:58:31 rpmi: bzlib-devel-1:1.0.8-alt3 sisyphus+327286.5000.14.1 1711487039 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/tcl-trf-2.1.4-alt4.nosrc.rpm (w1.gzdio)
+Installing tcl-trf-2.1.4-alt4.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.80092
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf tcl-trf-2.1.4-alt4
++ echo 'Source #0 (tcl-trf-2.1.4-alt4.tar):'
+Source #0 (tcl-trf-2.1.4-alt4.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/tcl-trf-2.1.4-alt4.tar
++ cd tcl-trf-2.1.4-alt4
++ /bin/chmod -c -Rf u+rwX,go-w .
++ set +x
++ set +a
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.80092
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd tcl-trf-2.1.4-alt4
++ autoreconf -fisv
+autoreconf-default: export WARNINGS=
+autoreconf-default: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+autoreconf-default: Entering directory '.'
+autoreconf-default: configure.in: not using Gettext
+autoreconf-default: configure.in: not using aclocal
+autoreconf-default: configure.in: tracing
+autoreconf-default: configure.in: not using Libtool
+autoreconf-default: configure.in: not using Intltool
+autoreconf-default: configure.in: not using Gtkdoc
+autoreconf-default: running: /usr/bin/autoconf-2.71 --force
+configure.in:21: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:21: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+tclconfig/tcl.m4:45: TEA_PATH_TCLCONFIG is expanded from...
+configure.in:21: the top level
+configure.in:68: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:68: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+tclconfig/tcl.m4:3307: TEA_SETUP_COMPILER is expanded from...
+configure.in:68: the top level
+configure.in:68: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:68: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+tclconfig/tcl.m4:2361: TEA_MISSING_POSIX_HEADERS is expanded from...
+tclconfig/tcl.m4:3307: TEA_SETUP_COMPILER is expanded from...
+configure.in:68: the top level
+configure.in:68: warning: The macro `AC_HAVE_HEADERS' is obsolete.
+configure.in:68: You should run autoupdate.
+./lib/autoconf/oldnames.m4:35: AC_HAVE_HEADERS is expanded from...
+tclconfig/tcl.m4:2361: TEA_MISSING_POSIX_HEADERS is expanded from...
+tclconfig/tcl.m4:3307: TEA_SETUP_COMPILER is expanded from...
+configure.in:68: the top level
+configure.in:211: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:211: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+tclconfig/tcl.m4:685: TEA_ENABLE_THREADS is expanded from...
+configure.in:211: the top level
+configure.in:218: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:218: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+tclconfig/tcl.m4:627: TEA_ENABLE_SHARED is expanded from...
+configure.in:218: the top level
+configure.in:226: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_LINK' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2920: AC_TRY_LINK is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+tclconfig/tcl.m4:2792: TEA_TCL_EARLY_FLAG is expanded from...
+tclconfig/tcl.m4:2805: TEA_TCL_EARLY_FLAGS is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+tclconfig/tcl.m4:2840: TEA_TCL_64BIT_FLAGS is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:226: warning: The macro `AC_TRY_COMPILE' is obsolete.
+configure.in:226: You should run autoupdate.
+./lib/autoconf/general.m4:2847: AC_TRY_COMPILE is expanded from...
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+tclconfig/tcl.m4:2840: TEA_TCL_64BIT_FLAGS is expanded from...
+tclconfig/tcl.m4:1020: TEA_CONFIG_CFLAGS is expanded from...
+configure.in:226: the top level
+configure.in:232: warning: The macro `AC_HELP_STRING' is obsolete.
+configure.in:232: You should run autoupdate.
+./lib/autoconf/general.m4:204: AC_HELP_STRING is expanded from...
+tclconfig/tcl.m4:814: TEA_ENABLE_SYMBOLS is expanded from...
+configure.in:232: the top level
+configure.in:296: warning: The macro `AC_HAVE_HEADERS' is obsolete.
+configure.in:296: You should run autoupdate.
+./lib/autoconf/oldnames.m4:35: AC_HAVE_HEADERS is expanded from...
+trf.m4:109: TRF_FIND_ZLIB_SSL is expanded from...
+configure.in:296: the top level
+configure.in:348: warning: AC_OUTPUT should be used without arguments.
+configure.in:348: You should run autoupdate.
+configure.in:348: warning: AC_C_BIGENDIAN should be used with AC_CONFIG_HEADERS
+autoreconf-default: configure.in: not using Autoheader
+autoreconf-default: configure.in: not using Automake
+autoreconf-default: linking tclconfig/install-sh to /usr/share/autoconf-2.71/build-aux/install-sh
+autoreconf-default: Leaving directory '.'
++ export no_zlibtcl=true
++ no_zlibtcl=true
++ export 'CFLAGS=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ export SHLIB_SUFFIX=.so
++ SHLIB_SUFFIX=.so
++ CFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ export CFLAGS
++ CXXFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ export CXXFLAGS
++ FFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ export FFLAGS
++ FCFLAGS='-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
++ export FCFLAGS
++ '[' -n '' ']'
+++ printf %s '-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE'
+++ sed -r 's/(^|[[:space:]]+)-[^m][^[:space:]]*//g'
++ ASFLAGS=
++ export ASFLAGS
++ export lt_cv_deplibs_check_method=pass_all
++ lt_cv_deplibs_check_method=pass_all
++ readlink -e -- ./configure
++ xargs -ri dirname -- '{}'
++ xargs -ri find '{}' -type f '(' -name config.sub -or -name config.guess ')' -printf '%h/\n'
++ sort -u
++ xargs -rn1 install -pm755 -- /usr/share/gnu-config/config.sub /usr/share/gnu-config/config.guess
++ configure_runstatedir_flags=
++ grep -qF runstatedir=DIR ./configure
++ configure_runstatedir_flags=--runstatedir=/var/run
++ ./configure --build=x86_64-alt-linux --host=x86_64-alt-linux --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/lib --localstatedir=/var/lib --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-dependency-tracking --disable-silent-rules --runstatedir=/var/run --without-included-gettext --enable-static-bzlib --enable-static-zlib --enable-static-md5 --with-bz2-include-dir=/usr/include --with-zlib-include-dir=/usr/include --with-ssl-include-dir=/usr/include/openssl --with-bz2-lib-dir=/usr/lib64 --with-zlib-lib-dir=/usr/lib64 --with-ssl-lib-dir=/usr/lib64 --enable-threads
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
+checking for correct TEA configuration... ok (TEA 3.7)
+checking for Tcl configuration... found /usr/lib64/tclConfig.sh
+checking for existence of /usr/lib64/tclConfig.sh... loading
+./configure: line 3240: test: -gt: unary operator expected
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for x86_64-alt-linux-gcc... x86_64-alt-linux-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-alt-linux-gcc accepts -g... yes
+checking for x86_64-alt-linux-gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... x86_64-alt-linux-gcc -E
+checking whether make sets $(MAKE)... yes
+checking for x86_64-alt-linux-ranlib... no
+checking for ranlib... ranlib
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking if the compiler understands -pipe... yes
+checking whether byte ordering is bigendian... no
+checking for sin... no
+checking for main in -lieee... no
+checking for main in -linet... no
+checking for net/errno.h... no
+checking for connect... yes
+checking for gethostbyname... yes
+checking dirent.h... yes
+checking for errno.h... yes
+checking for float.h... yes
+checking for values.h... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/wait.h... yes
+checking for dlfcn.h... yes
+checking for sys/param.h... yes
+checking whether byte ordering is bigendian... (cached) no
+checking size of int... 4
+checking size of long int... 8
+checking for ltoa... no
+checking for main in -lcrypt... yes
+checking for md5_init_ctx in -lcrypt... no
+checking if assert needs __eprintf... no
+checking for Tcl public headers... /usr/include
+checking for pthread_mutex_init in -lpthread... yes
+checking for building with threads... yes (default)
+checking how to build libraries... shared
+checking if 64bit support is requested... no
+checking if 64bit Sparc VIS support is requested... no
+checking if compiler supports visibility "hidden"... yes
+checking if rpath support is requested... yes
+checking system version... Linux-6.12.24-6.12-alt1
+checking for dlopen in -ldl... yes
+checking for ar... ar
+checking for required early compiler flags...  _LARGEFILE64_SOURCE
+checking for 64-bit integer type... using long
+checking for build with symbols... no
+checking for tclsh... /usr/bin/tclsh8.6
+checking for directory with zlib.h... /usr/include
+checking for libz library... /usr/lib64
+checking for directory with ssl.h... /usr/include/openssl
+checking for ssl libcrypto library (for message digests)... /usr/lib64
+checking for directory with bzlib.h... /usr/include
+checking for bz2 compressor library... /usr/lib64
+checking for dlfcn.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for features.h... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  'Makefile.in' seems to ignore the --datarootdir setting
+config.status: creating test.setup
+configure: WARNING: unrecognized options: --disable-dependency-tracking, --disable-silent-rules, --without-included-gettext
++ make -j8 'LIBS=-lz -lbz2 -lcrypt -lcrypto'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/zlib.c` -o zlib.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/bz2lib.c` -o bz2lib.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/crypt.c` -o crypt.o
+./generic/crypt.c: In function 'TrfCryptObjCmd':
+./generic/crypt.c:96:35: error: implicit declaration of function 'crypt' [-Wimplicit-function-declaration]
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+      |                                   ^~~~~
+./generic/crypt.c:96:27: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   96 |   res = Tcl_NewStringObj ((char*) crypt (passwd, salt_b), -1);
+      |                           ^
+make: *** [Makefile:260: crypt.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/loadman.c` -o loadman.o
+./generic/loadman.c: In function 'TrfLoadMD2':
+./generic/loadman.c:139:15: error: assignment to 'int (*)(MD2_CTX *)' {aka 'int (*)(struct md2 *)'} from incompatible pointer type 'void (*)(struct md2 *)' [-Wincompatible-pointer-types]
+  139 |   md2f.init   = MD2_Init;
+      |               ^
+./generic/loadman.c:140:15: error: assignment to 'int (*)(MD2_CTX *, const unsigned char *, size_t)' {aka 'int (*)(struct md2 *, const unsigned char *, long unsigned int)'} from incompatible pointer type 'void (*)(struct md2 *, const void *, size_t)' {aka 'void (*)(struct md2 *, const void *, long unsigned int)'} [-Wincompatible-pointer-types]
+  140 |   md2f.update = MD2_Update;
+      |               ^
+./generic/loadman.c:141:15: error: assignment to 'int (*)(unsigned char *, MD2_CTX *)' {aka 'int (*)(unsigned char *, struct md2 *)'} from incompatible pointer type 'void (*)(void *, struct md2 *)' [-Wincompatible-pointer-types]
+  141 |   md2f.final  = MD2_Final;
+      |               ^
+./generic/loadman.c: In function 'TrfLoadSHA1':
+./generic/loadman.c:247:16: error: assignment to 'int (*)(SHA_CTX *)' {aka 'int (*)(struct SHAstate_st *)'} from incompatible pointer type 'void (*)(SHA_CTX *)' {aka 'void (*)(struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+  247 |   sha1f.init   = SHA1_Init;
+      |                ^
+./generic/loadman.c:248:16: error: assignment to 'int (*)(SHA_CTX *, const void *, size_t)' {aka 'int (*)(struct SHAstate_st *, const void *, long unsigned int)'} from incompatible pointer type 'void (*)(SHA_CTX *, unsigned char *, long unsigned int)' {aka 'void (*)(struct SHAstate_st *, unsigned char *, long unsigned int)'} [-Wincompatible-pointer-types]
+  248 |   sha1f.update = SHA1_Update;
+      |                ^
+./generic/loadman.c:249:16: error: assignment to 'int (*)(unsigned char *, SHA_CTX *)' {aka 'int (*)(unsigned char *, struct SHAstate_st *)'} from incompatible pointer type 'void (*)(unsigned char *, SHA_CTX *)' {aka 'void (*)(unsigned char *, struct SHAstate_st *)'} [-Wincompatible-pointer-types]
+  249 |   sha1f.final  = SHA1_Final;
+      |                ^
+./generic/loadman.c: At top level:
+./generic/loadman.c:109:24: warning: 'ssl' defined but not used [-Wunused-variable]
+  109 | static sslLibFunctions ssl; /* THREADING: serialize initialization */
+      |                        ^~~
+./generic/loadman.c:57:14: warning: 'ssl_symbols' defined but not used [-Wunused-variable]
+   57 | static char* ssl_symbols [] = {
+      |              ^~~~~~~~~~~
+make: *** [Makefile:260: loadman.o] Error 1
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/init.c` -o init.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/load.c` -o load.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/convert.c` -o convert.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/unstack.c` -o unstack.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/util.c` -o util.o
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+make: Entering directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+x86_64-alt-linux-gcc -DPACKAGE_NAME=\"Trf\" -DPACKAGE_TARNAME=\"trf\" -DPACKAGE_VERSION=\"2.1.4\" -DPACKAGE_STRING=\"Trf\ 2.1.4\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_STDIO_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_UNISTD_H=1 -DSTDC_HEADERS=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DSIZEOF_INT=4 -DSIZEOF_LONG_INT=8 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DUSE_ZLIBTCL_STUBS=1 -DHAVE_STDLIB_H=1 -DZLIBTCL_VERSION=\"\" -I"." -I"./generic" -I"" -I"" -I"/usr/include" -I"/usr/include/openssl" -DLIBZ_DEFAULTNAME=\"libz.so\" -I"/usr/include"    -pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto -ffat-lto-objects -DSSL_STATIC_BUILD=1 -D_XOPEN_SOURCE -pipe -O2 -fomit-frame-pointer -Wall -Wno-implicit-int -fPIC  -c `echo ./generic/registry.c` -o registry.o
+./generic/registry.c: In function 'TrfSeek':
+./generic/registry.c:1837:15: warning: variable 'parent' set but not used [-Wunused-but-set-variable]
+ 1837 |   Tcl_Channel parent;
+      |               ^~~~~~
+./generic/registry.c: In function 'DownSeek':
+./generic/registry.c:3401:42: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ 3401 |     Tcl_ChannelType*    parentType     = Tcl_GetChannelType  (parent);
+      |                                          ^~~~~~~~~~~~~~~~~~
+make: Leaving directory '/usr/src/RPM/BUILD/tcl-trf-2.1.4-alt4'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+
+
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.80092 (%build)
+Command exited with non-zero status 1
+3.81user 1.59system 0:04.53elapsed 119%CPU (0avgtext+0avgdata 49072maxresident)k
+0inputs+0outputs (0major+410760minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tcl-trf-2.1.4-alt4.src.rpm' failed.
+Command exited with non-zero status 1
+5.39user 2.12system 0:15.38elapsed 48%CPU (0avgtext+0avgdata 144284maxresident)k
+2208inputs+0outputs (0major+197755minor)pagefaults 0swaps

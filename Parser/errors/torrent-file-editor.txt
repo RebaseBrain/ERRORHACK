@@ -1,0 +1,56 @@
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.42021
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd torrent-file-editor-0.3.17
++ mkdir ./build
++ cd ./build
++ cmake ../. -DCMAKE_INSTALL_PREFIX=/usr -DQT5_BUILD=ON '-DCMAKE_CXX_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' '-DCMAKE_C_FLAGS:STRING=-pipe -frecord-gcc-switches -Wall -g -O2 -flto=auto' -DENABLE_PCH:BOOL=OFF
+Problem opening /proc/meminfo
+CMake Error at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42021 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.42021 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.42021 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.42021 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.07user 0.07system 0:00.14elapsed 104%CPU (0avgtext+0avgdata 18760maxresident)k
+0.07user 0.07system 0:00.14elapsed 104%CPU (0avgtext+0avgdata 18760maxresident)k
+0inputs+0outputs (0major+13099minor)pagefaults 0swaps
+0inputs+0outputs (0major+13099minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `torrent-file-editor-0.3.17-alt3.src.rpm' failed.
+hsh-rebuild: rebuild of `torrent-file-editor-0.3.17-alt3.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.29user 3.32system 0:22.29elapsed 34%CPU (0avgtext+0avgdata 142636maxresident)k
+4.29user 3.32system 0:22.29elapsed 34%CPU (0avgtext+0avgdata 142636maxresident)k
+130776inputs+0outputs (0major+267187minor)pagefaults 0swaps

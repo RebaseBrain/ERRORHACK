@@ -1,0 +1,1841 @@
+t/mac_omac.t ........................ ok
+t/mac_omac_test_vectors_ltc.t ....... ok
+t/mac_pelican.t ..................... ok
+t/mac_pmac.t ........................ ok
+t/mac_pmac_test_vectors_ltc.t ....... ok
+t/mac_poly1305.t .................... ok
+t/mac_poly1305.t .................... ok
+t/mac_xcbc.t ........................ ok
+t/mac_xcbc.t ........................ ok
+# Math::BigInt VERSION=2.005003
+# Math::BigInt VERSION=2.005003
+t/mbi_ltm_01load.t .................. ok
+t/mbi_ltm_01load.t .................. ok
+
+
+#   Failed test '$x = Math::BigFloat->new("+2"); $y = Math::BigFloat->new("+3"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+2"); $y = Math::BigFloat->new("+3"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+2"); $y = Math::BigFloat->new("+3"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("+2"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("-2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("-2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("-2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("-2"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-3"); $y = Math::BigFloat->new("-2"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("-144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("-60"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("60"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("144"); $y = Math::BigFloat->new("60"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+#     expected: '12'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("625"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("625"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("625"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("625"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("625"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '25'
+#     expected: '25'
+#     expected: '25'
+#     expected: '25'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("4096"); $y = Math::BigFloat->new("81"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("4096"); $y = Math::BigFloat->new("81"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("4096"); $y = Math::BigFloat->new("81"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("4096"); $y = Math::BigFloat->new("81"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("4096"); $y = Math::BigFloat->new("81"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1034"); $y = Math::BigFloat->new("804"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("1034"); $y = Math::BigFloat->new("804"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("1034"); $y = Math::BigFloat->new("804"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("1034"); $y = Math::BigFloat->new("804"); Math::BigFloat::bgcd($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("1034"); $y = Math::BigFloat->new("804"); Math::BigFloat::bgcd($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2'
+#     expected: '2'
+#     expected: '2'
+#     expected: '2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("56"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("56"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("56"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("56"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("56"); Math::BigFloat::bgcd($x, $y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("54"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("54"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("54"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("54"); Math::BigFloat::bgcd($x, $y, $z);'
+#   Failed test '$x = Math::BigFloat->new("27"); $y = Math::BigFloat->new("90"); $z = Math::BigFloat->new("54"); Math::BigFloat::bgcd($x, $y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '9'
+#     expected: '9'
+#     expected: '9'
+#     expected: '9'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+0"); $y = Math::BigFloat->new("+0"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+0"); $y = Math::BigFloat->new("+0"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+0"); $y = Math::BigFloat->new("+0"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+0"); $y = Math::BigFloat->new("+0"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+0"); $y = Math::BigFloat->new("+0"); Math::BigFloat::blcm($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: '0'
+#          got: '0'
+#          got: '0'
+#          got: '0'
+#     expected: 'NaN'
+#     expected: 'NaN'
+#     expected: 'NaN'
+#     expected: 'NaN'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+27"); $y = Math::BigFloat->new("+90"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+27"); $y = Math::BigFloat->new("+90"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+27"); $y = Math::BigFloat->new("+90"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+27"); $y = Math::BigFloat->new("+90"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+27"); $y = Math::BigFloat->new("+90"); Math::BigFloat::blcm($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '270'
+#     expected: '270'
+#     expected: '270'
+#     expected: '270'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+1034"); $y = Math::BigFloat->new("+804"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+1034"); $y = Math::BigFloat->new("+804"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+1034"); $y = Math::BigFloat->new("+804"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+1034"); $y = Math::BigFloat->new("+804"); Math::BigFloat::blcm($x, $y);'
+#   Failed test '$x = Math::BigFloat->new("+1034"); $y = Math::BigFloat->new("+804"); Math::BigFloat::blcm($x, $y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '415668'
+#     expected: '415668'
+#     expected: '415668'
+#     expected: '415668'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("10"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("10"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("10"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("10"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("10"); $x->bsin($y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.8414709848'
+#     expected: '0.8414709848'
+#     expected: '0.8414709848'
+#     expected: '0.8414709848'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.863209366649'
+#     expected: '0.863209366649'
+#     expected: '0.863209366649'
+#     expected: '0.863209366649'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("1.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.9320390859672'
+#     expected: '0.9320390859672'
+#     expected: '0.9320390859672'
+#     expected: '0.9320390859672'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("0.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("0.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("0.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("0.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("0.2"); $y = Math::BigFloat->new("13"); $x->bsin($y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.1986693307951'
+#     expected: '0.1986693307951'
+#     expected: '0.1986693307951'
+#     expected: '0.1986693307951'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("12"); $x->bsin($y);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-0.0583741434276'
+#     expected: '-0.0583741434276'
+#     expected: '-0.0583741434276'
+#     expected: '-0.0583741434276'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("8"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("8"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("8"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("8"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("8"); $x->bmodpow($y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3"); $y = Math::BigFloat->new("4"); $z = Math::BigFloat->new("7"); $x->bmodpow($y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("77777"); $y = Math::BigFloat->new("777"); $z = Math::BigFloat->new("123456789"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("77777"); $y = Math::BigFloat->new("777"); $z = Math::BigFloat->new("123456789"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("77777"); $y = Math::BigFloat->new("777"); $z = Math::BigFloat->new("123456789"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("77777"); $y = Math::BigFloat->new("777"); $z = Math::BigFloat->new("123456789"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("77777"); $y = Math::BigFloat->new("777"); $z = Math::BigFloat->new("123456789"); $x->bmodpow($y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '99995084'
+#     expected: '99995084'
+#     expected: '99995084'
+#     expected: '99995084'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("6.2"); $z = Math::BigFloat->new("5.2"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("6.2"); $z = Math::BigFloat->new("5.2"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("6.2"); $z = Math::BigFloat->new("5.2"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("6.2"); $z = Math::BigFloat->new("5.2"); $x->bmodpow($y, $z);'
+#   Failed test '$x = Math::BigFloat->new("3.2"); $y = Math::BigFloat->new("6.2"); $z = Math::BigFloat->new("5.2"); $x->bmodpow($y, $z);'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2.970579856718063040273642739529400818'
+#     expected: '2.970579856718063040273642739529400818'
+#     expected: '2.970579856718063040273642739529400818'
+#     expected: '2.970579856718063040273642739529400818'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("4"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("4"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("4"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("4"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("4"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2,1'
+#     expected: '2,1'
+#     expected: '2,1'
+#     expected: '2,1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("5"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("5"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("5"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("5"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("9"); $y = Math::BigFloat->new("5"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1,4'
+#     expected: '1,4'
+#     expected: '1,4'
+#     expected: '1,4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+#     expected: '2.1,0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $Math::BigFloat::round_mode = "even"; join(",", $x->bdiv($y));'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+#     expected: '-2.1,0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+9000"); $y = Math::BigFloat->new("56"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9000"); $y = Math::BigFloat->new("56"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9000"); $y = Math::BigFloat->new("56"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9000"); $y = Math::BigFloat->new("56"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9000"); $y = Math::BigFloat->new("56"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '40'
+#     expected: '40'
+#     expected: '40'
+#     expected: '40'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+56"); $y = Math::BigFloat->new("9000"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+56"); $y = Math::BigFloat->new("9000"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+56"); $y = Math::BigFloat->new("9000"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+56"); $y = Math::BigFloat->new("9000"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+56"); $y = Math::BigFloat->new("9000"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '56'
+#     expected: '56'
+#     expected: '56'
+#     expected: '56'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("2"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("2"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("2"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("2"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("2"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '2'
+#     expected: '2'
+#     expected: '2'
+#     expected: '2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("3000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("3000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("3000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("3000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("3000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '3'
+#     expected: '3'
+#     expected: '3'
+#     expected: '3'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("4000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+#     expected: '4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("5000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("5000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("5000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("5000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("5000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '5'
+#     expected: '5'
+#     expected: '5'
+#     expected: '5'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("6000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("6000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("6000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("6000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("6000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '6'
+#     expected: '6'
+#     expected: '6'
+#     expected: '6'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("7000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("7000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("7000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("7000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("7000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '7'
+#     expected: '7'
+#     expected: '7'
+#     expected: '7'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("8000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("8000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("8000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("8000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("8000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '8'
+#     expected: '8'
+#     expected: '8'
+#     expected: '8'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("9000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("9000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("9000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("9000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("9000000000"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("35500000"); $y = Math::BigFloat->new("113"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("35500000"); $y = Math::BigFloat->new("113"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("35500000"); $y = Math::BigFloat->new("113"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("35500000"); $y = Math::BigFloat->new("113"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("35500000"); $y = Math::BigFloat->new("113"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '33'
+#     expected: '33'
+#     expected: '33'
+#     expected: '33'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("71000000"); $y = Math::BigFloat->new("226"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("71000000"); $y = Math::BigFloat->new("226"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("71000000"); $y = Math::BigFloat->new("226"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("71000000"); $y = Math::BigFloat->new("226"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("71000000"); $y = Math::BigFloat->new("226"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '66'
+#     expected: '66'
+#     expected: '66'
+#     expected: '66'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("106500000"); $y = Math::BigFloat->new("339"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("106500000"); $y = Math::BigFloat->new("339"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("106500000"); $y = Math::BigFloat->new("339"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("106500000"); $y = Math::BigFloat->new("339"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("106500000"); $y = Math::BigFloat->new("339"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '99'
+#     expected: '99'
+#     expected: '99'
+#     expected: '99'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000000000"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("10"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10"); $y = Math::BigFloat->new("5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100"); $y = Math::BigFloat->new("4"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1000"); $y = Math::BigFloat->new("8"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000"); $y = Math::BigFloat->new("8"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000"); $y = Math::BigFloat->new("8"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000"); $y = Math::BigFloat->new("8"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1000"); $y = Math::BigFloat->new("8"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("10000"); $y = Math::BigFloat->new("16"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10000"); $y = Math::BigFloat->new("16"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10000"); $y = Math::BigFloat->new("16"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10000"); $y = Math::BigFloat->new("16"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("10000"); $y = Math::BigFloat->new("16"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("99"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("99"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("99"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("99"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("99"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("999"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999"); $y = Math::BigFloat->new("9999"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("999999999999999"); $y = Math::BigFloat->new("99999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999999"); $y = Math::BigFloat->new("99999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999999"); $y = Math::BigFloat->new("99999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999999"); $y = Math::BigFloat->new("99999"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("999999999999999"); $y = Math::BigFloat->new("99999"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("+5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("+5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("+5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("+5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("+5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("+9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-1'
+#     expected: '-1'
+#     expected: '-1'
+#     expected: '-1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-9"); $y = Math::BigFloat->new("-5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-4'
+#     expected: '-4'
+#     expected: '-4'
+#     expected: '-4'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+#     expected: '1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-5"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("4"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1"); $y = Math::BigFloat->new("-3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+#     expected: '-2'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("100041000510123"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100041000510123"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100041000510123"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100041000510123"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("100041000510123"); $y = Math::BigFloat->new("3"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("152403346"); $y = Math::BigFloat->new("12345"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("152403346"); $y = Math::BigFloat->new("12345"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("152403346"); $y = Math::BigFloat->new("12345"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("152403346"); $y = Math::BigFloat->new("12345"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("152403346"); $y = Math::BigFloat->new("12345"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '4321'
+#     expected: '4321'
+#     expected: '4321'
+#     expected: '4321'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("123"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.5'
+#     expected: '0.5'
+#     expected: '0.5'
+#     expected: '0.5'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("1230"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1230"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1230"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1230"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("1230"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+#     expected: '0'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("123.4"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123.4"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123.4"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123.4"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123.4"); $y = Math::BigFloat->new("2.5"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.9'
+#     expected: '0.9'
+#     expected: '0.9'
+#     expected: '0.9'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("123e1"); $y = Math::BigFloat->new("25"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123e1"); $y = Math::BigFloat->new("25"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123e1"); $y = Math::BigFloat->new("25"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123e1"); $y = Math::BigFloat->new("25"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("123e1"); $y = Math::BigFloat->new("25"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '5'
+#     expected: '5'
+#     expected: '5'
+#     expected: '5'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.9'
+#     expected: '0.9'
+#     expected: '0.9'
+#     expected: '0.9'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("1"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '0.1'
+#     expected: '0.1'
+#     expected: '0.1'
+#     expected: '0.1'
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("-2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-0.1'
+#     expected: '-0.1'
+#     expected: '-0.1'
+#     expected: '-0.1'
+#     expected: '-0.1'
+
+
+
+
+
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   Failed test '$x = Math::BigFloat->new("2.1"); $y = Math::BigFloat->new("-1"); $x % $y;'
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#   at ./t/mbi_ltm/bigfltpm.inc line 168.
+#          got: undef
+#          got: undef
+#          got: undef
+#          got: undef
+#     expected: '-0.9'
+#     expected: '-0.9'
+#     expected: '-0.9'
+#     expected: '-0.9'
+# Looks like you planned 2391 tests but ran 2319.
+# Looks like you planned 2391 tests but ran 2319.
+# Looks like you planned 2391 tests but ran 2319.
+# Looks like you planned 2391 tests but ran 2319.
+# Looks like you failed 79 tests of 2319 run.
+# Looks like you failed 79 tests of 2319 run.
+# Looks like you failed 79 tests of 2319 run.
+# Looks like you failed 79 tests of 2319 run.
+t/mbi_ltm_bigfltpm.t ................ 
+t/mbi_ltm_bigfltpm.t ................ 
+t/mbi_ltm_bigfltpm.t ................ 
+Dubious, test returned 79 (wstat 20224, 0x4f00)
+Dubious, test returned 79 (wstat 20224, 0x4f00)
+Dubious, test returned 79 (wstat 20224, 0x4f00)
+Failed 151/2391 subtests 
+Failed 151/2391 subtests 
+Failed 151/2391 subtests 
+	(less 1 skipped subtest: 2239 okay)
+	(less 1 skipped subtest: 2239 okay)
+	(less 1 skipped subtest: 2239 okay)
+t/mbi_ltm_bigintg.t ................. ok
+t/mbi_ltm_bigintg.t ................. ok
+t/mbi_ltm_bigintg.t ................. ok
+t/mbi_ltm_bigintpm.t ................ ok
+t/mbi_ltm_bigintpm.t ................ ok
+t/mbi_ltm_biglog.t .................. ok
+t/mbi_ltm_biglog.t .................. ok
+t/mbi_ltm_bigroot.t ................. ok
+t/mbi_ltm_bigroot.t ................. ok
+t/mbi_ltm_bugs.t .................... ok
+t/mbi_ltm_bugs.t .................... ok
+# use64=1 ivsize=8 ivtype=long use64bitint=define
+# use64=1 ivsize=8 ivtype=long use64bitint=define
+t/mbi_ltm_mbi-from-big-scalar.t ..... ok
+t/mbi_ltm_since_1.999837.t .......... ok
+t/mbi_ltm_since_1.999842.t .......... ok
+t/prng.t ............................ ok
+t/prng_chacha20.t ................... ok
+t/prng_chacha20.t ................... ok
+t/prng_fortuna.t .................... ok
+t/prng_fortuna.t .................... ok
+t/prng_rc4.t ........................ ok
+t/prng_rc4.t ........................ ok
+t/prng_sober128.t ................... ok
+t/prng_sober128.t ................... ok
+t/prng_yarrow.t ..................... ok
+t/prng_yarrow.t ..................... ok
+t/sshkey.t .......................... ok
+t/sshkey.t .......................... ok
+
+
+
+Test Summary Report
+Test Summary Report
+Test Summary Report
+Test Summary Report
+-------------------
+-------------------
+-------------------
+-------------------
+-------------------
+t/mbi_ltm_bigfltpm.t              (Wstat: 20224 (exited 79) Tests: 2319 Failed: 79)
+t/mbi_ltm_bigfltpm.t              (Wstat: 20224 (exited 79) Tests: 2319 Failed: 79)
+t/mbi_ltm_bigfltpm.t              (Wstat: 20224 (exited 79) Tests: 2319 Failed: 79)
+t/mbi_ltm_bigfltpm.t              (Wstat: 20224 (exited 79) Tests: 2319 Failed: 79)
+t/mbi_ltm_bigfltpm.t              (Wstat: 20224 (exited 79) Tests: 2319 Failed: 79)
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+  Failed tests:  35-46, 53, 59-60, 69, 74-77, 1515-1519
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1622-1627, 1762-1765, 1830, 1833-1865, 1868-1869
+                1872-1879
+                1872-1879
+                1872-1879
+                1872-1879
+                1872-1879
+                1872-1879
+  Non-zero exit status: 79
+  Non-zero exit status: 79
+  Non-zero exit status: 79
+  Non-zero exit status: 79
+  Non-zero exit status: 79
+  Non-zero exit status: 79
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+  Parse errors: Bad plan.  You planned 2391 tests but ran 2319.
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Files=137, Tests=24942, 14 wallclock secs ( 0.69 usr  0.59 sys + 11.53 cusr  1.48 csys = 14.29 CPU)
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Result: FAIL
+Failed 1/137 test programs. 79/24942 subtests failed.
+Failed 1/137 test programs. 79/24942 subtests failed.
+Failed 1/137 test programs. 79/24942 subtests failed.
+Failed 1/137 test programs. 79/24942 subtests failed.
+Failed 1/137 test programs. 79/24942 subtests failed.
+Failed 1/137 test programs. 79/24942 subtests failed.
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: *** [Makefile:1377: test_dynamic] Error 255
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+make: Leaving directory '/usr/src/RPM/BUILD/CryptX-0.085'
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+
+
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.69872 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+61.96user 12.73system 0:19.96elapsed 374%CPU (0avgtext+0avgdata 164832maxresident)k
+61.96user 12.73system 0:19.96elapsed 374%CPU (0avgtext+0avgdata 164832maxresident)k
+61.96user 12.73system 0:19.96elapsed 374%CPU (0avgtext+0avgdata 164832maxresident)k
+61.96user 12.73system 0:19.96elapsed 374%CPU (0avgtext+0avgdata 164832maxresident)k
+61.96user 12.73system 0:19.96elapsed 374%CPU (0avgtext+0avgdata 164832maxresident)k
+0inputs+0outputs (0major+1739787minor)pagefaults 0swaps
+0inputs+0outputs (0major+1739787minor)pagefaults 0swaps
+0inputs+0outputs (0major+1739787minor)pagefaults 0swaps
+0inputs+0outputs (0major+1739787minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `perl-CryptX-0.085-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-CryptX-0.085-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `perl-CryptX-0.085-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+3.21user 2.34system 0:28.18elapsed 19%CPU (0avgtext+0avgdata 141540maxresident)k
+3.21user 2.34system 0:28.18elapsed 19%CPU (0avgtext+0avgdata 141540maxresident)k
+0inputs+0outputs (0major+201082minor)pagefaults 0swaps

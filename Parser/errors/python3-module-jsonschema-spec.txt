@@ -1,0 +1,77 @@
+INFO     : Output dir: /usr/src/tmp/tmpmsnr1ckl
+{
+{
+  "metadata": {
+  "metadata": {
+    "extra_deps": [
+    "extra_deps": [
+      "requests<3.0.0,>=2.31.0"
+      "requests<3.0.0,>=2.31.0"
+    ]
+    ]
+  }
+  }
+  }
+}
+}
+}
++ rc=4
++ rc=4
++ rc=4
++ '[' 4 -eq 4 ']'
++ '[' 4 -eq 4 ']'
++ '[' 4 -eq 4 ']'
++ printf 'error: dependencies of source "%s" changed since last check\nconfiguration was synced and saved into "%s"\nplease update it, for example, this can be done with:\nhsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json\n' metadata /usr/src/RPM/SOURCES/pyproject_deps.json
++ printf 'error: dependencies of source "%s" changed since last check\nconfiguration was synced and saved into "%s"\nplease update it, for example, this can be done with:\nhsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json\n' metadata /usr/src/RPM/SOURCES/pyproject_deps.json
++ printf 'error: dependencies of source "%s" changed since last check\nconfiguration was synced and saved into "%s"\nplease update it, for example, this can be done with:\nhsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json\n' metadata /usr/src/RPM/SOURCES/pyproject_deps.json
+error: dependencies of source "metadata" changed since last check
+error: dependencies of source "metadata" changed since last check
+error: dependencies of source "metadata" changed since last check
+configuration was synced and saved into "/usr/src/RPM/SOURCES/pyproject_deps.json"
+configuration was synced and saved into "/usr/src/RPM/SOURCES/pyproject_deps.json"
+configuration was synced and saved into "/usr/src/RPM/SOURCES/pyproject_deps.json"
+please update it, for example, this can be done with:
+please update it, for example, this can be done with:
+please update it, for example, this can be done with:
+hsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json
+hsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json
+hsh-run -- cat "/usr/src/RPM/SOURCES/pyproject_deps.json" > .gear/pyproject_deps.json
++ exit 4
++ exit 4
++ exit 4
++ exit 4
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+
+
+
+
+
+
+
+
+RPM build errors:
+RPM build errors:
+RPM build errors:
+RPM build errors:
+    File /usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch is smaller than 8 bytes
+    File /usr/src/RPM/SOURCES/python3-module-jsonschema-spec-0.2.4-alt.patch is smaller than 8 bytes
+    Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+    Bad exit status from /usr/src/tmp/rpm-tmp.98863 (%prep)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+1.07user 0.29system 0:01.36elapsed 100%CPU (0avgtext+0avgdata 37128maxresident)k
+1.07user 0.29system 0:01.36elapsed 100%CPU (0avgtext+0avgdata 37128maxresident)k
+0inputs+0outputs (0major+61448minor)pagefaults 0swaps
+0inputs+0outputs (0major+61448minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `python3-module-jsonschema-spec-0.2.4-alt1.src.rpm' failed.
+hsh-rebuild: rebuild of `python3-module-jsonschema-spec-0.2.4-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+4.78user 3.47system 0:14.70elapsed 56%CPU (0avgtext+0avgdata 144452maxresident)k
+2048inputs+0outputs (0major+279589minor)pagefaults 0swaps

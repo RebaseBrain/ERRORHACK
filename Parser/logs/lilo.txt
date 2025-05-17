@@ -1,0 +1,20 @@
+<86>May 16 00:04:14 userdel[1107463]: delete user 'rooter'
+<86>May 16 00:04:14 groupadd[1107470]: group added to /etc/group: name=rooter, GID=1229
+<86>May 16 00:04:14 groupadd[1107470]: group added to /etc/gshadow: name=rooter
+<86>May 16 00:04:14 groupadd[1107470]: new group: name=rooter, GID=1229
+<86>May 16 00:04:14 useradd[1107476]: new user: name=rooter, UID=1229, GID=1229, home=/root, shell=/bin/bash, from=none
+<86>May 16 00:04:14 userdel[1107491]: delete user 'builder'
+<86>May 16 00:04:14 userdel[1107491]: removed group 'builder' owned by 'builder'
+<86>May 16 00:04:14 userdel[1107491]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 00:04:14 groupadd[1107508]: group added to /etc/group: name=builder, GID=1230
+<86>May 16 00:04:14 groupadd[1107508]: group added to /etc/gshadow: name=builder
+<86>May 16 00:04:14 groupadd[1107508]: new group: name=builder, GID=1230
+<86>May 16 00:04:14 useradd[1107517]: new user: name=builder, UID=1230, GID=1230, home=/usr/src, shell=/bin/bash, from=none
+Reading Package Lists...
+Building Dependency Tree...
+E: Couldn't find package dev86
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+4.02user 2.00system 0:09.81elapsed 61%CPU (0avgtext+0avgdata 135220maxresident)k
+0inputs+0outputs (0major+84568minor)pagefaults 0swaps

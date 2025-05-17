@@ -1,0 +1,22 @@
+<86>May 16 01:22:26 userdel[3357531]: delete user 'rooter'
+<86>May 16 01:22:26 userdel[3357531]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:22:26 userdel[3357531]: removed shadow group 'rooter' owned by 'rooter'
+<86>May 16 01:22:26 groupadd[3357578]: group added to /etc/group: name=rooter, GID=1823
+<86>May 16 01:22:26 groupadd[3357578]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:22:26 groupadd[3357578]: new group: name=rooter, GID=1823
+<86>May 16 01:22:26 useradd[3357604]: new user: name=rooter, UID=1823, GID=1823, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:22:26 userdel[3357635]: delete user 'builder'
+<86>May 16 01:22:26 userdel[3357635]: removed group 'builder' owned by 'builder'
+<86>May 16 01:22:26 userdel[3357635]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:22:26 groupadd[3357667]: group added to /etc/group: name=builder, GID=1824
+<86>May 16 01:22:26 groupadd[3357667]: group added to /etc/gshadow: name=builder
+<86>May 16 01:22:26 groupadd[3357667]: new group: name=builder, GID=1824
+<86>May 16 01:22:26 useradd[3357695]: new user: name=builder, UID=1824, GID=1824, home=/usr/src, shell=/bin/bash, from=none
+Reading Package Lists...
+Building Dependency Tree...
+E: Couldn't find package rpm-build-thunderbird
+hsh-install: Failed to calculate package file list.
+hsh-install: Failed to generate package file list.
+Command exited with non-zero status 1
+2.46user 1.86system 0:06.10elapsed 70%CPU (0avgtext+0avgdata 134904maxresident)k
+0inputs+0outputs (0major+82369minor)pagefaults 0swaps

@@ -1,0 +1,56 @@
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+Problem opening /proc/meminfo
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Perl: /usr/bin/perl (found version "5.38.2")
+CMake Error at CMakeLists.txt:25 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 has been removed from CMake.
+  Compatibility with CMake < 3.5 has been removed from CMake.
+
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+  to work with policies introduced by <max> or earlier.
+
+
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+  Or, add -DCMAKE_POLICY_VERSION_MINIMUM=3.5 to try configuring anyway.
+
+
+
+
+
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+-- Configuring incomplete, errors occurred!
+error: Bad exit status from /usr/src/tmp/rpm-tmp.57930 (%build)
+error: Bad exit status from /usr/src/tmp/rpm-tmp.57930 (%build)
+
+
+
+
+RPM build errors:
+RPM build errors:
+    Bad exit status from /usr/src/tmp/rpm-tmp.57930 (%build)
+    Bad exit status from /usr/src/tmp/rpm-tmp.57930 (%build)
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+0.44user 0.45system 0:01.32elapsed 68%CPU (0avgtext+0avgdata 23880maxresident)k
+0.44user 0.45system 0:01.32elapsed 68%CPU (0avgtext+0avgdata 23880maxresident)k
+0inputs+0outputs (0major+57944minor)pagefaults 0swaps
+0inputs+0outputs (0major+57944minor)pagefaults 0swaps
+hsh-rebuild: rebuild of `tap-1.14.0-alt1_6.src.rpm' failed.
+hsh-rebuild: rebuild of `tap-1.14.0-alt1_6.src.rpm' failed.
+Command exited with non-zero status 1
+Command exited with non-zero status 1
+8.25user 6.45system 0:28.02elapsed 52%CPU (0avgtext+0avgdata 140876maxresident)k
+8.25user 6.45system 0:28.02elapsed 52%CPU (0avgtext+0avgdata 140876maxresident)k
+5080inputs+0outputs (0major+295749minor)pagefaults 0swaps

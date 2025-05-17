@@ -1,0 +1,761 @@
+<86>May 16 01:39:29 userdel[3639242]: delete user 'rooter'
+<86>May 16 01:39:29 userdel[3639242]: removed group 'rooter' owned by 'rooter'
+<86>May 16 01:39:29 groupadd[3639250]: group added to /etc/group: name=rooter, GID=1256
+<86>May 16 01:39:29 groupadd[3639250]: group added to /etc/gshadow: name=rooter
+<86>May 16 01:39:29 groupadd[3639250]: new group: name=rooter, GID=1256
+<86>May 16 01:39:29 useradd[3639256]: new user: name=rooter, UID=1256, GID=1256, home=/root, shell=/bin/bash, from=none
+<86>May 16 01:39:29 userdel[3639266]: delete user 'builder'
+<86>May 16 01:39:29 userdel[3639266]: removed group 'builder' owned by 'builder'
+<86>May 16 01:39:29 userdel[3639266]: removed shadow group 'builder' owned by 'builder'
+<86>May 16 01:39:29 groupadd[3639274]: group added to /etc/group: name=builder, GID=1257
+<86>May 16 01:39:29 groupadd[3639274]: group added to /etc/gshadow: name=builder
+<86>May 16 01:39:29 groupadd[3639274]: new group: name=builder, GID=1257
+<86>May 16 01:39:29 useradd[3639284]: new user: name=builder, UID=1257, GID=1257, home=/usr/src, shell=/bin/bash, from=none
+<13>May 16 01:39:46 rpmi: libidn2-2.3.7-alt1 sisyphus+339505.100.1.2 1706718968 installed
+<13>May 16 01:39:46 rpmi: libnettle8-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:39:46 rpmi: libp11-kit-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:39:46 rpmi: libtasn1-4.20.0-alt2 sisyphus+375829.100.1.1 1740299335 installed
+<13>May 16 01:39:46 rpmi: libhogweed6-3.10.1-alt1 sisyphus+372008.100.1.1 1738078259 installed
+<13>May 16 01:39:46 rpmi: libgnutls30-3.8.9-alt1 sisyphus+380042.200.2.1 1743618110 installed
+<13>May 16 01:39:46 rpmi: libngtcp2.16-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 01:39:46 rpmi: libngtcp2_crypto_gnutls8-1.12.0-alt1 sisyphus+382655.200.1.1 1745743462 installed
+<13>May 16 01:39:46 rpmi: llvm18.1-filesystem-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 01:39:46 rpmi: llvm18.1-polly-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 01:39:46 rpmi: libedit3-3.1.20250104-alt1 sisyphus+384216.200.2.1 1747315147 installed
+<13>May 16 01:39:46 rpmi: llvm18.1-gold-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 01:39:49 rpmi: llvm18.1-libs-18.1.8-alt0.4 sisyphus+364551.100.1.1 1733763186 installed
+<13>May 16 01:39:55 rpmi: rust-1:1.86.0-alt1 sisyphus+380397.20.3.1 1745159666 installed
+<13>May 16 01:39:55 rpmi: publicsuffix-list-dafsa-20250416-alt1 sisyphus+381887.100.1.1 1744900874 installed
+<13>May 16 01:39:55 rpmi: libpsl-0.21.5-alt1 sisyphus+338474.100.1.1 1705684769 installed
+<13>May 16 01:39:55 rpmi: libnghttp3.9-1.9.0-alt1 sisyphus+382655.100.1.1 1745743397 installed
+<13>May 16 01:39:55 rpmi: libnghttp2-1.65.0-alt1 sisyphus+377060.100.1.1 1741259309 installed
+<13>May 16 01:39:55 rpmi: openldap-common-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:39:55 rpmi: libntlm-1.5-alt2 sisyphus+379810.500.4.1 1743501147 installed
+<13>May 16 01:39:55 rpmi: libidn-1.37-alt2 sisyphus+300849.100.1.1 1653769687 installed
+<13>May 16 01:39:55 rpmi: libverto-0.3.2-alt1_1 sisyphus+321176.2200.10.2 1684803947 installed
+<13>May 16 01:39:55 rpmi: liblmdb-0.9.33-alt1 sisyphus+360625.100.1.1 1729819640 installed
+<13>May 16 01:39:55 rpmi: libkeyutils-1.6.3-alt1 sisyphus+346336.200.2.2 1716472658 installed
+<13>May 16 01:39:55 rpmi: openssl-config-3.2.0-alt1 sisyphus+366659.140.4.1 1736956949 installed
+<13>May 16 01:39:55 rpmi: libcom_err-1.47.1.0.10.ad56-alt2 sisyphus+363497.200.3.1 1732729908 installed
+<13>May 16 01:39:55 rpmi: libbrotlicommon-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:39:55 rpmi: libbrotlidec-1.1.0-alt1 sisyphus+328501.100.1.1 1693598419 installed
+<13>May 16 01:39:55 rpmi: rpm-macros-alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:39:55 rpmi: alternatives-0.5.3-alt1 sisyphus+371878.100.1.1 1737988822 installed
+<13>May 16 01:39:55 rpmi: ca-certificates-2025.05.12-alt1 sisyphus+383903.200.2.1 1747060316 installed
+<13>May 16 01:39:55 rpmi: ca-trust-0.2.0-alt1 sisyphus+344843.100.1.1 1712743326 installed
+<13>May 16 01:39:55 rpmi: p11-kit-trust-1:0.25.5-alt1 sisyphus+352553.100.1.1 1720622573 installed
+<13>May 16 01:39:55 rpmi: libcrypto3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<13>May 16 01:39:55 rpmi: libssl3-3.3.3-alt1 sisyphus+374381.40.2.1 1739299401 installed
+<86>May 16 01:39:55 groupadd[3649773]: group added to /etc/group: name=_keytab, GID=999
+<86>May 16 01:39:55 groupadd[3649773]: group added to /etc/gshadow: name=_keytab
+<86>May 16 01:39:55 groupadd[3649773]: new group: name=_keytab, GID=999
+<13>May 16 01:39:55 rpmi: libkrb5-1.21.3-alt2 sisyphus+351857.100.1.1 1719735141 installed
+<13>May 16 01:39:55 rpmi: libssh2-1.11.0-alt2 sisyphus+339356.100.1.1 1706593137 installed
+<13>May 16 01:39:55 rpmi: libgsasl18-2.2.1-alt2 sisyphus+359713.200.2.1 1728905430 installed
+<86>May 16 01:39:55 groupadd[3649812]: group added to /etc/group: name=sasl, GID=998
+<86>May 16 01:39:55 groupadd[3649812]: group added to /etc/gshadow: name=sasl
+<86>May 16 01:39:55 groupadd[3649812]: new group: name=sasl, GID=998
+<13>May 16 01:39:55 rpmi: libsasl2-3-2.1.28-alt2.1 sisyphus+367419.100.1.1 1735482560 installed
+<13>May 16 01:39:55 rpmi: libldap2-2.6.9-alt2 sisyphus+367501.300.4.1 1735841751 installed
+<13>May 16 01:39:55 rpmi: libcurl-8.13.0-alt1 sisyphus+380015.100.1.1 1743595100 installed
+<13>May 16 01:39:56 rpmi: rust-cargo-1:1.86.0-alt1 sisyphus+380397.20.3.1 1745159666 installed
+<13>May 16 01:39:56 rpmi: rpm-macros-rust-0.1.2-alt1 sisyphus+283522.100.1.1 1629480914 installed
+<13>May 16 01:40:03 rpmi: libexpat-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:40:04 rpmi: xorg-proto-devel-2024.1-alt1 sisyphus+343583.40.1.1 1711440649 installed
+<13>May 16 01:40:04 rpmi: libsystemd-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:04 rpmi: libdbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:40:04 rpmi: libwayland-client-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:40:04 rpmi: libpng16-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:40:04 rpmi: libxkbcommon-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 01:40:04 rpmi: perl-HTTP-Date-6.06-alt1 sisyphus+324527.100.1.1 1688834564 installed
+<13>May 16 01:40:04 rpmi: perl-XML-NamespaceSupport-1.12-alt1 1491296348 installed
+<13>May 16 01:40:04 rpmi: zlib-devel-1.3.1-alt1 sisyphus+342532.100.1.1 1710232285 installed
+<13>May 16 01:40:04 rpmi: libatk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 01:40:04 rpmi: libgudev-1:238-alt1 sisyphus+324364.100.1.1 1688646144 installed
+<13>May 16 01:40:04 rpmi: libfribidi-1.0.16-alt1 sisyphus+358393.100.1.1 1727333692 installed
+<13>May 16 01:40:04 rpmi: libevdev-1.13.4-alt1 sisyphus+379223.100.1.1 1742909304 installed
+<13>May 16 01:40:04 rpmi: liblcms2-2.17-alt1 sisyphus+376290.10700.24.2 1745385260 installed
+<13>May 16 01:40:04 rpmi: perl-LWP-MediaTypes-6.04-alt1 sisyphus+225468.100.1.1 1553186684 installed
+<13>May 16 01:40:04 rpmi: perl-Compress-Raw-Zlib-2.213-alt1 sisyphus+381778.100.1.1 1744806505 installed
+<13>May 16 01:40:04 rpmi: perl-libnet-1:3.15-alt1 sisyphus+317310.100.1.1 1679580208 installed
+<13>May 16 01:40:04 rpmi: perl-XML-SAX-Base-1.09-alt1 1494364363 installed
+<13>May 16 01:40:04 rpmi: libjpeg-2:3.0.2-alt2.1 sisyphus+340135.100.1.1 1707449145 installed
+<13>May 16 01:40:06 rpmi: libicu76-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:40:06 rpmi: libgraphite2-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:40:06 rpmi: libharfbuzz-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:40:06 rpmi: libfreetype-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:40:06 rpmi: libfontconfig1-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:40:06 rpmi: xml-utils-1:2.12.9-alt1 sisyphus+355784.100.1.1 1724333686 installed
+<13>May 16 01:40:06 rpmi: llvm19.1-filesystem-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:07 rpmi: clang19.1-support-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:07 rpmi: libXau-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:40:07 rpmi: llvm-common-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 01:40:07 rpmi: libXau-devel-1.0.11-alt1 sisyphus+311428.100.1.1 1670577439 installed
+<13>May 16 01:40:07 rpmi: llvm19.1-polly-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:07 rpmi: llvm19.1-gold-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:11 rpmi: llvm19.1-libs-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:13 rpmi: libclang-cpp19-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:13 rpmi: clang19.1-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:13 rpmi: clang-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 01:40:14 rpmi: libclang19-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:14 rpmi: clang19.1-devel-19.1.7-alt0.1 sisyphus+372108.200.3.1 1738275526 installed
+<13>May 16 01:40:14 rpmi: clang-devel-19.1.0-alt1 sisyphus+366231.300.7.1 1740177832 installed
+<13>May 16 01:40:14 rpmi: rpm-build-gir-0.7.3-alt3.1 sisyphus+319393.100.1.1 1682538783 installed
+<13>May 16 01:40:14 rpmi: fontconfig-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+Updating fonts cache: <29>May 16 01:40:16 fontconfig: Updating fonts cache: succeeded
+[ DONE ]
+<13>May 16 01:40:16 rpmi: libharfbuzz-icu-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:40:16 rpmi: libharfbuzz-gobject-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:40:16 rpmi: libgraphite2-devel-1.3.14-alt2.1 sisyphus+279571.100.1.2 1626605111 installed
+<13>May 16 01:40:16 rpmi: icu-utils-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:40:16 rpmi: libicu-devel-1:7.6.1-alt1 sisyphus+375553.100.1.1 1740138060 installed
+<13>May 16 01:40:16 rpmi: libpng-devel-1.6.42-alt2 sisyphus+339555.100.1.1 1706781682 installed
+<13>May 16 01:40:16 rpmi: perl-File-Listing-6.16-alt1 sisyphus+325783.100.1.1 1690559356 installed
+<13>May 16 01:40:16 rpmi: libxkbcommon-devel-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 01:40:16 rpmi: libwayland-cursor-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:40:16 rpmi: libwayland-egl-4:18.1.0-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:40:16 rpmi: dbus-tools-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<86>May 16 01:40:16 groupadd[3667227]: group added to /etc/group: name=messagebus, GID=997
+<86>May 16 01:40:16 groupadd[3667227]: group added to /etc/gshadow: name=messagebus
+<86>May 16 01:40:16 groupadd[3667227]: new group: name=messagebus, GID=997
+<86>May 16 01:40:16 useradd[3667258]: new user: name=messagebus, UID=999, GID=997, home=/run/dbus, shell=/dev/null, from=none
+<13>May 16 01:40:16 rpmi: dbus-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:40:16 rpmi: libavahi-0.8-alt5 sisyphus+370646.100.1.1 1737385841 installed
+<13>May 16 01:40:16 rpmi: libcups-2.4.12-alt1 sisyphus+380821.100.1.1 1744111099 installed
+<13>May 16 01:40:16 rpmi: libseat1-0.9.1-alt1 sisyphus+361326.40.1.1 1730462743 installed
+<13>May 16 01:40:16 rpmi: wayland-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:40:16 rpmi: libwayland-client-devel-1.23.1-alt1.1 sisyphus+356019.140.3.1 1724572111 installed
+<13>May 16 01:40:16 rpmi: libncurses6-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:40:16 rpmi: libtinfo-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:40:16 rpmi: libncurses-devel-6.3.20220618-alt4 sisyphus+327286.4600.14.1 1711486705 installed
+<13>May 16 01:40:16 rpmi: libudev-devel-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:16 rpmi: libwacom-data-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 01:40:16 rpmi: libmtdev-1.1.6-alt1 sisyphus+278361.100.1.1 1626091644 installed
+<13>May 16 01:40:16 rpmi: libsqlite3-3.47.1-alt1 sisyphus+375553.2600.2.1 1740149712 installed
+<13>May 16 01:40:16 rpmi: libepoxy-1.5.10-alt1 sisyphus+296853.200.2.1 1647631866 installed
+<13>May 16 01:40:16 rpmi: libpciaccess-1:0.18.1-alt1 sisyphus+343583.300.1.1 1711440789 installed
+<13>May 16 01:40:16 rpmi: libdrm-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 01:40:16 rpmi: libgbm-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 01:40:16 rpmi: libdatrie-0.2.13-alt1_7 sisyphus+328221.100.1.1 1693336966 installed
+<13>May 16 01:40:16 rpmi: libthai-0.1.29-alt1_6 sisyphus+328230.100.1.2 1693348044 installed
+<13>May 16 01:40:16 rpmi: libusb-1.0.27-alt1 sisyphus+347412.100.1.1 1714739651 installed
+<13>May 16 01:40:16 rpmi: perl-Try-Tiny-0.32-alt1 sisyphus+380332.100.1.2 1743764221 installed
+<13>May 16 01:40:16 rpmi: perl-IO-Socket-IP-0.43-alt1 sisyphus+380130.100.1.1 1743700660 installed
+<13>May 16 01:40:16 rpmi: perl-Module-Load-0.36-alt1 sisyphus+258992.100.1.1 1601543407 installed
+<13>May 16 01:40:16 rpmi: perl-Compress-Raw-Bzip2-2.213-alt1 sisyphus+380158.100.1.1 1743709764 installed
+<13>May 16 01:40:16 rpmi: perl-IO-Compress-Brotli-2:0.004001-alt3 sisyphus+335067.1200.1.1 1700901589 installed
+<13>May 16 01:40:16 rpmi: perl-Clone-0.47-alt1 sisyphus+380157.100.1.1 1743709760 installed
+<13>May 16 01:40:16 rpmi: perl-MIME-Base32-1.303-alt1 1501706377 installed
+<13>May 16 01:40:16 rpmi: perl-HTML-Tagset-3.24-alt1 sisyphus+343117.100.1.3 1710883587 installed
+<13>May 16 01:40:16 rpmi: perl-Term-ANSIColor-5.01-alt1 sisyphus+244783.100.1.2 1579747505 installed
+<13>May 16 01:40:16 rpmi: perl-Data-Dump-1.25-alt1 sisyphus+276551.100.1.1 1625126880 installed
+<13>May 16 01:40:16 rpmi: perl-Filter-1.64-alt1 sisyphus+335067.400.1.1 1700901412 installed
+<13>May 16 01:40:16 rpmi: perl-Encode-3.21-alt1 sisyphus+343095.100.1.1 1710875477 installed
+<13>May 16 01:40:16 rpmi: perl-URI-5.31-alt1 sisyphus+381235.100.1.1 1744304359 installed
+<13>May 16 01:40:16 rpmi: perl-IO-Compress-2.213-alt1 sisyphus+381779.100.1.1 1744808063 installed
+<13>May 16 01:40:16 rpmi: perl-Net-HTTP-6.23-alt1 sisyphus+323470.100.1.1 1687422469 installed
+<13>May 16 01:40:16 rpmi: perl-HTML-Parser-3.83-alt1 sisyphus+380220.100.1.2 1743732882 installed
+<13>May 16 01:40:16 rpmi: perl-WWW-RobotRules-6.02-alt1 1329756211 installed
+<13>May 16 01:40:16 rpmi: perl-Encode-Locale-1.05-alt1 1444608613 installed
+<13>May 16 01:40:16 rpmi: perl-IO-HTML-1.004-alt1 sisyphus+258983.100.1.1 1601542619 installed
+<13>May 16 01:40:16 rpmi: perl-HTTP-Message-7.00-alt1 sisyphus+380223.100.1.3 1743733662 installed
+<13>May 16 01:40:16 rpmi: perl-HTTP-Negotiate-6.01-alt1 1329760563 installed
+<13>May 16 01:40:16 rpmi: perl-libwww-6.78-alt1 sisyphus+380234.100.1.2 1743734820 installed
+<13>May 16 01:40:16 rpmi: perl-XML-LibXML-2.0210-alt8 sisyphus+355798.100.1.1 1724340088 installed
+<13>May 16 01:40:16 rpmi: perl-XML-SAX-1.02-alt1 sisyphus+232322.100.1.1 1560758406 installed
+<13>May 16 01:40:16 rpmi: perl-XML-Simple-2.25-alt2 sisyphus+257498.100.1.1 1599324034 installed
+<13>May 16 01:40:16 rpmi: icon-naming-utils-0.8.90-alt1 sisyphus+276851.100.1.1 1625243947 installed
+<13>May 16 01:40:17 rpmi: icon-theme-adwaita-48.0-alt1 sisyphus+378197.1000.1.1 1742091975 installed
+<13>May 16 01:40:17 rpmi: usbids-20240206-alt1 sisyphus+339943.100.1.1 1707270512 installed
+<13>May 16 01:40:17 rpmi: pciids-20250508-alt1 sisyphus+383607.100.1.1 1746722444 installed
+<13>May 16 01:40:17 rpmi: hwdata-0.384-alt1 sisyphus+354460.100.1.1 1722898493 installed
+<13>May 16 01:40:17 rpmi: libwebp7-1.5.0-alt1 sisyphus+376290.12500.24.2 1745387604 installed
+<13>May 16 01:40:17 rpmi: libdeflate-1.24-alt1 sisyphus+384095.100.1.1 1747211183 installed
+<13>May 16 01:40:17 rpmi: libtiff6-4.7.0-alt1 sisyphus+376290.174.24.2 1745358940 installed
+<13>May 16 01:40:17 rpmi: libgdk-pixbuf-locales-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 01:40:17 rpmi: gtk+3-themes-incompatible-3.20-alt3 1461944560 installed
+<13>May 16 01:40:17 rpmi: libpixman-3:0.44.2-alt1 sisyphus+364211.100.1.1 1733467622 installed
+<13>May 16 01:40:17 rpmi: libmpdec3-2.5.1-alt3 sisyphus+314490.500.5.1 1675432004 installed
+<13>May 16 01:40:17 rpmi: libgdbm-1.8.3-alt10 sisyphus+346222.200.3.2 1716468404 installed
+<13>May 16 01:40:17 rpmi: libb2-0.98.1-alt1_1 sisyphus+291614.100.1.1 1638962877 installed
+<13>May 16 01:40:17 rpmi: python3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:40:18 rpmi: python3-base-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:40:18 rpmi: python3-module-more-itertools-10.6.0-alt1 sisyphus+369595.100.2.1 1737017267 installed
+<13>May 16 01:40:18 rpmi: python3-module-jaraco.functools-4.1.0-alt1.1 sisyphus+376369.24200.10.1 1746632566 installed
+<13>May 16 01:40:18 rpmi: gtk-builder-convert-2.24.33-alt2 sisyphus+361465.100.1.1 1730475121 installed
+<13>May 16 01:40:18 rpmi: python3-module-pyudev-0.24.3-alt1 sisyphus+347852.100.1.1 1715497013 installed
+<13>May 16 01:40:18 rpmi: python3-module-libevdev-0.11-alt1 sisyphus+300877.100.1.1 1653893962 installed
+<13>May 16 01:40:18 rpmi: libwacom-2.15.0-alt1 sisyphus+378824.100.1.1 1742614418 installed
+<13>May 16 01:40:18 rpmi: libinput-1.28.1-alt1 sisyphus+379958.100.1.1 1743546134 installed
+<13>May 16 01:40:18 rpmi: libpython3-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:40:18 rpmi: python3-module-py3dephell-0.3.1-alt1 sisyphus+365261.200.1.1 1734463433 installed
+<13>May 16 01:40:18 rpmi: python3-module-autocommand-2.2.2-alt1.1 sisyphus+339714.100.1.1 1706968174 installed
+<13>May 16 01:40:18 rpmi: python3-module-jaraco.context-6.0.1-alt1.1 sisyphus+376369.6200.10.1 1746628448 installed
+<13>May 16 01:40:18 rpmi: python3-module-jaraco.text-4.0.0-alt1.1 sisyphus+376369.7300.10.1 1746628739 installed
+<13>May 16 01:40:18 rpmi: python3-module-packaging-25.0-alt1 sisyphus+382195.100.1.1 1745223121 installed
+<13>May 16 01:40:18 rpmi: python3-module-platformdirs-4.3.7-alt1 sisyphus+378659.100.2.1 1742562597 installed
+<13>May 16 01:40:18 rpmi: python3-module-wheel-0.45.1-alt3 sisyphus+384059.500.2.1 1747240259 installed
+<13>May 16 01:40:18 rpmi: python3-module-pkg_resources-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:40:18 rpmi: python3-module-z3c-3.0.0-alt4 sisyphus+284857.200.1.1 1631109149 installed
+<13>May 16 01:40:18 rpmi: python3-module-zc-1.0.0-alt7 sisyphus+284857.100.1.1 1631109117 installed
+<13>May 16 01:40:18 rpmi: python3-module-zope.interface-7.2-alt1.1 sisyphus+376369.21500.10.1 1746631801 installed
+<13>May 16 01:40:18 rpmi: tests-for-installed-python3-pkgs-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:40:18 rpmi: rpm-build-python3-0.1.28-alt1 sisyphus+375953.100.2.1 1740855713 installed
+<13>May 16 01:40:20 rpmi: python3-dev-3.12.10-alt1 sisyphus+381757.100.1.1 1744802808 installed
+<13>May 16 01:40:20 rpmi: libdevmapper-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 01:40:20 rpmi: mount-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 01:40:20 rpmi: losetup-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 01:40:20 rpmi: libkmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 01:40:20 rpmi: kmod-32-alt1 sisyphus+357452.100.2.1 1727718007 installed
+<13>May 16 01:40:20 rpmi: lsblk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<86>May 16 01:40:20 groupadd[3671806]: group added to /etc/group: name=tape, GID=996
+<86>May 16 01:40:20 groupadd[3671806]: group added to /etc/gshadow: name=tape
+<86>May 16 01:40:20 groupadd[3671806]: new group: name=tape, GID=996
+<86>May 16 01:40:20 groupadd[3671823]: group added to /etc/group: name=dialout, GID=995
+<86>May 16 01:40:20 groupadd[3671823]: group added to /etc/gshadow: name=dialout
+<86>May 16 01:40:20 groupadd[3671823]: new group: name=dialout, GID=995
+<86>May 16 01:40:20 groupadd[3671836]: group added to /etc/group: name=input, GID=994
+<86>May 16 01:40:20 groupadd[3671836]: group added to /etc/gshadow: name=input
+<86>May 16 01:40:20 groupadd[3671836]: new group: name=input, GID=994
+<86>May 16 01:40:20 groupadd[3671852]: group added to /etc/group: name=video, GID=993
+<86>May 16 01:40:20 groupadd[3671852]: group added to /etc/gshadow: name=video
+<86>May 16 01:40:20 groupadd[3671852]: new group: name=video, GID=993
+<86>May 16 01:40:20 groupadd[3671867]: group added to /etc/group: name=render, GID=992
+<86>May 16 01:40:20 groupadd[3671867]: group added to /etc/gshadow: name=render
+<86>May 16 01:40:20 groupadd[3671867]: new group: name=render, GID=992
+<86>May 16 01:40:20 groupadd[3671881]: group added to /etc/group: name=sgx, GID=991
+<86>May 16 01:40:20 groupadd[3671881]: group added to /etc/gshadow: name=sgx
+<86>May 16 01:40:20 groupadd[3671881]: new group: name=sgx, GID=991
+<13>May 16 01:40:20 rpmi: udev-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: dmsetup-1.02.204-alt1 sisyphus+374689.200.1.1 1739555038 installed
+<13>May 16 01:40:21 rpmi: dconf-profile-0.2-alt1 sisyphus+371122.100.2.1 1737999051 installed
+<13>May 16 01:40:21 rpmi: systemd-modules-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: systemd-sysctl-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: systemd-tmpfiles-common-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: systemd-utils-filetriggers-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: libfdisk-2.39.2-alt2 sisyphus+368471.140.2.1 1737124262 installed
+<13>May 16 01:40:21 rpmi: systemd-utils-standalone-1:257.5-alt3 sisyphus+382915.200.3.1 1746543080 installed
+<13>May 16 01:40:21 rpmi: desktop-file-utils-0.26-alt6 sisyphus+331944.100.1.3 1697550026 installed
+<13>May 16 01:40:21 rpmi: shared-mime-info-2.4-alt1 sisyphus+334259.100.1.1 1699787316 installed
+<13>May 16 01:40:21 rpmi: gsettings-desktop-schemas-data-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:40:21 rpmi: libgio-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:40:21 rpmi: gsettings-desktop-schemas-48.0-alt1 sisyphus+378339.40.1.1 1742244109 installed
+<13>May 16 01:40:22 rpmi: glib2-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:40:22 rpmi: libgdk-pixbuf-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 01:40:22 rpmi: libgio-devel-2.84.1-alt1 sisyphus+380348.100.1.1 1743722269 installed
+<13>May 16 01:40:22 rpmi: libgdk-pixbuf-devel-2.42.12-alt1 sisyphus+376290.7700.24.2 1745384347 installed
+<13>May 16 01:40:22 rpmi: gtk4-update-icon-cache-4.18.5-alt1 sisyphus+383208.100.1.1 1746338029 installed
+<13>May 16 01:40:22 rpmi: libatk-devel-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 01:40:22 rpmi: libdconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 01:40:22 rpmi: dconf-0.40.0-alt3 sisyphus+325650.100.1.1 1690417205 installed
+<13>May 16 01:40:22 rpmi: libgtk+3-schemas-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 01:40:22 rpmi: libjson-glib-1.10.6-alt1 sisyphus+364645.100.1.1 1733849752 installed
+<13>May 16 01:40:22 rpmi: libgusb-0.4.9-alt1 sisyphus+345693.100.1.1 1713857461 installed
+<13>May 16 01:40:22 rpmi: libcolord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 01:40:22 rpmi: libpolkit-126-alt2 sisyphus+383823.100.1.1 1746990253 installed
+<86>May 16 01:40:22 groupadd[3673529]: group added to /etc/group: name=colord, GID=990
+<86>May 16 01:40:22 groupadd[3673529]: group added to /etc/gshadow: name=colord
+<86>May 16 01:40:22 groupadd[3673529]: new group: name=colord, GID=990
+<86>May 16 01:40:22 useradd[3673542]: new user: name=colord, UID=998, GID=990, home=/var/colord, shell=/dev/null, from=none
+<13>May 16 01:40:22 rpmi: colord-1.4.7-alt1.1 sisyphus+338793.100.1.1 1706039016 installed
+<13>May 16 01:40:22 rpmi: libX11-locales-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:40:22 rpmi: libXdmcp-1.1.5-alt1 sisyphus+343583.700.1.1 1711441061 installed
+<13>May 16 01:40:22 rpmi: libxcb-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:40:22 rpmi: libX11-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:40:22 rpmi: libXext-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:40:22 rpmi: libXrender-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:40:22 rpmi: libcairo-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:40:24 rpmi: libxcb-devel-1.17.0-alt1 sisyphus+345308.200.1.1 1713342004 installed
+<13>May 16 01:40:24 rpmi: libX11-devel-3:1.8.11-alt1 sisyphus+373040.100.1.1 1738571640 installed
+<13>May 16 01:40:24 rpmi: libXrender-devel-0.9.12-alt1 sisyphus+373121.100.1.1 1738654919 installed
+<13>May 16 01:40:24 rpmi: libcairo-gobject-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:40:24 rpmi: libXft-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:40:24 rpmi: libpango-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 01:40:24 rpmi: libXi-1.8-alt1 sisyphus+285490.200.1.1 1632124174 installed
+<13>May 16 01:40:24 rpmi: libat-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 01:40:24 rpmi: libXfixes-6.0.1-alt1 sisyphus+331490.300.1.1 1697023233 installed
+<13>May 16 01:40:24 rpmi: libXcursor-1.2.2-alt1 sisyphus+343583.600.1.1 1711441025 installed
+<13>May 16 01:40:24 rpmi: at-spi2-atk-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 01:40:24 rpmi: libXext-devel-1.3.6-alt1 sisyphus+343583.1000.1.1 1711441101 installed
+<13>May 16 01:40:24 rpmi: libharfbuzz-cairo-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:40:24 rpmi: fontconfig-devel-2.16.0-alt1 sisyphus+374470.100.1.1 1739370046 installed
+<13>May 16 01:40:24 rpmi: libfreetype-devel-2.13.3-alt1 sisyphus+355656.100.1.1 1724221064 installed
+<13>May 16 01:40:24 rpmi: libcairo-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:40:24 rpmi: libharfbuzz-devel-11.2.1-alt1 sisyphus+384013.100.1.1 1747136771 installed
+<13>May 16 01:40:24 rpmi: libcairo-gobject-devel-1:1.18.4-alt1 sisyphus+377471.100.1.1 1741589812 installed
+<13>May 16 01:40:24 rpmi: libXft-devel-2.3.8-alt1 sisyphus+331490.400.1.1 1697023269 installed
+<13>May 16 01:40:24 rpmi: libpango-devel-1.56.3-alt1 sisyphus+378230.100.1.1 1742149546 installed
+<13>May 16 01:40:24 rpmi: libXrandr-1.5.4-alt1 sisyphus+330992.100.1.1 1696485400 installed
+<13>May 16 01:40:24 rpmi: libXtst-1.2.4-alt1 sisyphus+308663.1300.1.1 1666168495 installed
+<13>May 16 01:40:24 rpmi: libXinerama-1.1.5-alt1 sisyphus+309287.100.1.1 1667213208 installed
+<13>May 16 01:40:24 rpmi: dbus-tools-gui-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:40:24 rpmi: xprop-1.2.5-alt1 sisyphus+279025.100.1.1 1626354198 installed
+<13>May 16 01:40:24 rpmi: at-spi2-core-2.56.2-alt1 sisyphus+382828.100.1.1 1745927618 installed
+<13>May 16 01:40:24 rpmi: libXcomposite-0.4.6-alt1 sisyphus+311188.200.1.1 1670233682 installed
+<13>May 16 01:40:24 rpmi: libXdamage-1.1.6-alt1 sisyphus+311188.300.1.1 1670233711 installed
+<13>May 16 01:40:25 rpmi: libgtk+3-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 01:40:25 rpmi: libxkbcommon-x11-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 01:40:25 rpmi: libxkbcommon-x11-devel-1.9.2-alt1 sisyphus+383571.100.1.1 1746644628 installed
+<13>May 16 01:40:25 rpmi: libgtk+3-devel-3.24.49-alt1 sisyphus+377112.100.1.1 1741282544 installed
+<13>May 16 01:40:25 rpmi: python3-module-setuptools-1:80.4.0-alt1 sisyphus+384059.100.2.1 1747240150 installed
+<13>May 16 01:40:25 rpmi: python3-module-zope-3.3.0-alt9 sisyphus+281937.200.4.1 1628175900 installed
+<13>May 16 01:40:25 rpmi: libinput-devel-1.28.1-alt1 sisyphus+379958.100.1.1 1743546134 installed
+<13>May 16 01:40:25 rpmi: libgbm-devel-4:25.0.6-alt1 sisyphus+384218.100.1.2 1747317088 installed
+<13>May 16 01:40:25 rpmi: libdrm-devel-1:2.4.124-alt2 sisyphus+377609.100.1.1 1741680389 installed
+<13>May 16 01:40:25 rpmi: libseat1-devel-0.9.1-alt1 sisyphus+361326.40.1.1 1730462743 installed
+<13>May 16 01:40:25 rpmi: libdbus-devel-1.16.2-alt1 sisyphus+376383.100.1.1 1740749230 installed
+<13>May 16 01:40:25 rpmi: libexpat-devel-2.7.1-alt1 sisyphus+379929.100.1.1 1743519381 installed
+<13>May 16 01:40:25 rpmi: libzstd-devel-1.5.5-alt2 sisyphus+327847.100.1.1 1692867219 installed
+<13>May 16 01:40:26 rpmi: cargo-vendor-filterer-0.5.17-alt1 sisyphus+373457.100.1.1 1738913849 installed
+Building target platforms: x86_64
+Building for target x86_64
+Wrote: /usr/src/in/nosrpm/asusctl-6.1.12-alt1.nosrc.rpm (w1.gzdio)
+Installing asusctl-6.1.12-alt1.src.rpm
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /usr/src/tmp/rpm-tmp.79701
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ rm -rf asusctl-6.1.12
++ echo 'Source #0 (asusctl-6.1.12.tar):'
+Source #0 (asusctl-6.1.12.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/asusctl-6.1.12.tar
++ cd asusctl-6.1.12
++ echo 'Source #2 (vendor_asusctl-6.1.12.tar):'
+Source #2 (vendor_asusctl-6.1.12.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/vendor_asusctl-6.1.12.tar
++ echo 'Source #3 (cargo_src.tar):'
+Source #3 (cargo_src.tar):
++ /bin/tar -xf /usr/src/RPM/SOURCES/cargo_src.tar
++ /bin/chmod -c -Rf u+rwX,go-w .
++ install -m755 /usr/src/RPM/SOURCES/update-vendor.sh .
++ install -D -m644 /usr/src/RPM/SOURCES/config.toml .cargo/config.toml
++ /usr/bin/subst 's^/usr/bin/sleep^/bin/sleep^' ./data/asusd-user.service
++ exit 0
+Executing(%build): /bin/sh -e /usr/src/tmp/rpm-tmp.23576
++ umask 022
++ /bin/mkdir -p /usr/src/RPM/BUILD
++ cd /usr/src/RPM/BUILD
++ cd asusctl-6.1.12
++ export RUSTFLAGS=-Clink-arg=-Wl,-z,relro,-z,now
++ RUSTFLAGS=-Clink-arg=-Wl,-z,relro,-z,now
++ RUST_BACKTRACE=1
++ export CARGO_HOME=/usr/src/RPM/BUILD/asusctl-6.1.12/cargo_src
++ CARGO_HOME=/usr/src/RPM/BUILD/asusctl-6.1.12/cargo_src
++ export 'RUSTFLAGS=-Clink-arg=-Wl,-z,relro,-z,now -g'
++ RUSTFLAGS='-Clink-arg=-Wl,-z,relro,-z,now -g'
++ cargo build --release -j8 --offline
+   Compiling proc-macro2 v1.0.94
+   Compiling unicode-ident v1.0.18
+   Compiling autocfg v1.4.0
+   Compiling crossbeam-utils v0.8.21
+   Compiling serde v1.0.219
+   Compiling cfg-if v1.0.0
+   Compiling libc v0.2.171
+   Compiling libm v0.2.11
+   Compiling rayon-core v1.12.1
+   Compiling portable-atomic v1.11.0
+   Compiling critical-section v1.2.0
+   Compiling either v1.15.0
+   Compiling log v0.4.27
+   Compiling pin-project-lite v0.2.16
+   Compiling memchr v2.7.4
+   Compiling pkg-config v0.3.32
+   Compiling shlex v1.3.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling rustix v0.38.44
+   Compiling quote v1.0.40
+   Compiling crossbeam-deque v0.8.6
+   Compiling syn v2.0.100
+   Compiling equivalent v1.0.2
+   Compiling allocator-api2 v0.2.21
+   Compiling foldhash v0.1.5
+   Compiling linux-raw-sys v0.4.15
+   Compiling num-traits v0.2.19
+   Compiling slab v0.4.9
+   Compiling once_cell v1.21.3
+   Compiling winnow v0.7.4
+   Compiling toml_datetime v0.6.8
+   Compiling version_check v0.9.5
+   Compiling cc v1.2.18
+   Compiling rayon v1.10.0
+   Compiling futures-core v0.3.31
+   Compiling tracing-core v0.1.33
+   Compiling cfg_aliases v0.2.1
+   Compiling parking v2.2.1
+   Compiling concurrent-queue v2.5.0
+   Compiling futures-io v0.3.31
+   Compiling event-listener v5.4.0
+   Compiling thiserror v1.0.69
+   Compiling event-listener-strategy v0.5.4
+   Compiling fastrand v2.3.0
+   Compiling memoffset v0.9.1
+   Compiling futures-lite v2.6.0
+   Compiling async-lock v3.4.0
+   Compiling hashbrown v0.15.2
+   Compiling smallvec v1.15.0
+   Compiling async-task v4.7.1
+   Compiling async-channel v2.3.1
+   Compiling static_assertions v1.1.0
+   Compiling pin-utils v0.1.0
+   Compiling atomic-waker v1.1.2
+   Compiling endi v1.1.0
+   Compiling nix v0.29.0
+   Compiling piper v0.2.4
+   Compiling libloading v0.8.6
+   Compiling anyhow v1.0.97
+   Compiling minimal-lexical v0.2.1
+   Compiling arrayvec v0.7.6
+   Compiling blocking v1.6.1
+   Compiling nom v7.1.3
+   Compiling async-executor v1.13.1
+   Compiling async-fs v2.1.2
+   Compiling indexmap v2.9.0
+   Compiling bitflags v1.3.2
+   Compiling async-broadcast v0.7.2
+   Compiling synstructure v0.13.1
+   Compiling toml_edit v0.22.24
+   Compiling xdg-home v1.3.0
+   Compiling ordered-stream v0.2.0
+   Compiling hex v0.4.3
+   Compiling dlib v0.5.2
+   Compiling signal-hook-registry v1.4.2
+   Compiling wayland-sys v0.31.6
+   Compiling paste v1.0.15
+   Compiling built v0.7.7
+   Compiling simd-adler32 v0.3.7
+   Compiling bitflags v2.9.0
+   Compiling rav1e v0.7.1
+   Compiling wayland-backend v0.3.8
+   Compiling proc-macro-crate v3.3.0
+   Compiling adler2 v2.0.0
+   Compiling stable_deref_trait v1.2.0
+   Compiling weezl v0.1.8
+   Compiling miniz_oxide v0.8.7
+   Compiling core_maths v0.1.1
+   Compiling simd_helpers v0.1.0
+   Compiling libudev-sys v0.1.4
+   Compiling color_quant v1.1.0
+   Compiling base64 v0.22.1
+   Compiling downcast-rs v1.2.1
+   Compiling unicode-xid v0.2.6
+   Compiling io-lifetimes v1.0.11
+   Compiling noop_proc_macro v0.3.0
+   Compiling scoped-tls v1.0.1
+   Compiling ttf-parser v0.25.1
+   Compiling aho-corasick v1.1.3
+   Compiling quick-xml v0.37.4
+   Compiling crc32fast v1.4.2
+   Compiling futures-sink v0.3.31
+   Compiling wayland-client v0.31.8
+   Compiling regex-syntax v0.8.5
+   Compiling futures-channel v0.3.31
+   Compiling flate2 v1.1.1
+   Compiling memmap2 v0.9.5
+   Compiling serde_derive v1.0.219
+   Compiling tracing-attributes v0.1.28
+   Compiling enumflags2_derive v0.7.11
+   Compiling thiserror-impl v1.0.69
+   Compiling async-trait v0.1.88
+   Compiling serde_repr v0.1.20
+   Compiling tracing v0.1.41
+   Compiling zerofrom-derive v0.1.6
+   Compiling bytemuck_derive v1.9.3
+   Compiling profiling-procmacros v1.0.16
+   Compiling yoke-derive v0.7.5
+   Compiling bytemuck v1.22.0
+   Compiling arg_enum_proc_macro v0.3.4
+   Compiling zerovec-derive v0.10.3
+   Compiling zerofrom v0.1.6
+   Compiling yoke v0.7.5
+   Compiling num-derive v0.4.2
+   Compiling displaydoc v0.2.5
+   Compiling derive_more-impl v2.0.1
+   Compiling regex-automata v0.4.9
+   Compiling wayland-scanner v0.31.6
+   Compiling zerovec v0.10.4
+   Compiling futures-macro v0.3.31
+   Compiling slotmap v1.0.7
+   Compiling futures-task v0.3.31
+   Compiling rustversion v1.0.20
+   Compiling glob v0.3.2
+   Compiling clang-sys v1.8.1
+   Compiling enumflags2 v0.7.11
+   Compiling zvariant_utils v3.2.0
+   Compiling regex v1.11.1
+   Compiling zvariant_derive v5.4.0
+   Compiling futures-util v0.3.31
+   Compiling zvariant v5.4.0
+   Compiling tinystr v0.7.6
+   Compiling tinyvec_macros v0.1.1
+   Compiling litemap v0.7.5
+   Compiling icu_locid_transform_data v1.5.1
+   Compiling roxmltree v0.20.0
+   Compiling prettyplease v0.2.32
+   Compiling writeable v0.5.5
+   Compiling zbus_names v4.2.0
+   Compiling fontconfig-parser v0.5.7
+   Compiling icu_locid v1.5.0
+   Compiling zbus_macros v5.5.0
+   Compiling tinyvec v1.9.0
+   Compiling polling v3.7.4
+   Compiling async-io v2.4.0
+   Compiling async-signal v0.2.10
+   Compiling icu_provider_macros v1.5.0
+   Compiling async-process v2.3.0
+   Compiling fdeflate v0.3.7
+   Compiling mio v0.8.11
+   Compiling heck v0.5.0
+   Compiling float-cmp v0.9.0
+   Compiling icu_properties_data v1.5.1
+   Compiling semver v1.0.26
+   Compiling strict-num v0.1.1
+   Compiling strum_macros v0.27.1
+   Compiling udev v0.8.0
+   Compiling fontdb v0.23.0
+   Compiling png v0.17.16
+   Compiling icu_provider v1.5.0
+   Compiling zbus v5.5.0
+   Compiling num-integer v0.1.46
+   Compiling libusb1-sys v0.7.0
+   Compiling icu_normalizer_data v1.5.1
+   Compiling arrayref v0.3.9
+   Compiling bindgen v0.71.1
+   Compiling tiny-skia-path v0.11.4
+   Compiling num-bigint v0.4.6
+   Compiling icu_locid_transform v1.5.0
+   Compiling wayland-protocols v0.32.6
+   Compiling icu_collections v1.5.0
+   Compiling tokio-macros v2.5.0
+   Compiling cexpr v0.6.0
+   Compiling mio v1.0.3
+   Compiling socket2 v0.5.9
+   Compiling itertools v0.13.0
+   Compiling aligned-vec v0.5.0
+   Compiling typenum v1.18.0
+   Compiling khronos_api v3.1.0
+   Compiling rustc-hash v2.1.1
+   Compiling serde_json v1.0.140
+   Compiling v_frame v0.3.8
+   Compiling tokio v1.44.1
+   Compiling icu_properties v1.5.1
+   Compiling num-rational v0.4.2
+   Compiling rustc_version v0.4.1
+   Compiling calloop v0.13.0
+   Compiling derive_more v2.0.1
+   Compiling getrandom v0.2.15
+   Compiling generic-array v0.14.7
+   Compiling miniz_oxide v0.4.4
+   Compiling quick-error v2.0.1
+   Compiling xcursor v0.3.8
+   Compiling xkeysym v0.2.1
+   Compiling rusb v0.9.4
+   Compiling utf16_iter v1.0.5
+   Compiling cursor-icon v1.1.0
+   Compiling write16 v1.0.0
+   Compiling utf8_iter v1.0.4
+   Compiling pix v0.13.4
+   Compiling smithay-client-toolkit v0.19.2
+   Compiling icu_normalizer v1.5.0
+   Compiling wayland-csd-frame v0.3.0
+   Compiling maybe-rayon v0.1.1
+   Compiling wayland-cursor v0.31.8
+   Compiling wayland-protocols-wlr v0.3.6
+   Compiling i-slint-common v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling calloop-wayland-source v0.3.0
+   Compiling field-offset v0.3.6
+   Compiling av1-grain v0.2.3
+   Compiling tiny-skia v0.11.4
+   Compiling dmi_id v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/dmi-id)
+   Compiling itertools v0.12.1
+   Compiling ron v0.9.0
+   Compiling rgb v0.8.50
+   Compiling profiling v1.0.16
+   Compiling kurbo v0.11.1
+   Compiling sg v0.4.0 (https://github.com/flukejones/sg-rs.git#b1ce961a)
+   Compiling euclid v0.22.11
+   Compiling inotify-sys v0.1.5
+   Compiling new_debug_unreachable v1.0.6
+   Compiling byteorder-lite v0.1.0
+   Compiling zerocopy v0.8.24
+   Compiling unicode-properties v0.1.3
+   Compiling unicode-bidi-mirroring v0.4.0
+   Compiling imgref v1.11.0
+   Compiling adler v1.0.2
+   Compiling bitstream-io v2.6.0
+   Compiling unicode-ccc v0.4.0
+   Compiling siphasher v1.0.1
+   Compiling unicode-script v0.5.7
+   Compiling temp-dir v0.1.14
+   Compiling zune-core v0.4.12
+   Compiling xml-rs v0.8.25
+   Compiling zune-jpeg v0.4.14
+   Compiling rustybuzz v0.20.1
+   Compiling gl_generator v0.14.0
+   Compiling image-webp v0.2.1
+   Compiling loop9 v0.1.5
+   Compiling gettext-sys v0.22.5
+   Compiling svgtypes v0.15.3
+   Compiling gif v0.13.1
+   Compiling lyon_geom v1.0.6
+   Compiling inotify v0.10.2
+   Compiling idna_adapter v1.2.0
+   Compiling concat-idents v1.1.5
+   Compiling zune-inflate v0.2.54
+   Compiling avif-serialize v0.8.3
+   Compiling zvariant_utils v2.1.0
+   Compiling half v2.5.0
+   Compiling simplecss v0.2.2
+   Compiling percent-encoding v2.3.1
+   Compiling xmlwriter v0.1.0
+   Compiling bit_field v0.10.2
+   Compiling unicode-bidi v0.3.18
+   Compiling lebe v0.5.2
+   Compiling jpeg-decoder v0.3.1
+   Compiling imagesize v0.13.0
+   Compiling pico-args v0.5.0
+   Compiling data-url v0.3.1
+   Compiling unicode-vo v0.1.0
+   Compiling exr v1.73.0
+   Compiling ravif v0.11.11
+   Compiling usvg v0.45.0
+   Compiling tiff v0.9.1
+   Compiling form_urlencoded v1.2.1
+   Compiling rog_platform v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-platform)
+   Compiling png_pong v0.8.2
+   Compiling idna v1.0.3
+   Compiling lyon_path v1.0.7
+   Compiling glutin_egl_sys v0.7.1
+   Compiling logind-zbus v5.2.0
+   Compiling glam v0.22.0
+   Compiling qoi v0.4.1
+   Compiling owned_ttf_parser v0.25.0
+   Compiling num_enum_derive v0.7.3
+   Compiling const-field-offset-macro v0.1.5 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling gif v0.12.0
+   Compiling is-terminal v0.4.16
+   Compiling ahash v0.8.11
+   Compiling linereader v0.4.0
+   Compiling codemap v0.1.3
+   Compiling i-slint-compiler v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling text-size v1.1.1
+   Compiling itoa v1.0.15
+   Compiling ttf-parser v0.21.1
+   Compiling humantime v2.2.0
+   Compiling lazy_static v1.5.0
+   Compiling termcolor v1.4.1
+   Compiling rustc-hash v1.1.0
+   Compiling ab_glyph_rasterizer v0.1.8
+   Compiling ryu v1.0.20
+   Compiling hashbrown v0.14.5
+   Compiling countme v3.0.1
+   Compiling linked-hash-map v0.5.6
+   Compiling codemap-diagnostic v0.1.2
+   Compiling rowan v0.16.1
+   Compiling linked_hash_set v0.1.5
+   Compiling fontdue v0.9.3
+   Compiling env_logger v0.10.2
+   Compiling ab_glyph v0.2.29
+   Compiling locale_config v0.3.0
+   Compiling num_enum v0.7.3
+   Compiling rog_anime v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-anime)
+   Compiling polib v0.2.0
+   Compiling const-field-offset v0.1.5 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling ppv-lite86 v0.2.21
+   Compiling image v0.25.6
+   Compiling resvg v0.45.0
+   Compiling lyon_extra v1.0.3
+   Compiling rog_scsi v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-scsi)
+   Compiling url v2.5.4
+   Compiling rog_profiles v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-profiles)
+   Compiling zvariant_derive v4.2.0
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling rog_aura v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-aura)
+   Compiling config-traits v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/config-traits)
+   Compiling rog_slash v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-slash)
+   Compiling rand_core v0.6.4
+   Compiling strum v0.27.1
+   Compiling vtable-macro v0.2.1 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling pin-project-internal v1.1.10
+   Compiling derive_utils v0.15.0
+   Compiling winit v0.30.9
+   Compiling glutin v0.32.2
+   Compiling itertools v0.14.0
+   Compiling typed-index-collections v3.2.3
+   Compiling zerocopy v0.7.35
+   Compiling unicode-segmentation v1.12.0
+   Compiling raw-window-handle v0.6.2
+   Compiling smol_str v0.3.2
+   Compiling iana-time-zone v0.1.63
+   Compiling by_address v1.2.1
+   Compiling chrono v0.4.40
+   Compiling vtable v0.2.1 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling pin-project v1.1.10
+   Compiling spin_on v0.1.1
+   Compiling asusd v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/asusd)
+   Compiling auto_enums v0.8.7
+   Compiling zvariant v4.2.0
+   Compiling rand_chacha v0.3.1
+   Compiling digest v0.10.7
+   Compiling gettext-rs v0.7.2
+   Compiling i-slint-core-macros v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling sctk-adwaita v0.10.1
+   Compiling lyon_algorithms v1.0.5
+   Compiling xkbcommon-dl v0.4.2
+   Compiling wayland-protocols-plasma v0.3.6
+   Compiling integer-sqrt v0.1.5
+   Compiling glutin-winit v0.5.0
+   Compiling unicode-linebreak v0.1.5
+   Compiling pin-weak v1.1.0
+   Compiling lru v0.12.5
+   Compiling glow v0.16.0
+   Compiling scoped-tls-hkt v0.1.5
+   Compiling smol_str v0.2.2
+   Compiling scopeguard v1.2.0
+   Compiling fnv v1.0.7
+   Compiling cpufeatures v0.2.17
+   Compiling syn v1.0.109
+   Compiling dpi v0.1.1
+   Compiling sys-locale v0.3.2
+   Compiling clru v0.6.2
+   Compiling i-slint-core v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling sha1 v0.10.6
+   Compiling zbus_names v3.0.0
+   Compiling femtovg v0.12.0
+   Compiling rand v0.8.5
+   Compiling zbus_macros v4.4.0
+   Compiling smithay-clipboard v0.7.2
+   Compiling futures-executor v0.3.31
+   Compiling i-slint-backend-winit v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling futures v0.3.31
+   Compiling zbus v4.4.0
+   Compiling i-slint-renderer-femtovg v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling copypasta v0.10.1
+   Compiling rog_dbus v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-dbus)
+   Compiling i-slint-backend-selector v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling dirs-sys v0.3.7
+   Compiling dirs v4.0.0
+   Compiling gumdrop_derive v0.8.1
+   Compiling slint-build v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling gumdrop v0.8.1
+   Compiling async-net v2.0.0
+   Compiling rog-control-center v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/rog-control-center)
+   Compiling slint-macros v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling udev v0.9.3
+   Compiling supergfxctl v5.2.7 (https://gitlab.com/asus-linux/supergfxctl.git#bcdca4be)
+   Compiling slint v1.11.0 (https://github.com/slint-ui/slint.git#538f8bde)
+   Compiling versions v6.3.2
+   Compiling smol v2.0.2
+   Compiling ksni v0.3.1
+   Compiling notify-rust v4.11.6
+   Compiling asusd-user v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/asusd-user)
+   Compiling asusctl v6.1.12 (/usr/src/RPM/BUILD/asusctl-6.1.12/asusctl)
+
+hasher-privd: parent: handle_io: idle time limit (3600 seconds) exceeded
+hsh-rebuild: rebuild of `asusctl-6.1.12-alt1.src.rpm' failed.
+Command exited with non-zero status 1
+14.87user 3.36system 1:19:24elapsed 0%CPU (0avgtext+0avgdata 142568maxresident)k
+173248inputs+0outputs (0major+359516minor)pagefaults 0swaps
