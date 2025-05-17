@@ -16,7 +16,7 @@
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-**Установка ollama**
+**Установка Qwen**
 ```bash
 ollama pull qwen3:0.6b
 ```
