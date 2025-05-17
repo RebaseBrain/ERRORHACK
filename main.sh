@@ -43,21 +43,31 @@ done
 # Set delimiter based on format
 delimiter=$'\t'
 if [[ "$output_format" == "csv" ]]; then
-  delimiter=","
+	delimiter=","
 fi
 
 # Output file in project root
 output_file="build_errors.$output_format"
 
-# Write headers (all fields)
-echo "${red}namepackage${delimiter}errorType${delimiter}pathToLogFile${delimite}" > "$output_file"
+if [[ "$output_format" == "tsv" ]]; then
+	echo -e "${red}Number\tclusterName${reset}" >> "$output_file"
+else
+	echo "clusterNumber,clusterName" >> "$output_file"
+fi
 
-# Use jq with sub() instead of gsub() for compatibility
 jq -r --arg delim "$delimiter" '.[] | [
-    .namepackage,
-    .errorType,
-    (.pathToLogFile | sub("\\\\"; "/"; "g")),
-  ] | join($delim)' "$json_path" >> "$output_file"
+	.clusterNumber,
+	.clusterName
+	] | join($delim)' "$json_path" >> "$output_file"
 
-# Display the table
-column -s "$delimiter" -t < "$output_file" | less -S
+
+printClusters() {
+	column -s "$delimiter" -t < "$output_file"
+}
+
+printClusters
+
+printCluster() {
+	read -p "Choose cluster ID: " clusterID
+	
+}
