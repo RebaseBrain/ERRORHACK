@@ -107,11 +107,10 @@ if __name__ == "__main__":
             cluster_id = find_nearest_cluster(content, vectorizer, model, X_ref)
 
             if cluster_id == -1:
-                keywords = get_top_terms(content, vectorizer, top_n=5)
-                name_cluster = "noise"
+                continue  # пропускаем noise-кластеры
             else:
                 keywords = cluster_keywords.get(str(cluster_id), ["unknown"])
-                name_cluster = "_".join(keywords[:3])[:50].strip("_") if keywords else f"cluster_{cluster_id}"
+                name_cluster = int(cluster_id)  # сохраняем число
 
             err = {
 				"namepackage": filename,

@@ -25,8 +25,8 @@ if __name__ == '__main__':
         group = aboba_sort(data, cluster_id)
 
         # Получаем имя кластера из карты названий
-        name = cluster_name_map.get(str(cluster_id), f"cluster_{cluster_id}")
-        filename_safe = name.replace(" ", "+").replace("/", "_")
+        name = cluster_name_map.get(str(cluster_id), f"{cluster_id}")
+        filename_safe = name.replace(" ", "_").replace("/", "_")
 
         with open(f"./clusters/{filename_safe}.json", "w", encoding="utf-8") as f:
             json.dump(group, f, indent=2, ensure_ascii=False)
