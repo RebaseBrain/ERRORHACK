@@ -22,7 +22,8 @@ class Errors:
         return {
             "namepackage": self.namepackage,
             "errortype": self.errortype,
-            "pathToLogFile": self.pathToLogFile
+            "pathToLogFile": self.pathToLogFile,
+            "nameCluster": self.nameCluster
         }
 
 
