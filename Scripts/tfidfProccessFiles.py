@@ -59,11 +59,11 @@ def preprocess_text(text):
     return text.strip()
 
 def load_cluster_model():
-    vectorizer = load('vectorizer.joblib')
-    model = load('hdbscan_model.joblib')
-    with open('cluster_keywords.json', 'r') as f:
+    vectorizer = load('./Scripts/vectorizer.joblib')
+    model = load('./Scripts/hdbscan_model.joblib')
+    with open('./Scripts/cluster_keywords.json', 'r') as f:
         cluster_keywords = json.load(f)
-    X_ref = sparse.load_npz('X_reference.npz')
+    X_ref = sparse.load_npz('./Scripts/X_reference.npz')
     return vectorizer, model, cluster_keywords, X_ref
 
 def find_nearest_cluster(text_input, vectorizer, model, X_ref):
@@ -87,8 +87,8 @@ def get_top_terms(text, vectorizer, top_n=5):
 if __name__ == "__main__":
     vectorizer, model, cluster_keywords, X_ref = load_cluster_model()
 
-    log_dir = "./Parser/errors/"
-    output_path = "Parser/list_data.json"
+    log_dir = "./errors/"
+    output_path = "./list_data.json"
     errs = []
 
     for filename in os.listdir(log_dir):
@@ -112,7 +112,7 @@ if __name__ == "__main__":
             err = Errors(
                 namepackage=filename,
                 errortype=", ".join(keywords),
-                pathToLogFile=os.path.join("./Parser/logs", filename)
+                pathToLogFile=os.path.join("./logs", filename)
             )
             errs.append(err)
 

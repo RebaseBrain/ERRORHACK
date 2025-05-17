@@ -11,12 +11,12 @@ from scipy import sparse
 import hdbscan
 
 # Пути
-LOG_DIR = "./Parser/errors/"
-HDBSCAN_PATH = "hdbscan_model.joblib"
-VECTORIZER_PATH = "vectorizer.joblib"
-KEYWORDS_PATH = "cluster_keywords.json"
-CLUSTER_MAP_PATH = "cluster_map.json"
-X_MATRIX_PATH = "X_reference.npz"
+LOG_DIR = "./errors/"
+HDBSCAN_PATH = "./Scripts/hdbscan_model.joblib"
+VECTORIZER_PATH = "./Scripts/vectorizer.joblib"
+KEYWORDS_PATH = "./Scripts/cluster_keywords.json"
+CLUSTER_MAP_PATH = "./Scripts/cluster_map.json"
+X_MATRIX_PATH = "./Scripts/X_reference.npz"
 
 # Стоп-слова
 COMMON_NOISE = ['usr', 'src', 'tmp', 'lib', 'lib64', 'site-packages']

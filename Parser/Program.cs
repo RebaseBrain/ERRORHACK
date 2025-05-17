@@ -2,7 +2,6 @@
 using Entities;
 using Services;
 using System.Text.Json;
-using TF_IDF;
 
 class Program
 {
@@ -12,13 +11,10 @@ class Program
 
         HttpClient client = new HttpClient();
         string logContent = await client.GetStringAsync(logUrl);
-        //logContent = "https://asdas asd httd a https://dsadad";
         var urls = Regex.Matches(logContent, @"https?://[^\s""'>]+")
                 .Select(m => m.Value)
                 .ToList();
         var abobas = JsonSerializer.Deserialize<FtbfsResponse>(logContent);
-
-        // Console.WriteLine(Python.ExecutePythonScript("../tfidfProccessFiles.py", ""));
 
         if (abobas?.Ftbfs != null)
         {
@@ -44,7 +40,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("У вас абоба нулёвая");
+            Console.WriteLine("Логи ошибок не найдены!");
         }
     }
 }

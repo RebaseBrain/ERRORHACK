@@ -28,36 +28,53 @@ printBanner() {
 	echo -e "${green}╰──────────────────────────────────────────────────────────────────────────────────────────────────────────╯${reset}"
 }
 
+is_project_built() {
+    dotnet_output=$(find ./Parser/bin/Debug -type f -name Parser.dll 2>/dev/null)
+    [[ -n "$dotnet_output" ]]
+}
+
 printBanner
 
-sleep 1
-echo -e "${blue}Analyzing Code...${reset}"
-sleep 1
-
-# Prompt user to choose format
-read -p "Choose output format [csv/tsv]: " output_format
-while [[ ! "$output_format" =~ ^(csv|tsv)$ ]]; do
-  read -p "Invalid choice. Choose [csv/tsv]: " output_format
-done
-
-# Set delimiter based on format
-delimiter=$'\t'
-if [[ "$output_format" == "csv" ]]; then
-  delimiter=","
+if !(is_project_built); then
+	echo -e "${blue}Компиляция парсера...${reset}"
+	dotnet build ./Parser/Parser.csproj
 fi
 
-# Output file in project root
-output_file="build_errors.$output_format"
+# Меню выбора
+echo -e "${blue}Выберите действие:${reset}"
+echo -e "${green}[1]${reset} — собрать и обработать новые логи"
+echo -e "${green}[2]${reset} — обработать логи"
+echo -e "${green}[3]${reset} — обновить кластеры и обработать логи"
+echo -e "${green}[4]${reset} — отмена"
 
-# Write headers (all fields)
-echo "${red}namepackage${delimiter}errorType${delimiter}pathToLogFile${delimite}" > "$output_file"
+read -p "> " user_choice
 
-# Use jq with sub() instead of gsub() for compatibility
-jq -r --arg delim "$delimiter" '.[] | [
-    .namepackage,
-    .errorType,
-    (.pathToLogFile | sub("\\\\"; "/"; "g")),
-  ] | join($delim)' "$json_path" >> "$output_file"
+case "$user_choice" in
+	1)
+		echo -e "${blue}Сборка логов...${reset}"
+		mkdir logs
+		mkdir errors
+		dotnet run --project ./Parser/Parser.csproj
+		python3 ./Scripts/tfidf.py
+		python3 ./Scripts/tfidfProccessFiles.py
+		;;
+	2)
+		echo -e "${blue}Обработка логов...${reset}"
+		python3 ./Scripts/tfidfProccessFiles.py
+		;;
+	3)
+		echo -e "${blue}Обновление кластеров...${reset}"
+		python3 ./Scripts/tfidf.py
+		echo -e "${blue}Обработка логов...${reset}"
+		python3 ./Scripts/tfidfProccessFiles.py
+		;;
+	4)
+		echo -e "${blue}Отмена.${reset}"
+		exit 0;
+		;;
+	*)
+		echo -e "${red}Некорректный ввод. Завершение.${reset}"
+		exit 1
+		;;
+esac
 
-# Display the table
-column -s "$delimiter" -t < "$output_file" | less -S
