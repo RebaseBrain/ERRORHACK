@@ -1,43 +1,105 @@
 import os
 import re
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-from sklearn.feature_extraction import text
 import json
-from joblib import dump
+import numpy as np
 from collections import Counter
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import normalize
+from sklearn.feature_extraction import text
+from joblib import dump
+from scipy import sparse
+import hdbscan
 
+# Пути
 LOG_DIR = "./Parser/errors/"
-N_CLUSTERS = 67  # По умолчанию; можно заменить на автоопределение
+HDBSCAN_PATH = "hdbscan_model.joblib"
 VECTORIZER_PATH = "vectorizer.joblib"
-KMEANS_PATH = "kmeans_model.joblib"
 KEYWORDS_PATH = "cluster_keywords.json"
 CLUSTER_MAP_PATH = "cluster_map.json"
+X_MATRIX_PATH = "X_reference.npz"
 
+# Стоп-слова
 COMMON_NOISE = ['usr', 'src', 'tmp', 'lib', 'lib64', 'site-packages']
 CUSTOM_STOPWORDS = ['checking', 'found', 'alt', 'rpm', 'rpmi', 'linux', 'test', 'tests', 'sisyphus']
-
-def preprocess_text(text_raw):
-    text_raw = text_raw.lower()
-    text_raw = re.sub(r'\b\d+\.\d+\.\d+\b', '', text_raw)
-    text_raw = re.sub(r'\/[\w\.-]+\/[\w\.-]+\.\w+', '', text_raw)
-    text_raw = re.sub(r'\b[0-9a-f]{8,}\b', '', text_raw)
-    text_raw = re.sub(r'\[.*?\]', '', text_raw)
-    text_raw = re.sub(r'[^a-z\s]', ' ', text_raw)
-    for word in COMMON_NOISE:
-        text_raw = re.sub(rf'\b{word}\b', '', text_raw)
-    text_raw = re.sub(r'\s+', ' ', text_raw)
-    return text_raw.strip()
-
-
-# --- 2. Кластеризация ошибок ---
 all_stopwords = list(text.ENGLISH_STOP_WORDS.union(CUSTOM_STOPWORDS))
 
+def remove_repeated_sequences(text, max_ngram=4):
+    words = text.split()
+    cleaned = []
+    i = 0
+    while i < len(words):
+        repeated = False
+        for n in range(max_ngram, 1, -1):
+            if i + 2 * n <= len(words):
+                first = words[i:i + n]
+                second = words[i + n:i + 2 * n]
+                if first == second:
+                    repeated = True
+                    i += n
+                    break
+        if not repeated:
+            if cleaned and words[i] == cleaned[-1]:
+                i += 1
+                continue
+            cleaned.append(words[i])
+            i += 1
+    return ' '.join(cleaned)
 
-def cluster_logs(texts, n_clusters=N_CLUSTERS):
+# Очистка текста
+def preprocess_text(text):
+    text = text.lower()
+    text = re.sub(r'\b\d+\.\d+\.\d+\b', '', text)
+    text = re.sub(r'\/[\w\.-]+\/[\w\.-]+\.\w+', '', text)
+    text = re.sub(r'\b[0-9a-f]{8,}\b', '', text)
+    text = re.sub(r'\[.*?\]', '', text)
+    text = re.sub(r'[^a-z\s]', ' ', text)
+    for word in COMMON_NOISE:
+        text = re.sub(rf'\b{word}\b', '', text)
+    text = re.sub(r'\s+', ' ', text)
+    text = remove_repeated_sequences(text, max_ngram=4)
+    return text.strip()
+
+# Извлечение ключевых слов для каждого кластера
+def extract_keywords(X, labels, vectorizer, top_n=10):
+    terms = vectorizer.get_feature_names_out()
+    X_dense = X.tocsc()
+    cluster_keywords = {}
+
+    for cluster_id in sorted(set(labels)):
+        if cluster_id == -1:
+            continue
+        doc_indices = np.where(labels == cluster_id)[0]
+        sub_matrix = X[doc_indices]
+        mean_tfidf = np.asarray(sub_matrix.mean(axis=0)).flatten()
+        top_indices = mean_tfidf.argsort()[::-1]
+
+        keywords = []
+        for idx in top_indices:
+            col = X_dense[:, idx]
+            if col[doc_indices].nnz > 0:
+                keywords.append(terms[idx])
+            if len(keywords) == top_n:
+                break
+
+        cluster_keywords[int(cluster_id)] = keywords
+
+    return cluster_keywords
+
+if __name__ == "__main__":
+    texts = []
+    filenames = []
+
+    for filename in sorted(os.listdir(LOG_DIR)):
+        if filename.endswith(".txt"):
+            with open(os.path.join(LOG_DIR, filename), 'r', encoding='utf-8', errors='ignore') as f:
+                content = preprocess_text(f.read())
+                if content:
+                    texts.append(content)
+                    filenames.append(filename)
+
+    print(f"Загружено логов: {len(texts)}")
+
+    # Векторизация
     vectorizer = TfidfVectorizer(
         max_features=10000,
         ngram_range=(2, 4),
@@ -46,91 +108,35 @@ def cluster_logs(texts, n_clusters=N_CLUSTERS):
         min_df=2
     )
     X = vectorizer.fit_transform(texts)
-    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-    clusters = kmeans.fit_predict(X)
+    X_norm = normalize(X)
 
-    terms = vectorizer.get_feature_names_out()
-    order_centroids = kmeans.cluster_centers_.argsort()[:, ::-1]
-    cluster_keywords = {}
-    X_dense = X.tocsc()
+    # Обучаем HDBSCAN
+    clusterer = hdbscan.HDBSCAN(min_cluster_size=3, metric='euclidean')
+    clusterer.fit(X_norm)
+    labels = clusterer.labels_
 
-    for i in range(n_clusters):
-        cluster_docs = np.where(kmeans.labels_ == i)[0]
-        top_indices = order_centroids[i][:30]
-        real_terms = []
-        for ind in top_indices:
-            col = X_dense[:, ind]
-            if col[cluster_docs].nnz > 0:
-                real_terms.append(terms[ind])
-            if len(real_terms) == 10:
-                break
-        cluster_keywords[i] = real_terms
+    # Ключевые слова для кластеров
+    cluster_keywords = extract_keywords(X, labels, vectorizer)
 
-    return clusters, cluster_keywords, vectorizer, kmeans, X
-
-def analyze_error(text_input, vectorizer, kmeans):
-    X = vectorizer.transform([text_input])
-    cluster = kmeans.predict(X)[0]
-    return cluster
-
-
-
-# def plot_clusters(X, clusters, keywords):
-#     pca = PCA(n_components=2)
-#     X_2d = pca.fit_transform(X.toarray())
-#
-#     plt.figure(figsize=(10, 6))
-#     scatter = plt.scatter(X_2d[:, 0], X_2d[:, 1],
-#                           c=clusters, cmap='viridis', alpha=0.6)
-#     plt.title('Кластеризация ошибок')
-#     plt.colorbar(scatter)
-#
-#     for i, keywords in keywords.items():
-#         x, y = np.median(X_2d[clusters == i], axis=0)
-#         plt.annotate(
-#             f"Cluster {i}:\n{', '.join(keywords[:3])}...",
-#             (x, y), fontsize=8, ha='center'
-#         )
-#     plt.show()
-
-
-if __name__ == "__main__":
-    texts = []
-    filenames = []
-    dropped = 0
-
-    for filename in sorted(os.listdir(LOG_DIR)):
-        if filename.endswith(".txt"):
-            with open(os.path.join(LOG_DIR, filename), 'r', encoding='utf-8', errors='ignore') as f:
-                text_content = preprocess_text(f.read())
-                if text_content:
-                    texts.append(text_content)
-                    filenames.append(filename)
-                else:
-                    dropped += 1
-
-    print(f"Загружено файлов: {len(texts)} | Пропущено (пустых): {dropped}")
-
-    clusters, cluster_keywords, vectorizer, kmeans, X = cluster_logs(texts, n_clusters=N_CLUSTERS)
+    # Сопоставление файлов → кластеров
+    cluster_map = {filenames[i]: int(labels[i]) for i in range(len(filenames))}
 
     print("\nРаспределение по кластерам:")
-    for cluster_id, count in sorted(Counter(clusters).items()):
-        print(f"  Кластер {cluster_id}: {count} файлов")
-
-    cluster_map = {filenames[i]: int(clusters[i]) for i in range(len(filenames))}
+    for cl_id, count in sorted(Counter(labels).items()):
+        print(f"  Кластер {cl_id}: {count} файлов")
 
     # Сохранение
     dump(vectorizer, VECTORIZER_PATH)
-    dump(kmeans, KMEANS_PATH)
+    dump(clusterer, HDBSCAN_PATH)
     with open(KEYWORDS_PATH, 'w') as f:
         json.dump(cluster_keywords, f, indent=2)
     with open(CLUSTER_MAP_PATH, 'w') as f:
         json.dump(cluster_map, f, indent=2)
+    sparse.save_npz(X_MATRIX_PATH, X)
 
-    print("\nСохранены:")
-    print(f"  Векторайзер → {VECTORIZER_PATH}")
-    print(f"  Модель KMeans → {KMEANS_PATH}")
-    print(f"  Ключевые слова кластеров → {KEYWORDS_PATH}")
-    print(f"  Сопоставление файлов → кластеров → {CLUSTER_MAP_PATH}")
-
-
+    print("\nСохранено:")
+    print(f"  Векторайзер       → {VECTORIZER_PATH}")
+    print(f"  Модель HDBSCAN    → {HDBSCAN_PATH}")
+    print(f"  Ключевые слова    → {KEYWORDS_PATH}")
+    print(f"  Сопоставления     → {CLUSTER_MAP_PATH}")
+    print(f"  X (TF-IDF)        → {X_MATRIX_PATH}")

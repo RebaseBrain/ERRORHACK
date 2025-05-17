@@ -27,7 +27,7 @@ public static class LogsCleaner
 
     public static string ExtractErrors(string logText, int contextRadius = 10)
     {
-        IEnumerable<string> stopWords = new[] { "warning", "info:", "[info]", "make", "checking" };
+        IEnumerable<string> stopWords = new[] { "warning", "info:", "[info]", "make", "checking", "test", "tests", "check" };
         var lines = logText.Split('\n');
 
         var contextLineIndices = Enumerable.Range(0, lines.Length)
