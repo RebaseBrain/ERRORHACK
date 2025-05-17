@@ -11,16 +11,18 @@ COMMON_NOISE = ['usr', 'src', 'tmp', 'lib', 'lib64', 'site-packages']
 CUSTOM_STOPWORDS = ['checking', 'found', 'alt', 'rpm', 'rpmi', 'linux', 'test', 'tests', 'sisyphus']
 
 class Errors:
-    def __init__(self, namepackage, errortype, pathToLogFile):
+    def __init__(self, namepackage, errortype, pathToLogFile, nameCluster):
         self.namepackage = namepackage
         self.errortype = errortype
         self.pathToLogFile = pathToLogFile
+        self.nameCluster = nameCluster
 
     def to_dict(self):
         return {
             "namepackage": self.namepackage,
             "errortype": self.errortype,
-            "pathToLogFile": self.pathToLogFile
+            "pathToLogFile": self.pathToLogFile,
+		    "nameCluster": self.nameCluster
         }
 
 def remove_repeated_sequences(text, max_ngram=4):

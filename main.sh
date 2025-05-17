@@ -4,7 +4,6 @@ green="\033[1;32m"
 blue="\033[1;34m"
 red="\033[1;31m"
 reset="\033[0m"
-json_path="errors/main.json"
 
 printBanner() {
 	echo -e "${green}╭──────────────────────────────────────────────────────────────────────────────────────────────────────────╮"
@@ -55,18 +54,20 @@ case "$user_choice" in
 		mkdir logs
 		mkdir errors
 		dotnet run --project ./Parser/Parser.csproj
-		python3 ./Scripts/tfidf.py
+		python3 ./Scripts/tfidf1.py
 		python3 ./Scripts/tfidfProccessFiles.py
 		;;
 	2)
 		echo -e "${blue}Обработка логов...${reset}"
 		python3 ./Scripts/tfidfProccessFiles.py
+		# python3 ./Scripts/parse.py
 		;;
 	3)
 		echo -e "${blue}Обновление кластеров...${reset}"
-		python3 ./Scripts/tfidf.py
+		python3 ./Scripts/tfidf1.py
 		echo -e "${blue}Обработка логов...${reset}"
 		python3 ./Scripts/tfidfProccessFiles.py
+		# python3 ./Scripts/parse.py
 		;;
 	4)
 		echo -e "${blue}Отмена.${reset}"
