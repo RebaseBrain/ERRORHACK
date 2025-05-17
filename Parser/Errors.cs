@@ -10,10 +10,6 @@ class Error
 	{
 		get; set;
 	}
-	public string? packageType
-	{
-		get; set;
-	}
 	public string? pathToLogFile
 	{
 		get; set;
