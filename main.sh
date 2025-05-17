@@ -67,7 +67,6 @@ printClusters() {
 
 printClusters
 
-printCluster() {
-	read -p "Choose cluster ID: " clusterID
-	
+printExactCluster() {
+	read -p "Choose cluster number to print: " cluster_number
 }

@@ -1,42 +1,20 @@
 [
   {
-    "clusterNumber": 1,
-    "clusterName": "pip"
+    "namepackage": "requests",
+    "errortype": "VersionMismatch",
+    "pathToLogFile": "/var/log/builds/requests_build_error.log",
+    "nameCluster": "pip"
   },
   {
-    "clusterNumber": 2,
-    "clusterName": "pyenv"
+    "namepackage": "numpy",
+    "errortype": "CompilationFailed",
+    "pathToLogFile": "/var/log/builds/numpy_build_error.log",
+    "nameCluster": "cmake"
   },
   {
-    "clusterNumber": 3,
-    "clusterName": "cmake"
-  },
-  {
-    "clusterNumber": 4,
-    "clusterName": "nodejs"
-  },
-  {
-    "clusterNumber": 5,
-    "clusterName": "npm"
-  },
-  {
-    "clusterNumber": 6,
-    "clusterName": "yarn"
-  },
-  {
-    "clusterNumber": 7,
-    "clusterName": "gradle"
-  },
-  {
-    "clusterNumber": 8,
-    "clusterName": "maven"
-  },
-  {
-    "clusterNumber": 9,
-    "clusterName": "docker"
-  },
-  {
-    "clusterNumber": 10,
-    "clusterName": "gcc"
+    "namepackage": "eslint",
+    "errortype": "MissingDependency",
+    "pathToLogFile": "/var/log/builds/eslint_build_error.log",
+    "nameCluster": "npm"
   }
 ]
