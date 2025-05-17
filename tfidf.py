@@ -105,7 +105,7 @@ if __name__ == "__main__":
         texts, n_clusters=67)
 
     # Сохраняем модель, векторайзер и ключевые слова
-    dump(vectorizer, './Parser/vectorizer.joblib')
-    dump(kmeans, './Parser/kmeans_model.joblib')
-    with open('./Parser/cluster_keywords.json', 'w') as f:
+    dump(vectorizer, './vectorizer.joblib')
+    dump(kmeans, './kmeans_model.joblib')
+    with open('./cluster_keywords.json', 'w') as f:
         json.dump(cluster_keywords, f)
