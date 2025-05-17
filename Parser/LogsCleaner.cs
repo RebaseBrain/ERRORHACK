@@ -4,8 +4,8 @@ namespace Services;
 
 public static class LogsCleaner
 {
-	static readonly Regex ErrorRegex = new Regex(
-		@"(
+    static readonly Regex ErrorRegex = new Regex(
+        @"(
 			\berror[:\s]                |   # C/C++/GCC, Python, etc.
 			\bfatal\s+error             |   # C/C++
 			\bundefined\s+reference     |   # Linking errors
@@ -22,20 +22,32 @@ public static class LogsCleaner
 			\bfail:                     |   # Build logs
 			\bError\s+\d{3}             # e.g., HTTP/compilation codes
 		)",
-		RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace | RegexOptions.Compiled
-	);
+        RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace | RegexOptions.Compiled
+    );
 
-    public static string ExtractErrors(string logText)
+    public static string ExtractErrors(string logText, int contextRadius = 10)
     {
-		var lines = logText.Split('\n');
+        IEnumerable<string> stopWords = new[] { "warning", "info:", "[info]", "make", "checking", "test", "tests", "check" };
+        var lines = logText.Split('\n');
 
-		int errorLineIndex = Array.FindIndex(lines, line => ErrorRegex.IsMatch(line));
-        if (errorLineIndex >= 0)
-        {
-            int startLine = Math.Max(0, errorLineIndex - 3);
-            return string.Join('\n', lines[startLine..]);
-        }
+        var contextLineIndices = Enumerable.Range(0, lines.Length)
+            .Where(i => ErrorRegex.IsMatch(lines[i]))
+            .SelectMany(i =>
+                Enumerable.Range(
+                    Math.Max(0, i - contextRadius),
+                    Math.Min(lines.Length - Math.Max(0, i - contextRadius), contextRadius * 2 + 1)
+                )
+            )
+            .OrderBy(i => i); // оставляем порядок появления
 
-        return string.Empty; // если нет ошибок
+        // Отфильтровываем строки, если они содержат любое из стоп-слов
+        var resultLines = contextLineIndices
+            .Select(i => lines[i])
+            .Where(line =>
+                stopWords == null || !stopWords.Any(stop => line.Contains(stop, StringComparison.OrdinalIgnoreCase))
+            );
+
+        return string.Join('\n', resultLines);
     }
 }
+
