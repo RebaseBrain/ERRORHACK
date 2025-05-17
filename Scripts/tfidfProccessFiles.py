@@ -108,17 +108,20 @@ if __name__ == "__main__":
 
             if cluster_id == -1:
                 keywords = get_top_terms(content, vectorizer, top_n=5)
+                name_cluster = "noise"
             else:
                 keywords = cluster_keywords.get(str(cluster_id), ["unknown"])
+                name_cluster = "_".join(keywords[:3])[:50].strip("_") if keywords else f"cluster_{cluster_id}"
 
-            err = Errors(
-                namepackage=filename,
-                errortype=", ".join(keywords),
-                pathToLogFile=os.path.join("./logs", filename)
-            )
+            err = {
+				"namepackage": filename,
+				"errortype": ", ".join(keywords),
+				"pathToLogFile": os.path.join("./logs", filename),
+				"nameCluster": name_cluster
+			}
             errs.append(err)
 
     with open(output_path, 'w') as f:
-        json.dump([e.to_dict() for e in errs], f, indent=2)
+        json.dump(errs, f, indent=2)
 
     print(f"Сохранено: {output_path} ({len(errs)} записей)")

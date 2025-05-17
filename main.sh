@@ -56,18 +56,19 @@ case "$user_choice" in
 		dotnet run --project ./Parser/Parser.csproj
 		python3 ./Scripts/tfidf1.py
 		python3 ./Scripts/tfidfProccessFiles.py
+		python3 ./Scripts/parse.py
 		;;
 	2)
 		echo -e "${blue}Обработка логов...${reset}"
 		python3 ./Scripts/tfidfProccessFiles.py
-		# python3 ./Scripts/parse.py
+		python3 ./Scripts/parse.py
 		;;
 	3)
 		echo -e "${blue}Обновление кластеров...${reset}"
 		python3 ./Scripts/tfidf1.py
 		echo -e "${blue}Обработка логов...${reset}"
 		python3 ./Scripts/tfidfProccessFiles.py
-		# python3 ./Scripts/parse.py
+		python3 ./Scripts/parse.py
 		;;
 	4)
 		echo -e "${blue}Отмена.${reset}"
