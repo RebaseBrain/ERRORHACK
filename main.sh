@@ -50,16 +50,13 @@ fi
 output_file="build_errors.$output_format"
 
 # Write headers (all fields)
-echo "${red}namepackage${delimiter}errorType${delimiter}packageType${delimiter}pathToLogFile${delimiter}pathToPotentialFix${delimiter}fullLog${red}" > "$output_file"
+echo "${red}namepackage${delimiter}errorType${delimiter}pathToLogFile${delimite}" > "$output_file"
 
 # Use jq with sub() instead of gsub() for compatibility
 jq -r --arg delim "$delimiter" '.[] | [
     .namepackage,
     .errorType,
-    .packageType,
     (.pathToLogFile | sub("\\\\"; "/"; "g")),
-    (.pathToPotentialFix | sub("\\\\"; "/"; "g")),
-    (.fullLog | sub("\n"; " "; "g") | sub("\r"; "" ; "g"))
   ] | join($delim)' "$json_path" >> "$output_file"
 
 # Display the table
